@@ -8,7 +8,120 @@
   )
 
 
+  (sheet (at 116.205 89.535) (size 52.07 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 89003768-5b25-4c22-8af8-96ee45628a34)
+    (property "Sheet name" "CLOCKS AND RESET" (id 0) (at 116.205 88.8234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clocks_and_reset2.kicad_sch" (id 1) (at 116.205 115.5196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ABOL" input (at 116.205 93.345 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a9abde18-ebc3-4002-b722-2bc86dd4a3d7)
+    )
+    (pin "BEDO" output (at 168.275 93.345 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 97226c85-e3e2-4894-9089-1db62ca23c2d)
+    )
+    (pin "TO_CPU" output (at 168.275 95.885 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 296b9d47-6790-4880-ad18-d49058804612)
+    )
+  )
+
+  (sheet (at 43.18 81.28) (size 41.91 20.955) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b5509746-eb38-4041-8c7c-eec7c41cb666)
+    (property "Sheet name" "APU" (id 0) (at 43.18 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "apu.kicad_sch" (id 1) (at 43.18 102.8196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 194.945 81.28) (size 42.545 22.225) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf4ed335-852c-410a-8a16-5f7d3e0efd9b)
+    (property "Sheet name" "PPU" (id 0) (at 194.945 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ppu.kicad_sch" (id 1) (at 194.945 104.0896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 121.285 41.275) (size 45.085 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9)
+    (property "Sheet name" "CPU" (id 0) (at 121.285 40.5634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cpu.kicad_sch" (id 1) (at 121.285 63.4496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/b5509746-eb38-4041-8c7c-eec7c41cb666" (page "2"))
+    (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/14b977bd-e0df-41cb-8e97-e51d36ea4174" (page "3"))
+    (path "/e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9" (page "4"))
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b" (page "5"))
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34" (page "6"))
+  )
+
+  (symbol_instances
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/ddc2cd0f-60f1-4ddc-9133-e529fc448f72"
+      (reference "ATEZ") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/981c183a-7198-4430-adc9-0bf2f4a6c667"
+      (reference "BALY") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/e325dc4e-0fbe-4aa4-93ae-9d80e0f7402f"
+      (reference "BANE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/069f0974-88e1-42f9-9fea-ebd9902621e2"
+      (reference "BAZE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/e5157dbf-af3c-4e35-88a2-9a523dce5731"
+      (reference "BEDO") (unit 1) (value "INVERTER_E") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/8ddc1de1-1bc2-43a7-8ab9-906f8742a5e5"
+      (reference "BELE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/a00d624f-b80f-4724-b5b8-db05a7ec55f8"
+      (reference "BELO") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/d232d155-1115-4fa5-8e25-009635a372f8"
+      (reference "BOGA") (unit 1) (value "INVERTER_E") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/2a3986d4-894a-41fd-a3e8-39d68fd539f6"
+      (reference "BOMA") (unit 1) (value "INVERTER_E") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/149ecfdc-29ce-4259-bfb5-4edc1d418945"
+      (reference "BOWA") (unit 1) (value "INVERTER_E") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/ea17e6e4-2655-4aaf-a57e-a59321236a9b"
+      (reference "BUTY") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/bd796f80-7d4b-4e27-9e6b-18e379c954f0"
+      (reference "BUVU") (unit 1) (value "AND_2") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/69f253dd-b941-4513-a482-b4023b05d0f2"
+      (reference "BYJU") (unit 1) (value "OR_2") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/825be8f5-f7a8-4eb5-b5f8-c3ce19abe1f7"
+      (reference "BYXO") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/29e69632-2672-418a-8655-4f4a6ef0efb7"
+      (reference "U?") (unit 1) (value "NAND_3") (footprint "")
+    )
   )
 )
