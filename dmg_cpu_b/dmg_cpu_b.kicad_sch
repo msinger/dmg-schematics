@@ -16,10 +16,121 @@
   )
 
 
-
   (wire (pts (xy 97.79 104.775) (xy 122.555 104.775))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 56dccdd5-fa83-416b-a27c-fb12a5a301c3)
+  )
+
+  (sheet (at 210.82 91.44) (size 41.91 46.355) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 78bdbedc-2d0f-4dc6-b053-8f321554d6fe)
+    (property "Sheet name" "FF0F INT" (id 0) (at 210.82 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ff0f_int.kicad_sch" (id 1) (at 210.82 138.3796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "TO_CPU2" output (at 252.73 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8ac7e5a7-895f-4c01-8a75-28d696cad910)
+    )
+    (pin "INT_STAT" input (at 210.82 120.015 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c1e75955-8c29-4d3b-815e-11bcec8b03f8)
+    )
+    (pin "~{EN}" input (at 210.82 100.965 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5b3bb5f0-aa8c-455b-a57d-6357ca97b0de)
+    )
+    (pin "INT_VBL_BUF" input (at 210.82 118.11 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b20fd633-e842-4e0f-b964-f7f3b9f8d747)
+    )
+    (pin "BOGA_1MHz" input (at 210.82 106.045 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fae09d46-dfd2-4bd9-9656-51b7e652a266)
+    )
+    (pin "~{RESET2}" input (at 210.82 102.87 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 31b57eb5-7ff6-4706-871b-7b50c5347fcb)
+    )
+    (pin "P12" input (at 210.82 109.855 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 39092718-47a1-4032-87c8-431cab2e30d1)
+    )
+    (pin "P10" input (at 210.82 113.665 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f24ca83c-718f-45e8-9bff-5c117ebcbf39)
+    )
+    (pin "P11_C" input (at 210.82 111.76 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b36adb9e-8447-405c-a75d-af2cf16f91d9)
+    )
+    (pin "P13_C" input (at 210.82 107.95 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6f3931f4-a39a-4a9a-95e4-66f013485599)
+    )
+    (pin "~{FFOF_WR}" input (at 210.82 95.885 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 27f950ad-4984-45a7-8b67-6ca081e4605f)
+    )
+    (pin "~{FFOF_RD}" input (at 210.82 93.98 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 366a8bd1-c503-4a6e-94cd-53fdbfeab070)
+    )
+    (pin "CPU_IRQ0_ACK" input (at 210.82 127 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 51e9896f-8aa4-4dc9-90c7-b0c3c35230d0)
+    )
+    (pin "CPU_IRQ1_ACK" input (at 210.82 128.905 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f3fe8a98-f76b-4dc7-8c53-95ad7dcfea43)
+    )
+    (pin "CPU_IRQ1_TRIG" output (at 252.73 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 442f04a1-fc25-451b-8a13-4e78621b07d7)
+    )
+    (pin "CPU_IRQ0_TRIG" output (at 252.73 102.235 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3f67a1f9-55bd-4ab4-9647-3d92d5a882c4)
+    )
+    (pin "CPU_IRQ2_ACK" input (at 210.82 130.81 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 59aa4cb2-91b0-4b8d-b664-ea9bec2be11a)
+    )
+    (pin "CPU_IRQ3_ACK" input (at 210.82 132.715 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 414ea37c-d759-40fb-92ce-687c5a71ae1a)
+    )
+    (pin "CPU_IRQ3_TRIG" output (at 252.73 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 88f3e061-3dd1-4c10-89a2-c5c47528e283)
+    )
+    (pin "INT_TIMER" input (at 210.82 121.92 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f7168c09-2dd7-47f0-b73b-5a350d406f88)
+    )
+    (pin "CPU_IRQ2_TRIG" output (at 252.73 106.045 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d67d8741-d93a-4300-8b02-0046227f8cbb)
+    )
+    (pin "CPU_IRQ4_TRIG" output (at 252.73 109.855 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 30bec2bf-d524-4a4b-8ad7-3c0dad3f2b79)
+    )
+    (pin "CPU_IRQ4_ACK" input (at 210.82 134.62 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bd7daf2d-e37e-40bd-88c0-a9e8804cccec)
+    )
+    (pin "D[0..7]" bidirectional (at 210.82 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e0de0195-280e-42ca-b944-1a197ab2a50f)
+    )
+    (pin "INT_SERIAL" input (at 210.82 123.825 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7e6d14b5-a553-414b-afdd-fb618c9230e7)
+    )
   )
 
   (sheet (at 122.555 90.17) (size 66.675 52.705) (fields_autoplaced)
@@ -365,6 +476,7 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b" (page "5"))
     (path "/89003768-5b25-4c22-8af8-96ee45628a34" (page "6"))
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9" (page "7"))
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe" (page "7"))
   )
 
   (symbol_instances
@@ -373,6 +485,9 @@
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/abb09b6b-75e0-4b8c-aa4c-fbb2b82f4655"
       (reference "ABUZ") (unit 1) (value "INVERTER_C") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/e150bc85-b728-4188-bc6f-fbbebe3e2879"
+      (reference "ACEF") (unit 1) (value "DFFR_B2") (footprint "")
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/35f418a1-e027-4cb5-bc9d-8dee5aa4c420"
       (reference "ADAR") (unit 1) (value "INVERTER_A") (footprint "")
@@ -394,6 +509,9 @@
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/afb2f473-06ea-4dcb-8a15-64aa719f7fba"
       (reference "AFUR") (unit 1) (value "DR_LATCH") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/62ed0aaf-5b20-4f52-99f8-ac94f2e83029"
+      (reference "AGEM") (unit 1) (value "DFFR_B2") (footprint "")
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/2167f205-1365-424d-b594-b765454b5adc"
       (reference "AGUT") (unit 1) (value "OA") (footprint "")
@@ -425,6 +543,9 @@
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/f1524c8a-d994-4e5e-a717-0607f788bc72"
       (reference "APOV") (unit 1) (value "INVERTER_C") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/9c8df110-0d02-4eda-a140-8cd2b0c0a3ae"
+      (reference "APUG") (unit 1) (value "DFFR_B2") (footprint "")
+    )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/92aaf8f9-eebd-4cdb-8a60-8f365db04b68"
       (reference "APUK") (unit 1) (value "DR_LATCH") (footprint "")
     )
@@ -442,6 +563,9 @@
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/65bfb778-acb1-45f1-a371-c1187b97ba25"
       (reference "ARYS") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/6ac0156d-b3bb-4885-a82d-5751c60a66e7"
+      (reference "ASOK") (unit 1) (value "AND_2") (footprint "")
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/335dcba3-d560-4fc8-b5ed-440c6e4b0843"
       (reference "ASOL") (unit 1) (value "NOR_LATCH") (footprint "")
@@ -476,6 +600,9 @@
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/b61fb3de-71b1-45d1-a257-47decec877c8"
       (reference "AVOR") (unit 1) (value "OR_2") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/e5fb60fa-56b1-44bb-9721-b2ccefec5e76"
+      (reference "AWOB") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/d95d6e20-2f12-4cc4-ab7f-b4e10ebb5f52"
       (reference "AWOD") (unit 1) (value "NOR_2") (footprint "")
     )
@@ -502,6 +629,9 @@
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/f84e258c-d9f2-45db-ac91-fde098f65c8c"
       (reference "BATE") (unit 1) (value "NOR_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/9bcba86e-2260-4fc3-8dad-6be05f874e14"
+      (reference "BATU") (unit 1) (value "DFFR_B2") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/7a69b757-bf8e-4776-a87b-f8d500e3390c"
       (reference "BAVU") (unit 1) (value "INVERTER_A") (footprint "")
@@ -653,8 +783,32 @@
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/62b5fc3f-37ec-4346-8d93-c61fa1f49fd0"
       (reference "JESO") (unit 1) (value "DFFR_B2") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/a5501751-f46b-4032-b4f6-5527d179a084"
+      (reference "LALU") (unit 1) (value "DFFSR") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/7f98787e-33af-46f1-826e-852a65001536"
+      (reference "LAMO") (unit 1) (value "INVERTER_A") (footprint "")
+    )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/26292475-1ea5-4bcb-bddc-a3b8109cd24b"
       (reference "LAPE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/8ac5a676-fbf3-4c52-bbd9-965fa8ad641f"
+      (reference "LEJA") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/ef1fa48c-ce7d-49d6-b7c4-517a38b90471"
+      (reference "LESA") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/6eef1b68-0f7a-4e95-b900-a4e57edebcc2"
+      (reference "LETY") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/1613132b-1cd5-4874-85d3-1e8ecdfbf90f"
+      (reference "LETY?") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/c97ee699-0fc1-419c-aafb-78cbb728258d"
+      (reference "LOPE") (unit 1) (value "DFFSR") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/53014856-1695-4f92-9b22-c37562b0189d"
+      (reference "LUFE") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/32dd6ad8-cc5b-44a8-869d-b07c627ffdb7"
       (reference "LYFE") (unit 1) (value "INVERTER_A") (footprint "")
@@ -662,14 +816,80 @@
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/7c7efcff-dc41-48b4-a0de-b615edc924c0"
       (reference "LYHA") (unit 1) (value "INVERTER_A") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/3b75b390-cd0d-4b13-86da-daa1b7f51502"
+      (reference "LYTA") (unit 1) (value "AND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/cbb99924-2085-48ce-920f-4be46c78ccac"
+      (reference "MATY") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/6ce7fa3d-fc40-4d86-a004-2fa0497fa936"
+      (reference "MODY") (unit 1) (value "NAND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/9bf28925-303c-4ca0-8c11-dc768083a47e"
+      (reference "MOPO") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/893c50c4-94fc-427a-9f9e-2382b7259131"
+      (reference "MOVU") (unit 1) (value "AND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/348f0dc1-2fce-4d8e-8a95-66b79092ec52"
+      (reference "MUXE") (unit 1) (value "OR_2") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/ef52ca7a-4303-408d-93fd-3792ef7c639b"
+      (reference "MYZU") (unit 1) (value "NAND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/1af1ccdc-4424-4809-bb24-7391fce39b3d"
+      (reference "NABE") (unit 1) (value "OR_2") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/32aee80d-a35a-4827-a802-b6f4b4353a98"
+      (reference "NABO") (unit 1) (value "TRI_INV_IF0") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/3a7c5097-e844-44ef-a055-614a65b48d43"
+      (reference "NEJY") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/4663a124-03ac-4530-98cb-4816328b5c87"
+      (reference "NELA") (unit 1) (value "TRI_INV_IF1") (footprint "")
+    )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/c500f1e3-1b43-4a76-9fdf-db297becd12b"
       (reference "NEW1") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/ab663520-5eb2-4210-8a95-b724a3ad92b2"
+      (reference "NUTY") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/bd5c0937-f40b-4c55-8ea2-6bae1e4d45ca"
+      (reference "NYBO") (unit 1) (value "DFFSR") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/2d6a2329-5f30-43a8-8cc7-bf251046fa01"
+      (reference "PADO") (unit 1) (value "TRI_INV_IF0") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/4005ea01-7fe5-4f74-aa20-96353211c25a"
+      (reference "PAVY") (unit 1) (value "D_LATCH_B") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/8f6618c9-19ed-40b7-835e-d8047587d254"
+      (reference "PEGY") (unit 1) (value "TRI_INV_IF0") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/d6e71270-1957-4f8f-abb3-4176d60250e8"
+      (reference "PESU") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/14d2d2af-4b0e-48f9-8bd9-a7277684e75a"
+      (reference "POLA") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/19eab8ee-2f64-423b-84bb-a8d009b93de2"
+      (reference "PYGA") (unit 1) (value "AND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/f9fabd6f-6a68-442a-b67d-d26dfab8d70d"
+      (reference "PYHU") (unit 1) (value "NAND_3") (footprint "")
     )
     (path "/89003768-5b25-4c22-8af8-96ee45628a34/d8d00344-b365-470a-ba91-a0497b090580"
       (reference "PYRY") (unit 1) (value "INVERTER_A") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/34767315-aac3-4d03-884e-3de1c32f2498"
+      (reference "RAKE") (unit 1) (value "OR_2") (footprint "")
+    )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/a7a493fe-5ca4-4805-8d8d-32e3d3a9b223"
       (reference "RAVE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/c6d67c72-c25c-4b37-9b73-06232ad45f92"
+      (reference "ROVA") (unit 1) (value "TRI_INV_IF0") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/a771e837-464a-4b50-aeb5-e36e6b48d828"
       (reference "RYSO") (unit 1) (value "INVERTER_A") (footprint "")
@@ -680,6 +900,9 @@
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/681286df-1be2-4313-a96e-d35cff6730da"
       (reference "SAWA") (unit 1) (value "TRI_INV_IF1") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/63932124-d064-46fc-9496-ce900d12b1ca"
+      (reference "SEME") (unit 1) (value "OR_2") (footprint "")
+    )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/9403b2c6-beef-48c8-8b15-9c971e50a890"
       (reference "SEPU") (unit 1) (value "TRI_INV_IF1") (footprint "")
     )
@@ -688,6 +911,9 @@
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/fb20f969-640d-4b70-8cdc-44696945d75d"
       (reference "SUBU") (unit 1) (value "DFFR_B2") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/702b7e3f-0273-4c9e-97a1-77656fb9d602"
+      (reference "SULO") (unit 1) (value "OR_2") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/bf0de49a-6a6a-40f1-8702-00d282976223"
       (reference "TABA") (unit 1) (value "OR_3") (footprint "")
@@ -725,6 +951,12 @@
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/b7db8d08-d512-4e56-8726-3f10df8a7827"
       (reference "TOFE") (unit 1) (value "DFFR_B2") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/ca52fd02-1581-4ae6-9800-c0bba06ece8a"
+      (reference "TOGA") (unit 1) (value "NAND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/838227d4-f0ea-42e8-83c9-caedd36ab0eb"
+      (reference "TOME") (unit 1) (value "NAND_3") (footprint "")
+    )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/13042451-b224-46e7-8b5c-bc68c5d4ed53"
       (reference "TUBO") (unit 1) (value "OR_2") (footprint "")
     )
@@ -737,11 +969,23 @@
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/04450512-bdad-4c54-8cb9-2075a3a235cb"
       (reference "TUME") (unit 1) (value "TRI_INV_IF1") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/4027a3fd-ee48-45da-a125-4126b1337541"
+      (reference "TUNY") (unit 1) (value "AND_3") (footprint "")
+    )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/d5b59af0-dab3-4a84-abe5-da83ee0b1865"
       (reference "TUSE") (unit 1) (value "TRI_INV_IF1") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/025e0969-1b1f-4d04-a696-7e024dfa7835"
+      (reference "TYME") (unit 1) (value "AND_3") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/8086fc07-074a-4c60-9856-64d6d3fdbddd"
+      (reference "U?") (unit 1) (value "OR_4") (footprint "")
+    )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/a479ad84-dd3b-4242-a64e-85003e3670a5"
       (reference "UBOT") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/b8c8b06e-47e8-4fd1-99f0-fd96e547add1"
+      (reference "UBUL") (unit 1) (value "DFFSR") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/827f2792-bee7-49cd-a219-8ad0eda5528d"
       (reference "UCOB") (unit 1) (value "INVERTER_A") (footprint "")
@@ -763,6 +1007,9 @@
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/48c39988-4925-414a-8e2b-307ecd2e5031"
       (reference "UKUP") (unit 1) (value "DFFR_B2") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/73c19f13-fade-46af-a3d2-f046c080e22b"
+      (reference "ULAK") (unit 1) (value "DFFSR") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/19ba8e8c-5233-42e8-acd0-db994974e197"
       (reference "ULUR") (unit 1) (value "MUX") (footprint "")
