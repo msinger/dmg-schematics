@@ -55,22 +55,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 31b57eb5-7ff6-4706-871b-7b50c5347fcb)
     )
-    (pin "P12" input (at 210.82 109.855 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 39092718-47a1-4032-87c8-431cab2e30d1)
-    )
-    (pin "P10" input (at 210.82 113.665 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f24ca83c-718f-45e8-9bff-5c117ebcbf39)
-    )
-    (pin "P11_C" input (at 210.82 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b36adb9e-8447-405c-a75d-af2cf16f91d9)
-    )
-    (pin "P13_C" input (at 210.82 107.95 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6f3931f4-a39a-4a9a-95e4-66f013485599)
-    )
     (pin "~{FFOF_WR}" input (at 210.82 95.885 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 27f950ad-4984-45a7-8b67-6ca081e4605f)
@@ -130,6 +114,22 @@
     (pin "INT_SERIAL" input (at 210.82 123.825 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7e6d14b5-a553-414b-afdd-fb618c9230e7)
+    )
+    (pin "P12_IN" input (at 210.82 113.03 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ee71a621-b741-43ee-a9e0-2353d6bf0933)
+    )
+    (pin "P13_IN" input (at 210.82 114.935 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6b9ef332-a6fd-4959-a604-f73be03b084c)
+    )
+    (pin "P11_IN" input (at 210.82 111.125 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 94c685d0-2f21-4133-aaa8-35f24369b6b9)
+    )
+    (pin "P10_IN" input (at 210.82 109.22 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9816f9ff-d3e9-4dbe-81d4-e6fde04b1558)
     )
   )
 
@@ -783,6 +783,9 @@
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/62b5fc3f-37ec-4346-8d93-c61fa1f49fd0"
       (reference "JESO") (unit 1) (value "DFFR_B2") (footprint "")
     )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/8086fc07-074a-4c60-9856-64d6d3fdbddd"
+      (reference "KERY") (unit 1) (value "OR_4") (footprint "")
+    )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/a5501751-f46b-4032-b4f6-5527d179a084"
       (reference "LALU") (unit 1) (value "DFFSR") (footprint "")
     )
@@ -800,9 +803,6 @@
     )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/6eef1b68-0f7a-4e95-b900-a4e57edebcc2"
       (reference "LETY") (unit 1) (value "INVERTER_A") (footprint "")
-    )
-    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/1613132b-1cd5-4874-85d3-1e8ecdfbf90f"
-      (reference "LETY?") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/c97ee699-0fc1-419c-aafb-78cbb728258d"
       (reference "LOPE") (unit 1) (value "DFFSR") (footprint "")
@@ -887,6 +887,9 @@
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/a7a493fe-5ca4-4805-8d8d-32e3d3a9b223"
       (reference "RAVE") (unit 1) (value "INVERTER_A") (footprint "")
+    )
+    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/1613132b-1cd5-4874-85d3-1e8ecdfbf90f"
+      (reference "ROTU") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/c6d67c72-c25c-4b37-9b73-06232ad45f92"
       (reference "ROVA") (unit 1) (value "TRI_INV_IF0") (footprint "")
@@ -977,9 +980,6 @@
     )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/025e0969-1b1f-4d04-a696-7e024dfa7835"
       (reference "TYME") (unit 1) (value "AND_3") (footprint "")
-    )
-    (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/8086fc07-074a-4c60-9856-64d6d3fdbddd"
-      (reference "U?") (unit 1) (value "OR_4") (footprint "")
     )
     (path "/fa39c821-a84b-407e-a9c0-a395c6a370d9/a479ad84-dd3b-4242-a64e-85003e3670a5"
       (reference "UBOT") (unit 1) (value "INVERTER_A") (footprint "")
