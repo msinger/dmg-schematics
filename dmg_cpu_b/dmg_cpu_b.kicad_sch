@@ -3508,7 +3508,7 @@
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/9b3a1930-96e0-428c-ae33-40a5220157c7/d7f5a3a6-7cb3-4eef-850b-e7f0db8ca971"
       (reference "CUTO") (unit 1) (value "INVERTER_A") (footprint "")
     )
-    (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/239d4c7c-864d-4513-b7c8-d1c503bbc5db/164ca37c-262e-4ac2-b9af-41faf141a27a"
+    (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/239d4c7c-864d-4513-b7c8-d1c503bbc5db/164ca37c-262e-4ac2-b9af-41faf141a27b"
       (reference "CUTY") (unit 1) (value "NAND_5") (footprint "")
     )
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/9b3a1930-96e0-428c-ae33-40a5220157c7/128dfa6e-8315-4f0a-a0be-c2a5c411c998"
@@ -4706,7 +4706,7 @@
       (reference "FEME") (unit 1) (value "MUX") (footprint "")
     )
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/7520375f-56cb-4e8b-bd9d-63153e2d39bd/62bf539b-ee28-4c5e-b74a-1e56e60dbb40"
-      (reference "FEMU") (unit 1) (value "AND_2") (footprint "")
+      (reference "FEMU") (unit 1) (value "NAND_LATCH") (footprint "")
     )
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/7520375f-56cb-4e8b-bd9d-63153e2d39bd/44470600-e39d-4f33-8247-5596423fbf05"
       (reference "FEMY") (unit 1) (value "NOR_2") (footprint "")
@@ -6911,7 +6911,7 @@
       (reference "NENA") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/fe1a4595-7bc2-45c8-ac08-2f948d8ca3ee"
-      (reference "NENA") (unit 1) (value "DR_LATCH") (footprint "")
+      (reference "NENE") (unit 1) (value "DR_LATCH") (footprint "")
     )
     (path "/1d671dab-7070-485b-8f55-0effa957e3b0/ded5f3fa-48e0-4796-86e1-03006cecd679"
       (reference "NERO") (unit 1) (value "NOR_2") (footprint "")
@@ -7399,6 +7399,9 @@
     (path "/1d671dab-7070-485b-8f55-0effa957e3b0/efb5a6b3-66ac-4675-9749-fe284ee37e1e"
       (reference "REGA") (unit 1) (value "TFFD") (footprint "")
     )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/1aa65f4e-abcd-48dd-9524-97620a24bfb8"
+      (reference "REJO") (unit 1) (value "NOR_LATCH") (footprint "")
+    )
     (path "/940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7/8ef0487d-a856-43de-b195-5b73ef1c4642"
       (reference "REJY") (unit 1) (value "TRI_INV_IF1") (footprint "")
     )
@@ -7413,9 +7416,6 @@
     )
     (path "/1d671dab-7070-485b-8f55-0effa957e3b0/726222c8-0b01-445e-a018-1b0424f17b4a"
       (reference "REPA") (unit 1) (value "NOR_2") (footprint "")
-    )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/1aa65f4e-abcd-48dd-9524-97620a24bfb8"
-      (reference "REPU") (unit 1) (value "NOR_LATCH") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/a54e8fe1-6698-483c-a9a7-d07fe73ef536"
       (reference "REPU") (unit 1) (value "OR_2") (footprint "")
@@ -8099,7 +8099,7 @@
       (reference "TERY") (unit 1) (value "XOR") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/a228320f-4a61-483e-b610-1ab9b41a6497"
-      (reference "TEVO") (unit 1) (value "NOR_3") (footprint "")
+      (reference "TEVO") (unit 1) (value "OR_3") (footprint "")
     )
     (path "/8a09bdff-7804-478f-851e-a560a35862ce/cc0e881a-2fa2-433f-86ce-f6b973a2416c"
       (reference "TEVY") (unit 1) (value "OR_3") (footprint "")
@@ -8858,7 +8858,7 @@
       (reference "XUCE") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/e2475e53-73ad-4861-987f-6b27d6a948a8"
-      (reference "XUCY") (unit 1) (value "AND_2") (footprint "")
+      (reference "XUCY") (unit 1) (value "NAND_2") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/8fe7fb5a-d7ef-443f-bafb-4f9b60ab0423/128c7db1-e19a-44dc-8ec7-1615b3b02276"
       (reference "XUFA") (unit 1) (value "AND_2") (footprint "")
