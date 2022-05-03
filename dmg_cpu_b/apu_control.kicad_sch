@@ -6,7 +6,7 @@
 
   (title_block
     (title "DMG CPU B")
-    (date "2022-03-12")
+    (date "2022-05-02")
     (rev "0")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
@@ -2153,6 +2153,10 @@
   (text "APU Sub clocks" (at 308.61 29.845 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 25eb230f-fd5e-4ce8-baec-4f3e6f2f7f73)
+  )
+  (text "FF26 NR52\n" (at 83.82 33.655 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 55f0cbca-3e31-4b22-8128-361be03b62e5)
   )
   (text "ERROR: \"FROM_CPU\" is actually ~{T1}T2\n" (at 57.15 242.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
