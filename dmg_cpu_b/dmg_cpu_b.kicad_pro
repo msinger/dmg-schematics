@@ -225,7 +225,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -256,6 +256,65 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ADDRESS_LINES",
+        "nets": [
+          "/APU/A0",
+          "/APU/A1",
+          "/APU/A10",
+          "/APU/A11",
+          "/APU/A12",
+          "/APU/A13",
+          "/APU/A14",
+          "/APU/A15",
+          "/APU/A2",
+          "/APU/A3",
+          "/APU/A4",
+          "/APU/A5",
+          "/APU/A6",
+          "/APU/A7",
+          "/APU/A8",
+          "/APU/A9"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(251, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "TEST_NETS",
+        "nets": [
+          "/CLOCKS AND RESET/T1T2",
+          "/CLOCKS AND RESET/T1~{T2}",
+          "/PPU/VRAM INTERFACE/T1~{T2}",
+          "/SYS DECODE/T1T2",
+          "/SYS DECODE/~{T1}T2"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(111, 255, 247)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -448,6 +507,10 @@
     [
       "d32e852e-32aa-43ab-86d0-61406ce5940a",
       "OAM"
+    ],
+    [
+      "a2664e87-43bc-4869-848a-a71eac091233",
+      "SPRITE X PRIORITY"
     ]
   ],
   "text_variables": {}
