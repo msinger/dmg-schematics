@@ -6,7 +6,7 @@
 
   (title_block
     (title "DMG CPU B")
-    (date "2022-05-02")
+    (date "2022-05-19")
     (rev "0")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
@@ -5081,6 +5081,10 @@
   (hierarchical_label "NETA" (shape input) (at 348.615 41.275 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 979aabb0-9d47-4f49-8ebf-c2ea02100579)
+  )
+  (hierarchical_label "~{RESET8}" (shape input) (at 23.495 126.365 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a0ebbff7-825c-41c4-830e-c275f8969542)
   )
   (hierarchical_label "D[0..7]" (shape bidirectional) (at 32.385 22.86 180)
     (effects (font (size 1.27 1.27)) (justify right))
