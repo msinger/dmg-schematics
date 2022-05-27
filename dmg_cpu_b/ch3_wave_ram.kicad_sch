@@ -3885,6 +3885,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c94f468-7878-4bdd-8642-e3e26d5b2978)
   )
+  (text "RAM EN?\nSignal '1' when \n1) ACTIVE is low and RD or WR are taking place (CPU access).\n2) ACTIVE is high and RD is taking place (Sample RD cycles)\n\nThis means that writing during Sample RD can corrupt the RAM as RAM address is defined by Sample RD address and not the CPU address. "
+    (at 472.44 168.275 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7282080f-c3b3-429a-942a-bd581eb2d00e)
+  )
   (text "Wave ram seems to have a din and dout port" (at 212.09 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7b6484ee-6a53-454c-a2a9-a61a23d2581f)
