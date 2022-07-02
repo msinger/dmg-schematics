@@ -1846,7 +1846,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ad950610-8e91-4526-8364-5d84b7c4ca3b)
     )
-    (pin "CPU_PHI2" input (at 270.51 157.48 180)
+    (pin "CPU_T4" input (at 270.51 157.48 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f02351ef-2d80-4c61-9a9b-08ff114056b4)
     )
@@ -2070,14 +2070,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5df8544a-4179-4c96-a21b-f116acf7423d)
     )
-    (pin "CPU_PHI2" output (at 203.835 157.48 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f347d96c-59ee-45a5-91ed-9720b4085020)
-    )
-    (pin "~{CPU_PHI2}" output (at 203.835 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 571df631-810b-46bb-a9e9-9152e51b7e76)
-    )
     (pin "CPU_PHI1" output (at 203.835 167.005 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0e777886-4421-45a2-b757-08d95d3ed493)
@@ -2105,6 +2097,14 @@
     (pin "OSC_STABLE" output (at 172.085 128.27 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9d55c6c1-3950-43db-b398-9297414f5127)
+    )
+    (pin "CPU_T4" output (at 203.835 157.48 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c6397b49-0f83-41e3-b83e-6f2865b9f6dd)
+    )
+    (pin "~{CPU_T4}" output (at 203.835 165.1 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8cd0e56b-87ef-4a17-861e-1ee8db4f3a53)
     )
   )
 
@@ -2278,7 +2278,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3bdf38b8-d7c7-4360-b2a6-5090d9da45d3)
     )
-    (pin "CPU_PHI2" input (at 92.71 199.39 180)
+    (pin "CPU_T4" input (at 92.71 199.39 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 705a005f-c456-4666-8b04-9b5eadf2ca49)
     )
@@ -2286,11 +2286,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 3ebd836a-55db-4e5d-a65e-dff5a792a5e1)
     )
-    (pin "OAM_B_D[0..7]" bidirectional (at 124.46 204.47 0)
+    (pin "~{OAM_B_D[0..7]}" bidirectional (at 124.46 204.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2f8d2ca7-3614-46e6-be43-c8a9743b80d4)
     )
-    (pin "OAM_A_D[0..7]" bidirectional (at 124.46 202.565 0)
+    (pin "~{OAM_A_D[0..7]}" bidirectional (at 124.46 202.565 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 842c4eb4-36a0-4512-85c3-29c0f5df92ce)
     )
@@ -2314,7 +2314,7 @@
     (property "Sheet file" "apu.kicad_sch" (id 1) (at 172.085 96.4696 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "CPU_PHI2" input (at 203.835 85.725 0)
+    (pin "CPU_T4" input (at 203.835 85.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3ea1a442-980f-42c2-8911-85f799289b0c)
     )
@@ -2430,17 +2430,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0afcdf55-0c1a-4959-a2cf-65e2e4e2ad44)
     )
-    (pin "CPU_PHI2" input (at 270.51 196.215 180)
+    (pin "CPU_T4" input (at 270.51 196.215 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6d137e0e-258a-4843-bfdc-6ee3a4959881)
-    )
-    (pin "OAM_A_D[0..7]" bidirectional (at 270.51 202.565 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bcce2aed-2835-410e-8111-588975387e42)
-    )
-    (pin "OAM_B_D[0..7]" bidirectional (at 270.51 204.47 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b8d9b741-3e30-4b34-8d70-c8d9865548f4)
     )
     (pin "DMA_A[0..15]" output (at 270.51 200.66 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2469,6 +2461,14 @@
     (pin "FEXX-FFXX" input (at 270.51 183.515 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5d02f342-16c8-442d-8c5a-d2cea168c2ad)
+    )
+    (pin "~{OAM_B_D[0..7]}" bidirectional (at 270.51 204.47 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 573a30f4-bdd9-4663-aeba-433e314876e8)
+    )
+    (pin "~{OAM_A_D[0..7]}" bidirectional (at 270.51 202.565 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 17f283ea-6bfc-4ddd-aac9-63c456c82c82)
     )
   )
 
@@ -2530,7 +2530,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 3acbe0e1-a8bc-4ac8-a1a0-afbc77548e04)
     )
-    (pin "~{CPU_PHI2}" input (at 92.71 126.365 180)
+    (pin "~{CPU_T4}" input (at 92.71 126.365 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 28ec4d32-c79b-4987-afc4-84d26d228d5f)
     )
@@ -2538,7 +2538,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 1bda75ce-0749-499b-9fbc-88fcbcf28da8)
     )
-    (pin "CPU_PHI2" input (at 92.71 124.46 180)
+    (pin "CPU_T4" input (at 92.71 124.46 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bbdd73be-f4d5-4269-951a-3f5985b90fc3)
     )
@@ -2783,6 +2783,12 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/ed34662e-97cf-4bfe-a7ab-ffc87b04e01b/a726514f-e2eb-40e8-85ce-aaa782e95b44"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/da19861e-53e3-4386-88cf-f486390e5a73"
+      (reference "#PWR0127") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/574da921-1e0a-4c59-86fe-16b30e1644db"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/b6757b5f-4086-4843-89b2-3a5e10537262/d8fd2fa8-6e70-4315-8c92-f18f931a752e"
       (reference "#PWR0129") (unit 1) (value "+5V") (footprint "")
     )
@@ -2791,12 +2797,6 @@
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/b6757b5f-4086-4843-89b2-3a5e10537262/1e7051e7-6a0e-42d3-9ad6-c813fa96289f"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/574da921-1e0a-4c59-86fe-16b30e1644db"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/da19861e-53e3-4386-88cf-f486390e5a73"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/8a09bdff-7804-478f-851e-a560a35862ce/437d12c6-d9d9-47c6-be07-2c89ccf18aa1"
       (reference "A0") (unit 1) (value "IOBUF_A") (footprint "")
@@ -4874,6 +4874,9 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/b9640dd7-4214-4ac2-8414-904565ea4152/adcc187e-aabc-4b21-af8c-350ce10776f9"
       (reference "CEXU_INV") (unit 1) (value "INVERTER_A") (footprint "")
     )
+    (path "/89003768-5b25-4c22-8af8-96ee45628a34/f860a184-284d-4c79-afd9-30b540bb06cc"
+      (reference "CK1_CK2") (unit 1) (value "OSC") (footprint "")
+    )
     (path "/1a52ed52-a350-46c1-9a3f-2c4738963a98/d4338262-e703-4cf3-908e-aa3c63f5b98c"
       (reference "COBA") (unit 1) (value "INVERTER_A") (footprint "")
     )
@@ -5622,7 +5625,7 @@
       (reference "DEVA") (unit 1) (value "DFFR_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/5b946bff-8b21-4978-a384-eab2adec6371"
-      (reference "DEVE") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "DEVE") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/a31a0509-33a1-4806-8bdf-0c1bf7508eb0/2cb91a6f-642a-4122-b68d-10e3c1d38e75"
       (reference "DEVY") (unit 1) (value "D_LATCH_A") (footprint "")
@@ -7218,7 +7221,7 @@
       (reference "FYNO") (unit 1) (value "DFFR_B2") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/a8229b39-ed6f-4908-b461-09d46e9887f2"
-      (reference "FYRA") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "FYRA") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/c8460b94-b5e0-441c-8620-488cd1e1b4f5/80a90ec1-2aa8-4ed8-ad49-eac8c1a98713"
       (reference "FYRE") (unit 1) (value "INVERTER_A") (footprint "")
@@ -9626,9 +9629,6 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/8e4f5716-d8d1-42c3-8640-d5fca0d53024/b1acb251-2056-4b70-b9dd-aec41171c4bb"
       (reference "MAXY") (unit 1) (value "D_LATCH_A") (footprint "")
     )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/13989efa-73ee-47f8-b020-1015c8733f42"
-      (reference "MCS") (unit 1) (value "IOBUF_A") (footprint "")
-    )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/4c8b3cd6-80c8-4674-baea-f4aded47b55f"
       (reference "MD0") (unit 1) (value "IOBUF_B") (footprint "")
     )
@@ -9748,9 +9748,6 @@
     )
     (path "/78bdbedc-2d0f-4dc6-b053-8f321554d6fe/6ce7fa3d-fc40-4d86-a004-2fa0497fa936"
       (reference "MODY") (unit 1) (value "NAND_3") (footprint "")
-    )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/10ee7d9c-8a90-4641-a8a9-d150b6a24e9d"
-      (reference "MOE") (unit 1) (value "IOBUF_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/ed34662e-97cf-4bfe-a7ab-ffc87b04e01b/0596271d-b5a0-413b-8e59-85ab8217ee3f"
       (reference "MOFO") (unit 1) (value "D_LATCH_A2") (footprint "")
@@ -9889,9 +9886,6 @@
     )
     (path "/1d671dab-7070-485b-8f55-0effa957e3b0/7992aaa3-b0c8-4160-9f20-fa9def099f0e"
       (reference "MUZU") (unit 1) (value "OR_2") (footprint "")
-    )
-    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/179afdad-e949-44ef-b5ac-84dd4f4ef9cb"
-      (reference "MWR") (unit 1) (value "IOBUF_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/590312dc-8619-4e31-94c8-cba9c53fc46c"
       (reference "MYCE") (unit 1) (value "DR_LATCH") (footprint "")
@@ -10807,9 +10801,6 @@
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/8fe7fb5a-d7ef-443f-bafb-4f9b60ab0423/2c0ce3f6-5158-40e1-bc3f-465c70075203"
       (reference "RAZU") (unit 1) (value "TRI_INV_IF0") (footprint "")
-    )
-    (path "/ae3c3983-a947-4d09-8a51-31d13ee1e876/5dc62a78-649f-4f9a-806d-3b83cee1a0b8"
-      (reference "RD") (unit 1) (value "IOBUF_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/90f9f967-d328-4055-bddc-176ae137a4a8"
       (reference "REBA") (unit 1) (value "TRI_INV_IF1") (footprint "")
@@ -13187,9 +13178,6 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/a31a0509-33a1-4806-8bdf-0c1bf7508eb0/421c8afa-a9cb-46bd-b1a5-737fc6030c93"
       (reference "WOXY") (unit 1) (value "TRI_INV_IF0") (footprint "")
     )
-    (path "/ae3c3983-a947-4d09-8a51-31d13ee1e876/926c2b45-b8b4-423d-96a4-f030c0860cbe"
-      (reference "WR") (unit 1) (value "IOBUF_A") (footprint "")
-    )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/2259c050-3578-485b-b244-a1f0d13ab1ef"
       (reference "WUBU") (unit 1) (value "NAND_2") (footprint "")
     )
@@ -13428,7 +13416,7 @@
       (reference "XABU") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/6169f215-e445-431a-8880-adfd0ae8881d"
-      (reference "XACA") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "XACA") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/e124ffe6-0ded-4d68-b697-1cb21acaa856/2265fe0a-4c1d-4fcf-9eb3-d5e9ee2f4ed1"
       (reference "XACO") (unit 1) (value "INVERTER_A") (footprint "")
@@ -13455,7 +13443,7 @@
       (reference "XAGE") (unit 1) (value "NAND_3") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/20851f64-32ff-45e0-afa7-754dcfa6bde9"
-      (reference "XAGU") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "XAGU") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/fb72bbb6-7fd5-4ff6-88ec-fc640e4dc68f/83714054-215a-418f-acff-bd5bb82cff5b"
       (reference "XAHA") (unit 1) (value "XOR") (footprint "")
@@ -13644,7 +13632,7 @@
       (reference "XEPO") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/6097e47f-69e1-42ac-983c-4444acc80e12"
-      (reference "XEPU") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "XEPU") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/97ba3b00-e359-4523-9ceb-a0fa21e9dbb4/8ce9b18e-6256-4cd2-b3cb-d17096294a36"
       (reference "XERA") (unit 1) (value "INVERTER_B") (footprint "")
@@ -13672,9 +13660,6 @@
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f58764b7-5917-4e12-8335-4ecb353d958e/7a088d98-5df2-4a1a-9b91-b020c1604736"
       (reference "XEZE") (unit 1) (value "AND_2") (footprint "")
-    )
-    (path "/89003768-5b25-4c22-8af8-96ee45628a34/f860a184-284d-4c79-afd9-30b540bb06cc"
-      (reference "XI_XO") (unit 1) (value "OSC") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/0be794be-b188-40bc-8326-c5ca88686b72"
       (reference "XOBA") (unit 1) (value "TRI_INV_IF0") (footprint "")
@@ -13839,7 +13824,7 @@
       (reference "XULO") (unit 1) (value "TRI_INV_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/eedd4b45-02fa-4922-b03e-5d620d5aba07"
-      (reference "XUNA") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "XUNA") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/8e4f5716-d8d1-42c3-8640-d5fca0d53024/dc3d8847-4a08-486a-a348-ab82d7d7e082"
       (reference "XUNO") (unit 1) (value "TRI_INV_IF0") (footprint "")
@@ -13911,7 +13896,7 @@
       (reference "XYGO") (unit 1) (value "D_LATCH_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/9d670297-39f6-4186-b66e-9e354df87632"
-      (reference "XYGU") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "XYGU") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/b9640dd7-4214-4ac2-8414-904565ea4152/cf0dfd63-a3e7-46d2-ae90-9e1276a107d2"
       (reference "XYHA") (unit 1) (value "INVERTER_A") (footprint "")
@@ -14364,7 +14349,7 @@
       (reference "ZEFU?") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/3af27380-4964-48f1-8a06-894957115513/7775e14d-91bf-420d-81c4-35e83afddcc6"
-      (reference "ZEHA") (unit 1) (value "TRI_INV_IF0") (footprint "")
+      (reference "ZEHA") (unit 1) (value "TRI_BUF_IF0") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/f75bcd90-1b96-470a-988b-ce3aa967be67/c3781b08-be57-47d5-ab66-095d0355629e"
       (reference "ZEJO") (unit 1) (value "XOR") (footprint "")
@@ -14610,10 +14595,25 @@
       (reference "ZYWU") (unit 1) (value "XOR") (footprint "")
     )
     (path "/8a09bdff-7804-478f-851e-a560a35862ce/329b6ec3-bab9-46aa-ad8b-3119c6de4a40"
-      (reference "~{RAM_CS}") (unit 1) (value "OBUF_A") (footprint "")
+      (reference "~{CS}") (unit 1) (value "OBUF_A") (footprint "")
+    )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/13989efa-73ee-47f8-b020-1015c8733f42"
+      (reference "~{MCS}") (unit 1) (value "IOBUF_A") (footprint "")
+    )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/10ee7d9c-8a90-4641-a8a9-d150b6a24e9d"
+      (reference "~{MRD}") (unit 1) (value "IOBUF_A") (footprint "")
+    )
+    (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/d6671b4d-9c70-4585-9a67-4ec477393e82/179afdad-e949-44ef-b5ac-84dd4f4ef9cb"
+      (reference "~{MWR}") (unit 1) (value "IOBUF_A") (footprint "")
+    )
+    (path "/ae3c3983-a947-4d09-8a51-31d13ee1e876/5dc62a78-649f-4f9a-806d-3b83cee1a0b8"
+      (reference "~{RD}") (unit 1) (value "IOBUF_A") (footprint "")
     )
     (path "/940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7/4830f4ca-8103-456b-9d24-002cd9a7738e"
       (reference "~{RESET}") (unit 1) (value "IBUF") (footprint "")
+    )
+    (path "/ae3c3983-a947-4d09-8a51-31d13ee1e876/926c2b45-b8b4-423d-96a4-f030c0860cbe"
+      (reference "~{WR}") (unit 1) (value "IOBUF_A") (footprint "")
     )
   )
 )
