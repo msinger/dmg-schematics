@@ -6,8 +6,8 @@
 
   (title_block
     (title "DMG CPU B")
-    (date "2022-05-19")
-    (rev "0")
+    (date "2022-07-08")
+    (rev "0.1")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
   )
@@ -1311,7 +1311,6 @@
       )
     )
   )
-
 
   (junction (at 83.185 144.145) (diameter 0) (color 0 0 0 0)
     (uuid 07c5e263-0aa3-41ca-85ba-5a3e0ae8e1df)
@@ -3759,8 +3758,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1071b843-2f64-4cc4-b71e-c296f7dc191d)
   )
-  (text "https://wavedrom.com/editor.html\n\n{signal: [\n  {name: 'ATAL_4MHz',  wave: '10101010101010101010101010'},\n  {name: '/T1T2',      wave: '1.0.......................'},\n  {name: 'ADYK',       wave: '0....1...0...1...0...1...0'},\n  {name: 'AFUR',       wave: '0.1...0...1...0...1...0...'},\n  {name: 'ALEF',       wave: '0..1...0...1...0...1...0..'},\n  {name: 'APUK',       wave: '0...1...0...1...0...1...0.'},\n  {name: 'CPU_T4',     wave: '1.0.....1.0.....1.0.....1.'},\n  {name: '/CPU_T4',    wave: '0.1.....0.1.....0.1.....0.'},\n  {name: 'CPU_PHI1',   wave: '0.1...0...1...0...1...0...'},\n  {name: 'BOGA',       wave: '0.10......10......10......'},\n  {name: 'DATA_VALID', wave: '1.01......01......01......'},\n  {name: 'AFAS',       wave: '0.....1..0....1..0....1..0'},\n  {name: 'MEMRQ',      wave: '1.01......01......01......'},\n  {name: 'ABUZ',       wave: '1.0.1.....0.1.....0.1.....'},\n  {name: 'BUKE',       wave: '0.10....1..0....1..0....1.'}\n  \n]}\n\nCPU_PHI1 = AFUR.Q\n~{CPU_T4} = APUK.Q or AFUR.Q\nBOGA = (~{ALEF.Q} and AFUR.Q and ~{CPU_T4} and CPU_PHI1) or ~{OSC_ENA} \nAFAS = ~{ADYK.Q} nor AFUR.Q \nABUZ = MEM_RQ and (APUK.Q or ~{AFUR.Q})\nBUKE = ALEF.Q nor APUK.Q\n\nTiming diagram can be added as an image in a separate sheet."
-    (at -62.23 135.255 0)
+  (text "https://wavedrom.com/editor.html\n\n{signal: [\n  {name: 'ATAL_4MHz',  wave: '10101010101010101010101010'},\n  {name: '/T1T2',      wave: '1.0.......................'},\n  {name: 'ADYK',       wave: '0....1...0...1...0...1...0'},\n  {name: 'AFUR',       wave: '0.1...0...1...0...1...0...'},\n  {name: 'ALEF',       wave: '0..1...0...1...0...1...0..'},\n  {name: 'APUK',       wave: '0...1...0...1...0...1...0.'},\n  {name: 'CPU_T4',     wave: '1.0.....1.0.....1.0.....1.'},\n  {name: '/CPU_T4',    wave: '0.1.....0.1.....0.1.....0.'},\n  {name: 'CPU_PHI',    wave: '0.1...0...1...0...1...0...'},\n  {name: 'BOGA',       wave: '0.10......10......10......'},\n  {name: 'DATA_VALID', wave: '1.01......01......01......'},\n  {name: 'AFAS',       wave: '0.....1..0....1..0....1..0'},\n  {name: 'MEMRQ',      wave: '1.01......01......01......'},\n  {name: 'ABUZ',       wave: '1.0.1.....0.1.....0.1.....'},\n  {name: 'BUKE',       wave: '0.10....1..0....1..0....1.'}\n  \n]}\n\nCPU_PHI = AFUR.Q\n~{CPU_T4} = APUK.Q or AFUR.Q\nBOGA = (~{ALEF.Q} and AFUR.Q and ~{CPU_T4} and CPU_PHI) or ~{OSC_ENA} \nAFAS = ~{ADYK.Q} nor AFUR.Q \nABUZ = MEM_RQ and (APUK.Q or ~{AFUR.Q})\nBUKE = ALEF.Q nor APUK.Q\n\nTiming diagram can be added as an image in a separate sheet."
+    (at -80.01 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15c488a4-b1c7-49f3-8147-fd2c7beb3794)
   )

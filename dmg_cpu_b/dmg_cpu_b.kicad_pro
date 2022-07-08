@@ -369,7 +369,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Output/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -381,48 +381,12 @@
       ""
     ],
     [
-      "b5509746-eb38-4041-8c7c-eec7c41cb666",
-      "APU"
-    ],
-    [
-      "223558bc-fefa-43a9-8a9b-3643a453e0cd",
-      "SPRITE STORE 5-9"
+      "940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7",
+      "SYS DECODE"
     ],
     [
       "e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9",
       "CPU"
-    ],
-    [
-      "cf4ed335-852c-410a-8a16-5f7d3e0efd9b",
-      "PPU"
-    ],
-    [
-      "89003768-5b25-4c22-8af8-96ee45628a34",
-      "CLOCKS AND RESET"
-    ],
-    [
-      "78bdbedc-2d0f-4dc6-b053-8f321554d6fe",
-      "FF0F INT"
-    ],
-    [
-      "1d671dab-7070-485b-8f55-0effa957e3b0",
-      "FF05-07 TIMER"
-    ],
-    [
-      "9ee215c4-c338-4edf-b63a-3d12af596dae",
-      "FF46 DMA"
-    ],
-    [
-      "f2e15271-7825-42d6-9cdc-f443702105bd",
-      "FF00 JOYP & FF60"
-    ],
-    [
-      "1a52ed52-a350-46c1-9a3f-2c4738963a98",
-      "FF01-02 SERIAL LINK"
-    ],
-    [
-      "940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7",
-      "SYS DECODE"
     ],
     [
       "8a09bdff-7804-478f-851e-a560a35862ce",
@@ -433,24 +397,44 @@
       "EXT DATA BUSES"
     ],
     [
-      "121b45f9-ad4a-46d5-ba7e-68d9873f0863",
-      "FF26 APU CLOCKS & RESETS"
+      "89003768-5b25-4c22-8af8-96ee45628a34",
+      "CLOCKS AND RESET"
     ],
     [
-      "66476ff3-6eb8-4ac4-8a74-862cd80f5c4e",
-      "FF24 FF25 CH EN & VOL"
+      "f2e15271-7825-42d6-9cdc-f443702105bd",
+      "FF00 JOYP & FF60"
+    ],
+    [
+      "1a52ed52-a350-46c1-9a3f-2c4738963a98",
+      "FF01-02 SERIAL LINK"
+    ],
+    [
+      "1d671dab-7070-485b-8f55-0effa957e3b0",
+      "FF05-07 TIMER"
+    ],
+    [
+      "78bdbedc-2d0f-4dc6-b053-8f321554d6fe",
+      "FF0F INT"
+    ],
+    [
+      "b5509746-eb38-4041-8c7c-eec7c41cb666",
+      "APU"
     ],
     [
       "4a60e61b-3085-41f0-b3dd-cd5d8a2d3dde",
       "APU DECODE"
     ],
     [
-      "bdf4895e-b754-482b-bbaa-31e906f0ac9a",
-      "CH1 REGS"
+      "66476ff3-6eb8-4ac4-8a74-862cd80f5c4e",
+      "FF24 FF25 CH EN & VOL"
     ],
     [
-      "344df6f7-5150-4d3e-811c-746a041fc89e",
-      "CH2 REGS"
+      "121b45f9-ad4a-46d5-ba7e-68d9873f0863",
+      "FF26 APU CLOCKS & RESETS"
+    ],
+    [
+      "bdf4895e-b754-482b-bbaa-31e906f0ac9a",
+      "CH1 REGS"
     ],
     [
       "c6bf6964-cc09-4f5f-983b-04b1e934bfa4",
@@ -459,6 +443,10 @@
     [
       "7520375f-56cb-4e8b-bd9d-63153e2d39bd",
       "CHANNEL 1"
+    ],
+    [
+      "344df6f7-5150-4d3e-811c-746a041fc89e",
+      "CH2 REGS"
     ],
     [
       "c8460b94-b5e0-441c-8620-488cd1e1b4f5",
@@ -481,80 +469,92 @@
       "CHANNEL 4"
     ],
     [
+      "cf4ed335-852c-410a-8a16-5f7d3e0efd9b",
+      "PPU"
+    ],
+    [
       "97ba3b00-e359-4523-9ceb-a0fa21e9dbb4",
       "PPU DECODE & VIDEO CONTROL"
-    ],
-    [
-      "8e4f5716-d8d1-42c3-8640-d5fca0d53024",
-      "PALETTES"
-    ],
-    [
-      "8fe7fb5a-d7ef-443f-bafb-4f9b60ab0423",
-      "FF41 STAT"
-    ],
-    [
-      "fbc9318d-8e75-4064-9af7-600aa483364a",
-      "LCD"
-    ],
-    [
-      "398d0f8e-1da1-4a40-bc1a-e2f938853230",
-      "BACKGROUND SCROLLING"
-    ],
-    [
-      "f58764b7-5917-4e12-8335-4ecb353d958e",
-      "WINDOW DETECTION"
-    ],
-    [
-      "d32e852e-32aa-43ab-86d0-61406ce5940a",
-      "OAM"
     ],
     [
       "d6671b4d-9c70-4585-9a67-4ec477393e82",
       "VRAM INTERFACE"
     ],
     [
-      "a2664e87-43bc-4869-848a-a71eac091233",
-      "SPRITE X PRIORITY"
+      "fbc9318d-8e75-4064-9af7-600aa483364a",
+      "LCD"
     ],
     [
-      "970ab005-739e-432b-963e-24ee1a13020c",
-      "SPRITE Y COMPARATOR"
+      "8fe7fb5a-d7ef-443f-bafb-4f9b60ab0423",
+      "FF41 STAT, FF44 LY & FF45 LYC"
     ],
     [
-      "a31a0509-33a1-4806-8bdf-0c1bf7508eb0",
-      "SPRITE STORE 0-4"
+      "398d0f8e-1da1-4a40-bc1a-e2f938853230",
+      "FF42-FF43 BACKGROUND SCROLLING"
     ],
     [
-      "f75bcd90-1b96-470a-988b-ce3aa967be67",
-      "SPRITE X MATCHERS 5-9"
+      "f58764b7-5917-4e12-8335-4ecb353d958e",
+      "FF4A-FF4B WINDOW DETECTION"
     ],
     [
-      "b9640dd7-4214-4ac2-8414-904565ea4152",
-      "SPRITE CONTROL"
-    ],
-    [
-      "fb72bbb6-7fd5-4ff6-88ec-fc640e4dc68f",
-      "SPRITE X MATCHERS 0-4"
-    ],
-    [
-      "ed34662e-97cf-4bfe-a7ab-ffc87b04e01b",
-      "SP PIXEL SHIFTER"
-    ],
-    [
-      "3af27380-4964-48f1-8a06-894957115513",
-      "SPRITE X MATCH TOP"
+      "e124ffe6-0ded-4d68-b697-1cb21acaa856",
+      "BG & WIN CYCLES"
     ],
     [
       "b6757b5f-4086-4843-89b2-3a5e10537262",
       "BG PIXEL SHIFTER"
     ],
     [
-      "15383592-65eb-42e1-8c01-24762d458954",
-      "PIXEL MUX"
+      "9ee215c4-c338-4edf-b63a-3d12af596dae",
+      "FF46 DMA"
     ],
     [
-      "e124ffe6-0ded-4d68-b697-1cb21acaa856",
-      "BG & WIN CYCLES"
+      "d32e852e-32aa-43ab-86d0-61406ce5940a",
+      "OAM"
+    ],
+    [
+      "970ab005-739e-432b-963e-24ee1a13020c",
+      "SPRITE Y COMPARATOR"
+    ],
+    [
+      "b9640dd7-4214-4ac2-8414-904565ea4152",
+      "SPRITE CONTROL"
+    ],
+    [
+      "a2664e87-43bc-4869-848a-a71eac091233",
+      "SPRITE X PRIORITY"
+    ],
+    [
+      "a31a0509-33a1-4806-8bdf-0c1bf7508eb0",
+      "SPRITE STORE 0-4"
+    ],
+    [
+      "223558bc-fefa-43a9-8a9b-3643a453e0cd",
+      "SPRITE STORE 5-9"
+    ],
+    [
+      "fb72bbb6-7fd5-4ff6-88ec-fc640e4dc68f",
+      "SPRITE X MATCHERS 0-4"
+    ],
+    [
+      "f75bcd90-1b96-470a-988b-ce3aa967be67",
+      "SPRITE X MATCHERS 5-9"
+    ],
+    [
+      "3af27380-4964-48f1-8a06-894957115513",
+      "SPRITE X MATCH TOP"
+    ],
+    [
+      "ed34662e-97cf-4bfe-a7ab-ffc87b04e01b",
+      "SP PIXEL SHIFTER"
+    ],
+    [
+      "8e4f5716-d8d1-42c3-8640-d5fca0d53024",
+      "FF47-FF49 PALETTES"
+    ],
+    [
+      "15383592-65eb-42e1-8c01-24762d458954",
+      "PIXEL MUX"
     ]
   ],
   "text_variables": {}

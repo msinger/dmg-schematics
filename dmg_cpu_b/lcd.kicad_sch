@@ -6,8 +6,8 @@
 
   (title_block
     (title "DMG CPU B")
-    (date "2022-05-19")
-    (rev "0")
+    (date "2022-07-08")
+    (rev "0.1")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
   )
@@ -1225,7 +1225,6 @@
       )
     )
   )
-
 
   (junction (at 83.185 270.51) (diameter 0) (color 0 0 0 0)
     (uuid 01d225eb-5252-4443-b48f-8c41c2b438cd)
@@ -3896,7 +3895,7 @@
     (uuid 8bf60aa1-3fd7-4720-abba-f1cbdfc4d9e6)
   )
   (text "In https://wavedrom.com/editor.html\n{signal: [\n  {name: 'PPU_4MHz',        wave: '01010101010101010101010101|0101010101010101010101010101010'},\n  {name: 'RESET_VIDEO', wave: '1.0.......................|...............................'},\n  {name: 'WUVU./Q',     wave: '1..0.1.0.1.0.1.0.1.0.1.0.1|.0.1.0.1.0.1.0.1.0.1.0.1.0.1.0.'},\n  {name: 'XUPY',        wave: '0..1.0.1.0.1.0.1.0.1.0.1.0|.1.0.1.0.1.0.1.0.1.0.1.0.1.0.1.'},\n  {name: 'XOCE',        wave: '1.0.1.0.1.0.1.0.1.0.1.0.1.|0.1.0.1.0.1.0.1.0.1.0.1.0.1.0.1'},\n  {name: 'XYSO',        wave: '1..01..01..01..01..01..01.|.01..01..01..01..01..01..01..01'},\n  {name: 'HCLK',        wave: '0....1...0...1...0...1...0|...1...0...1...0...1...0...1...'},\n  {name: \"LCD_X\",       wave: '2....2.......2.......2....|...2.......2...2...........2...', data: '0x0 0x1 0x2 0x3 0x70 0x71 0x0 0x1' },\n  {name: 'VCLK',        wave: '0.........................|...............1.......0.......'}\n]}\n"
-    (at -8.255 48.26 0)
+    (at 17.78 -12.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d812a098-04f8-44d0-a1e4-f56991484be6)
   )
