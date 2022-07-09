@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DMG-CPU B - Wave Diagrams</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Signal wave diagrams that complement the DMG-CPU B schematics to help understand the function of some circuits.">
+<style>img { max-width: 100%; display: inline; }</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/2.6.8/skins/default.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/2.6.8/wavedrom.min.js" type="text/javascript"></script>
+</head>
+<body onload="WaveDrom.ProcessAll()">
+<main><h1>DMG-CPU B - Wave Diagrams</h1>
+<h2>Clocks</h2>
+<script type="WaveDrom">
+{signal: [
+  {name: 'ATAL_4MHz',  wave: '10101010101010101010101010'},
+  {name: '/T1T2',      wave: '1.0.......................'},
+  {name: 'ADYK',       wave: '0....1...0...1...0...1...0'},
+  {name: 'AFUR',       wave: '0.1...0...1...0...1...0...'},
+  {name: 'ALEF',       wave: '0..1...0...1...0...1...0..'},
+  {name: 'APUK',       wave: '0...1...0...1...0...1...0.'},
+  {name: 'CPU_T4',     wave: '1.0.....1.0.....1.0.....1.'},
+  {name: '/CPU_T4',    wave: '0.1.....0.1.....0.1.....0.'},
+  {name: 'CPU_PHI',    wave: '0.1...0...1...0...1...0...'},
+  {name: 'BOGA',       wave: '0.10......10......10......'},
+  {name: 'DATA_VALID', wave: '1.01......01......01......'},
+  {name: 'AFAS',       wave: '0.....1..0....1..0....1..0'},
+  {name: 'MEMRQ',      wave: '1.01......01......01......'},
+  {name: 'ABUZ',       wave: '1.0.1.....0.1.....0.1.....'},
+  {name: 'BUKE',       wave: '0.10....1..0....1..0....1.'}
+]}
+</script>
+<p>
+CPU_PHI = AFUR.Q<br>
+<span style="text-decoration:overline">CPU_T4</span> = APUK.Q &or; AFUR.Q<br>
+BOGA = (<span style="text-decoration:overline">ALEF.Q</span> &and; AFUR.Q &and; <span style="text-decoration:overline">CPU_T4</span> &and; CPU_PHI) &or; <span style="text-decoration:overline">OSC_ENA</span><br>
+AFAS = &not;(<span style="text-decoration:overline">ADYK.Q</span> &or; AFUR.Q)<br>
+ABUZ = MEM_RQ &and; (APUK.Q &or; <span style="text-decoration:overline">AFUR.Q</span>)<br>
+BUKE = &not;(ALEF.Q &or; APUK.Q)
+</p>
+</main><footer><hr>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+</footer></body>
+</html>
