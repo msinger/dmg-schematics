@@ -2114,7 +2114,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 97b85c21-5ee6-4b48-b780-8bad12691335)
     )
-    (pin "NOT_VRAM_MEM_RQ" output (at 124.46 168.91 0)
+    (pin "NON_VRAM_MEM_RQ" output (at 124.46 168.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 4118176c-469b-448a-b808-cdaf9afe40c6)
     )
@@ -2254,10 +2254,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bffa3d84-295a-40fa-8c58-aa928598cba7)
     )
-    (pin "NOT_VRAM_MEM_RQ" input (at 124.46 186.69 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 000f69e8-48e9-4d46-97b5-3a0b56428c19)
-    )
     (pin "T1~{T2}" input (at 124.46 189.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5ca52015-f1cb-462f-96b2-9f7b0d7fa9ac)
@@ -2289,6 +2285,10 @@
     (pin "WRITE" input (at 92.71 187.96 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c3f7d5ea-1669-42c1-b790-24f934773117)
+    )
+    (pin "NON_VRAM_MEM_RQ" input (at 124.46 186.69 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bc34d7ac-f4ff-4018-b45d-759fe92d07c8)
     )
   )
 
@@ -2434,10 +2434,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid daceb912-f672-4f78-baf0-9091f4e3e8e9)
     )
-    (pin "NOT_VRAM_MEM_RQ" input (at 270.51 209.55 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2c09f5c2-fcf2-44a7-bd51-fc2db905b9a4)
-    )
     (pin "RAM_CS_EN" input (at 270.51 215.265 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 93c8396f-e892-4e9c-800f-f6426f7ca275)
@@ -2457,6 +2453,10 @@
     (pin "DMA_PHI" input (at 270.51 188.595 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c717d436-3701-44b6-bab2-5a24780a71dd)
+    )
+    (pin "NONE_VRAM_MEM_RQ" input (at 270.51 209.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c0689fca-e398-4c4f-94a4-748f468c513e)
     )
   )
 
@@ -3503,7 +3503,7 @@
       (reference "ATEG") (unit 1) (value "OR_4") (footprint "")
     )
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/fbc9318d-8e75-4064-9af7-600aa483364a/82359481-d5f1-4eb9-bc26-5bfdfbcefea2"
-      (reference "ATEJ") (unit 1) (value "INVERTER_A") (footprint "")
+      (reference "ATEJ") (unit 1) (value "INVERTER_B") (footprint "")
     )
     (path "/b5509746-eb38-4041-8c7c-eec7c41cb666/9f115f33-d3de-4be8-b5ab-7e9eec02ecad/78465ee8-a752-4c34-964e-e14047cf9105"
       (reference "ATEL") (unit 1) (value "TRI_INV_IF0") (footprint "")
@@ -12208,8 +12208,8 @@
     (path "/cf4ed335-852c-410a-8a16-5f7d3e0efd9b/b6757b5f-4086-4843-89b2-3a5e10537262/bcc8b841-0ea7-466b-bd9b-1ee64c9d4c5e"
       (reference "TOMY") (unit 1) (value "DFFSR") (footprint "")
     )
-    (path "/940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7/011201ba-a7b5-4fd0-8163-bacb530963ba"
-      (reference "TONA") (unit 1) (value "INVERTER_B") (footprint "")
+    (path "/940c3a2d-5739-4dc1-a8a1-0a69fcf8dab7/f1770df3-71c2-4b73-9e34-c732f8078c65"
+      (reference "TONA") (unit 1) (value "INVERTER_A") (footprint "")
     )
     (path "/1d671dab-7070-485b-8f55-0effa957e3b0/a4498153-8a65-4663-b286-06ad3f9cc4a7"
       (reference "TOPE") (unit 1) (value "NAND_4") (footprint "")
