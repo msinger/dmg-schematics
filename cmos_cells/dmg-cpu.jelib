@@ -1196,7 +1196,7 @@ Ein5|~reset|D4G4;X-6;|pin@112||I
 X
 
 # Cell inverter_a;1{ic}
-Cinverter_a;1{ic}||artwork|1651615145678|1651616357963|E
+Cinverter_a;1{ic}||artwork|1651615145678|1663620473676|E|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NTriangle|art@2||0|0|6|5|RRR|
 NCircle|art@3||3|0|1|1||
@@ -1220,7 +1220,7 @@ Evdd||D5G2;|pin@6||P
 X
 
 # Cell inverter_a;2{lay}
-Cinverter_a;2{lay}||mocmos|1651184881008|1651442882265||DRC_last_good_drc_area_date()G1651442907265|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651442907265
+Cinverter_a;2{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651442907265|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651442907265|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -1269,7 +1269,7 @@ Evdd||D2G4;|pin@6||P
 X
 
 # Cell inverter_b;1{lay}
-Cinverter_b;1{lay}||mocmos|1651184881008|1651442926769||DRC_last_good_drc_area_date()G1651442983782|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651442983782
+Cinverter_b;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651442983782|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651442983782|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -1345,7 +1345,7 @@ Evdd||D2G4;|pin@6||P
 X
 
 # Cell muxi;1{lay}
-Cmuxi;1{lay}||mocmos|1651184881008|1651706976831||DRC_last_good_drc_area_date()G1651707140489|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651707140489
+Cmuxi;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651707140489|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651707140489|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-42.5|-30|30|||
 NMetal-1-N-Active-Con|contact@1||-32.5|-40|10|||
@@ -1539,8 +1539,184 @@ Ein|sel|D4G4;X-6;|pin@11||I
 Evdd||D2G4;|pin@6||P
 X
 
+# Cell sram_bit;1{lay}
+Csram_bit;1{lay}||mocmos|1663711836675|1663796291950||DRC_last_good_drc_area_date()G1663794260281|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1663796322251|USER_drawing_designer_name()SMichael Singer
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-Polysilicon-1-Con|contact@0||4|-4||||
+NMetal-1-N-Active-Con|contact@2||-4|-11||||
+NMetal-1-P-Active-Con|contact@4||4|10.25||||
+NMetal-1-P-Active-Con|contact@5||-4|10.25||||
+NMetal-1-Polysilicon-1-Con|contact@6||-4|4.25||||
+NMetal-1-N-Active-Con|contact@9||4|-11||||
+NN-Transistor|nmos@0||4|-18.5|2|||
+NN-Transistor|nmos@1||-10.5|-11|||R|
+NN-Transistor|nmos@2||-4|-18.5|2|||
+NN-Transistor|nmos@3||10.5|-11|||R|
+NP-Active-Pin|pin@0||19|10.25||||
+NMetal-1-Pin|pin@2||11|19.75|1|1||
+NP-Active-Pin|pin@5||-19|10.25||||
+NMetal-1-Pin|pin@7||-11|19.75|1|1||
+NPolysilicon-1-Pin|pin@8||-19|-18.5||||
+NP-Active-Pin|pin@11||-19|19.75|3|3||
+NN-Active-Pin|pin@13||4|-26|2|2||
+NPolysilicon-1-Pin|pin@14||19|-18.5||||
+NN-Active-Pin|pin@15||-4|-26|2|2||
+NP-Active-Pin|pin@18||19|19.75|3|3||
+NN-Active-Pin|pin@19||19|-11||||
+NN-Active-Pin|pin@20||-19|-11||||
+NMetal-1-Pin|pin@21||-11|-26|1|1||
+NMetal-1-Pin|pin@22||11|-26|1|1||
+NPolysilicon-1-Pin|pin@23||-10.5|-4||||
+NPolysilicon-1-Pin|pin@24||10.5|4.25||||
+NN-Select-Node|plnode@0||0|-15.25|36|21||A
+NN-Well-Node|plnode@1||0|14.5|60|29||A
+NP-Well-Node|plnode@2||0|-17.5|60|35||A
+NP-Select-Node|plnode@4||0|14.75|40|15||A
+NN-Select-Node|plnode@6||0|-17.75|43|26||A
+NP-Transistor|pmos@0||-10.5|10.25|||R|
+NP-Transistor|pmos@1||10.5|10.25|||R|
+AP-Active|net@3|||RS1800|pmos@0|diff-bottom|-6.75|10.25|contact@5||-4|10.25
+AN-Active|net@5|||RS1800|nmos@1|diff-bottom|-6.5|-11|contact@2||-4|-11
+APolysilicon-1|net@10|||RS0|nmos@2|poly-right|0.5|-18.5|nmos@0|poly-left|-0.5|-18.5
+AP-Active|net@14|||RS0|pmos@1|diff-top|6.75|10.25|contact@4||4|10.25
+AN-Active|net@24||2|RS2700|nmos@2|diff-top|-4|-14.5|contact@2||-4|-11
+AN-Active|net@38||2|RS2700|nmos@0|diff-top|4|-14.5|contact@9||4|-11
+AMetal-1|net@44||1|RS2700|contact@6||-4|4.25|contact@5||-4|10.25
+AP-Active|net@49|||RS2700|pin@5||-19|10.25|pin@11||-19|19.75
+AP-Active|net@50|||RS2700|pin@0||19|10.25|pin@18||19|19.75
+AN-Active|net@52||2|RS900|nmos@2|diff-bottom|-4|-22.25|pin@15||-4|-26
+AN-Active|net@53||2|RS900|nmos@0|diff-bottom|4|-22.25|pin@13||4|-26
+AMetal-1|net@54||1|RS2700|contact@0||4|-4|contact@4||4|10.25
+AMetal-1|net@55||1|RS900|contact@0||4|-4|contact@9||4|-11
+AMetal-1|net@56||1|RS900|contact@6||-4|4.25|contact@2||-4|-11
+APolysilicon-1|net@58|||RS900|pmos@0|poly-left|-10.5|6.75|pin@23||-10.5|-4
+APolysilicon-1|net@59|||RS900|pin@23||-10.5|-4|nmos@1|poly-right|-10.5|-7.5
+APolysilicon-1|net@60|||RS0|contact@0||4|-4|pin@23||-10.5|-4
+AMetal-1|net@61||1|RS900|pin@7||-11|19.75|pin@21||-11|-26
+APolysilicon-1|net@63|||RS2700|nmos@3|poly-right|10.5|-7.5|pin@24||10.5|4.25
+APolysilicon-1|net@64|||RS2700|pin@24||10.5|4.25|pmos@1|poly-left|10.5|6.75
+APolysilicon-1|net@65|||RS1800|contact@6||-4|4.25|pin@24||10.5|4.25
+AMetal-1|net@66||1|RS900|pin@2||11|19.75|pin@22||11|-26
+AN-Active|net@67|||RS0|nmos@3|diff-top|6.75|-11|contact@9||4|-11
+APolysilicon-1|net@70|||RS1800|nmos@0|poly-right|8.5|-18.5|pin@14||19|-18.5
+AN-Active|net@71|||RS1800|nmos@3|diff-bottom|14.25|-11|pin@19||19|-11
+AN-Active|net@72|||RS0|nmos@1|diff-top|-14.25|-11|pin@20||-19|-11
+APolysilicon-1|net@73|||RS0|nmos@2|poly-left|-8.5|-18.5|pin@8||-19|-18.5
+AP-Active|net@74|||RS1800|pmos@1|diff-bottom|14.25|10.25|pin@0||19|10.25
+AP-Active|net@75|||RS0|pmos@0|diff-top|-14.25|10.25|pin@5||-19|10.25
+AP-Active|net@76||3|RS1800|pin@11||-19|19.75|pin@18||19|19.75
+Ebl0|bl|D5G2;|pin@7||B
+Ebl1|bl'|D5G2;|pin@2||B
+Ebl'_1||D5G2;|pin@22||B
+Ebl'_2||D5G2;|pin@13||B
+Ebl_1||D5G2;|pin@21||B
+Ebl_2||D5G2;|pin@15||B
+Egnd||D5G2;|pin@20||G
+Egnd_1||D5G2;|pin@19||G
+Evdd||D5G2;|pin@11||P
+Evdd[1]|vdd_1|D5G2;|pin@18||P
+Ewl||D5G2;|pin@8||B
+Ewl_1||D5G2;|pin@14||B
+X
+
+# Cell sram_bit_blcon;1{lay}
+Csram_bit_blcon;1{lay}||mocmos|1663716029630|1663789002692||DRC_last_good_drc_area_date()G1663716918997|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1663791491775|USER_drawing_designer_name()SMichael Singer
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-N-Active-Con|contact@0||11|0||||
+NMetal-1-N-Active-Con|contact@1||-11|0||||
+NN-Active-Pin|pin@0||4|0||||
+NN-Active-Pin|pin@1||-4|0||||
+AN-Active|net@0||2|RS1800|contact@1||-10.5|0|pin@1||-4|0
+AN-Active|net@1||2|RS0|contact@0||11.5|0|pin@0||4|0
+Ebl0[0]|bl|D5G2;|pin@1||B
+Ebl1[0]|bl'|D5G2;|pin@0||B
+Ebl1[1]|bl'_1|D5G2;|contact@0||B
+Ebl0[1]|bl_1|D5G2;|contact@1||B
+X
+
+# Cell sram_bit_ground;1{lay}
+Csram_bit_ground;1{lay}||mocmos|1663715790182|1663794909753||DRC_last_good_drc_area_date()G1663716952661|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1663796322251|USER_drawing_designer_name()SMichael Singer
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-N-Active-Con|contact@0||0|-11||||
+NMetal-1-Pin|pin@0||0|-26|3|3||
+NMetal-1-Pin|pin@1||0|19.75|3|3||
+AMetal-1|net@2||3|RS900|pin@1||0|19.75|contact@0||0|-11
+AMetal-1|net@3||3|RS2700|pin@0||0|-26|contact@0||0|-11
+Egnd[0]|gnd|D5G2;|pin@0||G
+Egnd[2]|gnd_1|D5G2;|contact@0||G
+Egnd[1]|gnd_2|D5G2;|pin@1||G
+X
+
+# Cell sram_bitarr;1{lay}
+Csram_bitarr;1{lay}||mocmos|1663715093621|1663800941977||DRC_last_good_drc_area_date()G1663799336546|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1663799336546|USER_drawing_designer_name()SMichael Singer
+Isram_bit;1{lay}|sram_bit@100||319|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@101||319|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@102||338|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@103||338|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@104||357|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@105||357|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@106||376|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@107||376|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@108||395|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@109||395|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@110||414|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@111||414|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@112||433|-89.25|Y||D5G4;
+Isram_bit;1{lay}|sram_bit@113||433|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@114||452|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@115||452|-89.25|Y||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@116||300|-128.75|||D5G4;
+Isram_bit_ground;1{lay}|sram_bit@117||300|-89.25|Y||D5G4;
+AN-Active|net@222|||RS|sram_bit@101|gnd_1|338|-139.75|sram_bit@102|gnd[2]|338|-139.75
+AN-Active|net@229|||RS|sram_bit@105|gnd_1|376|-139.75|sram_bit@106|gnd[2]|376|-139.75
+AN-Active|net@236|||RS|sram_bit@109|gnd_1|414|-139.75|sram_bit@110|gnd[2]|414|-139.75
+AN-Active|net@243|||RS|sram_bit@113|gnd_1|452|-139.75|sram_bit@114|gnd[2]|452|-139.75
+AN-Active|net@244|||RS|sram_bit@112|gnd_1|452|-78.25|sram_bit@115|gnd[2]|452|-78.25
+AN-Active|net@266|||RS|sram_bit@101|gnd_1|338|-139.75|sram_bit@105|gnd|338|-139.75
+APolysilicon-1|net@267|||RS|sram_bit@101|wl_1|338|-147.25|sram_bit@105|wl|338|-147.25
+AN-Active|net@270|||RS|sram_bit@105|gnd_1|376|-139.75|sram_bit@109|gnd|376|-139.75
+APolysilicon-1|net@271|||RS|sram_bit@105|wl_1|376|-147.25|sram_bit@109|wl|376|-147.25
+AN-Active|net@274|||RS|sram_bit@109|gnd_1|414|-139.75|sram_bit@113|gnd|414|-139.75
+APolysilicon-1|net@275|||RS|sram_bit@109|wl_1|414|-147.25|sram_bit@113|wl|414|-147.25
+AN-Active|net@276|||RS|sram_bit@101|gnd|300|-139.75|sram_bit@116|gnd[2]|300|-139.75
+AN-Active|net@277|||RS|sram_bit@100|gnd|300|-78.25|sram_bit@117|gnd[2]|300|-78.25
+AN-Active|net@283|||RS|sram_bit@100|gnd_1|338|-78.25|sram_bit@103|gnd[2]|338|-78.25
+AN-Active|net@284|||RS|sram_bit@100|gnd_1|338|-78.25|sram_bit@104|gnd|338|-78.25
+AP-Active|net@285|||RS|sram_bit@100|vdd[1]|338|-109|sram_bit@104|vdd|338|-109
+APolysilicon-1|net@286|||RS|sram_bit@100|wl_1|338|-70.75|sram_bit@104|wl|338|-70.75
+AP-Active|net@287|||RS|sram_bit@101|vdd[1]|338|-109|sram_bit@105|vdd|338|-109
+AN-Active|net@288|||RS|sram_bit@104|gnd_1|376|-78.25|sram_bit@107|gnd[2]|376|-78.25
+AN-Active|net@289|||RS|sram_bit@104|gnd_1|376|-78.25|sram_bit@108|gnd|376|-78.25
+AP-Active|net@290|||RS|sram_bit@104|vdd[1]|376|-109|sram_bit@108|vdd|376|-109
+APolysilicon-1|net@291|||RS|sram_bit@104|wl_1|376|-70.75|sram_bit@108|wl|376|-70.75
+AP-Active|net@292|||RS|sram_bit@105|vdd[1]|376|-109|sram_bit@109|vdd|376|-109
+AN-Active|net@293|||RS|sram_bit@108|gnd_1|414|-78.25|sram_bit@111|gnd[2]|414|-78.25
+AN-Active|net@294|||RS|sram_bit@108|gnd_1|414|-78.25|sram_bit@112|gnd|414|-78.25
+AP-Active|net@295|||RS|sram_bit@108|vdd[1]|414|-109|sram_bit@112|vdd|414|-109
+APolysilicon-1|net@296|||RS|sram_bit@108|wl_1|414|-70.75|sram_bit@112|wl|414|-70.75
+AP-Active|net@297|||RS|sram_bit@109|vdd[1]|414|-109|sram_bit@113|vdd|414|-109
+AP-Active|net@298|||RS2700|sram_bit@101|vdd|300|-109|sram_bit@100|vdd|300|-109
+AP-Active|net@302|||RS900|sram_bit@100|vdd[1]|338|-109|sram_bit@105|vdd|338|-109
+AP-Active|net@303|||RS900|sram_bit@104|vdd[1]|376|-109|sram_bit@109|vdd|376|-109
+AP-Active|net@304|||RS900|sram_bit@108|vdd[1]|414|-109|sram_bit@109|vdd[1]|414|-109
+AP-Active|net@305|||RS900|sram_bit@112|vdd[1]|452|-109|sram_bit@113|vdd[1]|452|-109
+AMetal-1|net@306|||RS|sram_bit@100|bl0|308|-109|sram_bit@101|bl0|308|-109
+AMetal-1|net@307|||RS|sram_bit@100|bl1|330|-109|sram_bit@101|bl1|330|-109
+AMetal-1|net@308|||RS|sram_bit@102|gnd[1]|338|-109|sram_bit@103|gnd[1]|338|-109
+AMetal-1|net@309|||RS|sram_bit@104|bl0|346|-109|sram_bit@105|bl0|346|-109
+AMetal-1|net@310|||RS|sram_bit@104|bl1|368|-109|sram_bit@105|bl1|368|-109
+AMetal-1|net@311|||RS|sram_bit@106|gnd[1]|376|-109|sram_bit@107|gnd[1]|376|-109
+AMetal-1|net@312|||RS|sram_bit@108|bl0|384|-109|sram_bit@109|bl0|384|-109
+AMetal-1|net@313|||RS|sram_bit@108|bl1|406|-109|sram_bit@109|bl1|406|-109
+AMetal-1|net@314|||RS|sram_bit@110|gnd[1]|414|-109|sram_bit@111|gnd[1]|414|-109
+AMetal-1|net@315|||RS|sram_bit@112|bl0|422|-109|sram_bit@113|bl0|422|-109
+AMetal-1|net@316|||RS|sram_bit@112|bl1|444|-109|sram_bit@113|bl1|444|-109
+AMetal-1|net@317|||RS|sram_bit@114|gnd[1]|452|-109|sram_bit@115|gnd[1]|452|-109
+AMetal-1|net@318|||RS|sram_bit@116|gnd[1]|300|-109|sram_bit@117|gnd[1]|300|-109
+X
+
 # Cell supply;1{lay}
-Csupply;1{lay}||mocmos|1651184881008|1651517598930||DRC_last_good_drc_area_date()G1651517658465|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651517658465
+Csupply;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651517658465|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651517658465|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@5||-2.5|0|2|2||
 NMetal-1-Metal-2-Con|contact@8||-2.5|-10|2|2||
@@ -1842,7 +2018,7 @@ Evdd||D2G4;|pin@41||P
 X
 
 # Cell tri_inv_if0;1{lay}
-Ctri_inv_if0;1{lay}||mocmos|1651184881008|1651966196190||DRC_last_good_drc_area_date()G1651966201828|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651966201828
+Ctri_inv_if0;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651966201828|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651966201828|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@15||-32.5|-20|10|||
 NMetal-1-N-Active-Con|contact@17||-32.5|-50|10|||
@@ -1969,7 +2145,7 @@ Eq|~ena|D4G4;X-6;|pin@14||I
 X
 
 # Cell tri_inv_if1;1{lay}
-Ctri_inv_if1;1{lay}||mocmos|1651184881008|1651968485778||DRC_last_good_drc_area_date()G1651968554480|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651968554480
+Ctri_inv_if1;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651968554480|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651968554480|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@15||-32.5|-20|10|||
 NMetal-1-N-Active-Con|contact@17||-32.5|-50|10|||
@@ -2096,7 +2272,7 @@ Evdd||D2G4;|pin@6||P
 X
 
 # Cell xnor;1{lay}
-Cxnor;1{lay}||mocmos|1651184881008|1651692465708||DRC_last_good_drc_area_date()G1651692481753|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651692481753
+Cxnor;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651692481753|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651692481753|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@10||-17.5|0|2|2||
 NMetal-1-N-Active-Con|contact@13||-37.5|0||||
@@ -2229,7 +2405,7 @@ Evdd||D2G4;|pin@6||P
 X
 
 # Cell xor;1{lay}
-Cxor;1{lay}||mocmos|1651184881008|1651692153792||DRC_last_good_drc_area_date()G1651429665221|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651429665221
+Cxor;1{lay}||mocmos|1651184881008|1663620473676||DRC_last_good_drc_area_date()G1651429665221|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1651429665221|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@10||-17.5|0|2|2||
 NMetal-1-N-Active-Con|contact@13||-47.5|0|20|||
