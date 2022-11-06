@@ -1233,7 +1233,7 @@ Evdd_1||D5G2;|pin@176||P/B
 X
 
 # Cell inverter_a;1{ic}
-Cinverter_a;1{ic}||artwork|1663967571660|1663969692018|E|USER_drawing_designer_name()SMichael Singer
+Cinverter_a;1{ic}||artwork|1663967571660|1665327503660|E|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NTriangle|art@2||-0.5|0|6|5|RRR|
 NCircle|art@3||2.5|0|1|1||
@@ -1249,7 +1249,7 @@ Eq||D5G2;|pin@2||O
 X
 
 # Cell inverter_a;2{lay}
-Cinverter_a;2{lay}||mocmos|1651184881008|1664134547074||DRC_last_good_drc_area_date()G1664134581697|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1664134581697|USER_drawing_designer_name()SMichael Singer
+Cinverter_a;2{lay}||mocmos|1651184881008|1665327411708||DRC_last_good_drc_area_date()G1665327428925|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1665327428925|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -1297,6 +1297,8 @@ Egnd||D5G2;|pin@8||G/B
 Egnd_1||D5G2;|pin@7||G/B
 Ein||D5G2;|pin@11||I
 Ein_1||D5G2;|pin@10||I/B
+Ein_2||D5G2;|nmos@0|poly-left|I/B
+Ein_3||D5G2;|pmos@0|poly-right|I/B
 Eq||D5G2;|pin@14||O
 Eq_1||D5G2;|pin@13||O/B
 Evdd||D5G2;|pin@6||P/B
@@ -1304,7 +1306,7 @@ Evdd_1||D5G2;|pin@5||P/B
 X
 
 # Cell inverter_a;1{sch}
-Cinverter_a;1{sch}||schematic|1663967702535|1663969683420||USER_drawing_designer_name()SMichael Singer
+Cinverter_a;1{sch}||schematic|1663967702535|1665327458652||USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NTransistor|nmos@0||-3.75|-5|||RRR||ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D35.0
 NWire_Pin|pin@0||5.75|5||||
@@ -1342,6 +1344,8 @@ Egnd||D5G2;|pin@10||G
 Egnd_1||D5G2;|pin@9||G
 Ein||D5G2;|pin@13||I
 Ein_1||D5G2;|pin@12||I
+Ein_2||D5G2;|nmos@0|g|I/B
+Ein_3||D5G2;|pmos@0|g|I/B
 Eq||D5G2;|pin@15||O
 Eq_1||D5G2;|pin@14||O
 Evdd||D5G2;|pin@8||P
@@ -1349,7 +1353,7 @@ Evdd_1||D5G2;|pin@7||P
 X
 
 # Cell inverter_b;1{ic}
-Cinverter_b;1{ic}||artwork|1663969166069|1664137886944|E|USER_drawing_designer_name()SMichael Singer
+Cinverter_b;1{ic}||artwork|1663969166069|1665327816100|E|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NTriangle|art@2||-0.5|0|6|5|RRR|
 NCircle|art@3||2.5|0|1|1||
@@ -1365,7 +1369,7 @@ Eq||D5G2;|pin@2||O
 X
 
 # Cell inverter_b;1{lay}
-Cinverter_b;1{lay}||mocmos|1651184881008|1663968813454||DRC_last_good_drc_area_date()G1664134590317|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1663969384987|USER_drawing_designer_name()SMichael Singer
+Cinverter_b;1{lay}||mocmos|1651184881008|1665327752412||DRC_last_good_drc_area_date()G1665327757143|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1665327757143|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -1440,6 +1444,10 @@ Egnd||D5G2;|pin@8||G/B
 Egnd_1||D5G2;|pin@7||G/B
 Ein||D5G2;|pin@11||I
 Ein_1||D5G2;|pin@10||I/B
+Ein_2||D5G2;|nmos@0|poly-left|I/B
+Ein_3||D5G2;|pmos@0|poly-right|I/B
+Ein_4||D5G2;|nmos@1|poly-left|I/B
+Ein_5||D5G2;|pmos@1|poly-right|I/B
 Eq||D5G2;|pin@14||O
 Eq_1||D5G2;|pin@18||O/B
 Evdd||D5G2;|pin@6||P/B
@@ -1447,7 +1455,7 @@ Evdd_1||D5G2;|pin@5||P/B
 X
 
 # Cell inverter_b;1{sch}
-Cinverter_b;1{sch}||schematic|1663968823120|1664137865584||USER_drawing_designer_name()SMichael Singer
+Cinverter_b;1{sch}||schematic|1663968823120|1665327793269||USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NTransistor|nmos@0||-7.5|-5|||RRR||ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D35.0
 NTransistor|nmos@1||-7.5|-15|||RRR||ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D35.0
@@ -1507,6 +1515,10 @@ Egnd||D5G2;|pin@12||G/B
 Egnd_1||D5G2;|pin@11||G/B
 Ein||D5G2;|pin@15||I
 Ein_1||D5G2;|pin@14||I/B
+Ein_2||D5G2;|nmos@0|g|I/B
+Ein_3||D5G2;|pmos@0|g|I/B
+Ein_4||D5G2;|nmos@1|g|I/B
+Ein_5||D5G2;|pmos@1|g|I/B
 Eq||D5G2;|pin@39||O
 Eq_1||D5G2;|pin@38||O/B
 Evdd||D5G2;|pin@10||P/B
@@ -1514,7 +1526,7 @@ Evdd_1||D5G2;|pin@9||P/B
 X
 
 # Cell muxi;1{lay}
-Cmuxi;1{lay}||mocmos|1651184881008|1664134608779||DRC_last_good_drc_area_date()G1664134616383|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1664134616383|USER_drawing_designer_name()SMichael Singer
+Cmuxi;1{lay}||mocmos|1651184881008|1667778329522||DRC_last_good_drc_area_date()G1667778354189|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1667778354189|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-42.5|-30|30|||
 NMetal-1-N-Active-Con|contact@1||-32.5|-40|10|||
@@ -1702,10 +1714,10 @@ AMetal-2|net@110||1|RS1800|contact@7||-5|-20|pin@27||60.5|-20
 AMetal-2|net@111||1|RS1800|pin@16||-60.5|-40|contact@9||-5|-40
 AMetal-2|net@112||1|RS1800|contact@9||-5|-40|pin@28||60.5|-40
 AN-Active|net@113|||RS0|nmos@5|diff-bottom|-31.25|-16|contact@20||-32|-16
-Eq|d0|D5G2;|pin@14||I
-Ed0_1||D5G2;|pin@26||I/B
-Ein2|d1|D5G2;|pin@15||I
-Ed1_1||D5G2;|pin@27||I/B
+Ein2|d0|D5G2;|pin@15||I
+Ed1_1|d0_1|D5G2;|pin@27||I/B
+Eq|d1|D5G2;|pin@14||I
+Ed0_1|d1_1|D5G2;|pin@26||I/B
 Egnd||D5G2;|pin@8||G/B
 Egnd_1||D5G2;|pin@23||G/B
 Eq@173570176|q|D5G2;|pin@16||O
