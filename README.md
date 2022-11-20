@@ -3,34 +3,40 @@ Game Boy DMG CPU Schematics
 
 Contains reverse engineered schematics of the Game Boy DMG-CPU B chip.
 
+![](schematic_preview.png)
+
 The schematics in this repository are derived from the schematics in
 [furrtek/DMG-CPU-Inside](https://github.com/furrtek/DMG-CPU-Inside) (CC-BY-SA 4.0 Furrtek).
 
 
-PDF
----
+PDF Export
+----------
 
 Most recent PDF export can be found
-[here](http://iceboy.a-singer.de/doc/dmg_cpu_b_sch.pdf).
+[here](http://iceboy.a-singer.de/doc/dmg_cpu_b_sch.pdf), or in the
+[release](https://github.com/msinger/dmg-schematics/releases) section on github.
 
 
 Files in this repo
 ------------------
 
-| File(s)                                   | Description                                                                  |
-| ----------------------------------------- | ---------------------------------------------------------------------------- |
-| ./dmg_cpu_b/dmg_cpu_b.kicad_pro           | KiCad project file for the schematics of the chip.                           |
-| ./dmg_cpu_b/*.kicad_sch                   | KiCad schematic sheets.                                                      |
-| ./dmg_cpu_b/lib/DMG_CPU_Cells.kicad_sym   | KiCad library with symbols for all the logic cells in the chip.              |
-| ./dmg_cpu_b/overlay/dmg-cpu-b_overlay.svg | Modified version of Furrtek's overlay for the chip's die shot.               |
-| ./cmos_cells/dmg-cpu.jelib                | Electric VLSI cell library containing layouts of the cells used in the chip. |
+| File(s)                                      | Description                                                                       |
+| -------------------------------------------- | --------------------------------------------------------------------------------- |
+| ./dmg\_cpu\_b/dmg\_cpu\_b.kicad\_pro         | KiCad project file for the schematics of the chip.                                |
+| ./dmg\_cpu\_b/\*.kicad\_sch                  | KiCad schematic sheets.                                                           |
+| ./dmg\_cpu\_b/lib/DMG\_CPU\_Cells.kicad\_sym | KiCad library with symbols for all the logic cells in the chip.                   |
+| ./dmg\_cpu\_b/overlay/dmg-cpu-b\_overlay.svg | Modified version of Furrtek's overlay for the chip's die shot.                    |
+| ./cmos\_cells/dmg-cpu.jelib                  | Electric VLSI cell library containing layouts of the cells used in the chip.      |
+| ./netlist/\*.nl                              | Text files containing all cells and wires, and their connections and coordinates. |
 
 
-Overlay
--------
+Overlay SVG
+-----------
 
 The overlay SVG image contains the contours of the cells in the die shot and highlights all the wires
 connecting the cells. Also the cells are labeled with the same names they have in the schematics.
+
+![](overlay_preview.png)
 
 We took the overlay from Furrtek and modified it to keep it in sync with the fixed schematics.
 
@@ -40,7 +46,31 @@ The die shots can be downloaded from
 [here](https://siliconpr0n.org/map/nintendo/dmg-cpu-b/single/nintendo_dmg-cpu-b_mz_mit20x.jpg) and
 [here](https://siliconpr0n.org/map/nintendo/dmg-cpu-b/single/nintendo_dmg-cpu-b_s1-1_mit20x.jpg).
 
-There is an easy way to view the latest version of this overlay in a web browser, if you don't want to
-install a SVG viewer and download those files:
-[Game Boy DMG-CPU B Map](http://iceboy.a-singer.de/dmg_cpu_b_map/)
 
+Electric VLSI Library
+---------------------
+
+The [Electric VLSI](https://www.staticfreesoft.com/) library contains layouts and schematics for the standard cells used
+in the chip.
+
+![](vlsi_preview.png)
+
+Screenshots of these layouts can be seen in the cell reference documentation
+[here](http://iceboy.a-singer.de/doc/dmg_cells.html).
+
+
+Netlist
+-------
+
+The files in the netlist folder contain definitions for all cells and *some*\* wires of the chip. (\* Adding the
+wires is still in progress.) They can be parsed by the [nlconv](https://github.com/msinger/nlconv) tool. This tool is
+currently capable of converting the netlists into the following products:
+ * HTML file with colors and links that make the netlists more readable.
+ * PNG images that are used for the overlays on the Leaflet [map](http://iceboy.a-singer.de/dmg_cpu_b_map/) of the
+   chip.
+ * Java Script code that is used by the same Leaflet map for allowing the user to click on and select cells and wires,
+   to get more information about them.
+
+![](netlist_preview.png)
+
+It is planned to add the functionality to generate HDL code for simulation from the same files.
