@@ -1657,11 +1657,6 @@
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid bf376a9b-27d4-47bb-89eb-db7af8fb7da7)
   )
-  (text "Data latching is halted during read as int flags get reset"
-    (at 205.74 89.535 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e51e2700-9512-487d-a3ee-d8264b3d3f47)
-  )
 
   (label "CPU_IRQ_ACK4" (at 74.93 236.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1759,7 +1754,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bfecf679-0333-489b-9285-c13d1157d78c)
   )
-  (label "~{FF0F_RD}" (at 52.705 135.89 0)
+  (label "~{FF0F_WR}" (at 52.705 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c40d9945-1ecf-4e06-8bed-714646191443)
   )
