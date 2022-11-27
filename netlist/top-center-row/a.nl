@@ -31,7 +31,7 @@ cell atyp:inv_a     rot270 @-57.96,169.30,-55.86,169.63       ->clocks;
 cell afur:dr_latch  rot270 @-57.95,169.63,-55.84,171.34       ->clocks;
 cell azym:nand2     rot270 @-57.96,171.34,-55.84,171.84 spare;
 cell adeh:inv_a     rot270 @-57.97,172.02,-55.86,172.37 comp  ->clocks;
-cell atal:inv_b     rot270 @-57.97,172.37,-55.87,172.88       ->clocks;
+cell atal:inv_b     rot270 @-57.97,172.37,-55.87,172.88 comp  ->clocks;
 cell anos:nand2     rot270 @-57.97,172.88,-55.87,173.39       ->clocks;
 cell avet:nand2     rot270 @-57.98,173.40,-55.86,173.91       ->clocks;
 cell arys:inv_a     rot270 @-57.98,173.91,-55.86,174.25       ->clocks;
@@ -41,6 +41,20 @@ cell azof:inv_e     rot270 @-57.95,174.25,-55.85,175.44       ->clocks;
 # Wires originating from row A in top center
 # ------------------------------------------
 
+wire ~clk_ena:ctl
+	abol.q -> bate.in3 bapy.in1 belu.in2 buty.in
+	@-57.66,149.90,-58.42,149.90,-58.42,150.91,-59.79,150.91,-59.80,161.17,-59.80,166.14,-59.81,171.60,
+	 -59.82,175.37,-60.45,175.37
+	@-59.80,161.17,-60.45,161.17
+	@-59.80,166.14,-60.43,166.14
+	@-59.81,171.60,-60.45,171.60;
+
+wire atez:ctl
+	atez.q -> byju.in2
+	@-57.64,150.24,-58.24,150.24,-58.24,152.29,-60.41,152.29;
+
+# araf.q is not connected
+
 wire cpu_wr_sync:ctl
 	apov.q -> tuja.in2 mexo.in ubal.d0
 	@-91.09,35.53,-91.09,37.62,-85.85,37.62,-85.85,40.55,-112.48,40.53,-112.53,108.19,-78.38,108.20,
@@ -49,6 +63,16 @@ wire cpu_wr_sync:ctl
 	 -76.98,123.26,-78.87,123.26,-78.87,127.14,-78.52,127.14,-78.52,130.38,-78.88,130.38,-78.88,135.45,
 	 -79.39,135.45,-79.39,138.84,-80.08,138.84,-80.08,139.84;
 
+wire arev:ctl
+	arev.q -> apov.in
+	@-57.65,151.95,-58.08,151.95,-58.08,150.93,-57.63,150.93;
+
+wire afas:clk
+	afas.q -> arev.in1
+	@-56.15,152.47,-55.69,152.47,-55.69,151.61,-56.15,151.61;
+
+# azup.q is not connected
+
 wire cpu_ext_cs_en:ctl
 	abuz.q -> sepy.in1 toza.in2 tuca.in2
 	@-85.77,31.28,-85.77,37.45
@@ -56,6 +80,18 @@ wire cpu_ext_cs_en:ctl
 	@-88.18,37.45,-85.77,37.45,-70.14,37.44,-70.14,43.26,-48.57,43.27,-48.70,153.66,-56.14,153.66
 	"Defines the timing of the chip select signals (A15, ~{CS}, ~{MCS}) on the external buses when "
 	"the CPU accesses them. PPU and DMA use different CS timings.";
+
+wire awod:ctl
+	awod.q -> abuz.in
+	@-57.64,154.18,-58.07,154.18,-58.07,153.15,-57.63,153.15;
+
+wire agut:ctl
+	agut.q -> awod.in2
+	@-56.13,155.03,-55.52,155.03,-55.52,154.01,-56.16,154.01;
+
+wire ajax:clk
+	ajax.q -> agut.in2
+	@-56.15,155.38,-55.70,155.38,-55.70,154.52,-56.15,154.52;
 
 wire ~reset2:rst
 	alur.q -> tepu.~r dula.in lyta.in3 mulo.in moba.~r mexu.in2 muru.~r movu.in3 nyke.~r pyga.in3 peto.~r
@@ -134,10 +170,145 @@ wire ~reset2:rst
 	@-140.48,189.24,-140.48,187.40,-157.73,187.38,-157.73,192.24,-159.79,192.24,-159.79,197.59,-160.98,197.59,
 	 -160.98,195.17;
 
+wire avor:rst
+	avor.q -> alur.in
+	@-57.63,156.56,-58.09,156.56,-58.09,155.53,-57.62,155.53;
+
 wire reset_latch:rst
 	afer.q -> cpu.t12 avor.in1
 	@-54.48,101.66,-54.42,65.09,-46.55,65.09,-46.66,158.95,-56.17,158.95
 	@-55.35,158.95,-55.35,156.05,-56.16,156.05;
+
+# afer.~q is not connected
+# asol.q is not connected
+
+wire ~asol:rst
+	asol.~q -> avor.in2 afer.d
+	@-57.63,159.47,-58.27,159.47,-58.27,156.22,-57.63,156.22
+	@-58.27,157.24,-57.63,157.24
+	"High while the external reset is asserted. If neither T1~{T2} nor ~{T1}T2 is active, this signal "
+	"stays high for 31.25 milliseconds after the reset gets deasserted.";
+
+wire afar:ctl
+	afar.q -> asol.s
+	@-57.64,160.49,-58.09,160.49,-58.09,159.12,-57.63,159.12
+	"High if the external reset is not asserted right now and at least 31.25 milliseconds have passed since "
+	"the reset was last asserted. If T1~{T2} or ~{T1}T2 is active, the signal goes high immediately when the "
+	"reset gets deasserted without the 31.25 ms delay.";
+
+wire alyp:ctl
+	alyp.q -> afar.in2
+	@-57.65,160.83,-58.26,160.83,-58.26,160.32,-57.63,160.32;
+
+wire adar:clk
+	adar.q -> afas.in1
+	@-57.64,161.34,-58.77,161.34,-58.77,152.11,-57.63,152.11;
+
+wire adyk:clk
+	adyk.q -> adar.in
+	@-57.65,162.71,-58.10,162.71,-58.10,161.16,-57.63,161.16;
+
+wire ~adyk:clk
+	adyk.~q -> afur.d
+	@-56.15,162.89,-55.36,162.89,-55.36,170.07,-56.17,170.07;
+
+wire adyk_p5n5_drain_poly:clk
+	@-57.16,162.88,-57.88,162.88,-57.88,163.05,-58.09,163.05,-58.09,162.87
+	"Dead end, which is connected to a polysilicon wire inside of ADYK, which is driven by the drain of "
+	"transistor pair P5/N5.";
+
+# akut.q is not connected
+
+wire arov:clk
+	arov.q -> agut.in1 bate.in2 bapy.in2
+	@-56.14,164.08,-55.70,164.08,-55.70,161.00,-60.44,161.00
+	@-57.63,154.34,-58.94,154.34,-58.95,166.30,-60.46,166.30;
+
+wire apuk:clk
+	apuk.q -> adyk.d
+	@-57.63,165.45,-58.27,165.45,-58.27,161.85,-57.63,161.85;
+
+wire ~apuk:clk
+	apuk.~q -> arov.in
+	@-57.65,165.63,-58.10,165.63,-58.10,163.91,-57.63,163.91;
+
+wire apuk_p5n5_drain_poly:clk
+	@-57.16,165.63,-57.88,165.63,-57.88,165.78,-58.27,165.78
+	"Dead end, which is connected to a polysilicon wire inside of APUK, which is driven by the drain of "
+	"transistor pair P5/N5.";
+
+# adap.q is not connected
+
+wire afep:clk
+	afep.q -> buto.in1 bugo.in
+	@-57.63,166.82,-59.12,166.82,-59.12,160.48,-59.10,153.48,-60.42,153.48
+	@-59.12,160.48,-60.42,160.48;
+
+wire alef:clk
+	alef.q -> apuk.d afep.in
+	@-56.16,168.20,-55.71,168.20,-55.71,164.59,-56.16,164.59
+	@-55.71,166.65,-56.17,166.65;
+
+# alef.~q is not connected
+
+wire alef_p5n5_drain_poly:clk
+	@-57.17,168.36,-57.88,168.36,-57.88,168.54,-58.27,168.54,-58.27,168.35
+	"Dead end, which is connected to a polysilicon wire inside of ALEF, which is driven by the drain of "
+	"transistor pair P5/N5.";
+
+# aced.q is not connected
+
+wire atyp:clk
+	atyp.q -> afas.in2 ajax.in buto.in2 bapy.in3 belu.in1
+	@-57.65,169.56,-59.29,169.56
+	@-57.64,152.29,-58.09,152.29,-58.09,152.80,-59.27,152.80,-59.27,155.19,-59.29,166.48,-59.29,171.42,-60.46,171.42
+	@-59.27,153.66,-60.41,153.66
+	@-59.27,155.19,-57.63,155.19
+	@-59.29,166.48,-60.44,166.48;
+
+wire afur:clk
+	afur.q -> alef.d
+	@-57.66,170.91,-58.11,170.91,-58.11,167.33,-57.62,167.33;
+
+wire ~afur:clk
+	afur.~q -> atyp.in
+	@-56.16,171.09,-55.72,171.09,-55.72,169.38,-56.19,169.38;
+
+wire afur_p5n5_drain_poly:clk
+	@-57.21,171.09,-57.88,171.09,-57.88,171.25,-58.29,171.25
+	"Dead end, which is connected to a polysilicon wire inside of AFUR, which is driven by the drain of "
+	"transistor pair P5/N5.";
+
+# azym.q is not connected
+
+wire adeh:clk
+	adeh.q -> adyk.ena apuk.~ena alef.ena afur.~ena
+	@-56.17,172.29,-55.19,172.29,-55.19,162.03,-56.16,162.03
+	@-55.19,164.42,-56.17,164.42
+	@-55.19,167.50,-56.15,167.50
+	@-55.19,169.90,-56.17,169.90;
+
+wire atal_4mhz:clk
+	atal.q -> adyk.~ena apuk.ena alef.~ena afur.ena adeh.in azof.in
+	@-57.65,172.80,-58.44,172.80
+	@-57.63,161.69,-58.44,161.69,-58.44,174.33,-57.66,174.33
+	@-58.44,164.77,-57.63,164.77
+	@-58.44,167.16,-57.63,167.16
+	@-58.44,170.24,-57.63,170.24
+	@-58.44,172.11,-57.63,172.11;
+
+wire anos:clk
+	anos.q -> avet.in1
+	@-57.65,173.31,-58.10,173.31,-58.10,173.48,-57.63,173.48;
+
+wire avet:clk
+	avet.q -> atal.in anos.in2
+	@-56.17,173.82,-55.73,173.82,-55.73,172.45,-56.19,172.45
+	@-55.73,173.14,-56.17,173.14;
+
+wire arys:clk
+	arys.q -> avet.in2
+	@-57.67,174.17,-58.10,174.17,-58.10,173.65,-57.63,173.65;
 
 wire azof:clk
 	azof.q -> zaxy.in atag.in

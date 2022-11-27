@@ -37,3 +37,60 @@ cell tugy:nor2  rot0,flip @-179.16,166.54,-178.63,168.61 spare;
 cell tury:nor2  rot0,flip @-179.67,166.55,-179.16,168.62 spare;
 cell teho:nor2  rot0,flip @-180.19,166.55,-179.66,168.63 spare;
 cell tonu:nor2  rot0,flip @-180.69,166.53,-180.17,168.62 spare;
+
+
+# Wires originating from col T next to analog parts
+# -------------------------------------------------
+
+wire ~amp_en:ctl
+	tace.q -> tygu.in # TODO: Add connections to analog parts
+	@-125.48,174.70,-125.48,173.98,-126.29,173.98,-126.29,175.84,-208.81,175.80
+	@-125.48,174.33,-125.65,174.33,-125.65,174.70
+	@-213.05,168.95,-212.67,168.95,-212.67,167.91,-209.23,167.91,-209.25,173.38,-209.25,174.64,-208.81,174.64,
+	 -208.81,176.67,-214.13,176.67,-214.13,177.02,-221.35,177.02,-221.35,171.12,-224.63,171.12,-224.63,172.16,
+	 -225.02,172.16
+	@-209.25,173.38,-212.68,173.38,-212.68,174.41,-213.09,174.41
+	@-221.35,174.77,-224.65,174.77,-224.65,175.81,-225.04,175.81;
+
+wire amp_en:ctl
+	tygu.q # TODO: Add connections to analog parts
+	@-125.82,174.70,-125.82,170.80
+	@-125.82,174.15,-126.15,174.15,-126.15,176.02,-142.55,176.02,-209.08,175.98
+	@-142.55,176.02,-142.55,172.62,-142.16,172.62
+	@-213.37,169.38,-209.07,169.38,-209.08,174.85,-209.08,176.50,-214.26,176.50,-214.26,176.88,-221.17,176.88,
+	 -221.17,172.59,-225.34,172.59
+	@-209.08,174.85,-213.41,174.85
+	@-221.17,176.24,-225.36,176.24;
+
+# tesy.q is not connected
+# tajy.q is not connected
+# tohu.q is not connected
+# topa.q is not connected
+# tyne.q is not connected
+# tyke.q is not connected
+# tolo.q is not connected
+# toly.q is not connected
+# tyxu.q is not connected
+# teco.q is not connected
+# tywu.q is not connected
+# teja.q is not connected
+# typy.q is not connected
+# tony.q is not connected
+# teca.q is not connected
+# toko.q is not connected
+# tasu.q is not connected
+# tuhe.q is not connected
+# tosu.q is not connected
+# tume.q is not connected
+# tumy.q is not connected
+# tuve.q is not connected
+# tabu.q is not connected
+# towu.q is not connected
+# tane.q is not connected
+# tete.q is not connected
+# tafo.q is not connected
+# togu.q is not connected
+# tugy.q is not connected
+# tury.q is not connected
+# teho.q is not connected
+# tonu.q is not connected
