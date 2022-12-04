@@ -3374,7 +3374,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b01ace97-d129-4975-aa97-dd7df51450f2)
   )
-  (text "CH2_BIT Duty cycle:\nD7-6 = 00 : 00000001 (~{Q0}.Q1.Q2)\nD7-6 = 01 : 00000011 (Q1.Q2)\nD7-6 = 10 : 00001111 (Q2)\nD7-6 = 11 : 11111100 (~{Q1.Q2})\n"
+  (text "CH2_PWM Duty cycle:\nD7-6 = 00 : 00000001 (~{Q0}.Q1.Q2)\nD7-6 = 01 : 00000011 (Q1.Q2)\nD7-6 = 10 : 00001111 (Q2)\nD7-6 = 11 : 11111100 (~{Q1.Q2})\n"
     (at 207.645 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c68706ce-fc4c-487b-bcf8-a20b791e96e5)
@@ -3596,7 +3596,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3a49482-8270-4666-97b0-2a3d85671d5c)
   )
-  (label "CH2_BIT" (at 311.785 43.815 180)
+  (label "CH2_PWM" (at 311.785 43.815 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c7b12b80-05d1-44cb-859f-51956fe04c63)
   )
@@ -3713,7 +3713,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7890b1d3-bfcd-485a-b04e-51f429bf0ea0)
   )
-  (hierarchical_label "CH2_KICKSTART_PULSE" (shape input) (at 301.625 221.615 180)
+  (hierarchical_label "CH2_START" (shape input) (at 301.625 221.615 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7977b63b-b5a9-4ba7-85f7-63be22a9a35e)
   )
