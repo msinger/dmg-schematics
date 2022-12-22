@@ -99,7 +99,7 @@ wire soma:data
 
 # soma.~q is not connected
 
-wire sole:ctl
+wire sole:clk
 	sole.q -> sosa.~ena sedu.~ena tahy.~ena tesu.~ena taxo.~ena tovu.~ena tazu.~ena tewa.~ena
 	@-70.05,31.26,-70.05,37.27,-68.34,37.27,-68.34,33.21,-64.91,33.21,-64.91,37.91,
 	 -61.50,37.91,-61.50,35.52

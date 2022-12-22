@@ -313,7 +313,7 @@ wire logo:dec
 	logo.q -> mory.in2
 	@-99.52,113.22,-99.52,115.09,-100.88,115.09,-100.88,115.78;
 
-wire leco:ctl
+wire leco:clk
 	leco.q -> raru.ena rowe.ena ryke.ena ryne.ena rase.ena rejy.ena reka.ena romy.ena
 	@-100.03,113.23,-100.03,118.84,-99.52,118.84,-99.52,122.27,-99.88,122.27,-99.88,127.34
 	@-101.08,128.42,-101.08,127.34,-99.02,127.34,-99.02,128.42
