@@ -713,7 +713,7 @@ wire hyro:data
 
 # hyro.~q is not connected
 
-wire bit13_xnor_bit14:data
+wire lfsr_bit13_eq_bit14:data
 	hura.q -> joto.d
 	@-218.60,220.43,-218.60,221.61,-208.87,221.61,-208.87,223.30;
 
