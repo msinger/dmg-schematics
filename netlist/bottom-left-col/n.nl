@@ -1,78 +1,506 @@
 # Cells in column N in bottom left corner
 # ---------------------------------------
 
-cell nady:nand2      rot0 @-123.97,34.34,-123.48,36.41      ->ppu-bgfifo;
-cell nobo:inv_a      rot0 @-124.31,34.33,-123.96,36.41      ->ppu-bgfifo;
-cell naja:nand2      rot0 @-124.82,34.33,-124.30,36.40      ->ppu-bgfifo;
-cell nepo:dffsr      rot0 @-128.60,34.32,-124.81,36.40      ->ppu-bgfifo;
-cell nefo:d_latch_a2 rot0 @-129.96,34.32,-128.58,36.40      ->ppu-bgfifo;
-cell neda:dffsr      rot0 @-133.73,34.32,-129.96,36.39      ->ppu-bgfifo;
-cell nyha:nand2      rot0 @-134.23,34.32,-133.72,36.39      ->ppu-bgfifo;
-cell neze:inv_a      rot0 @-134.58,34.34,-134.23,36.40      ->ppu-bgfifo;
-cell nute:nand2      rot0 @-135.25,34.33,-134.73,36.40      ->ppu-bgfifo;
-cell nozo:dffsr      rot0 @-139.02,34.32,-135.25,36.41      ->ppu-bgfifo;
-cell nexa:nand2      rot0 @-139.53,34.32,-139.02,36.41      ->ppu-bgfifo;
-cell nyxo:nand2      rot0 @-140.05,34.33,-139.52,36.38      ->ppu-bgfifo;
-cell noly:inv_a      rot0 @-140.39,34.32,-140.04,36.41      ->ppu-bgfifo;
-cell nasa:d_latch_a2 rot0 @-141.77,34.30,-140.38,36.40      ->ppu-bgfifo;
-cell nudu:d_latch_a2 rot0 @-143.13,34.31,-141.75,36.40      ->ppu-bgfifo;
-cell nyva:dffr_b2    rot0 @-146.03,34.31,-143.11,36.38      ->ppu-cycles;
-cell nofu:inv_a      rot0 @-146.38,34.30,-146.02,36.39      ->ppu-cycles;
-cell nydy:nand3      rot0 @-147.05,34.32,-146.37,36.39      ->ppu-cycles;
-cell nako:inv_a      rot0 @-147.40,34.32,-147.03,36.40      ->ppu-cycles;
-cell nogu:nand2      rot0 @-147.91,34.33,-147.39,36.39      ->ppu-cycles;
-cell neny:inv_a      rot0 @-148.24,34.32,-147.91,36.40      ->ppu-cycles;
-cell neta:and2       rot0 @-148.95,34.32,-148.24,36.41      ->ppu-cycles;
-cell nyka:dffr_b2    rot0 @-151.85,34.31,-148.91,36.38      ->ppu-cycles;
-cell nafy:nor2       rot0 @-152.36,34.32,-151.84,36.40      ->ppu-cycles;
-cell nyxu:nor3       rot0 @-153.05,34.31,-152.35,36.39      ->ppu-cycles;
-cell nyfo:inv_a      rot0 @-153.38,34.32,-153.03,36.38      ->ppu-cycles;
-cell nunu:dffr_b2    rot0 @-156.29,34.32,-153.37,36.38      ->ppu-cycles;
-cell nyze:dffr_b2    rot0 @-159.19,34.32,-156.27,36.38      ->ppu-cycles;
-cell nocu:inv_a      rot0 @-159.54,34.32,-159.18,36.38      ->ppu-cycles;
-cell nuny:and2       rot0 @-160.23,34.32,-159.52,36.38      ->ppu-cycles;
-cell nopa:dffr_b2    rot0 @-163.13,34.30,-160.20,36.40      ->ppu-cycles;
-cell nofe:dr_latch   rot0 @-164.82,34.30,-163.11,36.38      ->ppu-window;
-cell nezo:xnor       rot0 @-165.85,34.31,-164.82,36.38      ->ppu-window;
-cell nono:xnor       rot0 @-166.90,34.32,-165.84,36.38      ->ppu-window;
-cell nuku:dr_latch   rot0 @-168.59,34.30,-166.89,36.40      ->ppu-window;
-cell nory:xnor       rot0 @-169.63,34.30,-168.59,36.38      ->ppu-window;
-cell nufa:inv_a      rot0 @-169.96,34.30,-169.62,36.39      ->ppu-window;
-cell nuko:inv_a      rot0 @-170.30,34.31,-169.95,36.38      ->ppu-window;
-cell nogy:nand5      rot0 @-171.34,34.30,-170.30,36.39      ->ppu-window;
-cell nytu:xnor       rot0 @-172.54,34.30,-171.49,36.39      ->ppu-window;
-cell noke:dr_latch   rot0 @-174.23,34.30,-172.52,36.39      ->ppu-window;
-cell nafu:dr_latch   rot0 @-175.93,34.29,-174.23,36.38      ->ppu-window;
-cell nevu:xnor       rot0 @-176.98,34.30,-175.93,36.38      ->ppu-window;
-cell nyro:dr_latch   rot0 @-178.67,34.29,-176.98,36.38      ->ppu-window;
-cell nupa:xnor       rot0 @-179.72,34.30,-178.66,36.39      ->ppu-window;
-cell naga:dr_latch   rot0 @-181.41,34.30,-179.71,36.38      ->ppu-window;
-cell neru:nor8       rot0 @-182.95,34.29,-181.40,36.38      ->ppu-lcd;
-cell nele:inv_a      rot0 @-183.30,34.30,-182.95,36.38      ->ppu-window;
-cell noko:and4       rot0 @-184.32,34.30,-183.30,36.37      ->ppu-lcd;
-cell nojo:xnor       rot0 @-185.37,34.30,-184.31,36.38      ->ppu-window;
-cell nulo:dr_latch   rot0 @-187.03,34.31,-185.34,36.37      ->ppu-window;
-cell nuka:dr_latch   rot0 @-188.75,34.31,-187.02,36.36      ->ppu-window;
-cell nene:dr_latch   rot0 @-190.48,34.31,-188.75,36.37      ->ppu-window;
-cell naze:xnor       rot0 @-191.49,34.29,-190.46,36.36      ->ppu-window;
-cell nuta:inv_a      rot0 @-191.83,34.28,-191.49,36.38 comp ->ppu-window;
-cell neso:dr_latch   rot0 @-193.55,34.32,-191.83,36.37      ->ppu-window;
-cell nype:dffr_b2    rot0 @-196.45,34.30,-193.55,36.39      ->ppu-lcd;
-cell napo:dffr_b2    rot0 @-199.35,34.30,-196.44,36.37      ->ppu-lcd;
-cell nusy:d_latch_a  rot0 @-200.90,34.30,-199.34,36.38      ->ppu-pal;
-cell nuke:dffsr      rot0 @-204.66,34.29,-200.89,36.37      ->ppu-xcomp;
-cell nybe:inv_a      rot0 @-205.00,34.29,-204.66,36.38      ->ppu-ycomp;
-cell nelo:ao4        rot0 @-207.55,34.29,-205.16,36.37      ->ppu-mux;
-cell nura:ao4        rot0 @-209.95,34.29,-207.55,36.36      ->ppu-mux;
-cell nylu:dffsr      rot0 @-213.72,34.28,-209.94,36.37      ->ppu-objfifo;
-cell nuro:dffsr      rot0 @-217.46,34.28,-213.70,36.36      ->ppu-objfifo;
-cell numa:and3       rot0 @-218.33,34.27,-217.46,36.35      ->ppu-mux;
-cell nuxo:and3       rot0 @-219.34,34.29,-218.49,36.35      ->ppu-mux;
-cell nupo:inv_a      rot0 @-219.87,34.29,-219.52,36.36      ->ppu-mux;
-cell nale:inv_a      rot0 @-220.20,34.29,-219.86,36.36      ->ppu-mux;
-cell nypo:and3       rot0 @-221.06,34.27,-220.19,36.35      ->ppu-mux;
-cell nuca:inv_a      rot0 @-221.41,34.27,-221.05,36.36      ->ppu-objfifo;
-cell naro:inv_a      rot0 @-221.75,34.29,-221.40,36.35      ->ppu-xcomp;
-cell nuly:nor2       rot0 @-222.27,34.27,-221.73,36.36      ->ppu-mux;
-cell naty:dffsr      rot0 @-226.02,34.28,-222.25,36.35      ->ppu-objfifo;
-cell nuva:inv_b      rot0 @-226.52,34.28,-226.00,36.36      ->ppu-vram;
+cell nady:nand2      rot0 @-123.97,34.34,-123.48,36.41 ->ppu-bgfifo;
+cell nobo:inv_a      rot0 @-124.31,34.33,-123.96,36.41 ->ppu-bgfifo;
+cell naja:nand2      rot0 @-124.82,34.33,-124.30,36.40 ->ppu-bgfifo;
+cell nepo:dffsr      rot0 @-128.60,34.32,-124.81,36.40 ->ppu-bgfifo;
+cell nefo:d_latch_a2 rot0 @-129.96,34.32,-128.58,36.40 ->ppu-bgfifo;
+cell neda:dffsr      rot0 @-133.73,34.32,-129.96,36.39 ->ppu-bgfifo;
+cell nyha:nand2      rot0 @-134.23,34.32,-133.72,36.39 ->ppu-bgfifo;
+cell neze:inv_a      rot0 @-134.58,34.34,-134.23,36.40 ->ppu-bgfifo;
+cell nute:nand2      rot0 @-135.25,34.33,-134.73,36.40 ->ppu-bgfifo;
+cell nozo:dffsr      rot0 @-139.02,34.32,-135.25,36.41 ->ppu-bgfifo;
+cell nexa:nand2      rot0 @-139.53,34.32,-139.02,36.41 ->ppu-bgfifo;
+cell nyxo:nand2      rot0 @-140.05,34.33,-139.52,36.38 ->ppu-bgfifo;
+cell noly:inv_a      rot0 @-140.39,34.32,-140.04,36.41 ->ppu-bgfifo;
+cell nasa:d_latch_a2 rot0 @-141.77,34.30,-140.38,36.40 ->ppu-bgfifo;
+cell nudu:d_latch_a2 rot0 @-143.13,34.31,-141.75,36.40 ->ppu-bgfifo;
+cell nyva:dffr_b2    rot0 @-146.03,34.31,-143.11,36.38 ->ppu-cycles;
+cell nofu:inv_a      rot0 @-146.38,34.30,-146.02,36.39 ->ppu-cycles;
+cell nydy:nand3      rot0 @-147.05,34.32,-146.37,36.39 ->ppu-cycles;
+cell nako:inv_a      rot0 @-147.40,34.32,-147.03,36.40 ->ppu-cycles;
+cell nogu:nand2      rot0 @-147.91,34.33,-147.39,36.39 ->ppu-cycles;
+cell neny:inv_a      rot0 @-148.24,34.32,-147.91,36.40 ->ppu-cycles;
+cell neta:and2       rot0 @-148.95,34.32,-148.24,36.41 ->ppu-cycles;
+cell nyka:dffr_b2    rot0 @-151.85,34.31,-148.91,36.38 ->ppu-cycles;
+cell nafy:nor2       rot0 @-152.36,34.32,-151.84,36.40 ->ppu-cycles;
+cell nyxu:nor3       rot0 @-153.05,34.31,-152.35,36.39 ->ppu-cycles;
+cell nyfo:inv_a      rot0 @-153.38,34.32,-153.03,36.38 ->ppu-cycles;
+cell nunu:dffr_b2    rot0 @-156.29,34.32,-153.37,36.38 ->ppu-cycles;
+cell nyze:dffr_b2    rot0 @-159.19,34.32,-156.27,36.38 ->ppu-cycles;
+cell nocu:inv_a      rot0 @-159.54,34.32,-159.18,36.38 ->ppu-cycles;
+cell nuny:and2       rot0 @-160.23,34.32,-159.52,36.38 ->ppu-cycles;
+cell nopa:dffr_b2    rot0 @-163.13,34.30,-160.20,36.40 ->ppu-cycles;
+cell nofe:dr_latch   rot0 @-164.82,34.30,-163.11,36.38 ->ppu-window;
+cell nezo:xnor       rot0 @-165.85,34.31,-164.82,36.38 ->ppu-window;
+cell nono:xnor       rot0 @-166.90,34.32,-165.84,36.38 ->ppu-window;
+cell nuku:dr_latch   rot0 @-168.59,34.30,-166.89,36.40 ->ppu-window;
+cell nory:xnor       rot0 @-169.63,34.30,-168.59,36.38 ->ppu-window;
+cell nufa:inv_a      rot0 @-169.96,34.30,-169.62,36.39 ->ppu-window;
+cell nuko:inv_a      rot0 @-170.30,34.31,-169.95,36.38 ->ppu-window;
+cell nogy:nand5      rot0 @-171.34,34.30,-170.30,36.39 ->ppu-window;
+cell nytu:xnor       rot0 @-172.54,34.30,-171.49,36.39 ->ppu-window;
+cell noke:dr_latch   rot0 @-174.23,34.30,-172.52,36.39 ->ppu-window;
+cell nafu:dr_latch   rot0 @-175.93,34.29,-174.23,36.38 ->ppu-window;
+cell nevu:xnor       rot0 @-176.98,34.30,-175.93,36.38 ->ppu-window;
+cell nyro:dr_latch   rot0 @-178.67,34.29,-176.98,36.38 ->ppu-window;
+cell nupa:xnor       rot0 @-179.72,34.30,-178.66,36.39 ->ppu-window;
+cell naga:dr_latch   rot0 @-181.41,34.30,-179.71,36.38 ->ppu-window;
+cell neru:nor8       rot0 @-182.95,34.29,-181.40,36.38 ->ppu-lcd;
+cell nele:inv_a      rot0 @-183.30,34.30,-182.95,36.38 ->ppu-window;
+cell noko:and4       rot0 @-184.32,34.30,-183.30,36.37 ->ppu-lcd;
+cell nojo:xnor       rot0 @-185.37,34.30,-184.31,36.38 ->ppu-window;
+cell nulo:dr_latch   rot0 @-187.03,34.31,-185.34,36.37 ->ppu-window;
+cell nuka:dr_latch   rot0 @-188.75,34.31,-187.02,36.36 ->ppu-window;
+cell nene:dr_latch   rot0 @-190.48,34.31,-188.75,36.37 ->ppu-window;
+cell naze:xnor       rot0 @-191.49,34.29,-190.46,36.36 ->ppu-window;
+cell nuta:inv_a      rot0 @-191.83,34.28,-191.49,36.38 ->ppu-window;
+cell neso:dr_latch   rot0 @-193.55,34.32,-191.83,36.37 ->ppu-window;
+cell nype:dffr_b2    rot0 @-196.45,34.30,-193.55,36.39 ->ppu-lcd;
+cell napo:dffr_b2    rot0 @-199.35,34.30,-196.44,36.37 ->ppu-lcd;
+cell nusy:d_latch_a  rot0 @-200.90,34.30,-199.34,36.38 ->ppu-pal;
+cell nuke:dffsr      rot0 @-204.66,34.29,-200.89,36.37 ->ppu-xcomp;
+cell nybe:inv_a      rot0 @-205.00,34.29,-204.66,36.38 ->ppu-ycomp;
+cell nelo:ao4        rot0 @-207.55,34.29,-205.16,36.37 ->ppu-mux;
+cell nura:ao4        rot0 @-209.95,34.29,-207.55,36.36 ->ppu-mux;
+cell nylu:dffsr      rot0 @-213.72,34.28,-209.94,36.37 ->ppu-objfifo;
+cell nuro:dffsr      rot0 @-217.46,34.28,-213.70,36.36 ->ppu-objfifo;
+cell numa:and3       rot0 @-218.33,34.27,-217.46,36.35 ->ppu-mux;
+cell nuxo:and3       rot0 @-219.34,34.29,-218.49,36.35 ->ppu-mux;
+cell nupo:inv_a      rot0 @-219.87,34.29,-219.52,36.36 ->ppu-mux;
+cell nale:inv_a      rot0 @-220.20,34.29,-219.86,36.36 ->ppu-mux;
+cell nypo:and3       rot0 @-221.06,34.27,-220.19,36.35 ->ppu-mux;
+cell nuca:inv_a      rot0 @-221.41,34.27,-221.05,36.36 ->ppu-objfifo;
+cell naro:inv_a      rot0 @-221.75,34.29,-221.40,36.35 ->ppu-xcomp;
+cell nuly:nor2       rot0 @-222.27,34.27,-221.73,36.36 ->ppu-mux;
+cell naty:dffsr      rot0 @-226.02,34.28,-222.25,36.35 ->ppu-objfifo;
+cell nuva:inv_b      rot0 @-226.52,34.28,-226.00,36.36 ->ppu-vram;
+
+
+# Wires originating from column N in bottom left corner
+# -----------------------------------------------------
+
+wire nady:data
+	nady.q -> pybo.~r
+	@-123.89,36.11,-123.89,38.41,-125.95,38.41,-125.95,38.98;
+
+wire nobo:data
+	nobo.q -> nady.in1
+	@-124.23,34.63,-124.23,33.92,-123.55,33.92,-123.55,34.63;
+
+wire naja:data
+	naja.q -> pybo.~s
+	@-124.75,36.12,-124.75,38.15
+	@-123.21,38.99,-123.21,38.15,-125.43,38.15,-125.43,38.98;
+
+wire nepo:data
+	nepo.q -> modu.d
+	@-127.48,34.61,-127.48,33.78,-131.08,33.78,-131.08,31.53;
+
+# nepo.~q is not connected
+
+wire nefo:data
+	nefo.q -> nobo.in naja.in2
+	@-129.70,36.13,-129.70,37.89,-124.06,37.89,-124.06,36.13
+	@-124.58,37.89,-124.58,36.13;
+
+wire neda:data
+	neda.q -> pybo.d
+	@-132.62,36.12,-132.62,38.02,-124.24,38.02,-124.24,38.97;
+
+# neda.~q is not connected
+
+wire nyha:data
+	nyha.q -> neda.~r
+	@-134.16,34.61,-134.16,34.17,-132.79,34.17,-132.79,34.61;
+
+wire neze:data
+	neze.q -> nyha.in1
+	@-134.49,36.11,-134.49,37.68,-133.81,37.68,-133.81,36.10;
+
+wire nute:data
+	nute.q -> neda.~s
+	@-135.17,36.13,-135.17,37.80,-132.27,37.80
+	@-132.27,36.12,-132.27,37.89,-130.05,37.89,-130.05,36.10;
+
+wire nozo:data
+	nozo.q -> moju.d
+	@-137.91,34.62,-137.91,32.63,-136.20,32.63,-136.20,31.55;
+
+# nozo.~q is not connected
+
+wire nexa:data
+	nexa.q -> nozo.~r
+	@-139.45,36.13,-139.45,37.84,-138.08,37.84,-138.08,36.12;
+
+wire nyxo:data
+	nyxo.q -> nozo.~s
+	@-139.97,36.12,-139.97,37.63,-135.34,37.63,-135.34,36.12
+	@-137.58,37.63,-137.58,36.11;
+
+wire noly:data
+	noly.q -> nexa.in1
+	@-140.30,34.61,-140.30,33.91,-139.10,33.91,-139.10,34.60;
+
+wire nasa:data
+	nasa.q -> neze.in nute.in2
+	@-141.51,34.61,-141.51,33.44,-135.00,33.44,-135.00,34.63
+	@-135.00,34.04,-134.32,34.04,-134.32,34.62;
+
+wire nudu:data
+	nudu.q -> nyxo.in2 noly.in
+	@-142.87,36.11,-142.87,37.55,-140.14,37.55
+	@-140.14,36.13,-140.14,37.84,-139.80,37.84,-139.80,36.13;
+
+wire nyva:ctl
+	nyva.q -> moce.in1 nofu.in
+	@-145.94,34.59,-145.94,32.88,-144.06,32.88,-144.06,31.53
+	@-145.94,34.04,-146.11,34.04,-146.11,34.62;
+
+wire ~nyva:clk
+	nyva.~q -> nyva.d
+	@-145.77,36.10,-145.77,38.09,-144.23,38.09,-144.23,36.10;
+
+wire nofu:ctl
+	nofu.q -> nydy.in3 nogu.in2 xuha.in
+	@-146.29,36.11,-146.29,42.49,-145.95,42.49,-145.95,48.62,-147.84,48.62,-147.84,53.06,-146.30,53.06,-146.30,62.66,
+	 -146.48,62.66,-146.48,68.42,-146.66,68.42,-146.66,69.39
+	@-146.29,37.92,-146.80,37.92,-146.80,36.12
+	@-146.80,37.28,-147.66,37.28,-147.66,36.11;
+
+wire ~latch_bg_bp_a:ctl
+	nydy.q -> mete.in
+	@-146.97,34.62,-146.97,33.27,-144.74,33.27,-144.74,31.55;
+
+wire nako:ctl
+	nako.q -> mofu.in1 nogu.in1
+	@-147.31,34.59,-147.31,33.57,-147.48,33.57
+	@-147.48,34.60,-147.48,33.30,-148.68,33.30,-148.68,31.52;
+
+wire nogu:ctl
+	nogu.q -> neny.in neta.in1
+	@-147.83,36.11,-147.83,37.58,-148.00,37.58
+	@-148.00,36.13,-148.00,37.63,-148.34,37.63,-148.34,36.10;
+
+wire neny:ctl
+	neny.q -> potu.in1
+	@-148.17,36.11,-148.17,37.45,-147.66,37.45,-147.66,38.97;
+
+wire bp_cy:ctl
+	neta.q -> reso.ena rusa.ena roha.ena suvo.ena sezu.ena tobo.ena vejy.ena vapy.ena vury.ena xucy.in1 asul.in2
+	@-148.85,36.12,-148.85,38.52,-147.14,38.52,-147.14,42.49,-146.63,42.49,-146.63,47.64,-142.88,47.64,-142.88,52.59,
+	 -142.38,52.59,-142.38,58.05
+	@-145.62,47.64,-145.62,45.27
+	@-142.88,47.95,-129.38,47.95,-129.38,45.28
+	@-141.86,47.95,-141.86,49.36
+	@-145.63,58.49,-145.63,58.05,-142.03,58.05,-142.03,62.10,-136.23,62.10
+	@-130.08,59.99,-130.08,61.38,-136.23,61.38,-136.23,68.68,-135.55,68.68,-135.55,73.02,-163.16,73.01,-163.16,79.09,
+	 -163.43,79.09,-163.43,82.55,-176.59,82.54,-176.59,83.93;
+
+wire nyka:ctl
+	nyka.q -> pory.d suvu.in3
+	@-151.76,36.10,-151.76,37.45,-153.47,37.45,-153.47,42.88,-153.13,42.88,-153.13,46.91,-153.65,46.91,-153.65,49.36;
+
+# nyka.~q is not connected
+
+wire nafy:ctl
+	nafy.q -> nyka.~r pory.~r
+	@-152.28,36.11,-152.28,37.84,-149.88,37.84,-149.88,36.11
+	@-151.08,37.84,-151.08,36.11
+	@-152.28,37.33,-153.30,37.33,-153.30,38.97
+	@-153.30,38.52,-154.50,38.52,-154.50,38.97;
+
+wire ~bg_cy_rst:ctl
+	nyxu.q -> lony.~s luxa.in loze.in lovy.~r laxu.~r moce.in2 mesu.~r nyva.~r
+	@-152.96,34.59,-152.96,33.86,-147.14,33.86,-147.14,31.53
+	@-147.14,32.28,-145.26,32.28,-145.26,34.61
+	@-145.94,32.28,-145.94,31.55
+	@-145.26,34.04,-144.06,34.04,-144.06,34.63
+	@-144.23,34.04,-144.23,28.51,-142.35,28.51,-142.35,26.98
+	@-142.35,28.25,-141.15,28.25
+	@-141.15,26.98,-141.15,28.71,-138.24,28.71
+	@-139.44,28.71,-139.44,26.98
+	@-138.24,26.98,-138.24,28.84,-134.13,28.84,-134.13,26.98
+	@-135.51,28.84,-135.51,26.99
+	@-134.31,28.84,-134.31,26.99;
+
+wire nyfo:ctl
+	nyfo.q -> mosu.in
+	@-153.30,34.60,-153.30,33.27,-152.61,33.27,-152.61,31.54;
+
+wire nunu:ctl
+	nunu.q -> pynu.s
+	@-156.20,36.11,-156.20,38.01,-155.34,38.01,-155.34,38.98;
+
+# nunu.~q is not connected
+# nyze.q is not connected
+
+wire ~nyze:ctl
+	nyze.~q -> pova.in1
+	@-158.93,36.10,-158.93,37.06,-156.37,37.06,-156.37,38.95;
+
+wire nocu:ctl
+	nocu.q -> pore.in
+	@-159.46,36.11,-159.46,37.32,-160.99,37.32,-160.99,38.97;
+
+wire win_start:ctl
+	nuny.q -> nyfo.in puku.in1
+	@-153.12,34.60,-153.12,34.03,-160.13,34.03,-160.13,37.83,-164.75,37.83,-164.75,38.95;
+
+# nopa.q is not connected
+
+wire ~nopa:ctl
+	nopa.~q -> nuny.in2
+	@-162.88,36.10,-162.88,37.06,-159.79,37.06,-159.79,36.10;
+
+wire ff4b_d1:data
+	nofe.q -> puwu.in2
+	@-164.41,36.10,-164.41,38.01,-168.68,38.01,-168.68,38.96;
+
+wire ~ff4b_d1:data
+	nofe.~q -> muka.in
+	@-164.57,34.59,-164.57,32.24,-157.73,32.24,-157.73,31.52;
+
+wire nezo:data
+	nezo.q -> puky.in2
+	@-164.91,36.11,-164.91,37.87,-167.48,37.87,-167.48,38.96;
+
+wire nono:data
+	nono.q -> puky.in4
+	@-165.94,36.09,-165.94,37.15,-167.83,37.15,-167.83,38.97;
+
+wire ff4b_d7:data
+	nuku.q -> pase.in2
+	@-168.16,36.10,-168.16,36.84,-166.63,36.84,-166.63,38.96;
+
+wire ~ff4b_d7:data
+	nuku.~q -> mara.in
+	@-168.34,34.59,-168.34,34.02,-167.65,34.02,-167.65,31.52;
+
+wire nory:data
+	nory.q -> puky.in3
+	@-168.67,36.09,-168.67,37.83,-167.65,37.83,-167.65,38.96;
+
+wire nufa:ctl
+	nufa.q -> nogy.in1
+	@-169.88,36.11,-169.88,38.00,-170.39,38.00,-170.39,36.11;
+
+wire wxy_match:ctl
+	nuko.q -> pany.in2 pyco.d
+	@-170.23,36.09,-170.23,37.32
+	@-170.73,38.95,-170.73,37.32,-165.94,37.32,-165.94,38.96;
+
+wire nogy:ctl
+	nogy.q -> nuko.in
+	@-171.26,36.09,-171.26,36.76,-170.05,36.76,-170.05,36.09;
+
+wire nytu:data
+	nytu.q -> nogy.in5
+	@-171.59,36.09,-171.59,36.89,-171.07,36.89,-171.07,36.08;
+
+wire ff4b_d2:data
+	noke.q -> puho.in2
+	@-173.80,36.10,-173.80,38.13,-172.96,38.13,-172.96,38.96;
+
+wire ~ff4b_d2:data
+	noke.~q -> moko.in
+	@-173.98,34.60,-173.98,34.15,-173.64,34.15,-173.64,31.52;
+
+wire ff4a_d7:data
+	nafu.q -> nupa.in1
+	@-175.51,36.09,-175.51,36.84,-178.93,36.84,-178.93,36.09;
+
+wire ~ff4a_d7:data
+	nafu.~q -> mera.in
+	@-175.68,34.59,-175.68,32.82,-174.99,32.82,-174.99,31.52;
+
+wire nevu:data
+	nevu.q -> pafu.in5
+	@-176.02,36.09,-176.02,37.82,-182.87,37.82,-182.87,38.96;
+
+wire ff4a_d1:data
+	nyro.q -> pebo.in1
+	@-178.24,36.09,-178.24,37.44,-178.76,37.44,-178.76,38.94;
+
+wire ~ff4a_d1:data
+	nyro.~q -> poda.in
+	@-178.42,36.08,-178.42,37.01,-177.04,37.01,-177.04,38.96;
+
+wire nupa:data
+	nupa.q -> palo.in5
+	@-178.76,36.09,-178.76,37.26,-184.23,37.26,-184.23,38.95;
+
+wire ff4a_d2:data
+	naga.q -> pomo.in1
+	@-180.98,36.09,-180.98,37.57,-181.33,37.57,-181.33,38.95;
+
+wire ~ff4a_d2:data
+	naga.~q -> pygu.in
+	@-181.16,36.09,-181.16,37.44,-180.13,37.44,-180.13,38.96;
+
+wire neru:ctl
+	neru.q -> meda.d
+	@-182.86,34.59,-182.86,33.88,-188.33,33.88,-188.33,31.51;
+
+wire nele:ctl
+	nele.q -> pafu.in1
+	@-183.22,36.09,-183.22,36.84,-182.18,36.84,-182.18,38.94;
+
+wire noko:ctl
+	noko.q -> myta.d
+	@-184.23,34.59,-184.23,32.40,-191.24,32.40,-191.24,31.52;
+
+wire nojo:data
+	nojo.q -> palo.in2
+	@-184.40,36.09,-184.40,37.56,-183.73,37.56,-183.73,38.95;
+
+wire ff4a_d4:data
+	nulo.q -> nojo.in1
+	@-186.63,36.08,-186.63,37.86,-184.57,37.86,-184.57,36.08;
+
+wire ~ff4a_d4:data
+	nulo.~q -> mega.in
+	@-186.79,34.59,-186.79,32.52,-183.88,32.52,-183.88,31.52;
+
+wire ff4a_d6:data
+	nuka.q -> pezo.in1
+	@-188.33,36.09,-188.33,37.56,-184.74,37.56,-184.74,38.95;
+
+wire ~ff4a_d6:data
+	nuka.~q -> polo.in
+	@-188.51,36.09,-188.51,37.39,-187.13,37.39,-187.13,38.96;
+
+wire ff4a_d5:data
+	nene.q -> paga.in1
+	@-190.04,36.09,-190.04,37.26,-185.76,37.26,-185.76,38.95;
+
+wire ~ff4a_d5:data
+	nene.~q -> pela.in
+	@-190.21,36.08,-190.21,37.44,-189.19,37.44,-189.19,38.94;
+
+wire naze:data
+	naze.q -> pafu.in2
+	@-190.56,36.09,-190.56,37.99,-182.35,37.99,-182.35,38.96;
+
+wire nuta:ctl
+	nuta.q -> mela.ena nafu.ena nyro.ena naga.ena nulo.ena nuka.ena nene.ena neso.ena
+	@-191.75,36.09,-191.75,37.26,-192.44,37.26,-192.44,36.09
+	@-191.75,36.53,-189.36,36.53,-189.36,33.76,-174.83,33.76,-174.83,34.61
+	@-187.64,33.76,-187.64,34.59
+	@-185.94,33.76,-185.94,34.59
+	@-180.30,33.76,-180.30,34.59
+	@-177.56,33.76,-177.56,34.60
+	@-176.37,33.76,-176.37,31.53;
+
+wire ff4a_d0:data
+	neso.q -> naze.in1
+	@-193.13,36.09,-193.13,37.39,-190.73,37.39,-190.73,36.08;
+
+wire ~ff4a_d0:data
+	neso.~q -> punu.in
+	@-193.29,36.08,-193.29,38.11,-188.16,38.11,-188.16,38.95;
+
+wire nype:ctl
+	nype.q -> popu.clk
+	@-196.37,36.08,-196.37,37.43,-195.01,37.43,-195.01,38.95;
+
+wire ~nype:ctl
+	nype.~q -> meda.clk myta.clk
+	@-196.19,34.59,-196.19,33.20,-190.38,33.20,-190.38,31.50
+	@-190.38,32.52,-187.47,32.52,-187.47,31.52;
+
+wire napo:ctl
+	napo.q -> magu.in1
+	@-199.27,34.59,-199.27,33.88,-205.76,33.88,-205.76,31.52;
+
+wire ~napo:ctl
+	napo.~q -> napo.d
+	@-199.09,36.08,-199.09,37.13,-197.56,37.13,-197.56,36.07;
+
+wire bgp_d1:data
+	nusy.q -> nura.in7
+	@-200.47,36.09,-200.47,37.39,-209.19,37.38,-209.19,36.08;
+
+wire ~bgp_d1:data
+	nusy.~q -> paba.in
+	@-200.65,36.09,-200.65,38.11,-198.93,38.11,-198.93,38.94;
+
+wire nuke:data
+	nuke.q -> moda.d
+	@-203.55,34.59,-203.55,33.41,-203.37,33.41,-203.37,28.21,-202.34,28.21,-202.34,30.02;
+
+# nuke.~q is not connected
+
+wire nybe:ctl
+	nybe.q -> puco.in
+	@-204.92,36.08,-204.92,38.50,-204.74,38.50,-204.74,38.95;
+
+wire nelo:data
+	nelo.q -> pero.in1
+	@-207.47,36.09,-207.47,37.85,-207.13,37.85,-207.13,42.33,-215.68,42.33,-215.68,40.42;
+
+wire nura:data
+	nura.q -> paty.in1
+	@-209.87,36.08,-209.87,38.36,-209.52,38.36,-209.52,42.08,-214.83,42.08,-214.83,40.43;
+
+wire sprite_px_a0:data
+	nylu.q -> mefu.in2 pefu.d
+	@-212.60,36.07,-212.60,38.36,-210.38,38.36,-210.38,33.71,-210.55,33.71,-210.55,31.50
+	@-210.90,38.36,-210.90,38.95;
+
+# nylu.~q is not connected
+
+wire sprite_px_b0:data
+	nuro.q -> mefu.in3 maso.d
+	@-216.35,34.57,-216.35,33.70
+	@-217.89,31.52,-217.89,33.70,-210.73,33.70,-210.73,31.51;
+
+# nuro.~q is not connected
+
+wire numa:data
+	numa.q -> nelo.in3 nura.in4
+	@-218.24,34.57,-218.24,33.40,-208.32,33.40,-208.32,37.51,-205.77,37.51,-205.77,36.08;
+
+wire nuxo:data
+	nuxo.q -> nelo.in5 nura.in6
+	@-219.27,36.05,-219.27,37.24,-208.84,37.24
+	@-208.84,36.07,-208.84,37.63,-206.27,37.63,-206.27,36.09;
+
+wire nupo:data
+	nupo.q -> nuxo.in2 nypo.in2
+	@-219.77,34.58,-219.77,33.70
+	@-220.46,34.57,-220.46,33.70,-218.75,33.70,-218.75,34.58;
+
+wire nale:data
+	nale.q -> numa.in1 nypo.in1
+	@-220.12,36.07,-220.12,37.50
+	@-220.29,36.07,-220.29,37.50,-217.55,37.50,-217.55,36.08;
+
+wire nypo:data
+	nypo.q -> nelo.in1 nura.in2
+	@-220.98,36.08,-220.98,37.76,-207.81,37.76
+	@-207.81,36.08,-207.81,37.98,-205.26,37.98,-205.26,36.08;
+
+wire nuca:data
+	nuca.q -> mada.in1
+	@-221.32,34.57,-221.32,33.82,-220.63,33.82,-220.63,31.50;
+
+wire naro:data
+	naro.q -> pyzy.in1
+	@-221.67,36.08,-221.67,37.51,-220.81,37.51,-220.81,38.94;
+
+wire nuly:data
+	nuly.q -> poka.in1
+	@-222.18,36.07,-222.18,38.48,-222.70,38.48,-222.70,42.87,-197.74,42.89,-197.74,40.45;
+
+wire sprite_px_a2:data
+	naty.q -> myzo.in2 pyjo.d
+	@-223.70,31.50,-223.70,33.70,-224.91,33.70,-224.91,38.10,-222.52,38.10,-222.52,38.95;
+
+# naty.~q is not connected
+
+wire nuva:adr
+	nuva.q -> ma10.~o
+	@-226.44,36.05,-226.44,38.35,-228.62,38.35,-228.62,43.98,-233.27,43.98,-233.28,53.08,-236.48,53.08,-236.48,48.20,
+	 -236.80,48.20;

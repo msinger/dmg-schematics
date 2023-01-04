@@ -21,7 +21,7 @@ cell fuhe:tri_inv_if0 rot0,flip @-148.50,105.53,-147.46,107.58      ->ppu-dma;
 cell fusy:tri_inv_if0 rot0,flip @-149.52,105.52,-148.50,107.59      ->ppu-dma;
 cell femo:inv_a       rot0,flip @-149.86,105.53,-149.52,107.58      ->ppu-ycomp;
 cell fony:dffr_b2     rot0,flip @-152.77,105.52,-149.86,107.59      ->ppu-objctl;
-cell feto:and4        rot0,flip @-153.97,105.53,-152.77,107.57      ->ppu-objctl;
+cell feto:and4        rot0,flip @-153.97,105.53,-152.95,107.57      ->ppu-objctl;
 cell futo:tri_inv_if0 rot0,flip @-154.98,105.54,-153.97,107.59      ->ppu-oam;
 cell fafo:half_add    rot0,flip @-156.70,105.54,-154.98,107.59      ->ppu-bgscroll;
 cell faku:tri_inv_if0 rot0,flip @-157.72,105.52,-156.70,107.58      ->ppu-oam;

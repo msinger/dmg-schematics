@@ -84,31 +84,31 @@ js: coords.js
 .PHONY: all html cells wires labels floorplan png js
 
 netlist.html: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --html >$@.part
+	$(NLCONV) --html $@.part -- $^
 	mv $@.part $@
 
 cells.png: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --png-cells >$@.part
+	$(NLCONV) --png-cells $@.part -- $^
 	mv $@.part $@
 
 wires.png: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --png-wires >$@.part
+	$(NLCONV) --png-wires $@.part -- $^
 	mv $@.part $@
 
 labels.png: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --png-labels >$@.part
+	$(NLCONV) --png-labels $@.part -- $^
 	mv $@.part $@
 
 floorplan.png: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --png-floor >$@.part
+	$(NLCONV) --png-floor $@.part -- $^
 	mv $@.part $@
 
 out.png: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --png >$@.part
+	$(NLCONV) --png $@.part -- $^
 	mv $@.part $@
 
 coords.js: $(NETLIST_FILES)
-	cat $^ | $(NLCONV) --js >$@.part
+	$(NLCONV) --js $@.part -- $^
 	mv $@.part $@
 
 clean:
