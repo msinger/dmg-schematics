@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.1,
@@ -23,7 +24,8 @@
       "track_widths": [],
       "via_dimensions": []
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -207,18 +209,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -228,6 +235,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -247,7 +255,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -261,10 +269,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -273,33 +281,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ADDRESS_LINES",
-        "nets": [
-          "/APU/A0",
-          "/APU/A1",
-          "/APU/A10",
-          "/APU/A11",
-          "/APU/A12",
-          "/APU/A13",
-          "/APU/A14",
-          "/APU/A15",
-          "/APU/A2",
-          "/APU/A3",
-          "/APU/A4",
-          "/APU/A5",
-          "/APU/A6",
-          "/APU/A7",
-          "/APU/A8",
-          "/APU/A9"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(251, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -308,25 +298,105 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "TEST_NETS",
-        "nets": [
-          "/CLOCKS AND RESET/T1T2",
-          "/CLOCKS AND RESET/T1~{T2}",
-          "/PPU/VRAM INTERFACE/T1~{T2}",
-          "/SYS DECODE/T1T2",
-          "/SYS DECODE/~{T1}T2"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(111, 255, 247)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A0"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A1"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A10"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A11"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A12"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A13"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A14"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A15"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A2"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A3"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A4"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A5"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A6"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A7"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A8"
+      },
+      {
+        "netclass": "ADDRESS_LINES",
+        "pattern": "/APU/A9"
+      },
+      {
+        "netclass": "TEST_NETS",
+        "pattern": "/CLOCKS AND RESET/T1T2"
+      },
+      {
+        "netclass": "TEST_NETS",
+        "pattern": "/CLOCKS AND RESET/T1~{T2}"
+      },
+      {
+        "netclass": "TEST_NETS",
+        "pattern": "/PPU/VRAM INTERFACE/T1~{T2}"
+      },
+      {
+        "netclass": "TEST_NETS",
+        "pattern": "/SYS DECODE/T1T2"
+      },
+      {
+        "netclass": "TEST_NETS",
+        "pattern": "/SYS DECODE/~{T1}T2"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -342,6 +412,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -373,7 +445,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "Output/",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
@@ -515,6 +591,10 @@
       "OAM"
     ],
     [
+      "423a1380-9c27-41c7-8bd1-4a10b9334dc5",
+      "OAM MEMORIES"
+    ],
+    [
       "970ab005-739e-432b-963e-24ee1a13020c",
       "SPRITE Y COMPARATOR"
     ],
@@ -557,10 +637,6 @@
     [
       "15383592-65eb-42e1-8c01-24762d458954",
       "PIXEL MUX"
-    ],
-    [
-      "423a1380-9c27-41c7-8bd1-4a10b9334dc5",
-      "OAM MEMORIES"
     ]
   ],
   "text_variables": {}
