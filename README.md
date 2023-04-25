@@ -62,8 +62,8 @@ Screenshots of these layouts can be seen in the cell reference documentation
 Netlist
 -------
 
-The files in the netlist folder contain definitions for all cells and *some*\* wires of the chip. (\* Adding the
-wires is still in progress.) They can be parsed by the [nlconv](https://github.com/msinger/nlconv) tool. This tool is
+The files in the netlist folder contain definitions for all cells and wires of the chip.
+They can be parsed by the [nlconv](https://github.com/msinger/nlconv) tool. This tool is
 currently capable of converting the netlists into the following products:
  * HTML file with colors and links that make the netlists more readable.
  * PNG images that are used for the overlays on the Leaflet [map](http://iceboy.a-singer.de/dmg_cpu_b_map/) of the
