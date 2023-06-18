@@ -6,30 +6,30 @@
 
   (title_block
     (title "DMG-CPU B")
-    (date "2023-05-25")
+    (date "2023-06-18")
     (rev "0.6")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
   )
 
   (lib_symbols
-    (symbol "DMG_CPU_Cells:IBUF" (pin_numbers hide) (in_bom yes) (on_board yes)
+    (symbol "DMG_CPU_Cells:IBUF_B" (pin_numbers hide) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "IBUF" (at 0 -6.35 0)
+      (property "Value" "IBUF_B" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#ibuf" (at 0 -8.89 0)
+      (property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#ibuf_b" (at 0 -8.89 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Simple inverting input buffer." (at 0 0 0)
+      (property "ki_description" "Simple inverting input buffer with pull-up resistor." (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "IBUF_0_1"
+      (symbol "IBUF_B_0_1"
         (rectangle (start -10.16 5.08) (end 10.16 -5.08)
           (stroke (width 0) (type default))
           (fill (type background))
@@ -55,7 +55,7 @@
           (fill (type none))
         )
       )
-      (symbol "IBUF_1_1"
+      (symbol "IBUF_B_1_1"
         (pin output line (at 13.97 0 180) (length 3.81)
           (name "~{INPUT}" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -2414,7 +2414,7 @@
     (uuid ff3b95da-397f-4f1d-97fc-976143fa7170)
   )
 
-  (text "This pad is not bonded to any external pin" (at 295.91 71.755 0)
+  (text "This pad is not bonded to any external pin." (at 295.91 71.755 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 214d7c1a-b8eb-42c5-8bb3-7a1ac96d73d3)
   )
@@ -2423,7 +2423,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 76dcd782-df47-4b5a-807d-60498d86f267)
   )
-  (text "This pad is not bonded to any external pin" (at 137.795 61.595 0)
+  (text "This pad is not bonded to any external pin\nand has an internal pull-up resistor."
+    (at 137.795 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80752837-a3bd-4c8e-b85e-7c76cf115a09)
   )
@@ -3306,6 +3307,31 @@
     )
   )
 
+  (symbol (lib_id "DMG_CPU_Cells:IBUF_B") (at 168.91 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 865efb6d-b478-4136-b1ab-0bb88ab5360a)
+    (property "Reference" "~{NMI}" (at 155.575 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "IBUF_B" (at 154.305 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 168.91 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#ibuf_b" (at 168.91 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b6a98675-84b1-4018-a7b6-6b52bf4ebd5a))
+    (instances
+      (project "dmg_cpu_b"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9"
+          (reference "~{NMI}") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "DMG_CPU_Cells:TRI_INV_IF0") (at 118.11 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d65670f-a82c-410b-a579-7a45214d0f10)
@@ -3597,31 +3623,6 @@
       (project "dmg_cpu_b"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9"
           (reference "LEXY") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "DMG_CPU_Cells:IBUF") (at 168.91 53.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cca79db2-90c1-41c7-8380-59a282917ad8)
-    (property "Reference" "~{NMI}" (at 155.575 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "IBUF" (at 155.575 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 53.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#ibuf" (at 168.91 62.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e12dd28-81fb-48e2-a1fb-32cdc781fb34))
-    (instances
-      (project "dmg_cpu_b"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e44f9b8d-1c67-4a8e-a0a4-b913edbf1ba9"
-          (reference "~{NMI}") (unit 1)
         )
       )
     )

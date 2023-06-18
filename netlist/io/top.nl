@@ -12,7 +12,7 @@ cell a14:iobuf_a  rot90 @-41.87,89.37,-25.75,98.70                     ->bus-adr
 cell a13:iobuf_a  rot90 @-41.88,99.39,-25.76,108.72                    ->bus-adr;
 cell a12:iobuf_a  rot90 @-41.89,109.38,-25.77,118.71                   ->bus-adr;
 cell a11:iobuf_a  rot90 @-41.91,119.39,-25.76,128.70                   ->bus-adr;
-cell ~nmi:ibuf    rot90 @-41.91,129.39,-25.80,137.64;
+cell ~nmi:ibuf_b  rot90 @-41.91,129.39,-25.80,137.64;
 cell a10:iobuf_a  rot90 @-41.93,138.34,-25.80,147.66                   ->bus-adr;
 cell a9:iobuf_a   rot90 @-41.95,148.32,-25.82,157.65                   ->bus-adr;
 cell a8:iobuf_a   rot90 @-41.95,158.34,-25.82,167.66                   ->bus-adr;
