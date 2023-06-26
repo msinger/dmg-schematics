@@ -91,7 +91,7 @@ alias cell wexy -> vage;
 # Wires originating from column V in bottom left corner
 # -----------------------------------------------------
 
-wire int_vbl_buf:ctl
+wire int_vbl:ctl
 	vypu.q -> lope.clk
 	@-124.26,59.98,-124.26,62.54,-122.72,62.54,-122.72,63.03,-115.38,63.03,-115.41,108.55,-90.02,108.59,
 	 -90.02,111.01,-88.25,111.01,-88.25,111.75;

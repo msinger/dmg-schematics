@@ -6,7 +6,7 @@
 
   (title_block
     (title "DMG-CPU B")
-    (date "2023-06-18")
+    (date "2023-06-26")
     (rev "0.6")
     (company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
     (comment 1 "https://github.com/msinger/dmg-schematics")
@@ -3879,7 +3879,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 46779a5a-1463-4693-8e1f-e0e5b8940137)
   )
-  (text "INT = '1' when V >= 144" (at 311.15 73.66 0)
+  (text "MODE1 (INT_VBL) = '1' when V >= 144" (at 311.15 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50efd5ae-d36c-4df9-be5c-1eac0660a626)
   )
@@ -4241,7 +4241,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 72db574a-78a9-4d9d-a4e6-0fc00a2aef34)
   )
-  (hierarchical_label "INT_VBL" (shape output) (at 296.545 73.66 0) (fields_autoplaced)
+  (hierarchical_label "MODE1" (shape output) (at 296.545 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7414fcce-bba7-40a4-b646-57ecec3f09cc)
   )
