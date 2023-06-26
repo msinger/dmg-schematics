@@ -2444,7 +2444,7 @@ Eq||D5G2;|pin@2||O
 X
 
 # Cell inverter_a;2{lay}
-Cinverter_a;2{lay}||mocmos|1651184881008|1665327411708||DRC_last_good_drc_area_date()G1665327428925|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1665327428925|USER_drawing_designer_name()SMichael Singer
+Cinverter_a;2{lay}||mocmos|1651184881008|1687210712055||DRC_last_good_drc_area_date()G1687210745247|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1687210745247|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -2463,12 +2463,14 @@ NMetal-2-Pin|pin@10||60.5|0|1|1||
 NMetal-2-Pin|pin@11||-60.5|0|1|1||
 NMetal-2-Pin|pin@13||60.5|-10|1|1||
 NMetal-2-Pin|pin@14||-60.5|-10|1|1||
+NN-Active-Pin|pin@15||-57.5|-10||||
+NP-Active-Pin|pin@16||57.5|-10||||
 NP-Well-Node|plnode@0||-33|-5|66|30||A
 NN-Well-Node|plnode@1||33|-5|66|30||A
-NN-Select-Node|plnode@2||-32.5|-14.5|19|2||A
-NP-Select-Node|plnode@3||32.5|-14.5|19|2||A
+NN-Select-Node|plnode@2||-42.5|-14.5|39|2||A
+NP-Select-Node|plnode@3||42.5|-14.5|39|2||A
 NP-Transistor|pmos@0||42.5|-5|32|||
-NMetal-1-N-Well-Con|well@0||14.5|0||||
+NMetal-1-N-Well-Con|well@0||12.5|0||||
 AP-Active|net@2|||RS2700|contact@1||32.5|-10|pmos@0|diff-bottom|32.5|-8.75
 AP-Active|net@3|||RS2700|pmos@0|diff-top|42.5|-1.25|contact@0||42.5|0
 AN-Active|net@4|||RS2700|nmos@0|diff-top|-42.5|-1.25|contact@2||-42.5|0
@@ -2485,9 +2487,11 @@ AMetal-1|net@19||1|RS1800|contact@3||-32.5|-10|contact@8||-3|-10
 AMetal-1|net@20||1|RS0|contact@1||32.5|-10|contact@8||-3|-10
 AMetal-2|net@21||1|RS1800|pin@14||-60.5|-10|contact@8||-3|-10
 AMetal-2|net@22||1|RS0|pin@13||60.5|-10|contact@8||-3|-10
-AMetal-1|net@23||1|RS0|contact@0||42.5|0|well@0||14.5|0
+AMetal-1|net@23||1|R0|contact@0||42.5|0|well@0||12.5|0
 APolysilicon-1|net@24|||RS1800|nmos@0|poly-right|-23|-5|pin@9||-9.5|-5
 APolysilicon-1|net@25|||RS1800|pin@9||-9.5|-5|pmos@0|poly-left|23|-5
+AN-Active|net@26||2|R1800|pin@15||-57.5|-10|contact@3||-38|-10
+AP-Active|net@27||2|R0|pin@16||57.5|-10|contact@1||38|-10
 Egnd||D5G2;|pin@8||G/B
 Egnd_1||D5G2;|pin@7||G/B
 Ein||D5G2;|pin@11||I
@@ -2564,7 +2568,7 @@ Eq||D5G2;|pin@2||O
 X
 
 # Cell inverter_b;1{lay}
-Cinverter_b;1{lay}||mocmos|1651184881008|1665327752412||DRC_last_good_drc_area_date()G1665327757143|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1665327757143|USER_drawing_designer_name()SMichael Singer
+Cinverter_b;1{lay}||mocmos|1651184881008|1687210857136||DRC_last_good_drc_area_date()G1687210867509|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1687210867509|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||42.5|0|30|||
 NMetal-1-P-Active-Con|contact@1||32.5|-10|10|||
@@ -2591,15 +2595,17 @@ NMetal-1-Pin|pin@17||-54|-20||||
 NMetal-2-Pin|pin@18||60.5|-20|1|1||
 NMetal-1-Pin|pin@19||27.5|-20||||
 NMetal-1-Pin|pin@20||-27.5|-20||||
+NN-Active-Pin|pin@21||-27.5|-20||||
+NP-Active-Pin|pin@22||27.5|-20||||
 NP-Well-Node|plnode@0||-33|-10|66|40||A
 NN-Well-Node|plnode@1||33|-10|66|40||A
-NN-Select-Node|plnode@4||14.5|-5|9|4||
-NN-Select-Node|plnode@5||-47.5|-24.5|29|2||A
-NP-Select-Node|plnode@6||47.5|-24.5|29|2||A
+NN-Select-Node|plnode@4||12.5|-5|9|4||A
+NN-Select-Node|plnode@5||-42.5|-24.5|39|2||A
+NP-Select-Node|plnode@6||42.5|-24.5|39|2||A
 NP-Transistor|pmos@0||42.5|-5|32|||
 NP-Transistor|pmos@1||42.5|-15|32|||
-NMetal-1-N-Well-Con|well@0||14.5|0||||
-NMetal-1-N-Well-Con|well@1||14.5|-10||||
+NMetal-1-N-Well-Con|well@0||12.5|0||||
+NMetal-1-N-Well-Con|well@1||12.5|-10||||
 AP-Active|net@2|||RS2700|contact@1||32.5|-10|pmos@0|diff-bottom|32.5|-8.75
 AP-Active|net@3|||RS2700|pmos@0|diff-top|42.5|-1.25|contact@0||42.5|0
 AN-Active|net@4|||RS2700|nmos@0|diff-top|-42.5|-1.25|contact@2||-42.5|0
@@ -2610,8 +2616,8 @@ AMetal-1|net@13||1|RS0|contact@5||-3|-1|contact@6||-9.5|-1
 APolysilicon-1|net@16||3|IJRS900|contact@6||-9.5|-1|pin@9||-9.5|-5
 AMetal-2|net@17||1|RS0|pin@10||60.5|0|contact@5||-3|0
 AMetal-2|net@18||1|RS1800|pin@11||-60.5|0|contact@5||-3|0
-AMetal-1|net@23||1|RS0|contact@0||42.5|0|well@0||14.5|0
-AMetal-1|net@24||1|RS2700|well@1||14.5|-10|well@0||14.5|0
+AMetal-1|net@23||1|R0|contact@0||42.5|0|well@0||12.5|0
+AMetal-1|net@24||1|RS2700|well@1||12.5|-10|well@0||12.5|0
 AP-Active|net@25|||RS2700|pmos@1|diff-top|32.5|-11.25|contact@1||32.5|-10
 AN-Active|net@26|||RS2700|nmos@1|diff-top|-32.5|-11.25|contact@3||-32.5|-10
 AN-Active|net@27||32|IJRS2700|nmos@1|diff-top|-42.5|-11.25|nmos@0|diff-bottom|-42.5|-8.75
@@ -2635,6 +2641,8 @@ APolysilicon-1|net@47|||RS1800|nmos@0|poly-right|-23|-5|pin@9||-9.5|-5
 APolysilicon-1|net@48|||RS1800|pin@9||-9.5|-5|pmos@0|poly-left|23|-5
 APolysilicon-1|net@49|||RS1800|nmos@1|poly-right|-23|-15|pin@15||-9.5|-15
 APolysilicon-1|net@50|||RS1800|pin@15||-9.5|-15|pmos@1|poly-left|23|-15
+AN-Active|net@51||2|R0|pin@21||-27.5|-20|contact@8||-37|-20
+AP-Active|net@52||2|R1800|pin@22||27.5|-20|contact@7||37|-20
 Egnd||D5G2;|pin@8||G/B
 Egnd_1||D5G2;|pin@7||G/B
 Ein||D5G2;|pin@11||I
