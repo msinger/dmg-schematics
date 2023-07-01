@@ -1,46 +1,46 @@
 # Cells in row Y in top center
 # ----------------------------
 
-cell ytob:spare rot270     @-83.57,149.28,-81.46,149.79 spare;
-cell ymeb:spare rot270     @-83.55,149.79,-81.46,150.30 spare;
-cell yfal:spare rot270     @-83.55,150.30,-81.46,150.82 spare;
-cell yxow:spare rot270     @-83.55,150.82,-81.46,151.34 spare;
-cell ynuj:spare rot270     @-83.57,151.33,-81.46,151.84 spare;
-cell ytor:spare rot270     @-83.56,151.84,-81.46,152.38 spare;
-cell yloh:spare rot270     @-83.56,152.37,-81.46,152.87 spare;
-cell yhes:spare rot270     @-83.55,152.88,-81.46,153.39 spare;
-cell ykor:spare rot270     @-83.56,153.38,-81.45,153.90 spare;
-cell ykus:spare rot270     @-83.56,153.90,-81.46,154.42 spare;
-cell yxaj:spare rot270     @-83.55,154.41,-81.45,154.94 spare;
-cell ykyt:spare rot270     @-83.55,154.93,-81.45,155.45 spare;
-cell ydos:spare rot270     @-83.56,155.44,-81.47,155.96 spare;
-cell yjag:spare rot270     @-83.57,155.95,-81.46,156.46 spare;
-cell ycaw:spare rot270     @-83.56,156.46,-81.47,156.98 spare;
-cell ybyw:spare rot270     @-83.57,156.97,-81.47,157.48 spare;
-cell ynyv:spare rot270     @-83.57,157.48,-81.46,157.99 spare;
-cell yhyb:dffsr rot270     @-83.56,157.99,-81.47,161.76 spare;
-cell ycym:dffsr rot270     @-83.57,161.75,-81.48,165.51 spare;
-cell yaza:inv_a rot270     @-84.17,165.87,-82.08,166.21       ->test;
-cell yula:and3  rot270     @-84.17,166.21,-82.07,167.04       ->bootrom;
-cell ymul:or2   rot90,flip @-84.17,167.38,-82.05,168.05       ->apu-ch3;
-cell ylac:and2  rot90,flip @-84.18,168.05,-82.06,168.74       ->apu-ch3;
-cell ytyl:and2  rot90,flip @-84.19,168.73,-82.06,169.42       ->apu-ch3;
-cell ycux:inv_a rot90,flip @-84.17,169.41,-82.07,169.76       ->apu-ch3;
-cell ysod:or2   rot90,flip @-84.19,169.76,-82.07,170.45       ->apu-ch3;
-cell ymaw:and2  rot90,flip @-84.18,170.43,-82.07,171.13       ->apu-ch3;
-cell yhej:and2  rot90,flip @-84.20,171.12,-82.08,171.81       ->apu-ch3;
-cell yjej:and2  rot90,flip @-84.18,171.80,-82.09,172.49       ->apu-ch3;
-cell ygef:and2  rot90,flip @-84.19,172.48,-82.08,173.17       ->apu-ch3;
-cell yfux:and2  rot90,flip @-84.17,173.16,-82.09,173.86       ->apu-ch3;
-cell yvop:and2  rot90,flip @-84.19,173.84,-82.10,174.54       ->apu-ch3;
-cell ydod:inv_a rot90,flip @-84.20,174.53,-82.09,174.88       ->apu-ch3;
-cell ynys:inv_a rot90,flip @-84.18,174.88,-82.09,175.23       ->apu-ch3;
-cell ynur:inv_a rot90,flip @-84.19,175.22,-82.09,175.57       ->apu-ch3;
-cell yzeg:inv_a rot90,flip @-84.19,175.56,-82.09,175.88       ->apu-ch3;
+cell ytob:nand2s rot270     @-83.57,149.28,-81.46,149.79 spare;
+cell ymeb:nand2s rot270     @-83.55,149.79,-81.46,150.30 spare;
+cell yfal:nand2s rot270     @-83.55,150.30,-81.46,150.82 spare;
+cell yxow:nand2s rot270     @-83.55,150.82,-81.46,151.34 spare;
+cell ynuj:nand2s rot270     @-83.57,151.33,-81.46,151.84 spare;
+cell ytor:nand2s rot270     @-83.56,151.84,-81.46,152.38 spare;
+cell yloh:nand2s rot270     @-83.56,152.37,-81.46,152.87 spare;
+cell yhes:nand2s rot270     @-83.55,152.88,-81.46,153.39 spare;
+cell ykor:nand2s rot270     @-83.56,153.38,-81.45,153.90 spare;
+cell ykus:nand2s rot270     @-83.56,153.90,-81.46,154.42 spare;
+cell yxaj:nand2s rot270     @-83.55,154.41,-81.45,154.94 spare;
+cell ykyt:nand2s rot270     @-83.55,154.93,-81.45,155.45 spare;
+cell ydos:nand2s rot270     @-83.56,155.44,-81.47,155.96 spare;
+cell yjag:nand2s rot270     @-83.57,155.95,-81.46,156.46 spare;
+cell ycaw:nand2s rot270     @-83.56,156.46,-81.47,156.98 spare;
+cell ybyw:nand2s rot270     @-83.57,156.97,-81.47,157.48 spare;
+cell ynyv:nand2s rot270     @-83.57,157.48,-81.46,157.99 spare;
+cell yhyb:dffsr  rot270     @-83.56,157.99,-81.47,161.76 spare;
+cell ycym:dffsr  rot270     @-83.57,161.75,-81.48,165.51 spare;
+cell yaza:inv_a  rot270     @-84.17,165.87,-82.08,166.21       ->test;
+cell yula:and3   rot270     @-84.17,166.21,-82.07,167.04       ->bootrom;
+cell ymul:or2    rot90,flip @-84.17,167.38,-82.05,168.05       ->apu-ch3;
+cell ylac:and2   rot90,flip @-84.18,168.05,-82.06,168.74       ->apu-ch3;
+cell ytyl:and2   rot90,flip @-84.19,168.73,-82.06,169.42       ->apu-ch3;
+cell ycux:inv_a  rot90,flip @-84.17,169.41,-82.07,169.76       ->apu-ch3;
+cell ysod:or2    rot90,flip @-84.19,169.76,-82.07,170.45       ->apu-ch3;
+cell ymaw:and2   rot90,flip @-84.18,170.43,-82.07,171.13       ->apu-ch3;
+cell yhej:and2   rot90,flip @-84.20,171.12,-82.08,171.81       ->apu-ch3;
+cell yjej:and2   rot90,flip @-84.18,171.80,-82.09,172.49       ->apu-ch3;
+cell ygef:and2   rot90,flip @-84.19,172.48,-82.08,173.17       ->apu-ch3;
+cell yfux:and2   rot90,flip @-84.17,173.16,-82.09,173.86       ->apu-ch3;
+cell yvop:and2   rot90,flip @-84.19,173.84,-82.10,174.54       ->apu-ch3;
+cell ydod:inv_a  rot90,flip @-84.20,174.53,-82.09,174.88       ->apu-ch3;
+cell ynys:inv_a  rot90,flip @-84.18,174.88,-82.09,175.23       ->apu-ch3;
+cell ynur:inv_a  rot90,flip @-84.19,175.22,-82.09,175.57       ->apu-ch3;
+cell yzeg:inv_a  rot90,flip @-84.19,175.56,-82.09,175.88       ->apu-ch3;
 # column below this row, right to wave ram:
-cell ydez:inv_a rot0,flip  @-94.06,174.25,-93.73,176.32       ->apu-ch3;
-cell yrar:inv_a rot0,flip  @-94.41,174.25,-94.07,176.34       ->apu-ch3;
-cell ybor:inv_a rot0,flip  @-94.74,174.23,-94.41,176.33       ->apu-ch3;
+cell ydez:inv_a  rot0,flip  @-94.06,174.25,-93.73,176.32       ->apu-ch3;
+cell yrar:inv_a  rot0,flip  @-94.41,174.25,-94.07,176.34       ->apu-ch3;
+cell ybor:inv_a  rot0,flip  @-94.74,174.23,-94.41,176.33       ->apu-ch3;
 
 
 # Wires originating from row Y in top center
