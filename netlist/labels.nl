@@ -163,7 +163,7 @@ label "[Magenta]  Clock    Const 1&0  ×Output always 1 (VDD)  Interrupts"      
 label "[Blue]     Data     OR         ×Not connected          PPU"                     :blue    1.7 @ -7.6,16  top-left;
 label "[Yellow]   Address  Latch      ×Bidirectional          Adr&Data Bus, Sys-Decode":yellow  1.7 @ -9.5,16  top-left;
 label "[Cyan]              Adder                              Serial Link"             :cyan    1.7 @-11.4,16  top-left;
-label "[Teal]     Reset    Unknown                            Timer"                   :teal    1.7 @-13.3,16  top-left;
+label "[Teal]     Reset                                       Timer"                   :teal    1.7 @-13.3,16  top-left;
 label "[Lime]     Analog   Tribuf     ×Input                  Joypad"                  :lime    1.7 @-15.2,16  top-left;
 label "[Green]             Mux                                Boot ROM & High RAM"     :green   1.7 @-17.1,16  top-left;
 label "[Red]      VDD      AND        ×Output                 APU"                     :red     1.7 @-19.0,16  top-left;
