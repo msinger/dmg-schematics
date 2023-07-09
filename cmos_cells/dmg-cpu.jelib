@@ -10,7 +10,7 @@ Vschematic|sch
 Tmocmos|MoCMOSDisallowStackedVias()BT|mocmosNumberOfMetalLayers()I2|mocmosSecondPolysilicon()BF
 
 # Cell ao3;1{lay}
-Cao3;1{lay}||mocmos|1650127927062|1688765583185||CELL_text_size()I12|DRC_last_good_drc_area_date()G1688765603538|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1688765603538|USER_drawing_designer_name()SMichael Singer
+Cao3;1{lay}||mocmos|1650127927062|1688930521410||CELL_text_size()I12|DRC_last_good_drc_area_date()G1688930533635|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1688930533635|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-42.5|0|30|||
 NMetal-1-N-Active-Con|contact@1||-32.5|-20|10|||
@@ -101,6 +101,8 @@ NP-Active-Pin|pin@152||27.5|-80||||
 NP-Active-Pin|pin@153||57.5|-50||||
 NP-Active-Pin|pin@154||57.5|-80||||
 NP-Active-Pin|pin@155||57.5|-100||||
+NP-Active-Pin|pin@156||57.5|-30||||
+NP-Active-Pin|pin@157||57.5|-60||||
 NN-Well-Node|plnode@0||33|-50|66|120||A
 NP-Well-Node|plnode@1||-33|-50|66|120||A
 NN-Select-Node|plnode@2||-42.5|-50.5|39|110||A
@@ -224,6 +226,8 @@ AP-Active|net@382||2|R1800|pin@152||27.5|-80|contact@16||37.5|-80
 AP-Active|net@383||2|R0|pin@153||57.5|-50|contact@13||37.5|-50
 AP-Active|net@384||2|R0|pin@154||57.5|-80|contact@16||37.5|-80
 AP-Active|net@385||2|R0|pin@155||57.5|-100|contact@18||38|-100
+AP-Active|net@386||2|R0|pin@156||57.5|-30|contact@11||38|-30
+AP-Active|net@387||2|R0|pin@157||57.5|-60|contact@14||38|-60
 Egnd||D5G2;|pin@35||G/B
 Egnd_1||D5G2;|pin@102||G/B
 Ein1||D5G2;|pin@104||I
