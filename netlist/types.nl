@@ -278,32 +278,32 @@ type nand_latch:red    ~s ~r q:out ~q:out              @-140.93,208.98,-139.89,2
                                                    ~q  @-140.32,208.98,-140.32,211.02
                                                    q   @-140.50,208.98,-140.50,211.03
                                                    ~s  @-140.84,208.98,-140.84,211.02
-                                                   "Set/reset latch with inverted S/R inputs.";
+                                                   "NAND-latch with inverted set/reset inputs.";
 type nor_latch:blue    s  r  q:out ~q:out              @-140.93,208.98,-139.89,211.03
                                                    s   @-139.98,208.98,-139.98,211.02
                                                    ~q  @-140.32,208.98,-140.32,211.02
                                                    q   @-140.50,208.98,-140.50,211.03
                                                    r   @-140.84,208.98,-140.84,211.02
-                                                   "Set/reset latch.";
+                                                   "NOR-latch with set/reset inputs.";
 type d_latch_a:yellow  d ena ~ena    q:out ~q:out      @-156.46,29.76,-154.91,31.81
                                                    ~ena@-154.99,29.77,-154.99,31.82
                                                    d   @-155.16,29.78,-155.16,31.81
                                                    ena @-155.51,29.78,-155.51,31.81
                                                    q   @-156.02,29.78,-156.02,31.80
                                                    ~q  @-156.20,29.78,-156.20,31.80
-                                                   "Gated data latch.";
+                                                   "Gated data latch with complementary enable inputs.";
 type d_latch_a2:yellow d ena ~ena    q:out             @-129.96,34.32,-128.58,36.40
                                                    ~ena@-128.68,34.33,-128.68,36.39
                                                    d   @-128.85,34.34,-128.85,36.39
                                                    ena @-129.20,34.34,-129.20,36.39
                                                    q   @-129.70,34.34,-129.70,36.39
-                                                   "Gated data latch without inverted output.";
+                                                   "Gated data latch with complementary enable inputs and without inverted output.";
 type d_latch_b:yellow  d ena         q:out ~q:out      @-115.93,183.50,-114.23,185.53
                                                    ena @-114.31,183.48,-114.31,185.54
                                                    d   @-114.65,183.48,-114.65,185.54
                                                    q   @-115.50,183.50,-115.50,185.53
                                                    ~q  @-115.84,183.49,-115.84,185.53
-                                                   "Gated data latch.";
+                                                   "Gated data latch with active-high enable.";
 type dr_latch:yellow   d ena ~ena ~r q:out ~q:out      @-146.45,105.55,-144.73,107.58
                                                    ~ena@-144.99,105.53,-144.99,107.59
                                                    d   @-145.16,105.53,-145.16,107.59
@@ -311,7 +311,7 @@ type dr_latch:yellow   d ena ~ena ~r q:out ~q:out      @-146.45,105.55,-144.73,1
                                                    ~r  @-145.67,105.54,-145.67,107.59
                                                    q   @-146.02,105.53,-146.02,107.58
                                                    ~q  @-146.19,105.53,-146.19,107.59
-                                                   "Gated data latch with active-low reset.";
+                                                   "Gated data latch with complementary enable inputs and active-low reset.";
 
 type dffr_a:orange  d clk ~clk ~r q:out              @-164.17,213.80,-161.94,215.83
                                                 ~r   @-162.37,213.79,-162.37,215.82

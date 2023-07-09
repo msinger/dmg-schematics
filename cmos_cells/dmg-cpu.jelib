@@ -9502,6 +9502,45 @@ Ewl_pch||D5G2;|rom_pch@7|wl_pch|I
 Ewl_pch_1||D5G2;|rom_pch@0|wl_pch_1|I/B
 X
 
+# Cell const;1{lay}
+Cconst;1{lay}||mocmos|1651184881008|1664133974863||DRC_last_good_drc_area_date()G1664134059237|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1664134008142|USER_drawing_designer_name()SMichael Singer
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-Metal-2-Con|contact@5||-2.5|0|2|2||
+NMetal-1-Metal-2-Con|contact@8||-2.5|-10|2|2||
+NMetal-1-Pin|pin@5||54|0|14|||
+NMetal-1-Pin|pin@6||54|-20|14|||
+NMetal-1-Pin|pin@7||-54|0|14|||
+NMetal-1-Pin|pin@8||-54|-20|14|||
+NMetal-1-Pin|pin@15||54|-10||||
+NMetal-2-Pin|pin@16||-60.5|0|1|1||
+NMetal-2-Pin|pin@17||-60.5|-10|1|1||
+NMetal-2-Pin|pin@18||60.5|0|1|1||
+NMetal-2-Pin|pin@19||60.5|-10|1|1||
+NP-Well-Node|plnode@0||-33|-5|66|30||A
+NN-Well-Node|plnode@1||33|-5|66|30||A
+NMetal-1-P-Well-Con|substr@0||-34|-5|40|5||
+NMetal-1-N-Well-Con|well@1||34|-5|40|5||
+AMetal-1|net@26||1|RS0|contact@5||-2.5|0|pin@7||-54|0
+AMetal-1|net@28||14|IJRS900|pin@15||54|-10|pin@6||54|-20
+AMetal-1|net@29||1|RS1800|contact@8||-2.5|-10|pin@15||54|-10
+AMetal-1|net@30||14|IJRS900|pin@5||54|0|well@1||54|-5
+AMetal-1|net@31||14|IJRS900|well@1||54|-5|pin@15||54|-10
+AMetal-1|net@32||14|IJRS900|pin@7||-54|0|substr@0||-54|-5
+AMetal-1|net@33||14|IJRS900|substr@0||-54|-5|pin@8||-54|-20
+AMetal-2|net@34||1|RS1800|pin@16||-60.5|0|contact@5||-2.5|0
+AMetal-2|net@35||1|RS0|pin@18||60.5|0|contact@5||-2.5|0
+AMetal-2|net@36||1|RS0|pin@19||60.5|-10|contact@8||-2.5|-10
+AMetal-2|net@37||1|RS1800|pin@17||-60.5|-10|contact@8||-2.5|-10
+Egnd||D5G2;|pin@8||G/B
+Egnd_1||D5G2;|pin@7||G/B
+Egnd_2||D5G2;|pin@16||G/B
+Egnd_3||D5G2;|pin@18||G/B
+Evdd||D5G2;|pin@6||P/B
+Evdd_1||D5G2;|pin@5||P/B
+Evdd_2||D5G2;|pin@17||P/B
+Evdd_3||D5G2;|pin@19||P/B
+X
+
 # Cell d_latch_a;1{lay}
 Cd_latch_a;1{lay}||mocmos|1650127927062|1688836346278||CELL_text_size()I12|DRC_last_good_drc_area_date()G1688836351120|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1688836351120|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
@@ -18812,45 +18851,6 @@ Evdd_3||D5G2;|pin@48||P/B
 Ewl[0]|wl|D5G2;|pin@20||O
 Ewldrv_pch'||D5G2;|pin@50||I
 Ewldrv_pch'_1||D5G2;|pin@63||I/B
-X
-
-# Cell supply;1{lay}
-Csupply;1{lay}||mocmos|1651184881008|1664133974863||DRC_last_good_drc_area_date()G1664134059237|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1664134008142|USER_drawing_designer_name()SMichael Singer
-Ngeneric:Facet-Center|art@0||0|0||||AV
-NMetal-1-Metal-2-Con|contact@5||-2.5|0|2|2||
-NMetal-1-Metal-2-Con|contact@8||-2.5|-10|2|2||
-NMetal-1-Pin|pin@5||54|0|14|||
-NMetal-1-Pin|pin@6||54|-20|14|||
-NMetal-1-Pin|pin@7||-54|0|14|||
-NMetal-1-Pin|pin@8||-54|-20|14|||
-NMetal-1-Pin|pin@15||54|-10||||
-NMetal-2-Pin|pin@16||-60.5|0|1|1||
-NMetal-2-Pin|pin@17||-60.5|-10|1|1||
-NMetal-2-Pin|pin@18||60.5|0|1|1||
-NMetal-2-Pin|pin@19||60.5|-10|1|1||
-NP-Well-Node|plnode@0||-33|-5|66|30||A
-NN-Well-Node|plnode@1||33|-5|66|30||A
-NMetal-1-P-Well-Con|substr@0||-34|-5|40|5||
-NMetal-1-N-Well-Con|well@1||34|-5|40|5||
-AMetal-1|net@26||1|RS0|contact@5||-2.5|0|pin@7||-54|0
-AMetal-1|net@28||14|IJRS900|pin@15||54|-10|pin@6||54|-20
-AMetal-1|net@29||1|RS1800|contact@8||-2.5|-10|pin@15||54|-10
-AMetal-1|net@30||14|IJRS900|pin@5||54|0|well@1||54|-5
-AMetal-1|net@31||14|IJRS900|well@1||54|-5|pin@15||54|-10
-AMetal-1|net@32||14|IJRS900|pin@7||-54|0|substr@0||-54|-5
-AMetal-1|net@33||14|IJRS900|substr@0||-54|-5|pin@8||-54|-20
-AMetal-2|net@34||1|RS1800|pin@16||-60.5|0|contact@5||-2.5|0
-AMetal-2|net@35||1|RS0|pin@18||60.5|0|contact@5||-2.5|0
-AMetal-2|net@36||1|RS0|pin@19||60.5|-10|contact@8||-2.5|-10
-AMetal-2|net@37||1|RS1800|pin@17||-60.5|-10|contact@8||-2.5|-10
-Egnd||D5G2;|pin@8||G/B
-Egnd_1||D5G2;|pin@7||G/B
-Egnd_2||D5G2;|pin@16||G/B
-Egnd_3||D5G2;|pin@18||G/B
-Evdd||D5G2;|pin@6||P/B
-Evdd_1||D5G2;|pin@5||P/B
-Evdd_2||D5G2;|pin@17||P/B
-Evdd_3||D5G2;|pin@19||P/B
 X
 
 # Cell tri_buf_if0;1{lay}
