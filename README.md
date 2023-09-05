@@ -26,7 +26,7 @@ Files in this repo
 | ./dmg\_cpu\_b/\*.kicad\_sch                  | KiCad schematic sheets.                                                           |
 | ./dmg\_cpu\_b/lib/DMG\_CPU\_Cells.kicad\_sym | KiCad library with symbols for all the logic cells in the chip.                   |
 | ./dmg\_cpu\_b/overlay/dmg-cpu-b\_overlay.svg | Modified version of Furrtek's overlay for the chip's die shot.                    |
-| ./cmos\_cells/dmg-cpu.jelib                  | Electric VLSI cell library containing layouts of the cells used in the chip.      |
+| ./dmg\_cells/dmg-cpu.jelib                   | Electric VLSI cell library containing layouts of the cells used in the chip.      |
 | ./netlist/\*.nl                              | Text files containing all cells and wires, and their connections and coordinates. |
 
 
