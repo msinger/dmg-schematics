@@ -1,6 +1,7 @@
 NLCONV = nlconv
 
 NETLIST_FILES = \
+	defines.nl \
 	types.nl \
 	io/top.nl \
 	io/bottom.nl \
@@ -65,7 +66,19 @@ NETLIST_FILES = \
 	labels.nl \
 	categories.nl
 
-all: html cells wires labels floorplan png js
+SM83_NETLIST_FILES = \
+	sm83/defines.nl \
+	sm83/reg-types.nl \
+	sm83/reg.nl \
+	sm83/alu-types.nl \
+	sm83/alu.nl \
+	sm83/dec-types.nl \
+	sm83/dec.nl \
+	sm83/signals.nl \
+	sm83/categories.nl
+
+all: html cells wires labels floorplan png js \
+     sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js
 
 html: netlist.html
 
@@ -81,7 +94,29 @@ png: out.png
 
 js: coords.js
 
-.PHONY: all html cells wires labels floorplan png js
+check: $(NETLIST_FILES)
+	$(NLCONV) -- $^
+
+.PHONY: all html cells wires labels floorplan png js check
+
+sm83-html: sm83-netlist.html
+
+sm83-cells: sm83-cells.png
+
+sm83-wires: sm83-wires.png
+
+sm83-labels: sm83-labels.png
+
+sm83-floorplan: sm83-floorplan.png
+
+sm83-png: sm83.png
+
+sm83-js: sm83-coords.js
+
+sm83-check: $(SM83_NETLIST_FILES)
+	$(NLCONV) -- $^
+
+.PHONY: sm83-all sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js sm83-check
 
 netlist.html: $(NETLIST_FILES)
 	$(NLCONV) --html $@.part -- $^
@@ -111,7 +146,37 @@ coords.js: $(NETLIST_FILES)
 	$(NLCONV) --js $@.part -- $^
 	mv $@.part $@
 
+sm83-netlist.html: $(SM83_NETLIST_FILES)
+	$(NLCONV) --html $@.part -- $^
+	mv $@.part $@
+
+sm83-cells.png: $(SM83_NETLIST_FILES)
+	$(NLCONV) --png-cells $@.part -- $^
+	mv $@.part $@
+
+sm83-wires.png: $(SM83_NETLIST_FILES)
+	$(NLCONV) --png-wires $@.part -- $^
+	mv $@.part $@
+
+sm83-labels.png: $(SM83_NETLIST_FILES)
+	$(NLCONV) --png-labels $@.part -- $^
+	mv $@.part $@
+
+sm83-floorplan.png: $(SM83_NETLIST_FILES)
+	$(NLCONV) --png-floor $@.part -- $^
+	mv $@.part $@
+
+sm83.png: $(SM83_NETLIST_FILES)
+	$(NLCONV) --png $@.part -- $^
+	mv $@.part $@
+
+sm83-coords.js: $(SM83_NETLIST_FILES)
+	$(NLCONV) --js $@.part -- $^
+	mv $@.part $@
+
 clean:
-	rm -f netlist.html cells.png wires.png labels.png floorplan.png out.png coords.js *.part
+	rm -f netlist.html cells.png wires.png labels.png floorplan.png out.png coords.js
+	rm -f sm83-netlist.html sm83-cells.png sm83-wires.png sm83-labels.png sm83-floorplan.png sm83.png sm83-coords.js
+	rm -f *.part
 
 .PHONY: clean
