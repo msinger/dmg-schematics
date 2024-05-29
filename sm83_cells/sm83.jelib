@@ -356,7 +356,7 @@ Evdd_3||D5G2;|contact@25||P/B
 X
 
 # Cell d_latch_irq;1{lay}
-Cd_latch_irq;1{lay}||mocmos|1711704386249|1714399232724|E|DRC_last_good_drc_area_date()G1714399241317|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1714399241317|USER_drawing_designer_name()SMichael Singer
+Cd_latch_irq;1{lay}||mocmos|1711704386249|1716590324883|E|DRC_last_good_drc_area_date()G1716590339160|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1716590339160|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||0|-28.5||5||
 NMetal-1-P-Active-Con|contact@1||0|-103.25||5||
@@ -683,7 +683,7 @@ Eclk|ena'|D5G2;|pin@9||I
 Eclk_1|ena'_1|D5G2;|pin@11||I/B
 Eclk'_1|ena_1|D5G2;|pin@16||I/B
 Ein0|ena_q'|D5G2;|pin@116||I
-Eq1|gated_q|D5G2;|pin@36||O
+Eq1|gated_q'|D5G2;|pin@36||O
 Egnd||D5G2;|contact@46||G/B
 Egnd_1||D5G2;|contact@51||G/B
 Eclk2|pch'|D5G2;|pin@8||I
@@ -3283,7 +3283,7 @@ Evdd_1||D5G2;|pin@99||P/B
 X
 
 # Cell idu_bit0;1{lay}
-Cidu_bit0;1{lay}||mocmos|1706451876134|1714381945322|E|DRC_last_good_drc_area_date()G1714381947895|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1714381947895|USER_drawing_designer_name()SMichael Singer
+Cidu_bit0;1{lay}||mocmos|1706451876134|1715127862025|E|DRC_last_good_drc_area_date()G1715127865960|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1715127865960|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||0|0||5||
 NMetal-1-N-Active-Con|contact@1||0|-54.75||15||
@@ -3386,6 +3386,7 @@ NP-Transistor|p2|D5G1;|101.5|-39.25||||
 NP-Transistor|p3|D5G1;|97.75|-50|6|||
 NP-Transistor|p4|D5G1;|79|-36.75|4|||
 NP-Transistor|p5|D5G1;|92|-144.75|25|||
+NP-Transistor|p6|D5G1;|104|-120.25||||
 NP-Transistor|p7|D5G1;|97.75|-112.25|6|||
 NP-Transistor|p8|D5G1;|80|-122.5|4|||
 NP-Transistor|p9|D5G1;|88|-65.5|3||R|
@@ -3625,7 +3626,6 @@ NP-Select-Node|plnode@8||105.5|-112.5|4|4||A
 NP-Select-Node|plnode@9||99.25|-119|4|4||A
 NP-Well-Node|plnode@10||25|-70.875|118|226.75||A|trace()V[-35/-113.375,-35/60.875,-59/60.875,-59/113.375,54/113.375,54/91.375,59/91.375,59/71.875,40.5/71.875,40.5/-113.375]
 NN-Well-Node|plnode@11||91|-70.875|51|226.75||A|trace()V[-25.5/-113.375,-25.5/71.875,-7/71.875,-7/91.375,-12/91.375,-12/113.375,25.5/113.375,25.5/-113.375]
-NP-Transistor|pmos@11||104|-120.25||||
 AMetal-1|net@60|||R2700|contact@1||0|-46.75|contact@0||0|-3
 AMetal-1|net@61|||R2700|contact@2||0|-81|contact@1||0|-62.75
 AMetal-1|net@62|||R2700|contact@3||0|-106.5|contact@2||0|-87
@@ -3912,11 +3912,11 @@ AP-Active|net@386||3|R1800|pin@215||97.75|-65.5|pin@214||104|-65.5
 AP-Active|net@387||6|IJR900|p3|diff-bottom|97.75|-53.75|pin@215||97.75|-65.5
 AP-Active|net@388||52|IJR1800|pin@219||93.25|-82.25|pin@218||110|-82.25
 AP-Active|net@389||3|IJR0|pin@218||110|-79.75|contact@79||104|-79.75
-APolysilicon-1|net@395|||R1800|pin@223||98.75|-120.25|pmos@11|poly-left|100.5|-120.25
+APolysilicon-1|net@395|||R1800|pin@223||98.75|-120.25|p6|poly-left|100.5|-120.25
 APolysilicon-1|net@397|||R900|pin@223||98.75|-120.25|pin@224||98.75|-122.5
 APolysilicon-1|net@398|||R0|pin@224||98.75|-122.5|contact@70||96|-122.5
-AP-Active|net@399|||R900|pmos@11|diff-bottom|104|-124|contact@82||104|-125.5
-AP-Active|net@400|||R0|pmos@11|diff-top|104|-116.5|pin@225||100.75|-116.5
+AP-Active|net@399|||R900|p6|diff-bottom|104|-124|contact@82||104|-125.5
+AP-Active|net@400|||R0|p6|diff-top|104|-116.5|pin@225||100.75|-116.5
 AP-Active|net@401|||R900|p7|diff-bottom|100.75|-116|pin@225||100.75|-116.5
 AP-Active|net@402|||R900|p7|diff-bottom|94.75|-116|pin@226||94.75|-117.5
 AP-Active|net@403|||R1800|contact@51||80|-117.5|pin@226||94.75|-117.5
@@ -9490,7 +9490,7 @@ Evdd_1||D5G2;|pin@124||P/B
 X
 
 # Cell irq_prio_bit4;1{lay}
-Cirq_prio_bit4;1{lay}||mocmos|1711877263261|1714590590411|E|DRC_last_good_drc_area_date()G1714590592467|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1714590592467|USER_drawing_designer_name()SMichael Singer
+Cirq_prio_bit4;1{lay}||mocmos|1711877263261|1715197841197|E|DRC_last_good_drc_area_date()G1715197845731|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1715197845731|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||0|-25.5||||
 NMetal-1-Polysilicon-1-Con|contact@1||46|-5.5||||
@@ -9552,7 +9552,8 @@ NMetal-1-Polysilicon-1-Con|contact@99||136|-110.75||||
 NN-Transistor|n1|D5G1;|88|-5.5||||
 NN-Transistor|n2|D5G1;|86|-71.25|||R|
 NN-Transistor|n3|D5G1;|104|-137.75||||
-NN-Transistor|n5|D5G1;|141.5|-23.25|||R|
+NN-Transistor|n4|D5G1;|141.5|-23.25|||R|
+NN-Transistor|n5|D5G1;|146.5|-23.25|||R|
 NN-Transistor|n6|D5G1;|146.5|-52.25|5||R|
 NN-Transistor|n7|D5G1;|146.5|-142.75|3||R|
 NN-Transistor|n8|D5G1;|116.5|-72.75|3||R|
@@ -9565,7 +9566,6 @@ NN-Transistor|n14|D5G1;|32|-38.5|3||R|
 NN-Transistor|n15|D5G1;|24|-38.5|3||R|
 NN-Transistor|n16|D5G1;|16|-38.5|3||R|
 NN-Transistor|n17|D5G1;|8|-38.5|3||R|
-NN-Transistor|nmos@6||146.5|-23.25|||R|
 NP-Transistor|p1|D5G1;|194|-8|||R|
 NP-Transistor|p2|D5G1;|209.5|-76.75|2|||
 NP-Transistor|p3|D5G1;|191|-146.25|||R|
@@ -9806,9 +9806,9 @@ AMetal-1|net@77|||R2700|contact@36||170|-62.25|contact@33||170|-54.25
 AMetal-1|net@78|||R0|contact@33||170|-54.25|contact@34||152|-54.25
 AMetal-1|net@80|||R0|pin@72||178|-54.25|contact@33||170|-54.25
 AMetal-1|net@81|||R2700|pin@72||178|-54.25|contact@19||178|-11
-AN-Active|net@84|||R0|n5|diff-bottom|145.25|-23.25|nmos@6|diff-top|142.75|-23.25
-AN-Active|net@85|||R1800|nmos@6|diff-bottom|150.25|-23.25|contact@17||152|-23.25
-AN-Active|net@86|||R0|n5|diff-top|137.75|-23.25|pin@74||112|-23.25
+AN-Active|net@84|||R0|n4|diff-bottom|145.25|-23.25|n5|diff-top|142.75|-23.25
+AN-Active|net@85|||R1800|n5|diff-bottom|150.25|-23.25|contact@17||152|-23.25
+AN-Active|net@86|||R0|n4|diff-top|137.75|-23.25|pin@74||112|-23.25
 AN-Active|net@87|||R2700|contact@11||112|-31|pin@74||112|-23.25
 APolysilicon-1|net@89|||R0|pin@75||146.5|-13|pin@63||99|-13
 APolysilicon-1|net@109|||R1800|contact@7||50|-90|pin@88||56|-90
@@ -9850,7 +9850,7 @@ APolysilicon-1|net@210||3|R0|pin@106||208|-153.25|pin@148||191|-153.25
 APolysilicon-1|net@211||3|R0|pin@148||191|-153.25|pin@107||99.5|-153.25
 APolysilicon-1|net@212|||R900|p3|poly-left|191|-149.75|pin@148||191|-153.25
 AP-Active|net@213|||R0|p3|diff-top|187.25|-146.25|contact@60||186|-146.25
-APolysilicon-1|net@214|||R2700|pin@149||141.5|-30.75|n5|poly-left|141.5|-26.75
+APolysilicon-1|net@214|||R2700|pin@149||141.5|-30.75|n4|poly-left|141.5|-26.75
 APolysilicon-1|net@215|||R0|pin@149||141.5|-30.75|contact@16||120|-30.75
 APolysilicon-1|net@218|||R0|pin@152||165.5|-35.75|pin@150||141.5|-35.75
 APolysilicon-1|net@219|||R2700|pin@153||175|-38.75|p4|poly-left|175|-36.75
@@ -9858,7 +9858,7 @@ APolysilicon-1|net@220|||R2700|pin@154||165.5|-38.75|pin@152||165.5|-35.75
 APolysilicon-1|net@221|||R1800|pin@154||165.5|-38.75|pin@153||175|-38.75
 APolysilicon-1|net@222|||R900|pin@155||175|-18.25|p5|poly-right|175|-19.75
 APolysilicon-1|net@223|||R900|pin@75||146.5|-13|pin@157||146.5|-18.25
-APolysilicon-1|net@224|||R900|pin@157||146.5|-18.25|nmos@6|poly-right|146.5|-19.75
+APolysilicon-1|net@224|||R900|pin@157||146.5|-18.25|n5|poly-right|146.5|-19.75
 APolysilicon-1|net@225|||R0|pin@155||175|-18.25|pin@157||146.5|-18.25
 AP-Active|net@226|||R0|p4|diff-top|171.25|-33.25|contact@29||170|-33.25
 AP-Active|net@227|||R0|p5|diff-top|171.25|-23.25|contact@24||170|-23.25
@@ -15986,7 +15986,7 @@ Ein4_1|unknown_1|D5G2;|pin@85||U/B
 X
 
 # Cell reg_pc_out_bit67;1{lay}
-Creg_pc_out_bit67;1{lay}||mocmos|1693146058162|1714671285769|E|DRC_last_good_drc_area_date()G1714671291441|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1714671291441|USER_drawing_designer_name()SMichael Singer
+Creg_pc_out_bit67;1{lay}||mocmos|1693146058162|1715285736792|E|DRC_last_good_drc_area_date()G1715285740442|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1715285740442|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-104|-11||5||
 NMetal-1-N-Active-Con|contact@1||-104|-27.75||5||
@@ -16358,6 +16358,7 @@ AN-Active|net@599||2|R1800|pin@308||-83|-69.75|pin@305||-63|-69.75
 Egnd||D5G2;|pin@0||G/B
 Egnd_1||D5G2;|pin@6||G/B
 Ein3|in1|D5G2;|pin@68||I
+Ein3_1|in1_1|D5G2;|pin@84||I/B
 Espl|in2|D5G2;|pin@96||I
 Eb_ena1|in3|D5G2;|pin@1||I
 Eb_ena1_1|in3_1|D5G2;|pin@9||I/B
@@ -16373,8 +16374,7 @@ Ein1_1|in9_1|D5G2;|pin@215||I/B
 Ein8@698375209|in10|D5G2;|pin@212||I
 Ein8_1@247216161|in10_1|D5G2;|pin@213||I/B
 Ein6|in11|D5G2;|pin@64||I
-Ein3_1|in11_1|D5G2;|pin@84||I/B
-Ein6_1|in11_2|D5G2;|pin@81||I/B
+Ein6_1|in11_1|D5G2;|pin@81||I/B
 Ez|in12|D5G2;|pin@92||I
 Ein7|in13|D5G2;|pin@63||I
 Ein7_1|in13_1|D5G2;|pin@80||I/B

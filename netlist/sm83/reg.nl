@@ -116,7 +116,7 @@ cell reg_d[7]:dff_reg_bit_a   rot0      @-234.59,78.31,-227.69,84.59            
 
 # Register BC
 cell inv_c_wr:inv_reg_wr      rot0,flip @-143.34,83.81,-140.38,90.28                  ->reg-bc;
-cell inv_b_wr:inv_reg_wr      rot0      @-143.16,93.91,-140.38,100.13                 ->reg-bc;
+cell inv_b_wr:inv_reg_b_wr    rot0      @-143.16,93.91,-140.38,100.13                 ->reg-bc;
 cell reg_c[0]:dff_reg_bit_a   rot0,flip @-150.00,83.91,-143.13,90.19  d@-149.41,88.34 ->reg-bc;
 cell reg_c[1]:dff_reg_bit_a   rot0,flip @-161.88,83.91,-155.00,90.16  d@-161.28,88.38 ->reg-bc;
 cell reg_c[2]:dff_reg_bit_a   rot0,flip @-173.78,83.94,-166.88,90.19  d@-173.19,88.41 ->reg-bc;
@@ -209,14 +209,14 @@ cell reg_sph[7]:dff_reg_sp_bit rot0      @-234.59,153.75,-227.63,160.53 ->reg-sp
 # Register PC
 cell inv_pcl_wr:inv_reg_pc_wr        rot0,flip @-143.13,159.84,-140.75,167.94 ->reg-pc;
 cell inv_pch_wr:inv_reg_pc_wr        rot0      @-143.25,179.13,-140.75,187.09 ->reg-pc;
-cell reg_pcl[0]:dff_reg_pc_bit       rot0,flip @-149.91,159.94,-143.06,167.88 ->reg-pc;
-cell reg_pcl[1]:dff_reg_pc_bit       rot0,flip @-161.81,159.91,-154.97,167.81 ->reg-pc;
-cell reg_pcl[2]:dff_reg_pc_bit       rot0,flip @-173.69,159.94,-166.81,167.84 ->reg-pc;
-cell reg_pcl[3]:dff_reg_pc_bit       rot0,flip @-185.56,159.97,-178.75,167.81 ->reg-pc;
-cell reg_pcl[4]:dff_reg_pc_bit       rot0,flip @-197.84,159.91,-190.97,167.81 ->reg-pc;
-cell reg_pcl[5]:dff_reg_pc_bit       rot0,flip @-210.06,159.94,-203.22,167.78 ->reg-pc;
-cell reg_pcl[6]:dff_reg_pc_bit       rot0,flip @-222.28,159.94,-215.50,167.78 ->reg-pc;
-cell reg_pcl[7]:dff_reg_pc_bit       rot0,flip @-234.50,159.97,-227.69,167.84 ->reg-pc;
+cell reg_pcl[0]:dsff_reg_pc_bit      rot0,flip @-149.91,159.94,-143.06,167.88 ->reg-pc;
+cell reg_pcl[1]:dsff_reg_pc_bit      rot0,flip @-161.81,159.91,-154.97,167.81 ->reg-pc;
+cell reg_pcl[2]:dsff_reg_pc_bit      rot0,flip @-173.69,159.94,-166.81,167.84 ->reg-pc;
+cell reg_pcl[3]:dsff_reg_pc_bit      rot0,flip @-185.56,159.97,-178.75,167.81 ->reg-pc;
+cell reg_pcl[4]:dsff_reg_pc_bit      rot0,flip @-197.84,159.91,-190.97,167.81 ->reg-pc;
+cell reg_pcl[5]:dsff_reg_pc_bit      rot0,flip @-210.06,159.94,-203.22,167.78 ->reg-pc;
+cell reg_pcl[6]:dsff_reg_pc_bit      rot0,flip @-222.28,159.94,-215.50,167.78 ->reg-pc;
+cell reg_pcl[7]:dsff_reg_pc_bit      rot0,flip @-234.50,159.97,-227.69,167.84 ->reg-pc;
 cell reg_pc_out[0]:reg_pc_out_bit012 rot0      @-154.91,167.31,-143.06,179.75 ->reg-pc;
 cell reg_pc_out[1]:reg_pc_out_bit012 rot0      @-166.75,167.31,-154.97,179.81 ->reg-pc;
 cell reg_pc_out[2]:reg_pc_out_bit012 rot0      @-178.69,167.28,-166.81,179.84 ->reg-pc;
@@ -225,14 +225,14 @@ cell reg_pc_out[4]:reg_pc_out_bit345 rot0      @-203.19,167.28,-190.97,179.84 ->
 cell reg_pc_out[5]:reg_pc_out_bit345 rot0      @-215.47,167.28,-203.22,179.81 ->reg-pc;
 cell reg_pc_out[6]:reg_pc_out_bit67  rot0      @-227.75,167.31,-215.47,179.81 ->reg-pc;
 cell reg_pc_out[7]:reg_pc_out_bit67  rot0      @-240.06,167.34,-227.75,179.81 ->reg-pc;
-cell reg_pch[0]:dff_reg_pc_bit       rot0      @-149.91,179.25,-143.03,187.16 ->reg-pc;
-cell reg_pch[1]:dff_reg_pc_bit       rot0      @-161.84,179.28,-155.00,187.09 ->reg-pc;
-cell reg_pch[2]:dff_reg_pc_bit       rot0      @-173.72,179.28,-166.88,187.09 ->reg-pc;
-cell reg_pch[3]:dff_reg_pc_bit       rot0      @-185.56,179.31,-178.72,187.13 ->reg-pc;
-cell reg_pch[4]:dff_reg_pc_bit       rot0      @-197.84,179.25,-191.03,187.13 ->reg-pc;
-cell reg_pch[5]:dff_reg_pc_bit       rot0      @-210.09,179.28,-203.31,187.13 ->reg-pc;
-cell reg_pch[6]:dff_reg_pc_bit       rot0      @-222.34,179.31,-215.50,187.16 ->reg-pc;
-cell reg_pch[7]:dff_reg_pc_bit       rot0      @-234.59,179.31,-227.81,187.16 ->reg-pc;
+cell reg_pch[0]:dsff_reg_pc_bit      rot0      @-149.91,179.25,-143.03,187.16 ->reg-pc;
+cell reg_pch[1]:dsff_reg_pc_bit      rot0      @-161.84,179.28,-155.00,187.09 ->reg-pc;
+cell reg_pch[2]:dsff_reg_pc_bit      rot0      @-173.72,179.28,-166.88,187.09 ->reg-pc;
+cell reg_pch[3]:dsff_reg_pc_bit      rot0      @-185.56,179.31,-178.72,187.13 ->reg-pc;
+cell reg_pch[4]:dsff_reg_pc_bit      rot0      @-197.84,179.25,-191.03,187.13 ->reg-pc;
+cell reg_pch[5]:dsff_reg_pc_bit      rot0      @-210.09,179.28,-203.31,187.13 ->reg-pc;
+cell reg_pch[6]:dsff_reg_pc_bit      rot0      @-222.34,179.31,-215.50,187.16 ->reg-pc;
+cell reg_pch[7]:dsff_reg_pc_bit      rot0      @-234.59,179.31,-227.81,187.16 ->reg-pc;
 
 # Increment/Decrement Unit
 cell idu_inv[0]:inv_idu      rot0 @-154.88,179.28,-148.53,187.16 ->idu;
@@ -287,14 +287,14 @@ cell idu_irq_ctl:idu_irq_ctl rot0 @-136.94,214.09,-130.31,226.72 ->idu;
 
 # Interrupt Enable Register
 cell inv_ie_wr:inv_reg_ie_wr            rot0,flip @-143.28,202.97,-140.53,210.84 ->irq-ie;
-cell reg_ie[0]:dff_reg_ie_bit           rot0,flip @-150.22,203.00,-143.34,210.84 ->irq-ie;
-cell reg_ie[1]:dff_reg_ie_bit           rot0,flip @-162.13,203.03,-155.31,210.81 ->irq-ie;
-cell reg_ie[2]:dff_reg_ie_bit           rot0,flip @-174.03,203.00,-167.16,210.81 ->irq-ie;
-cell reg_ie[3]:dff_reg_ie_bit           rot0,flip @-185.91,203.00,-179.06,210.88 ->irq-ie;
-cell reg_ie[4]:dff_reg_ie_bit           rot0,flip @-198.19,202.97,-191.31,210.88 ->irq-ie;
-cell reg_ie[5]:dff_reg_ie_bit           rot0,flip @-210.38,203.00,-203.53,210.88 ->irq-ie;
-cell reg_ie[6]:dff_reg_ie_bit           rot0,flip @-222.66,203.03,-215.81,210.88 ->irq-ie;
-cell reg_ie[7]:dff_reg_ie_bit           rot0,flip @-234.91,202.97,-228.06,210.88 ->irq-ie;
+cell reg_ie[0]:drff_reg_ie_bit          rot0,flip @-150.22,203.00,-143.34,210.84 ->irq-ie;
+cell reg_ie[1]:drff_reg_ie_bit          rot0,flip @-162.13,203.03,-155.31,210.81 ->irq-ie;
+cell reg_ie[2]:drff_reg_ie_bit          rot0,flip @-174.03,203.00,-167.16,210.81 ->irq-ie;
+cell reg_ie[3]:drff_reg_ie_bit          rot0,flip @-185.91,203.00,-179.06,210.88 ->irq-ie;
+cell reg_ie[4]:drff_reg_ie_bit          rot0,flip @-198.19,202.97,-191.31,210.88 ->irq-ie;
+cell reg_ie[5]:drff_reg_ie_bit          rot0,flip @-210.38,203.00,-203.53,210.88 ->irq-ie;
+cell reg_ie[6]:drff_reg_ie_bit          rot0,flip @-222.66,203.03,-215.81,210.88 ->irq-ie;
+cell reg_ie[7]:drff_reg_ie_bit          rot0,flip @-234.91,202.97,-228.06,210.88 ->irq-ie;
 cell irq_nand2_nand3[0]:nand2_nand3_irq rot0      @-155.34,201.31,-149.25,210.84 ->irq-ie;
 cell irq_nand2_nand3[1]:nand2_nand3_irq rot0      @-167.16,201.31,-161.09,210.88 ->irq-ie;
 cell irq_nand2_nand3[2]:nand2_nand3_irq rot0      @-179.09,201.38,-172.94,210.88 ->irq-ie;

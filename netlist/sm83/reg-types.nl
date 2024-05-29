@@ -246,19 +246,19 @@ type mux_idu_h:green d0 d1 sel q:out
 	"Multiplexer with two inputs.";
 
 type d_latch_irq:yellow d ena ~ena q:out ~q:out
-                        ~pch ~ena_q gated_q:tri
-	       @-155.28,210.28,-143.28,215.44
-	d      @-153.34,210.28
-	ena    @-155.28,214.00,-143.28,214.00
-	~ena   @-155.28,211.66,-143.28,211.66
-	q      @-146.94,214.00
-	~q     @-148.59,215.44
-	~pch   @-155.28,211.09,-143.28,211.09
-	~pch   @-144.38,214.00
-	~pch   @-146.56,214.00
-	~ena_q @-145.97,215.44
-	gated_q@-143.81,215.44
-	"Gated data latch with gated output.";
+                        ~pch ~ena_q gated_~q:out
+	        @-155.28,210.28,-143.28,215.44
+	d       @-153.34,210.28
+	ena     @-155.28,214.00,-143.28,214.00
+	~ena    @-155.28,211.66,-143.28,211.66
+	q       @-146.94,214.00
+	~q      @-148.59,215.44
+	~pch    @-155.28,211.09,-143.28,211.09
+	~pch    @-144.38,214.00
+	~pch    @-146.56,214.00
+	~ena_q  @-145.97,215.44
+	gated_~q@-143.81,215.44
+	"Gated data latch with additionally gated inverted output.";
 
 type dff_reg_bit_a:orange d l ~l clk ~clk q:out
 	    @-149.95,35.25,-143.13,41.52
@@ -303,8 +303,8 @@ type dff_reg_sp_bit:orange d:inout ~pch
 	~q  @-144.41,153.75
 	"Single-edge-triggered semi-dynamic data flip-flop with precharge.";
 
-type dff_reg_pc_bit:orange d:inout ~pch ~s
-                           l ~l clk ~clk q:out ~q:out
+type dsff_reg_pc_bit:orange d:inout ~pch ~s
+                            l ~l clk ~clk q:out ~q:out
 	    @-149.91,179.25,-143.03,187.16
 	d   @-149.34,179.25
 	~pch@-149.91,181.19,-143.03,181.19
@@ -318,8 +318,8 @@ type dff_reg_pc_bit:orange d:inout ~pch ~s
 	~q  @-144.38,179.25
 	"Single-edge-triggered semi-dynamic data flip-flop with precharge and active-low semi-asynchronous set.";
 
-type dff_reg_ie_bit:orange d r
-                           l ~l clk ~clk q:out ~q:out
+type drff_reg_ie_bit:orange d r
+                            l ~l clk ~clk q:out ~q:out
 	    @-150.22,202.97,-143.34,210.84
 	d   @-149.53,203.78
 	r   @-150.22,209.47,-143.34,209.47
