@@ -1,55 +1,55 @@
 # Cells in column U in top center
 # -------------------------------
 
-cell unut:and2        rot0,flip @-60.34,139.55,-59.66,141.63   ->clocks;
-cell upof:dffr_b2     rot0,flip @-63.25,139.55,-60.33,141.63   ->clocks;
-cell uket:dffr_b2     rot0,flip @-66.16,139.55,-63.23,141.62   ->clocks;
-cell unyk:dffr_b2     rot0,flip @-69.06,139.56,-66.13,141.61   ->clocks;
-cell ubul:dffsr       rot0,flip @-72.80,139.53,-69.03,141.63   ->int;
-cell usuf:nor2        rot0,flip @-73.33,139.53,-72.80,141.63   ->bus-data;
-cell udor:inv_a       rot0,flip @-73.66,139.54,-73.31,141.61   ->clocks;
-cell ubet:inv_a       rot0,flip @-74.01,139.55,-73.67,141.63   ->test;
-cell umut:and2        rot0,flip @-74.70,139.54,-74.01,141.61   ->test;
-cell upoj:nand3       rot0,flip @-75.38,139.55,-74.70,141.60   ->test;
-cell uvar:inv_a       rot0,flip @-75.73,139.55,-75.37,141.62   ->test;
-cell unor:and2        rot0,flip @-76.41,139.55,-75.73,141.61   ->test;
-cell uner:dffr_b2     rot0,flip @-79.31,139.54,-76.39,141.63   ->clocks;
-cell uvyn:inv_a       rot0,flip @-79.65,139.55,-79.30,141.60   ->clocks;
-cell ubal:muxi        rot0,flip @-80.50,139.54,-79.65,141.61   ->bus-data;
-cell ujyv:muxi        rot0,flip @-81.37,139.54,-80.49,141.61   ->bus-data;
-cell upyf:or2         rot0,flip @-82.05,139.54,-81.34,141.61   ->clocks;
-cell ucob:inv_a       rot0,flip @-82.38,139.55,-82.04,141.62   ->clocks;
-cell ufol:nor3        rot0,flip @-83.06,139.53,-82.38,141.59   ->clocks;
-cell uver:nand2       rot0,flip @-83.58,139.53,-83.05,141.62   ->bus-data;
-cell ugac:nand2       rot0,flip @-84.10,139.52,-83.57,141.61   ->bus-data;
-cell urun:nor2        rot0,flip @-84.61,139.54,-84.09,141.61   ->bus-data;
-cell uwam:nand4       rot0,flip @-85.45,139.52,-84.60,141.59   ->serial;
-cell ucom:and4        rot0,flip @-86.49,139.53,-85.43,141.60   ->serial;
-cell urys:nand4       rot0,flip @-87.34,139.53,-86.47,141.59   ->serial;
-cell ufeg:and4        rot0,flip @-88.38,139.52,-87.33,141.60   ->serial;
-cell uvyr:inv_a       rot0,flip @-88.73,139.52,-88.37,141.59   ->clocks;
-cell ukap:muxi        rot0,flip @-89.56,139.54,-88.70,141.61   ->timer;
-cell ulak:dffsr       rot0,flip @-93.32,139.52,-89.55,141.61   ->int;
-cell ulur:mux         rot0,flip @-94.34,139.54,-93.32,141.59   ->clocks;
-cell ukup:dffr_b2     rot0,flip @-97.24,139.53,-94.33,141.62   ->clocks;
-cell urek:inv_a       rot0,flip @-97.59,139.53,-97.25,141.61   ->clocks;
-cell ubot:inv_a       rot0,flip @-97.94,139.52,-97.58,141.59   ->clocks;
-cell ufor:dffr_b2     rot0,flip @-100.84,139.52,-97.91,141.59  ->clocks;
-cell ugot:dffr_b2     rot0,flip @-103.74,139.52,-100.83,141.59 ->clocks;
-cell uvyt:inv_b       rot0,flip @-104.25,139.52,-103.73,141.62 ->clocks;
-cell utok:inv_a       rot0,flip @-104.60,139.51,-104.24,141.61 ->clocks;
-cell umer:inv_a       rot0,flip @-104.93,139.53,-104.59,141.60 ->clocks;
-cell umek:inv_a       rot0,flip @-105.27,139.52,-104.93,141.59 ->clocks;
-cell upug:tri_inv_if1 rot0,flip @-106.30,139.52,-105.27,141.60 ->clocks;
-cell umob:inv_a       rot0,flip @-107.18,139.52,-106.83,141.61 ->ppu-lcd;
-cell usec:inv_a       rot0,flip @-107.52,139.51,-107.17,141.60 ->ppu-lcd;
+cell unut:and2    rot0,flip @-60.34,139.55,-59.66,141.63   ->clocks;
+cell upof:dffr    rot0,flip @-63.25,139.55,-60.33,141.63   ->clocks;
+cell uket:dffr    rot0,flip @-66.16,139.55,-63.23,141.62   ->clocks;
+cell unyk:dffr    rot0,flip @-69.06,139.56,-66.13,141.61   ->clocks;
+cell ubul:dffsr   rot0,flip @-72.80,139.53,-69.03,141.63   ->int;
+cell usuf:nor2    rot0,flip @-73.33,139.53,-72.80,141.63   ->bus-data;
+cell udor:not_x1  rot0,flip @-73.66,139.54,-73.31,141.61   ->clocks;
+cell ubet:not_x1  rot0,flip @-74.01,139.55,-73.67,141.63   ->test;
+cell umut:and2    rot0,flip @-74.70,139.54,-74.01,141.61   ->test;
+cell upoj:nand3   rot0,flip @-75.38,139.55,-74.70,141.60   ->test;
+cell uvar:not_x1  rot0,flip @-75.73,139.55,-75.37,141.62   ->test;
+cell unor:and2    rot0,flip @-76.41,139.55,-75.73,141.61   ->test;
+cell uner:dffr    rot0,flip @-79.31,139.54,-76.39,141.63   ->clocks;
+cell uvyn:not_x1  rot0,flip @-79.65,139.55,-79.30,141.60   ->clocks;
+cell ubal:muxi    rot0,flip @-80.50,139.54,-79.65,141.61   ->bus-data;
+cell ujyv:muxi    rot0,flip @-81.37,139.54,-80.49,141.61   ->bus-data;
+cell upyf:or2     rot0,flip @-82.05,139.54,-81.34,141.61   ->clocks;
+cell ucob:not_x1  rot0,flip @-82.38,139.55,-82.04,141.62   ->clocks;
+cell ufol:nor3    rot0,flip @-83.06,139.53,-82.38,141.59   ->clocks;
+cell uver:nand2   rot0,flip @-83.58,139.53,-83.05,141.62   ->bus-data;
+cell ugac:nand2   rot0,flip @-84.10,139.52,-83.57,141.61   ->bus-data;
+cell urun:nor2    rot0,flip @-84.61,139.54,-84.09,141.61   ->bus-data;
+cell uwam:nand4   rot0,flip @-85.45,139.52,-84.60,141.59   ->serial;
+cell ucom:and4    rot0,flip @-86.49,139.53,-85.43,141.60   ->serial;
+cell urys:nand4   rot0,flip @-87.34,139.53,-86.47,141.59   ->serial;
+cell ufeg:and4    rot0,flip @-88.38,139.52,-87.33,141.60   ->serial;
+cell uvyr:not_x1  rot0,flip @-88.73,139.52,-88.37,141.59   ->clocks;
+cell ukap:muxi    rot0,flip @-89.56,139.54,-88.70,141.61   ->timer;
+cell ulak:dffsr   rot0,flip @-93.32,139.52,-89.55,141.61   ->int;
+cell ulur:mux     rot0,flip @-94.34,139.54,-93.32,141.59   ->clocks;
+cell ukup:dffr    rot0,flip @-97.24,139.53,-94.33,141.62   ->clocks;
+cell urek:not_x1  rot0,flip @-97.59,139.53,-97.25,141.61   ->clocks;
+cell ubot:not_x1  rot0,flip @-97.94,139.52,-97.58,141.59   ->clocks;
+cell ufor:dffr    rot0,flip @-100.84,139.52,-97.91,141.59  ->clocks;
+cell ugot:dffr    rot0,flip @-103.74,139.52,-100.83,141.59 ->clocks;
+cell uvyt:not_x2  rot0,flip @-104.25,139.52,-103.73,141.62 ->clocks;
+cell utok:not_x1  rot0,flip @-104.60,139.51,-104.24,141.61 ->clocks;
+cell umer:not_x1  rot0,flip @-104.93,139.53,-104.59,141.60 ->clocks;
+cell umek:not_x1  rot0,flip @-105.27,139.52,-104.93,141.59 ->clocks;
+cell upug:not_if1 rot0,flip @-106.30,139.52,-105.27,141.60 ->clocks;
+cell umob:not_x1  rot0,flip @-107.18,139.52,-106.83,141.61 ->ppu-lcd;
+cell usec:not_x1  rot0,flip @-107.52,139.51,-107.17,141.60 ->ppu-lcd;
 
 
 # Wires originating from column U in top center
 # ---------------------------------------------
 
 wire unut:ctl
-	unut.q -> taba.in3
+	unut.y -> taba.in3
 	@-60.27,139.83,-60.27,138.95,-60.09,138.95,-60.09,137.66;
 
 wire 16hz:clk
@@ -82,21 +82,21 @@ wire cpu_irq3:ctl
 # ubul.~q is not connected
 
 wire usuf:ctl
-	usuf.q -> ~wr.l
+	usuf.y -> ~wr.ndrv
 	@-73.25,141.33,-73.25,143.65,-80.91,143.64,-80.91,145.64,-47.68,145.66,-47.79,233.45,-90.45,233.43,
 	 -90.45,238.05,-83.16,238.05,-83.16,238.35;
 
 wire udor:clk
-	udor.q -> tatu.in
+	udor.y -> tatu.in
 	@-73.58,139.84,-73.58,139.13,-75.63,139.13,-75.63,137.63;
 
 wire ubet:ctl
-	ubet.q -> upoj.in1 unor.in2
+	ubet.y -> upoj.in1 unor.in2
 	@-73.94,141.31,-73.94,142.80,-74.78,142.80
 	@-74.78,141.30,-74.78,143.52,-75.98,143.52,-75.98,141.30;
 
 wire ~{t1}t2:ctl
-	umut.q -> cpu.r6 loxo.in3 moca.in2 mule.in taba.in2 yaza.in apet.in2
+	umut.y -> cpu.r6 loxo.in3 moca.in2 mule.in taba.in2 yaza.in apet.in2
 	@-67.55,104.41,-67.55,105.07,-67.41,105.23,-67.41,108.09,-48.98,108.11,-49.04,144.90,-73.08,144.88,
 	 -110.70,144.86,-110.74,180.85,-116.62,180.84,-116.62,182.77,-120.98,182.77,-120.98,183.78
 	@-73.08,144.88,-73.08,143.52,-74.62,143.52,-74.62,141.32
@@ -107,7 +107,7 @@ wire ~{t1}t2:ctl
 	 -84.35,148.67,-84.37,165.79,-84.33,165.79,-84.33,165.95,-83.87,165.95;
 
 wire ~test_reset:rst
-	upoj.q -> afer.~r adyk.~r apuk.~r alef.~r afur.~r
+	upoj.y -> afer.~r adyk.~r apuk.~r alef.~r afur.~r
 	@-75.30,141.31,-75.30,143.22,-73.50,143.22,-73.50,145.01,-45.96,145.02,-46.00,171.26,-55.54,171.24,
 	 -55.54,157.07,-56.17,157.07
 	@-55.54,158.27,-56.16,158.27
@@ -117,12 +117,12 @@ wire ~test_reset:rst
 	@-55.54,170.58,-56.16,170.58;
 
 wire uvar:ctl
-	uvar.q -> umut.in2 upoj.in2
+	uvar.y -> umut.in2 upoj.in2
 	@-75.65,141.32,-75.65,142.96,-74.27,142.96,-74.27,141.31
 	@-74.96,142.96,-74.96,141.31;
 
 wire t1~{t2}:ctl
-	unor.q -> cpu.r3 rulo.in2 ryca.in sycy.in tuso.in1 tuto.in1 leva.in1 lyny.in1 loso.in1 lyra.in1
+	unor.y -> cpu.r3 rulo.in2 ryca.in sycy.in tuso.in1 tuto.in1 leva.in1 lyny.in1 loso.in1 lyra.in1
 	          leco.in2 mego.in1 meny.in1 pahy.in1 rore.in1 roru.sel taba.in1 tova.in usuf.in1 ubal.sel
 	          ujyv.sel urun.in1 awod.in1 ajav.in1 apet.in1 apys.in1 bola.in1 bajo.in1 bevo.in1 cyka.in1
 	          cotu.in1 colo.in1 efop.in2 koty.in1
@@ -165,29 +165,29 @@ wire ~uner:clk
 	@-77.51,138.88,-77.51,139.84;
 
 wire 16384hz:clk
-	uvyn.q -> ukap.d1 coty.clk
+	uvyn.y -> ukap.d1 coty.clk
 	@-79.57,141.33,-79.57,143.09
 	@-88.97,141.31,-88.97,143.09,-73.75,143.09,-73.75,146.28,-68.31,146.28,-68.34,160.81,-67.37,160.81;
 
 wire ubal:ctl
-	ubal.q -> tapu.in
+	ubal.y -> tapu.in
 	@-80.42,139.83,-80.42,138.41,-79.05,138.41,-79.05,137.64;
 
 wire ujyv:ctl
-	ujyv.q -> tedo.in
+	ujyv.y -> tedo.in
 	@-81.28,139.83,-81.28,138.41,-80.59,138.41,-80.59,137.63;
 
 wire upyf:ctl
-	upyf.q -> tubo.r
+	upyf.y -> tubo.r
 	@-81.95,139.82,-81.95,139.38,-61.45,139.40,-61.45,137.66;
 
 wire ucob:ctl
-	ucob.q -> upyf.in2 ufol.in1
+	ucob.y -> upyf.in2 ufol.in1
 	@-82.30,141.32,-82.30,141.78
 	@-82.47,141.34,-82.47,141.78,-81.62,141.78,-81.62,141.32;
 
 wire ~reset_div:rst
-	ufol.q -> subu.~r sola.~r teka.~r tama.~r tero.~r teru.~r tofe.~r tulu.~r tugo.~r upof.~r uket.~r unyk.~r
+	ufol.y -> subu.~r sola.~r teka.~r tama.~r tero.~r teru.~r tofe.~r tulu.~r tugo.~r upof.~r uket.~r unyk.~r
 	          uner.~r ukup.~r ufor.~r ugot.~r
 	@-82.98,139.84,-82.98,139.13
 	@-77.34,139.13,-83.83,139.13,-83.83,134.81
@@ -217,22 +217,22 @@ wire ~reset_div:rst
 	@-102.46,139.38,-102.46,137.63;
 
 wire uver:ctl
-	uver.q -> ~wr.~h
+	uver.y -> ~wr.~pdrv
 	@-83.51,141.32,-83.51,143.64,-81.93,143.64,-81.93,145.90,-43.23,145.92,-43.34,233.97,-82.24,233.94,
 	 -82.24,237.88,-74.96,237.88,-74.96,238.36;
 
 wire ugac:ctl
-	ugac.q -> ~rd.~h
+	ugac.y -> ~rd.~pdrv
 	@-84.02,141.32,-84.02,141.91,-77.31,141.91,-77.31,145.13,-43.91,145.16,-44.03,233.07,-72.46,233.05,
 	 -72.46,237.89,-64.37,237.89,-64.37,238.38;
 
 wire urun:ctl
-	urun.q -> ~rd.l
+	urun.y -> ~rd.ndrv
 	@-84.53,141.32,-84.53,143.77,-81.59,143.77,-81.59,144.75,-46.13,144.77,-46.25,233.59,-80.68,233.56,
 	 -80.68,238.05,-72.56,238.06,-72.56,238.38;
 
 wire uwam:ctl
-	uwam.q -> caro.in1 coty.~r culy.clk etaf.clk
+	uwam.y -> caro.in1 coty.~r culy.clk etaf.clk
 	@-85.38,141.31,-85.38,143.52,-76.41,143.51,-76.41,144.37,-67.97,144.37,-67.98,148.34,-68.00,162.70,-68.00,166.30,
 	 -68.35,166.30,-68.36,175.00,-74.34,175.00,-74.34,171.93,-75.81,171.93
 	@-67.98,148.34,-67.38,148.34
@@ -240,13 +240,13 @@ wire uwam:ctl
 	@-68.00,164.59,-67.38,164.59;
 
 wire ucom:ctl
-	ucom.q -> core.ena eluv.ena
+	ucom.y -> core.ena eluv.ena
 	@-86.41,141.30,-86.41,142.83,-77.06,142.84,-77.06,144.49,-68.49,144.51,-68.52,167.32,-68.52,174.83,
 	 -74.49,174.83,-74.49,174.66,-75.80,174.66
 	@-68.52,167.32,-67.38,167.32;
 
 wire urys:ctl
-	urys.q -> cohy.in1 daku.in dyly.in1 daju.in1 dybo.in1 dumo.in1 ehuj.in1 efak.in1 eguv.in1
+	urys.y -> cohy.in1 daku.in dyly.in1 daju.in1 dybo.in1 dumo.in1 ehuj.in1 efak.in1 eguv.in1
 	@-87.27,141.31,-87.27,142.96,-82.38,142.96,-82.38,146.28,-78.06,146.28,-78.06,147.99,-78.07,154.33,-78.09,160.47,
 	 -78.09,166.63,-77.27,166.63
 	@-78.07,154.33,-77.26,154.33
@@ -258,7 +258,7 @@ wire urys:ctl
 	@-72.79,166.98,-71.98,166.98;
 
 wire ufeg:ctl
-	ufeg.q -> cugy.ena dame.ena daso.ena detu.ena dude.ena evok.ena efab.ena etak.ena
+	ufeg.y -> cugy.ena dame.ena daso.ena detu.ena dude.ena evok.ena efab.ena etak.ena
 	@-88.29,141.31,-88.29,142.71,-78.37,142.71,-78.37,144.24,-69.00,144.24,-69.04,172.10
 	@-67.40,172.10,-72.97,172.10,-72.95,165.95,-72.95,159.78,-72.94,152.79,-72.93,148.16,-78.23,148.17,-78.24,153.30,
 	 -78.25,159.45,-78.26,165.60,-77.29,165.60
@@ -269,11 +269,11 @@ wire ufeg:ctl
 	@-78.25,159.45,-77.28,159.45;
 
 wire 65536hz:clk
-	uvyr.q -> ukap.d0
+	uvyr.y -> ukap.d0
 	@-88.62,139.81,-88.62,139.38,-89.13,139.38,-89.13,139.83;
 
 wire ukap:clk
-	ukap.q -> tecy.d1
+	ukap.y -> tecy.d1
 	@-89.48,139.82,-89.48,138.95,-89.13,138.95,-89.13,137.63;
 
 wire cpu_irq4:ctl
@@ -286,7 +286,7 @@ wire cpu_irq4:ctl
 # ulak.~q is not connected
 
 wire ulur:clk
-	ulur.q -> ugot.clk
+	ulur.y -> ugot.clk
 	@-94.27,141.30,-94.27,142.58,-101.10,142.56,-101.10,141.30;
 
 # ukup.q is not connected
@@ -297,13 +297,13 @@ wire ukup:clk
 	@-97.00,142.83,-95.46,142.83,-95.46,141.30;
 
 wire 4096hz:clk
-	urek.q -> teko.d0 taku.in usec.in
+	urek.y -> teko.d0 taku.in usec.in
 	@-97.51,139.81,-97.51,139.13,-96.99,139.13,-96.99,137.61
 	@-96.99,138.99,-93.05,138.99,-93.05,137.64
 	@-96.99,138.35,-97.19,138.35,-97.19,138.19,-107.26,138.18,-107.26,139.82;
 
 wire 262144hz:clk
-	ubot.q -> teko.d1
+	ubot.y -> teko.d1
 	@-97.85,139.80,-97.85,139.24,-92.88,139.24,-92.88,137.61;
 
 wire ufor:clk
@@ -324,7 +324,7 @@ wire ~ugot:clk
 	@-103.49,141.31,-103.49,143.51,-101.95,143.51,-101.95,139.11,-97.67,139.11,-97.67,137.63;
 
 wire dma_phi:clk
-	uvyt.q -> luvy.clk matu.clk meta.in1 mopa.in naxy.in1
+	uvyt.y -> luvy.clk matu.clk meta.in1 mopa.in naxy.in1
 	@-104.17,139.81,-104.17,138.82,-103.99,138.82,-103.99,135.53,-104.16,135.53,-104.16,130.96,-103.98,130.96,
 	 -103.98,127.73,-104.31,127.73,-104.31,123.57,-104.12,123.57,-104.12,118.10,-101.92,118.10,-101.92,115.09,
 	 -101.23,115.09
@@ -333,26 +333,26 @@ wire dma_phi:clk
 	@-100.71,113.23,-100.71,114.83,-97.98,114.83,-97.98,115.80;
 
 wire utok:clk
-	utok.q -> temu.in
+	utok.y -> temu.in
 	@-104.52,139.81,-104.52,139.38,-104.85,139.38,-104.85,137.62;
 
 wire 512hz:clk
-	umer.q -> upug.in bara.d
+	umer.y -> upug.in bara.d
 	@-105.89,141.30,-105.89,143.89,-108.29,143.89,-108.29,143.30,-116.32,143.30,-116.35,181.02,-150.62,181.00,
 	 -150.62,182.79,-192.75,182.77,-192.75,187.25,-192.92,187.25,-192.92,189.23
 	@-105.89,143.63,-104.87,143.63,-104.87,141.28;
 
 wire 8192hz:clk
-	umek.q -> tawu.in umob.in
+	umek.y -> tawu.in umob.in
 	@-105.19,139.81,-105.19,139.38,-105.88,139.38,-105.88,137.61
 	@-105.88,138.53,-106.91,138.53,-106.91,139.82;
 
 wire umob:clk
-	umob.q -> kahe.in4
+	umob.y -> kahe.in4
 	@-221.91,76.88,-221.91,75.23,-192.70,75.25,-192.70,75.93,-136.80,75.95,-136.80,80.40,-122.45,80.41,
 	 -122.48,116.27,-109.64,116.28,-109.70,142.62,-107.09,142.62,-107.09,141.30;
 
 wire usec:clk
-	usec.q -> kupa.in4
+	usec.y -> kupa.in4
 	@-224.31,76.87,-224.31,74.89,-192.35,74.90,-192.35,75.59,-136.45,75.61,-136.45,80.06,-122.11,80.07,
 	 -122.14,115.42,-109.46,115.43,-109.53,142.27,-107.43,142.27,-107.43,141.28;

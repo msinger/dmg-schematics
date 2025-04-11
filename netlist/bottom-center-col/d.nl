@@ -1,114 +1,114 @@
 # Cells in column D in bottom center
 # ----------------------------------
 
-cell decy:inv_a       rot0,flip @-126.59,96.51,-126.27,98.55      ->ppu-oam;
-cell dula:inv_a       rot0,flip @-126.95,96.51,-126.59,98.55      ->ppu-control;
-cell duve:tri_inv_if0 rot0,flip @-127.97,96.49,-126.94,98.54      ->ppu-dma;
-cell damu:tri_inv_if0 rot0,flip @-128.99,96.48,-127.97,98.56      ->ppu-dma;
-cell dyky:inv_b       rot0,flip @-129.51,96.49,-129.00,98.56      ->ppu-control;
-cell dava:tri_inv_if0 rot0,flip @-130.54,96.50,-129.51,98.55      ->ppu-dma;
-cell duga:inv_b       rot0,flip @-131.05,96.50,-130.52,98.54      ->ppu-dma;
-cell doxe:tri_inv_if0 rot0,flip @-132.08,96.49,-131.05,98.53      ->ppu-bgscroll;
-cell duzu:dr_latch    rot0,flip @-133.79,96.49,-132.06,98.55      ->ppu-bgscroll;
-cell daty:dr_latch    rot0,flip @-135.48,96.51,-133.78,98.55      ->ppu-bgscroll;
-cell deve:tri_buf_if0 rot0,flip @-137.20,96.49,-135.49,98.54      ->ppu-xcomp;
-cell dafe:tri_inv_if0 rot0,flip @-138.23,96.50,-137.20,98.55      ->ppu-bgscroll;
-cell dede:dr_latch    rot0,flip @-139.94,96.51,-138.22,98.55      ->ppu-bgscroll;
-cell daba:full_add    rot0,flip @-143.36,96.48,-139.93,98.54      ->ppu-bgscroll;
-cell duho:tri_inv_if0 rot0,flip @-144.38,96.49,-143.34,98.55      ->ppu-bgscroll;
-cell doto:full_add    rot0,flip @-147.81,96.49,-144.37,98.55      ->ppu-bgscroll;
-cell dode:tri_inv_if0 rot0,flip @-148.84,96.48,-147.80,98.55      ->ppu-bgscroll;
-cell dyso:tri_inv_if0 rot0,flip @-149.86,96.49,-148.82,98.55      ->ppu-ycomp;
-cell dahu:tri_inv_if0 rot0,flip @-150.88,96.48,-149.85,98.55      ->ppu-bgscroll;
-cell dygo:tri_inv_if0 rot0,flip @-151.91,96.49,-150.88,98.55      ->ppu-objreg;
-cell dese:d_latch_a   rot0,flip @-153.45,96.49,-151.90,98.54      ->ppu-objreg;
-cell dony:tri_inv_if0 rot0,flip @-154.47,96.48,-153.44,98.55      ->ppu-objreg;
-cell duha:d_latch_a   rot0,flip @-156.00,96.52,-154.46,98.55      ->ppu-objreg;
-cell devy:d_latch_a   rot0,flip @-157.55,96.51,-156.00,98.54      ->ppu-objreg;
-cell depo:d_latch_a   rot0,flip @-159.08,96.50,-157.54,98.55      ->ppu-xcomp;
-cell dowa:tri_inv_if0 rot0,flip @-160.11,96.50,-159.08,98.54      ->ppu-objreg;
-cell duny:d_latch_a   rot0,flip @-161.81,96.49,-160.27,98.54      ->ppu-objreg;
-cell dege:inv_a       rot0,flip @-162.16,96.49,-161.82,98.54      ->ppu-ycomp;
-cell dyty:inv_b       rot0,flip @-162.67,96.49,-162.15,98.53      ->ppu-objctl;
-cell dezu:tri_inv_if0 rot0,flip @-163.70,96.50,-162.67,98.53      ->ppu-objreg;
-cell dafu:d_latch_a   rot0,flip @-165.23,96.49,-163.68,98.55      ->ppu-objreg;
-cell deba:d_latch_a   rot0,flip @-166.77,96.49,-165.23,98.55      ->ppu-objreg;
-cell daby:inv_a       rot0,flip @-167.11,96.49,-166.77,98.54      ->ppu-ycomp;
-cell dasa:inv_a       rot0,flip @-167.45,96.50,-167.10,98.52      ->ppu-ycomp;
-cell dabu:inv_a       rot0,flip @-167.80,96.51,-167.45,98.53      ->ppu-ycomp;
-cell doba:dffr_b2     rot0,flip @-170.71,96.48,-167.79,98.54      ->ppu-objctl;
-cell dagu:xor         rot0,flip @-171.73,96.48,-170.70,98.53      ->ppu-xcomp;
-cell duse:xor         rot0,flip @-172.76,96.49,-171.73,98.54      ->ppu-xcomp;
-cell deso:xor         rot0,flip @-173.78,96.48,-172.75,98.54      ->ppu-xcomp;
-cell deha:inv_a       rot0,flip @-174.13,96.48,-173.77,98.55      ->ppu-objctl;
-cell dyka:nand3       rot0,flip @-174.80,96.48,-174.11,98.54      ->ppu-xprio;
-cell dyze:xor         rot0,flip @-175.84,96.48,-174.80,98.53      ->ppu-xcomp;
-cell dake:dr_latch    rot0,flip @-177.54,96.49,-175.83,98.52      ->ppu-xcomp;
-cell daje:nor4        rot0,flip @-178.40,96.47,-177.54,98.53      ->ppu-xcomp;
-cell ducu:xor         rot0,flip @-179.42,96.49,-178.38,98.52      ->ppu-xcomp;
-cell dyfu:dr_latch    rot0,flip @-181.13,96.49,-179.41,98.53      ->ppu-xcomp;
-cell dazo:dr_latch    rot0,flip @-182.85,96.49,-181.13,98.53      ->ppu-xcomp;
-cell dury:dr_latch    rot0,flip @-184.55,96.48,-182.83,98.53      ->ppu-xcomp;
-cell desu:dr_latch    rot0,flip @-186.26,96.48,-184.54,98.52      ->ppu-xcomp;
-cell dydu:nand3       rot0,flip @-186.95,96.49,-186.25,98.54      ->ppu-xprio;
-cell duko:dr_latch    rot0,flip @-188.66,96.48,-186.94,98.52      ->ppu-xcomp;
-cell doku:inv_a       rot0,flip @-188.99,96.48,-188.65,98.53      ->ppu-xprio;
-cell dany:dr_latch    rot0,flip @-190.70,96.47,-188.99,98.52      ->ppu-xcomp;
-cell dyby:dr_latch    rot0,flip @-192.41,96.48,-190.70,98.52      ->ppu-xcomp;
-cell dezy:dffr_b2     rot0,flip @-195.31,96.47,-192.40,98.52      ->ppu-objctl;
-cell dyba:inv_a       rot0,flip @-195.66,96.48,-195.30,98.52      ->ppu-xprio;
-cell dosy:inv_a       rot0,flip @-196.00,96.47,-195.64,98.50      ->ppu-xprio;
-cell dubu:or2         rot0,flip @-196.67,96.48,-195.99,98.52      ->ppu-xprio;
-cell dydo:inv_b       rot0,flip @-197.20,96.48,-196.67,98.52      ->ppu-xprio;
-cell dywe:or2         rot0,flip @-197.88,96.47,-197.20,98.53      ->ppu-xprio;
-cell deny:inv_b       rot0,flip @-198.38,96.48,-197.87,98.52      ->ppu-xprio;
-cell dyna:inv_a       rot0,flip @-198.73,96.48,-198.38,98.52      ->ppu-xprio;
-cell duze:xor         rot0,flip @-199.76,96.48,-198.73,98.52      ->ppu-xcomp;
-cell dama:nor4        rot0,flip @-200.61,96.49,-199.76,98.51      ->ppu-xcomp;
-cell daga:xor         rot0,flip @-201.64,96.48,-200.60,98.51      ->ppu-xcomp;
-cell dego:nand3       rot0,flip @-202.33,96.47,-201.64,98.50      ->ppu-xprio;
-cell dawu:xor         rot0,flip @-203.34,96.48,-202.32,98.52      ->ppu-xcomp;
-cell dety:xor         rot0,flip @-204.38,96.47,-203.35,98.50      ->ppu-xcomp;
-cell dozo:xor         rot0,flip @-205.38,96.47,-204.37,98.50      ->ppu-xcomp;
-cell dece:inv_a       rot0,flip @-205.73,96.46,-205.38,98.51      ->ppu-objctl;
-cell dybe:dffr_b2     rot0,flip @-208.64,96.48,-205.73,98.51      ->ppu-objctl;
-cell depy:dr_latch    rot0,flip @-210.35,96.47,-208.63,98.52      ->ppu-xcomp;
-cell duhy:dr_latch    rot0,flip @-212.07,96.45,-210.34,98.50      ->ppu-xcomp;
-cell duke:inv_a       rot0,flip @-212.41,96.46,-212.05,98.52      ->ppu-objctl;
-cell dyny:tri_inv_if0 rot0,flip @-213.44,96.45,-212.41,98.52      ->ppu-objreg;
-cell daly:tri_inv_if0 rot0,flip @-214.46,96.48,-213.43,98.51      ->ppu-objreg;
-cell dalo:tri_inv_if0 rot0,flip @-215.50,96.46,-214.45,98.50      ->ppu-objreg;
-cell dewy:nand4       rot0,flip @-216.34,96.46,-215.48,98.51      ->ppu-objctl;
-cell dezo:nand4       rot0,flip @-217.19,96.47,-216.33,98.52      ->ppu-objctl;
-cell dyhu:inv_a       rot0,flip @-217.52,96.47,-217.18,98.51      ->ppu-objctl;
-cell dymo:inv_a       rot0,flip @-217.88,96.47,-217.52,98.50 comp ->ppu-objctl;
-cell dofe:inv_a       rot0,flip @-218.22,96.48,-217.87,98.52      ->ppu-objctl;
-cell doby:inv_a       rot0,flip @-218.55,96.45,-218.21,98.52      ->ppu-objctl;
-cell dogu:nand4       rot0,flip @-219.41,96.46,-218.55,98.51      ->ppu-objctl;
-cell dewu:d_latch_a   rot0,flip @-220.95,96.45,-219.41,98.49      ->ppu-objreg;
-cell dobo:tri_inv_if0 rot0,flip @-221.98,96.45,-220.95,98.51      ->ppu-objreg;
-cell decu:inv_a       rot0,flip @-222.34,96.46,-221.97,98.51      ->ppu-objctl;
-cell duza:tri_inv_if0 rot0,flip @-223.35,96.45,-222.31,98.52      ->ppu-objreg;
-cell dysy:d_latch_a   rot0,flip @-224.89,96.46,-223.34,98.50      ->ppu-objreg;
+cell decy:not_x1     rot0,flip @-126.59,96.51,-126.27,98.55      ->ppu-oam;
+cell dula:not_x1     rot0,flip @-126.95,96.51,-126.59,98.55      ->ppu-control;
+cell duve:not_if0    rot0,flip @-127.97,96.49,-126.94,98.54      ->ppu-dma;
+cell damu:not_if0    rot0,flip @-128.99,96.48,-127.97,98.56      ->ppu-dma;
+cell dyky:not_x2     rot0,flip @-129.51,96.49,-129.00,98.56      ->ppu-control;
+cell dava:not_if0    rot0,flip @-130.54,96.50,-129.51,98.55      ->ppu-dma;
+cell duga:not_x2     rot0,flip @-131.05,96.50,-130.52,98.54      ->ppu-dma;
+cell doxe:not_if0    rot0,flip @-132.08,96.49,-131.05,98.53      ->ppu-bgscroll;
+cell duzu:drlatch_ee rot0,flip @-133.79,96.49,-132.06,98.55      ->ppu-bgscroll;
+cell daty:drlatch_ee rot0,flip @-135.48,96.51,-133.78,98.55      ->ppu-bgscroll;
+cell deve:buf_if0    rot0,flip @-137.20,96.49,-135.49,98.54      ->ppu-xcomp;
+cell dafe:not_if0    rot0,flip @-138.23,96.50,-137.20,98.55      ->ppu-bgscroll;
+cell dede:drlatch_ee rot0,flip @-139.94,96.51,-138.22,98.55      ->ppu-bgscroll;
+cell daba:full_add   rot0,flip @-143.36,96.48,-139.93,98.54      ->ppu-bgscroll;
+cell duho:not_if0    rot0,flip @-144.38,96.49,-143.34,98.55      ->ppu-bgscroll;
+cell doto:full_add   rot0,flip @-147.81,96.49,-144.37,98.55      ->ppu-bgscroll;
+cell dode:not_if0    rot0,flip @-148.84,96.48,-147.80,98.55      ->ppu-bgscroll;
+cell dyso:not_if0    rot0,flip @-149.86,96.49,-148.82,98.55      ->ppu-ycomp;
+cell dahu:not_if0    rot0,flip @-150.88,96.48,-149.85,98.55      ->ppu-bgscroll;
+cell dygo:not_if0    rot0,flip @-151.91,96.49,-150.88,98.55      ->ppu-objreg;
+cell dese:dlatch_ee  rot0,flip @-153.45,96.49,-151.90,98.54      ->ppu-objreg;
+cell dony:not_if0    rot0,flip @-154.47,96.48,-153.44,98.55      ->ppu-objreg;
+cell duha:dlatch_ee  rot0,flip @-156.00,96.52,-154.46,98.55      ->ppu-objreg;
+cell devy:dlatch_ee  rot0,flip @-157.55,96.51,-156.00,98.54      ->ppu-objreg;
+cell depo:dlatch_ee  rot0,flip @-159.08,96.50,-157.54,98.55      ->ppu-xcomp;
+cell dowa:not_if0    rot0,flip @-160.11,96.50,-159.08,98.54      ->ppu-objreg;
+cell duny:dlatch_ee  rot0,flip @-161.81,96.49,-160.27,98.54      ->ppu-objreg;
+cell dege:not_x1     rot0,flip @-162.16,96.49,-161.82,98.54      ->ppu-ycomp;
+cell dyty:not_x2     rot0,flip @-162.67,96.49,-162.15,98.53      ->ppu-objctl;
+cell dezu:not_if0    rot0,flip @-163.70,96.50,-162.67,98.53      ->ppu-objreg;
+cell dafu:dlatch_ee  rot0,flip @-165.23,96.49,-163.68,98.55      ->ppu-objreg;
+cell deba:dlatch_ee  rot0,flip @-166.77,96.49,-165.23,98.55      ->ppu-objreg;
+cell daby:not_x1     rot0,flip @-167.11,96.49,-166.77,98.54      ->ppu-ycomp;
+cell dasa:not_x1     rot0,flip @-167.45,96.50,-167.10,98.52      ->ppu-ycomp;
+cell dabu:not_x1     rot0,flip @-167.80,96.51,-167.45,98.53      ->ppu-ycomp;
+cell doba:dffr       rot0,flip @-170.71,96.48,-167.79,98.54      ->ppu-objctl;
+cell dagu:xor        rot0,flip @-171.73,96.48,-170.70,98.53      ->ppu-xcomp;
+cell duse:xor        rot0,flip @-172.76,96.49,-171.73,98.54      ->ppu-xcomp;
+cell deso:xor        rot0,flip @-173.78,96.48,-172.75,98.54      ->ppu-xcomp;
+cell deha:not_x1     rot0,flip @-174.13,96.48,-173.77,98.55      ->ppu-objctl;
+cell dyka:nand3      rot0,flip @-174.80,96.48,-174.11,98.54      ->ppu-xprio;
+cell dyze:xor        rot0,flip @-175.84,96.48,-174.80,98.53      ->ppu-xcomp;
+cell dake:drlatch_ee rot0,flip @-177.54,96.49,-175.83,98.52      ->ppu-xcomp;
+cell daje:nor4       rot0,flip @-178.40,96.47,-177.54,98.53      ->ppu-xcomp;
+cell ducu:xor        rot0,flip @-179.42,96.49,-178.38,98.52      ->ppu-xcomp;
+cell dyfu:drlatch_ee rot0,flip @-181.13,96.49,-179.41,98.53      ->ppu-xcomp;
+cell dazo:drlatch_ee rot0,flip @-182.85,96.49,-181.13,98.53      ->ppu-xcomp;
+cell dury:drlatch_ee rot0,flip @-184.55,96.48,-182.83,98.53      ->ppu-xcomp;
+cell desu:drlatch_ee rot0,flip @-186.26,96.48,-184.54,98.52      ->ppu-xcomp;
+cell dydu:nand3      rot0,flip @-186.95,96.49,-186.25,98.54      ->ppu-xprio;
+cell duko:drlatch_ee rot0,flip @-188.66,96.48,-186.94,98.52      ->ppu-xcomp;
+cell doku:not_x1     rot0,flip @-188.99,96.48,-188.65,98.53      ->ppu-xprio;
+cell dany:drlatch_ee rot0,flip @-190.70,96.47,-188.99,98.52      ->ppu-xcomp;
+cell dyby:drlatch_ee rot0,flip @-192.41,96.48,-190.70,98.52      ->ppu-xcomp;
+cell dezy:dffr       rot0,flip @-195.31,96.47,-192.40,98.52      ->ppu-objctl;
+cell dyba:not_x1     rot0,flip @-195.66,96.48,-195.30,98.52      ->ppu-xprio;
+cell dosy:not_x1     rot0,flip @-196.00,96.47,-195.64,98.50      ->ppu-xprio;
+cell dubu:or2        rot0,flip @-196.67,96.48,-195.99,98.52      ->ppu-xprio;
+cell dydo:not_x2     rot0,flip @-197.20,96.48,-196.67,98.52      ->ppu-xprio;
+cell dywe:or2        rot0,flip @-197.88,96.47,-197.20,98.53      ->ppu-xprio;
+cell deny:not_x2     rot0,flip @-198.38,96.48,-197.87,98.52      ->ppu-xprio;
+cell dyna:not_x1     rot0,flip @-198.73,96.48,-198.38,98.52      ->ppu-xprio;
+cell duze:xor        rot0,flip @-199.76,96.48,-198.73,98.52      ->ppu-xcomp;
+cell dama:nor4       rot0,flip @-200.61,96.49,-199.76,98.51      ->ppu-xcomp;
+cell daga:xor        rot0,flip @-201.64,96.48,-200.60,98.51      ->ppu-xcomp;
+cell dego:nand3      rot0,flip @-202.33,96.47,-201.64,98.50      ->ppu-xprio;
+cell dawu:xor        rot0,flip @-203.34,96.48,-202.32,98.52      ->ppu-xcomp;
+cell dety:xor        rot0,flip @-204.38,96.47,-203.35,98.50      ->ppu-xcomp;
+cell dozo:xor        rot0,flip @-205.38,96.47,-204.37,98.50      ->ppu-xcomp;
+cell dece:not_x1     rot0,flip @-205.73,96.46,-205.38,98.51      ->ppu-objctl;
+cell dybe:dffr       rot0,flip @-208.64,96.48,-205.73,98.51      ->ppu-objctl;
+cell depy:drlatch_ee rot0,flip @-210.35,96.47,-208.63,98.52      ->ppu-xcomp;
+cell duhy:drlatch_ee rot0,flip @-212.07,96.45,-210.34,98.50      ->ppu-xcomp;
+cell duke:not_x1     rot0,flip @-212.41,96.46,-212.05,98.52      ->ppu-objctl;
+cell dyny:not_if0    rot0,flip @-213.44,96.45,-212.41,98.52      ->ppu-objreg;
+cell daly:not_if0    rot0,flip @-214.46,96.48,-213.43,98.51      ->ppu-objreg;
+cell dalo:not_if0    rot0,flip @-215.50,96.46,-214.45,98.50      ->ppu-objreg;
+cell dewy:nand4      rot0,flip @-216.34,96.46,-215.48,98.51      ->ppu-objctl;
+cell dezo:nand4      rot0,flip @-217.19,96.47,-216.33,98.52      ->ppu-objctl;
+cell dyhu:not_x1     rot0,flip @-217.52,96.47,-217.18,98.51      ->ppu-objctl;
+cell dymo:not_x1     rot0,flip @-217.88,96.47,-217.52,98.50 comp ->ppu-objctl;
+cell dofe:not_x1     rot0,flip @-218.22,96.48,-217.87,98.52      ->ppu-objctl;
+cell doby:not_x1     rot0,flip @-218.55,96.45,-218.21,98.52      ->ppu-objctl;
+cell dogu:nand4      rot0,flip @-219.41,96.46,-218.55,98.51      ->ppu-objctl;
+cell dewu:dlatch_ee  rot0,flip @-220.95,96.45,-219.41,98.49      ->ppu-objreg;
+cell dobo:not_if0    rot0,flip @-221.98,96.45,-220.95,98.51      ->ppu-objreg;
+cell decu:not_x1     rot0,flip @-222.34,96.46,-221.97,98.51      ->ppu-objctl;
+cell duza:not_if0    rot0,flip @-223.35,96.45,-222.31,98.52      ->ppu-objreg;
+cell dysy:dlatch_ee  rot0,flip @-224.89,96.46,-223.34,98.50      ->ppu-objreg;
 
 
 # Wires originating from column D in bottom center
 # ------------------------------------------------
 
 wire decy:clk
-	decy.q -> caty.in
+	decy.y -> caty.in
 	@-126.52,96.77,-126.52,96.08,-126.34,96.08,-126.34,94.48;
 
 wire dula:rst
-	dula.q -> cunu.in
+	dula.y -> cunu.in
 	@-126.86,96.77,-126.86,96.33,-128.23,96.33,-128.23,94.46;
 
 wire dyky:ctl
-	dyky.q -> cupa.in
+	dyky.y -> cupa.in
 	@-129.43,96.76,-129.43,96.33,-142.76,96.33,-142.76,94.45;
 
 wire ~oam_addr_dma:ctl
-	duga.q -> elug.~ena edol.~ena fetu.~ena fyky.~ena fago.~ena fydu.~ena fodo.~ena fesa.~ena
+	duga.y -> elug.~ena edol.~ena fetu.~ena fyky.~ena fago.~ena fydu.~ena fodo.~ena fesa.~ena
 	@-130.97,98.28,-130.97,100.63,-129.43,100.63,-129.43,105.36
 	@-129.27,105.36,-132.35,105.36
 	@-130.29,105.36,-130.29,105.80
@@ -208,11 +208,11 @@ wire ~duny:data
 	@-161.57,98.26,-161.57,100.49,-159.68,100.49,-159.68,98.26;
 
 wire ~sprite_y0:data
-	dege.q -> cucu.in
+	dege.y -> cucu.in
 	@-162.08,96.76,-162.08,95.34,-161.56,95.34,-161.56,94.45;
 
 wire ~sprite_save_en:ctl
-	dyty.q -> byby.in1 cecu.in1 caho.in1 cemy.in1 cato.in1 cado.in1 dezy.d gape.in1 guve.in1 wyxo.in1 xujo.in1
+	dyty.y -> byby.in1 cecu.in1 caho.in1 cemy.in1 cato.in1 cado.in1 dezy.d gape.in1 guve.in1 wyxo.in1 xujo.in1
 	@-162.59,98.26,-162.59,100.03,-191.65,100.02,-191.65,105.34,-191.31,105.34,-191.31,110.09,-191.66,110.09,
 	 -191.66,113.42,-211.83,113.40
 	@-191.65,100.06,-193.52,100.06,-193.52,91.90,-213.69,91.88,-213.69,92.93
@@ -236,15 +236,15 @@ wire ~deba:data
 	@-166.52,98.27,-166.52,100.38,-166.35,100.38,-166.35,101.19;
 
 wire ~sprite_y1:data
-	daby.q -> cuca.in
+	daby.y -> cuca.in
 	@-167.03,96.77,-167.03,96.06,-166.69,96.06,-166.69,94.46;
 
 wire dasa:data
-	dasa.q -> enef.a
+	dasa.y -> enef.a
 	@-167.38,98.27,-167.38,100.37,-169.43,100.37,-169.43,101.19;
 
 wire ~sprite_y2:data
-	dabu.q -> cega.in
+	dabu.y -> cega.in
 	@-167.71,96.76,-167.71,94.45;
 
 wire doba:ctl
@@ -254,19 +254,19 @@ wire doba:ctl
 # doba.~q is not connected
 
 wire dagu:data
-	dagu.q -> cyco.in2
+	dagu.y -> cyco.in2
 	@-170.79,96.76,-170.79,96.31,-171.48,96.31,-171.48,94.45;
 
 wire duse:data
-	duse.q -> cyco.in1
+	duse.y -> cyco.in1
 	@-171.82,96.76,-171.82,96.18,-171.30,96.18,-171.30,94.45;
 
 wire deso:data
-	deso.q -> cyco.in4
+	deso.y -> cyco.in4
 	@-172.84,96.76,-172.84,95.33,-171.82,95.33,-171.82,94.46;
 
 wire save_sprite_x7:ctl
-	deha.q -> epum.ena eraz.ena ehyn.ena erol.ena exuk.ena fazu.ena fede.ena faxe.ena
+	deha.y -> epum.ena eraz.ena ehyn.ena erol.ena exuk.ena fazu.ena fede.ena faxe.ena
 	@-174.04,98.27,-174.04,99.91,-174.22,99.91,-174.22,103.99
 	@-172.51,103.99,-175.92,103.99
 	@-172.51,102.69,-172.51,104.37,-170.80,104.37,-170.80,102.68
@@ -276,12 +276,12 @@ wire save_sprite_x7:ctl
 	@-179.69,102.68,-179.69,105.80;
 
 wire dyka:ctl
-	dyka.q -> fove.in3 gutu.in1 gyte.in
+	dyka.y -> fove.in3 gutu.in1 gyte.in
 	@-174.73,98.27,-174.73,99.91,-176.09,99.91,-176.09,103.98,-181.92,103.98,-181.92,110.09,-180.73,110.09,-180.73,110.80
 	@-180.73,110.34,-179.00,110.34,-179.00,110.77;
 
 wire dyze:data
-	dyze.q -> cyco.in3
+	dyze.y -> cyco.in3
 	@-174.89,96.76,-174.89,95.84,-171.65,95.84,-171.65,94.43;
 
 wire dake:data
@@ -291,11 +291,11 @@ wire dake:data
 # dake.~q is not connected
 
 wire sprite_x_match_h7:ctl
-	daje.q -> dyka.in3
+	daje.y -> dyka.in3
 	@-178.31,98.26,-178.31,100.75,-174.55,100.75,-174.55,98.25;
 
 wire ducu:data
-	ducu.q -> daje.in3
+	ducu.y -> daje.in3
 	@-178.48,98.24,-178.48,99.73,-177.98,99.73,-177.98,98.25;
 
 wire dyfu:data
@@ -323,7 +323,7 @@ wire desu:data
 # desu.~q is not connected
 
 wire dydu:ctl
-	dydu.q -> enut.in1 fefy.in4 gaja.in
+	dydu.y -> enut.in1 fefy.in4 gaja.in
 	@-186.86,98.25,-186.86,100.31,-188.23,100.31,-188.23,104.79,-188.06,104.79,-188.06,108.42,-188.58,108.42,
 	 -188.58,110.80;
 
@@ -334,7 +334,7 @@ wire duko:data
 # duko.~q is not connected
 
 wire sprite_rst1:ctl
-	doku.q -> cusy.~r ceso.~r dake.~r dyfu.~r dazo.~r desu.~r duko.~r dany.~r
+	doku.y -> cusy.~r ceso.~r dake.~r dyfu.~r dazo.~r desu.~r duko.~r dany.~r
 	@-188.91,96.75,-188.91,96.05
 	@-189.94,96.74,-189.94,96.05,-185.49,96.05
 	@-187.89,96.05,-187.89,96.76
@@ -363,7 +363,7 @@ wire dezy:ctl
 # dezy.~q is not connected
 
 wire dyba:ctl
-	dyba.q -> dubu.in1 dywe.in1 efev.in1 feve.in1 foko.in1 guky.in1 gake.in1 goro.in1 wohu.in1 wacy.in1
+	dyba.y -> dubu.in1 dywe.in1 efev.in1 feve.in1 foko.in1 guky.in1 gake.in1 goro.in1 wohu.in1 wacy.in1
 	@-197.28,96.74,-197.28,96.30,-195.57,96.30,-195.57,100.18,-194.90,100.18,-194.90,105.34,-194.39,105.34,
 	 -194.39,108.41,-193.20,108.41,-193.20,107.29
 	@-196.08,96.30,-196.08,96.76
@@ -375,7 +375,7 @@ wire dyba:ctl
 	@-191.83,114.19,-197.81,114.19,-197.81,114.99;
 
 wire sprite_rst9:ctl
-	dosy.q -> xere.~r xuzo.~r xuvy.~r xexa.~r yrop.~r ynep.~r ypod.~r yzof.~r
+	dosy.y -> xere.~r xuzo.~r xuvy.~r xexa.~r yrop.~r ynep.~r ypod.~r yzof.~r
 	@-195.92,98.25,-195.92,100.61,-195.59,100.61,-195.59,113.28,-195.42,113.28,-195.42,118.73,-197.30,118.73,
 	 -197.30,119.55
 	@-195.59,118.73,-195.59,122.95,-190.30,122.95
@@ -386,11 +386,11 @@ wire sprite_rst9:ctl
 	@-186.88,122.70,-186.88,123.80;
 
 wire dubu:ctl
-	dubu.q -> dosy.in
+	dubu.y -> dosy.in
 	@-196.59,96.74,-196.59,95.74,-195.73,95.74,-195.73,96.73;
 
 wire sprite_sel1:ctl
-	dydo.q -> ahum.~ena bemo.~ena bety.~ena befe.~ena baco.~ena byro.~ena celu.~ena cyby.~ena cubo.~ena cegy.~ena
+	dydo.y -> ahum.~ena bemo.~ena bety.~ena befe.~ena baco.~ena byro.~ena celu.~ena cyby.~ena cubo.~ena cegy.~ena
 	@-197.12,96.74,-197.12,95.88,-197.28,95.88,-197.28,92.07,-194.38,92.07
 	@-196.94,92.07,-196.94,88.18,-203.43,88.18,-203.43,92.24,-204.46,92.24,-204.46,90.52
 	@-194.38,92.94,-194.38,92.02,-191.81,92.02,-191.81,92.94
@@ -400,11 +400,11 @@ wire sprite_sel1:ctl
 	@-204.12,92.24,-204.12,92.93;
 
 wire dywe:ctl
-	dywe.q -> dyna.in
+	dywe.y -> dyna.in
 	@-197.79,96.75,-197.79,96.30,-198.48,96.30,-198.48,96.75;
 
 wire sprite_sel8:ctl
-	deny.q -> apob.~ena afen.~ena apyv.~ena akyh.~ena adyb.~ena apoc.~ena ahac.~ena bujy.~ena boso.~ena bazu.~ena
+	deny.y -> apob.~ena afen.~ena apyv.~ena akyh.~ena adyb.~ena apoc.~ena ahac.~ena bujy.~ena boso.~ena bazu.~ena
 	@-198.30,96.73,-198.30,86.83,-197.95,86.83,-197.95,83.04
 	@-194.37,83.04,-208.38,83.04,-208.38,83.92
 	@-194.37,83.91,-194.37,82.27,-191.97,82.27,-191.97,83.91
@@ -415,7 +415,7 @@ wire sprite_sel8:ctl
 	@-213.34,88.18,-213.34,89.02;
 
 wire sprite_rst0:ctl
-	dyna.q -> wote.~r welo.~r xako.~r xuny.~r xepe.~r ylah.~r zulu.~r zola.~r
+	dyna.y -> wote.~r welo.~r xako.~r xuny.~r xepe.~r ylah.~r zulu.~r zola.~r
 	@-198.65,96.73,-198.65,96.30,-208.22,96.30,-208.22,103.97,-208.74,103.97,-208.74,109.95,-209.09,109.95,
 	 -209.09,114.43,-209.27,114.43,-209.27,123.03,-208.76,123.03,-208.76,128.67,-210.48,128.67
 	@-209.27,118.84,-212.70,118.84,-212.70,119.54
@@ -423,36 +423,36 @@ wire sprite_rst0:ctl
 	@-210.48,129.11,-210.48,128.12,-213.21,128.12,-213.21,129.12;
 
 wire duze:data
-	duze.q -> dama.in1
+	duze.y -> dama.in1
 	@-198.81,96.73,-198.81,95.87,-199.84,95.87,-199.84,96.75;
 
 wire sprite_x_match_h8:ctl
-	dama.q -> efyl.in3
+	dama.y -> efyl.in3
 	@-200.53,98.23,-200.53,100.19,-199.34,100.19,-199.34,101.18;
 
 wire daga:data
-	daga.q -> dama.in2
+	daga.y -> dama.in2
 	@-200.70,96.73,-200.70,95.87,-200.02,95.87,-200.02,96.76;
 
 wire dego:ctl
-	dego.q -> emol.in1 fefy.in3 gupo.in
+	dego.y -> emol.in1 fefy.in3 gupo.in
 	@-202.25,98.24,-202.25,100.31,-189.43,100.31,-189.43,103.47,-187.89,103.47,-187.89,107.74,-182.43,107.74,
 	 -182.43,110.79;
 
 wire dawu:data
-	dawu.q -> dama.in3
+	dawu.y -> dama.in3
 	@-202.41,98.23,-202.41,100.61,-200.20,100.61,-200.20,98.23;
 
 wire dety:data
-	dety.q -> cehu.in2
+	dety.y -> cehu.in2
 	@-203.44,96.73,-203.44,95.56,-205.32,95.56,-205.32,94.43;
 
 wire dozo:data
-	dozo.q -> cehu.in3
+	dozo.y -> cehu.in3
 	@-204.45,96.73,-204.45,95.87,-205.49,95.87,-205.49,94.44;
 
 wire save_sprite_x8:ctl
-	dece.q -> ebow.ena ezuf.ena enad.ena fyca.ena gaza.ena gady.ena gypu.ena gavy.ena
+	dece.y -> ebow.ena ezuf.ena enad.ena fyca.ena gaza.ena gady.ena gypu.ena gavy.ena
 	@-205.66,98.24,-205.66,100.31,-206.00,100.31,-206.00,104.13,-207.71,104.13,-207.71,102.66
 	@-205.66,99.93,-203.27,99.93,-203.27,103.59,-202.42,103.59,-202.42,110.78
 	@-202.42,109.57,-206.87,109.57,-206.87,110.76
@@ -481,27 +481,27 @@ wire duhy:data
 # duhy.~q is not connected
 
 wire duke:ctl
-	duke.q -> ewot.in wylu.in wofo.in
+	duke.y -> ewot.in wylu.in wofo.in
 	@-212.33,98.24,-212.33,100.57,-212.16,100.57,-212.16,104.64,-208.40,104.64,-208.40,109.68,-203.45,109.68
 	@-186.52,108.55,-203.45,108.54,-203.45,114.42,-203.96,114.42,-203.96,115.00
 	@-181.91,101.19,-181.91,100.23,-186.69,100.23,-186.69,103.91,-186.52,103.91,-186.52,114.19,-181.41,114.19,
 	 -181.41,115.02;
 
 wire dewy:ctl
-	dewy.q -> caho.in2
+	dewy.y -> caho.in2
 	@-216.25,96.73,-216.25,95.52,-215.39,95.52,-215.39,94.42;
 
 wire dezo:ctl
-	dezo.q -> cemy.in2
+	dezo.y -> cemy.in2
 	@-217.11,96.73,-217.11,96.04,-216.07,96.04,-216.07,94.44;
 
 wire dyhu:ctl
-	dyhu.q -> enob.in fuxu.in geny.in
+	dyhu.y -> enob.in fuxu.in geny.in
 	@-217.45,98.23,-217.45,99.74,-219.16,99.74,-219.16,103.96,-214.56,103.96,-214.56,108.95,-220.88,108.95,
 	 -220.88,110.76;
 
 wire dymo:ctl
-	dymo.q -> dofe.in etym.~ena etav.~ena ekap.~ena ekop.~ena ebex.~ena goru.~ena
+	dymo.y -> dofe.in etym.~ena etav.~ena ekap.~ena ekop.~ena ebex.~ena goru.~ena
 	@-217.79,98.24,-217.79,100.30,-214.20,100.30
 	@-217.79,99.32,-219.50,99.32,-219.50,103.83,-217.80,103.83,-217.80,110.77
 	@-214.20,101.17,-214.20,100.18,-212.67,100.18,-212.67,101.19
@@ -510,7 +510,7 @@ wire dymo:ctl
 	@-221.05,100.73,-221.05,101.18;
 
 wire save_sprite_num5:ctl
-	dofe.q -> etym.ena etav.ena ekap.ena ekop.ena ebex.ena goru.ena
+	dofe.y -> etym.ena etav.ena ekap.ena ekop.ena ebex.ena goru.ena
 	@-218.13,98.24,-218.13,100.73,-213.18,100.73,-213.18,101.18
 	@-214.71,100.73,-214.71,101.17
 	@-218.13,100.60,-220.02,100.60,-220.02,104.43
@@ -518,12 +518,12 @@ wire save_sprite_num5:ctl
 	@-221.56,102.66,-221.56,104.85,-223.78,104.85,-223.78,102.66;
 
 wire save_sprite_y0:ctl
-	doby.q -> bozu.ena cufo.ena fyhy.ena gyho.ena
+	doby.y -> bozu.ena cufo.ena fyhy.ena gyho.ena
 	@-218.63,90.50,-218.63,91.97,-217.95,91.97,-217.95,96.16,-218.47,96.16,-218.47,104.90,-220.36,104.90,
 	 -220.36,110.31,-219.85,110.31,-219.85,110.78;
 
 wire dogu:ctl
-	dogu.q -> cato.in2
+	dogu.y -> cato.in2
 	@-219.32,96.73,-219.32,96.28,-220.18,96.28,-220.18,94.42;
 
 # dewu.q is not connected
@@ -533,7 +533,7 @@ wire ~dewu:data
 	@-220.70,96.74,-220.70,95.69,-219.49,95.69,-219.49,94.41;
 
 wire decu:ctl
-	decu.q -> faka.in wufa.in weme.in
+	decu.y -> faka.in wufa.in weme.in
 	@-222.23,98.23,-222.23,100.18,-222.41,100.18,-222.41,105.32,-223.10,105.32,-223.10,113.52,-223.45,113.52,
 	 -223.45,114.99
 	@-223.45,113.81,-223.96,113.81,-223.96,114.99;

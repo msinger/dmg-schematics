@@ -6,13 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2023-06-26")
-		(rev "0.6")
+		(date "2025-04-12")
+		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
-		(symbol "DMG_CPU_Cells:AND_2"
+		(symbol "DMG_CPU_Cells:AND2"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "AND_2"
+			(property "Value" "AND2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 				)
 			)
 			(property "Description" "AND gate with two inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AND_2_1_1"
+			(symbol "AND2_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -141,307 +141,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:INVERTER_A"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INVERTER_A"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Simple inverter."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERTER_A_1_0"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMG_CPU_Cells:INVERTER_B"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INVERTER_B"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inverter with slightly higher driving strength."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERTER_B_1_0"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMG_CPU_Cells:INVERTER_C"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INVERTER_C"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_c"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inverter with medium driving strength."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERTER_C_1_0"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMG_CPU_Cells:NAND_2"
+		(symbol "DMG_CPU_Cells:NAND2"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -454,7 +154,7 @@
 					)
 				)
 			)
-			(property "Value" "NAND_2"
+			(property "Value" "NAND2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -481,7 +181,7 @@
 				)
 			)
 			(property "Description" "NAND gate with two inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,7 +189,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_2_1_1"
+			(symbol "NAND2_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -570,6 +270,306 @@
 				)
 			)
 		)
+		(symbol "DMG_CPU_Cells:NOT_X1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_X1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple inverter."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_X1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMG_CPU_Cells:NOT_X2"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_X2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inverter with 2× drive strength."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_X2_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMG_CPU_Cells:NOT_X3"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_X3"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x3"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inverter with 3× drive strength."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_X3_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DMG_CPU_Cells:OAM_SRAM"
 			(pin_numbers hide)
 			(exclude_from_sim no)
@@ -611,7 +611,7 @@
 				)
 			)
 			(property "Description" "Static RAM for storing OAM (Object Attribute Map)."
-				(at 0 0 0)
+				(at 0 -34.29 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:OR_3"
+		(symbol "DMG_CPU_Cells:OR3"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1144,7 +1144,7 @@
 					)
 				)
 			)
-			(property "Value" "OR_3"
+			(property "Value" "OR3"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1171,7 +1171,7 @@
 				)
 			)
 			(property "Description" "OR gate with three inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1179,7 +1179,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OR_3_1_1"
+			(symbol "OR3_1_1"
 				(arc
 					(start -3.8102 -3.81)
 					(mid -2.5892 0)
@@ -3094,7 +3094,6 @@
 	)
 	(label "~{OAM_A_D0}"
 		(at 331.47 70.485 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3105,7 +3104,6 @@
 	)
 	(label "OAM_~{A2A1}"
 		(at 282.575 184.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3116,7 +3114,6 @@
 	)
 	(label "~{OAM_B_D6}"
 		(at 331.47 151.765 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3127,7 +3124,6 @@
 	)
 	(label "OAM_~{A2A1}"
 		(at 123.825 218.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3138,7 +3134,6 @@
 	)
 	(label "~{OAM_BL_PRECHARGE}"
 		(at 272.415 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3149,7 +3144,6 @@
 	)
 	(label "~{OAM_WLDRV_PRECHARGE}"
 		(at 203.835 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,7 +3154,6 @@
 	)
 	(label "~{OAM_B_D0}"
 		(at 331.47 167.005 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3171,7 +3164,6 @@
 	)
 	(label "OAM_B_WR2"
 		(at 203.835 98.425 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3182,7 +3174,6 @@
 	)
 	(label "OAM_~{A5}"
 		(at 284.48 159.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,7 +3184,6 @@
 	)
 	(label "~{OAM_BL_PRECHARGE}"
 		(at 74.295 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3204,7 +3194,6 @@
 	)
 	(label "~{OAM_A_D5}"
 		(at 331.47 83.185 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,7 +3204,6 @@
 	)
 	(label "~{OAM_A_D7}"
 		(at 331.47 88.265 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3214,6 @@
 	)
 	(label "~{OAM_WLDRV_PRECHARGE}"
 		(at 268.605 121.285 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3237,7 +3224,6 @@
 	)
 	(label "OAM_A3"
 		(at 55.245 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3248,7 +3234,6 @@
 	)
 	(label "OAM_A7"
 		(at 284.48 151.765 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3259,7 +3244,6 @@
 	)
 	(label "~{OAM_BL_PRECHARGE}"
 		(at 272.415 197.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3270,7 +3254,6 @@
 	)
 	(label "OAM_A2~{A1}"
 		(at 282.575 179.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3281,7 +3264,6 @@
 	)
 	(label "OAM_~{A7}"
 		(at 89.535 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3292,7 +3274,6 @@
 	)
 	(label "OAM_~{A2A1}"
 		(at 282.575 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3303,7 +3284,6 @@
 	)
 	(label "~{OAM_B_D4}"
 		(at 331.47 156.845 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3314,7 +3294,6 @@
 	)
 	(label "OAM_A4"
 		(at 284.48 167.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3325,7 +3304,6 @@
 	)
 	(label "OAM_A1"
 		(at 55.245 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3336,7 +3314,6 @@
 	)
 	(label "OAM_A4"
 		(at 284.48 88.265 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3324,6 @@
 	)
 	(label "~{OAM_B_D5}"
 		(at 331.47 154.305 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,7 +3334,6 @@
 	)
 	(label "OAM_~{A5}"
 		(at 284.48 80.645 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3369,7 +3344,6 @@
 	)
 	(label "OAM_OE"
 		(at 172.72 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3380,7 +3354,6 @@
 	)
 	(label "OAM_~{A6}"
 		(at 284.48 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3391,7 +3364,6 @@
 	)
 	(label "OAM_A7"
 		(at 55.245 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,7 +3374,6 @@
 	)
 	(label "OAM_A5"
 		(at 284.48 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3413,7 +3384,6 @@
 	)
 	(label "OAM_~{A6}"
 		(at 89.535 141.605 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3424,7 +3394,6 @@
 	)
 	(label "OAM_~{A4}"
 		(at 284.48 164.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,7 +3404,6 @@
 	)
 	(label "~{OAM_OE}"
 		(at 284.48 111.125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3446,7 +3414,6 @@
 	)
 	(label "OAM_OE"
 		(at 284.48 192.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,7 +3424,6 @@
 	)
 	(label "OAM_~{A3}"
 		(at 89.535 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3434,6 @@
 	)
 	(label "~{OAM_B_D1}"
 		(at 331.47 164.465 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3479,7 +3444,6 @@
 	)
 	(label "OAM_~{OE}"
 		(at 203.835 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3490,7 +3454,6 @@
 	)
 	(label "OAM_~{A7}"
 		(at 284.48 149.225 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3501,7 +3464,6 @@
 	)
 	(label "~{OAM_OE}"
 		(at 284.48 189.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +3474,6 @@
 	)
 	(label "OAM_~{A2}A1"
 		(at 282.575 103.505 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3484,6 @@
 	)
 	(label "OAM_~{A3}"
 		(at 284.48 90.805 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3494,6 @@
 	)
 	(label "OAM_A6"
 		(at 284.48 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3545,7 +3504,6 @@
 	)
 	(label "~{OAM_B_D7}"
 		(at 331.47 149.225 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3514,6 @@
 	)
 	(label "OAM_OE"
 		(at 284.48 113.665 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,7 +3524,6 @@
 	)
 	(label "OAM_A2~{A1}"
 		(at 282.575 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3578,7 +3534,6 @@
 	)
 	(label "OAM_~{A4}"
 		(at 89.535 173.355 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3544,6 @@
 	)
 	(label "OAM_~{A2}A1"
 		(at 282.575 182.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3600,7 +3554,6 @@
 	)
 	(label "OAM_B_WR2"
 		(at 280.67 194.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3611,7 +3564,6 @@
 	)
 	(label "OAM_A5"
 		(at 55.245 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,7 +3574,6 @@
 	)
 	(label "~{OAM_A_D3}"
 		(at 331.47 78.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3633,7 +3584,6 @@
 	)
 	(label "OAM_~{A6}"
 		(at 284.48 154.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3644,7 +3594,6 @@
 	)
 	(label "OAM_A_WR2"
 		(at 203.835 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3655,7 +3604,6 @@
 	)
 	(label "OAM_A2A1"
 		(at 282.575 98.425 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3614,6 @@
 	)
 	(label "~{OAM_A_D2}"
 		(at 331.47 75.565 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3677,7 +3624,6 @@
 	)
 	(label "OAM_A5"
 		(at 284.48 161.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3688,7 +3634,6 @@
 	)
 	(label "OAM_A2A1"
 		(at 123.825 268.605 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3699,7 +3644,6 @@
 	)
 	(label "~{OAM_A_D4}"
 		(at 331.47 80.645 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3710,7 +3654,6 @@
 	)
 	(label "~{OAM_A_D1}"
 		(at 331.47 73.025 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3721,7 +3664,6 @@
 	)
 	(label "OAM_A6"
 		(at 284.48 156.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3674,6 @@
 	)
 	(label "OAM_A7"
 		(at 284.48 73.025 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3684,6 @@
 	)
 	(label "~{OAM_B_D2}"
 		(at 331.47 161.925 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3754,7 +3694,6 @@
 	)
 	(label "~{OAM_WLDRV_PRECHARGE}"
 		(at 268.605 200.025 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3765,7 +3704,6 @@
 	)
 	(label "~{OAM_A_D6}"
 		(at 331.47 85.725 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3776,7 +3714,6 @@
 	)
 	(label "OAM_A2"
 		(at 55.245 205.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3787,7 +3724,6 @@
 	)
 	(label "OAM_~{A5}"
 		(at 89.535 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,7 +3734,6 @@
 	)
 	(label "OAM_A4"
 		(at 55.245 173.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3744,6 @@
 	)
 	(label "OAM_A6"
 		(at 55.245 141.605 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,7 +3754,6 @@
 	)
 	(label "~{OAM_B_D3}"
 		(at 331.47 159.385 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,7 +3764,6 @@
 	)
 	(label "OAM_~{A3}"
 		(at 284.48 169.545 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3842,7 +3774,6 @@
 	)
 	(label "OAM_A3"
 		(at 284.48 172.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +3784,6 @@
 	)
 	(label "OAM_A2A1"
 		(at 282.575 177.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3864,7 +3794,6 @@
 	)
 	(label "OAM_A2~{A1}"
 		(at 123.825 252.095 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,7 +3804,6 @@
 	)
 	(label "OAM_A3"
 		(at 284.48 93.345 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,7 +3814,6 @@
 	)
 	(label "OAM_~{A2}A1"
 		(at 123.825 235.585 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,7 +3824,6 @@
 	)
 	(label "OAM_A_WR2"
 		(at 280.67 116.205 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +3834,6 @@
 	)
 	(label "OAM_~{A4}"
 		(at 284.48 85.725 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +3844,6 @@
 	)
 	(label "OAM_~{A7}"
 		(at 284.48 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,7 +3855,6 @@
 	(hierarchical_label "~{OAM_B_D[0..7]}"
 		(shape bidirectional)
 		(at 336.55 146.685 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,7 +3866,6 @@
 	(hierarchical_label "~{OAM_RD}"
 		(shape input)
 		(at 49.53 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3955,7 +3877,6 @@
 	(hierarchical_label "~{OAM_A_D[0..7]}"
 		(shape bidirectional)
 		(at 336.55 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3967,7 +3888,6 @@
 	(hierarchical_label "~{OAM_B_WR}"
 		(shape input)
 		(at 49.53 100.965 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3979,7 +3899,6 @@
 	(hierarchical_label "OAM_A[1..7]"
 		(shape input)
 		(at 49.53 117.475 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3991,7 +3910,6 @@
 	(hierarchical_label "~{OAM_A_WR}"
 		(shape input)
 		(at 49.53 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4003,7 +3921,6 @@
 	(hierarchical_label "COTA"
 		(shape input)
 		(at 49.53 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4013,7 +3930,7 @@
 		(uuid "fa4a87ac-fc85-4976-b7f2-11dfaa006559")
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 59.055 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4030,7 +3947,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 59.055 94.615 0)
 			(effects
 				(font
@@ -4047,7 +3964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 60.325 108.585 0)
 			(effects
 				(font
@@ -4056,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 59.055 100.965 0)
 			(effects
 				(font
@@ -4081,7 +3998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_B")
+		(lib_id "DMG_CPU_Cells:NOT_X2")
 		(at 189.23 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4098,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_B"
+		(property "Value" "NOT_X2"
 			(at 189.23 33.655 0)
 			(effects
 				(font
@@ -4115,7 +4032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
 			(at 190.5 48.26 0)
 			(effects
 				(font
@@ -4124,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 2× drive strength."
 			(at 189.23 40.64 0)
 			(effects
 				(font
@@ -4149,7 +4066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_C")
+		(lib_id "DMG_CPU_Cells:NOT_X3")
 		(at 125.73 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4166,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_C"
+		(property "Value" "NOT_X3"
 			(at 125.73 52.705 0)
 			(effects
 				(font
@@ -4183,7 +4100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_c"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x3"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -4192,7 +4109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 3× drive strength."
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -4217,7 +4134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_2")
+		(lib_id "DMG_CPU_Cells:AND2")
 		(at 104.775 218.44 0)
 		(mirror x)
 		(unit 1)
@@ -4235,7 +4152,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_2"
+		(property "Value" "AND2"
 			(at 104.7612 211.455 0)
 			(effects
 				(font
@@ -4261,7 +4178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with two inputs."
 			(at 104.775 218.44 0)
 			(effects
 				(font
@@ -4289,7 +4206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_2")
+		(lib_id "DMG_CPU_Cells:AND2")
 		(at 104.775 235.585 0)
 		(mirror x)
 		(unit 1)
@@ -4307,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_2"
+		(property "Value" "AND2"
 			(at 104.7612 229.235 0)
 			(effects
 				(font
@@ -4333,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with two inputs."
 			(at 104.775 235.585 0)
 			(effects
 				(font
@@ -4361,7 +4278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4378,7 +4295,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 182.245 0)
 			(effects
 				(font
@@ -4395,7 +4312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 196.85 0)
 			(effects
 				(font
@@ -4404,7 +4321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 189.23 0)
 			(effects
 				(font
@@ -4429,7 +4346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 205.105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4446,7 +4363,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 198.755 0)
 			(effects
 				(font
@@ -4463,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 212.725 0)
 			(effects
 				(font
@@ -4472,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 205.105 0)
 			(effects
 				(font
@@ -4497,7 +4414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_3")
+		(lib_id "DMG_CPU_Cells:OR3")
 		(at 86.995 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4514,7 +4431,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_3"
+		(property "Value" "OR3"
 			(at 86.9948 69.215 0)
 			(effects
 				(font
@@ -4540,7 +4457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with three inputs."
 			(at 86.995 76.2 0)
 			(effects
 				(font
@@ -4571,7 +4488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 59.055 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4588,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 59.055 69.215 0)
 			(effects
 				(font
@@ -4605,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 60.325 83.82 0)
 			(effects
 				(font
@@ -4614,7 +4531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 59.055 76.2 0)
 			(effects
 				(font
@@ -4639,7 +4556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 173.355 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4656,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 167.005 0)
 			(effects
 				(font
@@ -4673,7 +4590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 180.975 0)
 			(effects
 				(font
@@ -4682,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 173.355 0)
 			(effects
 				(font
@@ -4707,7 +4624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 141.605 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4724,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 135.255 0)
 			(effects
 				(font
@@ -4741,7 +4658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 149.225 0)
 			(effects
 				(font
@@ -4750,7 +4667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 141.605 0)
 			(effects
 				(font
@@ -4775,7 +4692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_2")
+		(lib_id "DMG_CPU_Cells:AND2")
 		(at 104.775 268.605 0)
 		(mirror x)
 		(unit 1)
@@ -4793,7 +4710,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_2"
+		(property "Value" "AND2"
 			(at 104.7612 262.255 0)
 			(effects
 				(font
@@ -4819,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with two inputs."
 			(at 104.775 268.605 0)
 			(effects
 				(font
@@ -4847,7 +4764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_2")
+		(lib_id "DMG_CPU_Cells:NAND2")
 		(at 146.05 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4864,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2"
+		(property "Value" "NAND2"
 			(at 146.0362 33.655 0)
 			(effects
 				(font
@@ -4890,7 +4807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with two inputs."
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -4918,7 +4835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_B")
+		(lib_id "DMG_CPU_Cells:NOT_X2")
 		(at 164.465 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4935,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_B"
+		(property "Value" "NOT_X2"
 			(at 164.465 92.075 0)
 			(effects
 				(font
@@ -4952,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
 			(at 165.735 106.045 0)
 			(effects
 				(font
@@ -4961,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 2× drive strength."
 			(at 164.465 98.425 0)
 			(effects
 				(font
@@ -4986,7 +4903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5003,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 118.745 0)
 			(effects
 				(font
@@ -5020,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 133.35 0)
 			(effects
 				(font
@@ -5029,7 +4946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 125.73 0)
 			(effects
 				(font
@@ -5054,7 +4971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5071,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 213.995 0)
 			(effects
 				(font
@@ -5088,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 228.6 0)
 			(effects
 				(font
@@ -5097,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 220.98 0)
 			(effects
 				(font
@@ -5122,7 +5039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_2")
+		(lib_id "DMG_CPU_Cells:NAND2")
 		(at 147.32 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5139,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2"
+		(property "Value" "NAND2"
 			(at 147.3062 73.025 0)
 			(effects
 				(font
@@ -5165,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with two inputs."
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -5193,7 +5110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_2")
+		(lib_id "DMG_CPU_Cells:NAND2")
 		(at 147.32 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5210,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2"
+		(property "Value" "NAND2"
 			(at 147.3062 92.075 0)
 			(effects
 				(font
@@ -5236,7 +5153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with two inputs."
 			(at 147.32 98.425 0)
 			(effects
 				(font
@@ -5264,7 +5181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_B")
+		(lib_id "DMG_CPU_Cells:NOT_X2")
 		(at 164.465 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5281,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_B"
+		(property "Value" "NOT_X2"
 			(at 164.465 73.025 0)
 			(effects
 				(font
@@ -5298,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
 			(at 165.735 87.63 0)
 			(effects
 				(font
@@ -5307,7 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 2× drive strength."
 			(at 164.465 80.01 0)
 			(effects
 				(font
@@ -5332,7 +5249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 74.93 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5349,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 74.93 150.495 0)
 			(effects
 				(font
@@ -5366,7 +5283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -5375,7 +5292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 74.93 157.48 0)
 			(effects
 				(font
@@ -5444,7 +5361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Static RAM for storing OAM (Object Attribute Map)."
 			(at 306.705 95.885 0)
 			(effects
 				(font
@@ -5544,7 +5461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_B")
+		(lib_id "DMG_CPU_Cells:NOT_X2")
 		(at 59.055 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5561,7 +5478,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_B"
+		(property "Value" "NOT_X2"
 			(at 59.055 50.165 0)
 			(effects
 				(font
@@ -5578,7 +5495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
 			(at 60.325 64.77 0)
 			(effects
 				(font
@@ -5587,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 2× drive strength."
 			(at 59.055 57.15 0)
 			(effects
 				(font
@@ -5612,7 +5529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_2")
+		(lib_id "DMG_CPU_Cells:NAND2")
 		(at 109.22 59.69 0)
 		(mirror x)
 		(unit 1)
@@ -5629,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2"
+		(property "Value" "NAND2"
 			(at 109.2062 66.675 0)
 			(effects
 				(font
@@ -5655,7 +5572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with two inputs."
 			(at 109.22 59.69 0)
 			(effects
 				(font
@@ -5683,7 +5600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_2")
+		(lib_id "DMG_CPU_Cells:AND2")
 		(at 104.775 252.095 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5700,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_2"
+		(property "Value" "AND2"
 			(at 104.7612 245.745 0)
 			(effects
 				(font
@@ -5726,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with two inputs."
 			(at 104.775 252.095 0)
 			(effects
 				(font
@@ -5754,7 +5671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 59.055 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5771,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 59.055 31.115 0)
 			(effects
 				(font
@@ -5788,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 60.325 45.72 0)
 			(effects
 				(font
@@ -5797,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 59.055 38.1 0)
 			(effects
 				(font
@@ -5822,7 +5739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_B")
+		(lib_id "DMG_CPU_Cells:NOT_X2")
 		(at 163.83 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5839,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_B"
+		(property "Value" "NOT_X2"
 			(at 163.83 33.655 0)
 			(effects
 				(font
@@ -5856,7 +5773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x2"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -5865,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverter with 2× drive strength."
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -5934,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Static RAM for storing OAM (Object Attribute Map)."
 			(at 306.705 174.625 0)
 			(effects
 				(font

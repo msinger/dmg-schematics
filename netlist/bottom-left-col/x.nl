@@ -1,129 +1,129 @@
 # Cells in column X in bottom left corner
 # ---------------------------------------
 
-cell xolo:dffr_b2     rot0,flip @-126.41,69.10,-123.52,71.16            ->ppu-window;
-cell xeda:inv_b       rot0,flip @-126.91,69.13,-126.40,71.15            ->ppu-decode;
-cell xulo:tri_inv_if0 rot0,flip @-127.95,69.10,-126.92,71.16            ->ppu-window;
-cell xahe:tri_inv_if0 rot0,flip @-128.97,69.10,-127.95,71.16            ->ppu-window;
-cell xamo:tri_inv_if0 rot0,flip @-129.99,69.11,-128.97,71.14            ->ppu-window;
-cell xane:nor2        rot0,flip @-130.51,69.12,-129.99,71.16            ->ppu-vram;
-cell xedu:inv_b       rot0,flip @-131.03,69.12,-130.52,71.16            ->ppu-vram;
-cell xody:tri_inv_if0 rot0,flip @-132.05,69.11,-131.03,71.16            ->ppu-vram;
-cell xeja:tri_inv_if0 rot0,flip @-133.08,69.12,-132.05,71.16            ->ppu-window;
-cell xuxu:tri_inv_if0 rot0,flip @-134.09,69.09,-133.08,71.15            ->ppu-vram;
-cell xaky:tri_inv_if0 rot0,flip @-135.13,69.11,-134.09,71.15            ->ppu-vram;
-cell xola:inv_a       rot0,flip @-135.47,69.11,-135.12,71.16            ->ppu-decode;
-cell xucy:nand2       rot0,flip @-135.98,69.10,-135.47,71.15            ->ppu-window;
-cell xonu:tri_inv_if0 rot0,flip @-137.00,69.11,-135.97,71.15            ->ppu-window;
-cell xera:inv_a       rot0,flip @-137.34,69.10,-137.00,71.16            ->ppu-decode;
-cell xopo:tri_inv_if0 rot0,flip @-138.38,69.09,-137.34,71.14            ->ppu-vram;
-cell xeze:and2        rot0,flip @-139.06,69.10,-138.37,71.15            ->ppu-window;
-cell xybo:tri_inv_if0 rot0,flip @-140.09,69.12,-139.05,71.14            ->ppu-vram;
-cell xeca:tri_inv_if0 rot0,flip @-141.11,69.11,-140.09,71.13            ->ppu-vram;
-cell xaly:nor3        rot0,flip @-141.79,69.10,-141.10,71.15            ->ppu-decode;
-cell xeno:inv_a       rot0,flip @-142.14,69.11,-141.79,71.16            ->ppu-decode;
-cell xyne:tri_inv_if0 rot0,flip @-143.16,69.10,-142.13,71.14            ->ppu-vram;
-cell xoba:tri_inv_if0 rot0,flip @-144.18,69.10,-143.15,71.15            ->ppu-vram;
-cell xusy:inv_a       rot0,flip @-144.52,69.09,-144.19,71.16            ->ppu-decode;
-cell xono:and2        rot0,flip @-145.20,69.09,-144.52,71.14            ->ppu-objfifo;
-cell xaco:inv_a       rot0,flip @-145.55,69.11,-145.20,71.14            ->ppu-cycles;
-cell xore:inv_b       rot0,flip @-146.06,69.10,-145.55,71.15            ->ppu-control;
-cell xaro:inv_b       rot0,flip @-146.57,69.12,-146.05,71.16            ->ppu-decode;
-cell xuha:inv_a       rot0,flip @-146.91,69.09,-146.56,71.16            ->ppu-cycles;
-cell xogy:inv_b       rot0,flip @-147.42,69.10,-146.91,71.14            ->ppu-decode;
-cell xeho:dffr_b2     rot0,flip @-150.34,69.10,-147.42,71.15            ->ppu-stat;
-cell xavy:inv_b       rot0,flip @-150.84,69.10,-150.34,71.15            ->ppu-decode;
-cell xydo:dffr_b2     rot0,flip @-153.76,69.09,-150.83,71.15            ->ppu-stat;
-cell xayu:inv_b       rot0,flip @-154.27,69.10,-153.75,71.15            ->ppu-decode;
-cell xare:inv_a       rot0,flip @-154.61,69.09,-154.27,71.15            ->ppu-control;
-cell xena:inv_a       rot0,flip @-154.95,69.10,-154.60,71.14            ->ppu-stat;
-cell xymu:nor_latch   rot0,flip @-155.97,69.11,-154.94,71.14            ->ppu-stat;
-cell xajo:and2        rot0,flip @-156.65,69.10,-155.98,71.13            ->ppu-stat;
-cell xano:inv_a       rot0,flip @-156.99,69.09,-156.66,71.13            ->ppu-stat;
-cell xujy:inv_a       rot0,flip @-157.34,69.10,-157.00,71.15            ->ppu-oam;
-cell xora:xor         rot0,flip @-158.37,69.10,-157.34,71.13            ->ppu-stat;
-cell xahy:inv_a       rot0,flip @-158.72,69.09,-158.38,71.15            ->ppu-cycles;
-cell xofo:nand3       rot0,flip @-159.40,69.10,-158.71,71.15            ->ppu-cycles;
-cell xure:inv_a       rot0,flip @-159.74,69.09,-159.39,71.14            ->ppu-control;
-cell xebu:tri_inv_if0 rot0,flip @-160.77,69.10,-159.73,71.14            ->ppu-control;
-cell xona:dr_latch    rot0,flip @-162.48,69.09,-160.77,71.14            ->ppu-control;
-cell xero:tri_inv_if0 rot0,flip @-163.50,69.09,-162.48,71.14            ->ppu-control;
-cell xylo:dr_latch    rot0,flip @-165.38,69.09,-163.66,71.15            ->ppu-control;
-cell xafo:dr_latch    rot0,flip @-167.26,69.10,-165.56,71.15            ->ppu-control;
-cell xymo:dr_latch    rot0,flip @-169.14,69.09,-167.42,71.14            ->ppu-control;
-cell xubo:inv_a       rot0,flip @-169.48,69.10,-169.13,71.13 comp       ->ppu-control;
-cell xugu:nand5       rot0,flip @-170.51,69.09,-169.48,71.15            ->ppu-stat;
-cell xyly:and2        rot0,flip @-171.38,69.09,-170.69,71.13            ->ppu-stat;
-cell xuqu:inv_b       rot0,flip @-171.88,69.09,-171.36,71.13            ->ppu-ycomp;
-cell xyle:and2        rot0,flip @-172.57,69.10,-171.88,71.13            ->ppu-stat;
-cell xuke:and2        rot0,flip @-173.41,69.09,-172.73,71.13            ->ppu-stat;
-cell xegy:xor         rot0,flip @-174.44,69.09,-173.40,71.15            ->ppu-stat;
-cell xodu:dffr_b2     rot0,flip @-177.34,69.09,-174.44,71.13            ->ppu-stat;
-cell xupa:inv_b       rot0,flip @-177.87,69.09,-177.35,71.13            ->ppu-oam;
-cell xuto:and2        rot0,flip @-178.71,69.08,-178.03,71.13            ->ppu-oam;
-cell xyny:inv_a       rot0,flip @-179.05,69.09,-178.70,71.13            ->ppu-dma;
-cell xepo:inv_a       rot0,flip @-179.39,69.09,-179.05,71.14            ->ppu-stat;
-cell xuja:inv_a       rot0,flip @-179.75,69.09,-179.38,71.14            ->ppu-oam;
-cell xuhy:inv_a       rot0,flip @-180.08,69.09,-179.73,71.11            ->ppu-stat;
-cell xufa:and2        rot0,flip @-180.77,69.08,-180.09,71.13            ->ppu-stat;
-cell xowo:inv_a       rot0,flip @-181.11,69.07,-180.76,71.13            ->ppu-stat;
-cell xuce:inv_a       rot0,flip @-181.45,69.09,-181.09,71.14            ->ppu-stat;
-cell xaga:inv_a       rot0,flip @-181.80,69.09,-181.45,71.13            ->ppu-stat;
-cell xupy:inv_b       rot0,flip @-182.30,69.09,-181.77,71.12            ->ppu-oam;
-cell xoce:inv_b       rot0,flip @-182.80,69.09,-182.30,71.12            ->ppu-oam;
-cell xyso:inv_a       rot0,flip @-183.16,69.09,-182.81,71.13            ->ppu-oam;
-cell xyvo:and2        rot0,flip @-183.85,69.08,-183.14,71.14            ->ppu-lcd;
-cell xyfy:inv_a       rot0,flip @-184.20,69.09,-183.83,71.12            ->ppu-lcd;
-cell xuva:dffr_b2     rot0,flip @-187.09,69.09,-184.16,71.13 spare      ->ppu-control;
-cell xodo:nand2       rot0,flip @-187.59,69.08,-187.09,71.12            ->ppu-control;
-cell xuca:inv_a       rot0,flip @-187.93,69.07,-187.59,71.13 spare comp ->ppu-control;
-cell xebe:inv_a       rot0,flip @-188.28,69.09,-187.93,71.14            ->ppu-control;
-cell xecy:dr_latch    rot0,flip @-189.98,69.09,-188.27,71.13 spare      ->ppu-control;
-cell xapo:inv_b       rot0,flip @-190.50,69.08,-189.98,71.12            ->ppu-control;
-cell xuho:inv_a       rot0,flip @-190.84,69.07,-190.50,71.11            ->ppu-xcomp;
-cell xaty:nor2        rot0,flip @-191.35,69.09,-190.83,71.13            ->ppu-stat;
-cell xyva:inv_a       rot0,flip @-191.70,69.07,-191.34,71.12            ->ppu-lcd;
-cell xota:inv_a       rot0,flip @-192.05,69.08,-191.69,71.13            ->ppu-lcd;
-cell xoga:inv_a       rot0,flip @-192.39,69.08,-192.05,71.12            ->ppu-xcomp;
-cell xely:nand2       rot0,flip @-192.90,69.07,-192.37,71.13            ->ppu-xcomp;
-cell xyve:nand2       rot0,flip @-193.41,69.08,-192.88,71.12            ->ppu-objfifo;
-cell xayo:inv_b       rot0,flip @-193.93,69.07,-193.41,71.12            ->ppu-decode;
-cell xufy:and2        rot0,flip @-194.61,69.08,-193.91,71.12            ->ppu-pal;
-cell xoma:and2        rot0,flip @-195.28,69.09,-194.59,71.11            ->ppu-pal;
-cell xefy:inv_a       rot0,flip @-195.63,69.07,-195.27,71.12            ->ppu-xcomp;
-cell xozy:inv_a       rot0,flip @-195.98,69.08,-195.61,71.12            ->ppu-pal;
-cell xole:nand2       rot0,flip @-196.48,69.06,-195.96,71.11            ->ppu-objfifo;
-cell xelo:inv_a       rot0,flip @-196.83,69.09,-196.48,71.11 comp       ->ppu-pal;
-cell xovu:inv_a       rot0,flip @-197.16,69.08,-196.80,71.12            ->ppu-xcomp;
-cell xula:and2        rot0,flip @-197.84,69.08,-197.16,71.11            ->ppu-mux;
-cell xoke:tri_inv_if0 rot0,flip @-198.87,69.09,-197.84,71.12            ->ppu-pal;
-cell xuky:d_latch_a   rot0,flip @-200.41,69.08,-198.87,71.11            ->ppu-pal;
-cell xaju:tri_inv_if0 rot0,flip @-201.44,69.08,-200.41,71.12            ->ppu-pal;
-cell xeru:d_latch_a   rot0,flip @-202.98,69.07,-201.43,71.11            ->ppu-pal;
-cell xexu:nand2       rot0,flip @-203.48,69.07,-202.98,71.10            ->ppu-objfifo;
-cell xaxa:tri_inv_if0 rot0,flip @-204.52,69.09,-203.48,71.11            ->ppu-pal;
-cell xupo:d_latch_a   rot0,flip @-206.05,69.07,-204.52,71.10            ->ppu-pal;
-cell xobo:tri_inv_if0 rot0,flip @-207.09,69.09,-206.05,71.09            ->ppu-pal;
-cell xyze:d_latch_a   rot0,flip @-208.63,69.07,-207.08,71.11            ->ppu-pal;
-cell xawo:tri_inv_if0 rot0,flip @-209.63,69.07,-208.63,71.10            ->ppu-pal;
-cell xana:d_latch_a   rot0,flip @-211.18,69.06,-209.64,71.13            ->ppu-pal;
-cell xura:inv_a       rot0,flip @-211.53,69.08,-211.19,71.11            ->ppu-xcomp;
-cell xato:nand2       rot0,flip @-212.04,69.08,-211.52,71.11            ->ppu-objfifo;
-cell xuby:tri_inv_if0 rot0,flip @-213.06,69.06,-212.03,71.10            ->ppu-pal;
-cell xalo:d_latch_a   rot0,flip @-214.61,69.08,-213.05,71.12            ->ppu-pal;
-cell xaba:inv_a       rot0,flip @-214.95,69.06,-214.60,71.12            ->ppu-xcomp;
-cell xuno:tri_inv_if0 rot0,flip @-215.97,69.08,-214.95,71.10            ->ppu-pal;
-cell xova:d_latch_a   rot0,flip @-217.49,69.07,-215.97,71.11            ->ppu-pal;
-cell xojo:inv_a       rot0,flip @-217.84,69.08,-217.50,71.10            ->ppu-pal;
-cell xufu:d_latch_a   rot0,flip @-219.38,69.07,-217.84,71.10            ->ppu-pal;
-cell xary:tri_inv_if0 rot0,flip @-220.41,69.08,-219.38,71.12            ->ppu-pal;
-cell xala:nand2       rot0,flip @-220.93,69.07,-220.41,71.12            ->ppu-xcomp;
-cell xyke:inv_a       rot0,flip @-221.27,69.05,-220.91,71.11            ->ppu-xcomp;
-cell xuku:nand2       rot0,flip @-221.77,69.08,-221.26,71.10            ->ppu-xcomp;
-cell xyru:nand2       rot0,flip @-222.30,69.07,-221.78,71.12            ->ppu-xcomp;
-cell xete:dffsr       rot0,flip @-226.04,69.06,-222.28,71.10            ->ppu-xcomp;
-cell xenu:inv_a       rot0,flip @-226.38,69.07,-226.02,71.09            ->ppu-xcomp;
-cell xado:inv_a       rot0,flip @-226.73,69.05,-226.38,71.09 comp       ->ppu-ycomp;
+cell xolo:dffr       rot0,flip @-126.41,69.10,-123.52,71.16            ->ppu-window;
+cell xeda:not_x2     rot0,flip @-126.91,69.13,-126.40,71.15            ->ppu-decode;
+cell xulo:not_if0    rot0,flip @-127.95,69.10,-126.92,71.16            ->ppu-window;
+cell xahe:not_if0    rot0,flip @-128.97,69.10,-127.95,71.16            ->ppu-window;
+cell xamo:not_if0    rot0,flip @-129.99,69.11,-128.97,71.14            ->ppu-window;
+cell xane:nor2       rot0,flip @-130.51,69.12,-129.99,71.16            ->ppu-vram;
+cell xedu:not_x2     rot0,flip @-131.03,69.12,-130.52,71.16            ->ppu-vram;
+cell xody:not_if0    rot0,flip @-132.05,69.11,-131.03,71.16            ->ppu-vram;
+cell xeja:not_if0    rot0,flip @-133.08,69.12,-132.05,71.16            ->ppu-window;
+cell xuxu:not_if0    rot0,flip @-134.09,69.09,-133.08,71.15            ->ppu-vram;
+cell xaky:not_if0    rot0,flip @-135.13,69.11,-134.09,71.15            ->ppu-vram;
+cell xola:not_x1     rot0,flip @-135.47,69.11,-135.12,71.16            ->ppu-decode;
+cell xucy:nand2      rot0,flip @-135.98,69.10,-135.47,71.15            ->ppu-window;
+cell xonu:not_if0    rot0,flip @-137.00,69.11,-135.97,71.15            ->ppu-window;
+cell xera:not_x1     rot0,flip @-137.34,69.10,-137.00,71.16            ->ppu-decode;
+cell xopo:not_if0    rot0,flip @-138.38,69.09,-137.34,71.14            ->ppu-vram;
+cell xeze:and2       rot0,flip @-139.06,69.10,-138.37,71.15            ->ppu-window;
+cell xybo:not_if0    rot0,flip @-140.09,69.12,-139.05,71.14            ->ppu-vram;
+cell xeca:not_if0    rot0,flip @-141.11,69.11,-140.09,71.13            ->ppu-vram;
+cell xaly:nor3       rot0,flip @-141.79,69.10,-141.10,71.15            ->ppu-decode;
+cell xeno:not_x1     rot0,flip @-142.14,69.11,-141.79,71.16            ->ppu-decode;
+cell xyne:not_if0    rot0,flip @-143.16,69.10,-142.13,71.14            ->ppu-vram;
+cell xoba:not_if0    rot0,flip @-144.18,69.10,-143.15,71.15            ->ppu-vram;
+cell xusy:not_x1     rot0,flip @-144.52,69.09,-144.19,71.16            ->ppu-decode;
+cell xono:and2       rot0,flip @-145.20,69.09,-144.52,71.14            ->ppu-objfifo;
+cell xaco:not_x1     rot0,flip @-145.55,69.11,-145.20,71.14            ->ppu-cycles;
+cell xore:not_x2     rot0,flip @-146.06,69.10,-145.55,71.15            ->ppu-control;
+cell xaro:not_x2     rot0,flip @-146.57,69.12,-146.05,71.16            ->ppu-decode;
+cell xuha:not_x1     rot0,flip @-146.91,69.09,-146.56,71.16            ->ppu-cycles;
+cell xogy:not_x2     rot0,flip @-147.42,69.10,-146.91,71.14            ->ppu-decode;
+cell xeho:dffr       rot0,flip @-150.34,69.10,-147.42,71.15            ->ppu-stat;
+cell xavy:not_x2     rot0,flip @-150.84,69.10,-150.34,71.15            ->ppu-decode;
+cell xydo:dffr       rot0,flip @-153.76,69.09,-150.83,71.15            ->ppu-stat;
+cell xayu:not_x2     rot0,flip @-154.27,69.10,-153.75,71.15            ->ppu-decode;
+cell xare:not_x1     rot0,flip @-154.61,69.09,-154.27,71.15            ->ppu-control;
+cell xena:not_x1     rot0,flip @-154.95,69.10,-154.60,71.14            ->ppu-stat;
+cell xymu:nor_latch  rot0,flip @-155.97,69.11,-154.94,71.14            ->ppu-stat;
+cell xajo:and2       rot0,flip @-156.65,69.10,-155.98,71.13            ->ppu-stat;
+cell xano:not_x1     rot0,flip @-156.99,69.09,-156.66,71.13            ->ppu-stat;
+cell xujy:not_x1     rot0,flip @-157.34,69.10,-157.00,71.15            ->ppu-oam;
+cell xora:xor        rot0,flip @-158.37,69.10,-157.34,71.13            ->ppu-stat;
+cell xahy:not_x1     rot0,flip @-158.72,69.09,-158.38,71.15            ->ppu-cycles;
+cell xofo:nand3      rot0,flip @-159.40,69.10,-158.71,71.15            ->ppu-cycles;
+cell xure:not_x1     rot0,flip @-159.74,69.09,-159.39,71.14            ->ppu-control;
+cell xebu:not_if0    rot0,flip @-160.77,69.10,-159.73,71.14            ->ppu-control;
+cell xona:drlatch_ee rot0,flip @-162.48,69.09,-160.77,71.14            ->ppu-control;
+cell xero:not_if0    rot0,flip @-163.50,69.09,-162.48,71.14            ->ppu-control;
+cell xylo:drlatch_ee rot0,flip @-165.38,69.09,-163.66,71.15            ->ppu-control;
+cell xafo:drlatch_ee rot0,flip @-167.26,69.10,-165.56,71.15            ->ppu-control;
+cell xymo:drlatch_ee rot0,flip @-169.14,69.09,-167.42,71.14            ->ppu-control;
+cell xubo:not_x1     rot0,flip @-169.48,69.10,-169.13,71.13 comp       ->ppu-control;
+cell xugu:nand5      rot0,flip @-170.51,69.09,-169.48,71.15            ->ppu-stat;
+cell xyly:and2       rot0,flip @-171.38,69.09,-170.69,71.13            ->ppu-stat;
+cell xuqu:not_x2     rot0,flip @-171.88,69.09,-171.36,71.13            ->ppu-ycomp;
+cell xyle:and2       rot0,flip @-172.57,69.10,-171.88,71.13            ->ppu-stat;
+cell xuke:and2       rot0,flip @-173.41,69.09,-172.73,71.13            ->ppu-stat;
+cell xegy:xor        rot0,flip @-174.44,69.09,-173.40,71.15            ->ppu-stat;
+cell xodu:dffr       rot0,flip @-177.34,69.09,-174.44,71.13            ->ppu-stat;
+cell xupa:not_x2     rot0,flip @-177.87,69.09,-177.35,71.13            ->ppu-oam;
+cell xuto:and2       rot0,flip @-178.71,69.08,-178.03,71.13            ->ppu-oam;
+cell xyny:not_x1     rot0,flip @-179.05,69.09,-178.70,71.13            ->ppu-dma;
+cell xepo:not_x1     rot0,flip @-179.39,69.09,-179.05,71.14            ->ppu-stat;
+cell xuja:not_x1     rot0,flip @-179.75,69.09,-179.38,71.14            ->ppu-oam;
+cell xuhy:not_x1     rot0,flip @-180.08,69.09,-179.73,71.11            ->ppu-stat;
+cell xufa:and2       rot0,flip @-180.77,69.08,-180.09,71.13            ->ppu-stat;
+cell xowo:not_x1     rot0,flip @-181.11,69.07,-180.76,71.13            ->ppu-stat;
+cell xuce:not_x1     rot0,flip @-181.45,69.09,-181.09,71.14            ->ppu-stat;
+cell xaga:not_x1     rot0,flip @-181.80,69.09,-181.45,71.13            ->ppu-stat;
+cell xupy:not_x2     rot0,flip @-182.30,69.09,-181.77,71.12            ->ppu-oam;
+cell xoce:not_x2     rot0,flip @-182.80,69.09,-182.30,71.12            ->ppu-oam;
+cell xyso:not_x1     rot0,flip @-183.16,69.09,-182.81,71.13            ->ppu-oam;
+cell xyvo:and2       rot0,flip @-183.85,69.08,-183.14,71.14            ->ppu-lcd;
+cell xyfy:not_x1     rot0,flip @-184.20,69.09,-183.83,71.12            ->ppu-lcd;
+cell xuva:dffr       rot0,flip @-187.09,69.09,-184.16,71.13 spare      ->ppu-control;
+cell xodo:nand2      rot0,flip @-187.59,69.08,-187.09,71.12            ->ppu-control;
+cell xuca:not_x1     rot0,flip @-187.93,69.07,-187.59,71.13 spare comp ->ppu-control;
+cell xebe:not_x1     rot0,flip @-188.28,69.09,-187.93,71.14            ->ppu-control;
+cell xecy:drlatch_ee rot0,flip @-189.98,69.09,-188.27,71.13 spare      ->ppu-control;
+cell xapo:not_x2     rot0,flip @-190.50,69.08,-189.98,71.12            ->ppu-control;
+cell xuho:not_x1     rot0,flip @-190.84,69.07,-190.50,71.11            ->ppu-xcomp;
+cell xaty:nor2       rot0,flip @-191.35,69.09,-190.83,71.13            ->ppu-stat;
+cell xyva:not_x1     rot0,flip @-191.70,69.07,-191.34,71.12            ->ppu-lcd;
+cell xota:not_x1     rot0,flip @-192.05,69.08,-191.69,71.13            ->ppu-lcd;
+cell xoga:not_x1     rot0,flip @-192.39,69.08,-192.05,71.12            ->ppu-xcomp;
+cell xely:nand2      rot0,flip @-192.90,69.07,-192.37,71.13            ->ppu-xcomp;
+cell xyve:nand2      rot0,flip @-193.41,69.08,-192.88,71.12            ->ppu-objfifo;
+cell xayo:not_x2     rot0,flip @-193.93,69.07,-193.41,71.12            ->ppu-decode;
+cell xufy:and2       rot0,flip @-194.61,69.08,-193.91,71.12            ->ppu-pal;
+cell xoma:and2       rot0,flip @-195.28,69.09,-194.59,71.11            ->ppu-pal;
+cell xefy:not_x1     rot0,flip @-195.63,69.07,-195.27,71.12            ->ppu-xcomp;
+cell xozy:not_x1     rot0,flip @-195.98,69.08,-195.61,71.12            ->ppu-pal;
+cell xole:nand2      rot0,flip @-196.48,69.06,-195.96,71.11            ->ppu-objfifo;
+cell xelo:not_x1     rot0,flip @-196.83,69.09,-196.48,71.11 comp       ->ppu-pal;
+cell xovu:not_x1     rot0,flip @-197.16,69.08,-196.80,71.12            ->ppu-xcomp;
+cell xula:and2       rot0,flip @-197.84,69.08,-197.16,71.11            ->ppu-mux;
+cell xoke:not_if0    rot0,flip @-198.87,69.09,-197.84,71.12            ->ppu-pal;
+cell xuky:dlatch_ee  rot0,flip @-200.41,69.08,-198.87,71.11            ->ppu-pal;
+cell xaju:not_if0    rot0,flip @-201.44,69.08,-200.41,71.12            ->ppu-pal;
+cell xeru:dlatch_ee  rot0,flip @-202.98,69.07,-201.43,71.11            ->ppu-pal;
+cell xexu:nand2      rot0,flip @-203.48,69.07,-202.98,71.10            ->ppu-objfifo;
+cell xaxa:not_if0    rot0,flip @-204.52,69.09,-203.48,71.11            ->ppu-pal;
+cell xupo:dlatch_ee  rot0,flip @-206.05,69.07,-204.52,71.10            ->ppu-pal;
+cell xobo:not_if0    rot0,flip @-207.09,69.09,-206.05,71.09            ->ppu-pal;
+cell xyze:dlatch_ee  rot0,flip @-208.63,69.07,-207.08,71.11            ->ppu-pal;
+cell xawo:not_if0    rot0,flip @-209.63,69.07,-208.63,71.10            ->ppu-pal;
+cell xana:dlatch_ee  rot0,flip @-211.18,69.06,-209.64,71.13            ->ppu-pal;
+cell xura:not_x1     rot0,flip @-211.53,69.08,-211.19,71.11            ->ppu-xcomp;
+cell xato:nand2      rot0,flip @-212.04,69.08,-211.52,71.11            ->ppu-objfifo;
+cell xuby:not_if0    rot0,flip @-213.06,69.06,-212.03,71.10            ->ppu-pal;
+cell xalo:dlatch_ee  rot0,flip @-214.61,69.08,-213.05,71.12            ->ppu-pal;
+cell xaba:not_x1     rot0,flip @-214.95,69.06,-214.60,71.12            ->ppu-xcomp;
+cell xuno:not_if0    rot0,flip @-215.97,69.08,-214.95,71.10            ->ppu-pal;
+cell xova:dlatch_ee  rot0,flip @-217.49,69.07,-215.97,71.11            ->ppu-pal;
+cell xojo:not_x1     rot0,flip @-217.84,69.08,-217.50,71.10            ->ppu-pal;
+cell xufu:dlatch_ee  rot0,flip @-219.38,69.07,-217.84,71.10            ->ppu-pal;
+cell xary:not_if0    rot0,flip @-220.41,69.08,-219.38,71.12            ->ppu-pal;
+cell xala:nand2      rot0,flip @-220.93,69.07,-220.41,71.12            ->ppu-xcomp;
+cell xyke:not_x1     rot0,flip @-221.27,69.05,-220.91,71.11            ->ppu-xcomp;
+cell xuku:nand2      rot0,flip @-221.77,69.08,-221.26,71.10            ->ppu-xcomp;
+cell xyru:nand2      rot0,flip @-222.30,69.07,-221.78,71.12            ->ppu-xcomp;
+cell xete:dffsr      rot0,flip @-226.04,69.06,-222.28,71.10            ->ppu-xcomp;
+cell xenu:not_x1     rot0,flip @-226.38,69.07,-226.02,71.09            ->ppu-xcomp;
+cell xado:not_x1     rot0,flip @-226.73,69.05,-226.38,71.09 comp       ->ppu-ycomp;
 
 
 # Wires originating from column X in bottom left corner
@@ -138,16 +138,16 @@ wire ~xolo:adr
 	@-126.15,70.88,-126.15,73.41,-124.62,73.41,-124.62,70.88;
 
 wire ff46:dec
-	xeda.q -> lavy.in2 molu.in1
+	xeda.y -> lavy.in2 molu.in1
 	@-126.84,70.87,-126.84,73.58,-125.37,73.58,-125.37,76.09,-115.22,76.09,-115.24,108.43,-106.11,108.45,
 	 -106.11,111.30,-105.84,111.30,-105.84,115.78;
 
 wire xane:ctl
-	xane.q -> xedu.in
+	xane.y -> xedu.in
 	@-130.43,70.88,-130.43,73.58,-130.60,73.58,-130.60,70.88;
 
 wire xedu:ctl
-	xedu.q -> ryna.~ena rese.~ena rysu.~ena ruse.~ena rumo.~ena xody.~ena xuxu.~ena xaky.~ena xopo.~ena xybo.~ena
+	xedu.y -> ryna.~ena rese.~ena rysu.~ena ruse.~ena rumo.~ena xody.~ena xuxu.~ena xaky.~ena xopo.~ena xybo.~ena
 	          xeca.~ena xyne.~ena xoba.~ena
 	@-130.94,69.38,-130.94,68.55,-137.43,68.55
 	@-131.12,68.55,-131.12,69.38
@@ -164,7 +164,7 @@ wire xedu:ctl
 	@-124.93,48.49,-124.93,45.28;
 
 wire xola:adr
-	xola.q -> wado.in wate.in2 webu.in2 weta.in2 wyle.in2 wyvo.in2 woru.in2
+	xola.y -> wado.in wate.in2 webu.in2 weta.in2 wyle.in2 wyvo.in2 woru.in2
 	@-135.38,69.38,-135.38,67.99,-140.34,67.99,-140.34,64.58
 	@-140.34,67.86,-142.90,67.86,-142.90,64.61
 	@-141.36,67.86,-141.36,64.61
@@ -174,13 +174,13 @@ wire xola:adr
 	@-148.03,67.86,-149.05,67.86,-149.05,64.58;
 
 wire xucy:ctl
-	xucy.q -> wawe.~ena wudo.~ena wolu.~ena xonu.~ena
+	xucy.y -> wawe.~ena wudo.~ena wolu.~ena xonu.~ena
 	@-135.89,69.38,-135.89,68.43
 	@-135.03,64.59,-135.03,68.43,-137.09,68.43,-137.09,64.60
 	@-136.06,64.61,-136.06,69.38;
 
 wire xera:adr
-	xera.q -> wate.in5 wepo.in webu.in5 wyle.in5 woru.in5 wofa.in5 wavu.in5 wety.in5 wybo.in5
+	xera.y -> wate.in5 wepo.in webu.in5 wyle.in5 woru.in5 wofa.in5 wavu.in5 wety.in5 wybo.in5
 	@-137.26,69.36,-137.26,68.42,-143.41,68.42,-143.41,64.60
 	@-141.88,68.42,-141.88,64.59
 	@-142.39,68.42,-142.39,64.60
@@ -192,15 +192,15 @@ wire xera:adr
 	@-153.50,67.60,-154.70,67.60,-154.70,64.59;
 
 wire xeze:ctl
-	xeze.q -> wuko.in
+	xeze.y -> wuko.in
 	@-138.98,69.35,-138.98,67.70,-139.14,67.70,-139.14,64.60;
 
 wire xaly:dec
-	xaly.q -> wutu.in3
+	xaly.y -> wutu.in3
 	@-141.70,69.38,-141.70,67.22,-140.00,67.22,-140.00,64.62;
 
 wire xeno:adr
-	xeno.q -> vama.in3 weta.in3 wyle.in3 woru.in3 wofa.in3 wesa.in wety.in3
+	xeno.y -> vama.in3 weta.in3 wyle.in3 woru.in3 wofa.in3 wesa.in wety.in3
 	@-142.05,69.37,-142.05,66.97,-144.61,66.97,-144.61,62.66,-145.80,62.66
 	@-145.80,63.11,-145.80,61.76,-149.23,61.76,-149.23,67.87,-153.16,67.87,-153.16,64.60
 	@-147.00,61.76,-147.00,59.99
@@ -208,7 +208,7 @@ wire xeno:adr
 	@-152.13,67.87,-152.13,64.59;
 
 wire xusy:adr
-	xusy.q -> vama.in4 webu.in4 weta.in4 wage.in4 wyvo.in4 woru.in4 wofa.in4 wavu.in4 walo.in
+	xusy.y -> vama.in4 webu.in4 weta.in4 wage.in4 wyvo.in4 woru.in4 wofa.in4 wavu.in4 walo.in
 	@-144.44,69.37,-144.44,67.73,-144.78,67.73,-144.78,62.52,-143.24,62.52,-143.24,63.09
 	@-144.78,66.03,-148.37,66.03
 	@-147.34,66.03,-147.34,62.41,-147.16,62.41,-147.16,59.97
@@ -218,7 +218,7 @@ wire xusy:adr
 	@-151.46,66.62,-151.46,64.60;
 
 wire xono:ctl
-	xono.q -> pute.sel puly.sel pelo.sel pawe.sel pono.sel pugu.sel pacy.sel pobe.sel
+	xono.y -> pute.sel puly.sel pelo.sel pawe.sel pono.sel pugu.sel pacy.sel pobe.sel
 	@-145.12,69.37,-145.12,66.68,-145.29,66.68,-145.29,61.59,-145.80,61.59,-145.80,56.95,-145.45,56.95,-145.45,48.36,
 	 -145.78,48.36,-145.78,42.07,-146.63,42.07
 	@-145.78,42.49,-144.58,42.49,-144.58,40.48
@@ -230,7 +230,7 @@ wire xono:ctl
 	@-149.38,42.49,-149.38,40.47;
 
 wire ~wx_rst:ctl
-	xaco.q -> wyko.~r wobo.~r wody.~r wyka.~r xolo.~r
+	xaco.y -> wyko.~r wobo.~r wody.~r wyka.~r xolo.~r
 	@-145.47,69.36,-145.47,68.12,-128.03,68.12
 	@-133.84,68.12,-133.84,64.61
 	@-132.64,68.12,-132.64,64.61
@@ -243,24 +243,24 @@ wire ~wx_rst:ctl
 	@-124.44,68.51,-124.44,69.38;
 
 wire ppu_hard_reset:rst
-	xore.q -> walu.in wesy.in xare.in xebe.in
+	xore.y -> walu.in wesy.in xare.in xebe.in
 	@-145.97,69.36,-145.97,67.99,-154.35,67.99,-154.35,71.83,-170.60,71.82,-170.60,66.53,-174.36,66.53,-188.02,66.52,
 	 -188.02,69.36
 	@-170.60,66.83,-170.26,66.83,-170.26,64.61
 	@-174.36,66.53,-174.36,64.59;
 
 wire ff42:dec
-	xaro.q -> anyp.in2 bedy.in2
+	xaro.y -> anyp.in2 bedy.in2
 	@-146.49,70.88,-146.49,72.77,-149.16,72.77,-149.16,76.34,-149.59,76.34,-149.59,82.42,-151.30,82.42,-151.30,86.38,
 	 -151.81,86.38,-151.81,89.04;
 
 wire bp_sel:ctl
-	xuha.q -> xonu.in asum.in
+	xuha.y -> xonu.in asum.in
 	@-136.57,69.38,-136.57,68.68,-146.84,68.67,-146.84,73.57,-159.49,73.56,-159.49,78.97,-159.76,78.97,-159.76,81.57,
 	 -171.46,81.56,-171.46,83.94;
 
 wire ff44:dec
-	xogy.q -> wafu.in2
+	xogy.y -> wafu.in2
 	@-147.34,69.37,-147.34,66.20,-164.10,66.19,-164.10,64.59;
 
 wire h0:data
@@ -276,7 +276,7 @@ wire ~xeho:data
 	@-150.09,70.88,-150.09,73.44,-148.55,73.44,-148.55,70.88;
 
 wire ff43:dec
-	xavy.q -> arur.in1 avog.in1
+	xavy.y -> arur.in1 avog.in1
 	@-150.77,70.87,-150.77,73.14,-144.62,73.14,-144.62,78.51,-145.15,78.51,-145.15,81.49,-137.95,81.49,-137.95,83.95
 	@-137.95,83.35,-137.27,83.35,-137.27,83.93;
 
@@ -291,12 +291,12 @@ wire h3:data
 # xydo.~q is not connected
 
 wire ff45:dec
-	xayu.q -> xyly.in2 xufa.in2
+	xayu.y -> xyly.in2 xufa.in2
 	@-154.19,69.37,-154.19,68.66,-180.34,68.66,-180.34,69.36
 	@-170.94,68.66,-170.94,69.36;
 
 wire xare:rst
-	xare.q -> vyxe.~r woky.~r wexu.~r wymo.~r xona.~r xylo.~r xafo.~r xymo.~r xuva.~r
+	xare.y -> vyxe.~r woky.~r wexu.~r wymo.~r xona.~r xylo.~r xafo.~r xymo.~r xuva.~r
 	@-154.52,69.37,-154.52,67.99,-159.83,67.99,-159.83,61.28,-160.16,61.28,-160.16,59.98
 	@-159.83,66.53,-164.61,66.53
 	@-161.71,66.53,-161.71,69.36
@@ -308,7 +308,7 @@ wire xare:rst
 	@-185.12,68.53,-186.31,68.53,-186.31,69.36;
 
 wire xena:ctl
-	xena.q -> wodu.in1
+	xena.y -> wodu.in1
 	@-154.87,69.37,-154.87,67.86,-156.41,67.86,-156.41,64.61;
 
 # xymu.q is not connected
@@ -342,34 +342,34 @@ wire mode3:ctl
 	@-155.91,89.05,-155.91,87.28,-172.15,87.27,-172.15,85.41;
 
 wire xajo:ctl
-	xajo.q -> wusa.s
+	xajo.y -> wusa.s
 	@-156.58,69.36,-156.58,67.85,-157.09,67.85,-157.09,64.59;
 
 wire xano:ctl
-	xano.q -> wodu.in2
+	xano.y -> wodu.in2
 	@-156.92,69.37,-156.92,67.60,-156.57,67.60,-156.57,64.60;
 
 wire xujy:ctl
-	xujy.q -> bycu.in2
+	xujy.y -> bycu.in2
 	@-157.26,70.88,-157.26,73.70,-159.24,73.70,-159.24,79.27,-160.01,79.27,-160.01,81.74,-159.84,81.74,-159.84,87.96,
 	 -161.04,87.96,-161.04,89.05;
 
 wire xora:data
-	xora.q -> xydo.d
+	xora.y -> xydo.d
 	@-157.43,69.37,-157.43,68.79,-151.97,68.79,-151.97,69.37;
 
 wire xahy:ctl
-	xahy.q -> xofo.in2
+	xahy.y -> xofo.in2
 	@-158.63,69.37,-158.63,68.92,-158.98,68.92,-158.98,69.37;
 
 wire xofo:ctl
-	xofo.q -> pynu.r xaco.in
+	xofo.y -> pynu.r xaco.in
 	@-159.32,69.38,-159.32,66.52,-156.75,66.52
 	@-145.29,69.39,-145.29,66.92,-156.75,66.92,-156.75,62.52,-156.40,62.52,-156.40,52.93,-156.73,52.93,-156.73,48.40,
 	 -156.04,48.40,-156.04,42.91,-156.20,42.91,-156.20,40.45;
 
 wire xure:ctl
-	xure.q -> vyxe.ena woky.ena wexu.ena wymo.ena xona.ena xylo.ena xafo.ena xymo.ena
+	xure.y -> vyxe.ena woky.ena wexu.ena wymo.ena xona.ena xylo.ena xafo.ena xymo.ena
 	@-159.82,59.98,-159.82,60.90,-159.48,60.90,-159.48,67.45,-159.66,67.45,-159.66,73.70,-161.37,73.70,-161.37,68.41,
 	 -164.27,68.41
 	@-162.23,68.41,-162.23,64.59
@@ -416,7 +416,7 @@ wire ~xymo:ctl
 	@-168.88,69.36,-168.88,66.11,-169.73,66.11,-169.73,64.59;
 
 wire xubo:ctl
-	xubo.q -> vyxe.~ena woky.~ena wexu.~ena wymo.~ena xure.in xona.~ena xylo.~ena xafo.~ena xymo.~ena
+	xubo.y -> vyxe.~ena woky.~ena wexu.~ena wymo.~ena xure.in xona.~ena xylo.~ena xafo.~ena xymo.~ena
 	@-169.41,69.35,-169.41,68.92,-165.80,68.92
 	@-167.69,68.92,-167.69,69.38
 	@-165.80,69.38,-165.80,67.60,-163.93,67.60,-163.93,69.37
@@ -427,28 +427,28 @@ wire xubo:ctl
 	@-159.48,69.35,-159.48,67.60,-159.14,67.60,-159.14,60.60,-159.48,60.60,-159.48,59.98;
 
 wire xugu:ctl
-	xugu.q -> xano.in
+	xugu.y -> xano.in
 	@-170.44,69.35,-170.44,67.09,-156.75,67.09,-156.75,69.37;
 
 wire xyly:ctl
-	xyly.q -> weku.in
+	xyly.y -> weku.in
 	@-171.28,69.36,-171.28,66.15,-171.45,66.15,-171.45,64.59;
 
 wire xuqu:adr
-	xuqu.q -> abem.in
+	xuqu.y -> abem.in
 	@-171.80,70.88,-171.80,73.18,-172.57,73.18,-172.57,79.27,-173.10,79.27,-173.10,82.67,-173.69,82.67,-173.69,83.94;
 
 wire xyle:data
-	xyle.q -> xora.in2
+	xyle.y -> xora.in2
 	@-172.48,69.36,-172.48,68.79,-157.77,68.79,-157.77,69.38;
 
 wire xuke:data
-	xuke.q -> xyle.in1 xegy.in2
+	xuke.y -> xyle.in1 xegy.in2
 	@-173.33,69.35,-173.33,68.36
 	@-173.85,69.35,-173.85,68.36,-171.96,68.36,-171.96,69.37;
 
 wire xegy:data
-	xegy.q -> xodu.d
+	xegy.y -> xodu.d
 	@-173.51,69.36,-173.51,66.95,-175.55,66.95,-175.55,69.36;
 
 wire h2:data
@@ -463,49 +463,49 @@ wire h2:data
 # xodu.~q is not connected
 
 wire xupa:ctl
-	xupa.q -> apag.in1
+	xupa.y -> apag.in1
 	@-177.77,69.36,-177.77,66.66,-154.02,66.66,-154.02,73.45,-154.88,73.45,-154.88,78.50,-155.31,78.50,-155.31,81.62,
 	 -131.46,81.63,-131.46,83.95;
 
 wire xuto:ctl
-	xuto.q -> wuje.r
+	xuto.y -> wuje.r
 	@-178.63,69.34,-178.63,66.70,-178.80,66.70,-178.80,64.58;
 
 wire dma_phi2:clk
-	xyny.q -> wuje.s xuva.clk
+	xyny.y -> wuje.s xuva.clk
 	@-177.93,64.59,-177.93,65.03,-178.97,65.03,-178.97,72.92,-184.44,72.92,-184.44,70.87;
 
 wire xepo:data
-	xepo.q -> wuva.in
+	xepo.y -> wuva.in
 	@-179.31,69.36,-179.31,67.73,-179.48,67.73,-179.48,64.57;
 
 wire xuja:ctl
-	xuja.q -> asyt.in2
+	xuja.y -> asyt.in2
 	@-179.66,69.35,-179.66,68.91,-172.30,68.91,-172.30,73.31,-171.28,73.31,-171.28,79.13,-171.80,79.13,-171.80,81.62,
 	 -171.63,81.62,-171.63,86.93,-162.74,86.93,-162.74,85.43;
 
 wire xuhy:data
-	xuhy.q -> wojy.in
+	xuhy.y -> wojy.in
 	@-180.00,69.34,-180.00,65.67,-176.40,65.67,-176.40,64.59;
 
 wire xufa:ctl
-	xufa.q -> wane.in
+	xufa.y -> wane.in
 	@-180.68,69.35,-180.68,64.59;
 
 wire xowo:data
-	xowo.q -> weze.in
+	xowo.y -> weze.in
 	@-181.02,69.36,-181.02,66.02,-175.37,66.02,-175.37,64.59;
 
 wire xuce:data
-	xuce.q -> wavo.in
+	xuce.y -> wavo.in
 	@-181.36,69.34,-181.36,66.27,-173.33,66.27,-173.33,64.57;
 
 wire xaga:data
-	xaga.q -> wama.in
+	xaga.y -> wama.in
 	@-181.71,69.35,-181.71,65.16,-177.42,65.16,-177.42,64.59;
 
 wire xupy:clk
-	xupy.q -> awoh.in byba.clk cyke.in ceno.clk catu.clk gava.in2
+	xupy.y -> awoh.in byba.clk cyke.in ceno.clk catu.clk gava.in2
 	@-182.21,70.87,-182.21,72.71,-176.59,72.71,-176.59,79.26,-177.11,79.26,-177.11,80.76,-171.13,80.76,-171.13,86.25,
 	 -170.78,86.25,-170.78,89.03
 	@-171.13,83.05,-155.91,83.06,-155.91,86.95,-156.09,86.95,-156.09,92.52
@@ -513,38 +513,38 @@ wire xupy:clk
 	@-149.77,94.48,-149.77,95.30,-152.68,95.30,-152.68,100.38,-152.85,100.38,-152.85,109.21,-153.03,109.21,-153.03,110.80;
 
 wire xoce:clk
-	xoce.q -> ajep.in2 care.in1
+	xoce.y -> ajep.in2 care.in1
 	@-182.73,70.87,-182.73,73.30,-173.32,73.31,-173.32,78.88,-174.09,78.88,-174.09,81.13,-163.61,81.14,-163.61,86.80,
 	 -160.19,86.80,-160.19,92.98;
 
 wire xyso:clk
-	xyso.q -> aver.in2
+	xyso.y -> aver.in2
 	@-183.08,69.36,-183.08,66.83,-174.36,66.83,-174.36,72.71,-174.06,72.71,-174.06,78.71,-174.59,78.71,-174.59,81.60,
 	 -174.38,81.60,-174.38,87.40,-164.11,87.40,-164.11,85.42;
 
 wire vbl:ctl
-	xyvo.q -> popu.d ales.in
+	xyvo.y -> popu.d ales.in
 	@-195.85,40.45,-195.85,41.91,-196.20,41.91,-196.20,48.89,-184.93,48.91,-184.93,53.18,-184.77,53.18,-184.77,56.86,
 	 -183.91,56.86,-183.91,61.66,-183.24,61.66,-183.24,67.08,-183.76,67.08,-183.76,73.55,-181.03,73.55,-181.03,79.26,
 	 -181.56,79.26,-181.56,82.54,-178.12,82.54,-178.12,83.94;
 
 wire xyfy:clk
-	xyfy.q -> wosu.clk
+	xyfy.y -> wosu.clk
 	@-184.10,69.35,-184.10,67.72,-184.62,67.72,-184.62,64.59;
 
 # xuva.q is not connected
 # xuva.~q is not connected
 
 wire xodo:rst
-	xodo.q -> xapo.in
+	xodo.y -> xapo.in
 	@-187.52,70.85,-187.52,73.56,-190.08,73.56,-190.08,70.85;
 
 wire xuca:ctl
-	xuca.q -> xecy.~ena
+	xuca.y -> xecy.~ena
 	@-187.85,69.35,-187.85,67.08,-188.54,67.08,-188.54,69.36;
 
 wire xebe:rst
-	xebe.q -> xodo.in2 xecy.~r
+	xebe.y -> xodo.in2 xecy.~r
 	@-188.20,69.35,-188.20,67.97
 	@-189.23,69.35,-189.23,67.97,-187.34,67.97,-187.34,69.36;
 
@@ -555,7 +555,7 @@ wire xecy:data
 # xecy.~q is not connected
 
 wire ~ppu_reset:rst
-	xapo.q -> lyha.in nunu.~r nopa.~r pyry.in pyco.~r rosy.in sovy.~r sary.~r tofu.in vena.~r wuvu.~r wosu.~r
+	xapo.y -> lyha.in nunu.~r nopa.~r pyry.in pyco.~r rosy.in sovy.~r sary.~r tofu.in vena.~r wuvu.~r wosu.~r
 	          xofo.in3 atar.in amyg.in dezy.~r
 	@-186.48,64.58,-186.48,68.52,-190.42,68.52,-190.42,73.05,-188.21,73.05,-188.21,79.26,-188.73,79.26,-188.73,82.41,
 	 -187.18,82.41,-187.18,87.65,-192.66,87.65,-192.66,92.16,-193.19,92.16,-193.19,95.75,-194.55,95.75,-194.55,96.73
@@ -580,50 +580,50 @@ wire ~ppu_reset:rst
 	@-155.51,37.83,-154.32,37.83,-154.32,36.10;
 
 wire xuho:data
-	xuho.q -> wubu.in1
+	xuho.y -> wubu.in1
 	@-190.76,69.34,-190.76,68.53,-191.11,68.53,-191.11,64.58;
 
 wire xaty:ctl
-	xaty.q -> wuga.in
+	xaty.y -> wuga.in
 	@-191.27,69.34,-191.27,67.38,-192.13,67.38,-192.13,64.57;
 
 wire xyva:clk
-	xyva.q -> xota.in
+	xyva.y -> xota.in
 	@-191.62,69.34,-191.62,68.52,-191.79,68.52,-191.79,69.35;
 
 wire xota:clk
-	xota.q -> wuvu.clk xyfy.in
+	xota.y -> wuvu.clk xyfy.in
 	@-191.96,69.34,-191.96,68.66,-183.93,68.66
 	@-183.93,69.35,-183.93,67.72,-181.20,67.72,-181.20,64.59;
 
 wire xoga:data
-	xoga.q -> woka.in1
+	xoga.y -> woka.in1
 	@-192.30,69.34,-192.30,66.77,-192.64,66.77,-192.64,64.58;
 
 wire xely:data
-	xely.q -> woda.~s
+	xely.y -> woda.~s
 	@-192.81,69.34,-192.81,67.97,-189.56,67.97,-189.56,64.59
 	@-189.56,67.63,-187.34,67.63,-187.34,64.59;
 
 wire xyve:data
-	xyve.q -> wufy.~r
+	xyve.y -> wufy.~r
 	@-193.32,69.34,-193.32,67.37,-196.73,67.37,-196.73,64.56;
 
 wire ff48:dec
-	xayo.q -> xufy.in2 xoma.in2
+	xayo.y -> xufy.in2 xoma.in2
 	@-193.84,70.85,-193.84,73.56,-194.87,73.56,-194.87,70.85
 	@-194.19,73.56,-194.19,70.86;
 
 wire xufy:ctl
-	xufy.q -> xozy.in
+	xufy.y -> xozy.in
 	@-194.52,70.85,-194.52,73.30,-195.72,73.30,-195.72,70.84;
 
 wire xoma:ctl
-	xoma.q -> xelo.in
+	xoma.y -> xelo.in
 	@-195.20,70.85,-195.20,73.55,-196.58,73.55,-196.58,70.84;
 
 wire xefy:ctl
-	xefy.q -> mefu.in1 meve.in1 myzo.in1 ruda.in1 tory.in1 vysa.in1 voto.in1 wope.in1
+	xefy.y -> mefu.in1 meve.in1 myzo.in1 ruda.in1 tory.in1 vysa.in1 voto.in1 wope.in1
 	@-195.54,69.34,-195.54,67.96,-197.76,67.96,-197.76,62.33,-199.64,62.33,-199.64,53.05,-199.80,53.05,-199.80,47.48,
 	 -218.93,47.48,-218.93,36.95,-219.09,36.95,-219.09,33.27,-210.38,33.28,-210.38,31.52
 	@-199.64,57.22,-211.59,57.22,-211.59,58.47
@@ -632,7 +632,7 @@ wire xefy:ctl
 	@-221.66,31.52,-221.66,33.48,-223.54,33.48,-223.54,31.51;
 
 wire xozy:ctl
-	xozy.q -> xoke.~ena xaju.~ena xaxa.~ena xobo.~ena xawo.~ena xuby.~ena xuno.~ena xary.~ena
+	xozy.y -> xoke.~ena xaju.~ena xaxa.~ena xobo.~ena xawo.~ena xuby.~ena xuno.~ena xary.~ena
 	@-195.89,70.85,-195.89,73.29,-219.48,73.29,-219.48,70.85
 	@-197.95,73.29,-197.95,70.86
 	@-200.51,73.29,-200.51,70.85
@@ -643,11 +643,11 @@ wire xozy:ctl
 	@-215.04,73.29,-215.04,70.84;
 
 wire xole:data
-	xole.q -> weba.~r
+	xole.y -> weba.~r
 	@-196.40,69.34,-196.40,68.52,-202.38,68.52,-202.38,64.57;
 
 wire xelo:ctl
-	xelo.q -> xuky.~ena xeru.~ena xupo.~ena xyze.~ena xana.~ena xalo.~ena xova.~ena xojo.in xufu.~ena
+	xelo.y -> xuky.~ena xeru.~ena xupo.~ena xyze.~ena xana.~ena xalo.~ena xova.~ena xojo.in xufu.~ena
 	@-196.74,70.85,-196.74,73.55,-217.94,73.55,-217.94,70.84
 	@-198.97,73.55,-198.97,70.84
 	@-201.53,73.55,-201.53,70.85
@@ -659,7 +659,7 @@ wire xelo:ctl
 	@-217.59,73.55,-217.59,70.84;
 
 wire sprite_on7:data
-	xovu.q -> lamy.in2 lunu.in2 tuwu.in2 teso.in2 tula.in2 vune.in2 wubu.in2 xyve.in2
+	xovu.y -> lamy.in2 lunu.in2 tuwu.in2 teso.in2 tula.in2 vune.in2 wubu.in2 xyve.in2
 	@-197.08,69.35,-197.08,67.50,-193.16,67.50
 	@-193.16,69.36,-193.16,67.08,-191.27,67.08,-191.27,62.51,-193.49,62.51,-193.49,56.97,-197.06,56.97,-197.06,47.27,
 	 -197.41,47.27,-197.41,43.31,-196.54,43.31,-196.54,37.86,-197.05,37.86,-197.05,33.42,-196.87,33.42,-196.87,28.90,
@@ -669,7 +669,7 @@ wire sprite_on7:data
 	@-195.84,28.59,-191.91,28.59,-191.91,26.97;
 
 wire xula:data
-	xula.q -> maby.in nuly.in2 wele.in
+	xula.y -> maby.in nuly.in2 wele.in
 	@-197.76,69.34,-197.76,68.39,-222.38,68.38,-222.38,62.49,-222.03,62.49,-222.03,58.02,-221.69,58.02,-221.69,52.77,
 	 -221.33,52.77,-221.33,46.92,-221.67,46.92,-221.67,38.35,-222.01,38.35,-222.01,33.83,-224.39,33.83,-224.39,31.51;
 
@@ -690,7 +690,7 @@ wire ~obp0_d4:data
 	@-202.73,70.84,-202.73,73.04,-201.02,73.04,-201.02,70.84;
 
 wire xexu:data
-	xexu.q -> wora.~r
+	xexu.y -> wora.~r
 	@-203.41,69.34,-203.41,68.90,-206.48,68.90,-206.48,64.56;
 
 wire obp0_d6:data
@@ -718,11 +718,11 @@ wire ~obp0_d7:data
 	@-210.93,70.85,-210.93,73.16,-209.22,73.16,-209.22,70.83;
 
 wire xura:data
-	xura.q -> wede.in1
+	xura.y -> wede.in1
 	@-211.44,69.34,-211.44,67.49,-211.27,67.49,-211.27,64.55;
 
 wire xato:data
-	xato.q -> wyho.~r
+	xato.y -> wyho.~r
 	@-211.95,69.34,-211.95,68.64,-215.37,68.64,-215.37,64.55;
 
 wire obp0_d3:data
@@ -734,7 +734,7 @@ wire ~obp0_d3:data
 	@-214.35,70.84,-214.35,73.03,-212.63,73.03,-212.63,70.84;
 
 wire xaba:data
-	xaba.q -> wuja.in1
+	xaba.y -> wuja.in1
 	@-214.87,69.34,-214.87,66.76,-193.16,66.78,-193.16,64.57;
 
 wire obp0_d2:data
@@ -746,7 +746,7 @@ wire ~obp0_d2:data
 	@-217.26,69.34,-217.26,68.63,-215.54,68.63,-215.54,69.34;
 
 wire xojo:ctl
-	xojo.q -> xuky.ena xeru.ena xupo.ena xyze.ena xana.ena xalo.ena xova.ena xufu.ena
+	xojo.y -> xuky.ena xeru.ena xupo.ena xyze.ena xana.ena xalo.ena xova.ena xufu.ena
 	@-217.76,70.84,-217.76,73.67
 	@-218.45,70.84,-218.45,73.67,-202.05,73.67,-202.05,70.84
 	@-216.57,73.67,-216.57,70.83
@@ -765,21 +765,21 @@ wire ~obp0_d0:data
 	@-219.13,70.85,-219.13,73.67,-219.98,73.67,-219.98,70.84;
 
 wire xala:data
-	xala.q -> wuru.~s
+	xala.y -> wuru.~s
 	@-220.84,69.34,-220.84,68.77,-207.51,68.77,-207.51,64.57
 	@-209.73,68.77,-209.73,64.57;
 
 wire xyke:data
-	xyke.q -> wedy.in1
+	xyke.y -> wedy.in1
 	@-221.19,69.34,-221.19,68.77,-221.87,68.77,-221.87,64.56;
 
 wire xuku:data
-	xuku.q -> xete.~s
+	xuku.y -> xete.~s
 	@-221.70,70.84,-221.70,73.53,-224.60,73.53,-224.60,70.83
 	@-222.38,73.53,-222.38,70.85;
 
 wire xyru:data
-	xyru.q -> wyfu.~s
+	xyru.y -> wyfu.~s
 	@-222.21,69.34,-222.21,68.89,-222.72,68.89,-222.72,64.56
 	@-222.72,67.57,-224.95,67.57,-224.95,64.57;
 
@@ -790,11 +790,11 @@ wire xete:data
 # xete.~q is not connected
 
 wire xenu:data
-	xenu.q -> wevo.in1
+	xenu.y -> wevo.in1
 	@-226.30,69.33,-226.30,68.59,-226.47,68.59,-226.47,64.57;
 
 wire xado:ctl
-	xado.q -> mofo.~ena pudu.~ena peba.~ena rewo.~ena sega.~ena suny.~ena semo.~ena suse.in saja.~ena
+	xado.y -> mofo.~ena pudu.~ena peba.~ena rewo.~ena sega.~ena suny.~ena semo.~ena suse.in saja.~ena
 	@-226.64,69.34,-226.64,68.33,-224.77,68.33,-224.77,61.59,-204.76,61.60,-204.76,52.00,-201.17,52.00,-201.17,47.19,
 	 -197.74,47.19,-197.74,49.34
 	@-204.76,53.04,-204.93,53.04,-204.93,48.21,-206.12,48.21,-206.12,42.46,-206.45,42.46,-206.45,37.25,-207.98,37.25,

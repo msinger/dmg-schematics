@@ -1,94 +1,94 @@
 # Cells in column W in bottom left corner
 # ---------------------------------------
 
-cell wyko:dffr_b2     rot0 @-125.89,62.83,-122.98,64.89      ->ppu-window;
-cell wobo:dffr_b2     rot0 @-128.79,62.84,-125.88,64.89      ->ppu-window;
-cell wody:dffr_b2     rot0 @-131.71,62.84,-128.80,64.90      ->ppu-window;
-cell wyka:dffr_b2     rot0 @-134.60,62.84,-131.70,64.89      ->ppu-window;
-cell wazy:inv_a       rot0 @-134.95,62.82,-134.60,64.88      ->ppu-window;
-cell wawe:tri_inv_if0 rot0 @-135.97,62.84,-134.95,64.88      ->ppu-window;
-cell wudo:tri_inv_if0 rot0 @-137.00,62.83,-135.97,64.88      ->ppu-window;
-cell wolu:tri_inv_if0 rot0 @-138.02,62.82,-136.99,64.88      ->ppu-window;
-cell wuju:tri_inv_if0 rot0 @-139.05,62.84,-138.02,64.88      ->ppu-window;
-cell wuko:inv_b       rot0 @-139.58,62.83,-139.06,64.89      ->ppu-window;
-cell wutu:nand3       rot0 @-140.25,62.83,-139.55,64.87      ->ppu-decode;
-cell wado:inv_a       rot0 @-140.59,62.82,-140.25,64.89      ->ppu-decode;
-cell wero:inv_b       rot0 @-141.10,62.84,-140.59,64.88      ->ppu-decode;
-cell wate:nand5       rot0 @-142.12,62.83,-141.10,64.88      ->ppu-decode;
-cell wepo:inv_a       rot0 @-142.64,62.83,-142.31,64.88      ->ppu-decode;
-cell webu:nand5       rot0 @-143.68,62.83,-142.64,64.88      ->ppu-decode;
-cell weta:nand5       rot0 @-145.20,62.83,-144.18,64.88      ->ppu-decode;
-cell wyle:nand5       rot0 @-146.40,62.82,-145.38,64.88      ->ppu-decode;
-cell wage:nand5       rot0 @-147.77,62.82,-146.75,64.87      ->ppu-decode;
-cell wyvo:nand5       rot0 @-148.80,62.81,-147.77,64.87      ->ppu-decode;
-cell woru:nand5       rot0 @-149.83,62.83,-148.79,64.86      ->ppu-decode;
-cell wofa:nand5       rot0 @-150.85,62.83,-149.81,64.86      ->ppu-decode;
-cell wavu:nand5       rot0 @-151.88,62.82,-150.84,64.86      ->ppu-decode;
-cell wesa:inv_a       rot0 @-152.38,62.82,-152.02,64.88      ->ppu-decode;
-cell walo:inv_a       rot0 @-152.73,62.82,-152.39,64.88      ->ppu-decode;
-cell wety:nand5       rot0 @-153.75,62.82,-152.72,64.87      ->ppu-decode;
-cell wybo:nand5       rot0 @-154.95,62.82,-153.91,64.85      ->ppu-decode;
-cell wego:or2         rot0 @-155.63,62.82,-154.95,64.88      ->ppu-stat;
-cell wyze:and2        rot0 @-156.31,62.82,-155.63,64.88      ->ppu-window;
-cell wodu:and2        rot0 @-157.00,62.82,-156.30,64.88      ->ppu-stat;
-cell wusa:nor_latch   rot0 @-158.02,62.81,-156.99,64.88      ->ppu-stat;
-cell wuza:and2        rot0 @-158.71,62.82,-158.02,64.88      ->ppu-window;
-cell woky:dr_latch    rot0 @-160.59,62.81,-158.88,64.87      ->ppu-control;
-cell wypo:tri_inv_if0 rot0 @-161.62,62.82,-160.59,64.87      ->ppu-control;
-cell wexu:dr_latch    rot0 @-163.32,62.82,-161.61,64.86      ->ppu-control;
-cell wyce:inv_a       rot0 @-163.84,62.82,-163.49,64.87      ->ppu-control;
-cell wafu:and2        rot0 @-164.52,62.83,-163.83,64.86      ->ppu-stat;
-cell wymo:dr_latch    rot0 @-166.23,62.82,-164.52,64.87      ->ppu-control;
-cell weko:and2        rot0 @-166.91,62.81,-166.23,64.86      ->ppu-window;
-cell waxu:and2        rot0 @-167.59,62.82,-166.90,64.86      ->ppu-window;
-cell wera:inv_b       rot0 @-168.11,62.82,-167.58,64.86      ->ppu-decode;
-cell wuka:tri_inv_if0 rot0 @-169.13,62.82,-168.10,64.85      ->ppu-control;
-cell wyju:tri_inv_if0 rot0 @-170.16,62.81,-169.13,64.86      ->ppu-decode;
-cell walu:inv_b       rot0 @-170.68,62.81,-170.16,64.87      ->ppu-window;
-cell waru:and2        rot0 @-171.36,62.82,-170.67,64.87      ->ppu-control;
-cell weku:inv_a       rot0 @-171.70,62.81,-171.36,64.87      ->ppu-stat;
-cell wata:inv_a       rot0 @-172.03,62.80,-171.70,64.87      ->ppu-stat;
-cell wury:inv_a       rot0 @-172.38,62.80,-172.03,64.85      ->ppu-stat;
-cell wavo:tri_inv_if0 rot0 @-173.74,62.82,-172.72,64.87      ->ppu-stat;
-cell wuty:inv_b       rot0 @-174.27,62.81,-173.75,64.86      ->ppu-ycomp;
-cell wesy:inv_b       rot0 @-174.77,62.82,-174.27,64.86      ->ppu-stat;
-cell weze:tri_inv_if0 rot0 @-175.80,62.81,-174.77,64.87      ->ppu-stat;
-cell wojy:tri_inv_if0 rot0 @-176.82,62.82,-175.80,64.86      ->ppu-stat;
-cell wama:tri_inv_if0 rot0 @-177.84,62.80,-176.82,64.87      ->ppu-stat;
-cell wuje:nor_latch   rot0 @-178.87,62.82,-177.85,64.87      ->ppu-dma;
-cell wuva:tri_inv_if0 rot0 @-179.91,62.81,-178.88,64.85      ->ppu-stat;
-cell wefy:and2        rot0 @-180.59,62.80,-179.91,64.86      ->ppu-ycomp;
-cell wane:inv_a       rot0 @-180.93,62.80,-180.58,64.87 comp ->ppu-stat;
-cell wuvu:dffr_b2     rot0 @-183.84,62.80,-180.93,64.88      ->ppu-lcd;
-cell wojo:nor2        rot0 @-184.34,62.81,-183.83,64.87      ->ppu-lcd;
-cell wosu:dffr_b2     rot0 @-187.25,62.81,-184.35,64.86      ->ppu-lcd;
-cell woda:dffsr       rot0 @-191.02,62.80,-187.23,64.86      ->ppu-xcomp;
-cell wubu:nand2       rot0 @-191.52,62.80,-191.02,64.87      ->ppu-xcomp;
-cell wuga:tri_inv_if1 rot0 @-192.55,62.80,-191.52,64.85      ->ppu-stat;
-cell woka:nand2       rot0 @-193.06,62.82,-192.54,64.86      ->ppu-xcomp;
-cell wuja:nand2       rot0 @-193.59,62.80,-193.05,64.87      ->ppu-xcomp;
-cell wamy:inv_a       rot0 @-193.91,62.80,-193.56,64.85      ->ppu-objfifo;
-cell wufy:dffsr       rot0 @-197.67,62.81,-193.91,64.85      ->ppu-objfifo;
-cell wope:or3         rot0 @-198.53,62.79,-197.67,64.85      ->ppu-xcomp;
-cell wyco:inv_a       rot0 @-198.87,62.80,-198.52,64.85      ->ppu-objfifo;
-cell woxa:and2        rot0 @-199.56,62.79,-198.87,64.87      ->ppu-mux;
-cell weba:dffsr       rot0 @-203.33,62.80,-199.54,64.84      ->ppu-objfifo;
-cell wura:inv_a       rot0 @-203.66,62.79,-203.31,64.84      ->ppu-objfifo;
-cell wora:dffsr       rot0 @-207.42,62.80,-203.66,64.85      ->ppu-objfifo;
-cell wuru:dffsr       rot0 @-211.19,62.79,-207.41,64.86      ->ppu-xcomp;
-cell wede:nand2       rot0 @-211.70,62.80,-211.18,64.86      ->ppu-xcomp;
-cell wery:inv_a       rot0 @-212.03,62.80,-211.68,64.83      ->ppu-objfifo;
-cell waxo:nand2       rot0 @-212.54,62.78,-212.04,64.84      ->ppu-objfifo;
-cell wyho:dffsr       rot0 @-216.30,62.80,-212.53,64.84      ->ppu-objfifo;
-cell wufu:ao4         rot0 @-218.70,62.80,-216.29,64.85      ->ppu-mux;
-cell waly:ao4         rot0 @-221.09,62.79,-218.69,64.85      ->ppu-mux;
-cell wolo:inv_a       rot0 @-221.43,62.79,-221.08,64.84      ->ppu-mux;
-cell wyru:inv_a       rot0 @-221.77,62.78,-221.43,64.84      ->ppu-mux;
-cell wedy:nand2       rot0 @-222.30,62.79,-221.77,64.84      ->ppu-xcomp;
-cell wele:inv_a       rot0 @-222.63,62.79,-222.29,64.84      ->ppu-mux;
-cell wyfu:dffsr       rot0 @-226.38,62.79,-222.63,64.84      ->ppu-xcomp;
-cell wevo:nand2       rot0 @-226.89,62.79,-226.38,64.84      ->ppu-xcomp;
-cell weny:inv_a       rot0 @-227.23,62.77,-226.88,64.84      ->ppu-ycomp;
+cell wyko:dffr       rot0 @-125.89,62.83,-122.98,64.89      ->ppu-window;
+cell wobo:dffr       rot0 @-128.79,62.84,-125.88,64.89      ->ppu-window;
+cell wody:dffr       rot0 @-131.71,62.84,-128.80,64.90      ->ppu-window;
+cell wyka:dffr       rot0 @-134.60,62.84,-131.70,64.89      ->ppu-window;
+cell wazy:not_x1     rot0 @-134.95,62.82,-134.60,64.88      ->ppu-window;
+cell wawe:not_if0    rot0 @-135.97,62.84,-134.95,64.88      ->ppu-window;
+cell wudo:not_if0    rot0 @-137.00,62.83,-135.97,64.88      ->ppu-window;
+cell wolu:not_if0    rot0 @-138.02,62.82,-136.99,64.88      ->ppu-window;
+cell wuju:not_if0    rot0 @-139.05,62.84,-138.02,64.88      ->ppu-window;
+cell wuko:not_x2     rot0 @-139.58,62.83,-139.06,64.89      ->ppu-window;
+cell wutu:nand3      rot0 @-140.25,62.83,-139.55,64.87      ->ppu-decode;
+cell wado:not_x1     rot0 @-140.59,62.82,-140.25,64.89      ->ppu-decode;
+cell wero:not_x2     rot0 @-141.10,62.84,-140.59,64.88      ->ppu-decode;
+cell wate:nand5      rot0 @-142.12,62.83,-141.10,64.88      ->ppu-decode;
+cell wepo:not_x1     rot0 @-142.64,62.83,-142.31,64.88      ->ppu-decode;
+cell webu:nand5      rot0 @-143.68,62.83,-142.64,64.88      ->ppu-decode;
+cell weta:nand5      rot0 @-145.20,62.83,-144.18,64.88      ->ppu-decode;
+cell wyle:nand5      rot0 @-146.40,62.82,-145.38,64.88      ->ppu-decode;
+cell wage:nand5      rot0 @-147.77,62.82,-146.75,64.87      ->ppu-decode;
+cell wyvo:nand5      rot0 @-148.80,62.81,-147.77,64.87      ->ppu-decode;
+cell woru:nand5      rot0 @-149.83,62.83,-148.79,64.86      ->ppu-decode;
+cell wofa:nand5      rot0 @-150.85,62.83,-149.81,64.86      ->ppu-decode;
+cell wavu:nand5      rot0 @-151.88,62.82,-150.84,64.86      ->ppu-decode;
+cell wesa:not_x1     rot0 @-152.38,62.82,-152.02,64.88      ->ppu-decode;
+cell walo:not_x1     rot0 @-152.73,62.82,-152.39,64.88      ->ppu-decode;
+cell wety:nand5      rot0 @-153.75,62.82,-152.72,64.87      ->ppu-decode;
+cell wybo:nand5      rot0 @-154.95,62.82,-153.91,64.85      ->ppu-decode;
+cell wego:or2        rot0 @-155.63,62.82,-154.95,64.88      ->ppu-stat;
+cell wyze:and2       rot0 @-156.31,62.82,-155.63,64.88      ->ppu-window;
+cell wodu:and2       rot0 @-157.00,62.82,-156.30,64.88      ->ppu-stat;
+cell wusa:nor_latch  rot0 @-158.02,62.81,-156.99,64.88      ->ppu-stat;
+cell wuza:and2       rot0 @-158.71,62.82,-158.02,64.88      ->ppu-window;
+cell woky:drlatch_ee rot0 @-160.59,62.81,-158.88,64.87      ->ppu-control;
+cell wypo:not_if0    rot0 @-161.62,62.82,-160.59,64.87      ->ppu-control;
+cell wexu:drlatch_ee rot0 @-163.32,62.82,-161.61,64.86      ->ppu-control;
+cell wyce:not_x1     rot0 @-163.84,62.82,-163.49,64.87      ->ppu-control;
+cell wafu:and2       rot0 @-164.52,62.83,-163.83,64.86      ->ppu-stat;
+cell wymo:drlatch_ee rot0 @-166.23,62.82,-164.52,64.87      ->ppu-control;
+cell weko:and2       rot0 @-166.91,62.81,-166.23,64.86      ->ppu-window;
+cell waxu:and2       rot0 @-167.59,62.82,-166.90,64.86      ->ppu-window;
+cell wera:not_x2     rot0 @-168.11,62.82,-167.58,64.86      ->ppu-decode;
+cell wuka:not_if0    rot0 @-169.13,62.82,-168.10,64.85      ->ppu-control;
+cell wyju:not_if0    rot0 @-170.16,62.81,-169.13,64.86      ->ppu-decode;
+cell walu:not_x2     rot0 @-170.68,62.81,-170.16,64.87      ->ppu-window;
+cell waru:and2       rot0 @-171.36,62.82,-170.67,64.87      ->ppu-control;
+cell weku:not_x1     rot0 @-171.70,62.81,-171.36,64.87      ->ppu-stat;
+cell wata:not_x1     rot0 @-172.03,62.80,-171.70,64.87      ->ppu-stat;
+cell wury:not_x1     rot0 @-172.38,62.80,-172.03,64.85      ->ppu-stat;
+cell wavo:not_if0    rot0 @-173.74,62.82,-172.72,64.87      ->ppu-stat;
+cell wuty:not_x2     rot0 @-174.27,62.81,-173.75,64.86      ->ppu-ycomp;
+cell wesy:not_x2     rot0 @-174.77,62.82,-174.27,64.86      ->ppu-stat;
+cell weze:not_if0    rot0 @-175.80,62.81,-174.77,64.87      ->ppu-stat;
+cell wojy:not_if0    rot0 @-176.82,62.82,-175.80,64.86      ->ppu-stat;
+cell wama:not_if0    rot0 @-177.84,62.80,-176.82,64.87      ->ppu-stat;
+cell wuje:nor_latch  rot0 @-178.87,62.82,-177.85,64.87      ->ppu-dma;
+cell wuva:not_if0    rot0 @-179.91,62.81,-178.88,64.85      ->ppu-stat;
+cell wefy:and2       rot0 @-180.59,62.80,-179.91,64.86      ->ppu-ycomp;
+cell wane:not_x1     rot0 @-180.93,62.80,-180.58,64.87 comp ->ppu-stat;
+cell wuvu:dffr       rot0 @-183.84,62.80,-180.93,64.88      ->ppu-lcd;
+cell wojo:nor2       rot0 @-184.34,62.81,-183.83,64.87      ->ppu-lcd;
+cell wosu:dffr       rot0 @-187.25,62.81,-184.35,64.86      ->ppu-lcd;
+cell woda:dffsr      rot0 @-191.02,62.80,-187.23,64.86      ->ppu-xcomp;
+cell wubu:nand2      rot0 @-191.52,62.80,-191.02,64.87      ->ppu-xcomp;
+cell wuga:not_if1    rot0 @-192.55,62.80,-191.52,64.85      ->ppu-stat;
+cell woka:nand2      rot0 @-193.06,62.82,-192.54,64.86      ->ppu-xcomp;
+cell wuja:nand2      rot0 @-193.59,62.80,-193.05,64.87      ->ppu-xcomp;
+cell wamy:not_x1     rot0 @-193.91,62.80,-193.56,64.85      ->ppu-objfifo;
+cell wufy:dffsr      rot0 @-197.67,62.81,-193.91,64.85      ->ppu-objfifo;
+cell wope:or3        rot0 @-198.53,62.79,-197.67,64.85      ->ppu-xcomp;
+cell wyco:not_x1     rot0 @-198.87,62.80,-198.52,64.85      ->ppu-objfifo;
+cell woxa:and2       rot0 @-199.56,62.79,-198.87,64.87      ->ppu-mux;
+cell weba:dffsr      rot0 @-203.33,62.80,-199.54,64.84      ->ppu-objfifo;
+cell wura:not_x1     rot0 @-203.66,62.79,-203.31,64.84      ->ppu-objfifo;
+cell wora:dffsr      rot0 @-207.42,62.80,-203.66,64.85      ->ppu-objfifo;
+cell wuru:dffsr      rot0 @-211.19,62.79,-207.41,64.86      ->ppu-xcomp;
+cell wede:nand2      rot0 @-211.70,62.80,-211.18,64.86      ->ppu-xcomp;
+cell wery:not_x1     rot0 @-212.03,62.80,-211.68,64.83      ->ppu-objfifo;
+cell waxo:nand2      rot0 @-212.54,62.78,-212.04,64.84      ->ppu-objfifo;
+cell wyho:dffsr      rot0 @-216.30,62.80,-212.53,64.84      ->ppu-objfifo;
+cell wufu:ao2222     rot0 @-218.70,62.80,-216.29,64.85      ->ppu-mux;
+cell waly:ao2222     rot0 @-221.09,62.79,-218.69,64.85      ->ppu-mux;
+cell wolo:not_x1     rot0 @-221.43,62.79,-221.08,64.84      ->ppu-mux;
+cell wyru:not_x1     rot0 @-221.77,62.78,-221.43,64.84      ->ppu-mux;
+cell wedy:nand2      rot0 @-222.30,62.79,-221.77,64.84      ->ppu-xcomp;
+cell wele:not_x1     rot0 @-222.63,62.79,-222.29,64.84      ->ppu-mux;
+cell wyfu:dffsr      rot0 @-226.38,62.79,-222.63,64.84      ->ppu-xcomp;
+cell wevo:nand2      rot0 @-226.89,62.79,-226.38,64.84      ->ppu-xcomp;
+cell weny:not_x1     rot0 @-227.23,62.77,-226.88,64.84      ->ppu-ycomp;
 
 
 # Wires originating from column W in bottom left corner
@@ -131,11 +131,11 @@ wire ~wyka:adr
 	@-132.82,68.42,-132.82,64.61;
 
 wire wy_clk:ctl
-	wazy.q -> vyno.clk
+	wazy.y -> vyno.clk
 	@-134.87,63.09,-134.87,62.09,-127.34,62.09,-127.34,60.00;
 
 wire wuko:ctl
-	wuko.q -> vulo.~ena vovo.~ena vace.~ena veha.~ena vyto.~ena veza.~ena vevy.~ena vogu.~ena wuju.~ena xulo.~ena
+	wuko.y -> vulo.~ena vovo.~ena vace.~ena veha.~ena vyto.~ena veza.~ena vevy.~ena vogu.~ena wuju.~ena xulo.~ena
 	          xahe.~ena xamo.~ena xeja.~ena
 	@-139.48,63.10,-139.48,62.34,-138.96,62.34,-138.96,59.98
 	@-139.48,62.41,-143.07,62.41,-143.07,59.99
@@ -151,11 +151,11 @@ wire wuko:ctl
 	@-128.04,68.93,-128.04,69.38;
 
 wire wutu:dec
-	wutu.q -> wero.in
+	wutu.y -> wero.in
 	@-140.18,64.60,-140.18,66.97,-140.68,66.97,-140.68,64.60;
 
 wire wado:adr
-	wado.q -> vama.in2 wage.in2 wofa.in2 wavu.in2 wety.in2 wybo.in2
+	wado.y -> vama.in2 wage.in2 wofa.in2 wavu.in2 wety.in2 wybo.in2
 	@-140.50,63.09,-140.50,61.93,-147.00,61.93,-147.00,63.12
 	@-146.82,61.93,-146.82,59.98
 	@-147.00,62.52,-150.08,62.52,-150.08,63.11
@@ -164,7 +164,7 @@ wire wado:adr
 	@-152.98,62.65,-152.98,63.12;
 
 wire ff4x:dec
-	wero.q -> vama.in1 wate.in1 webu.in1 weta.in1 wyle.in1 wage.in1 wyvo.in1 woru.in1 wofa.in1 wavu.in1 wety.in1
+	wero.y -> vama.in1 wate.in1 webu.in1 weta.in1 wyle.in1 wage.in1 wyvo.in1 woru.in1 wofa.in1 wavu.in1 wety.in1
 	          wybo.in1
 	@-141.02,64.60,-141.02,66.98,-141.19,66.98
 	@-141.19,64.60,-141.19,67.62,-142.74,67.62,-142.74,62.66,-144.27,62.66
@@ -178,49 +178,49 @@ wire ff4x:dec
 	@-152.81,66.49,-154.02,66.49,-154.02,64.60;
 
 wire wate:dec
-	wate.q -> xeda.in
+	wate.y -> xeda.in
 	@-142.06,64.60,-142.06,66.67,-126.49,66.67,-126.49,69.39;
 
 wire wepo:adr
-	wepo.q -> vama.in5 weta.in5 wage.in5 wyvo.in5
+	wepo.y -> vama.in5 weta.in5 wage.in5 wyvo.in5
 	@-142.57,64.61,-142.57,66.33,-147.52,66.33
 	@-144.95,66.33,-144.95,64.60
 	@-148.55,64.60,-148.55,66.79,-147.52,66.79,-147.52,61.93,-147.34,61.93,-147.34,59.98;
 
 wire webu:dec
-	webu.q -> xaro.in
+	webu.y -> xaro.in
 	@-143.60,64.61,-143.60,68.42,-146.14,68.42,-146.14,69.37;
 
 wire weta:dec
-	weta.q -> xayo.in
+	weta.y -> xayo.in
 	@-145.12,64.58,-145.12,66.51,-144.95,66.51,-144.95,71.96,-193.50,71.94,-193.50,70.85;
 
 wire wyle:dec
-	wyle.q -> xogy.in
+	wyle.y -> xogy.in
 	@-146.32,64.59,-146.32,66.79,-147.01,66.79,-147.01,69.38;
 
 wire wage:dec
-	wage.q -> vumy.in
+	wage.y -> vumy.in
 	@-147.69,63.10,-147.69,62.39,-148.53,62.39,-148.53,59.98;
 
 wire wyvo:dec
-	wyvo.q -> vyga.in
+	wyvo.y -> vyga.in
 	@-148.71,63.09,-148.71,61.93,-148.02,61.93,-148.02,59.98;
 
 wire woru:dec
-	woru.q -> voca.in
+	woru.y -> voca.in
 	@-149.74,63.10,-149.74,61.80,-149.56,61.80,-149.56,59.98;
 
 wire wofa:dec
-	wofa.q -> vary.in
+	wofa.y -> vary.in
 	@-150.77,63.09,-150.77,61.92,-149.05,61.92,-149.05,59.98;
 
 wire wavu:dec
-	wavu.q -> xavy.in
+	wavu.y -> xavy.in
 	@-151.80,64.59,-151.80,67.60,-150.42,67.60,-150.42,69.37;
 
 wire wesa:adr
-	wesa.q -> wate.in3 webu.in3 wage.in3 wyvo.in3 wavu.in3 wybo.in3
+	wesa.y -> wate.in3 webu.in3 wage.in3 wyvo.in3 wavu.in3 wybo.in3
 	@-152.30,64.60,-152.30,68.41,-151.27,68.41
 	@-152.30,67.30,-154.35,67.30,-154.35,64.59
 	@-151.27,64.60,-151.27,68.67,-147.18,68.67,-147.18,64.59
@@ -229,31 +229,31 @@ wire wesa:adr
 	@-143.07,66.53,-141.54,66.53,-141.54,64.59;
 
 wire walo:adr
-	walo.q -> wate.in4 wyle.in4 wety.in4 wybo.in4
+	walo.y -> wate.in4 wyle.in4 wety.in4 wybo.in4
 	@-152.66,64.61,-152.66,67.74,-145.97,67.74,-145.97,64.59
 	@-152.66,67.56,-153.33,67.56,-153.33,64.61
 	@-153.33,67.48,-154.52,67.48,-154.52,64.59
 	@-145.97,66.79,-141.70,66.79,-141.70,64.59;
 
 wire wety:dec
-	wety.q -> xayu.in
+	wety.y -> xayu.in
 	@-153.68,64.59,-153.68,68.67,-153.84,68.67,-153.84,69.37;
 
 wire wybo:dec
-	wybo.q -> wera.in
+	wybo.y -> wera.in
 	@-154.87,64.60,-154.87,65.55,-167.68,65.55,-167.68,64.59;
 
 wire wego:ctl
-	wego.q -> wusa.r xymu.s
+	wego.y -> wusa.r xymu.s
 	@-155.55,64.60,-155.55,68.92,-157.94,68.92,-157.94,64.59
 	@-155.55,67.59,-155.04,67.59,-155.04,69.39;
 
 wire wyze:ctl
-	wyze.q -> vycu.in
+	wyze.y -> vycu.in
 	@-156.23,63.09,-156.23,60.86,-157.77,60.86,-157.77,59.97;
 
 wire stop_mode3:ctl
-	wodu.q -> taru.in1 voga.d vybo.in2
+	wodu.y -> taru.in1 voga.d vybo.in2
 	@-156.91,63.09,-156.91,61.92,-151.61,61.92,-151.61,59.98
 	@-153.66,61.92,-153.66,60.00
 	@-156.91,62.52,-158.11,62.52,-158.11,56.09,-158.61,56.09,-158.61,55.13;
@@ -265,7 +265,7 @@ wire px9:ctl
 # wusa.~q is not connected
 
 wire wuza:ctl
-	wuza.q -> voxu.in
+	wuza.y -> voxu.in
 	@-158.63,63.08,-158.63,60.73,-162.73,60.73,-162.73,59.98;
 
 wire ff40_d6:adr
@@ -285,7 +285,7 @@ wire ~wexu:ctl
 	@-163.07,63.09,-163.07,61.41,-161.52,61.41,-161.52,59.97;
 
 wire wyce:ctl
-	wyce.q -> vaha.~ena voke.~ena vato.~ena wypo.~ena wuka.~ena wyju.~ena xebu.~ena xero.~ena
+	wyce.y -> vaha.~ena voke.~ena vato.~ena wypo.~ena wuka.~ena wyju.~ena xebu.~ena xero.~ena
 	@-163.06,59.99,-163.06,61.24,-163.75,61.24,-163.75,65.80,-168.20,65.80,-168.20,62.64,-169.22,62.64,-169.22,63.10
 	@-163.06,60.85,-161.01,60.85
 	@-161.01,59.99,-161.01,62.52,-158.28,62.52,-158.28,59.98
@@ -293,7 +293,7 @@ wire wyce:ctl
 	@-160.67,67.48,-162.56,67.48,-162.56,69.38;
 
 wire wafu:ctl
-	wafu.q -> varo.in
+	wafu.y -> varo.in
 	@-164.44,63.09,-164.44,59.98;
 
 wire ff40_d5:ctl
@@ -306,20 +306,20 @@ wire ~wymo:ctl
 	@-165.97,63.10,-165.97,61.38,-163.58,61.38,-163.58,59.98;
 
 wire weko:ctl
-	weko.q -> vefu.in
+	weko.y -> vefu.in
 	@-166.83,63.09,-166.83,62.65,-164.09,62.65,-164.09,59.98;
 
 wire waxu:ctl
-	waxu.q -> vomy.in
+	waxu.y -> vomy.in
 	@-167.51,63.09,-167.51,60.98,-164.77,60.98,-164.77,59.98;
 
 wire ff47:dec
-	wera.q -> vely.in2 vuso.in2
+	wera.y -> vely.in2 vuso.in2
 	@-168.02,63.09,-168.02,62.22,-166.14,62.22,-166.14,59.98
 	@-166.83,62.22,-166.83,60.00;
 
 wire ~win_reset:rst
-	walu.q -> mypu.~r muvo.~r mypa.~r myce.~r meby.~r mela.~r nofe.~r nuku.~r noke.~r nafu.~r nyro.~r naga.~r
+	walu.y -> mypu.~r muvo.~r mypa.~r myce.~r meby.~r mela.~r nofe.~r nuku.~r noke.~r nafu.~r nyro.~r naga.~r
 	          nulo.~r nuka.~r nene.~r neso.~r
 	@-170.59,63.09,-170.59,61.15,-170.08,61.15,-170.08,53.05,-169.38,53.05,-169.38,42.22,-169.02,42.22,-169.02,36.71,-167.82,36.71,-167.82,32.78,-164.06,32.78,-164.06,34.62
 	@-169.02,37.95,-169.36,37.95,-169.36,32.83,-173.46,32.83,-173.46,34.60
@@ -338,13 +338,13 @@ wire ~win_reset:rst
 	@-189.70,34.02,-189.70,34.61;
 
 wire waru:ctl
-	waru.q -> xubo.in xuca.in xecy.ena
+	waru.y -> xubo.in xuca.in xecy.ena
 	@-171.28,64.59,-171.28,65.81
 	@-169.22,69.36,-169.22,65.81,-171.28,65.81,-187.68,65.80,-187.68,69.35
 	@-187.68,68.23,-188.88,68.23,-188.88,69.35;
 
 wire weku:ctl
-	weku.q -> pufy.~ena razu.~ena retu.~ena redy.~ena race.~ena vojo.~ena vafe.~ena vazu.~ena
+	weku.y -> pufy.~ena razu.~ena retu.~ena redy.~ena race.~ena vojo.~ena vafe.~ena vazu.~ena
 	@-171.62,63.09,-171.62,61.41
 	@-171.10,59.99,-171.10,61.41,-172.12,61.41,-172.12,48.22,-174.16,48.22,-174.16,43.33,-177.56,43.33
 	@-171.10,60.64,-167.33,60.64,-167.33,59.99
@@ -353,15 +353,15 @@ wire weku:ctl
 	@-177.56,42.90,-178.59,42.90,-178.59,43.77;
 
 wire wata:data
-	wata.q -> vyne.in
+	wata.y -> vyne.in
 	@-171.96,63.09,-171.96,62.09,-168.88,62.09,-168.88,59.98;
 
 wire wury:data
-	wury.q -> vega.in
+	wury.y -> vega.in
 	@-172.30,63.09,-172.30,62.21,-169.90,62.21,-169.90,59.97;
 
 wire wuty:ctl
-	wuty.q -> veku.in1 xefy.in cedy.clk exuq.clk egav.clk eboj.clk fono.clk gota.clk wapo.clk wafy.clk womy.clk
+	wuty.y -> veku.in1 xefy.in cedy.clk exuq.clk egav.clk eboj.clk fono.clk gota.clk wapo.clk wafy.clk womy.clk
 	          xudy.clk
 	@-150.07,59.99,-150.07,61.68,-174.19,61.66,-174.19,68.37,-185.98,68.35,-195.37,68.35,-195.37,69.35
 	@-185.98,68.35,-185.98,79.13,-186.49,79.13,-186.49,82.54,-188.55,82.54,-188.55,88.20,-188.73,88.20,-188.73,95.33,
@@ -373,7 +373,7 @@ wire wuty:ctl
 	@-176.27,112.30,-176.27,115.02;
 
 wire ~lyc_stat_reset:rst
-	wesy.q -> pago.in1 raha.~r rugu.~r roxe.~r rufo.~r refe.~r ropo.~r sedy.~r syry.~r salo.~r sota.~r vuce.~r
+	wesy.y -> pago.in1 raha.~r rugu.~r roxe.~r rufo.~r refe.~r ropo.~r sedy.~r syry.~r salo.~r sota.~r vuce.~r
 	          vafa.~r vevo.~r
 	@-174.69,63.09,-174.69,57.78,-175.19,57.78,-175.19,52.79,-176.73,52.79,-176.73,48.90,-178.43,48.90
 	@-175.19,56.42,-176.39,56.42,-176.39,61.54,-178.10,61.54,-178.10,59.97
@@ -394,11 +394,11 @@ wire wuje:ctl
 # wuje.~q is not connected
 
 wire wefy:ctl
-	wefy.q -> xuja.in
+	wefy.y -> xuja.in
 	@-180.51,64.59,-180.51,68.79,-179.48,68.79,-179.48,69.38;
 
 wire wane:ctl
-	wane.q -> raha.~ena sedy.~ena syry.~ena salo.~ena sota.~ena voze.in vuce.~ena vafa.~ena vevo.~ena
+	wane.y -> raha.~ena sedy.~ena syry.~ena salo.~ena sota.~ena voze.in vuce.~ena vafa.~ena vevo.~ena
 	@-180.84,63.09,-180.84,62.08,-177.42,62.08,-177.42,56.30,-177.06,56.30,-177.06,51.55,-176.04,51.55,-176.04,50.84
 	@-177.42,61.79,-174.00,61.79
 	@-177.06,52.32,-177.75,52.32,-177.75,48.22,-179.46,48.22
@@ -417,7 +417,7 @@ wire ~wuvu:clk
 	@-179.13,59.98,-179.13,62.52,-182.05,62.52,-182.05,68.66,-181.88,68.66,-181.88,69.35;
 
 wire wojo:clk
-	wojo.q -> xyso.in
+	wojo.y -> xyso.in
 	@-184.27,64.59,-184.27,68.53,-182.91,68.53,-182.91,69.36;
 
 wire wosu:clk
@@ -435,19 +435,19 @@ wire woda:data
 # woda.~q is not connected
 
 wire wubu:data
-	wubu.q -> vava.~r
+	wubu.y -> vava.~r
 	@-191.43,63.09,-191.43,61.65,-184.77,61.65,-184.77,59.98;
 
 wire woka:data
-	woka.q -> vezo.~r
+	woka.y -> vezo.~r
 	@-192.98,63.09,-192.98,61.65,-192.29,61.65,-192.29,59.97;
 
 wire wuja:data
-	wuja.q -> woda.~r
+	wuja.y -> woda.~r
 	@-193.51,64.58,-193.51,67.63,-190.06,67.63,-190.06,64.59;
 
 wire wamy:data
-	wamy.q -> xyve.in1
+	wamy.y -> xyve.in1
 	@-193.84,64.59,-193.84,67.97,-192.98,67.97,-192.98,69.36;
 
 wire sprite_px_b7:data
@@ -458,15 +458,15 @@ wire sprite_px_b7:data
 # wufy.~q is not connected
 
 wire wope:data
-	wope.q -> xovu.in
+	wope.y -> xovu.in
 	@-198.45,64.58,-198.45,67.36,-196.91,67.36,-196.91,69.34;
 
 wire wyco:data
-	wyco.q -> xole.in1
+	wyco.y -> xole.in1
 	@-198.79,64.59,-198.79,67.62,-196.05,67.62,-196.05,69.34;
 
 wire woxa:data
-	woxa.q -> mexa.in nuly.in1 vumu.in
+	woxa.y -> mexa.in nuly.in1 vumu.in
 	@-199.47,63.06,-199.47,61.70,-200.50,61.70,-200.50,57.60,-221.85,57.59,-225.44,57.59,-225.44,58.45
 	@-221.85,57.59,-221.85,52.77,-222.19,52.77,-222.19,46.92,-221.84,46.92,-221.84,42.63,-221.32,42.63,-221.32,38.09,
 	 -221.84,38.09,-221.84,34.13,-224.73,34.13,-224.73,31.51;
@@ -479,7 +479,7 @@ wire sprite_px_a5:data
 # weba.~q is not connected
 
 wire wura:data
-	wura.q -> xexu.in1
+	wura.y -> xexu.in1
 	@-203.58,64.59,-203.58,67.96,-203.06,67.96,-203.06,69.34;
 
 wire sprite_px_b5:data
@@ -496,15 +496,15 @@ wire wuru:data
 # wuru.~q is not connected
 
 wire wede:data
-	wede.q -> wuru.~r
+	wede.y -> wuru.~r
 	@-211.62,64.57,-211.62,67.05,-210.24,67.05,-210.24,64.55;
 
 wire wery:data
-	wery.q -> xato.in1
+	wery.y -> xato.in1
 	@-211.96,64.57,-211.96,67.48,-211.61,67.48,-211.61,69.34;
 
 wire waxo:data
-	waxo.q -> vare.~r
+	waxo.y -> vare.~r
 	@-212.46,63.06,-212.46,62.37,-215.53,62.37,-215.53,59.96;
 
 wire sprite_px_b4:data
@@ -515,31 +515,31 @@ wire sprite_px_b4:data
 # wyho.~q is not connected
 
 wire wufu:data
-	wufu.q -> paty.in2
+	wufu.y -> paty.in2
 	@-218.61,63.07,-218.61,62.06,-218.26,62.06,-218.26,56.95,-217.06,56.95,-217.06,52.26,-216.71,52.26,-216.71,46.50,
 	 -215.69,46.50,-215.69,42.75,-215.00,42.75,-215.00,40.44;
 
 wire waly:data
-	waly.q -> pero.in2
+	waly.y -> pero.in2
 	@-221.00,63.07,-221.00,62.24,-220.83,62.24,-220.83,57.47,-218.77,57.47,-218.77,52.39,-218.94,52.39,-218.94,48.63,
 	 -219.45,48.63,-219.45,42.50,-215.85,42.50,-215.85,40.43;
 
 wire wolo:data
-	wolo.q -> vyro.in2 volo.in2
+	wolo.y -> vyro.in2 volo.in2
 	@-221.35,63.05,-221.35,62.36,-220.49,62.36,-220.49,59.95
 	@-220.49,62.19,-219.64,62.19,-219.64,59.95;
 
 wire wyru:data
-	wyru.q -> vyro.in1 vata.in1
+	wyru.y -> vyro.in1 vata.in1
 	@-221.70,63.05,-221.70,62.02,-219.46,62.02,-219.46,59.96
 	@-221.17,62.02,-221.17,59.96;
 
 wire wedy:data
-	wedy.q -> xete.~r
+	wedy.y -> xete.~r
 	@-222.21,64.57,-222.21,68.72,-225.12,68.72,-225.12,69.35;
 
 wire wele:data
-	wele.q -> vata.in2 vugo.in2 wolo.in
+	wele.y -> vata.in2 vugo.in2 wolo.in
 	@-224.76,59.95,-224.76,61.34,-222.55,61.34,-222.55,68.59,-221.19,68.59,-221.19,62.20,-221.34,62.20,-221.34,59.95;
 
 wire wyfu:data
@@ -549,9 +549,9 @@ wire wyfu:data
 # wyfu.~q is not connected
 
 wire wevo:data
-	wevo.q -> wyfu.~r
+	wevo.y -> wyfu.~r
 	@-226.80,64.56,-226.80,68.90,-225.45,68.90,-225.45,64.55;
 
 wire weny:ctl
-	weny.q -> xado.in
+	weny.y -> xado.in
 	@-227.14,64.56,-227.14,68.76,-226.46,68.76,-226.46,69.32;

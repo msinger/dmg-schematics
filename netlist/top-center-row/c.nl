@@ -1,29 +1,29 @@
 # Cells in row C in top center
 # ----------------------------
 
-cell caro:and2        rot270 @-67.67,148.27,-65.58,148.95 ->serial;
-cell caly:dffr_b2     rot270 @-67.67,148.94,-65.57,151.86 ->serial;
-cell cyde:dffr_b2     rot270 @-67.69,151.85,-65.57,154.77 ->serial;
-cell cylo:dffr_b2     rot270 @-67.69,154.76,-65.57,157.66 ->serial;
-cell cafa:dffr_b2     rot270 @-67.68,157.65,-65.57,160.56 ->serial;
-cell coty:dffr_b2     rot270 @-67.69,160.55,-65.59,163.48 ->serial;
-cell cave:muxi        rot270 @-67.69,163.46,-65.59,164.33 ->serial;
-cell culy:dffr_b2     rot270 @-67.68,164.33,-65.58,167.24 ->serial;
-cell core:tri_inv_if1 rot270 @-67.68,167.23,-65.57,168.27 ->serial;
-cell cuba:dffsr       rot270 @-67.69,168.26,-65.59,172.02 ->serial;
-cell cugy:tri_inv_if1 rot270 @-67.67,172.02,-65.60,173.05 ->serial;
-cell cohy:oa          rot270 @-67.69,173.04,-65.61,173.90 ->serial;
-cell cufu:nand2       rot270 @-67.67,173.89,-65.60,174.41 ->serial;
-cell cage:inv_a       rot270 @-67.68,174.41,-65.61,174.75 ->serial;
-cell coba:inv_a       rot270 @-67.68,174.75,-65.60,175.09 ->serial;
-cell caby:and2        rot270 @-67.70,175.09,-65.59,175.77 ->serial;
+cell caro:and2    rot270 @-67.67,148.27,-65.58,148.95 ->serial;
+cell caly:dffr    rot270 @-67.67,148.94,-65.57,151.86 ->serial;
+cell cyde:dffr    rot270 @-67.69,151.85,-65.57,154.77 ->serial;
+cell cylo:dffr    rot270 @-67.69,154.76,-65.57,157.66 ->serial;
+cell cafa:dffr    rot270 @-67.68,157.65,-65.57,160.56 ->serial;
+cell coty:dffr    rot270 @-67.69,160.55,-65.59,163.48 ->serial;
+cell cave:muxi    rot270 @-67.69,163.46,-65.59,164.33 ->serial;
+cell culy:dffr    rot270 @-67.68,164.33,-65.58,167.24 ->serial;
+cell core:not_if1 rot270 @-67.68,167.23,-65.57,168.27 ->serial;
+cell cuba:dffsr   rot270 @-67.69,168.26,-65.59,172.02 ->serial;
+cell cugy:not_if1 rot270 @-67.67,172.02,-65.60,173.05 ->serial;
+cell cohy:oa21    rot270 @-67.69,173.04,-65.61,173.90 ->serial;
+cell cufu:nand2   rot270 @-67.67,173.89,-65.60,174.41 ->serial;
+cell cage:not_x1  rot270 @-67.68,174.41,-65.61,174.75 ->serial;
+cell coba:not_x1  rot270 @-67.68,174.75,-65.60,175.09 ->serial;
+cell caby:and2    rot270 @-67.70,175.09,-65.59,175.77 ->serial;
 
 
 # Wires originating from row C in top center
 # ------------------------------------------
 
 wire caro:rst
-	caro.q -> caly.~r cyde.~r cylo.~r cafa.~r
+	caro.y -> caly.~r cyde.~r cylo.~r cafa.~r
 	@-65.87,148.87,-65.08,148.87,-65.08,159.80,-65.89,159.80
 	@-65.08,149.89,-65.88,149.89
 	@-65.08,151.09,-65.86,151.09
@@ -70,11 +70,11 @@ wire ~coty:clk
 	@-65.88,163.21,-64.92,163.21,-64.92,161.68,-65.90,161.68;
 
 wire cave:clk
-	cave.q -> dawa.in1
+	cave.y -> dawa.in1
 	@-67.38,164.25,-68.69,164.25,-68.70,175.18,-70.54,175.18;
 
 wire sck_dir:ctl
-	culy.q -> sck.~pu cave.sel jago.in kexu.in2
+	culy.q -> sck.~{ena}_pu cave.sel jago.in kexu.in2
 	@-67.38,163.56,-67.84,163.56,-67.84,167.16,-64.23,167.16,-64.23,167.16,-64.25,179.55,-64.25,180.36,
 	 -47.02,180.38,-47.10,234.60,-174.21,234.53,-174.21,238.02,-174.35,238.02,-174.35,238.30
 	@-64.25,179.55,-139.68,179.52,-139.68,182.63,-139.09,182.63,-139.09,187.83,-138.93,187.83,-138.93,191.32,
@@ -95,23 +95,23 @@ wire ~cuba:data
 	@-65.90,170.74,-65.45,170.74,-65.45,172.62,-65.92,172.62;
 
 wire cohy:data
-	cohy.q -> cuba.~r
+	cohy.y -> cuba.~r
 	@-65.89,173.81,-64.77,173.81,-64.77,171.08,-65.91,171.08;
 
 wire cufu:data
-	cufu.q -> cuba.~s
+	cufu.y -> cuba.~s
 	@-65.88,174.33,-64.59,174.33,-64.59,170.56,-65.89,170.56
 	@-65.45,170.56,-65.45,168.35,-65.90,168.35;
 
 wire cage:data
-	cage.q -> cuba.d
+	cage.y -> cuba.d
 	@-67.40,174.67,-67.85,174.67,-67.85,169.37,-67.37,169.37;
 
 wire coba:ctl
-	coba.q -> caby.in1
+	coba.y -> caby.in1
 	@-65.91,175.01,-65.27,175.01,-65.27,175.18,-65.90,175.18;
 
 wire caby:rst
-	caby.q -> etaf.~r
+	caby.y -> etaf.~r
 	@-67.40,175.70,-68.02,175.70,-68.02,174.66,-73.99,174.66,-73.99,172.61,-75.81,172.61
 	@-75.02,172.61,-75.02,173.81,-75.81,173.81;

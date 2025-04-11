@@ -2,113 +2,113 @@
 # ---------------------------------------
 
 cell lydu:nand2       rot0 @-123.96,25.20,-123.46,27.28       ->ppu-bgfifo;
-cell lusu:inv_a       rot0 @-124.30,25.20,-123.96,27.27       ->ppu-cycles;
-cell lala:inv_a       rot0 @-124.64,25.21,-124.30,27.27       ->ppu-bgfifo;
-cell lomy:inv_a       rot0 @-124.99,25.21,-124.64,27.28       ->ppu-bgfifo;
+cell lusu:not_x1      rot0 @-124.30,25.20,-123.96,27.27       ->ppu-cycles;
+cell lala:not_x1      rot0 @-124.64,25.21,-124.30,27.27       ->ppu-bgfifo;
+cell lomy:not_x1      rot0 @-124.99,25.21,-124.64,27.28       ->ppu-bgfifo;
 cell luja:nand2       rot0 @-125.49,25.20,-124.98,27.27       ->ppu-bgfifo;
-cell lena:inv_b       rot0 @-126.01,25.19,-125.49,27.29       ->ppu-cycles;
-cell luzo:d_latch_a2  rot0 @-127.39,25.20,-126.00,27.28       ->ppu-bgfifo;
-cell luve:inv_b       rot0 @-127.90,25.20,-127.38,27.27 comp  ->ppu-bgfifo;
-cell leso:inv_a       rot0 @-128.24,25.19,-127.89,27.27       ->ppu-bgfifo;
-cell loxa:inv_a       rot0 @-128.59,25.20,-128.23,27.28       ->ppu-bgfifo;
+cell lena:not_x2      rot0 @-126.01,25.19,-125.49,27.29       ->ppu-cycles;
+cell luzo:dlatch_ee_q rot0 @-127.39,25.20,-126.00,27.28       ->ppu-bgfifo;
+cell luve:not_x2      rot0 @-127.90,25.20,-127.38,27.27 comp  ->ppu-bgfifo;
+cell leso:not_x1      rot0 @-128.24,25.19,-127.89,27.27       ->ppu-bgfifo;
+cell loxa:not_x1      rot0 @-128.59,25.20,-128.23,27.28       ->ppu-bgfifo;
 cell lodo:nand2       rot0 @-129.09,25.18,-128.57,27.27       ->ppu-bgfifo;
 cell leru:nand2       rot0 @-129.61,25.21,-129.09,27.27       ->ppu-bgfifo;
-cell labu:inv_b       rot0 @-130.12,25.19,-129.60,27.27       ->ppu-bgfifo;
-cell legu:d_latch_a2  rot0 @-131.50,25.20,-130.11,27.29       ->ppu-bgfifo;
-cell luhe:inv_a       rot0 @-131.84,25.20,-131.48,27.27       ->ppu-bgfifo;
+cell labu:not_x2      rot0 @-130.12,25.19,-129.60,27.27       ->ppu-bgfifo;
+cell legu:dlatch_ee_q rot0 @-131.50,25.20,-130.11,27.29       ->ppu-bgfifo;
+cell luhe:not_x1      rot0 @-131.84,25.20,-131.48,27.27       ->ppu-bgfifo;
 cell laky:nand2       rot0 @-132.35,25.20,-131.83,27.27       ->ppu-bgfifo;
 cell loty:nand2       rot0 @-132.88,25.22,-132.34,27.27       ->ppu-bgfifo;
-cell luna:inv_a       rot0 @-133.21,25.21,-132.85,27.27       ->ppu-bgfifo;
+cell luna:not_x1      rot0 @-133.21,25.21,-132.85,27.27       ->ppu-bgfifo;
 cell lony:nand_latch  rot0 @-134.22,25.20,-133.19,27.28       ->ppu-cycles;
-cell luxa:inv_b       rot0 @-134.73,25.20,-134.22,27.27       ->ppu-bgfifo;
+cell luxa:not_x2      rot0 @-134.73,25.20,-134.22,27.27       ->ppu-bgfifo;
 cell lury:and2        rot0 @-135.41,25.20,-134.73,27.28       ->ppu-cycles;
-cell loze:inv_b       rot0 @-135.93,25.19,-135.41,27.27       ->ppu-bgfifo;
+cell loze:not_x2      rot0 @-135.93,25.19,-135.41,27.27       ->ppu-bgfifo;
 cell lutu:nand2       rot0 @-136.45,25.20,-135.92,27.26       ->ppu-bgfifo;
-cell leke:inv_a       rot0 @-136.77,25.19,-136.44,27.28       ->ppu-bgfifo;
+cell leke:not_x1      rot0 @-136.77,25.19,-136.44,27.28       ->ppu-bgfifo;
 cell loto:nand2       rot0 @-137.30,25.20,-136.79,27.28       ->ppu-bgfifo;
-cell lovy:dffr_b2     rot0 @-140.22,25.20,-137.29,27.27       ->ppu-cycles;
-cell laxu:dffr_b2     rot0 @-143.13,25.20,-140.19,27.26       ->ppu-cycles;
-cell loma:inv_a       rot0 @-143.45,25.19,-143.11,27.28 comp  ->ppu-bgfifo;
-cell lyry:inv_a       rot0 @-143.80,25.18,-143.44,27.27       ->ppu-cycles;
+cell lovy:dffr        rot0 @-140.22,25.20,-137.29,27.27       ->ppu-cycles;
+cell laxu:dffr        rot0 @-143.13,25.20,-140.19,27.26       ->ppu-cycles;
+cell loma:not_x1      rot0 @-143.45,25.19,-143.11,27.28 comp  ->ppu-bgfifo;
+cell lyry:not_x1      rot0 @-143.80,25.18,-143.44,27.27       ->ppu-cycles;
 cell lebo:nand2       rot0 @-144.31,25.19,-143.78,27.29       ->ppu-cycles;
-cell lyzu:dffr_b2     rot0 @-147.21,25.20,-144.29,27.28       ->ppu-cycles;
-cell laxe:inv_a       rot0 @-147.55,25.18,-147.20,27.27       ->ppu-cycles;
-cell loby:inv_a       rot0 @-147.90,25.20,-147.55,27.27       ->ppu-cycles;
-cell lozu:inv_b       rot0 @-148.41,25.16,-147.88,27.28       ->ppu-vram;
-cell lote:inv_a       rot0 @-148.75,25.20,-148.41,27.26       ->ppu-pal;
-cell loly:inv_b       rot0 @-149.27,25.19,-148.74,27.27       ->ppu-vram;
-cell luby:inv_b       rot0 @-149.77,25.20,-149.26,27.25       ->ppu-vram;
-cell lexe:inv_b       rot0 @-150.29,25.19,-149.77,27.27       ->ppu-vram;
-cell leho:inv_a       rot0 @-150.64,25.20,-150.28,27.27 comp  ->ppu-pal;
-cell lape:inv_a       rot0 @-150.98,25.20,-150.62,27.27       ->ppu-ycomp;
-cell luxu:inv_a       rot0 @-151.33,25.18,-150.97,27.26       ->ppu-pal;
-cell luga:tri_inv_if0 rot0 @-152.37,25.20,-151.30,27.27       ->ppu-pal;
-cell lugu:d_latch_a   rot0 @-153.89,25.18,-152.34,27.27       ->ppu-pal;
-cell laju:tri_inv_if0 rot0 @-154.91,25.18,-153.87,27.29       ->ppu-pal;
-cell lode:tri_inv_if0 rot0 @-155.94,25.20,-154.90,27.27       ->ppu-pal;
-cell lelu:tri_inv_if0 rot0 @-156.96,25.19,-155.92,27.26       ->ppu-pal;
-cell luxo:d_latch_a   rot0 @-158.51,25.18,-156.94,27.27       ->ppu-pal;
-cell leba:tri_inv_if0 rot0 @-159.52,25.20,-158.49,27.27       ->ppu-pal;
-cell lepu:d_latch_a   rot0 @-161.05,25.17,-159.50,27.26       ->ppu-pal;
-cell lyza:tri_inv_if0 rot0 @-162.09,25.17,-161.05,27.26       ->ppu-pal;
-cell lose:d_latch_a   rot0 @-163.63,25.18,-162.07,27.25       ->ppu-pal;
-cell luky:tri_inv_if0 rot0 @-164.65,25.17,-163.63,27.27       ->ppu-pal;
-cell lepa:tri_inv_if0 rot0 @-165.67,25.20,-164.64,27.25       ->ppu-pal;
-cell lova:tri_inv_if0 rot0 @-166.69,25.18,-165.67,27.25       ->ppu-window;
-cell lune:d_latch_a   rot0 @-168.23,25.18,-166.68,27.25       ->ppu-pal;
-cell lawo:d_latch_a   rot0 @-169.77,25.16,-168.23,27.27       ->ppu-pal;
-cell lole:tri_inv_if0 rot0 @-170.81,25.18,-169.78,27.27       ->ppu-window;
-cell lalo:inv_b       rot0 @-171.33,25.18,-170.80,27.27       ->ppu-vram;
-cell lyco:tri_inv_if0 rot0 @-172.35,25.18,-171.31,27.26       ->ppu-stat;
-cell lefa:inv_b       rot0 @-172.85,25.17,-172.33,27.26       ->ppu-vram;
-cell laca:inv_b       rot0 @-173.37,25.19,-172.86,27.23       ->ppu-vram;
-cell loka:tri_inv_if0 rot0 @-174.39,25.17,-173.35,27.25       ->ppu-window;
-cell luvo:inv_b       rot0 @-174.90,25.16,-174.38,27.25       ->ppu-vram;
-cell lexa:dffr_b2     rot0 @-177.81,25.18,-174.89,27.25       ->ppu-stat;
-cell lydo:dffr_b2     rot0 @-180.73,25.19,-177.80,27.26       ->ppu-stat;
-cell lovu:dffr_b2     rot0 @-183.63,25.18,-180.70,27.25       ->ppu-stat;
-cell lema:dffr_b2     rot0 @-186.52,25.17,-183.61,27.23       ->ppu-stat;
-cell lafo:dffr_b2     rot0 @-189.44,25.16,-186.52,27.24       ->ppu-stat;
-cell lyha:inv_a       rot0 @-189.78,25.17,-189.42,27.25       ->ppu-lcd;
+cell lyzu:dffr        rot0 @-147.21,25.20,-144.29,27.28       ->ppu-cycles;
+cell laxe:not_x1      rot0 @-147.55,25.18,-147.20,27.27       ->ppu-cycles;
+cell loby:not_x1      rot0 @-147.90,25.20,-147.55,27.27       ->ppu-cycles;
+cell lozu:not_x2      rot0 @-148.41,25.16,-147.88,27.28       ->ppu-vram;
+cell lote:not_x1      rot0 @-148.75,25.20,-148.41,27.26       ->ppu-pal;
+cell loly:not_x2      rot0 @-149.27,25.19,-148.74,27.27       ->ppu-vram;
+cell luby:not_x2      rot0 @-149.77,25.20,-149.26,27.25       ->ppu-vram;
+cell lexe:not_x2      rot0 @-150.29,25.19,-149.77,27.27       ->ppu-vram;
+cell leho:not_x1      rot0 @-150.64,25.20,-150.28,27.27 comp  ->ppu-pal;
+cell lape:not_x1      rot0 @-150.98,25.20,-150.62,27.27       ->ppu-ycomp;
+cell luxu:not_x1      rot0 @-151.33,25.18,-150.97,27.26       ->ppu-pal;
+cell luga:not_if0     rot0 @-152.37,25.20,-151.30,27.27       ->ppu-pal;
+cell lugu:dlatch_ee   rot0 @-153.89,25.18,-152.34,27.27       ->ppu-pal;
+cell laju:not_if0     rot0 @-154.91,25.18,-153.87,27.29       ->ppu-pal;
+cell lode:not_if0     rot0 @-155.94,25.20,-154.90,27.27       ->ppu-pal;
+cell lelu:not_if0     rot0 @-156.96,25.19,-155.92,27.26       ->ppu-pal;
+cell luxo:dlatch_ee   rot0 @-158.51,25.18,-156.94,27.27       ->ppu-pal;
+cell leba:not_if0     rot0 @-159.52,25.20,-158.49,27.27       ->ppu-pal;
+cell lepu:dlatch_ee   rot0 @-161.05,25.17,-159.50,27.26       ->ppu-pal;
+cell lyza:not_if0     rot0 @-162.09,25.17,-161.05,27.26       ->ppu-pal;
+cell lose:dlatch_ee   rot0 @-163.63,25.18,-162.07,27.25       ->ppu-pal;
+cell luky:not_if0     rot0 @-164.65,25.17,-163.63,27.27       ->ppu-pal;
+cell lepa:not_if0     rot0 @-165.67,25.20,-164.64,27.25       ->ppu-pal;
+cell lova:not_if0     rot0 @-166.69,25.18,-165.67,27.25       ->ppu-window;
+cell lune:dlatch_ee   rot0 @-168.23,25.18,-166.68,27.25       ->ppu-pal;
+cell lawo:dlatch_ee   rot0 @-169.77,25.16,-168.23,27.27       ->ppu-pal;
+cell lole:not_if0     rot0 @-170.81,25.18,-169.78,27.27       ->ppu-window;
+cell lalo:not_x2      rot0 @-171.33,25.18,-170.80,27.27       ->ppu-vram;
+cell lyco:not_if0     rot0 @-172.35,25.18,-171.31,27.26       ->ppu-stat;
+cell lefa:not_x2      rot0 @-172.85,25.17,-172.33,27.26       ->ppu-vram;
+cell laca:not_x2      rot0 @-173.37,25.19,-172.86,27.23       ->ppu-vram;
+cell loka:not_if0     rot0 @-174.39,25.17,-173.35,27.25       ->ppu-window;
+cell luvo:not_x2      rot0 @-174.90,25.16,-174.38,27.25       ->ppu-vram;
+cell lexa:dffr        rot0 @-177.81,25.18,-174.89,27.25       ->ppu-stat;
+cell lydo:dffr        rot0 @-180.73,25.19,-177.80,27.26       ->ppu-stat;
+cell lovu:dffr        rot0 @-183.63,25.18,-180.70,27.25       ->ppu-stat;
+cell lema:dffr        rot0 @-186.52,25.17,-183.61,27.23       ->ppu-stat;
+cell lafo:dffr        rot0 @-189.44,25.16,-186.52,27.24       ->ppu-stat;
+cell lyha:not_x1      rot0 @-189.78,25.17,-189.42,27.25       ->ppu-lcd;
 cell lama:nor2        rot0 @-190.28,25.18,-189.77,27.25       ->ppu-lcd;
-cell lyfe:inv_a       rot0 @-190.63,25.16,-190.28,27.24       ->ppu-lcd;
-cell lobe:tri_inv_if0 rot0 @-191.66,25.16,-190.62,27.26       ->ppu-pal;
+cell lyfe:not_x1      rot0 @-190.63,25.16,-190.28,27.24       ->ppu-lcd;
+cell lobe:not_if0     rot0 @-191.66,25.16,-190.62,27.26       ->ppu-pal;
 cell lamy:nand2       rot0 @-192.17,25.15,-191.64,27.25       ->ppu-xcomp;
-cell lace:tri_inv_if0 rot0 @-193.20,25.17,-192.16,27.25       ->ppu-pal;
-cell lary:tri_inv_if0 rot0 @-194.22,25.18,-193.20,27.23       ->ppu-pal;
-cell lyka:tri_inv_if0 rot0 @-195.26,25.17,-194.21,27.24       ->ppu-pal;
-cell lafy:inv_a       rot0 @-195.58,25.17,-195.23,27.25       ->ppu-xcomp;
+cell lace:not_if0     rot0 @-193.20,25.17,-192.16,27.25       ->ppu-pal;
+cell lary:not_if0     rot0 @-194.22,25.18,-193.20,27.23       ->ppu-pal;
+cell lyka:not_if0     rot0 @-195.26,25.17,-194.21,27.24       ->ppu-pal;
+cell lafy:not_x1      rot0 @-195.58,25.17,-195.23,27.25       ->ppu-xcomp;
 cell lunu:nand2       rot0 @-196.09,25.16,-195.58,27.23       ->ppu-xcomp;
 cell lyme:dffsr       rot0 @-199.86,25.17,-196.08,27.25       ->ppu-xcomp;
-cell lody:tri_inv_if0 rot0 @-200.88,25.16,-199.85,27.24       ->ppu-pal;
-cell lyfa:inv_a       rot0 @-201.23,25.18,-200.88,27.23       ->ppu-pal;
+cell lody:not_if0     rot0 @-200.88,25.16,-199.85,27.24       ->ppu-pal;
+cell lyfa:not_x1      rot0 @-201.23,25.18,-200.88,27.23       ->ppu-pal;
 cell luke:nand2       rot0 @-201.74,25.18,-201.23,27.23       ->ppu-xcomp;
 cell lowa:nand2       rot0 @-202.25,25.16,-201.73,27.23       ->ppu-xcomp;
-cell lady:inv_a       rot0 @-202.59,25.17,-202.25,27.23       ->ppu-xcomp;
-cell lebe:dffr_b2     rot0 @-205.50,25.18,-202.58,27.24 spare ->ppu-lcd;
-cell lofu:inv_a       rot0 @-205.84,25.16,-205.48,27.23       ->ppu-lcd;
-cell luca:dffr_b2     rot0 @-208.73,25.16,-205.82,27.23       ->ppu-lcd;
-cell loza:inv_a       rot0 @-209.09,25.17,-208.73,27.22       ->ppu-objfifo;
-cell lesy:inv_a       rot0 @-209.43,25.16,-209.09,27.23       ->ppu-xcomp;
-cell lome:inv_a       rot0 @-209.77,25.18,-209.43,27.23       ->ppu-mux;
+cell lady:not_x1      rot0 @-202.59,25.17,-202.25,27.23       ->ppu-xcomp;
+cell lebe:dffr        rot0 @-205.50,25.18,-202.58,27.24 spare ->ppu-lcd;
+cell lofu:not_x1      rot0 @-205.84,25.16,-205.48,27.23       ->ppu-lcd;
+cell luca:dffr        rot0 @-208.73,25.16,-205.82,27.23       ->ppu-lcd;
+cell loza:not_x1      rot0 @-209.09,25.17,-208.73,27.22       ->ppu-objfifo;
+cell lesy:not_x1      rot0 @-209.43,25.16,-209.09,27.23       ->ppu-xcomp;
+cell lome:not_x1      rot0 @-209.77,25.18,-209.43,27.23       ->ppu-mux;
 cell leka:nand2       rot0 @-210.29,25.16,-209.77,27.23       ->ppu-mux;
 cell lela:nand2       rot0 @-210.80,25.16,-210.28,27.23       ->ppu-objfifo;
-cell lase:inv_a       rot0 @-211.14,25.16,-210.79,27.21       ->ppu-objfifo;
+cell lase:not_x1      rot0 @-211.14,25.16,-210.79,27.21       ->ppu-objfifo;
 cell lyde:nand2       rot0 @-211.66,25.18,-211.14,27.23       ->ppu-objfifo;
 cell lafu:nand2       rot0 @-212.16,25.16,-211.65,27.23       ->ppu-mux;
 cell lefe:dffsr       rot0 @-215.93,25.17,-212.16,27.23       ->ppu-objfifo;
 cell lesu:dffsr       rot0 @-219.69,25.16,-215.91,27.23       ->ppu-objfifo;
-cell lava:inv_a       rot0 @-220.02,25.17,-219.67,27.23       ->ppu-mux;
-cell lota:inv_a       rot0 @-220.37,25.15,-220.02,27.23       ->ppu-xcomp;
-cell luku:inv_a       rot0 @-220.71,25.16,-220.36,27.24       ->ppu-mux;
-cell lubo:inv_a       rot0 @-221.05,25.16,-220.70,27.23       ->ppu-objfifo;
+cell lava:not_x1      rot0 @-220.02,25.17,-219.67,27.23       ->ppu-mux;
+cell lota:not_x1      rot0 @-220.37,25.15,-220.02,27.23       ->ppu-xcomp;
+cell luku:not_x1      rot0 @-220.71,25.16,-220.36,27.24       ->ppu-mux;
+cell lubo:not_x1      rot0 @-221.05,25.16,-220.70,27.23       ->ppu-objfifo;
 cell lufy:nand2       rot0 @-221.56,25.16,-221.03,27.23       ->ppu-objfifo;
 cell laru:and3        rot0 @-222.42,25.16,-221.55,27.23       ->ppu-mux;
-cell lumo:inv_a       rot0 @-222.76,25.16,-222.41,27.22       ->ppu-objfifo;
-cell lyku:inv_a       rot0 @-223.12,25.16,-222.76,27.24       ->ppu-xcomp;
+cell lumo:not_x1      rot0 @-222.76,25.16,-222.41,27.22       ->ppu-objfifo;
+cell lyku:not_x1      rot0 @-223.12,25.16,-222.76,27.24       ->ppu-xcomp;
 cell ledo:and3        rot0 @-223.96,25.16,-223.11,27.23       ->ppu-mux;
-cell lozo:inv_a       rot0 @-224.30,25.15,-223.95,27.24       ->ppu-mux;
-cell lyle:inv_a       rot0 @-224.65,25.16,-224.30,27.23       ->ppu-mux;
+cell lozo:not_x1      rot0 @-224.30,25.15,-223.95,27.24       ->ppu-mux;
+cell lyle:not_x1      rot0 @-224.65,25.16,-224.30,27.23       ->ppu-mux;
 cell lyky:and3        rot0 @-225.50,25.15,-224.64,27.24       ->ppu-mux;
 cell lopu:and3        rot0 @-226.37,25.15,-225.49,27.24       ->ppu-mux;
 
@@ -117,28 +117,28 @@ cell lopu:and3        rot0 @-226.37,25.15,-225.49,27.24       ->ppu-mux;
 # -----------------------------------------------------
 
 wire lydu:data
-	lydu.q -> macu.~s
+	lydu.y -> macu.~s
 	@-123.88,26.99,-123.88,28.68,-124.92,28.68,-124.92,30.06
 	@-124.92,29.36,-127.14,29.36,-127.14,30.05;
 
 wire lusu:ctl
-	lusu.q -> lena.in
+	lusu.y -> lena.in
 	@-124.22,27.01,-124.22,29.49,-125.60,29.49,-125.60,26.99;
 
 wire lala:data
-	lala.q -> mosy.in1
+	lala.y -> mosy.in1
 	@-124.56,27.00,-124.56,29.37,-124.41,29.37,-124.41,30.06;
 
 wire lomy:data
-	lomy.q -> luja.in1
+	lomy.y -> luja.in1
 	@-124.91,27.01,-124.91,28.51,-125.08,28.51,-125.08,27.01;
 
 wire luja:data
-	luja.q -> macu.~r
+	luja.y -> macu.~r
 	@-125.43,26.99,-125.43,29.62,-127.66,29.62,-127.66,30.05;
 
 wire tm_bp_cys:ctl
-	lena.q -> sutu.in1 neta.in2 potu.in2
+	lena.y -> sutu.in1 neta.in2 potu.in2
 	@-111.24,31.27,-111.24,33.59,-112.79,33.59,-112.79,30.68,-120.48,30.68,-120.48,29.66,-122.70,29.66,
 	 -122.70,34.05,-126.11,34.05,-126.11,29.48,-125.94,29.48,-125.94,26.98
 	@-126.11,33.02,-148.51,33.01,-148.51,37.75,-147.83,37.75,-147.83,38.98;
@@ -149,7 +149,7 @@ wire luzo:data
 	@-124.74,28.55,-123.70,28.55,-123.70,27.01;
 
 wire luve:ctl
-	luve.q -> labu.in poju.~clk pyzo.~clk pyju.~clk powy.~clk poxa.~clk pulo.~clk pozo.~clk rawu.~clk
+	luve.y -> labu.in poju.~clk pyzo.~clk pyju.~clk powy.~clk poxa.~clk pulo.~clk pozo.~clk rawu.~clk
 	@-127.82,26.99,-127.82,29.19,-129.70,29.19,-129.70,26.99
 	@-127.82,28.80,-126.80,28.80,-126.80,32.91,-126.97,32.91,-126.97,38.27,-132.79,38.27
 	@-128.34,38.27,-128.34,38.98
@@ -160,24 +160,24 @@ wire luve:ctl
 	@-141.69,42.07,-141.69,40.46;
 
 wire leso:ctl
-	leso.q -> luve.in
+	leso.y -> luve.in
 	@-128.16,27.00,-128.16,29.35,-127.48,29.35,-127.48,27.00;
 
 wire loxa:data
-	loxa.q -> leru.in1
+	loxa.y -> leru.in1
 	@-128.50,26.98,-128.50,28.76,-129.19,28.76,-129.19,26.99;
 
 wire lodo:data
-	lodo.q -> modu.~s
+	lodo.y -> modu.~s
 	@-129.02,27.01,-129.02,29.05,-130.04,29.05,-130.04,30.05
 	@-130.04,29.35,-132.27,29.35,-132.27,30.05;
 
 wire leru:data
-	leru.q -> modu.~r
+	leru.y -> modu.~r
 	@-129.53,27.00,-129.53,28.80,-132.77,28.80,-132.77,30.05;
 
 wire labu:ctl
-	labu.q -> poju.clk pyzo.clk pyju.clk powy.clk poxa.clk pulo.clk pozo.clk rawu.clk
+	labu.y -> poju.clk pyzo.clk pyju.clk powy.clk poxa.clk pulo.clk pozo.clk rawu.clk
 	@-130.05,26.99,-130.05,28.55,-130.21,28.55,-130.21,33.41,-130.39,33.41,-130.39,38.40,-136.72,38.40,-136.72,41.77,
 	 -138.95,41.77,-138.95,38.10,-141.16,38.10,-141.16,43.09,-142.02,43.09,-142.02,43.78
 	@-132.28,38.40,-132.28,38.98
@@ -191,20 +191,20 @@ wire legu:data
 	@-131.58,29.10,-131.58,26.98;
 
 wire luhe:data
-	luhe.q -> loty.in1
+	luhe.y -> loty.in1
 	@-131.74,25.48,-131.74,24.80,-132.44,24.80,-132.44,25.50;
 
 wire laky:data
-	laky.q -> myde.~s
+	laky.y -> myde.~s
 	@-132.27,27.00,-132.27,29.10,-142.52,29.10,-142.52,30.05
 	@-140.30,29.10,-140.30,30.04;
 
 wire loty:data
-	loty.q -> myde.~r
+	loty.y -> myde.~r
 	@-132.77,25.48,-132.77,24.79,-142.69,24.79,-142.69,29.23,-143.03,29.23,-143.03,30.04;
 
 wire luna:ctl
-	luna.q -> luzo.ena legu.ena myjy.ena megu.ena muku.ena nefo.ena nasa.ena nudu.ena
+	luna.y -> luzo.ena legu.ena myjy.ena megu.ena muku.ena nefo.ena nasa.ena nudu.ena
 	@-133.12,26.98,-133.12,29.48
 	@-126.62,27.00,-126.62,29.48,-134.31,29.48,-134.31,32.89,-139.45,32.89
 	@-129.19,29.48,-129.19,34.60
@@ -219,7 +219,7 @@ wire lony:ctl
 # lony.~q is not connected
 
 wire luxa:ctl
-	luxa.q -> raja.in1 ruce.in1 rajo.in1 ryjy.in2 raga.in1 ryja.in1 ruto.in1 sywe.in2 sure.in2 supu.in2 seno.in2
+	luxa.y -> raja.in1 ruce.in1 rajo.in1 ryjy.in2 raga.in1 ryja.in1 ruto.in1 sywe.in2 sure.in2 supu.in2 seno.in2
 	          soly.in1 sebo.in2 seja.in2 suca.in2 tuxe.in1
 	@-134.66,26.99,-134.66,42.38,-134.84,42.38,-134.84,48.80,-127.84,48.80,-127.84,49.37
 	@-134.84,47.52,-136.04,47.52
@@ -236,11 +236,11 @@ wire luxa:ctl
 	@-128.34,45.29,-128.34,49.37;
 
 wire lury:ctl
-	lury.q -> lony.~r
+	lury.y -> lony.~r
 	@-135.34,26.98,-135.34,28.67,-133.28,28.67,-133.28,26.98;
 
 wire loze:ctl
-	loze.q -> lydu.in1 luja.in2 lodo.in1 leru.in2 laky.in1 loty.in2 lutu.in2 loto.in1 myvy.in1 mosy.in2 nady.in2
+	loze.y -> lydu.in1 luja.in2 lodo.in1 leru.in2 laky.in1 loty.in2 lutu.in2 loto.in1 myvy.in1 mosy.in2 nady.in2
 	          naja.in1 nyha.in2 nute.in1 nexa.in2 nyxo.in1
 	@-135.85,27.00,-135.85,29.35
 	@-136.88,26.99,-136.88,29.35,-132.60,29.35,-132.60,26.98
@@ -258,15 +258,15 @@ wire loze:ctl
 	@-123.90,34.18,-123.90,28.84,-123.54,28.84,-123.54,27.00;
 
 wire lutu:data
-	lutu.q -> moju.~r
+	lutu.y -> moju.~r
 	@-136.37,26.98,-136.37,28.72,-137.90,28.72,-137.90,30.06;
 
 wire leke:data
-	leke.q -> lutu.in1
+	leke.y -> lutu.in1
 	@-136.70,26.99,-136.70,28.28,-136.02,28.28,-136.02,27.00;
 
 wire loto:data
-	loto.q -> moju.~s
+	loto.y -> moju.~s
 	@-137.22,26.98,-137.22,29.48
 	@-137.39,30.05,-137.39,29.48,-135.17,29.48,-135.17,30.05;
 
@@ -287,7 +287,7 @@ wire ~laxu:clk
 	@-142.86,28.38,-141.32,28.38,-141.32,26.98;
 
 wire loma:ctl
-	loma.q -> luzo.~ena legu.~ena luna.in myjy.~ena megu.~ena muku.~ena nefo.~ena nasa.~ena nudu.~ena
+	loma.y -> luzo.~ena legu.~ena luna.in myjy.~ena megu.~ena muku.~ena nefo.~ena nasa.~ena nudu.~ena
 	@-143.37,26.99,-143.37,29.36,-140.13,29.36
 	@-138.93,28.59,-140.13,28.59,-140.13,34.03,-140.48,34.03
 	@-138.93,30.04,-138.93,28.54,-133.80,28.54,-133.80,30.05
@@ -298,13 +298,13 @@ wire loma:ctl
 	@-140.48,34.61,-140.48,33.86,-141.85,33.86,-141.85,34.59;
 
 wire lyry:ctl
-	lyry.q -> lovy.d nyka.d teky.in3
+	lyry.y -> lovy.d nyka.d teky.in3
 	@-143.72,26.99,-143.72,28.85,-138.41,28.85,-138.41,26.98
 	@-143.72,28.38,-149.01,28.37,-149.01,33.01,-150.05,33.01,-150.05,38.01,-149.88,38.01,-149.88,47.22,-150.06,47.22,
 	 -150.06,52.20,-149.38,52.20,-149.38,53.64;
 
 wire lebo:clk
-	lebo.q -> laxu.clk
+	lebo.y -> laxu.clk
 	@-144.22,25.48,-144.22,24.91,-140.46,24.91,-140.46,25.48;
 
 wire lyzu:ctl
@@ -314,19 +314,19 @@ wire lyzu:ctl
 # lyzu.~q is not connected
 
 wire laxe:ctl
-	laxe.q -> myso.in2
+	laxe.y -> myso.in2
 	@-147.47,26.98,-147.47,29.22,-148.16,29.22,-148.16,30.05;
 
 wire ~mode3:ctl
-	loby.q -> myso.in1 nafy.in1 poky.r
+	loby.y -> myso.in1 nafy.in1 poky.r
 	@-147.82,26.99,-147.82,29.10,-147.99,29.10,-147.99,34.03,-151.93,34.03,-151.93,38.00,-152.27,38.00,-152.27,38.98;
 
 wire lozu:adr
-	lozu.q -> ma1.~o
+	lozu.y -> ma1.~o
 	@-148.33,25.48,-148.33,24.61,-160.58,24.60,-160.58,23.58,-172.99,23.58,-172.99,19.38,-173.37,19.38,-173.37,18.38;
 
 wire lote:ctl
-	lote.q -> luga.~ena laju.~ena lode.~ena lelu.~ena leba.~ena lyza.~ena luky.~ena lepa.~ena
+	lote.y -> luga.~ena laju.~ena lode.~ena lelu.~ena leba.~ena lyza.~ena luky.~ena lepa.~ena
 	@-148.67,26.98,-148.67,29.22,-153.96,29.22,-153.96,27.01
 	@-151.41,29.22,-151.41,26.98
 	@-153.96,28.50,-161.16,28.50,-161.16,25.02,-163.70,25.02,-163.70,28.48,-164.73,28.48,-164.73,26.98
@@ -335,19 +335,19 @@ wire lote:ctl
 	@-158.58,28.50,-158.58,26.98;
 
 wire loly:adr
-	loly.q -> ma4.~o
+	loly.y -> ma4.~o
 	@-149.18,25.48,-149.18,24.48,-175.59,24.46,-175.59,23.70,-201.77,23.69,-201.77,19.36,-204.48,19.36,-204.48,18.35;
 
 wire luby:adr
-	luby.q -> ma7.~o
+	luby.y -> ma7.~o
 	@-149.69,25.48,-149.69,24.73,-189.05,24.71,-189.05,23.44,-228.53,23.42,-228.53,19.35,-235.59,19.35,-235.59,18.36;
 
 wire lexe:adr
-	lexe.q -> ma0.~o
+	lexe.y -> ma0.~o
 	@-150.20,25.47,-150.20,24.87,-156.65,24.87,-156.65,23.71,-163.39,23.71,-163.39,19.38,-162.98,19.38,-162.98,18.38;
 
 wire leho:ctl
-	leho.q -> luxu.in lugu.~ena luxo.~ena lepu.~ena lose.~ena lune.~ena lawo.~ena moxy.~ena mosa.~ena
+	leho.y -> luxu.in lugu.~ena luxo.~ena lepu.~ena lose.~ena lune.~ena lawo.~ena moxy.~ena mosa.~ena
 	@-150.56,26.99,-150.56,29.09,-151.06,29.09,-151.06,26.98
 	@-151.06,28.49,-153.45,28.49,-153.45,30.05
 	@-152.43,28.49,-152.43,26.97
@@ -359,7 +359,7 @@ wire leho:ctl
 	@-166.79,28.06,-166.79,26.96;
 
 wire clk4:clk
-	lape.q -> suda.clk seba.clk sabe.in1 tava.in tyfo.clk
+	lape.y -> suda.clk seba.clk sabe.in1 tava.in tyfo.clk
 	@-150.90,26.99,-150.90,28.32,-149.35,28.32,-149.35,32.89,-149.53,32.89,-149.53,38.01,-149.02,38.01,-149.02,43.04,
 	 -146.29,43.04,-146.29,48.76,-146.47,48.76,-146.47,52.94,-150.06,52.94
 	@-150.06,53.63,-150.06,52.63,-170.06,52.62,-170.06,50.84
@@ -367,7 +367,7 @@ wire clk4:clk
 	@-182.71,52.45,-182.71,50.84;
 
 wire luxu:ctl
-	luxu.q -> lugu.ena luxo.ena lepu.ena lose.ena lune.ena lawo.ena moxy.ena mosa.ena
+	luxu.y -> lugu.ena luxo.ena lepu.ena lose.ena lune.ena lawo.ena moxy.ena mosa.ena
 	@-151.24,26.98,-151.24,29.47,-157.56,29.47,-157.56,26.98
 	@-152.94,29.47,-152.94,26.98
 	@-153.97,29.47,-153.97,30.04
@@ -426,19 +426,19 @@ wire ~obp1_d1:data
 	@-169.52,26.97,-169.52,28.48,-165.24,28.48,-165.24,26.96;
 
 wire lalo:adr
-	lalo.q -> ma5.~o
+	lalo.y -> ma5.~o
 	@-171.23,25.48,-171.23,25.02,-191.49,25.01,-191.49,23.30,-211.35,23.30,-211.35,19.36,-214.85,19.36,-214.85,18.35;
 
 wire lefa:adr
-	lefa.q -> ma6.~o
+	lefa.y -> ma6.~o
 	@-172.77,25.47,-172.77,24.60,-197.13,24.59,-197.13,23.56,-220.95,23.55,-220.95,19.36,-225.22,19.36,-225.22,18.34;
 
 wire laca:adr
-	laca.q -> ma2.~o
+	laca.y -> ma2.~o
 	@-173.29,25.46,-173.29,24.34,-177.91,24.34,-177.91,23.56,-182.58,23.56,-182.58,19.37,-183.73,19.37,-183.73,18.38;
 
 wire luvo:adr
-	luvo.q -> ma3.~o
+	luvo.y -> ma3.~o
 	@-174.82,25.46,-174.82,24.89,-183.55,24.89,-183.55,23.57,-192.17,23.56,-192.17,19.37,-194.11,19.37,-194.11,18.34;
 
 wire v2:data
@@ -509,13 +509,13 @@ wire ~lafo:data
 	@-189.17,25.45,-189.17,24.88,-187.63,24.88,-187.63,25.47;
 
 wire ppu_reset:rst
-	lyha.q -> lama.in2 lyfe.in mude.in2
+	lyha.y -> lama.in2 lyfe.in mude.in2
 	@-189.70,25.45,-189.70,24.89,-190.38,24.89,-205.08,24.88,-205.08,28.34,-205.24,28.34,-205.24,30.02
 	@-190.04,24.89,-190.04,25.46
 	@-190.38,24.89,-190.38,25.45;
 
 wire ~v_reset:ctl
-	lama.q -> lexa.~r lydo.~r lovu.~r lema.~r lafo.~r myro.~r muwy.~r mato.~r
+	lama.y -> lexa.~r lydo.~r lovu.~r lema.~r lafo.~r myro.~r muwy.~r mato.~r
 	@-190.20,26.96,-190.20,29.03,-188.66,29.03,-188.66,26.96
 	@-188.66,28.48,-187.46,28.48
 	@-187.46,26.96,-187.46,29.20,-186.45,29.20
@@ -534,7 +534,7 @@ wire ~v_reset:ctl
 	@-177.05,29.20,-177.05,26.96;
 
 wire ~ppu_reset2:rst
-	lyfe.q -> lebe.~r luca.~r meda.~r myta.~r nype.~r napo.~r popu.~r rutu.~r sygu.~r
+	lyfe.y -> lebe.~r luca.~r meda.~r myta.~r nype.~r napo.~r popu.~r rutu.~r sygu.~r
 	@-190.55,28.86,-190.55,24.76,-203.53,24.76,-203.53,28.22,-204.73,28.22
 	@-189.35,28.86,-191.06,28.86,-191.06,34.14,-194.49,34.14,-194.49,38.11,-197.39,38.11,-197.39,36.08
 	@-189.35,30.02,-189.35,28.34,-188.15,28.34,-188.15,30.02
@@ -548,16 +548,16 @@ wire ~ppu_reset2:rst
 	@-206.78,29.32,-206.78,26.96;
 
 wire lamy:data
-	lamy.q -> lyme.~s
+	lamy.y -> lyme.~s
 	@-192.09,25.47,-192.09,25.01,-198.41,25.01,-198.41,25.46
 	@-196.17,25.01,-196.17,25.46;
 
 wire lafy:data
-	lafy.q -> lunu.in1
+	lafy.y -> lunu.in1
 	@-195.50,26.97,-195.50,28.91,-195.67,28.91,-195.67,26.96;
 
 wire lunu:data
-	lunu.q -> lyme.~r
+	lunu.y -> lyme.~r
 	@-196.02,26.95,-196.02,28.60,-198.92,28.60,-198.92,26.95;
 
 wire sprite_px_palette:data
@@ -568,7 +568,7 @@ wire sprite_px_palette:data
 # lyme.~q is not connected
 
 wire lyfa:ctl
-	lyfa.q -> maxy.ena muke.ena mena.ena moru.ena mogy.ena nusy.ena pavo.ena pylu.ena
+	lyfa.y -> maxy.ena muke.ena mena.ena moru.ena mogy.ena nusy.ena pavo.ena pylu.ena
 	@-201.15,26.97,-201.15,29.32,-193.62,29.32,-193.62,30.03
 	@-195.16,29.32,-195.16,30.04
 	@-196.70,29.32,-196.70,30.02
@@ -577,16 +577,16 @@ wire lyfa:ctl
 	@-199.95,38.49,-202.01,38.49,-202.01,38.93;
 
 wire luke:data
-	luke.q -> moda.~s
+	luke.y -> moda.~s
 	@-201.66,26.97,-201.66,29.33
 	@-201.31,30.02,-201.31,29.33,-203.54,29.33,-203.54,30.03;
 
 wire lowa:data
-	lowa.q -> moda.~r
+	lowa.y -> moda.~r
 	@-202.17,26.96,-202.17,28.34,-204.05,28.34,-204.05,30.02;
 
 wire lady:data
-	lady.q -> lowa.in1
+	lady.y -> lowa.in1
 	@-202.52,26.95,-202.52,28.59,-201.83,28.59,-201.83,26.96;
 
 # lebe.q is not connected
@@ -596,7 +596,7 @@ wire ~lebe:ctl
 	@-205.24,25.45,-205.24,24.75,-203.70,24.75,-203.70,25.46;
 
 wire lofu:ctl
-	lofu.q -> luca.clk
+	lofu.y -> luca.clk
 	@-205.75,25.45,-205.75,24.88,-206.09,24.88,-206.09,25.46;
 
 # luca.q is not connected
@@ -608,11 +608,11 @@ wire ~luca:ctl
 	@-205.92,28.59,-202.85,28.59,-202.85,26.95;
 
 wire loza:data
-	loza.q -> mofy.in1
+	loza.y -> mofy.in1
 	@-209.01,26.95,-209.01,28.46,-209.86,28.46,-209.86,30.03;
 
 wire sprite_on0:data
-	lesy.q -> mezu.in2 mofy.in2 pume.in2 pabe.in2 pyzu.in2 suco.in2 tede.in2 woka.in2
+	lesy.y -> mezu.in2 mofy.in2 pume.in2 pabe.in2 pyzu.in2 suco.in2 tede.in2 woka.in2
 	@-209.34,26.95,-209.34,28.90,-209.52,28.90,-209.52,33.84,-209.70,33.84,-209.70,38.11,-208.84,38.11,-208.84,43.14,
 	 -214.14,43.14
 	@-209.52,29.32,-210.03,29.32,-210.03,30.02
@@ -621,27 +621,27 @@ wire sprite_on0:data
 	 -194.34,56.84,-194.34,62.38,-192.80,62.38,-192.80,63.09;
 
 wire lome:data
-	lome.q -> lafu.in1
+	lome.y -> lafu.in1
 	@-209.69,25.45,-209.69,24.75,-211.73,24.75,-211.73,25.45;
 
 wire leka:data
-	leka.q -> luku.in
+	leka.y -> luku.in
 	@-210.20,25.45,-210.20,25.00,-220.46,25.00,-220.46,25.45;
 
 wire lela:data
-	lela.q -> lefe.~s
+	lela.y -> lefe.~s
 	@-210.72,26.95,-210.72,28.90,-212.26,28.90,-212.26,24.75,-214.48,24.75,-214.48,25.45;
 
 wire lase:data
-	lase.q -> lyde.in1
+	lase.y -> lyde.in1
 	@-211.05,25.45,-211.05,24.63,-211.23,24.63,-211.23,25.45;
 
 wire lyde:data
-	lyde.q -> lefe.~r
+	lyde.y -> lefe.~r
 	@-211.57,26.95,-211.57,28.34,-214.99,28.34,-214.99,26.93;
 
 wire lafu:data
-	lafu.q -> lava.in
+	lafu.y -> lava.in
 	@-212.08,25.45,-212.08,24.62,-219.77,24.62,-219.77,25.46;
 
 wire sprite_px_b2:data
@@ -660,14 +660,14 @@ wire sprite_px_b3:data
 # lesu.~q is not connected
 
 wire obj0px:data
-	lava.q -> vyro.in3 volo.in3 vata.in3 vugo.in3
+	lava.y -> vyro.in3 volo.in3 vata.in3 vugo.in3
 	@-219.94,26.95,-219.94,28.76,-218.92,28.76,-218.92,33.58,-219.44,33.58,-219.44,37.12,-219.10,37.12,-219.10,41.77,
 	 -220.13,41.77,-220.13,48.20,-219.96,48.20,-219.96,52.31,-219.79,52.31,-219.79,58.46
 	@-219.79,58.02,-221.51,58.02,-221.51,61.17,-224.93,61.17,-224.93,59.94
 	@-220.66,58.02,-220.66,58.48;
 
 wire sprite_on1:data
-	lota.q -> myto.in2 mada.in2 rusy.in2 ruca.in2 soro.in2 tafa.in2 wede.in2 xala.in2
+	lota.y -> myto.in2 mada.in2 rusy.in2 ruca.in2 soro.in2 tafa.in2 wede.in2 xala.in2
 	@-220.29,26.95,-220.29,28.47,-220.80,28.47,-220.80,32.38,-216.52,32.38
 	@-216.52,31.51,-216.52,33.58,-215.67,33.58,-215.67,38.36,-215.34,38.36,-215.34,43.05,-215.00,43.05,-215.00,47.23,
 	 -214.32,47.23,-214.32,52.52,-213.30,52.52,-213.30,58.02,-213.13,58.02,-213.13,62.07,-211.44,62.07,-211.44,67.32,
@@ -676,30 +676,30 @@ wire sprite_on1:data
 	@-213.13,47.65,-213.13,45.25;
 
 wire obj1px:data
-	luku.q -> laru.in3 ledo.in3 lyky.in3 lopu.in3
+	luku.y -> laru.in3 ledo.in3 lyky.in3 lopu.in3
 	@-220.63,25.45,-220.63,25.00,-221.99,25.00,-221.99,29.02,-223.53,29.02
 	@-223.53,26.95,-223.53,29.18,-225.93,29.18,-225.93,26.95
 	@-225.08,29.18,-225.08,26.95;
 
 wire lubo:data
-	lubo.q -> lufy.in1
+	lubo.y -> lufy.in1
 	@-220.97,25.45,-220.97,24.63,-221.14,24.63,-221.14,25.45;
 
 wire lufy:data
-	lufy.q -> lesu.~r
+	lufy.y -> lesu.~r
 	@-221.48,25.45,-221.48,24.74,-218.74,24.74,-218.74,25.46;
 
 wire laru:data
-	laru.q -> moka.in4 mufa.in3
+	laru.y -> moka.in4 mufa.in3
 	@-222.34,26.95,-222.34,28.59,-214.48,28.59,-214.48,30.01
 	@-214.48,28.63,-211.91,28.63,-211.91,30.02;
 
 wire lumo:data
-	lumo.q -> majo.in1
+	lumo.y -> majo.in1
 	@-222.68,26.95,-222.68,28.59,-222.85,28.59,-222.85,29.20,-223.03,29.20,-223.03,30.02;
 
 wire sprite_on2:data
-	lyku.q -> lela.in2 lyde.in2 myxa.in2 majo.in2 pamo.in2 pyzy.in2 tyra.in2 tufo.in2
+	lyku.y -> lela.in2 lyde.in2 myxa.in2 majo.in2 pamo.in2 pyzy.in2 tyra.in2 tufo.in2
 	@-223.02,26.95,-223.02,28.76
 	@-223.19,30.02,-223.19,28.76,-222.68,28.76,-222.68,33.24,-222.52,33.24,-222.52,37.92,-220.98,37.92,-220.98,38.92
 	@-222.68,29.14,-210.55,29.14,-210.55,26.94
@@ -709,26 +709,26 @@ wire sprite_on2:data
 	@-206.13,53.03,-205.62,53.03,-205.62,53.62;
 
 wire ledo:data
-	ledo.q -> moka.in2 mufa.in1
+	ledo.y -> moka.in2 mufa.in1
 	@-223.88,26.95,-223.88,29.31,-211.40,29.31,-211.40,30.02
 	@-213.97,29.31,-213.97,30.02;
 
 wire lozo:data
-	lozo.q -> laru.in1 ledo.in1
+	lozo.y -> laru.in1 ledo.in1
 	@-224.22,25.44,-224.22,25.00,-223.19,25.00
 	@-223.19,25.45,-223.19,24.62,-221.66,24.62,-221.66,25.44;
 
 wire lyle:data
-	lyle.q -> ledo.in2 lyky.in2
+	lyle.y -> ledo.in2 lyky.in2
 	@-224.56,25.45,-224.56,24.87,-223.36,24.87,-223.36,25.45
 	@-224.56,25.00,-224.91,25.00,-224.91,25.45;
 
 wire lyky:data
-	lyky.q -> moka.in6 mufa.in5
+	lyky.y -> moka.in6 mufa.in5
 	@-225.41,26.95,-225.41,28.88,-212.42,28.88,-212.42,30.02
 	@-214.99,28.88,-214.99,30.02;
 
 wire lopu:data
-	lopu.q -> moka.in8 mufa.in7
+	lopu.y -> moka.in8 mufa.in7
 	@-226.27,26.95,-226.27,29.43,-212.93,29.43,-212.93,30.02
 	@-215.51,29.43,-215.51,30.02;

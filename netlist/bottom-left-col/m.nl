@@ -1,76 +1,76 @@
 # Cells in column M in bottom left corner
 # ---------------------------------------
 
-cell myma:inv_a       rot0,flip @-123.80,29.78,-123.46,31.84 ->ppu-cycles;
+cell myma:not_x1      rot0,flip @-123.80,29.78,-123.46,31.84 ->ppu-cycles;
 cell myvy:nand2       rot0,flip @-124.32,29.78,-123.80,31.84 ->ppu-bgfifo;
 cell mosy:nand2       rot0,flip @-124.84,29.78,-124.31,31.84 ->ppu-bgfifo;
 cell macu:dffsr       rot0,flip @-128.59,29.77,-124.82,31.84 ->ppu-bgfifo;
-cell myjy:d_latch_a2  rot0,flip @-129.96,29.76,-128.59,31.84 ->ppu-bgfifo;
+cell myjy:dlatch_ee_q rot0,flip @-129.96,29.76,-128.59,31.84 ->ppu-bgfifo;
 cell modu:dffsr       rot0,flip @-133.71,29.77,-129.95,31.82 ->ppu-bgfifo;
-cell megu:d_latch_a2  rot0,flip @-135.07,29.74,-133.72,31.85 ->ppu-bgfifo;
+cell megu:dlatch_ee_q rot0,flip @-135.07,29.74,-133.72,31.85 ->ppu-bgfifo;
 cell moju:dffsr       rot0,flip @-138.85,29.77,-135.08,31.84 ->ppu-bgfifo;
-cell muku:d_latch_a2  rot0,flip @-140.21,29.77,-138.84,31.82 ->ppu-bgfifo;
+cell muku:dlatch_ee_q rot0,flip @-140.21,29.77,-138.84,31.82 ->ppu-bgfifo;
 cell myde:dffsr       rot0,flip @-143.98,29.76,-140.21,31.82 ->ppu-bgfifo;
 cell moce:nand3       rot0,flip @-144.65,29.75,-143.96,31.84 ->ppu-cycles;
-cell mete:inv_a       rot0,flip @-145.00,29.77,-144.64,31.83 ->ppu-bgfifo;
-cell mesu:dffr_b2     rot0,flip @-147.89,29.77,-144.99,31.83 ->ppu-cycles;
+cell mete:not_x1      rot0,flip @-145.00,29.77,-144.64,31.83 ->ppu-bgfifo;
+cell mesu:dffr        rot0,flip @-147.89,29.77,-144.99,31.83 ->ppu-cycles;
 cell myso:nor3        rot0,flip @-148.58,29.76,-147.90,31.82 ->ppu-cycles;
 cell mofu:and2        rot0,flip @-149.26,29.74,-148.59,31.82 ->ppu-cycles;
-cell masa:inv_a       rot0,flip @-149.78,29.77,-149.45,31.82 ->ppu-vram;
-cell mume:inv_a       rot0,flip @-150.13,29.77,-149.78,31.81 ->ppu-vram;
-cell mepa:inv_a       rot0,flip @-150.46,29.76,-150.13,31.80 ->ppu-vram;
-cell myfu:inv_a       rot0,flip @-150.82,29.76,-150.46,31.82 ->ppu-vram;
-cell myvo:inv_a       rot0,flip @-151.15,29.77,-150.80,31.81 ->ppu-cycles;
+cell masa:not_x1      rot0,flip @-149.78,29.77,-149.45,31.82 ->ppu-vram;
+cell mume:not_x1      rot0,flip @-150.13,29.77,-149.78,31.81 ->ppu-vram;
+cell mepa:not_x1      rot0,flip @-150.46,29.76,-150.13,31.80 ->ppu-vram;
+cell myfu:not_x1      rot0,flip @-150.82,29.76,-150.46,31.82 ->ppu-vram;
+cell myvo:not_x1      rot0,flip @-151.15,29.77,-150.80,31.81 ->ppu-cycles;
 cell mumy:and2        rot0,flip @-151.83,29.77,-151.14,31.82 ->ppu-pal;
 cell myxe:and2        rot0,flip @-152.52,29.76,-151.84,31.82 ->ppu-pal;
-cell mosu:inv_b       rot0,flip @-153.04,29.77,-152.52,31.82 ->ppu-cycles;
-cell mehe:inv_a       rot0,flip @-153.36,29.76,-153.01,31.82 ->ppu-cycles;
-cell moxy:d_latch_a   rot0,flip @-154.91,29.76,-153.36,31.83 ->ppu-pal;
-cell mosa:d_latch_a   rot0,flip @-156.46,29.76,-154.91,31.81 ->ppu-pal;
-cell moxe:inv_a       rot0,flip @-156.78,29.75,-156.45,31.82 ->ppu-cycles;
-cell mysa:inv_a       rot0,flip @-157.13,29.77,-156.79,31.81 ->ppu-vram;
-cell muka:tri_inv_if0 rot0,flip @-158.16,29.76,-157.13,31.82 ->ppu-window;
-cell muly:tri_inv_if0 rot0,flip @-159.19,29.76,-158.14,31.82 ->ppu-window;
-cell mewy:inv_a       rot0,flip @-159.52,29.74,-159.18,31.81 ->ppu-vram;
-cell mele:tri_inv_if0 rot0,flip @-160.54,29.74,-159.52,31.84 ->ppu-window;
-cell mypu:dr_latch    rot0,flip @-162.27,29.75,-160.54,31.82 ->ppu-window;
-cell muvo:dr_latch    rot0,flip @-163.96,29.75,-162.26,31.82 ->ppu-window;
+cell mosu:not_x2      rot0,flip @-153.04,29.77,-152.52,31.82 ->ppu-cycles;
+cell mehe:not_x1      rot0,flip @-153.36,29.76,-153.01,31.82 ->ppu-cycles;
+cell moxy:dlatch_ee   rot0,flip @-154.91,29.76,-153.36,31.83 ->ppu-pal;
+cell mosa:dlatch_ee   rot0,flip @-156.46,29.76,-154.91,31.81 ->ppu-pal;
+cell moxe:not_x1      rot0,flip @-156.78,29.75,-156.45,31.82 ->ppu-cycles;
+cell mysa:not_x1      rot0,flip @-157.13,29.77,-156.79,31.81 ->ppu-vram;
+cell muka:not_if0     rot0,flip @-158.16,29.76,-157.13,31.82 ->ppu-window;
+cell muly:not_if0     rot0,flip @-159.19,29.76,-158.14,31.82 ->ppu-window;
+cell mewy:not_x1      rot0,flip @-159.52,29.74,-159.18,31.81 ->ppu-vram;
+cell mele:not_if0     rot0,flip @-160.54,29.74,-159.52,31.84 ->ppu-window;
+cell mypu:drlatch_ee  rot0,flip @-162.27,29.75,-160.54,31.82 ->ppu-window;
+cell muvo:drlatch_ee  rot0,flip @-163.96,29.75,-162.26,31.82 ->ppu-window;
 cell mylo:xnor        rot0,flip @-165.00,29.77,-163.97,31.82 ->ppu-window;
-cell mare:inv_a       rot0,flip @-165.34,29.76,-164.98,31.83 ->ppu-window;
-cell mypa:dr_latch    rot0,flip @-167.04,29.75,-165.33,31.82 ->ppu-window;
-cell mara:tri_inv_if0 rot0,flip @-168.06,29.74,-167.05,31.83 ->ppu-window;
-cell mufe:tri_inv_if0 rot0,flip @-169.09,29.75,-168.06,31.81 ->ppu-window;
-cell myce:dr_latch    rot0,flip @-170.80,29.75,-169.09,31.82 ->ppu-window;
-cell myre:inv_a       rot0,flip @-171.14,29.75,-170.80,31.82 ->ppu-vram;
-cell meby:dr_latch    rot0,flip @-173.02,29.74,-171.32,31.81 ->ppu-window;
-cell moko:tri_inv_if0 rot0,flip @-174.06,29.75,-173.02,31.82 ->ppu-window;
-cell mavu:inv_a       rot0,flip @-174.40,29.74,-174.04,31.80 ->ppu-vram;
-cell mera:tri_inv_if0 rot0,flip @-175.42,29.75,-174.39,31.80 ->ppu-window;
-cell myfa:inv_a       rot0,flip @-175.75,29.75,-175.41,31.80 ->ppu-stat;
-cell mela:dr_latch    rot0,flip @-177.47,29.75,-175.75,31.80 ->ppu-window;
-cell myro:dffr_b2     rot0,flip @-180.37,29.74,-177.46,31.82 ->ppu-stat;
-cell muwy:dffr_b2     rot0,flip @-183.28,29.74,-180.37,31.81 ->ppu-stat;
-cell mega:tri_inv_if0 rot0,flip @-184.30,29.76,-183.27,31.80 ->ppu-window;
-cell mato:dffr_b2     rot0,flip @-187.20,29.75,-184.30,31.80 ->ppu-stat;
-cell meda:dffr_b2     rot0,flip @-190.13,29.73,-187.20,31.81 ->ppu-lcd;
-cell myta:dffr_b2     rot0,flip @-193.03,29.73,-190.12,31.80 ->ppu-lcd;
-cell maxy:d_latch_a   rot0,flip @-194.57,29.74,-193.02,31.80 ->ppu-pal;
-cell muke:d_latch_a   rot0,flip @-196.09,29.74,-194.56,31.82 ->ppu-pal;
-cell mena:d_latch_a   rot0,flip @-197.63,29.73,-196.09,31.82 ->ppu-pal;
-cell moru:d_latch_a   rot0,flip @-199.18,29.73,-197.63,31.80 ->ppu-pal;
-cell mogy:d_latch_a   rot0,flip @-200.72,29.73,-199.18,31.82 ->ppu-pal;
+cell mare:not_x1      rot0,flip @-165.34,29.76,-164.98,31.83 ->ppu-window;
+cell mypa:drlatch_ee  rot0,flip @-167.04,29.75,-165.33,31.82 ->ppu-window;
+cell mara:not_if0     rot0,flip @-168.06,29.74,-167.05,31.83 ->ppu-window;
+cell mufe:not_if0     rot0,flip @-169.09,29.75,-168.06,31.81 ->ppu-window;
+cell myce:drlatch_ee  rot0,flip @-170.80,29.75,-169.09,31.82 ->ppu-window;
+cell myre:not_x1      rot0,flip @-171.14,29.75,-170.80,31.82 ->ppu-vram;
+cell meby:drlatch_ee  rot0,flip @-173.02,29.74,-171.32,31.81 ->ppu-window;
+cell moko:not_if0     rot0,flip @-174.06,29.75,-173.02,31.82 ->ppu-window;
+cell mavu:not_x1      rot0,flip @-174.40,29.74,-174.04,31.80 ->ppu-vram;
+cell mera:not_if0     rot0,flip @-175.42,29.75,-174.39,31.80 ->ppu-window;
+cell myfa:not_x1      rot0,flip @-175.75,29.75,-175.41,31.80 ->ppu-stat;
+cell mela:drlatch_ee  rot0,flip @-177.47,29.75,-175.75,31.80 ->ppu-window;
+cell myro:dffr        rot0,flip @-180.37,29.74,-177.46,31.82 ->ppu-stat;
+cell muwy:dffr        rot0,flip @-183.28,29.74,-180.37,31.81 ->ppu-stat;
+cell mega:not_if0     rot0,flip @-184.30,29.76,-183.27,31.80 ->ppu-window;
+cell mato:dffr        rot0,flip @-187.20,29.75,-184.30,31.80 ->ppu-stat;
+cell meda:dffr        rot0,flip @-190.13,29.73,-187.20,31.81 ->ppu-lcd;
+cell myta:dffr        rot0,flip @-193.03,29.73,-190.12,31.80 ->ppu-lcd;
+cell maxy:dlatch_ee   rot0,flip @-194.57,29.74,-193.02,31.80 ->ppu-pal;
+cell muke:dlatch_ee   rot0,flip @-196.09,29.74,-194.56,31.82 ->ppu-pal;
+cell mena:dlatch_ee   rot0,flip @-197.63,29.73,-196.09,31.82 ->ppu-pal;
+cell moru:dlatch_ee   rot0,flip @-199.18,29.73,-197.63,31.80 ->ppu-pal;
+cell mogy:dlatch_ee   rot0,flip @-200.72,29.73,-199.18,31.82 ->ppu-pal;
 cell mene:nand2       rot0,flip @-201.23,29.73,-200.73,31.80 ->ppu-xcomp;
 cell moda:dffsr       rot0,flip @-204.99,29.72,-201.23,31.81 ->ppu-xcomp;
 cell mude:nor2        rot0,flip @-205.49,29.73,-204.99,31.80 ->ppu-lcd;
 cell magu:xor         rot0,flip @-206.52,29.74,-205.49,31.80 ->ppu-lcd;
-cell mytu:d_latch_a2  rot0,flip @-207.90,29.73,-206.52,31.80 ->ppu-objfifo;
-cell mofo:d_latch_a2  rot0,flip @-209.27,29.72,-207.88,31.79 ->ppu-objfifo;
+cell mytu:dlatch_ee_q rot0,flip @-207.90,29.73,-206.52,31.80 ->ppu-objfifo;
+cell mofo:dlatch_ee_q rot0,flip @-209.27,29.72,-207.88,31.79 ->ppu-objfifo;
 cell mezu:nand2       rot0,flip @-209.77,29.73,-209.26,31.79 ->ppu-objfifo;
 cell mofy:nand2       rot0,flip @-210.29,29.73,-209.77,31.80 ->ppu-objfifo;
 cell mefu:or3         rot0,flip @-211.14,29.72,-210.28,31.80 ->ppu-xcomp;
-cell moka:ao4         rot0,flip @-213.54,29.72,-211.15,31.80 ->ppu-mux;
-cell muve:inv_a       rot0,flip @-213.88,29.73,-213.53,31.80 ->ppu-mux;
-cell mufa:ao4         rot0,flip @-216.27,29.72,-213.88,31.80 ->ppu-mux;
+cell moka:ao2222      rot0,flip @-213.54,29.72,-211.15,31.80 ->ppu-mux;
+cell muve:not_x1      rot0,flip @-213.88,29.73,-213.53,31.80 ->ppu-mux;
+cell mufa:ao2222      rot0,flip @-216.27,29.72,-213.88,31.80 ->ppu-mux;
 cell myto:nand2       rot0,flip @-216.78,29.72,-216.27,31.78 ->ppu-objfifo;
 cell maso:dffsr       rot0,flip @-220.55,29.73,-216.78,31.80 ->ppu-objfifo;
 cell mada:nand2       rot0,flip @-221.06,29.72,-220.54,31.79 ->ppu-objfifo;
@@ -79,27 +79,27 @@ cell meve:or3         rot0,flip @-222.43,29.73,-221.56,31.78 ->ppu-xcomp;
 cell myxa:nand2       rot0,flip @-222.94,29.72,-222.41,31.80 ->ppu-objfifo;
 cell majo:nand2       rot0,flip @-223.45,29.73,-222.93,31.78 ->ppu-objfifo;
 cell myzo:or3         rot0,flip @-224.30,29.73,-223.44,31.79 ->ppu-xcomp;
-cell maby:inv_a       rot0,flip @-224.65,29.73,-224.30,31.78 ->ppu-mux;
-cell mexa:inv_a       rot0,flip @-224.99,29.72,-224.64,31.79 ->ppu-mux;
-cell mure:inv_c       rot0,flip @-225.67,29.71,-224.98,31.80 ->ppu-lcd;
-cell meco:inv_c       rot0,flip @-226.34,29.71,-225.66,31.80 ->ppu-lcd;
+cell maby:not_x1      rot0,flip @-224.65,29.73,-224.30,31.78 ->ppu-mux;
+cell mexa:not_x1      rot0,flip @-224.99,29.72,-224.64,31.79 ->ppu-mux;
+cell mure:not_x3      rot0,flip @-225.67,29.71,-224.98,31.80 ->ppu-lcd;
+cell meco:not_x3      rot0,flip @-226.34,29.71,-225.66,31.80 ->ppu-lcd;
 
 
 # Wires originating from column M in bottom left corner
 # -----------------------------------------------------
 
 wire ~tm_bp_cys:ctl
-	myma.q -> racu.in3
+	myma.y -> racu.in3
 	@-110.55,27.38,-110.55,28.65,-113.30,28.65,-113.30,28.43,-121.49,28.43,-121.49,27.42,-122.86,27.42,
 	 -122.86,29.62,-123.73,29.62,-123.73,30.07;
 
 wire myvy:data
-	myvy.q -> nepo.~s
+	myvy.y -> nepo.~s
 	@-124.23,31.55,-124.23,33.74,-124.92,33.74,-124.92,34.62
 	@-124.92,33.79,-127.14,33.79,-127.14,34.61;
 
 wire mosy:data
-	mosy.q -> nepo.~r
+	mosy.y -> nepo.~r
 	@-124.75,31.55,-124.75,33.91,-127.66,33.91,-127.66,34.62;
 
 wire macu:data
@@ -141,12 +141,12 @@ wire myde:data
 # myde.~q is not connected
 
 wire moce:ctl
-	moce.q -> lyry.in lebo.in2
+	moce.y -> lyry.in lebo.in2
 	@-144.58,30.04,-144.58,29.34,-143.55,29.34,-143.55,26.98
 	@-144.05,29.34,-144.05,26.98;
 
 wire mete:ctl
-	mete.q -> loma.in
+	mete.y -> loma.in
 	@-144.91,30.05,-144.91,29.22,-143.20,29.22,-143.20,26.97;
 
 wire mesu:ctl
@@ -158,50 +158,50 @@ wire ~mesu:clk
 	@-147.64,30.04,-147.64,29.09,-146.10,29.09,-146.10,33.56,-143.38,33.56,-143.38,34.61;
 
 wire myso:ctl
-	myso.q -> mofu.in2 nydy.in1
+	myso.y -> mofu.in2 nydy.in1
 	@-148.50,31.55,-148.50,32.84
 	@-148.85,31.54,-148.85,32.84,-146.45,32.84,-146.45,34.61;
 
 wire ~clk_bg_bp_b:ctl
-	mofu.q -> leso.in
+	mofu.y -> leso.in
 	@-149.19,30.03,-149.19,29.60,-127.99,29.61,-127.99,26.98;
 
 wire masa:adr
-	masa.q -> lozu.in
+	masa.y -> lozu.in
 	@-149.70,30.03,-149.70,28.79,-147.98,28.79,-147.98,26.97;
 
 wire mume:adr
-	mume.q -> luby.in
+	mume.y -> luby.in
 	@-150.04,30.03,-150.04,28.16,-149.35,28.16,-149.35,26.99;
 
 wire mepa:adr
-	mepa.q -> loly.in
+	mepa.y -> loly.in
 	@-150.38,30.05,-150.38,29.09,-148.84,29.09,-148.84,26.98;
 
 wire myfu:adr
-	myfu.q -> lexe.in
+	myfu.y -> lexe.in
 	@-150.73,30.05,-150.73,29.59,-149.87,29.59,-149.87,26.98;
 
 wire myvo:clk
-	myvo.q -> lovy.clk pory.clk vybo.in3
+	myvo.y -> lovy.clk pory.clk vybo.in3
 	@-137.56,26.99,-137.56,29.48,-151.07,29.47,-151.07,33.56,-151.24,33.56,-151.24,38.52,-152.62,38.52,-152.62,43.34,
 	 -152.27,43.34,-152.27,47.08,-153.14,47.08,-153.14,51.61,-153.66,51.61,-153.66,57.67,-153.82,57.67,-153.82,58.50;
 
 wire mumy:ctl
-	mumy.q -> lote.in
+	mumy.y -> lote.in
 	@-151.76,30.04,-151.76,29.34,-148.50,29.34,-148.50,26.97;
 
 wire myxe:ctl
-	myxe.q -> leho.in
+	myxe.y -> leho.in
 	@-152.44,30.04,-152.44,28.80,-150.38,28.80,-150.38,26.98;
 
 wire mosu:ctl
-	mosu.q -> nafy.in2 nyxu.in2
+	mosu.y -> nafy.in2 nyxu.in2
 	@-152.95,31.55,-152.95,33.56,-152.61,33.56,-152.61,34.59
 	@-152.61,34.02,-152.10,34.02,-152.10,34.60;
 
 wire mehe:clk
-	mehe.q -> nunu.clk
+	mehe.y -> nunu.clk
 	@-153.29,31.53,-153.29,33.09,-153.63,33.09,-153.63,34.60;
 
 wire obp1_d0:data
@@ -221,15 +221,15 @@ wire ~obp1_d2:data
 	@-156.19,30.05,-156.19,28.37,-155.51,28.37,-155.51,26.96;
 
 wire moxe:clk
-	moxe.q -> nyze.clk
+	moxe.y -> nyze.clk
 	@-156.71,31.55,-156.71,32.42,-156.54,32.42,-156.54,34.61;
 
 wire mysa:adr
-	mysa.q -> lalo.in
+	mysa.y -> lalo.in
 	@-157.05,30.04,-157.05,28.96,-170.90,28.95,-170.90,26.98;
 
 wire mewy:adr
-	mewy.q -> lefa.in
+	mewy.y -> lefa.in
 	@-159.44,30.03,-159.44,28.37,-159.26,28.37,-159.26,24.90,-172.43,24.90,-172.43,25.47;
 
 wire ff4b_d4:data
@@ -249,11 +249,11 @@ wire ~ff4b_d6:data
 	@-163.71,31.54,-163.71,32.37,-158.76,32.37,-158.76,31.52;
 
 wire mylo:data
-	mylo.q -> nogy.in2
+	mylo.y -> nogy.in2
 	@-164.05,31.55,-164.05,32.53,-170.56,32.53,-170.56,34.61;
 
 wire mare:ctl
-	mare.q -> mypu.ena muvo.ena mypa.ena myce.ena meby.ena nofe.ena nuku.ena noke.ena
+	mare.y -> mypu.ena muvo.ena mypa.ena myce.ena meby.ena nofe.ena nuku.ena noke.ena
 	@-165.26,31.53,-165.26,33.26
 	@-165.94,33.26,-163.72,33.26
 	@-165.94,31.54,-165.94,34.02,-167.48,34.02
@@ -280,7 +280,7 @@ wire ~ff4b_d5:data
 	@-170.55,30.03,-170.55,29.21,-168.67,29.21,-168.67,30.02;
 
 wire myre:adr
-	myre.q -> laca.in
+	myre.y -> laca.in
 	@-171.06,30.03,-171.06,28.95,-172.94,28.95,-172.94,26.98;
 
 wire ff4b_d3:data
@@ -292,11 +292,11 @@ wire ~ff4b_d3:data
 	@-172.77,30.02,-172.77,28.05,-170.38,28.05,-170.38,26.96;
 
 wire mavu:adr
-	mavu.q -> luvo.in
+	mavu.y -> luvo.in
 	@-174.30,30.02,-174.30,28.61,-174.48,28.61,-174.48,26.98;
 
 wire myfa:data
-	myfa.q -> lyco.in
+	myfa.y -> lyco.in
 	@-175.67,30.03,-175.67,29.20,-171.92,29.20,-171.92,26.95;
 
 wire ff4a_d3:data
@@ -400,7 +400,7 @@ wire ~bgp_d6:data
 	@-200.46,30.02,-200.46,26.94;
 
 wire mene:data
-	mene.q -> nuke.~s
+	mene.y -> nuke.~s
 	@-201.15,31.52,-201.15,32.64,-203.20,32.64,-203.20,34.58
 	@-203.20,33.41,-200.98,33.41,-200.98,34.59;
 
@@ -411,7 +411,7 @@ wire moda:data
 # moda.~q is not connected
 
 wire mude:ctl
-	mude.q -> saxo.~r sude.~r typo.~r tyry.~r taha.~r telu.~r vyzo.~r
+	mude.y -> saxo.~r sude.~r typo.~r tyry.~r taha.~r telu.~r vyzo.~r
 	@-205.42,31.52,-205.42,33.41,-207.13,33.41,-207.13,37.13,-206.79,37.13,-206.79,42.50,-207.82,42.50,-207.82,47.66,
 	 -207.49,47.66,-207.49,52.91
 	@-207.31,53.61,-207.31,52.91,-208.68,52.91,-208.68,50.83
@@ -426,7 +426,7 @@ wire mude:ctl
 	@-219.28,52.77,-219.28,50.82;
 
 wire magu:ctl
-	magu.q -> meco.in
+	magu.y -> meco.in
 	@-205.59,31.52,-205.59,32.81,-225.76,32.80,-225.76,31.51;
 
 wire mytu:data
@@ -439,35 +439,35 @@ wire mofo:data
 	@-210.37,26.96,-210.37,29.32,-210.88,29.32,-210.88,26.95;
 
 wire mezu:data
-	mezu.q -> nylu.~s
+	mezu.y -> nylu.~s
 	@-209.70,31.51,-209.70,33.66,-210.03,33.66,-210.03,34.58
 	@-210.03,33.83,-212.26,33.83,-212.26,34.59;
 
 wire mofy:data
-	mofy.q -> nylu.~r
+	mofy.y -> nylu.~r
 	@-210.21,31.52,-210.21,34.14,-212.77,34.14,-212.77,34.57;
 
 wire mefu:data
-	mefu.q -> lesy.in
+	mefu.y -> lesy.in
 	@-211.06,30.02,-211.06,28.59,-209.17,28.59,-209.17,26.95;
 
 wire moka:data
-	moka.q -> paty.in3
+	moka.y -> paty.in3
 	@-213.45,31.52,-213.45,33.84,-214.99,33.84,-214.99,38.36,-215.17,38.36,-215.17,38.92;
 
 wire bgpx:data
-	muve.q -> numa.in3 nuxo.in3 nypo.in3 pobu.in3
+	muve.y -> numa.in3 nuxo.in3 nypo.in3 pobu.in3
 	@-213.80,31.51,-213.80,33.96
 	@-208.16,38.93,-208.16,36.78,-208.50,36.78,-208.50,33.96,-217.89,33.96,-217.89,34.59
 	@-217.89,34.00,-220.63,34.00,-220.63,34.57
 	@-218.92,34.00,-218.92,34.57;
 
 wire mufa:data
-	mufa.q -> pero.in3
+	mufa.y -> pero.in3
 	@-216.19,31.51,-216.19,33.15,-215.84,33.15,-215.84,38.36,-216.02,38.36,-216.02,38.95;
 
 wire myto:data
-	myto.q -> maso.~s
+	myto.y -> maso.~s
 	@-216.70,31.51,-216.70,34.14,-216.87,34.14,-216.87,31.51
 	@-216.87,32.26,-219.09,32.26,-219.09,31.50;
 
@@ -479,47 +479,47 @@ wire sprite_px_b1:data
 # maso.~q is not connected
 
 wire mada:data
-	mada.q -> maso.~r
+	mada.y -> maso.~r
 	@-220.98,31.49,-220.98,33.57,-219.60,33.57,-219.60,31.50;
 
 wire mame:data
-	mame.q -> lesu.~s
+	mame.y -> lesu.~s
 	@-221.48,30.01,-221.48,28.16,-218.23,28.16
 	@-218.23,26.95,-218.23,28.76,-216.01,28.76,-216.01,26.94;
 
 wire meve:data
-	meve.q -> lota.in
+	meve.y -> lota.in
 	@-222.34,30.01,-222.34,28.76,-220.11,28.76,-220.11,26.94;
 
 wire myxa:data
-	myxa.q -> naty.~s
+	myxa.y -> naty.~s
 	@-222.86,31.51,-222.86,33.35
 	@-222.34,34.57,-222.34,33.35,-224.56,33.35,-224.56,34.58;
 
 wire majo:data
-	majo.q -> naty.~r
+	majo.y -> naty.~r
 	@-223.36,31.49,-223.36,32.98,-225.08,32.98,-225.08,34.58;
 
 wire myzo:data
-	myzo.q -> lyku.in
+	myzo.y -> lyku.in
 	@-224.22,30.01,-224.22,28.41,-222.84,28.41,-222.84,26.95;
 
 wire maby:data
-	maby.q -> laru.in2 lyle.in lopu.in2
+	maby.y -> laru.in2 lyle.in lopu.in2
 	@-224.56,30.01,-224.56,29.31
 	@-225.75,26.95,-225.75,29.31,-224.39,29.31,-224.39,24.74,-221.82,24.74,-221.82,25.46;
 
 wire mexa:data
-	mexa.q -> lozo.in lyky.in1 lopu.in1
+	mexa.y -> lozo.in lyky.in1 lopu.in1
 	@-224.91,30.01,-224.91,29.56
 	@-225.58,26.95,-225.58,29.56,-224.05,29.56,-224.05,26.93
 	@-224.73,29.56,-224.73,26.95;
 
 wire mure:ctl
-	mure.q -> s.~o
+	mure.y -> s.~o
 	@-225.59,31.51,-225.59,33.83,-228.62,33.83,-228.62,31.23,-230.31,31.23,-230.47,187.20,-236.63,187.20,
 	 -236.63,188.55,-236.96,188.55;
 
 wire meco:ctl
-	meco.q -> kebo.in
+	meco.y -> kebo.in
 	@-226.27,31.52,-226.27,34.13,-228.29,34.13,-228.29,32.01,-230.14,32.01,-230.19,75.22,-223.28,75.23,-223.28,76.87;

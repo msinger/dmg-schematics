@@ -1,116 +1,116 @@
 # Cells in column G in bottom center
 # ----------------------------------
 
-cell gera:tri_inv_if0 rot0 @-127.13,110.53,-126.13,112.59       ->ppu-oam;
-cell gose:tri_inv_if0 rot0 @-128.16,110.54,-127.13,112.58       ->ppu-oam;
-cell garo:tri_inv_if0 rot0 @-129.19,110.52,-128.16,112.59       ->ppu-oam;
-cell guko:and3        rot0 @-130.05,110.53,-129.18,112.59       ->ppu-oam;
-cell gefy:tri_inv_if0 rot0 @-131.07,110.53,-130.03,112.58       ->ppu-oam;
-cell geka:inv_a       rot0 @-131.41,110.54,-131.06,112.59       ->ppu-oam;
-cell gema:tri_inv_if0 rot0 @-132.43,110.53,-131.41,112.58       ->ppu-oam;
-cell gubo:dr_latch    rot0 @-134.30,110.54,-132.61,112.57       ->ppu-bgscroll;
-cell geca:tri_inv_if0 rot0 @-135.34,110.54,-134.31,112.58       ->ppu-oam;
-cell gyka:tri_inv_if0 rot0 @-136.37,110.54,-135.33,112.57       ->ppu-oam;
-cell gune:tri_inv_if0 rot0 @-137.38,110.55,-136.37,112.58       ->ppu-bgscroll;
-cell gyza:tri_inv_if0 rot0 @-138.43,110.52,-137.38,112.59       ->ppu-bgscroll;
-cell gave:dr_latch    rot0 @-140.12,110.55,-138.42,112.57       ->ppu-bgscroll;
-cell godo:tri_inv_if0 rot0 @-141.16,110.54,-140.13,112.57       ->ppu-bgscroll;
-cell gyzo:tri_inv_if0 rot0 @-142.18,110.55,-141.14,112.58       ->ppu-bgscroll;
-cell gonu:tri_inv_if0 rot0 @-143.20,110.53,-142.16,112.57       ->ppu-bgscroll;
-cell guse:tri_inv_if0 rot0 @-144.22,110.55,-143.18,112.57       ->ppu-oam;
-cell goba:tri_inv_if0 rot0 @-145.24,110.52,-144.22,112.59       ->ppu-bgscroll;
-cell gybu:tri_inv_if0 rot0 @-146.27,110.54,-145.25,112.57       ->ppu-oam;
-cell gusu:inv_a       rot0 @-146.63,110.52,-146.26,112.59       ->ppu-ycomp;
-cell gewy:inv_a       rot0 @-146.96,110.55,-146.61,112.57       ->ppu-ycomp;
-cell goby:tri_inv_if0 rot0 @-147.99,110.54,-146.96,112.57       ->ppu-oam;
-cell gyda:inv_a       rot0 @-148.33,110.55,-147.98,112.59       ->ppu-ycomp;
-cell gegu:tri_inv_if0 rot0 @-149.36,110.52,-148.32,112.57       ->ppu-ycomp;
-cell goju:full_add    rot0 @-152.77,110.53,-149.35,112.59       ->ppu-ycomp;
-cell gava:or2         rot0 @-153.45,110.52,-152.77,112.57       ->ppu-objctl;
-cell goso:dffr_b2     rot0 @-156.36,110.52,-153.45,112.56       ->ppu-objctl;
-cell gama:tri_inv_if0 rot0 @-157.56,110.53,-156.53,112.58       ->ppu-oam;
-cell gotu:tri_inv_if0 rot0 @-158.58,110.54,-157.55,112.57       ->ppu-ycomp;
-cell gomo:d_latch_a   rot0 @-160.12,110.53,-158.57,112.58       ->ppu-xcomp;
-cell gese:inv_a       rot0 @-160.47,110.52,-160.11,112.57       ->ppu-ycomp;
-cell guvu:inv_a       rot0 @-160.80,110.52,-160.46,112.57       ->ppu-ycomp;
-cell gace:inv_a       rot0 @-161.15,110.54,-160.80,112.57       ->ppu-ycomp;
-cell gopu:full_add    rot0 @-164.57,110.52,-161.14,112.57       ->ppu-ycomp;
-cell gavo:tri_inv_if0 rot0 @-165.59,110.53,-164.55,112.58       ->ppu-ycomp;
-cell gyky:full_add    rot0 @-169.00,110.52,-165.59,112.56       ->ppu-ycomp;
-cell govu:or2         rot0 @-169.70,110.52,-169.01,112.57       ->ppu-ycomp;
-cell gysa:inv_a       rot0 @-170.05,110.53,-169.70,112.56       ->ppu-ycomp;
-cell gyma:inv_b       rot0 @-170.55,110.52,-170.03,112.57       ->ppu-xprio;
-cell gowo:inv_b       rot0 @-171.07,110.53,-170.55,112.56       ->ppu-xprio;
-cell gugy:inv_b       rot0 @-171.57,110.52,-171.05,112.56       ->ppu-xprio;
-cell gusa:inv_a       rot0 @-171.93,110.52,-171.58,112.56       ->ppu-objctl;
-cell gehy:or2         rot0 @-172.60,110.52,-171.92,112.57 spare ->ppu-xprio;
-cell gafy:inv_a       rot0 @-172.95,110.52,-172.60,112.59       ->ppu-xprio;
-cell gejy:ao2         rot0 @-174.32,110.52,-172.93,112.56       ->ppu-ycomp;
-cell guky:or2         rot0 @-174.98,110.51,-174.30,112.56       ->ppu-xprio;
-cell gecy:inv_a       rot0 @-175.34,110.52,-174.99,112.57 comp  ->ppu-objctl;
-cell gake:or2         rot0 @-176.02,110.53,-175.32,112.57       ->ppu-xprio;
-cell gota:dffr_b2     rot0 @-178.93,110.52,-176.02,112.57       ->ppu-xprio;
-cell gutu:nor2        rot0 @-179.45,110.52,-178.91,112.56       ->ppu-xprio;
-cell guze:nor2        rot0 @-180.13,110.52,-179.59,112.55       ->ppu-xprio;
-cell gyfy:nor2        rot0 @-180.64,110.52,-180.12,112.56       ->ppu-xprio;
-cell gyte:inv_a       rot0 @-180.98,110.52,-180.63,112.56       ->ppu-xprio;
-cell gyga:or2         rot0 @-181.66,110.52,-180.97,112.55       ->ppu-xprio;
-cell geke:inv_a       rot0 @-182.02,110.52,-181.65,112.55       ->ppu-xprio;
-cell gaba:inv_a       rot0 @-182.36,110.52,-182.00,112.58       ->ppu-xprio;
-cell gupo:inv_a       rot0 @-182.69,110.53,-182.34,112.57       ->ppu-xprio;
-cell gola:xor         rot0 @-183.71,110.52,-182.69,112.55       ->ppu-xcomp;
-cell gega:nor2        rot0 @-184.22,110.52,-183.70,112.54       ->ppu-xprio;
-cell geve:xor         rot0 @-185.23,110.52,-184.23,112.55       ->ppu-xcomp;
-cell gede:or2         rot0 @-185.92,110.52,-185.24,112.55       ->ppu-xprio;
-cell gude:xor         rot0 @-186.96,110.52,-185.93,112.57       ->ppu-xcomp;
-cell guzo:xor         rot0 @-187.99,110.52,-186.95,112.55       ->ppu-xcomp;
-cell gono:nor2        rot0 @-188.49,110.52,-187.97,112.55       ->ppu-xprio;
-cell gaja:inv_a       rot0 @-188.85,110.53,-188.49,112.55       ->ppu-xprio;
-cell geze:or2         rot0 @-189.52,110.51,-188.83,112.55       ->ppu-xprio;
-cell gygy:inv_b       rot0 @-190.05,110.50,-189.52,112.56       ->ppu-xprio;
-cell guva:nor2        rot0 @-190.55,110.52,-190.03,112.55       ->ppu-xprio;
-cell goro:or2         rot0 @-191.23,110.52,-190.54,112.56       ->ppu-xprio;
-cell gyvo:inv_a       rot0 @-191.59,110.51,-191.24,112.55       ->ppu-objctl;
-cell gape:or2         rot0 @-192.27,110.51,-191.57,112.55       ->ppu-objctl;
-cell gyse:inv_a       rot0 @-192.60,110.52,-192.27,112.56       ->ppu-objctl;
-cell gabo:d_latch_a   rot0 @-194.13,110.52,-192.59,112.56       ->ppu-objreg;
-cell gacy:d_latch_a   rot0 @-195.66,110.51,-194.13,112.55       ->ppu-objreg;
-cell gecu:d_latch_a   rot0 @-197.20,110.52,-195.67,112.55       ->ppu-objreg;
-cell gohu:d_latch_a   rot0 @-198.75,110.51,-197.20,112.55       ->ppu-objreg;
-cell goho:xor         rot0 @-199.77,110.51,-198.75,112.55       ->ppu-xcomp;
-cell gafe:xor         rot0 @-200.80,110.52,-199.77,112.55       ->ppu-xcomp;
-cell gabu:xor         rot0 @-201.82,110.50,-200.80,112.55       ->ppu-xcomp;
-cell gaza:dr_latch    rot0 @-203.55,110.52,-201.83,112.54       ->ppu-xcomp;
-cell gady:dr_latch    rot0 @-205.23,110.51,-203.54,112.55       ->ppu-xcomp;
-cell gasu:xor         rot0 @-206.27,110.51,-205.23,112.55       ->ppu-xcomp;
-cell gypu:dr_latch    rot0 @-207.98,110.50,-206.27,112.55       ->ppu-xcomp;
-cell gamy:inv_a       rot0 @-208.31,110.51,-207.96,112.55       ->ppu-xprio;
-cell gavy:dr_latch    rot0 @-210.02,110.50,-208.30,112.55       ->ppu-xcomp;
-cell goxu:dr_latch    rot0 @-211.73,110.49,-210.02,112.55       ->ppu-xcomp;
-cell guve:or2         rot0 @-212.42,110.49,-211.73,112.55       ->ppu-objctl;
-cell gery:inv_a       rot0 @-212.77,110.48,-212.41,112.55       ->ppu-objctl;
-cell gyfo:inv_a       rot0 @-213.11,110.51,-212.77,112.54       ->ppu-objctl;
-cell gule:d_latch_a   rot0 @-214.66,110.48,-213.09,112.55       ->ppu-objreg;
-cell gyno:d_latch_a   rot0 @-216.18,110.49,-214.63,112.55       ->ppu-objreg;
-cell gesy:d_latch_a   rot0 @-217.72,110.49,-216.18,112.55       ->ppu-objreg;
-cell goru:d_latch_a   rot0 @-219.25,110.49,-217.71,112.55       ->ppu-objreg;
-cell gyho:d_latch_a   rot0 @-220.79,110.50,-219.25,112.55       ->ppu-objreg;
-cell geny:inv_a       rot0 @-221.14,110.48,-220.80,112.54 comp  ->ppu-objctl;
-cell gofo:tri_inv_if0 rot0 @-222.16,110.50,-221.13,112.54       ->ppu-objreg;
-cell guna:nand4       rot0 @-223.02,110.49,-222.16,112.55       ->ppu-objctl;
-cell gebu:nand4       rot0 @-224.04,110.48,-223.19,112.54       ->ppu-objctl;
-cell gate:tri_inv_if0 rot0 @-225.07,110.47,-224.04,112.54       ->ppu-objreg;
+cell gera:not_if0    rot0 @-127.13,110.53,-126.13,112.59       ->ppu-oam;
+cell gose:not_if0    rot0 @-128.16,110.54,-127.13,112.58       ->ppu-oam;
+cell garo:not_if0    rot0 @-129.19,110.52,-128.16,112.59       ->ppu-oam;
+cell guko:and3       rot0 @-130.05,110.53,-129.18,112.59       ->ppu-oam;
+cell gefy:not_if0    rot0 @-131.07,110.53,-130.03,112.58       ->ppu-oam;
+cell geka:not_x1     rot0 @-131.41,110.54,-131.06,112.59       ->ppu-oam;
+cell gema:not_if0    rot0 @-132.43,110.53,-131.41,112.58       ->ppu-oam;
+cell gubo:drlatch_ee rot0 @-134.30,110.54,-132.61,112.57       ->ppu-bgscroll;
+cell geca:not_if0    rot0 @-135.34,110.54,-134.31,112.58       ->ppu-oam;
+cell gyka:not_if0    rot0 @-136.37,110.54,-135.33,112.57       ->ppu-oam;
+cell gune:not_if0    rot0 @-137.38,110.55,-136.37,112.58       ->ppu-bgscroll;
+cell gyza:not_if0    rot0 @-138.43,110.52,-137.38,112.59       ->ppu-bgscroll;
+cell gave:drlatch_ee rot0 @-140.12,110.55,-138.42,112.57       ->ppu-bgscroll;
+cell godo:not_if0    rot0 @-141.16,110.54,-140.13,112.57       ->ppu-bgscroll;
+cell gyzo:not_if0    rot0 @-142.18,110.55,-141.14,112.58       ->ppu-bgscroll;
+cell gonu:not_if0    rot0 @-143.20,110.53,-142.16,112.57       ->ppu-bgscroll;
+cell guse:not_if0    rot0 @-144.22,110.55,-143.18,112.57       ->ppu-oam;
+cell goba:not_if0    rot0 @-145.24,110.52,-144.22,112.59       ->ppu-bgscroll;
+cell gybu:not_if0    rot0 @-146.27,110.54,-145.25,112.57       ->ppu-oam;
+cell gusu:not_x1     rot0 @-146.63,110.52,-146.26,112.59       ->ppu-ycomp;
+cell gewy:not_x1     rot0 @-146.96,110.55,-146.61,112.57       ->ppu-ycomp;
+cell goby:not_if0    rot0 @-147.99,110.54,-146.96,112.57       ->ppu-oam;
+cell gyda:not_x1     rot0 @-148.33,110.55,-147.98,112.59       ->ppu-ycomp;
+cell gegu:not_if0    rot0 @-149.36,110.52,-148.32,112.57       ->ppu-ycomp;
+cell goju:full_add   rot0 @-152.77,110.53,-149.35,112.59       ->ppu-ycomp;
+cell gava:or2        rot0 @-153.45,110.52,-152.77,112.57       ->ppu-objctl;
+cell goso:dffr       rot0 @-156.36,110.52,-153.45,112.56       ->ppu-objctl;
+cell gama:not_if0    rot0 @-157.56,110.53,-156.53,112.58       ->ppu-oam;
+cell gotu:not_if0    rot0 @-158.58,110.54,-157.55,112.57       ->ppu-ycomp;
+cell gomo:dlatch_ee  rot0 @-160.12,110.53,-158.57,112.58       ->ppu-xcomp;
+cell gese:not_x1     rot0 @-160.47,110.52,-160.11,112.57       ->ppu-ycomp;
+cell guvu:not_x1     rot0 @-160.80,110.52,-160.46,112.57       ->ppu-ycomp;
+cell gace:not_x1     rot0 @-161.15,110.54,-160.80,112.57       ->ppu-ycomp;
+cell gopu:full_add   rot0 @-164.57,110.52,-161.14,112.57       ->ppu-ycomp;
+cell gavo:not_if0    rot0 @-165.59,110.53,-164.55,112.58       ->ppu-ycomp;
+cell gyky:full_add   rot0 @-169.00,110.52,-165.59,112.56       ->ppu-ycomp;
+cell govu:or2        rot0 @-169.70,110.52,-169.01,112.57       ->ppu-ycomp;
+cell gysa:not_x1     rot0 @-170.05,110.53,-169.70,112.56       ->ppu-ycomp;
+cell gyma:not_x2     rot0 @-170.55,110.52,-170.03,112.57       ->ppu-xprio;
+cell gowo:not_x2     rot0 @-171.07,110.53,-170.55,112.56       ->ppu-xprio;
+cell gugy:not_x2     rot0 @-171.57,110.52,-171.05,112.56       ->ppu-xprio;
+cell gusa:not_x1     rot0 @-171.93,110.52,-171.58,112.56       ->ppu-objctl;
+cell gehy:or2        rot0 @-172.60,110.52,-171.92,112.57 spare ->ppu-xprio;
+cell gafy:not_x1     rot0 @-172.95,110.52,-172.60,112.59       ->ppu-xprio;
+cell gejy:ao22       rot0 @-174.32,110.52,-172.93,112.56       ->ppu-ycomp;
+cell guky:or2        rot0 @-174.98,110.51,-174.30,112.56       ->ppu-xprio;
+cell gecy:not_x1     rot0 @-175.34,110.52,-174.99,112.57 comp  ->ppu-objctl;
+cell gake:or2        rot0 @-176.02,110.53,-175.32,112.57       ->ppu-xprio;
+cell gota:dffr       rot0 @-178.93,110.52,-176.02,112.57       ->ppu-xprio;
+cell gutu:nor2       rot0 @-179.45,110.52,-178.91,112.56       ->ppu-xprio;
+cell guze:nor2       rot0 @-180.13,110.52,-179.59,112.55       ->ppu-xprio;
+cell gyfy:nor2       rot0 @-180.64,110.52,-180.12,112.56       ->ppu-xprio;
+cell gyte:not_x1     rot0 @-180.98,110.52,-180.63,112.56       ->ppu-xprio;
+cell gyga:or2        rot0 @-181.66,110.52,-180.97,112.55       ->ppu-xprio;
+cell geke:not_x1     rot0 @-182.02,110.52,-181.65,112.55       ->ppu-xprio;
+cell gaba:not_x1     rot0 @-182.36,110.52,-182.00,112.58       ->ppu-xprio;
+cell gupo:not_x1     rot0 @-182.69,110.53,-182.34,112.57       ->ppu-xprio;
+cell gola:xor        rot0 @-183.71,110.52,-182.69,112.55       ->ppu-xcomp;
+cell gega:nor2       rot0 @-184.22,110.52,-183.70,112.54       ->ppu-xprio;
+cell geve:xor        rot0 @-185.23,110.52,-184.23,112.55       ->ppu-xcomp;
+cell gede:or2        rot0 @-185.92,110.52,-185.24,112.55       ->ppu-xprio;
+cell gude:xor        rot0 @-186.96,110.52,-185.93,112.57       ->ppu-xcomp;
+cell guzo:xor        rot0 @-187.99,110.52,-186.95,112.55       ->ppu-xcomp;
+cell gono:nor2       rot0 @-188.49,110.52,-187.97,112.55       ->ppu-xprio;
+cell gaja:not_x1     rot0 @-188.85,110.53,-188.49,112.55       ->ppu-xprio;
+cell geze:or2        rot0 @-189.52,110.51,-188.83,112.55       ->ppu-xprio;
+cell gygy:not_x2     rot0 @-190.05,110.50,-189.52,112.56       ->ppu-xprio;
+cell guva:nor2       rot0 @-190.55,110.52,-190.03,112.55       ->ppu-xprio;
+cell goro:or2        rot0 @-191.23,110.52,-190.54,112.56       ->ppu-xprio;
+cell gyvo:not_x1     rot0 @-191.59,110.51,-191.24,112.55       ->ppu-objctl;
+cell gape:or2        rot0 @-192.27,110.51,-191.57,112.55       ->ppu-objctl;
+cell gyse:not_x1     rot0 @-192.60,110.52,-192.27,112.56       ->ppu-objctl;
+cell gabo:dlatch_ee  rot0 @-194.13,110.52,-192.59,112.56       ->ppu-objreg;
+cell gacy:dlatch_ee  rot0 @-195.66,110.51,-194.13,112.55       ->ppu-objreg;
+cell gecu:dlatch_ee  rot0 @-197.20,110.52,-195.67,112.55       ->ppu-objreg;
+cell gohu:dlatch_ee  rot0 @-198.75,110.51,-197.20,112.55       ->ppu-objreg;
+cell goho:xor        rot0 @-199.77,110.51,-198.75,112.55       ->ppu-xcomp;
+cell gafe:xor        rot0 @-200.80,110.52,-199.77,112.55       ->ppu-xcomp;
+cell gabu:xor        rot0 @-201.82,110.50,-200.80,112.55       ->ppu-xcomp;
+cell gaza:drlatch_ee rot0 @-203.55,110.52,-201.83,112.54       ->ppu-xcomp;
+cell gady:drlatch_ee rot0 @-205.23,110.51,-203.54,112.55       ->ppu-xcomp;
+cell gasu:xor        rot0 @-206.27,110.51,-205.23,112.55       ->ppu-xcomp;
+cell gypu:drlatch_ee rot0 @-207.98,110.50,-206.27,112.55       ->ppu-xcomp;
+cell gamy:not_x1     rot0 @-208.31,110.51,-207.96,112.55       ->ppu-xprio;
+cell gavy:drlatch_ee rot0 @-210.02,110.50,-208.30,112.55       ->ppu-xcomp;
+cell goxu:drlatch_ee rot0 @-211.73,110.49,-210.02,112.55       ->ppu-xcomp;
+cell guve:or2        rot0 @-212.42,110.49,-211.73,112.55       ->ppu-objctl;
+cell gery:not_x1     rot0 @-212.77,110.48,-212.41,112.55       ->ppu-objctl;
+cell gyfo:not_x1     rot0 @-213.11,110.51,-212.77,112.54       ->ppu-objctl;
+cell gule:dlatch_ee  rot0 @-214.66,110.48,-213.09,112.55       ->ppu-objreg;
+cell gyno:dlatch_ee  rot0 @-216.18,110.49,-214.63,112.55       ->ppu-objreg;
+cell gesy:dlatch_ee  rot0 @-217.72,110.49,-216.18,112.55       ->ppu-objreg;
+cell goru:dlatch_ee  rot0 @-219.25,110.49,-217.71,112.55       ->ppu-objreg;
+cell gyho:dlatch_ee  rot0 @-220.79,110.50,-219.25,112.55       ->ppu-objreg;
+cell geny:not_x1     rot0 @-221.14,110.48,-220.80,112.54 comp  ->ppu-objctl;
+cell gofo:not_if0    rot0 @-222.16,110.50,-221.13,112.54       ->ppu-objreg;
+cell guna:nand4      rot0 @-223.02,110.49,-222.16,112.55       ->ppu-objctl;
+cell gebu:nand4      rot0 @-224.04,110.48,-223.19,112.54       ->ppu-objctl;
+cell gate:not_if0    rot0 @-225.07,110.47,-224.04,112.54       ->ppu-objreg;
 
 
 # Wires originating from column G in bottom center
 # ------------------------------------------------
 
 wire guko:ctl
-	guko.q -> wume.in
+	guko.y -> wume.in
 	@-129.97,112.31,-129.97,114.45,-130.31,114.45,-130.31,115.02;
 
 wire geka:adr
-	geka.q -> wafo.in wuku.in3 ylyc.in2
+	geka.y -> wafo.in wuku.in3 ylyc.in2
 	@-131.33,112.32,-131.33,114.04,-131.50,114.04,-131.50,117.90
 	@-130.83,116.52,-130.83,117.90,-132.36,117.90,-132.36,123.81;
 
@@ -132,15 +132,15 @@ wire ~gave:data
 	@-139.88,112.30,-139.88,113.77,-138.16,113.77,-138.16,115.03;
 
 wire gusu:data
-	gusu.q -> wuhu.a
+	gusu.y -> wuhu.a
 	@-146.55,112.32,-146.55,113.17,-149.62,113.17,-149.62,115.01;
 
 wire gewy:data
-	gewy.q -> wota.in4
+	gewy.y -> wota.in4
 	@-146.88,112.30,-146.88,113.43,-159.88,113.43,-159.88,115.02;
 
 wire gyda:data
-	gyda.q -> wota.in3
+	gyda.y -> wota.in3
 	@-148.25,112.31,-148.25,114.33,-159.70,114.32,-159.70,115.01;
 
 wire goju:data
@@ -152,7 +152,7 @@ wire goju_c:data
 	@-150.98,112.30,-150.98,114.02,-147.39,114.02,-147.39,115.01;
 
 wire gava:ctl
-	gava.q -> yfel.clk
+	gava.y -> yfel.clk
 	@-153.38,112.30,-153.38,113.30,-153.02,113.30,-153.02,118.33,-152.88,118.33,-152.88,121.87,-153.23,121.87,
 	 -153.23,123.83;
 
@@ -186,16 +186,16 @@ wire sprite_palette:data
 	@-201.31,27.79,-202.34,27.79,-202.34,26.95;
 
 wire sprite_y_match:ctl
-	gese.q -> care.in3
+	gese.y -> care.in3
 	@-160.38,110.79,-160.38,110.10,-160.21,110.10,-160.21,104.55,-160.37,104.55,-160.37,99.66,-160.20,99.66,
 	 -160.20,95.94,-160.54,95.94,-160.54,94.47;
 
 wire guvu:data
-	guvu.q -> wota.in2
+	guvu.y -> wota.in2
 	@-160.73,112.30,-160.73,114.10,-159.52,114.10,-159.52,115.02;
 
 wire gace:data
-	gace.q -> wota.in1
+	gace.y -> wota.in1
 	@-161.08,112.30,-161.08,113.84,-159.36,113.84,-159.36,115.02;
 
 wire gopu:data
@@ -216,15 +216,15 @@ wire gyky_c:data
 	@-167.21,112.30,-167.21,113.81,-161.57,113.81,-161.57,112.30;
 
 wire govu:ctl
-	govu.q -> wota.in6
+	govu.y -> wota.in6
 	@-169.62,112.29,-169.62,113.55,-160.20,113.55,-160.20,115.02;
 
 wire ~sprite_y3:data
-	gysa.q -> wenu.in
+	gysa.y -> wenu.in
 	@-169.96,112.30,-169.96,114.57,-171.15,114.57,-171.15,115.02;
 
 wire sprite_sel3:ctl
-	gyma.q -> dygo.~ena dony.~ena dowa.~ena dezu.~ena enap.~ena efud.~ena ywav.~ena yjem.~ena zexe.~ena zypo.~ena
+	gyma.y -> dygo.~ena dony.~ena dowa.~ena dezu.~ena enap.~ena efud.~ena ywav.~ena yjem.~ena zexe.~ena zypo.~ena
 	@-159.17,98.27,-159.17,99.90,-165.84,99.90,-165.84,104.80,-170.12,104.80,-170.12,110.09,-170.47,110.09,
 	 -170.47,113.42,-163.81,113.42,-163.81,123.10,-162.28,123.10,-162.28,127.59,-160.74,127.59,-160.74,129.13
 	@-159.17,99.82,-156.09,99.82,-156.09,101.20
@@ -234,7 +234,7 @@ wire sprite_sel3:ctl
 	@-163.65,123.10,-163.65,127.67,-168.60,127.67,-168.60,129.13;
 
 wire sprite_sel4:ctl
-	gowo.q -> buce.~ena bove.~ena bevy.~ena bydo.~ena wuxu.~ena weru.~ena waja.~ena wepy.~ena woxy.~ena xyre.~ena
+	gowo.y -> buce.~ena bove.~ena bevy.~ena bydo.~ena wuxu.~ena weru.~ena waja.~ena wepy.~ena woxy.~ena xyre.~ena
 	@-168.91,90.54,-168.91,91.71,-169.08,91.71,-169.08,95.34,-169.42,95.34,-169.42,99.90,-170.97,99.90,-170.97,105.23,
 	 -170.63,105.23,-170.63,108.98,-170.98,108.98,-170.98,114.44,-169.61,114.44,-169.61,115.02
 	@-168.91,91.40,-167.37,91.40
@@ -246,7 +246,7 @@ wire sprite_sel4:ctl
 	@-163.63,116.52,-163.63,118.74,-161.93,118.74,-161.93,119.57;
 
 wire sprite_sel7:ctl
-	gugy.q -> evyt.~ena elep.~ena etad.~ena waxe.~ena wana.~ena wabu.~ena wako.~ena wygo.~ena waba.~ena ypoz.~ena
+	gugy.y -> evyt.~ena elep.~ena etad.~ena waxe.~ena wana.~ena wabu.~ena wako.~ena wygo.~ena waba.~ena ypoz.~ena
 	@-171.49,112.30,-171.49,114.57,-173.02,114.57
 	@-172.01,114.57,-172.01,118.87,-165.17,118.87,-165.17,123.10,-164.66,123.10,-164.66,123.80
 	@-173.02,115.02,-173.02,114.44,-200.89,114.43,-200.89,117.88,-212.86,117.87,-212.86,114.25,-216.27,114.25,
@@ -257,14 +257,14 @@ wire sprite_sel7:ctl
 	@-216.77,105.07,-216.77,102.66;
 
 wire gusa:ctl
-	gusa.q -> feka.in xyha.in yfag.in
+	gusa.y -> feka.in xyha.in yfag.in
 	@-169.27,107.30,-169.27,109.71,-171.84,109.71,-171.84,114.15,-167.56,114.15,-167.56,122.98,-172.70,122.98,
 	 -172.70,123.80;
 
-# gehy.q is not connected
+# gehy.y is not connected
 
 wire sprite_rst7:ctl
-	gafy.q -> epum.~r eraz.~r ehyn.~r erol.~r exuk.~r fazu.~r fede.~r faxe.~r
+	gafy.y -> epum.~r eraz.~r ehyn.~r erol.~r exuk.~r fazu.~r fede.~r faxe.~r
 	@-172.87,110.78,-172.87,108.77,-176.62,108.77,-176.62,103.85,-174.56,103.85,-174.56,102.69
 	@-176.62,105.35,-180.03,105.35
 	@-178.33,105.35,-178.33,105.80
@@ -274,15 +274,15 @@ wire sprite_rst7:ctl
 	@-172.85,103.39,-172.85,102.69;
 
 wire gejy:adr
-	gejy.q -> famu.in
+	gejy.y -> famu.in
 	@-174.23,110.78,-174.23,109.84,-175.24,109.84,-175.24,107.29;
 
 wire guky:ctl
-	guky.q -> gafy.in
+	guky.y -> gafy.in
 	@-174.90,110.77,-174.90,110.09,-172.69,110.09,-172.69,110.79;
 
 wire gecy:ctl
-	gecy.q -> deha.in epum.~ena eraz.~ena ehyn.~ena erol.~ena exuk.~ena fazu.~ena fede.~ena faxe.~ena
+	gecy.y -> deha.in epum.~ena eraz.~ena ehyn.~ena erol.~ena exuk.~ena fazu.~ena fede.~ena faxe.~ena
 	@-175.24,110.80,-175.24,110.09,-175.93,110.09,-175.93,104.29,-177.63,104.29,-177.63,109.10,-179.35,109.10,
 	 -179.35,102.69
 	@-175.93,104.41,-173.87,104.41,-173.87,98.27
@@ -291,7 +291,7 @@ wire gecy:ctl
 	@-172.16,100.75,-170.45,100.75,-170.45,101.19;
 
 wire gake:ctl
-	gake.q -> wupa.in
+	gake.y -> wupa.in
 	@-175.93,112.30,-175.93,114.19,-180.73,114.19,-180.73,115.00;
 
 wire gota:ctl
@@ -301,77 +301,77 @@ wire gota:ctl
 # gota.~q is not connected
 
 wire gutu:ctl
-	gutu.q -> gugy.in wapo.d
+	gutu.y -> gugy.in wapo.d
 	@-179.35,112.29,-179.35,113.04,-177.13,113.04,-177.13,115.01
 	@-177.13,113.89,-171.15,113.89,-171.15,112.30;
 
 wire guze:ctl
-	guze.q -> fono.d fado.in
+	guze.y -> fono.d fado.in
 	@-180.05,110.77,-180.05,109.70,-196.09,109.69,-196.09,105.20,-213.53,105.20,-213.53,105.77;
 
 wire gyfy:ctl
-	gyfy.q -> gyma.in gota.d
+	gyfy.y -> gyma.in gota.d
 	@-180.56,110.77,-180.56,110.09,-177.13,110.09,-177.13,112.87,-170.13,112.87,-170.13,112.29;
 
 wire gyte:ctl
-	gyte.q -> favo.in1
+	gyte.y -> favo.in1
 	@-180.90,110.79,-180.90,107.28;
 
 wire gyga:ctl
-	gyga.q -> gehy.in2 guze.in2
+	gyga.y -> gehy.in2 guze.in2
 	@-181.58,112.30,-181.58,113.76,-179.87,113.76,-179.87,109.70,-172.17,109.71,-172.17,110.80;
 
 wire geke:ctl
-	geke.q -> gyga.in1
+	geke.y -> gyga.in1
 	@-181.92,110.78,-181.92,110.34,-181.05,110.34,-181.05,110.80;
 
 wire gaba:ctl
-	gaba.q -> weja.in1
+	gaba.y -> weja.in1
 	@-182.27,112.30,-182.27,113.77,-185.16,113.77,-185.16,115.02;
 
 wire gupo:ctl
-	gupo.q -> gede.in1
+	gupo.y -> gede.in1
 	@-182.61,112.30,-182.61,113.03,-185.34,113.03,-185.34,112.29;
 
 wire gola:data
-	gola.q -> fyma.in2
+	gola.y -> fyma.in2
 	@-182.77,110.78,-182.77,108.42,-185.16,108.42,-185.16,107.30;
 
 wire gega:ctl
-	gega.q -> gygy.in wafy.d
+	gega.y -> gygy.in wafy.d
 	@-184.14,112.28,-184.14,113.29,-189.61,113.29
 	@-189.61,112.28,-189.61,115.01;
 
 wire geve:data
-	geve.q -> fyma.in3
+	geve.y -> fyma.in3
 	@-184.31,110.78,-184.31,109.11,-185.32,109.11,-185.32,107.29;
 
 wire gede:ctl
-	gede.q -> gyfy.in2 wuto.in2
+	gede.y -> gyfy.in2 wuto.in2
 	@-180.38,110.79,-180.38,108.72,-185.84,108.72,-185.84,113.71,-186.36,113.71,-186.36,115.02;
 
 wire gude:data
-	gude.q -> fyma.in4
+	gude.y -> fyma.in4
 	@-186.02,110.80,-186.02,109.10,-185.49,109.10,-185.49,107.27;
 
 wire guzo:data
-	guzo.q -> fyma.in1
+	guzo.y -> fyma.in1
 	@-187.03,110.78,-187.03,110.08,-184.99,110.08,-184.99,107.30;
 
 wire gono:ctl
-	gono.q -> gowo.in xudy.d
+	gono.y -> gowo.in xudy.d
 	@-170.63,110.79,-170.63,109.24,-188.41,109.23,-188.41,113.54,-192.87,113.54,-192.87,119.57;
 
 wire gaja:ctl
-	gaja.q -> fuma.in1
+	gaja.y -> fuma.in1
 	@-188.75,110.79,-188.75,108.13,-188.57,108.13,-188.57,107.30;
 
 wire geze:ctl
-	geze.q -> enut.in2 fuma.in2
+	geze.y -> enut.in2 fuma.in2
 	@-189.44,110.78,-189.44,107.94,-188.75,107.94,-188.75,103.72,-188.41,103.72,-188.41,102.68;
 
 wire sprite_sel5:ctl
-	gygy.q -> awat.~ena bace.~ena buja.~ena bodu.~ena dyny.~ena daly.~ena dalo.~ena dobo.~ena duza.~ena waga.~ena
+	gygy.y -> awat.~ena bace.~ena buja.~ena bodu.~ena dyny.~ena daly.~ena dalo.~ena dobo.~ena duza.~ena waga.~ena
 	@-189.95,110.77,-189.95,108.12,-190.80,108.12,-190.80,103.97,-195.41,103.97,-195.41,100.43,-213.52,100.43,
 	 -213.52,98.23
 	@-212.50,100.43,-212.50,98.23
@@ -383,25 +383,25 @@ wire sprite_sel5:ctl
 	@-219.66,88.99,-219.66,87.88,-217.61,87.88,-217.61,85.40;
 
 wire guva:ctl
-	guva.q -> eboj.d furo.in
+	guva.y -> eboj.d furo.in
 	@-190.47,110.78,-190.47,109.23,-188.92,109.23,-188.92,103.72,-197.12,103.72,-214.05,103.70,-214.05,105.79
 	@-197.12,103.72,-197.12,102.69;
 
 wire goro:ctl
-	goro.q -> wuzo.in
+	goro.y -> wuzo.in
 	@-191.16,112.29,-191.16,113.84,-206.02,113.83,-206.02,114.99;
 
 wire gyvo:ctl
-	gyvo.q -> fefo.in gecy.in wabe.in
+	gyvo.y -> fefo.in gecy.in wabe.in
 	@-191.49,110.78,-191.49,109.10,-213.20,109.08,-213.20,107.27
 	@-191.49,109.57,-175.07,109.58,-175.07,114.31,-174.74,114.31,-174.74,115.02;
 
 wire gape:ctl
-	gape.q -> gyvo.in
+	gape.y -> gyvo.in
 	@-192.19,110.77,-192.19,110.34,-191.32,110.34,-191.32,110.78;
 
 wire save_sprite_num6:ctl
-	gyse.q -> fogo.ena foxy.ena gabo.ena gacy.ena gecu.ena gohu.ena
+	gyse.y -> fogo.ena foxy.ena gabo.ena gacy.ena gecu.ena gohu.ena
 	@-192.52,110.78,-192.52,108.84,-196.27,108.84,-196.27,110.78
 	@-193.20,108.84,-193.20,110.79
 	@-194.72,108.84,-194.72,110.77
@@ -433,15 +433,15 @@ wire ~gohu:data
 	@-198.49,112.28,-198.49,114.18,-199.02,114.18,-199.02,115.02;
 
 wire goho:data
-	goho.q -> feha.in1
+	goho.y -> feha.in1
 	@-198.83,110.77,-198.83,109.66,-199.52,109.66,-199.52,107.30;
 
 wire gafe:data
-	gafe.q -> feha.in4
+	gafe.y -> feha.in4
 	@-199.86,110.77,-199.86,108.84,-200.03,108.84,-200.03,107.28;
 
 wire gabu:data
-	gabu.q -> feha.in3
+	gabu.y -> feha.in3
 	@-200.89,110.77,-200.89,108.28,-199.86,108.28,-199.86,107.27;
 
 wire gaza:data
@@ -457,7 +457,7 @@ wire gady:data
 # gady.~q is not connected
 
 wire gasu:data
-	gasu.q -> feha.in2
+	gasu.y -> feha.in2
 	@-205.32,110.77,-205.32,109.82,-199.69,109.82,-199.69,107.27;
 
 wire gypu:data
@@ -467,7 +467,7 @@ wire gypu:data
 # gypu.~q is not connected
 
 wire sprite_rst2:ctl
-	gamy.q -> depy.~r duhy.~r enor.~r ejuf.~r fyty.~r fuby.~r foka.~r goxu.~r
+	gamy.y -> depy.~r duhy.~r enor.~r ejuf.~r fyty.~r fuby.~r foka.~r goxu.~r
 	@-208.23,110.77,-208.23,109.56,-208.57,109.56,-208.57,104.39,-211.99,104.39,-211.99,105.76
 	@-209.77,104.39,-209.77,100.61,-209.59,100.61,-209.59,98.23
 	@-210.28,104.39,-210.28,109.55,-210.97,109.55,-210.97,110.77
@@ -486,18 +486,18 @@ wire goxu:data
 # goxu.~q is not connected
 
 wire guve:ctl
-	guve.q -> gusa.in
+	guve.y -> gusa.in
 	@-212.34,110.77,-212.34,110.19,-171.66,110.22,-171.66,110.78;
 
 wire save_sprite_x0:ctl
-	gery.q -> wote.ena welo.ena xako.ena xuny.ena xepe.ena ylah.ena zulu.ena zola.ena
+	gery.y -> wote.ena welo.ena xako.ena xuny.ena xepe.ena ylah.ena zulu.ena zola.ena
 	@-212.69,112.28,-212.69,114.26,-212.51,114.26,-212.51,118.30,-212.34,118.30,-212.34,123.20,-210.64,123.20,
 	 -210.64,116.48
 	@-210.64,122.90,-208.42,122.90,-208.42,127.69,-210.13,127.69,-210.13,132.27,-212.88,132.27,-212.88,130.60
 	@-208.93,122.90,-208.93,116.47;
 
 wire gyfo:ctl
-	gyfo.q -> buzy.in cacu.in fuke.in
+	gyfo.y -> buzy.in cacu.in fuke.in
 	@-213.02,110.76,-213.02,110.20,-212.85,110.20,-212.85,104.82,-213.02,104.82,-213.02,100.30,-209.41,100.30,
 	 -209.41,91.76,-209.92,91.76,-209.92,88.43,-192.84,88.45,-192.84,89.02;
 
@@ -532,16 +532,16 @@ wire ~gyho:data
 	@-220.54,112.26,-220.54,113.78,-219.17,113.78,-219.17,114.99;
 
 wire geny:ctl
-	geny.q -> wyte.~ena xuxa.in ysok.~ena ywak.~ena ygus.~ena yzep.~ena zony.~ena
+	geny.y -> wyte.~ena xuxa.in ysok.~ena ywak.~ena ygus.~ena yzep.~ena zony.~ena
 	@-221.05,112.27,-221.05,113.82,-220.71,113.82,-220.71,118.41,-219.86,118.41,-219.86,122.89
 	@-223.47,123.77,-223.47,122.89,-219.35,122.89,-219.35,128.12,-219.19,128.12,-219.19,129.12
 	@-219.19,128.15,-217.82,128.15,-217.82,125.27
 	@-217.82,128.11,-214.75,128.11,-214.75,125.27;
 
 wire guna:ctl
-	guna.q -> gape.in2
+	guna.y -> gape.in2
 	@-222.94,110.78,-222.94,110.06,-191.84,110.09,-191.84,110.79;
 
 wire gebu:ctl
-	gebu.q -> wyxo.in2
+	gebu.y -> wyxo.in2
 	@-223.95,112.27,-223.95,113.65,-224.47,113.65,-224.47,114.98;

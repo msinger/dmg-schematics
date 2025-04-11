@@ -1,123 +1,123 @@
 # Cells in column F on right hand side
 # ------------------------------------
 
-cell faju:inv_a       rot0,flip @-61.63,209.02,-61.27,211.06        ->apu-ch3;
-cell foto:and2        rot0,flip @-62.30,209.02,-61.62,211.08        ->apu-ch3;
-cell fety:dffr_b2     rot0,flip @-65.21,209.01,-62.30,211.07        ->apu-ch3;
-cell fabo:inv_a       rot0,flip @-65.55,209.01,-65.20,211.09        ->apu-ch3;
-cell fury:nor2        rot0,flip @-66.06,209.01,-65.54,211.06        ->apu-ch3;
-cell fapy:tri_inv_if0 rot0,flip @-67.09,208.99,-66.06,211.07        ->apu-ch3;
-cell fujy:and2        rot0,flip @-67.77,209.01,-67.09,211.05        ->apu-ch2;
-cell fera:tri_inv_if0 rot0,flip @-68.81,209.01,-67.77,211.08        ->apu-ch3;
-cell faro:tri_inv_if0 rot0,flip @-69.83,209.02,-68.80,211.04        ->apu-ch3;
-cell fote:tri_inv_if0 rot0,flip @-70.84,208.99,-69.82,211.05        ->apu-ch3;
-cell fava:tri_inv_if0 rot0,flip @-71.87,209.01,-70.85,211.05        ->apu-ch2;
-cell foba:dffr_b2     rot0,flip @-74.77,209.02,-71.86,211.05        ->apu-ch3;
-cell fako:nor2        rot0,flip @-75.29,209.00,-74.77,211.07        ->apu-ch3;
-cell fene:inv_a       rot0,flip @-75.64,209.01,-75.29,211.06        ->apu-ch3;
-cell fana:tri_inv_if0 rot0,flip @-76.66,209.01,-75.63,211.06        ->apu-ch3;
-cell fose:tri_inv_if0 rot0,flip @-77.70,209.01,-76.66,211.05        ->apu-ch2;
-cell fajy:tri_inv_if0 rot0,flip @-78.71,208.99,-77.68,211.08        ->apu-ch2;
-cell fegu:tri_inv_if0 rot0,flip @-79.74,209.01,-78.70,211.08        ->apu-ch2;
-cell fofe:dr_latch    rot0,flip @-81.45,209.01,-79.74,211.06        ->apu-ch2;
-cell fova:dr_latch    rot0,flip @-83.32,209.02,-81.60,211.06        ->apu-ch2;
-cell fedy:dr_latch    rot0,flip @-85.02,209.00,-83.32,211.05        ->apu-ch2;
-cell fome:dr_latch    rot0,flip @-86.74,208.99,-85.02,211.06        ->apu-ch2;
-cell fora:dr_latch    rot0,flip @-88.45,208.98,-86.73,211.05        ->apu-ch2;
-cell fuxo:tffd        rot0,flip @-91.87,208.98,-88.44,211.05        ->apu-ch2;
-cell fuvo:nor2        rot0,flip @-92.38,208.98,-91.86,211.05        ->apu-ch3;
-cell fate:tri_inv_if0 rot0,flip @-93.41,208.99,-92.37,211.05        ->apu-control;
-cell fuva:or2         rot0,flip @-94.08,209.00,-93.39,211.05        ->apu-ch3;
-cell feny:nor2        rot0,flip @-94.59,208.98,-94.07,211.05        ->apu-decode;
-cell foku:inv_a       rot0,flip @-94.95,208.99,-94.59,211.05 comp   ->apu-control;
-cell futy:inv_b       rot0,flip @-95.45,208.99,-94.93,211.05        ->apu-ch2;
-cell fule:inv_a       rot0,flip @-95.80,209.01,-95.45,211.05        ->apu-ch1;
-cell fyxo:inv_a       rot0,flip @-96.13,209.01,-95.78,211.04 comp   ->apu-ch2;
-cell fewa:nand2       rot0,flip @-96.65,208.99,-96.13,211.05        ->apu-control;
-cell fero:dr_latch    rot0,flip @-98.35,209.00,-96.64,211.04        ->apu-control;
-cell fena:tffd        rot0,flip @-101.77,208.99,-98.36,211.05       ->apu-ch2;
-cell fery:inv_a       rot0,flip @-102.13,208.99,-101.76,211.06      ->apu-ch2;
-cell fopy:ao2         rot0,flip @-103.49,208.98,-102.12,211.05      ->apu-ch2;
-cell fomy:tffd        rot0,flip @-106.91,208.98,-103.48,211.05      ->apu-ch2;
-cell fute:nor5        rot0,flip @-107.94,208.98,-106.90,211.05      ->apu-ch2;
-cell fore:dr_latch    rot0,flip @-109.64,208.99,-107.93,211.04      ->apu-ch2;
-cell fete:tffd        rot0,flip @-113.05,208.99,-109.64,211.05      ->apu-ch2;
-cell fyre:inv_a       rot0,flip @-113.40,209.00,-113.05,211.05      ->apu-ch2;
-cell faru:ao2         rot0,flip @-114.77,209.00,-113.39,211.05      ->apu-ch2;
-cell feno:tffd        rot0,flip @-118.20,208.98,-114.76,211.05      ->apu-ch2;
-cell fyry:inv_a       rot0,flip @-118.53,208.98,-118.18,211.05      ->apu-ch2;
-cell fasy:nand2       rot0,flip @-119.05,208.99,-118.53,211.05      ->apu-ch3;
-cell fozu:nor_latch   rot0,flip @-120.07,208.98,-119.04,211.04      ->apu-ch3;
-cell fygo:or3         rot0,flip @-120.92,208.98,-120.07,211.05      ->apu-ch3;
-cell foro:tffd        rot0,flip @-124.34,208.98,-120.91,211.05      ->apu-ch3;
-cell fovo:nand2       rot0,flip @-124.85,208.98,-124.34,211.04 comp ->apu-ch3;
-cell fave:tffd        rot0,flip @-128.27,208.97,-124.85,211.05      ->apu-ch3;
-cell fazo:inv_a       rot0,flip @-128.61,208.97,-128.27,211.05      ->apu-ch2;
-cell fyru:tffd        rot0,flip @-132.03,208.98,-128.60,211.05      ->apu-ch3;
-cell fexu:dffr_b2     rot0,flip @-134.92,208.98,-132.02,211.04      ->apu-ch3;
-cell fory:tffd        rot0,flip @-138.36,208.98,-134.93,211.03      ->apu-ch3;
-cell falu:inv_a       rot0,flip @-138.71,208.98,-138.35,211.04      ->apu-ch3;
-cell fevo:inv_a       rot0,flip @-139.21,208.98,-138.88,211.04      ->apu-ch3;
-cell fowa:nor3        rot0,flip @-139.90,208.97,-139.21,211.04      ->apu-ch4;
-cell fyfo:nor_latch   rot0,flip @-140.93,208.98,-139.89,211.03      ->apu-ch1;
-cell feku:dffr_b2     rot0,flip @-143.82,208.96,-140.91,211.05      ->apu-ch1;
-cell foze:tri_inv_if0 rot0,flip @-144.84,208.98,-143.82,211.02      ->apu-ch1;
-cell feva:tffd        rot0,flip @-148.27,208.96,-144.83,211.04      ->apu-ch1;
-cell foke:and2        rot0,flip @-148.95,208.97,-148.26,211.02      ->apu-ch1;
-cell fare:dffr_b2     rot0,flip @-151.87,208.96,-148.95,211.03      ->apu-ch1;
-cell fume:inv_a       rot0,flip @-152.20,208.97,-151.85,211.02      ->apu-ch1;
-cell foru:tri_inv_if0 rot0,flip @-153.23,208.97,-152.20,211.03      ->apu-ch1;
-cell fyte:dffr_b2     rot0,flip @-156.12,208.96,-153.22,211.02      ->apu-ch1;
-cell fega:and2        rot0,flip @-156.80,208.96,-156.13,211.03      ->apu-ch1;
-cell fopu:and2        rot0,flip @-157.48,208.96,-156.81,211.03      ->apu-ch1;
-cell femy:nor2        rot0,flip @-158.17,208.97,-157.66,211.02      ->apu-ch1;
-cell favy:tffd        rot0,flip @-161.60,208.96,-158.16,211.03      ->apu-ch4;
-cell fulo:nor2        rot0,flip @-162.11,208.97,-161.60,211.03      ->apu-ch1;
-cell fely:dffsr       rot0,flip @-165.88,208.96,-162.10,211.04      ->apu-ch1;
-cell faxo:dffr_a      rot0,flip @-168.10,208.97,-165.85,211.03      ->apu-ch1;
-cell fego:full_add    rot0,flip @-171.51,208.96,-168.09,211.02      ->apu-ch1;
-cell fedo:dffsr       rot0,flip @-175.26,208.95,-171.52,211.02      ->apu-ch1;
-cell fude:dffsr       rot0,flip @-179.02,208.94,-175.25,211.02      ->apu-ch1;
-cell fohy:inv_a       rot0,flip @-179.38,208.94,-179.03,211.02      ->apu-ch1;
-cell fure:xor         rot0,flip @-180.39,208.95,-179.36,211.02      ->apu-ch1;
-cell fabu:dffsr       rot0,flip @-184.14,208.95,-180.40,211.01      ->apu-ch1;
-cell faja:inv_a       rot0,flip @-184.48,208.96,-184.13,211.02      ->apu-ch1;
-cell fosy:dffr_b2     rot0,flip @-187.40,208.96,-184.48,211.01      ->apu-ch4;
-cell femu:nand_latch  rot0,flip @-188.43,208.95,-187.38,211.02      ->apu-ch1;
-cell fylo:tffd        rot0,flip @-191.85,208.95,-188.42,211.01      ->apu-ch4;
-cell fyne:inv_c       rot0,flip @-192.53,208.95,-191.84,211.02      ->apu-control;
-cell fale:nor2        rot0,flip @-193.04,208.95,-192.52,211.01      ->apu-ch4;
-cell foxe:nand2       rot0,flip @-193.55,208.96,-193.03,211.00 comp ->apu-ch4;
-cell feby:inv_a       rot0,flip @-193.91,208.95,-193.55,211.01      ->apu-ch4;
-cell fape:nand2       rot0,flip @-194.41,208.95,-193.89,211.00      ->apu-ch2;
-cell foge:inv_a       rot0,flip @-194.75,208.95,-194.40,211.00      ->apu-ch2;
-cell furu:inv_a       rot0,flip @-195.09,208.94,-194.73,211.02      ->apu-ch4;
-cell fugo:dffr_b2     rot0,flip @-197.99,208.95,-195.08,211.02      ->apu-ch4;
-cell feme:mux         rot0,flip @-199.01,208.95,-197.98,211.00      ->apu-ch4;
-cell fyto:dr_latch    rot0,flip @-200.73,208.94,-199.02,211.00      ->apu-ch4;
-cell feta:dr_latch    rot0,flip @-202.44,208.95,-200.72,211.02      ->apu-ch4;
-cell fura:nor3        rot0,flip @-203.13,208.95,-202.45,211.01      ->apu-ch4;
-cell felo:or3         rot0,flip @-203.98,208.95,-203.13,211.00      ->apu-ch4;
-cell fexo:inv_a       rot0,flip @-204.32,208.94,-203.98,211.00      ->apu-ch4;
-cell fupa:inv_b       rot0,flip @-204.84,208.95,-204.31,210.99 comp ->apu-ch4;
-cell fyno:dffr_b2     rot0,flip @-207.75,208.94,-204.82,211.00      ->apu-ch4;
-cell fole:ao2         rot0,flip @-209.10,208.94,-207.73,210.99      ->apu-ch4;
-cell feko:tffd        rot0,flip @-212.54,208.95,-209.10,211.00      ->apu-ch4;
-cell fegy:or3         rot0,flip @-213.38,208.94,-212.52,211.02      ->apu-ch4;
-cell faty:tffd        rot0,flip @-216.80,208.94,-213.38,211.00      ->apu-ch4;
-cell fyro:tffd        rot0,flip @-220.23,208.93,-216.78,211.01      ->apu-ch4;
-cell feru:tffd        rot0,flip @-223.63,208.91,-220.21,211.01      ->apu-ch4;
+cell faju:not_x1     rot0,flip @-61.63,209.02,-61.27,211.06        ->apu-ch3;
+cell foto:and2       rot0,flip @-62.30,209.02,-61.62,211.08        ->apu-ch3;
+cell fety:dffr       rot0,flip @-65.21,209.01,-62.30,211.07        ->apu-ch3;
+cell fabo:not_x1     rot0,flip @-65.55,209.01,-65.20,211.09        ->apu-ch3;
+cell fury:nor2       rot0,flip @-66.06,209.01,-65.54,211.06        ->apu-ch3;
+cell fapy:not_if0    rot0,flip @-67.09,208.99,-66.06,211.07        ->apu-ch3;
+cell fujy:and2       rot0,flip @-67.77,209.01,-67.09,211.05        ->apu-ch2;
+cell fera:not_if0    rot0,flip @-68.81,209.01,-67.77,211.08        ->apu-ch3;
+cell faro:not_if0    rot0,flip @-69.83,209.02,-68.80,211.04        ->apu-ch3;
+cell fote:not_if0    rot0,flip @-70.84,208.99,-69.82,211.05        ->apu-ch3;
+cell fava:not_if0    rot0,flip @-71.87,209.01,-70.85,211.05        ->apu-ch2;
+cell foba:dffr       rot0,flip @-74.77,209.02,-71.86,211.05        ->apu-ch3;
+cell fako:nor2       rot0,flip @-75.29,209.00,-74.77,211.07        ->apu-ch3;
+cell fene:not_x1     rot0,flip @-75.64,209.01,-75.29,211.06        ->apu-ch3;
+cell fana:not_if0    rot0,flip @-76.66,209.01,-75.63,211.06        ->apu-ch3;
+cell fose:not_if0    rot0,flip @-77.70,209.01,-76.66,211.05        ->apu-ch2;
+cell fajy:not_if0    rot0,flip @-78.71,208.99,-77.68,211.08        ->apu-ch2;
+cell fegu:not_if0    rot0,flip @-79.74,209.01,-78.70,211.08        ->apu-ch2;
+cell fofe:drlatch_ee rot0,flip @-81.45,209.01,-79.74,211.06        ->apu-ch2;
+cell fova:drlatch_ee rot0,flip @-83.32,209.02,-81.60,211.06        ->apu-ch2;
+cell fedy:drlatch_ee rot0,flip @-85.02,209.00,-83.32,211.05        ->apu-ch2;
+cell fome:drlatch_ee rot0,flip @-86.74,208.99,-85.02,211.06        ->apu-ch2;
+cell fora:drlatch_ee rot0,flip @-88.45,208.98,-86.73,211.05        ->apu-ch2;
+cell fuxo:tffnl      rot0,flip @-91.87,208.98,-88.44,211.05        ->apu-ch2;
+cell fuvo:nor2       rot0,flip @-92.38,208.98,-91.86,211.05        ->apu-ch3;
+cell fate:not_if0    rot0,flip @-93.41,208.99,-92.37,211.05        ->apu-control;
+cell fuva:or2        rot0,flip @-94.08,209.00,-93.39,211.05        ->apu-ch3;
+cell feny:nor2       rot0,flip @-94.59,208.98,-94.07,211.05        ->apu-decode;
+cell foku:not_x1     rot0,flip @-94.95,208.99,-94.59,211.05 comp   ->apu-control;
+cell futy:not_x2     rot0,flip @-95.45,208.99,-94.93,211.05        ->apu-ch2;
+cell fule:not_x1     rot0,flip @-95.80,209.01,-95.45,211.05        ->apu-ch1;
+cell fyxo:not_x1     rot0,flip @-96.13,209.01,-95.78,211.04 comp   ->apu-ch2;
+cell fewa:nand2      rot0,flip @-96.65,208.99,-96.13,211.05        ->apu-control;
+cell fero:drlatch_ee rot0,flip @-98.35,209.00,-96.64,211.04        ->apu-control;
+cell fena:tffnl      rot0,flip @-101.77,208.99,-98.36,211.05       ->apu-ch2;
+cell fery:not_x1     rot0,flip @-102.13,208.99,-101.76,211.06      ->apu-ch2;
+cell fopy:ao22       rot0,flip @-103.49,208.98,-102.12,211.05      ->apu-ch2;
+cell fomy:tffnl      rot0,flip @-106.91,208.98,-103.48,211.05      ->apu-ch2;
+cell fute:nor5       rot0,flip @-107.94,208.98,-106.90,211.05      ->apu-ch2;
+cell fore:drlatch_ee rot0,flip @-109.64,208.99,-107.93,211.04      ->apu-ch2;
+cell fete:tffnl      rot0,flip @-113.05,208.99,-109.64,211.05      ->apu-ch2;
+cell fyre:not_x1     rot0,flip @-113.40,209.00,-113.05,211.05      ->apu-ch2;
+cell faru:ao22       rot0,flip @-114.77,209.00,-113.39,211.05      ->apu-ch2;
+cell feno:tffnl      rot0,flip @-118.20,208.98,-114.76,211.05      ->apu-ch2;
+cell fyry:not_x1     rot0,flip @-118.53,208.98,-118.18,211.05      ->apu-ch2;
+cell fasy:nand2      rot0,flip @-119.05,208.99,-118.53,211.05      ->apu-ch3;
+cell fozu:nor_latch  rot0,flip @-120.07,208.98,-119.04,211.04      ->apu-ch3;
+cell fygo:or3        rot0,flip @-120.92,208.98,-120.07,211.05      ->apu-ch3;
+cell foro:tffnl      rot0,flip @-124.34,208.98,-120.91,211.05      ->apu-ch3;
+cell fovo:nand2      rot0,flip @-124.85,208.98,-124.34,211.04 comp ->apu-ch3;
+cell fave:tffnl      rot0,flip @-128.27,208.97,-124.85,211.05      ->apu-ch3;
+cell fazo:not_x1     rot0,flip @-128.61,208.97,-128.27,211.05      ->apu-ch2;
+cell fyru:tffnl      rot0,flip @-132.03,208.98,-128.60,211.05      ->apu-ch3;
+cell fexu:dffr       rot0,flip @-134.92,208.98,-132.02,211.04      ->apu-ch3;
+cell fory:tffnl      rot0,flip @-138.36,208.98,-134.93,211.03      ->apu-ch3;
+cell falu:not_x1     rot0,flip @-138.71,208.98,-138.35,211.04      ->apu-ch3;
+cell fevo:not_x1     rot0,flip @-139.21,208.98,-138.88,211.04      ->apu-ch3;
+cell fowa:nor3       rot0,flip @-139.90,208.97,-139.21,211.04      ->apu-ch4;
+cell fyfo:nor_latch  rot0,flip @-140.93,208.98,-139.89,211.03      ->apu-ch1;
+cell feku:dffr       rot0,flip @-143.82,208.96,-140.91,211.05      ->apu-ch1;
+cell foze:not_if0    rot0,flip @-144.84,208.98,-143.82,211.02      ->apu-ch1;
+cell feva:tffnl      rot0,flip @-148.27,208.96,-144.83,211.04      ->apu-ch1;
+cell foke:and2       rot0,flip @-148.95,208.97,-148.26,211.02      ->apu-ch1;
+cell fare:dffr       rot0,flip @-151.87,208.96,-148.95,211.03      ->apu-ch1;
+cell fume:not_x1     rot0,flip @-152.20,208.97,-151.85,211.02      ->apu-ch1;
+cell foru:not_if0    rot0,flip @-153.23,208.97,-152.20,211.03      ->apu-ch1;
+cell fyte:dffr       rot0,flip @-156.12,208.96,-153.22,211.02      ->apu-ch1;
+cell fega:and2       rot0,flip @-156.80,208.96,-156.13,211.03      ->apu-ch1;
+cell fopu:and2       rot0,flip @-157.48,208.96,-156.81,211.03      ->apu-ch1;
+cell femy:nor2       rot0,flip @-158.17,208.97,-157.66,211.02      ->apu-ch1;
+cell favy:tffnl      rot0,flip @-161.60,208.96,-158.16,211.03      ->apu-ch4;
+cell fulo:nor2       rot0,flip @-162.11,208.97,-161.60,211.03      ->apu-ch1;
+cell fely:dffsr      rot0,flip @-165.88,208.96,-162.10,211.04      ->apu-ch1;
+cell faxo:dffr_cc_q  rot0,flip @-168.10,208.97,-165.85,211.03      ->apu-ch1;
+cell fego:full_add   rot0,flip @-171.51,208.96,-168.09,211.02      ->apu-ch1;
+cell fedo:dffsr      rot0,flip @-175.26,208.95,-171.52,211.02      ->apu-ch1;
+cell fude:dffsr      rot0,flip @-179.02,208.94,-175.25,211.02      ->apu-ch1;
+cell fohy:not_x1     rot0,flip @-179.38,208.94,-179.03,211.02      ->apu-ch1;
+cell fure:xor        rot0,flip @-180.39,208.95,-179.36,211.02      ->apu-ch1;
+cell fabu:dffsr      rot0,flip @-184.14,208.95,-180.40,211.01      ->apu-ch1;
+cell faja:not_x1     rot0,flip @-184.48,208.96,-184.13,211.02      ->apu-ch1;
+cell fosy:dffr       rot0,flip @-187.40,208.96,-184.48,211.01      ->apu-ch4;
+cell femu:nand_latch rot0,flip @-188.43,208.95,-187.38,211.02      ->apu-ch1;
+cell fylo:tffnl      rot0,flip @-191.85,208.95,-188.42,211.01      ->apu-ch4;
+cell fyne:not_x3     rot0,flip @-192.53,208.95,-191.84,211.02      ->apu-control;
+cell fale:nor2       rot0,flip @-193.04,208.95,-192.52,211.01      ->apu-ch4;
+cell foxe:nand2      rot0,flip @-193.55,208.96,-193.03,211.00 comp ->apu-ch4;
+cell feby:not_x1     rot0,flip @-193.91,208.95,-193.55,211.01      ->apu-ch4;
+cell fape:nand2      rot0,flip @-194.41,208.95,-193.89,211.00      ->apu-ch2;
+cell foge:not_x1     rot0,flip @-194.75,208.95,-194.40,211.00      ->apu-ch2;
+cell furu:not_x1     rot0,flip @-195.09,208.94,-194.73,211.02      ->apu-ch4;
+cell fugo:dffr       rot0,flip @-197.99,208.95,-195.08,211.02      ->apu-ch4;
+cell feme:mux        rot0,flip @-199.01,208.95,-197.98,211.00      ->apu-ch4;
+cell fyto:drlatch_ee rot0,flip @-200.73,208.94,-199.02,211.00      ->apu-ch4;
+cell feta:drlatch_ee rot0,flip @-202.44,208.95,-200.72,211.02      ->apu-ch4;
+cell fura:nor3       rot0,flip @-203.13,208.95,-202.45,211.01      ->apu-ch4;
+cell felo:or3        rot0,flip @-203.98,208.95,-203.13,211.00      ->apu-ch4;
+cell fexo:not_x1     rot0,flip @-204.32,208.94,-203.98,211.00      ->apu-ch4;
+cell fupa:not_x2     rot0,flip @-204.84,208.95,-204.31,210.99 comp ->apu-ch4;
+cell fyno:dffr       rot0,flip @-207.75,208.94,-204.82,211.00      ->apu-ch4;
+cell fole:ao22       rot0,flip @-209.10,208.94,-207.73,210.99      ->apu-ch4;
+cell feko:tffnl      rot0,flip @-212.54,208.95,-209.10,211.00      ->apu-ch4;
+cell fegy:or3        rot0,flip @-213.38,208.94,-212.52,211.02      ->apu-ch4;
+cell faty:tffnl      rot0,flip @-216.80,208.94,-213.38,211.00      ->apu-ch4;
+cell fyro:tffnl      rot0,flip @-220.23,208.93,-216.78,211.01      ->apu-ch4;
+cell feru:tffnl      rot0,flip @-223.63,208.91,-220.21,211.01      ->apu-ch4;
 
 
 # Wires originating from column F on right hand side
 # --------------------------------------------------
 
 wire faju:ctl
-	faju.q -> gugu.~s
+	faju.y -> gugu.~s
 	@-61.55,210.80,-61.55,213.41,-62.06,213.41,-62.06,214.11;
 
 wire foto:ctl
-	foto.q -> gyry.in3
+	foto.y -> gyry.in3
 	@-62.23,210.79,-62.23,213.41,-62.58,213.41,-62.58,214.11;
 
 wire fety:ctl
@@ -130,16 +130,16 @@ wire ~fety:data
 	@-64.95,210.79,-64.95,212.98,-63.43,212.98,-63.43,210.79;
 
 wire fabo:clk
-	fabo.q -> gyta.clk gara.clk
+	fabo.y -> gyta.clk gara.clk
 	@-65.48,210.79,-65.48,213.27,-67.37,213.27,-67.37,218.56,-70.28,218.56,-70.28,215.59;
 
 wire fury:ctl
-	fury.q -> gara.~r gulo.in
+	fury.y -> gara.~r gulo.in
 	@-65.99,210.78,-65.99,213.41,-70.95,213.41,-70.95,217.41,-72.15,217.41
 	@-72.15,215.59,-72.15,217.70,-73.34,217.70,-73.34,215.59;
 
 wire fujy:ctl
-	fujy.q -> gyre.in3
+	fujy.y -> gyre.in3
 	@-67.70,210.78,-67.70,213.27,-77.44,213.27,-77.44,214.09;
 
 wire foba:ctl
@@ -150,11 +150,11 @@ wire foba:ctl
 # foba.~q is not connected
 
 wire fako:ctl
-	fako.q -> gavu.~r
+	fako.y -> gavu.~r
 	@-75.21,210.79,-75.21,212.24,-75.90,212.24,-75.90,214.10;
 
 wire fene:ctl
-	fene.q -> gavu.ena
+	fene.y -> gavu.ena
 	@-75.56,210.79,-75.56,214.13;
 
 wire fofe:data
@@ -201,25 +201,25 @@ wire ~fuxo:data
 	@-91.28,210.77,-91.28,212.38,-111.79,212.37,-111.79,214.09;
 
 wire fuvo:ctl
-	fuvo.q -> gugu.~r
+	fuvo.y -> gugu.~r
 	@-92.30,210.77,-92.30,212.12,-61.20,212.13,-61.20,214.12;
 
 wire fuva:ctl
-	fuva.q -> hufo.~ena juvy.~ena jura.~ena
+	fuva.y -> hufo.~ena juvy.~ena jura.~ena
 	@-94.01,210.77,-94.01,212.66,-68.73,212.68,-68.73,218.30,-68.05,218.30,-68.05,222.91,-65.83,222.91,-65.83,223.38
 	@-66.86,222.91,-66.86,223.38;
 
 wire ff1d:dec
-	feny.q -> hoxa.in jafa.in1 kota.in1
+	feny.y -> hoxa.in jafa.in1 kota.in1
 	@-94.52,210.78,-94.52,211.87,-100.16,211.87,-100.16,217.14,-101.02,217.14,-101.02,221.96,-104.63,221.96,
 	 -104.63,227.41,-105.14,227.41,-105.14,229.18;
 
 wire foku:ctl
-	foku.q -> fero.~ena
+	foku.y -> fero.~ena
 	@-94.86,209.26,-94.86,207.76,-96.91,207.76,-96.91,209.27;
 
 wire futy:ctl
-	futy.q -> fava.~ena fose.~ena fajy.~ena fegu.~ena gadu.~ena gaky.~ena gero.~ena gazo.~ena
+	futy.y -> fava.~ena fose.~ena fajy.~ena fegu.~ena gadu.~ena gaky.~ena gero.~ena gazo.~ena
 	@-95.38,210.78,-95.38,212.79,-83.24,212.80,-83.24,214.11
 	@-95.38,212.62,-110.25,212.62,-110.25,217.39,-112.30,217.39,-112.30,215.58
 	@-111.28,217.39,-111.28,215.58
@@ -228,17 +228,17 @@ wire futy:ctl
 	@-76.75,208.84,-70.94,208.84,-70.94,209.27;
 
 wire fule:data
-	fule.q -> foke.in2
+	fule.y -> foke.in2
 	@-95.72,209.29,-95.72,208.57,-148.53,208.54,-148.53,209.26;
 
 wire fyxo:ctl
-	fyxo.q -> goda.~ena gumy.~ena gupu.~ena
+	fyxo.y -> goda.~ena gumy.~ena gupu.~ena
 	@-96.06,210.77,-96.06,212.96
 	@-95.38,214.09,-95.38,212.96,-98.80,212.96,-98.80,214.09
 	@-97.09,212.96,-97.09,214.09;
 
 wire fewa:ctl
-	fewa.q -> fate.~ena
+	fewa.y -> fate.~ena
 	@-96.57,209.26,-96.57,207.25,-92.45,207.25,-92.45,209.27;
 
 wire ff26_d4:ctl
@@ -262,11 +262,11 @@ wire ch2_env3:ctl
 # fena.~q is not connected
 
 wire fery:dec
-	fery.q -> guza.in1
+	fery.y -> guza.in1
 	@-102.04,210.78,-102.04,212.96,-101.70,212.96,-101.70,214.10;
 
 wire fopy:ctl
-	fopy.q -> fena.~tclk
+	fopy.y -> fena.~tclk
 	@-103.41,210.77,-103.41,212.49,-101.70,212.49,-101.70,210.78;
 
 wire ch2_env2:ctl
@@ -280,7 +280,7 @@ wire ~fomy:ctl
 	@-106.31,210.78,-106.31,213.64,-102.73,213.64,-102.73,210.76;
 
 wire ~ch2_amp_en:ctl
-	fute.q -> ares.in1 esyk.in3 tace.in2 # TODO: connect to analog parts
+	fute.y -> ares.in1 esyk.in3 tace.in2 # TODO: connect to analog parts
 	@-107.85,209.26,-107.85,207.88,-131.61,207.87,-131.61,202.75,-131.26,202.75,-131.26,192.31,-131.42,192.31,
 	 -131.42,188.24,-126.11,188.24,-126.11,181.83,-125.94,181.83,-125.94,177.95,-124.55,177.95,-124.55,176.97,
 	 -124.79,176.97,-124.79,173.45,-126.67,173.45,-126.67,175.32,-154.69,175.31,-154.69,171.40,-142.06,171.40
@@ -315,11 +315,11 @@ wire ~fete:ctl
 	@-112.46,209.27,-112.46,208.70,-107.33,208.70,-107.33,205.63;
 
 wire fyre:ctl
-	fyre.q -> gufy.in2
+	fyre.y -> gufy.in2
 	@-113.32,210.76,-113.32,212.63,-113.50,212.63,-113.50,214.09;
 
 wire faru:ctl
-	faru.q -> fete.~tclk
+	faru.y -> fete.~tclk
 	@-114.68,210.75,-114.68,212.20,-112.98,212.20,-112.98,210.73;
 
 wire ch2_env0:ctl
@@ -334,11 +334,11 @@ wire ~feno:ctl
 	@-117.59,210.77,-117.59,211.76,-114.00,211.76,-114.00,210.74;
 
 wire fyry:dec
-	fyry.q -> guru.in1
+	fyry.y -> guru.in1
 	@-118.45,210.75,-118.45,212.61,-117.42,212.61,-117.42,214.08;
 
 wire fasy:ctl
-	fasy.q -> geko.~ena
+	fasy.y -> geko.~ena
 	@-118.96,210.76,-118.96,213.13,-120.34,213.13,-120.34,214.09;
 
 wire fozu:ctl
@@ -348,7 +348,7 @@ wire fozu:ctl
 # fozu.~q is not connected
 
 wire fygo:ctl
-	fygo.q -> fozu.r
+	fygo.y -> fozu.r
 	@-120.84,209.26,-120.84,208.30,-119.98,208.30,-119.98,209.27;
 
 wire foro:clk
@@ -358,7 +358,7 @@ wire foro:clk
 # foro.~q is not connected
 
 wire fovo:ctl
-	fovo.q -> gygu.in hoto.~ena
+	fovo.y -> gygu.in hoto.~ena
 	@-124.77,210.77,-124.77,211.93,-123.07,211.93,-123.07,219.00;
 
 wire fave:clk
@@ -368,7 +368,7 @@ wire fave:clk
 # fave.~q is not connected
 
 wire fazo:rst
-	fazo.q -> emer.~r
+	fazo.y -> emer.~r
 	@-128.53,209.26,-128.53,206.72,-130.41,206.72,-130.41,205.63;
 
 # fyru.q is not connected
@@ -392,15 +392,15 @@ wire fory:clk
 # fory.~q is not connected
 
 wire falu:clk
-	falu.q -> gemo.~tclk
+	falu.y -> gemo.~tclk
 	@-138.62,210.75,-138.62,213.20,-129.56,213.20,-129.56,214.09;
 
 wire fevo:data
-	fevo.q -> geko.in
+	fevo.y -> geko.in
 	@-139.13,210.73,-139.13,213.49,-120.84,213.51,-120.84,214.09;
 
 wire ch4_eg_disable:ctl
-	fowa.q -> felo.in2 gopa.in2
+	fowa.y -> felo.in2 gopa.in2
 	@-139.81,210.76,-139.81,212.61,-185.44,212.59,-185.44,214.05
 	@-185.44,213.60,-203.38,213.59,-203.38,210.70;
 
@@ -446,7 +446,7 @@ wire ~feva:data
 	@-147.67,210.75,-147.67,213.07,-145.28,213.07,-145.28,214.08;
 
 wire foke:data
-	foke.q -> gyfu.in1
+	foke.y -> gyfu.in1
 	@-148.87,210.73,-148.87,213.50,-156.22,213.50,-156.22,214.07;
 
 wire fare:ctl
@@ -457,7 +457,7 @@ wire fare:ctl
 # fare.~q is not connected
 
 wire fume:ctl
-	fume.q -> gaxe.l hyfe.l jyty.l kyna.l
+	fume.y -> gaxe.l hyfe.l jyty.l kyna.l
 	@-152.12,210.75,-152.12,213.07,-152.63,213.07,-152.63,216.13,-154.34,216.13
 	@-154.34,215.55,-154.34,216.55,-156.57,216.55,-156.57,218.97
 	@-154.85,216.55,-154.85,222.49,-155.38,222.49,-155.38,225.52,-153.67,225.52
@@ -472,15 +472,15 @@ wire ch1_restart_dly:ctl
 # fyte.~q is not connected
 
 wire fega:data
-	fega.q -> gamo.in1
+	fega.y -> gamo.in1
 	@-156.73,210.74,-156.73,213.33,-156.91,213.33,-156.91,214.07;
 
 wire fopu:data
-	fopu.q -> gato.in1
+	fopu.y -> gato.in1
 	@-157.41,210.74,-157.41,211.57,-150.58,211.57,-150.58,214.09;
 
 wire femy:ctl
-	femy.q -> gexu.~r
+	femy.y -> gexu.~r
 	@-158.10,210.74,-158.10,212.48,-159.98,212.48,-159.98,214.07;
 
 wire favy:clk
@@ -490,7 +490,7 @@ wire favy:clk
 # favy.~q is not connected
 
 wire fulo:clk
-	fulo.q -> geku.in
+	fulo.y -> geku.in
 	@-162.03,210.74,-162.03,213.45,-161.69,213.45,-161.69,214.05;
 
 wire acc_d4:data
@@ -530,11 +530,11 @@ wire fude:data
 # fude.~q is not connected
 
 wire fohy:data
-	fohy.q -> evof.in2
+	fohy.y -> evof.in2
 	@-179.29,209.23,-179.29,207.20,-182.36,207.20,-182.36,205.58;
 
 wire fure:data
-	fure.q -> epyr.d
+	fure.y -> epyr.d
 	@-179.45,209.23,-179.45,208.66,-179.97,208.66,-179.97,205.59;
 
 wire fabu:data
@@ -544,7 +544,7 @@ wire fabu:data
 # fabu.~q is not connected
 
 wire faja:clk
-	faja.q -> ejyb.in
+	faja.y -> ejyb.in
 	@-184.41,209.24,-184.41,208.66,-182.88,208.66,-182.88,205.60;
 
 wire ch4_eg_tick:clk
@@ -565,36 +565,36 @@ wire fylo:clk
 	@-188.51,209.23,-188.51,208.48,-191.42,208.48,-191.42,205.59;
 
 wire fyne:clk
-	fyne.q -> gale.d0
+	fyne.y -> gale.d0
 	@-192.45,210.72,-192.45,211.85,-177.40,211.87,-177.40,214.06;
 
 wire fale:ctl
-	fale.q -> gone.~r helu.in
+	fale.y -> gone.~r helu.in
 	@-192.95,210.73,-192.95,213.18,-186.98,213.18,-186.98,214.05
 	@-188.19,213.18,-188.19,217.99,-189.55,217.99,-189.55,218.95;
 
 wire foxe:ctl
-	foxe.q -> goxo.in hoga.~ena
+	foxe.y -> goxo.in hoga.~ena
 	@-193.48,210.73,-193.48,217.05,-192.79,217.05,-192.79,218.96;
 
 wire feby:rst
-	feby.q -> gora.~r gaty.~r
+	feby.y -> gora.~r gaty.~r
 	@-193.82,210.70,-193.82,213.48
 	@-195.87,214.04,-195.87,213.48,-192.62,213.48
 	@-194.67,213.48,-194.67,214.04
 	@-192.62,214.05,-192.62,212.92,-191.42,212.92,-191.42,214.05;
 
 wire fape:ctl
-	fape.q -> guza.in2 hypo.in2
+	fape.y -> guza.in2 hypo.in2
 	@-194.32,210.72,-194.32,217.48,-106.16,217.51
 	@-106.16,218.98,-106.16,217.09,-101.88,217.09,-101.88,215.57;
 
 wire foge:ctl
-	foge.q -> fape.in1
+	foge.y -> fape.in1
 	@-194.66,209.22,-194.66,208.77,-193.98,208.77,-193.98,209.22;
 
 wire furu:ctl
-	furu.q -> gapy.in1
+	furu.y -> gapy.in1
 	@-195.00,210.72,-195.00,213.05,-196.72,213.05,-196.72,214.04;
 
 wire fugo:ctl
@@ -607,7 +607,7 @@ wire ~fugo:ctl
 	@-197.74,209.22,-197.74,208.39,-196.20,208.39,-196.20,209.23;
 
 wire ch4_lfsr_clk1:clk
-	feme.q -> ezul.d1 gufa.in hepa.clk hory.clk heno.clk hyro.clk hezu.clk jyja.in
+	feme.y -> ezul.d1 gufa.in hepa.clk hory.clk heno.clk hyro.clk hezu.clk jyja.in
 	@-203.06,222.04,-198.27,222.04,-198.27,217.99,-189.72,217.99,-189.72,211.73,-198.94,211.73,-198.94,208.48,
 	 -222.18,208.46,-222.18,205.59
 	@-203.06,220.43,-203.06,222.42,-207.50,222.42,-207.50,223.30
@@ -641,16 +641,16 @@ wire ~ff22_d4:ctl
 	@-203.73,202.59,-210.21,202.58,-210.21,204.09;
 
 wire fura:ctl
-	fura.q -> dary.in2 etyr.in6
+	fura.y -> dary.in2 etyr.in6
 	@-203.05,209.23,-203.05,208.22,-199.78,208.22,-199.78,202.37,-203.54,202.37,-203.54,200.72;
 
 wire felo:clk
-	felo.q -> fole.in2 fole.in3
+	felo.y -> fole.in2 fole.in3
 	@-203.89,210.72,-203.89,212.79,-208.34,212.79,-208.34,210.70
 	@-208.00,212.79,-208.00,210.72;
 
 wire fexo:rst
-	fexo.q -> etyj.~r ezyk.~r emok.~r garu.~r geky.~r gedu.~r goky.~r gozo.~r
+	fexo.y -> etyj.~r ezyk.~r emok.~r garu.~r geky.~r gedu.~r goky.~r gozo.~r
 	@-140.32,207.36,-204.24,207.32,-204.24,212.66,-206.63,212.66,-206.63,214.05
 	@-140.32,205.63,-140.32,207.48,-138.61,207.48
 	@-138.61,205.62,-138.61,208.42,-136.90,208.42,-136.90,205.62
@@ -659,7 +659,7 @@ wire fexo:rst
 	@-210.05,213.34,-210.05,214.07;
 
 wire fupa:ctl
-	fupa.q -> garu.~ena geky.~ena gedu.~ena goky.~ena gozo.~ena
+	fupa.y -> garu.~ena geky.~ena gedu.~ena goky.~ena gozo.~ena
 	@-204.75,210.71,-204.75,212.37,-205.95,212.37,-205.95,214.06
 	@-205.95,213.17,-209.37,213.17,-209.37,214.05
 	@-207.66,213.17,-207.66,214.04
@@ -671,7 +671,7 @@ wire fyno:ctl
 	@-207.65,209.21,-207.65,207.15,-205.94,207.15,-205.94,205.59;
 
 wire fole:ctl
-	fole.q -> feko.~tclk
+	fole.y -> feko.~tclk
 	@-209.02,210.71,-209.02,212.66,-212.45,212.66,-212.45,210.72;
 
 wire ch4_env0:ctl
@@ -684,7 +684,7 @@ wire ~feko:ctl
 	@-211.93,209.22,-211.93,207.36,-214.83,207.36,-214.83,205.59;
 
 wire fegy:ctl
-	fegy.q -> gena.r
+	fegy.y -> gena.r
 	@-213.30,210.72,-213.30,212.66,-219.11,212.66,-219.11,214.05;
 
 wire ch4_env1:ctl

@@ -1,33 +1,33 @@
 # Cells in row D in top center
 # ----------------------------
 
-cell daku:inv_a       rot270 @-72.27,148.61,-70.19,148.95 ->serial;
-cell dovu:dffsr       rot270 @-72.26,148.94,-70.19,152.73 ->serial;
-cell dame:tri_inv_if1 rot270 @-72.25,152.71,-70.20,153.73 ->serial;
-cell dyly:oa          rot270 @-72.26,153.73,-70.19,154.59 ->serial;
-cell dola:nand2       rot270 @-72.27,154.59,-70.18,155.11 ->serial;
-cell deho:inv_a       rot270 @-72.27,155.09,-70.19,155.45 ->serial;
-cell dawe:inv_b       rot270 @-72.27,155.44,-70.19,155.95 ->serial;
-cell dojo:dffsr       rot270 @-72.27,155.95,-70.20,159.71 ->serial;
-cell daso:tri_inv_if1 rot270 @-72.27,159.71,-70.20,160.73 ->serial;
-cell daju:oa          rot270 @-72.27,160.73,-70.20,161.59 ->serial;
-cell dyge:nand2       rot270 @-72.27,161.59,-70.20,162.10 ->serial;
-cell dyra:dffsr       rot270 @-72.27,162.10,-70.21,165.88 ->serial;
-cell detu:tri_inv_if1 rot270 @-72.26,165.87,-70.20,166.90 ->serial;
-cell dybo:oa          rot270 @-72.27,166.89,-70.21,167.76 ->serial;
-cell dela:nand2       rot270 @-72.27,167.75,-70.21,168.27 ->serial;
-cell degu:dffsr       rot270 @-72.27,168.26,-70.22,172.02 ->serial;
-cell dude:tri_inv_if1 rot270 @-72.29,172.01,-70.23,173.05 ->serial;
-cell dumo:oa          rot270 @-72.27,173.04,-70.22,173.91 ->serial;
-cell docu:nand2       rot270 @-72.29,173.89,-70.21,174.41 ->serial;
-cell dawa:or2         rot270 @-72.30,175.09,-70.20,175.77 ->serial;
+cell daku:not_x1  rot270 @-72.27,148.61,-70.19,148.95 ->serial;
+cell dovu:dffsr   rot270 @-72.26,148.94,-70.19,152.73 ->serial;
+cell dame:not_if1 rot270 @-72.25,152.71,-70.20,153.73 ->serial;
+cell dyly:oa21    rot270 @-72.26,153.73,-70.19,154.59 ->serial;
+cell dola:nand2   rot270 @-72.27,154.59,-70.18,155.11 ->serial;
+cell deho:not_x1  rot270 @-72.27,155.09,-70.19,155.45 ->serial;
+cell dawe:not_x2  rot270 @-72.27,155.44,-70.19,155.95 ->serial;
+cell dojo:dffsr   rot270 @-72.27,155.95,-70.20,159.71 ->serial;
+cell daso:not_if1 rot270 @-72.27,159.71,-70.20,160.73 ->serial;
+cell daju:oa21    rot270 @-72.27,160.73,-70.20,161.59 ->serial;
+cell dyge:nand2   rot270 @-72.27,161.59,-70.20,162.10 ->serial;
+cell dyra:dffsr   rot270 @-72.27,162.10,-70.21,165.88 ->serial;
+cell detu:not_if1 rot270 @-72.26,165.87,-70.20,166.90 ->serial;
+cell dybo:oa21    rot270 @-72.27,166.89,-70.21,167.76 ->serial;
+cell dela:nand2   rot270 @-72.27,167.75,-70.21,168.27 ->serial;
+cell degu:dffsr   rot270 @-72.27,168.26,-70.22,172.02 ->serial;
+cell dude:not_if1 rot270 @-72.29,172.01,-70.23,173.05 ->serial;
+cell dumo:oa21    rot270 @-72.27,173.04,-70.22,173.91 ->serial;
+cell docu:nand2   rot270 @-72.29,173.89,-70.21,174.41 ->serial;
+cell dawa:or2     rot270 @-72.30,175.09,-70.20,175.77 ->serial;
 
 
 # Wires originating from row D in top center
 # ------------------------------------------
 
 wire daku:ctl
-	daku.q -> cufu.in2 dola.in2 dyge.in2 dela.in2 docu.in2 elok.in2 edel.in2 efef.in2
+	daku.y -> cufu.in2 dola.in2 dyge.in2 dela.in2 docu.in2 elok.in2 edel.in2 efef.in2
 	@-72.00,148.86,-72.42,148.86
 	@-77.28,167.66,-77.74,167.66,-77.74,161.49,-77.73,155.35,-77.72,147.65,-72.42,147.65,-72.42,148.86,-72.42,154.83,-72.44,161.84,-72.45,168.00,-72.45,174.15,-67.38,174.15
 	@-77.74,161.49,-77.27,161.49
@@ -45,20 +45,20 @@ wire ~dovu:data
 	@-70.48,151.43,-70.05,151.43,-70.05,153.30,-70.49,153.30;
 
 wire dyly:data
-	dyly.q -> dovu.~r
+	dyly.y -> dovu.~r
 	@-70.48,154.51,-69.36,154.51,-69.36,151.77,-70.50,151.77;
 
 wire dola:data
-	dola.q -> dovu.~s
+	dola.y -> dovu.~s
 	@-70.48,155.02,-69.20,155.02,-69.20,151.26,-70.50,151.26
 	@-70.04,151.26,-70.04,149.04,-70.49,149.04;
 
 wire deho:clk
-	deho.q -> dawe.in
+	deho.y -> dawe.in
 	@-71.99,155.36,-72.43,155.36,-72.43,155.52,-71.98,155.52;
 
 wire dawe:clk
-	dawe.q -> cuba.clk dojo.clk dyra.clk degu.clk
+	dawe.y -> cuba.clk dojo.clk dyra.clk degu.clk
 	@-71.99,155.87,-73.12,155.87,-73.12,159.63,-73.13,165.77,-73.14,171.93,-67.38,171.93
 	@-73.12,159.63,-71.97,159.63
 	@-73.13,165.77,-71.98,165.77;
@@ -72,11 +72,11 @@ wire ~dojo:data
 	@-70.50,158.43,-70.05,158.43,-70.05,160.31,-70.52,160.31;
 
 wire daju:data
-	daju.q -> dojo.~r
+	daju.y -> dojo.~r
 	@-70.48,161.50,-69.37,161.50,-69.37,158.77,-70.52,158.77;
 
 wire dyge:data
-	dyge.q -> dojo.~s
+	dyge.y -> dojo.~s
 	@-70.49,162.02,-69.20,162.02,-69.20,158.25,-70.50,158.25
 	@-70.04,158.25,-70.04,156.04,-70.49,156.04;
 
@@ -89,11 +89,11 @@ wire ~dyra:data
 	@-70.49,164.59,-70.05,164.59,-70.05,166.47,-70.51,166.47;
 
 wire dybo:data
-	dybo.q -> dyra.~r
+	dybo.y -> dyra.~r
 	@-70.50,167.67,-69.38,167.67,-69.38,164.93,-70.51,164.93;
 
 wire dela:data
-	dela.q -> dyra.~s
+	dela.y -> dyra.~s
 	@-70.50,168.19,-69.20,168.19,-69.20,164.41,-70.51,164.41
 	@-70.05,164.41,-70.05,162.19,-70.48,162.19;
 
@@ -106,16 +106,16 @@ wire ~degu:data
 	@-70.49,170.73,-70.06,170.73,-70.06,172.61,-70.52,172.61;
 
 wire dumo:data
-	dumo.q -> degu.~r
+	dumo.y -> degu.~r
 	@-70.52,173.81,-69.38,173.81,-69.38,171.08,-70.51,171.08;
 
 wire docu:data
-	docu.q -> degu.~s
+	docu.y -> degu.~s
 	@-70.52,174.33,-69.20,174.33,-69.20,170.56,-70.52,170.56
 	@-70.06,170.56,-70.06,168.35,-70.48,168.35;
 
 wire dawa:clk
-	dawa.q -> cafa.clk edyl.in kujo.in2 kexu.in1
+	dawa.y -> cafa.clk edyl.in kujo.in2 kexu.in1
 	@-67.37,157.91,-68.85,157.91,-68.88,175.69,-74.85,175.69
 	@-75.81,171.41,-74.85,171.41,-74.85,175.69,-74.84,181.03,-107.72,181.02,-107.72,182.21,-133.96,182.20,
 	 -133.96,188.30,-134.67,188.30,-134.67,203.43,-135.70,203.43,-135.70,207.32,-136.22,207.32,-136.22,212.37,

@@ -1,89 +1,89 @@
 # Cells in column V in bottom left corner
 # ---------------------------------------
 
-cell vypu:inv_c       rot0,flip @-124.34,58.23,-123.67,60.30         ->ppu-stat;
-cell voty:inv_c       rot0,flip @-125.03,58.23,-124.34,60.27         ->ppu-stat;
-cell vulo:tri_inv_if0 rot0,flip @-126.05,58.23,-125.03,60.28         ->ppu-window;
-cell vovo:tri_inv_if0 rot0,flip @-127.08,58.23,-126.05,60.27         ->ppu-window;
-cell vyno:dffr_b2     rot0,flip @-129.98,58.23,-127.07,60.27         ->ppu-window;
-cell vejy:tri_inv_if1 rot0,flip @-131.02,58.24,-129.99,60.27         ->ppu-bgfifo;
-cell vace:tri_inv_if0 rot0,flip @-132.04,58.23,-131.01,60.27         ->ppu-window;
-cell veha:tri_inv_if0 rot0,flip @-133.06,58.23,-132.04,60.27         ->ppu-window;
-cell vujo:dffr_b2     rot0,flip @-135.97,58.23,-133.05,60.27         ->ppu-window;
-cell vymu:dffr_b2     rot0,flip @-138.88,58.22,-135.96,60.27         ->ppu-window;
-cell vyto:tri_inv_if0 rot0,flip @-139.90,58.22,-138.87,60.27         ->ppu-window;
-cell veza:tri_inv_if0 rot0,flip @-140.93,58.23,-139.89,60.27         ->ppu-window;
-cell vypo:const       rot0,flip @-141.27,58.23,-140.91,60.27 trivial ->ppu-bgfifo;
-cell vetu:and2        rot0,flip @-141.95,58.22,-141.27,60.26         ->ppu-cycles;
-cell vapy:tri_inv_if1 rot0,flip @-142.98,58.23,-141.94,60.27         ->ppu-bgfifo;
-cell vevy:tri_inv_if0 rot0,flip @-144.00,58.24,-142.98,60.27         ->ppu-window;
-cell vogu:tri_inv_if0 rot0,flip @-145.02,58.23,-144.00,60.27         ->ppu-window;
-cell vuza:nor2        rot0,flip @-145.55,58.23,-145.02,60.27         ->ppu-bgfifo;
-cell vury:tri_inv_if1 rot0,flip @-146.57,58.22,-145.54,60.27         ->ppu-bgfifo;
-cell vama:nand5       rot0,flip @-147.59,58.21,-146.55,60.26         ->ppu-decode;
-cell vova:inv_a       rot0,flip @-147.93,58.22,-147.58,60.26         ->ppu-vram;
-cell vyga:inv_b       rot0,flip @-148.45,58.20,-147.92,60.27         ->ppu-decode;
-cell vumy:inv_b       rot0,flip @-148.95,58.21,-148.44,60.26         ->ppu-decode;
-cell vary:inv_b       rot0,flip @-149.48,58.21,-148.95,60.25         ->ppu-decode;
-cell voca:inv_b       rot0,flip @-149.98,58.23,-149.46,60.25         ->ppu-decode;
-cell veku:nor2        rot0,flip @-150.49,58.22,-149.98,60.27         ->ppu-ycomp;
-cell voga:dffr_b2     rot0,flip @-153.40,58.22,-150.48,60.26         ->ppu-stat;
-cell vybo:nor3        rot0,flip @-154.09,58.21,-153.38,60.27         ->ppu-cycles;
-cell vonu:dffr_b2     rot0,flip @-156.98,58.21,-154.08,60.27         ->ppu-ycomp;
-cell vape:and2        rot0,flip @-157.68,58.22,-156.99,60.25         ->ppu-oam;
-cell vycu:inv_a       rot0,flip @-158.02,58.22,-157.68,60.26         ->ppu-window;
-cell vaha:tri_inv_if0 rot0,flip @-159.21,58.20,-158.19,60.24         ->ppu-control;
-cell vyxe:dr_latch    rot0,flip @-160.91,58.23,-159.20,60.26         ->ppu-control;
-cell voke:tri_inv_if0 rot0,flip @-161.95,58.21,-160.93,60.26         ->ppu-control;
-cell vyre:and2        rot0,flip @-162.63,58.22,-161.95,60.26         ->ppu-control;
-cell voxu:inv_a       rot0,flip @-162.97,58.21,-162.63,60.25 comp    ->ppu-window;
-cell vato:tri_inv_if0 rot0,flip @-164.00,58.21,-162.97,60.25         ->ppu-control;
-cell vefu:inv_a       rot0,flip @-164.34,58.22,-163.99,60.26 comp    ->ppu-window;
-cell varo:inv_a       rot0,flip @-164.69,58.22,-164.34,60.26         ->ppu-stat;
-cell vomy:inv_a       rot0,flip @-165.04,58.22,-164.68,60.26         ->ppu-window;
-cell vode:inv_a       rot0,flip @-165.38,58.20,-165.02,60.27         ->ppu-vram;
-cell vyco:inv_a       rot0,flip @-165.70,58.23,-165.37,60.26         ->ppu-mux;
-cell vely:and2        rot0,flip @-166.56,58.23,-165.88,60.26         ->ppu-pal;
-cell vuso:and2        rot0,flip @-167.25,58.22,-166.56,60.26         ->ppu-pal;
-cell vojo:tri_inv_if0 rot0,flip @-168.27,58.23,-167.25,60.26         ->ppu-stat;
-cell vyne:tri_inv_if0 rot0,flip @-169.30,58.20,-168.27,60.26         ->ppu-stat;
-cell vega:tri_inv_if0 rot0,flip @-170.33,58.22,-169.31,60.24         ->ppu-stat;
-cell vusa:or2         rot0,flip @-171.02,58.22,-170.32,60.25         ->ppu-ycomp;
-cell vafe:tri_inv_if0 rot0,flip @-172.03,58.21,-171.02,60.25         ->ppu-stat;
-cell vazu:tri_inv_if0 rot0,flip @-173.06,58.21,-172.02,60.24         ->ppu-stat;
-cell voze:inv_a       rot0,flip @-173.56,58.22,-173.23,60.26         ->ppu-stat;
-cell vuce:dr_latch    rot0,flip @-175.45,58.22,-173.75,60.26         ->ppu-stat;
-cell vafa:dr_latch    rot0,flip @-177.15,58.22,-175.45,60.25         ->ppu-stat;
-cell vevo:dr_latch    rot0,flip @-178.86,58.22,-177.15,60.26         ->ppu-stat;
-cell vena:dffr_b2     rot0,flip @-181.77,58.20,-178.87,60.25         ->ppu-lcd;
-cell vava:dffsr       rot0,flip @-185.71,58.21,-181.95,60.26         ->ppu-xcomp;
-cell vumo:dffsr       rot0,flip @-189.48,58.20,-185.70,60.26         ->ppu-xcomp;
-cell vezo:dffsr       rot0,flip @-193.23,58.19,-189.46,60.26         ->ppu-xcomp;
-cell vune:nand2       rot0,flip @-193.73,58.20,-193.22,60.24         ->ppu-objfifo;
-cell vave:inv_a       rot0,flip @-194.08,58.20,-193.73,60.23         ->ppu-stat;
-cell vupy:dffsr       rot0,flip @-197.84,58.21,-194.08,60.24         ->ppu-objfifo;
-cell vume:nand2       rot0,flip @-198.36,58.20,-197.83,60.25         ->ppu-objfifo;
-cell vanu:dffsr       rot0,flip @-202.11,58.20,-198.34,60.25         ->ppu-objfifo;
-cell vysa:or3         rot0,flip @-202.97,58.17,-202.11,60.24         ->ppu-xcomp;
-cell vaby:nand2       rot0,flip @-203.48,58.20,-202.96,60.24         ->ppu-objfifo;
-cell vafo:dffsr       rot0,flip @-207.25,58.20,-203.48,60.25         ->ppu-objfifo;
-cell vosa:dffsr       rot0,flip @-211.01,58.19,-207.23,60.23         ->ppu-xcomp;
-cell vexu:nand2       rot0,flip @-211.52,58.20,-211.01,60.23         ->ppu-objfifo;
-cell voto:or3         rot0,flip @-212.38,58.18,-211.52,60.24         ->ppu-xcomp;
-cell voby:inv_a       rot0,flip @-212.72,58.20,-212.37,60.23         ->ppu-objfifo;
-cell vare:dffsr       rot0,flip @-216.47,58.19,-212.70,60.25         ->ppu-objfifo;
-cell vyzo:dffr_b2     rot0,flip @-219.38,58.19,-216.47,60.23         ->ppu-lcd;
-cell vyro:and3        rot0,flip @-220.23,58.18,-219.37,60.23         ->ppu-mux;
-cell volo:and3        rot0,flip @-221.09,58.19,-220.23,60.23         ->ppu-mux;
-cell vata:and3        rot0,flip @-221.95,58.18,-221.09,60.23         ->ppu-mux;
-cell vuty:inv_a       rot0,flip @-222.46,58.18,-222.10,60.24         ->ppu-lcd;
-cell voku:nand7       rot0,flip @-223.83,58.19,-222.45,60.24         ->ppu-lcd;
-cell vate:inv_a       rot0,flip @-224.16,58.19,-223.81,60.24         ->ppu-lcd;
-cell vepe:inv_a       rot0,flip @-224.50,58.19,-224.16,60.23         ->ppu-lcd;
-cell vugo:and3        rot0,flip @-225.35,58.19,-224.49,60.24         ->ppu-mux;
-cell vumu:inv_a       rot0,flip @-225.69,58.20,-225.35,60.23         ->ppu-mux;
-cell vage:inv_a       rot0,flip @-226.04,58.19,-225.70,60.23         ->ppu-xcomp;
-cell vywa:inv_a       rot0,flip @-226.38,58.19,-226.04,60.24         ->ppu-ycomp;
+cell vypu:not_x3     rot0,flip @-124.34,58.23,-123.67,60.30         ->ppu-stat;
+cell voty:not_x3     rot0,flip @-125.03,58.23,-124.34,60.27         ->ppu-stat;
+cell vulo:not_if0    rot0,flip @-126.05,58.23,-125.03,60.28         ->ppu-window;
+cell vovo:not_if0    rot0,flip @-127.08,58.23,-126.05,60.27         ->ppu-window;
+cell vyno:dffr       rot0,flip @-129.98,58.23,-127.07,60.27         ->ppu-window;
+cell vejy:not_if1    rot0,flip @-131.02,58.24,-129.99,60.27         ->ppu-bgfifo;
+cell vace:not_if0    rot0,flip @-132.04,58.23,-131.01,60.27         ->ppu-window;
+cell veha:not_if0    rot0,flip @-133.06,58.23,-132.04,60.27         ->ppu-window;
+cell vujo:dffr       rot0,flip @-135.97,58.23,-133.05,60.27         ->ppu-window;
+cell vymu:dffr       rot0,flip @-138.88,58.22,-135.96,60.27         ->ppu-window;
+cell vyto:not_if0    rot0,flip @-139.90,58.22,-138.87,60.27         ->ppu-window;
+cell veza:not_if0    rot0,flip @-140.93,58.23,-139.89,60.27         ->ppu-window;
+cell vypo:tie        rot0,flip @-141.27,58.23,-140.91,60.27 trivial ->ppu-bgfifo;
+cell vetu:and2       rot0,flip @-141.95,58.22,-141.27,60.26         ->ppu-cycles;
+cell vapy:not_if1    rot0,flip @-142.98,58.23,-141.94,60.27         ->ppu-bgfifo;
+cell vevy:not_if0    rot0,flip @-144.00,58.24,-142.98,60.27         ->ppu-window;
+cell vogu:not_if0    rot0,flip @-145.02,58.23,-144.00,60.27         ->ppu-window;
+cell vuza:nor2       rot0,flip @-145.55,58.23,-145.02,60.27         ->ppu-bgfifo;
+cell vury:not_if1    rot0,flip @-146.57,58.22,-145.54,60.27         ->ppu-bgfifo;
+cell vama:nand5      rot0,flip @-147.59,58.21,-146.55,60.26         ->ppu-decode;
+cell vova:not_x1     rot0,flip @-147.93,58.22,-147.58,60.26         ->ppu-vram;
+cell vyga:not_x2     rot0,flip @-148.45,58.20,-147.92,60.27         ->ppu-decode;
+cell vumy:not_x2     rot0,flip @-148.95,58.21,-148.44,60.26         ->ppu-decode;
+cell vary:not_x2     rot0,flip @-149.48,58.21,-148.95,60.25         ->ppu-decode;
+cell voca:not_x2     rot0,flip @-149.98,58.23,-149.46,60.25         ->ppu-decode;
+cell veku:nor2       rot0,flip @-150.49,58.22,-149.98,60.27         ->ppu-ycomp;
+cell voga:dffr       rot0,flip @-153.40,58.22,-150.48,60.26         ->ppu-stat;
+cell vybo:nor3       rot0,flip @-154.09,58.21,-153.38,60.27         ->ppu-cycles;
+cell vonu:dffr       rot0,flip @-156.98,58.21,-154.08,60.27         ->ppu-ycomp;
+cell vape:and2       rot0,flip @-157.68,58.22,-156.99,60.25         ->ppu-oam;
+cell vycu:not_x1     rot0,flip @-158.02,58.22,-157.68,60.26         ->ppu-window;
+cell vaha:not_if0    rot0,flip @-159.21,58.20,-158.19,60.24         ->ppu-control;
+cell vyxe:drlatch_ee rot0,flip @-160.91,58.23,-159.20,60.26         ->ppu-control;
+cell voke:not_if0    rot0,flip @-161.95,58.21,-160.93,60.26         ->ppu-control;
+cell vyre:and2       rot0,flip @-162.63,58.22,-161.95,60.26         ->ppu-control;
+cell voxu:not_x1     rot0,flip @-162.97,58.21,-162.63,60.25 comp    ->ppu-window;
+cell vato:not_if0    rot0,flip @-164.00,58.21,-162.97,60.25         ->ppu-control;
+cell vefu:not_x1     rot0,flip @-164.34,58.22,-163.99,60.26 comp    ->ppu-window;
+cell varo:not_x1     rot0,flip @-164.69,58.22,-164.34,60.26         ->ppu-stat;
+cell vomy:not_x1     rot0,flip @-165.04,58.22,-164.68,60.26         ->ppu-window;
+cell vode:not_x1     rot0,flip @-165.38,58.20,-165.02,60.27         ->ppu-vram;
+cell vyco:not_x1     rot0,flip @-165.70,58.23,-165.37,60.26         ->ppu-mux;
+cell vely:and2       rot0,flip @-166.56,58.23,-165.88,60.26         ->ppu-pal;
+cell vuso:and2       rot0,flip @-167.25,58.22,-166.56,60.26         ->ppu-pal;
+cell vojo:not_if0    rot0,flip @-168.27,58.23,-167.25,60.26         ->ppu-stat;
+cell vyne:not_if0    rot0,flip @-169.30,58.20,-168.27,60.26         ->ppu-stat;
+cell vega:not_if0    rot0,flip @-170.33,58.22,-169.31,60.24         ->ppu-stat;
+cell vusa:or2        rot0,flip @-171.02,58.22,-170.32,60.25         ->ppu-ycomp;
+cell vafe:not_if0    rot0,flip @-172.03,58.21,-171.02,60.25         ->ppu-stat;
+cell vazu:not_if0    rot0,flip @-173.06,58.21,-172.02,60.24         ->ppu-stat;
+cell voze:not_x1     rot0,flip @-173.56,58.22,-173.23,60.26         ->ppu-stat;
+cell vuce:drlatch_ee rot0,flip @-175.45,58.22,-173.75,60.26         ->ppu-stat;
+cell vafa:drlatch_ee rot0,flip @-177.15,58.22,-175.45,60.25         ->ppu-stat;
+cell vevo:drlatch_ee rot0,flip @-178.86,58.22,-177.15,60.26         ->ppu-stat;
+cell vena:dffr       rot0,flip @-181.77,58.20,-178.87,60.25         ->ppu-lcd;
+cell vava:dffsr      rot0,flip @-185.71,58.21,-181.95,60.26         ->ppu-xcomp;
+cell vumo:dffsr      rot0,flip @-189.48,58.20,-185.70,60.26         ->ppu-xcomp;
+cell vezo:dffsr      rot0,flip @-193.23,58.19,-189.46,60.26         ->ppu-xcomp;
+cell vune:nand2      rot0,flip @-193.73,58.20,-193.22,60.24         ->ppu-objfifo;
+cell vave:not_x1     rot0,flip @-194.08,58.20,-193.73,60.23         ->ppu-stat;
+cell vupy:dffsr      rot0,flip @-197.84,58.21,-194.08,60.24         ->ppu-objfifo;
+cell vume:nand2      rot0,flip @-198.36,58.20,-197.83,60.25         ->ppu-objfifo;
+cell vanu:dffsr      rot0,flip @-202.11,58.20,-198.34,60.25         ->ppu-objfifo;
+cell vysa:or3        rot0,flip @-202.97,58.17,-202.11,60.24         ->ppu-xcomp;
+cell vaby:nand2      rot0,flip @-203.48,58.20,-202.96,60.24         ->ppu-objfifo;
+cell vafo:dffsr      rot0,flip @-207.25,58.20,-203.48,60.25         ->ppu-objfifo;
+cell vosa:dffsr      rot0,flip @-211.01,58.19,-207.23,60.23         ->ppu-xcomp;
+cell vexu:nand2      rot0,flip @-211.52,58.20,-211.01,60.23         ->ppu-objfifo;
+cell voto:or3        rot0,flip @-212.38,58.18,-211.52,60.24         ->ppu-xcomp;
+cell voby:not_x1     rot0,flip @-212.72,58.20,-212.37,60.23         ->ppu-objfifo;
+cell vare:dffsr      rot0,flip @-216.47,58.19,-212.70,60.25         ->ppu-objfifo;
+cell vyzo:dffr       rot0,flip @-219.38,58.19,-216.47,60.23         ->ppu-lcd;
+cell vyro:and3       rot0,flip @-220.23,58.18,-219.37,60.23         ->ppu-mux;
+cell volo:and3       rot0,flip @-221.09,58.19,-220.23,60.23         ->ppu-mux;
+cell vata:and3       rot0,flip @-221.95,58.18,-221.09,60.23         ->ppu-mux;
+cell vuty:not_x1     rot0,flip @-222.46,58.18,-222.10,60.24         ->ppu-lcd;
+cell voku:nand7      rot0,flip @-223.83,58.19,-222.45,60.24         ->ppu-lcd;
+cell vate:not_x1     rot0,flip @-224.16,58.19,-223.81,60.24         ->ppu-lcd;
+cell vepe:not_x1     rot0,flip @-224.50,58.19,-224.16,60.23         ->ppu-lcd;
+cell vugo:and3       rot0,flip @-225.35,58.19,-224.49,60.24         ->ppu-mux;
+cell vumu:not_x1     rot0,flip @-225.69,58.20,-225.35,60.23         ->ppu-mux;
+cell vage:not_x1     rot0,flip @-226.04,58.19,-225.70,60.23         ->ppu-xcomp;
+cell vywa:not_x1     rot0,flip @-226.38,58.19,-226.04,60.24         ->ppu-ycomp;
 
 alias cell wexy -> vage;
 
@@ -92,12 +92,12 @@ alias cell wexy -> vage;
 # -----------------------------------------------------
 
 wire int_vbl:ctl
-	vypu.q -> lope.clk
+	vypu.y -> lope.clk
 	@-124.26,59.98,-124.26,62.54,-122.72,62.54,-122.72,63.03,-115.38,63.03,-115.41,108.55,-90.02,108.59,
 	 -90.02,111.01,-88.25,111.01,-88.25,111.75;
 
 wire int_stat:ctl
-	voty.q -> lalu.clk
+	voty.y -> lalu.clk
 	@-124.95,60.00,-124.95,62.66,-122.89,62.66,-122.89,64.68,-114.18,64.68,-114.21,107.16,-94.95,107.17,
 	 -94.95,110.71,-93.37,110.71,-93.37,111.75;
 
@@ -154,42 +154,42 @@ wire vypo_const1:pwr
 	@-128.52,40.48,-128.52,42.32,-127.31,42.32,-127.31,40.47;
 
 wire wx_clk:ctl
-	vetu.q -> wyka.clk
+	vetu.y -> wyka.clk
 	@-141.87,59.98,-141.87,61.80,-131.96,61.81,-131.96,63.10;
 
 wire vuza:adr
-	vuza.q -> vury.in
+	vuza.y -> vury.in
 	@-145.46,58.48,-145.46,57.12,-146.15,57.12,-146.15,58.50;
 
 wire vama:dec
-	vama.q -> tego.in
+	vama.y -> tego.in
 	@-147.51,58.49,-147.51,57.41,-150.42,57.41,-150.42,55.13;
 
 wire vova:adr
-	vova.q -> tujy.in
+	vova.y -> tujy.in
 	@-147.84,58.48,-147.84,57.91,-203.73,57.89,-203.73,55.12;
 
 wire ff4a:dec
-	vyga.q -> weko.in2 waxu.in2
+	vyga.y -> weko.in2 waxu.in2
 	@-148.36,58.48,-148.36,57.12,-166.31,57.11,-166.31,60.70,-166.48,60.70,-166.48,63.09
 	@-166.48,62.09,-167.17,62.09,-167.17,63.09;
 
 wire ff4b:dec
-	vumy.q -> wyze.in2 wuza.in2
+	vumy.y -> wyze.in2 wuza.in2
 	@-148.88,59.99,-148.88,62.40,-155.88,62.40,-155.88,66.07,-158.29,66.07,-158.29,64.59;
 
 wire ff41:dec
-	vary.q -> sepa.in2 tobe.in2
+	vary.y -> sepa.in2 tobe.in2
 	@-149.39,58.50,-149.39,55.84,-185.95,55.81
 	@-186.46,50.84,-186.46,53.05,-185.95,53.05,-185.95,56.59,-191.26,56.59,-191.26,55.11;
 
 wire ff40:dec
-	voca.q -> vyre.in1 waru.in1
+	voca.y -> vyre.in1 waru.in1
 	@-149.90,59.98,-149.90,61.80,-162.05,61.80,-170.76,61.79,-170.76,63.09
 	@-162.05,61.80,-162.05,60.00;
 
 wire veku:ctl
-	veku.q -> taka.~r
+	veku.y -> taka.~r
 	@-150.42,58.48,-150.42,58.05,-148.02,58.05,-148.02,55.13;
 
 wire voga:ctl
@@ -199,7 +199,7 @@ wire voga:ctl
 # voga.~q is not connected
 
 wire vybo:clk
-	vybo.q -> tyfa.in3
+	vybo.y -> tyfa.in3
 	@-154.00,58.49,-154.00,57.41,-153.48,57.41,-153.48,55.12;
 
 wire vonu:ctl
@@ -212,11 +212,11 @@ wire ~vonu:adr
 	@-156.74,60.00,-156.74,62.35,-171.10,62.35,-171.10,66.79,-171.45,66.79,-171.45,69.37;
 
 wire vape:ctl
-	vape.q -> xujy.in
+	vape.y -> xujy.in
 	@-157.59,59.98,-157.59,61.04,-157.77,61.04,-157.77,68.29,-157.09,68.29,-157.09,69.37;
 
 wire vycu:ctl
-	vycu.q -> lova.~ena lole.~ena muka.~ena muly.~ena mele.~ena mara.~ena mufe.~ena moko.~ena
+	vycu.y -> lova.~ena lole.~ena muka.~ena muly.~ena mele.~ena mara.~ena mufe.~ena moko.~ena
 	@-157.94,58.48,-157.94,51.95,-158.10,51.95,-158.10,47.38,-157.57,47.38,-157.57,42.91,-157.91,42.91,-157.91,32.54,
 	 -157.22,32.54,-157.22,31.54
 	@-157.91,32.96,-158.25,32.96,-158.25,29.47,-159.61,29.47
@@ -235,11 +235,11 @@ wire ~vyxe:ctl
 	@-160.68,59.98,-160.68,61.55,-161.18,61.55,-161.18,63.12;
 
 wire vyre:ctl
-	vyre.q -> wyce.in
+	vyre.y -> wyce.in
 	@-162.55,59.99,-162.55,61.55,-163.58,61.55,-163.58,63.10;
 
 wire voxu:ctl
-	voxu.q -> mypu.~ena muvo.~ena mare.in mypa.~ena myce.~ena meby.~ena nofe.~ena nuku.~ena noke.~ena
+	voxu.y -> mypu.~ena muvo.~ena mare.in mypa.~ena myce.~ena meby.~ena nofe.~ena nuku.~ena noke.~ena
 	@-162.89,58.48,-162.89,56.86,-162.72,56.86,-162.72,47.12,-162.20,47.12,-162.20,41.67,-163.38,41.67,-163.38,34.03
 	@-160.81,31.52,-160.81,34.03,-165.59,34.03,-165.59,31.53
 	@-162.52,34.03,-162.52,31.53
@@ -248,7 +248,7 @@ wire voxu:ctl
 	@-167.13,34.60,-167.13,32.41,-169.36,32.41,-169.36,28.36,-171.58,28.36,-171.58,34.15,-172.78,34.15,-172.78,34.60;
 
 wire vefu:ctl
-	vefu.q -> mela.~ena nafu.~ena nyro.~ena naga.~ena nulo.~ena nuka.~ena nene.~ena nuta.in neso.~ena
+	vefu.y -> mela.~ena nafu.~ena nyro.~ena naga.~ena nulo.~ena nuka.~ena nene.~ena nuta.in neso.~ena
 	@-164.26,58.48,-164.26,58.04,-165.11,58.04,-165.11,47.93,-171.25,47.93,-171.25,37.32,-174.50,37.32,-174.50,34.15,
 	 -176.02,34.15,-176.02,31.52
 	@-176.02,33.25,-189.02,33.25,-189.02,34.60
@@ -260,7 +260,7 @@ wire vefu:ctl
 	@-191.58,33.89,-191.58,34.59;
 
 wire varo:ctl
-	varo.q -> lyco.~ena vyne.~ena vega.~ena wavo.~ena weze.~ena wojy.~ena wama.~ena wuva.~ena
+	varo.y -> lyco.~ena vyne.~ena vega.~ena wavo.~ena weze.~ena wojy.~ena wama.~ena wuva.~ena
 	@-164.61,60.00,-164.61,61.12,-168.36,61.12
 	@-168.36,59.98,-168.36,62.23,-169.39,62.23
 	@-172.81,63.09,-172.81,62.48,-169.39,62.48,-169.39,56.27,-169.21,56.27,-169.21,52.07,-169.72,52.07,-169.72,48.91,
@@ -272,7 +272,7 @@ wire varo:ctl
 	@-176.91,62.52,-176.91,63.09;
 
 wire vomy:ctl
-	vomy.q -> loka.~ena mera.~ena mega.~ena poda.~ena pygu.~ena polo.~ena punu.~ena pela.~ena
+	vomy.y -> loka.~ena mera.~ena mega.~ena poda.~ena pygu.~ena polo.~ena punu.~ena pela.~ena
 	@-164.93,58.49,-164.93,46.39,-166.80,46.39,-166.80,42.91,-176.54,42.91,-176.54,37.01,-175.00,37.01,-175.00,33.90,
 	 -174.48,33.90,-174.48,28.95,-173.45,28.95,-173.45,26.97
 	@-176.54,38.12,-187.65,38.12
@@ -282,29 +282,29 @@ wire vomy:ctl
 	@-184.06,38.12,-184.06,32.35,-183.38,32.35,-183.38,31.52;
 
 wire vode:adr
-	vode.q -> tago.in
+	vode.y -> tago.in
 	@-165.29,58.47,-165.29,58.04,-204.59,58.02,-204.59,55.10;
 
 wire vyco:data
-	vyco.q -> nuxo.in1 nale.in pobu.in1
+	vyco.y -> nuxo.in1 nale.in pobu.in1
 	@-165.62,58.49,-165.62,57.66,-166.81,57.66,-166.81,47.12,-170.40,47.12,-170.40,41.41,-207.82,41.39,-207.82,38.49,
 	 -218.58,38.48,-219.95,38.48,-219.95,36.05
 	@-218.58,38.48,-218.58,36.09;
 
 wire vely:ctl
-	vely.q -> tepo.in
+	vely.y -> tepo.in
 	@-166.48,59.98,-166.48,60.52,-196.05,60.50,-196.05,56.84,-195.53,56.84,-195.53,55.11;
 
 wire vuso:ctl
-	vuso.q -> tepy.in
+	vuso.y -> tepy.in
 	@-167.16,58.48,-167.16,57.66,-196.55,57.65,-196.55,55.12;
 
 wire vusa:ctl
-	vusa.q -> wuty.in
+	vusa.y -> wuty.in
 	@-170.94,59.99,-170.94,61.79,-173.84,61.79,-173.84,63.09;
 
 wire voze:ctl
-	voze.q -> raha.ena sedy.ena syry.ena salo.ena sota.ena vuce.ena vafa.ena vevo.ena
+	voze.y -> raha.ena sedy.ena syry.ena salo.ena sota.ena vuce.ena vafa.ena vevo.ena
 	@-173.48,58.48,-173.48,56.59,-174.34,56.59,-174.34,58.48
 	@-174.34,56.84,-176.05,56.84,-176.05,58.49
 	@-176.05,57.27,-177.76,57.27,-177.76,58.51
@@ -363,12 +363,12 @@ wire vezo:data
 # vezo.~q is not connected
 
 wire vune:data
-	vune.q -> wufy.~s
+	vune.y -> wufy.~s
 	@-193.66,59.98,-193.66,61.40,-194.01,61.40,-194.01,63.08
 	@-194.01,62.51,-196.22,62.51,-196.22,63.06;
 
 wire vave:ctl
-	vave.q -> pofo.~ena pote.~ena puzo.~ena sasy.~ena
+	vave.y -> pofo.~ena pote.~ena puzo.~ena sasy.~ena
 	@-193.99,58.48,-193.99,56.58,-193.48,56.58,-193.48,46.81,-193.64,46.81,-193.64,42.84,-193.13,42.84,-193.13,37.55,
 	 -192.10,37.55,-192.10,38.95
 	@-192.10,37.98,-191.07,37.98,-191.07,38.94;
@@ -381,7 +381,7 @@ wire sprite_px_a7:data
 # vupy.~q is not connected
 
 wire vume:data
-	vume.q -> weba.~s
+	vume.y -> weba.~s
 	@-198.27,59.97,-198.27,62.50,-199.64,62.50,-199.64,67.63,-201.87,67.63,-201.87,64.55;
 
 wire sprite_px_a6:data
@@ -392,11 +392,11 @@ wire sprite_px_a6:data
 # vanu.~q is not connected
 
 wire vysa:data
-	vysa.q -> tyco.in
+	vysa.y -> tyco.in
 	@-202.88,58.48,-202.88,57.09,-202.37,57.09,-202.37,55.10;
 
 wire vaby:data
-	vaby.q -> wora.~s
+	vaby.y -> wora.~s
 	@-203.41,59.96,-203.41,61.82,-203.74,61.82,-203.74,67.97,-205.96,67.97,-205.96,64.57;
 
 wire sprite_px_b6:data
@@ -413,15 +413,15 @@ wire vosa:data
 # vosa.~q is not connected
 
 wire vexu:data
-	vexu.q -> wyho.~s
+	vexu.y -> wyho.~s
 	@-211.44,59.95,-211.44,61.34,-212.63,61.34,-212.63,66.59,-214.85,66.59,-214.85,64.55;
 
 wire voto:data
-	voto.q -> tyta.in
+	voto.y -> tyta.in
 	@-212.28,58.47,-212.28,55.11;
 
 wire voby:data
-	voby.q -> waxo.in1
+	voby.y -> waxo.in1
 	@-212.63,59.95,-212.63,61.17,-212.12,61.17,-212.12,63.08;
 
 wire sprite_px_a4:data
@@ -443,51 +443,51 @@ wire ~vyzo:clk
 	@-217.58,58.46,-217.58,56.83,-216.72,56.83,-216.72,55.10;
 
 wire vyro:data
-	vyro.q -> wufu.in2 waly.in1
+	vyro.y -> wufu.in2 waly.in1
 	@-220.15,59.96,-220.15,62.62,-216.55,62.62,-216.55,63.08
 	@-218.79,62.62,-218.79,63.07;
 
 wire volo:data
-	volo.q -> wufu.in6 waly.in5
+	volo.y -> wufu.in6 waly.in5
 	@-221.00,59.97,-221.00,61.77,-219.80,61.77,-219.80,68.64,-217.59,68.64,-217.59,64.55;
 
 wire vata:data
-	vata.q -> wufu.in4 waly.in3
+	vata.y -> wufu.in4 waly.in3
 	@-221.87,59.96,-221.87,62.49,-219.29,62.49
 	@-219.29,63.06,-219.29,62.19,-217.07,62.19,-217.07,63.07;
 
 wire vuty:data
-	vuty.q -> tebo.in5 voku.in5
+	vuty.y -> tebo.in5 voku.in5
 	@-223.23,59.95,-223.23,62.23,-222.37,62.23,-222.37,57.20,-221.00,57.20,-221.00,55.09;
 
 wire voku:ctl
-	voku.q -> tegy.in1
+	voku.y -> tegy.in1
 	@-223.73,58.45,-223.73,57.46,-222.02,57.46,-222.02,55.09;
 
 wire vate:data
-	vate.q -> tebo.in4 tozu.in4 voku.in4
+	vate.y -> tebo.in4 tozu.in4 voku.in4
 	@-225.44,55.09,-225.44,57.41,-224.07,57.41,-224.07,62.49,-223.05,62.49,-223.05,56.99,-220.83,56.99,-220.83,55.09;
 
 wire vepe:data
-	vepe.q -> tece.in6 voku.in6
+	vepe.y -> tece.in6 voku.in6
 	@-224.42,58.46,-224.42,57.29,-223.39,57.29,-223.39,58.46
 	@-223.73,57.29,-223.73,55.09;
 
 wire vugo:data
-	vugo.q -> wufu.in8 waly.in7
+	vugo.y -> wufu.in8 waly.in7
 	@-225.27,59.96,-225.27,62.62,-220.32,62.62
 	@-220.32,63.06,-220.32,62.31,-218.09,62.31,-218.09,63.06;
 
 wire vumu:data
-	vumu.q -> volo.in1 vugo.in1 wyru.in
+	vumu.y -> volo.in1 vugo.in1 wyru.in
 	@-225.61,59.97,-225.61,62.49,-224.59,62.49,-224.59,59.95
 	@-224.59,62.36,-221.52,62.36
 	@-221.52,63.07,-221.52,61.34,-220.32,61.34,-220.32,59.95;
 
 wire vage:data
-	vage.q -> towa.in1
+	vage.y -> towa.in1
 	@-225.95,58.45,-225.95,58.02,-226.29,58.02,-226.29,55.09;
 
 wire vywa:ctl
-	vywa.q -> weny.in
+	vywa.y -> weny.in
 	@-226.29,59.95,-226.29,62.62,-226.98,62.62,-226.98,63.07;

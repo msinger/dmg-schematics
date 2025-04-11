@@ -1,78 +1,78 @@
 # Cells in column E in bottom center
 # ----------------------------------
 
-cell exyf:tri_inv_if0 rot0 @-127.30,100.92,-126.29,102.98      ->ppu-dma;
-cell evax:tri_inv_if0 rot0 @-128.32,100.92,-127.29,102.97      ->ppu-dma;
-cell elug:tri_inv_if0 rot0 @-129.35,100.94,-128.32,102.97      ->ppu-oam;
-cell edol:tri_inv_if0 rot0 @-130.37,100.94,-129.34,102.97      ->ppu-oam;
-cell erew:tri_inv_if0 rot0 @-131.39,100.93,-130.37,102.96      ->ppu-dma;
-cell eraf:tri_inv_if0 rot0 @-132.43,100.93,-131.39,102.98      ->ppu-dma;
-cell ekob:tri_inv_if0 rot0 @-133.45,100.93,-132.41,102.96      ->ppu-bgscroll;
-cell edos:tri_inv_if0 rot0 @-134.47,100.93,-133.44,102.97      ->ppu-bgscroll;
-cell egez:tri_inv_if0 rot0 @-135.49,100.93,-134.46,102.97      ->ppu-dma;
-cell eteg:tri_inv_if0 rot0 @-136.53,100.93,-135.49,102.98      ->ppu-dma;
-cell ecal:tri_inv_if0 rot0 @-137.54,100.94,-136.52,102.96      ->ppu-dma;
-cell ejok:full_add    rot0 @-140.97,100.93,-137.54,102.97      ->ppu-bgscroll;
-cell efyk:full_add    rot0 @-144.38,100.95,-140.98,102.97      ->ppu-bgscroll;
-cell ehor:inv_a       rot0 @-144.73,100.94,-144.38,102.98      ->ppu-bgscroll;
-cell etam:full_add    rot0 @-148.14,100.92,-144.73,102.98      ->ppu-bgscroll;
-cell ecab:full_add    rot0 @-151.57,100.92,-148.14,102.96      ->ppu-bgscroll;
-cell emux:full_add    rot0 @-154.98,100.93,-151.57,102.96      ->ppu-bgscroll;
-cell evad:tri_inv_if0 rot0 @-156.02,100.92,-154.98,102.97      ->ppu-bgscroll;
-cell enap:tri_inv_if0 rot0 @-157.03,100.93,-156.00,102.96      ->ppu-objreg;
-cell eced:d_latch_b   rot0 @-158.75,100.92,-157.02,102.98      ->ppu-xcomp;
-cell elyn:dffr_b2     rot0 @-161.66,100.93,-158.74,102.97      ->ppu-objctl;
-cell ebeb:inv_a       rot0 @-161.99,100.92,-161.64,102.97      ->ppu-objctl;
-cell ebos:inv_a       rot0 @-162.34,100.92,-161.99,102.97      ->ppu-ycomp;
-cell eruc:full_add    rot0 @-165.74,100.91,-162.34,102.97      ->ppu-ycomp;
-cell efud:tri_inv_if0 rot0 @-166.79,100.92,-165.75,102.96      ->ppu-objreg;
-cell enef:full_add    rot0 @-170.20,100.93,-166.77,102.95      ->ppu-ycomp;
-cell epum:dr_latch    rot0 @-171.91,100.93,-170.20,102.95      ->ppu-xcomp;
-cell eraz:dr_latch    rot0 @-173.61,100.93,-171.91,102.95      ->ppu-xcomp;
-cell ehyn:dr_latch    rot0 @-175.32,100.92,-173.62,102.96      ->ppu-xcomp;
-cell erol:dr_latch    rot0 @-177.02,100.94,-175.32,102.97      ->ppu-xcomp;
-cell ejot:xor         rot0 @-178.06,100.93,-177.03,102.96      ->ppu-xcomp;
-cell ewud:xor         rot0 @-179.09,100.91,-178.05,102.95      ->ppu-xcomp;
-cell exuk:dr_latch    rot0 @-180.79,100.91,-179.09,102.95      ->ppu-xcomp;
-cell esaj:xor         rot0 @-181.82,100.91,-180.79,102.95      ->ppu-xcomp;
-cell ewot:inv_a       rot0 @-182.16,100.91,-181.82,102.95 comp ->ppu-objctl;
-cell ewok:xor         rot0 @-183.19,100.92,-182.15,102.95      ->ppu-xcomp;
-cell egom:nand3       rot0 @-183.84,100.92,-183.17,102.95      ->ppu-xprio;
-cell ebef:xor         rot0 @-184.90,100.92,-183.87,102.95      ->ppu-xcomp;
-cell ewam:nor4        rot0 @-185.76,100.92,-184.90,102.95      ->ppu-xcomp;
-cell edym:xor         rot0 @-186.78,100.91,-185.74,102.95      ->ppu-xcomp;
-cell emyb:xor         rot0 @-187.80,100.91,-186.77,102.95      ->ppu-xcomp;
-cell exyr:inv_a       rot0 @-188.14,100.92,-187.80,102.94      ->ppu-objctl;
-cell enut:nor2        rot0 @-188.66,100.91,-188.13,102.94      ->ppu-xprio;
-cell efev:or2         rot0 @-189.34,100.92,-188.65,102.95      ->ppu-xprio;
-cell emol:nor2        rot0 @-189.86,100.91,-189.34,102.96      ->ppu-xprio;
-cell exuq:dffr_b2     rot0 @-192.75,100.91,-189.84,102.95      ->ppu-xprio;
-cell ejad:inv_a       rot0 @-193.09,100.91,-192.74,102.94      ->ppu-xprio;
-cell egav:dffr_b2     rot0 @-195.99,100.91,-193.09,102.95      ->ppu-xprio;
-cell eboj:dffr_b2     rot0 @-198.91,100.90,-195.99,102.95      ->ppu-xprio;
-cell efyl:nand3       rot0 @-199.59,100.89,-198.89,102.95      ->ppu-xprio;
-cell ezoc:tri_inv_if0 rot0 @-200.62,100.91,-199.59,102.95      ->ppu-objreg;
-cell elyc:tri_inv_if0 rot0 @-201.65,100.90,-200.61,102.94      ->ppu-objreg;
-cell ejaw:xor         rot0 @-202.67,100.92,-201.64,102.95      ->ppu-xcomp;
-cell ebow:dr_latch    rot0 @-204.37,100.91,-202.68,102.95      ->ppu-xcomp;
-cell ekes:nor4        rot0 @-205.23,100.91,-204.38,102.93      ->ppu-xcomp;
-cell ezuf:dr_latch    rot0 @-207.11,100.91,-205.40,102.95      ->ppu-xcomp;
-cell enad:dr_latch    rot0 @-208.82,100.91,-207.10,102.95      ->ppu-xcomp;
-cell enor:dr_latch    rot0 @-210.53,100.91,-208.81,102.94      ->ppu-xcomp;
-cell ejuf:dr_latch    rot0 @-212.24,100.90,-210.53,102.95      ->ppu-xcomp;
-cell eden:inv_a       rot0 @-212.59,100.90,-212.23,102.95      ->ppu-objctl;
-cell etym:d_latch_a   rot0 @-214.11,100.91,-212.58,102.95      ->ppu-objreg;
-cell etav:d_latch_a   rot0 @-215.65,100.90,-214.11,102.94      ->ppu-objreg;
-cell evyt:tri_inv_if0 rot0 @-216.69,100.90,-215.66,102.93      ->ppu-objreg;
-cell elep:tri_inv_if0 rot0 @-217.70,100.91,-216.67,102.94      ->ppu-objreg;
-cell elyg:inv_a       rot0 @-218.04,100.91,-217.70,102.93      ->ppu-objctl;
-cell etad:tri_inv_if0 rot0 @-219.08,100.89,-218.05,102.92      ->ppu-objreg;
-cell enob:inv_a       rot0 @-219.41,100.90,-219.06,102.94 comp ->ppu-objctl;
-cell ekap:d_latch_a   rot0 @-220.96,100.90,-219.41,102.93      ->ppu-objreg;
-cell ekop:d_latch_a   rot0 @-222.49,100.89,-220.95,102.94      ->ppu-objreg;
-cell ekud:inv_a       rot0 @-222.84,100.89,-222.48,102.93      ->ppu-objctl;
-cell ehen:inv_a       rot0 @-223.17,100.90,-222.83,102.92      ->ppu-objctl;
-cell ebex:d_latch_a   rot0 @-224.71,100.88,-223.17,102.92      ->ppu-objreg;
+cell exyf:not_if0    rot0 @-127.30,100.92,-126.29,102.98      ->ppu-dma;
+cell evax:not_if0    rot0 @-128.32,100.92,-127.29,102.97      ->ppu-dma;
+cell elug:not_if0    rot0 @-129.35,100.94,-128.32,102.97      ->ppu-oam;
+cell edol:not_if0    rot0 @-130.37,100.94,-129.34,102.97      ->ppu-oam;
+cell erew:not_if0    rot0 @-131.39,100.93,-130.37,102.96      ->ppu-dma;
+cell eraf:not_if0    rot0 @-132.43,100.93,-131.39,102.98      ->ppu-dma;
+cell ekob:not_if0    rot0 @-133.45,100.93,-132.41,102.96      ->ppu-bgscroll;
+cell edos:not_if0    rot0 @-134.47,100.93,-133.44,102.97      ->ppu-bgscroll;
+cell egez:not_if0    rot0 @-135.49,100.93,-134.46,102.97      ->ppu-dma;
+cell eteg:not_if0    rot0 @-136.53,100.93,-135.49,102.98      ->ppu-dma;
+cell ecal:not_if0    rot0 @-137.54,100.94,-136.52,102.96      ->ppu-dma;
+cell ejok:full_add   rot0 @-140.97,100.93,-137.54,102.97      ->ppu-bgscroll;
+cell efyk:full_add   rot0 @-144.38,100.95,-140.98,102.97      ->ppu-bgscroll;
+cell ehor:not_x1     rot0 @-144.73,100.94,-144.38,102.98      ->ppu-bgscroll;
+cell etam:full_add   rot0 @-148.14,100.92,-144.73,102.98      ->ppu-bgscroll;
+cell ecab:full_add   rot0 @-151.57,100.92,-148.14,102.96      ->ppu-bgscroll;
+cell emux:full_add   rot0 @-154.98,100.93,-151.57,102.96      ->ppu-bgscroll;
+cell evad:not_if0    rot0 @-156.02,100.92,-154.98,102.97      ->ppu-bgscroll;
+cell enap:not_if0    rot0 @-157.03,100.93,-156.00,102.96      ->ppu-objreg;
+cell eced:dlatch     rot0 @-158.75,100.92,-157.02,102.98      ->ppu-xcomp;
+cell elyn:dffr       rot0 @-161.66,100.93,-158.74,102.97      ->ppu-objctl;
+cell ebeb:not_x1     rot0 @-161.99,100.92,-161.64,102.97      ->ppu-objctl;
+cell ebos:not_x1     rot0 @-162.34,100.92,-161.99,102.97      ->ppu-ycomp;
+cell eruc:full_add   rot0 @-165.74,100.91,-162.34,102.97      ->ppu-ycomp;
+cell efud:not_if0    rot0 @-166.79,100.92,-165.75,102.96      ->ppu-objreg;
+cell enef:full_add   rot0 @-170.20,100.93,-166.77,102.95      ->ppu-ycomp;
+cell epum:drlatch_ee rot0 @-171.91,100.93,-170.20,102.95      ->ppu-xcomp;
+cell eraz:drlatch_ee rot0 @-173.61,100.93,-171.91,102.95      ->ppu-xcomp;
+cell ehyn:drlatch_ee rot0 @-175.32,100.92,-173.62,102.96      ->ppu-xcomp;
+cell erol:drlatch_ee rot0 @-177.02,100.94,-175.32,102.97      ->ppu-xcomp;
+cell ejot:xor        rot0 @-178.06,100.93,-177.03,102.96      ->ppu-xcomp;
+cell ewud:xor        rot0 @-179.09,100.91,-178.05,102.95      ->ppu-xcomp;
+cell exuk:drlatch_ee rot0 @-180.79,100.91,-179.09,102.95      ->ppu-xcomp;
+cell esaj:xor        rot0 @-181.82,100.91,-180.79,102.95      ->ppu-xcomp;
+cell ewot:not_x1     rot0 @-182.16,100.91,-181.82,102.95 comp ->ppu-objctl;
+cell ewok:xor        rot0 @-183.19,100.92,-182.15,102.95      ->ppu-xcomp;
+cell egom:nand3      rot0 @-183.84,100.92,-183.17,102.95      ->ppu-xprio;
+cell ebef:xor        rot0 @-184.90,100.92,-183.87,102.95      ->ppu-xcomp;
+cell ewam:nor4       rot0 @-185.76,100.92,-184.90,102.95      ->ppu-xcomp;
+cell edym:xor        rot0 @-186.78,100.91,-185.74,102.95      ->ppu-xcomp;
+cell emyb:xor        rot0 @-187.80,100.91,-186.77,102.95      ->ppu-xcomp;
+cell exyr:not_x1     rot0 @-188.14,100.92,-187.80,102.94      ->ppu-objctl;
+cell enut:nor2       rot0 @-188.66,100.91,-188.13,102.94      ->ppu-xprio;
+cell efev:or2        rot0 @-189.34,100.92,-188.65,102.95      ->ppu-xprio;
+cell emol:nor2       rot0 @-189.86,100.91,-189.34,102.96      ->ppu-xprio;
+cell exuq:dffr       rot0 @-192.75,100.91,-189.84,102.95      ->ppu-xprio;
+cell ejad:not_x1     rot0 @-193.09,100.91,-192.74,102.94      ->ppu-xprio;
+cell egav:dffr       rot0 @-195.99,100.91,-193.09,102.95      ->ppu-xprio;
+cell eboj:dffr       rot0 @-198.91,100.90,-195.99,102.95      ->ppu-xprio;
+cell efyl:nand3      rot0 @-199.59,100.89,-198.89,102.95      ->ppu-xprio;
+cell ezoc:not_if0    rot0 @-200.62,100.91,-199.59,102.95      ->ppu-objreg;
+cell elyc:not_if0    rot0 @-201.65,100.90,-200.61,102.94      ->ppu-objreg;
+cell ejaw:xor        rot0 @-202.67,100.92,-201.64,102.95      ->ppu-xcomp;
+cell ebow:drlatch_ee rot0 @-204.37,100.91,-202.68,102.95      ->ppu-xcomp;
+cell ekes:nor4       rot0 @-205.23,100.91,-204.38,102.93      ->ppu-xcomp;
+cell ezuf:drlatch_ee rot0 @-207.11,100.91,-205.40,102.95      ->ppu-xcomp;
+cell enad:drlatch_ee rot0 @-208.82,100.91,-207.10,102.95      ->ppu-xcomp;
+cell enor:drlatch_ee rot0 @-210.53,100.91,-208.81,102.94      ->ppu-xcomp;
+cell ejuf:drlatch_ee rot0 @-212.24,100.90,-210.53,102.95      ->ppu-xcomp;
+cell eden:not_x1     rot0 @-212.59,100.90,-212.23,102.95      ->ppu-objctl;
+cell etym:dlatch_ee  rot0 @-214.11,100.91,-212.58,102.95      ->ppu-objreg;
+cell etav:dlatch_ee  rot0 @-215.65,100.90,-214.11,102.94      ->ppu-objreg;
+cell evyt:not_if0    rot0 @-216.69,100.90,-215.66,102.93      ->ppu-objreg;
+cell elep:not_if0    rot0 @-217.70,100.91,-216.67,102.94      ->ppu-objreg;
+cell elyg:not_x1     rot0 @-218.04,100.91,-217.70,102.93      ->ppu-objctl;
+cell etad:not_if0    rot0 @-219.08,100.89,-218.05,102.92      ->ppu-objreg;
+cell enob:not_x1     rot0 @-219.41,100.90,-219.06,102.94 comp ->ppu-objctl;
+cell ekap:dlatch_ee  rot0 @-220.96,100.90,-219.41,102.93      ->ppu-objreg;
+cell ekop:dlatch_ee  rot0 @-222.49,100.89,-220.95,102.94      ->ppu-objreg;
+cell ekud:not_x1     rot0 @-222.84,100.89,-222.48,102.93      ->ppu-objctl;
+cell ehen:not_x1     rot0 @-223.17,100.90,-222.83,102.92      ->ppu-objctl;
+cell ebex:dlatch_ee  rot0 @-224.71,100.88,-223.17,102.92      ->ppu-objreg;
 
 
 # Wires originating from column E in bottom center
@@ -93,7 +93,7 @@ wire efyk_c:data
 	@-142.59,102.70,-142.59,104.55,-137.98,104.55,-137.98,102.70;
 
 wire ehor:ctl
-	ehor.q -> dede.ena foha.ena funy.ena fujo.ena foty.ena fezu.ena fymo.ena gave.ena
+	ehor.y -> dede.ena foha.ena funy.ena fujo.ena foty.ena fezu.ena fymo.ena gave.ena
 	@-144.65,102.70,-144.65,104.00
 	@-145.33,105.80,-145.33,104.00,-143.63,104.00,-143.63,108.35,-140.04,108.35,-140.04,103.99,-136.61,103.99,
 	 -136.61,105.80
@@ -144,7 +144,7 @@ wire ~elyn:data
 	@-159.86,104.67,-157.98,104.67,-157.98,105.81;
 
 wire save_sprite_num3:ctl
-	ebeb.q -> dese.ena duha.ena devy.ena duny.ena dafu.ena deba.ena
+	ebeb.y -> dese.ena duha.ena devy.ena duny.ena dafu.ena deba.ena
 	@-161.91,101.18,-161.91,99.60,-160.88,99.60,-160.88,98.27
 	@-161.91,100.38,-164.29,100.38,-164.29,98.26
 	@-164.29,99.66,-165.84,99.66,-165.84,98.27
@@ -152,7 +152,7 @@ wire save_sprite_num3:ctl
 	@-156.61,98.88,-156.61,98.27;
 
 wire ebos:data
-	ebos.q -> eruc.a
+	ebos.y -> eruc.a
 	@-162.26,102.69,-162.26,105.35,-164.99,105.35,-164.99,102.68;
 
 wire eruc:data
@@ -196,11 +196,11 @@ wire erol:data
 # erol.~q is not connected
 
 wire ejot:data
-	ejot.q -> daje.in1
+	ejot.y -> daje.in1
 	@-177.12,101.19,-177.12,100.62,-177.63,100.62,-177.63,98.24;
 
 wire ewud:data
-	ewud.q -> daje.in4
+	ewud.y -> daje.in4
 	@-178.15,101.19,-178.15,98.25;
 
 wire exuk:data
@@ -210,43 +210,43 @@ wire exuk:data
 # exuk.~q is not connected
 
 wire esaj:data
-	esaj.q -> daje.in2
+	esaj.y -> daje.in2
 	@-180.87,101.20,-180.87,100.62,-177.80,100.62,-177.80,98.25;
 
 wire ewot:ctl
-	ewot.q -> baba.in capo.~ena cono.~ena caju.~ena cumu.~ena
+	ewot.y -> baba.in capo.~ena cono.~ena caju.~ena cumu.~ena
 	@-182.08,101.18,-182.08,100.36,-170.12,100.37,-170.12,96.31,-169.77,96.31,-169.77,94.44
 	@-169.77,96.06,-168.23,96.06,-168.23,92.38,-163.10,92.38,-163.10,92.97
 	@-165.99,92.38,-165.99,90.54
 	@-164.63,92.38,-164.63,92.97;
 
 wire ewok:data
-	ewok.q -> ewam.in4
+	ewok.y -> ewam.in4
 	@-182.25,101.19,-182.25,100.36,-185.50,100.36,-185.50,101.19;
 
 wire egom:ctl
-	egom.q -> fove.in5 gaba.in gega.in1
+	egom.y -> fove.in5 gaba.in gega.in1
 	@-183.80,102.68,-183.80,103.13,-182.25,103.13,-182.25,110.35
 	@-182.09,110.79,-182.09,110.35,-183.80,110.35,-183.80,110.78;
 
 wire ebef:data
-	ebef.q -> ewam.in3
+	ebef.y -> ewam.in3
 	@-183.95,101.20,-183.95,99.64,-185.33,99.64,-185.33,101.19;
 
 wire sprite_x_match_l1:ctl
-	ewam.q -> dydu.in2
+	ewam.y -> dydu.in2
 	@-185.67,101.19,-185.67,99.59,-186.52,99.59,-186.52,98.23;
 
 wire edym:data
-	edym.q -> ewam.in1
+	edym.y -> ewam.in1
 	@-185.84,101.19,-185.84,99.77,-184.98,99.77,-184.98,101.18;
 
 wire emyb:data
-	emyb.q -> ewam.in2
+	emyb.y -> ewam.in2
 	@-186.87,101.19,-186.87,100.49,-185.16,100.49,-185.16,101.19;
 
 wire save_sprite_x5:ctl
-	exyr.q -> cywe.ena cuvy.ena dury.ena dyby.ena faxa.ena fozy.ena fusa.ena fesy.ena
+	exyr.y -> cywe.ena cuvy.ena dury.ena dyby.ena faxa.ena fozy.ena fusa.ena fesy.ena
 	@-183.44,96.76,-183.44,96.18,-182.59,96.18,-182.59,92.50,-187.37,92.50,-187.37,95.92,-187.71,95.92,-187.71,100.48,
 	 -188.06,100.48,-188.06,104.03
 	@-186.35,104.03,-190.29,104.03,-190.29,108.80,-192.00,108.80,-192.00,105.34,-192.16,105.34,-192.16,99.59,
@@ -254,16 +254,16 @@ wire save_sprite_x5:ctl
 	@-186.35,105.80,-186.35,103.89,-183.79,103.89,-183.79,105.80;
 
 wire enut:ctl
-	enut.q -> cedy.d dydo.in
+	enut.y -> cedy.d dydo.in
 	@-188.58,101.17,-188.58,95.92,-189.59,95.92,-189.59,94.45
 	@-189.59,95.88,-196.77,95.88,-196.77,96.75;
 
 wire efev:ctl
-	efev.q -> doku.in
+	efev.y -> doku.in
 	@-189.26,101.18,-189.26,100.48,-188.74,100.48,-188.74,98.26;
 
 wire emol:ctl
-	emol.q -> egav.d fame.in
+	emol.y -> egav.d fame.in
 	@-189.77,101.17,-189.77,100.19,-194.21,100.19,-194.21,103.47,-193.88,103.47,-193.88,105.78;
 
 wire exuq:ctl
@@ -273,7 +273,7 @@ wire exuq:ctl
 # exuq.~q is not connected
 
 wire sprite_rst5:ctl
-	ejad.q -> cywe.~r cuvy.~r dury.~r dyby.~r faxa.~r fozy.~r fusa.~r fesy.~r
+	ejad.y -> cywe.~r cuvy.~r dury.~r dyby.~r faxa.~r fozy.~r fusa.~r fesy.~r
 	@-187.71,94.45,-187.71,95.58,-191.65,95.58,-191.65,99.84,-193.02,99.84,-193.02,105.34,-192.34,105.34
 	@-187.71,95.06,-183.79,95.06,-183.79,96.76
 	@-183.79,96.30,-182.93,96.30,-182.93,94.46
@@ -294,12 +294,12 @@ wire eboj:ctl
 # eboj.~q is not connected
 
 wire efyl:ctl
-	efyl.q -> fove.in2 foxa.in1 geke.in
+	efyl.y -> fove.in2 foxa.in1 geke.in
 	@-199.50,102.68,-199.50,104.27,-189.26,104.28,-181.75,104.28,-181.75,110.79
 	@-189.26,104.28,-189.26,105.80;
 
 wire ejaw:data
-	ejaw.q -> dama.in4
+	ejaw.y -> dama.in4
 	@-201.73,101.18,-201.73,100.06,-200.36,100.06,-200.36,98.24;
 
 wire ebow:data
@@ -309,7 +309,7 @@ wire ebow:data
 # ebow.~q is not connected
 
 wire sprite_x_match_l2:ctl
-	ekes.q -> dego.in2
+	ekes.y -> dego.in2
 	@-205.15,101.18,-205.15,100.05,-201.90,100.05,-201.90,98.23;
 
 wire ezuf:data
@@ -337,7 +337,7 @@ wire ejuf:data
 # ejuf.~q is not connected
 
 wire eden:ctl
-	eden.q -> cupe.in1 dewy.in1 dezo.in1 fycu.in gebu.in1 womu.in1
+	eden.y -> cupe.in1 dewy.in1 dezo.in1 fycu.in gebu.in1 womu.in1
 	@-215.57,96.16,-215.57,100.60,-212.49,100.60,-212.49,105.33,-221.39,105.33,-221.39,110.19,-223.27,110.19,
 	 -223.27,114.24,-222.59,114.24,-222.59,114.98
 	@-216.42,96.74,-216.42,96.16,-214.38,96.16,-214.38,94.44;
@@ -353,12 +353,12 @@ wire ~etav:data
 	@-215.41,101.17,-215.41,100.47,-214.02,100.47,-214.02,98.23;
 
 wire elyg:ctl
-	elyg.q -> dewy.in4 dogu.in4
+	elyg.y -> dewy.in4 dogu.in4
 	@-217.96,101.16,-217.96,99.49,-219.16,99.49,-219.16,98.23
 	@-217.96,100.59,-216.08,100.59,-216.08,98.23;
 
 wire enob:ctl
-	enob.q -> bozu.~ena cufo.~ena doby.in fyhy.~ena gyho.~ena
+	enob.y -> bozu.~ena cufo.~ena doby.in fyhy.~ena gyho.~ena
 	@-218.13,90.49,-218.13,91.67,-217.44,91.67,-217.44,96.30,-218.30,96.30,-218.30,100.72,-219.34,100.72,
 	 -219.34,104.59,-219.84,104.59,-219.84,109.93,-219.34,109.93,-219.34,110.78;
 
@@ -375,12 +375,12 @@ wire ~ekop:data
 	@-222.23,101.16,-222.23,100.59,-221.55,100.59,-221.55,98.22;
 
 wire ekud:ctl
-	ekud.q -> cupe.in3 cugu.in3 guna.in3 womu.in3
+	ekud.y -> cupe.in3 cugu.in3 guna.in3 womu.in3
 	@-214.71,92.93,-214.71,92.23,-222.57,92.23,-222.57,95.23,-222.76,95.23,-222.76,104.59,-222.59,104.59,
 	 -222.59,113.81,-222.93,113.81,-222.93,114.97;
 
 wire save_sprite_y9:ctl
-	ehen.q -> cana.ena dewu.ena dysy.ena fofo.ena
+	ehen.y -> cana.ena dewu.ena dysy.ena fofo.ena
 	@-220.02,96.73,-220.02,96.15,-223.95,96.15,-223.95,100.55,-223.09,100.55,-223.09,105.15,-223.95,105.15,-223.95,105.77
 	@-221.21,96.15,-221.21,94.41;
 

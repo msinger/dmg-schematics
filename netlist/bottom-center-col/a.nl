@@ -1,127 +1,127 @@
 # Cells in column A in bottom center
 # ----------------------------------
 
-cell apam:inv_a       rot0 @-126.59,83.66,-126.27,85.72      ->ppu-vram;
-cell ajas:inv_b       rot0 @-127.10,83.67,-126.59,85.71      ->ppu-control;
-cell ahoc:inv_b       rot0 @-127.62,83.67,-127.10,85.70      ->ppu-dma;
-cell azar:inv_b       rot0 @-128.13,83.66,-127.61,85.72      ->ppu-oam;
-cell asot:inv_d       rot0 @-128.98,83.67,-128.13,85.71      ->ppu-control;
-cell asam:or3         rot0 @-129.84,83.68,-128.98,85.70      ->ppu-oam;
-cell azul:inv_b       rot0 @-130.36,83.67,-129.84,85.70      ->ppu-oam;
-cell adah:inv_a       rot0 @-130.70,83.66,-130.34,85.70      ->ppu-oam;
-cell amab:and2        rot0 @-131.39,83.66,-130.69,85.70      ->ppu-oam;
-cell apag:ao2         rot0 @-132.76,83.67,-131.37,85.70      ->ppu-oam;
-cell ajuj:nor3        rot0 @-133.42,83.66,-132.73,85.70      ->ppu-oam;
-cell acot:tri_inv_if0 rot0 @-134.45,83.67,-133.42,85.72      ->ppu-oam;
-cell agyk:tri_inv_if0 rot0 @-135.48,83.67,-134.45,85.70      ->ppu-oam;
-cell ajon:and2        rot0 @-136.16,83.66,-135.48,85.70      ->ppu-oam;
-cell amun:inv_a       rot0 @-136.51,83.66,-136.16,85.70 comp ->ppu-bgscroll;
-cell acyl:and2        rot0 @-137.19,83.66,-136.50,85.70      ->ppu-oam;
-cell arur:and2        rot0 @-137.88,83.66,-137.19,85.70      ->ppu-bgscroll;
-cell avog:and2        rot0 @-138.55,83.66,-137.87,85.71      ->ppu-bgscroll;
-cell ajan:tri_inv_if0 rot0 @-139.59,83.67,-138.55,85.70      ->ppu-bgscroll;
-cell acul:full_add    rot0 @-143.00,83.66,-139.57,85.69      ->ppu-bgscroll;
-cell apar:inv_b       rot0 @-143.51,83.66,-142.99,85.71      ->ppu-oam;
-cell afeb:tri_inv_if0 rot0 @-144.54,83.67,-143.51,85.71      ->ppu-bgscroll;
-cell abod:full_add    rot0 @-147.96,83.66,-144.54,85.70      ->ppu-bgscroll;
-cell alel:tri_inv_if0 rot0 @-148.98,83.67,-147.97,85.70      ->ppu-bgscroll;
-cell axep:tri_inv_if0 rot0 @-150.02,83.67,-148.99,85.70      ->ppu-bgscroll;
-cell asox:tri_inv_if0 rot0 @-151.04,83.66,-150.02,85.70      ->ppu-oam;
-cell anyp:and2        rot0 @-151.73,83.66,-151.04,85.70      ->ppu-bgscroll;
-cell axer:tri_inv_if0 rot0 @-152.75,83.66,-151.72,85.70      ->ppu-oam;
-cell aryn:tri_inv_if0 rot0 @-153.77,83.67,-152.74,85.70      ->ppu-oam;
-cell ater:tri_inv_if0 rot0 @-154.80,83.66,-153.77,85.70      ->ppu-oam;
-cell azoz:tri_inv_if0 rot0 @-155.82,83.66,-154.80,85.72      ->ppu-oam;
-cell awoh:inv_a       rot0 @-156.18,83.66,-155.81,85.70      ->ppu-objctl;
-cell aveb:tri_inv_if0 rot0 @-157.19,83.66,-156.16,85.69      ->ppu-oam;
-cell abaf:inv_a       rot0 @-157.53,83.66,-157.19,85.70      ->ppu-objctl;
-cell anel:dffr_b2     rot0 @-160.44,83.66,-157.53,85.70      ->ppu-objctl;
-cell amuh:tri_inv_if0 rot0 @-161.47,83.66,-160.43,85.70      ->ppu-oam;
-cell anum:tri_inv_if0 rot0 @-162.49,83.65,-161.45,85.67      ->ppu-oam;
-cell asyt:and3        rot0 @-163.34,83.66,-162.48,85.70      ->ppu-oam;
-cell ajep:nand2       rot0 @-163.86,83.66,-163.34,85.69      ->ppu-oam;
-cell aver:nand2       rot0 @-164.37,83.66,-163.84,85.70      ->ppu-oam;
-cell agag:tri_inv_if0 rot0 @-165.39,83.66,-164.36,85.72      ->ppu-ycomp;
-cell aras:tri_inv_if0 rot0 @-166.42,83.64,-165.40,85.70      ->ppu-ycomp;
-cell apyh:full_add    rot0 @-169.84,83.66,-166.39,85.69      ->ppu-bgscroll;
-cell amuv:tri_inv_if0 rot0 @-170.88,83.65,-169.84,85.70      ->ppu-bgscroll;
-cell asum:tri_inv_if0 rot0 @-171.90,83.64,-170.87,85.70      ->ppu-bgscroll;
-cell azem:and2        rot0 @-172.58,83.65,-171.88,85.70      ->ppu-objctl;
-cell abon:inv_b       rot0 @-173.09,83.66,-172.57,85.70      ->ppu-ycomp;
-cell abem:tri_inv_if0 rot0 @-174.13,83.64,-173.09,85.70      ->ppu-ycomp;
-cell abef:inv_b       rot0 @-174.63,83.66,-174.11,85.70      ->ppu-stat;
-cell alet:inv_b       rot0 @-175.14,83.66,-174.63,85.70      ->ppu-control;
-cell aror:and2        rot0 @-175.81,83.66,-175.13,85.69      ->ppu-xprio;
-cell amel:inv_b       rot0 @-176.34,83.67,-175.80,85.70      ->ppu-stat;
-cell asul:and2        rot0 @-177.02,83.65,-176.33,85.70      ->ppu-bgscroll;
-cell axad:inv_a       rot0 @-177.38,83.66,-177.01,85.69      ->ppu-bgscroll;
-cell acen:and2        rot0 @-178.04,83.65,-177.35,85.70      ->ppu-bgscroll;
-cell ales:inv_a       rot0 @-178.38,83.66,-178.04,85.70      ->ppu-objctl;
-cell abov:and2        rot0 @-179.06,83.65,-178.38,85.70      ->ppu-objctl;
-cell atad:half_add    rot0 @-180.78,83.65,-179.07,85.71      ->ppu-bgscroll;
-cell avap:inv_b       rot0 @-181.29,83.65,-180.77,85.70      ->ppu-objctl;
-cell apux:inv_b       rot0 @-181.80,83.66,-181.29,85.69      ->ppu-stat;
-cell atej:inv_b       rot0 @-182.31,83.66,-181.79,85.70      ->ppu-stat;
-cell asen:or2         rot0 @-183.01,83.65,-182.30,85.70      ->ppu-objctl;
-cell arop:inv_a       rot0 @-183.35,83.66,-183.00,85.68      ->ppu-xcomp;
-cell abez:inv_a       rot0 @-183.69,83.66,-183.34,85.70      ->ppu-objctl;
-cell asah:inv_b       rot0 @-184.20,83.66,-183.69,85.68      ->ppu-stat;
-cell ahal:inv_b       rot0 @-184.70,83.66,-184.19,85.68      ->ppu-stat;
-cell azub:inv_b       rot0 @-185.22,83.65,-184.70,85.68      ->ppu-stat;
-cell anom:nor2        rot0 @-185.73,83.65,-185.21,85.68      ->ppu-objctl;
-cell atar:inv_a       rot0 @-186.07,83.64,-185.73,85.70      ->ppu-objctl;
-cell acam:inv_b       rot0 @-186.59,83.65,-186.07,85.69      ->ppu-stat;
-cell adaz:inv_b       rot0 @-187.10,83.64,-186.59,85.69      ->ppu-stat;
-cell amyg:inv_a       rot0 @-187.44,83.64,-187.11,85.69      ->ppu-xprio;
-cell abak:or2         rot0 @-188.13,83.65,-187.44,85.69      ->ppu-xprio;
-cell axec:tri_inv_if0 rot0 @-189.15,83.64,-188.12,85.70      ->ppu-objreg;
-cell apon:tri_inv_if0 rot0 @-190.18,83.63,-189.15,85.70      ->ppu-objreg;
-cell asys:inv_a       rot0 @-190.52,83.63,-190.19,85.69 comp ->ppu-objctl;
-cell afoz:tri_inv_if0 rot0 @-191.55,83.64,-190.52,85.69      ->ppu-objreg;
-cell azyb:inv_a       rot0 @-191.89,83.63,-191.55,85.70      ->ppu-objctl;
-cell apob:tri_inv_if0 rot0 @-192.91,83.65,-191.88,85.69      ->ppu-objreg;
-cell ahof:inv_a       rot0 @-193.25,83.63,-192.91,85.68 comp ->ppu-objctl;
-cell afen:tri_inv_if0 rot0 @-194.29,83.63,-193.26,85.69      ->ppu-objreg;
-cell apyv:tri_inv_if0 rot0 @-195.30,83.65,-194.28,85.67      ->ppu-objreg;
-cell apev:d_latch_a   rot0 @-196.85,83.63,-195.30,85.68      ->ppu-objreg;
-cell akyh:tri_inv_if0 rot0 @-197.86,83.65,-196.84,85.70      ->ppu-objreg;
-cell adyb:tri_inv_if0 rot0 @-198.90,83.63,-197.86,85.69      ->ppu-objreg;
-cell axuv:d_latch_a   rot0 @-200.43,83.63,-198.89,85.69      ->ppu-objreg;
-cell avoz:inv_a       rot0 @-200.77,83.64,-200.43,85.69      ->ppu-objreg;
-cell ahum:tri_inv_if0 rot0 @-201.80,83.63,-200.77,85.69      ->ppu-objreg;
-cell arof:d_latch_a   rot0 @-203.34,83.63,-201.80,85.68      ->ppu-objreg;
-cell abop:d_latch_a   rot0 @-204.88,83.65,-203.34,85.68      ->ppu-objreg;
-cell ames:d_latch_a   rot0 @-206.41,83.64,-204.88,85.67      ->ppu-objreg;
-cell abug:d_latch_a   rot0 @-207.97,83.63,-206.41,85.68      ->ppu-objreg;
-cell akol:inv_a       rot0 @-208.28,83.64,-207.96,85.67 comp ->ppu-objctl;
-cell apoc:tri_inv_if0 rot0 @-209.31,83.63,-208.29,85.67      ->ppu-objreg;
-cell ahac:tri_inv_if0 rot0 @-210.34,83.64,-209.31,85.67      ->ppu-objreg;
-cell afut:d_latch_a   rot0 @-211.87,83.63,-210.34,85.69      ->ppu-objreg;
-cell afym:d_latch_a   rot0 @-213.42,83.63,-211.88,85.68      ->ppu-objreg;
-cell azap:d_latch_a   rot0 @-214.95,83.64,-213.42,85.67      ->ppu-objreg;
-cell afyx:d_latch_a   rot0 @-216.49,83.64,-214.95,85.69      ->ppu-objreg;
-cell ajal:tri_inv_if0 rot0 @-217.52,83.63,-216.49,85.68      ->ppu-objreg;
-cell awat:tri_inv_if0 rot0 @-218.55,83.64,-217.52,85.67      ->ppu-objreg;
-cell aned:d_latch_a   rot0 @-220.09,83.63,-218.54,85.67      ->ppu-objreg;
-cell acep:d_latch_a   rot0 @-221.62,83.63,-220.07,85.67      ->ppu-objreg;
-cell abeg:d_latch_a   rot0 @-223.16,83.63,-221.62,85.68      ->ppu-objreg;
-cell abux:d_latch_a   rot0 @-224.70,83.63,-223.15,85.67      ->ppu-objreg;
+cell apam:not_x1    rot0 @-126.59,83.66,-126.27,85.72      ->ppu-vram;
+cell ajas:not_x2    rot0 @-127.10,83.67,-126.59,85.71      ->ppu-control;
+cell ahoc:not_x2    rot0 @-127.62,83.67,-127.10,85.70      ->ppu-dma;
+cell azar:not_x2    rot0 @-128.13,83.66,-127.61,85.72      ->ppu-oam;
+cell asot:not_x4    rot0 @-128.98,83.67,-128.13,85.71      ->ppu-control;
+cell asam:or3       rot0 @-129.84,83.68,-128.98,85.70      ->ppu-oam;
+cell azul:not_x2    rot0 @-130.36,83.67,-129.84,85.70      ->ppu-oam;
+cell adah:not_x1    rot0 @-130.70,83.66,-130.34,85.70      ->ppu-oam;
+cell amab:and2      rot0 @-131.39,83.66,-130.69,85.70      ->ppu-oam;
+cell apag:ao22      rot0 @-132.76,83.67,-131.37,85.70      ->ppu-oam;
+cell ajuj:nor3      rot0 @-133.42,83.66,-132.73,85.70      ->ppu-oam;
+cell acot:not_if0   rot0 @-134.45,83.67,-133.42,85.72      ->ppu-oam;
+cell agyk:not_if0   rot0 @-135.48,83.67,-134.45,85.70      ->ppu-oam;
+cell ajon:and2      rot0 @-136.16,83.66,-135.48,85.70      ->ppu-oam;
+cell amun:not_x1    rot0 @-136.51,83.66,-136.16,85.70 comp ->ppu-bgscroll;
+cell acyl:and2      rot0 @-137.19,83.66,-136.50,85.70      ->ppu-oam;
+cell arur:and2      rot0 @-137.88,83.66,-137.19,85.70      ->ppu-bgscroll;
+cell avog:and2      rot0 @-138.55,83.66,-137.87,85.71      ->ppu-bgscroll;
+cell ajan:not_if0   rot0 @-139.59,83.67,-138.55,85.70      ->ppu-bgscroll;
+cell acul:full_add  rot0 @-143.00,83.66,-139.57,85.69      ->ppu-bgscroll;
+cell apar:not_x2    rot0 @-143.51,83.66,-142.99,85.71      ->ppu-oam;
+cell afeb:not_if0   rot0 @-144.54,83.67,-143.51,85.71      ->ppu-bgscroll;
+cell abod:full_add  rot0 @-147.96,83.66,-144.54,85.70      ->ppu-bgscroll;
+cell alel:not_if0   rot0 @-148.98,83.67,-147.97,85.70      ->ppu-bgscroll;
+cell axep:not_if0   rot0 @-150.02,83.67,-148.99,85.70      ->ppu-bgscroll;
+cell asox:not_if0   rot0 @-151.04,83.66,-150.02,85.70      ->ppu-oam;
+cell anyp:and2      rot0 @-151.73,83.66,-151.04,85.70      ->ppu-bgscroll;
+cell axer:not_if0   rot0 @-152.75,83.66,-151.72,85.70      ->ppu-oam;
+cell aryn:not_if0   rot0 @-153.77,83.67,-152.74,85.70      ->ppu-oam;
+cell ater:not_if0   rot0 @-154.80,83.66,-153.77,85.70      ->ppu-oam;
+cell azoz:not_if0   rot0 @-155.82,83.66,-154.80,85.72      ->ppu-oam;
+cell awoh:not_x1    rot0 @-156.18,83.66,-155.81,85.70      ->ppu-objctl;
+cell aveb:not_if0   rot0 @-157.19,83.66,-156.16,85.69      ->ppu-oam;
+cell abaf:not_x1    rot0 @-157.53,83.66,-157.19,85.70      ->ppu-objctl;
+cell anel:dffr      rot0 @-160.44,83.66,-157.53,85.70      ->ppu-objctl;
+cell amuh:not_if0   rot0 @-161.47,83.66,-160.43,85.70      ->ppu-oam;
+cell anum:not_if0   rot0 @-162.49,83.65,-161.45,85.67      ->ppu-oam;
+cell asyt:and3      rot0 @-163.34,83.66,-162.48,85.70      ->ppu-oam;
+cell ajep:nand2     rot0 @-163.86,83.66,-163.34,85.69      ->ppu-oam;
+cell aver:nand2     rot0 @-164.37,83.66,-163.84,85.70      ->ppu-oam;
+cell agag:not_if0   rot0 @-165.39,83.66,-164.36,85.72      ->ppu-ycomp;
+cell aras:not_if0   rot0 @-166.42,83.64,-165.40,85.70      ->ppu-ycomp;
+cell apyh:full_add  rot0 @-169.84,83.66,-166.39,85.69      ->ppu-bgscroll;
+cell amuv:not_if0   rot0 @-170.88,83.65,-169.84,85.70      ->ppu-bgscroll;
+cell asum:not_if0   rot0 @-171.90,83.64,-170.87,85.70      ->ppu-bgscroll;
+cell azem:and2      rot0 @-172.58,83.65,-171.88,85.70      ->ppu-objctl;
+cell abon:not_x2    rot0 @-173.09,83.66,-172.57,85.70      ->ppu-ycomp;
+cell abem:not_if0   rot0 @-174.13,83.64,-173.09,85.70      ->ppu-ycomp;
+cell abef:not_x2    rot0 @-174.63,83.66,-174.11,85.70      ->ppu-stat;
+cell alet:not_x2    rot0 @-175.14,83.66,-174.63,85.70      ->ppu-control;
+cell aror:and2      rot0 @-175.81,83.66,-175.13,85.69      ->ppu-xprio;
+cell amel:not_x2    rot0 @-176.34,83.67,-175.80,85.70      ->ppu-stat;
+cell asul:and2      rot0 @-177.02,83.65,-176.33,85.70      ->ppu-bgscroll;
+cell axad:not_x1    rot0 @-177.38,83.66,-177.01,85.69      ->ppu-bgscroll;
+cell acen:and2      rot0 @-178.04,83.65,-177.35,85.70      ->ppu-bgscroll;
+cell ales:not_x1    rot0 @-178.38,83.66,-178.04,85.70      ->ppu-objctl;
+cell abov:and2      rot0 @-179.06,83.65,-178.38,85.70      ->ppu-objctl;
+cell atad:half_add  rot0 @-180.78,83.65,-179.07,85.71      ->ppu-bgscroll;
+cell avap:not_x2    rot0 @-181.29,83.65,-180.77,85.70      ->ppu-objctl;
+cell apux:not_x2    rot0 @-181.80,83.66,-181.29,85.69      ->ppu-stat;
+cell atej:not_x2    rot0 @-182.31,83.66,-181.79,85.70      ->ppu-stat;
+cell asen:or2       rot0 @-183.01,83.65,-182.30,85.70      ->ppu-objctl;
+cell arop:not_x1    rot0 @-183.35,83.66,-183.00,85.68      ->ppu-xcomp;
+cell abez:not_x1    rot0 @-183.69,83.66,-183.34,85.70      ->ppu-objctl;
+cell asah:not_x2    rot0 @-184.20,83.66,-183.69,85.68      ->ppu-stat;
+cell ahal:not_x2    rot0 @-184.70,83.66,-184.19,85.68      ->ppu-stat;
+cell azub:not_x2    rot0 @-185.22,83.65,-184.70,85.68      ->ppu-stat;
+cell anom:nor2      rot0 @-185.73,83.65,-185.21,85.68      ->ppu-objctl;
+cell atar:not_x1    rot0 @-186.07,83.64,-185.73,85.70      ->ppu-objctl;
+cell acam:not_x2    rot0 @-186.59,83.65,-186.07,85.69      ->ppu-stat;
+cell adaz:not_x2    rot0 @-187.10,83.64,-186.59,85.69      ->ppu-stat;
+cell amyg:not_x1    rot0 @-187.44,83.64,-187.11,85.69      ->ppu-xprio;
+cell abak:or2       rot0 @-188.13,83.65,-187.44,85.69      ->ppu-xprio;
+cell axec:not_if0   rot0 @-189.15,83.64,-188.12,85.70      ->ppu-objreg;
+cell apon:not_if0   rot0 @-190.18,83.63,-189.15,85.70      ->ppu-objreg;
+cell asys:not_x1    rot0 @-190.52,83.63,-190.19,85.69 comp ->ppu-objctl;
+cell afoz:not_if0   rot0 @-191.55,83.64,-190.52,85.69      ->ppu-objreg;
+cell azyb:not_x1    rot0 @-191.89,83.63,-191.55,85.70      ->ppu-objctl;
+cell apob:not_if0   rot0 @-192.91,83.65,-191.88,85.69      ->ppu-objreg;
+cell ahof:not_x1    rot0 @-193.25,83.63,-192.91,85.68 comp ->ppu-objctl;
+cell afen:not_if0   rot0 @-194.29,83.63,-193.26,85.69      ->ppu-objreg;
+cell apyv:not_if0   rot0 @-195.30,83.65,-194.28,85.67      ->ppu-objreg;
+cell apev:dlatch_ee rot0 @-196.85,83.63,-195.30,85.68      ->ppu-objreg;
+cell akyh:not_if0   rot0 @-197.86,83.65,-196.84,85.70      ->ppu-objreg;
+cell adyb:not_if0   rot0 @-198.90,83.63,-197.86,85.69      ->ppu-objreg;
+cell axuv:dlatch_ee rot0 @-200.43,83.63,-198.89,85.69      ->ppu-objreg;
+cell avoz:not_x1    rot0 @-200.77,83.64,-200.43,85.69      ->ppu-objreg;
+cell ahum:not_if0   rot0 @-201.80,83.63,-200.77,85.69      ->ppu-objreg;
+cell arof:dlatch_ee rot0 @-203.34,83.63,-201.80,85.68      ->ppu-objreg;
+cell abop:dlatch_ee rot0 @-204.88,83.65,-203.34,85.68      ->ppu-objreg;
+cell ames:dlatch_ee rot0 @-206.41,83.64,-204.88,85.67      ->ppu-objreg;
+cell abug:dlatch_ee rot0 @-207.97,83.63,-206.41,85.68      ->ppu-objreg;
+cell akol:not_x1    rot0 @-208.28,83.64,-207.96,85.67 comp ->ppu-objctl;
+cell apoc:not_if0   rot0 @-209.31,83.63,-208.29,85.67      ->ppu-objreg;
+cell ahac:not_if0   rot0 @-210.34,83.64,-209.31,85.67      ->ppu-objreg;
+cell afut:dlatch_ee rot0 @-211.87,83.63,-210.34,85.69      ->ppu-objreg;
+cell afym:dlatch_ee rot0 @-213.42,83.63,-211.88,85.68      ->ppu-objreg;
+cell azap:dlatch_ee rot0 @-214.95,83.64,-213.42,85.67      ->ppu-objreg;
+cell afyx:dlatch_ee rot0 @-216.49,83.64,-214.95,85.69      ->ppu-objreg;
+cell ajal:not_if0   rot0 @-217.52,83.63,-216.49,85.68      ->ppu-objreg;
+cell awat:not_if0   rot0 @-218.55,83.64,-217.52,85.67      ->ppu-objreg;
+cell aned:dlatch_ee rot0 @-220.09,83.63,-218.54,85.67      ->ppu-objreg;
+cell acep:dlatch_ee rot0 @-221.62,83.63,-220.07,85.67      ->ppu-objreg;
+cell abeg:dlatch_ee rot0 @-223.16,83.63,-221.62,85.68      ->ppu-objreg;
+cell abux:dlatch_ee rot0 @-224.70,83.63,-223.15,85.67      ->ppu-objreg;
 
 
 # Wires originating from column A in bottom center
 # ------------------------------------------------
 
 wire apam:ctl
-	apam.q -> racu.in4
+	apam.y -> racu.in4
 	@-110.73,27.38,-110.73,28.27,-110.90,28.27,-110.90,37.77,-112.04,37.77,-112.04,43.55,-114.69,43.55,
 	 -114.71,74.56,-126.82,74.55,-126.82,83.50,-126.52,83.50,-126.52,83.95;
 
 wire ajas:ctl
-	ajas.q -> asot.in
+	ajas.y -> asot.in
 	@-127.02,85.43,-127.02,88.34,-128.23,88.34,-128.23,85.42;
 
 wire ahoc:ctl
-	ahoc.q -> duve.~ena damu.~ena dava.~ena exyf.~ena evax.~ena erew.~ena eraf.~ena egez.~ena eteg.~ena
+	ahoc.y -> duve.~ena damu.~ena dava.~ena exyf.~ena evax.~ena erew.~ena eraf.~ena egez.~ena eteg.~ena
 	          ecal.~ena fyzy.~ena fuhe.~ena fusy.~ena
 	@-127.54,85.43,-127.54,87.45,-127.88,87.45,-127.88,96.09,-128.06,96.09,-128.06,100.50,-127.38,100.50
 	@-128.06,100.33,-130.45,100.33,-130.45,101.20
@@ -134,7 +134,7 @@ wire ahoc:ctl
 	@-147.56,109.51,-148.58,109.51,-148.58,107.30;
 
 wire azar:ctl
-	azar.q -> acot.~ena agyk.~ena asox.~ena axer.~ena aryn.~ena ater.~ena azoz.~ena aveb.~ena amuh.~ena
+	azar.y -> acot.~ena agyk.~ena asox.~ena axer.~ena aryn.~ena ater.~ena azoz.~ena aveb.~ena amuh.~ena
 	          anum.~ena buse.~ena cetu.~ena cuje.~ena cofo.~ena wuzu.~ena wowa.~ena
 	@-128.05,83.94,-128.05,83.24,-134.53,83.24,-150.10,83.23,-150.10,86.00,-152.33,86.00,-152.33,99.95,-156.27,99.95,
 	 -156.27,103.88,-156.09,103.88,-156.09,105.36,-156.45,105.36,-156.45,115.02
@@ -153,7 +153,7 @@ wire azar:ctl
 	@-156.45,113.98,-161.58,113.98,-161.58,115.02;
 
 wire ppu_rd:ctl
-	asot.q -> mumy.in1 tobe.in1 vyre.in2 vuso.in1 wyze.in1 wafu.in1 waxu.in1 xyly.in1 xufy.in1 mynu.in1 molu.in2
+	asot.y -> mumy.in1 tobe.in1 vyre.in2 vuso.in1 wyze.in1 wafu.in1 waxu.in1 xyly.in1 xufy.in1 mynu.in1 molu.in2
 	          avog.in2 anyp.in1 bota.in3
 	@-163.92,63.10,-163.92,61.24,-167.00,61.24,-167.00,67.43,-170.77,67.43,-170.77,69.39
 	@-170.77,67.52,-191.96,67.50
@@ -170,7 +170,7 @@ wire ppu_rd:ctl
 	@-131.48,89.05,-131.48,87.36,-128.91,87.36,-128.91,85.41;
 
 wire ~oam_addr_cpu:ctl
-	asam.q -> fevu.~ena foby.~ena gera.~ena gose.~ena garo.~ena wacu.~ena waxa.~ena wape.~ena
+	asam.y -> fevu.~ena foby.~ena gera.~ena gose.~ena garo.~ena wacu.~ena waxa.~ena wape.~ena
 	@-129.76,85.45,-129.76,87.87,-126.86,87.87,-126.86,96.07,-127.20,96.07,-127.20,99.75,-127.03,99.75,-127.03,103.87
 	@-127.21,105.80,-127.21,103.87,-126.19,103.87,-126.19,114.46,-127.39,114.46
 	@-126.37,114.46,-126.37,115.02
@@ -179,7 +179,7 @@ wire ~oam_addr_cpu:ctl
 	@-128.25,113.99,-128.25,112.31;
 
 wire azul:ctl
-	azul.q -> wule.~ena wyky.~ena xyto.~ena yvuc.~ena zumo.~ena zozo.~ena zato.~ena zaja.~ena zuga.~ena
+	azul.y -> wule.~ena wyky.~ena xyto.~ena yvuc.~ena zumo.~ena zozo.~ena zato.~ena zaja.~ena zuga.~ena
 	          zaxa.~ena zamy.~ena zufo.~ena zaky.~ena zufe.~ena zyfa.~ena zopu.~ena
 	@-130.27,85.45,-130.27,87.49,-136.94,87.49,-136.94,91.00,-137.12,91.00,-137.12,100.21,-137.30,100.21,-137.30,103.87,
 	 -137.64,103.87,-137.64,109.38,-138.16,109.38,-138.16,113.30,-138.69,113.30,-138.69,128.70
@@ -198,29 +198,29 @@ wire azul:ctl
 	@-126.90,129.15,-126.90,123.12,-126.38,123.12,-126.38,121.08;
 
 wire adah:dec
-	adah.q -> apag.in4
+	adah.y -> apag.in4
 	@-130.62,83.94,-130.62,82.47,-132.15,82.47,-132.15,83.95;
 
 wire amab:ctl
-	amab.q -> apag.in2 guko.in2 wyja.in1 wuku.in2
+	amab.y -> apag.in2 guko.in2 wyja.in1 wuku.in2
 	@-131.64,83.95,-131.64,82.34,-131.30,82.34,-131.30,88.30,-129.42,88.30,-129.42,96.15,-129.77,96.15,-129.77,100.51,
 	 -129.61,100.51,-129.61,110.37,-129.45,110.37,-129.45,117.60,-131.34,117.60,-131.34,116.49;
 
 wire apag:ctl
-	apag.q -> azul.in
+	apag.y -> azul.in
 	@-132.67,83.93,-132.67,83.11,-129.93,83.11,-129.93,83.94;
 
 wire ajuj:ctl
-	ajuj.q -> amab.in2 apag.in3
+	ajuj.y -> amab.in2 apag.in3
 	@-133.34,83.94,-133.34,82.73,-130.95,82.73,-130.95,83.95
 	@-131.98,82.73,-131.98,83.95;
 
 wire ajon:ctl
-	ajon.q -> ajuj.in3 bete.in
+	ajon.y -> ajuj.in3 bete.in
 	@-133.17,83.94,-133.17,83.11,-136.08,83.11,-136.08,87.66,-137.62,87.66,-137.62,89.05;
 
 wire amun:ctl
-	amun.q -> bofo.in bemy.~ena bake.~ena cuzy.~ena cabu.~ena cyxu.~ena duzu.~ena daty.~ena gubo.~ena
+	amun.y -> bofo.in bemy.~ena bake.~ena cuzy.~ena cabu.~ena cyxu.~ena duzu.~ena daty.~ena gubo.~ena
 	@-136.42,85.44,-136.42,87.83
 	@-136.09,89.04,-136.09,87.83,-138.48,87.83,-138.48,91.70,-138.14,91.70,-138.14,92.98
 	@-136.09,88.21,-134.37,88.21,-134.37,91.24,-133.35,91.24,-133.35,92.98
@@ -229,7 +229,7 @@ wire amun:ctl
 	@-134.05,98.28,-134.05,99.62,-132.68,99.62,-132.68,104.82,-132.52,104.82,-132.52,109.38,-132.87,109.38,-132.87,110.80;
 
 wire mode2:ctl
-	acyl.q -> xaty.in1 asam.in1 ajuj.in2 apar.in ajep.in1 aver.in1
+	acyl.y -> xaty.in1 asam.in1 ajuj.in2 apar.in ajep.in1 aver.in1
 	@-137.11,83.94,-137.11,83.50
 	@-129.07,83.94,-129.07,83.50,-137.11,83.50,-143.08,83.48,-163.95,83.48
 	@-133.01,83.50,-133.01,83.95
@@ -239,11 +239,11 @@ wire mode2:ctl
 	 -190.94,67.38,-190.94,69.35;
 
 wire arur:ctl
-	arur.q -> amun.in
+	arur.y -> amun.in
 	@-137.80,83.94,-137.80,82.38,-136.24,82.38,-136.24,83.93;
 
 wire avog:ctl
-	avog.q -> beba.in
+	avog.y -> beba.in
 	@-138.48,85.43,-138.48,87.66,-137.96,87.66,-137.96,89.03;
 
 wire acul:adr
@@ -253,7 +253,7 @@ wire acul:adr
 # acul.cout is not connected
 
 wire ~oam_addr_parse:ctl
-	apar.q -> futo.~ena faku.~ena gefy.~ena gema.~ena guse.~ena goby.~ena gama.~ena wuwe.~ena
+	apar.y -> futo.~ena faku.~ena gefy.~ena gema.~ena guse.~ena goby.~ena gama.~ena wuwe.~ena
 	@-143.43,85.44,-143.43,86.13,-153.01,86.13,-153.01,95.94,-153.37,95.94,-153.37,100.75,-153.70,100.75,-153.70,105.23,
 	 -154.06,105.23,-154.06,110.35
 	@-156.62,110.35,-147.05,110.35,-147.05,114.02,-143.29,114.02,-143.29,109.50,-131.49,109.50,-131.49,113.73,
@@ -270,15 +270,15 @@ wire abod_c:data
 	@-146.17,85.44,-146.17,88.34,-148.23,88.34,-148.23,89.04;
 
 wire anyp:ctl
-	anyp.q -> buwy.in
+	anyp.y -> buwy.in
 	@-151.64,85.43,-151.64,87.23,-151.30,87.23,-151.30,89.04;
 
 wire awoh:clk
-	awoh.q -> anel.clk
+	awoh.y -> anel.clk
 	@-156.08,85.43,-156.08,86.77,-157.79,86.77,-157.79,85.43;
 
 wire abaf:ctl
-	abaf.q -> byha.in2
+	abaf.y -> byha.in2
 	@-157.45,85.43,-157.45,86.93,-158.65,86.93,-158.65,89.05;
 
 wire anel:ctl
@@ -288,15 +288,15 @@ wire anel:ctl
 # anel.~q is not connected
 
 wire asyt:ctl
-	asyt.q -> bode.in
+	asyt.y -> bode.in
 	@-163.27,85.44,-163.27,87.95,-161.55,87.95,-161.55,89.05;
 
 wire ajep:ctl
-	ajep.q -> asyt.in1
+	ajep.y -> asyt.in1
 	@-163.77,85.44,-163.77,87.41,-162.58,87.41,-162.58,85.42;
 
 wire aver:clk
-	aver.q -> bycu.in3
+	aver.y -> bycu.in3
 	@-164.29,85.45,-164.29,88.21,-161.21,88.21,-161.21,89.04;
 
 # apyh.sum is not connected
@@ -306,11 +306,11 @@ wire apyh_c:data
 	@-168.05,85.43,-168.05,87.52,-152.66,87.54,-152.66,89.05;
 
 wire oam_rendering2:ctl
-	azem.q -> aror.in1
+	azem.y -> aror.in1
 	@-172.50,85.42,-172.50,87.27,-175.23,87.27,-175.23,85.42;
 
 wire abon:ctl
-	abon.q -> agag.~ena aras.~ena abem.~ena baxe.~ena dyso.~ena fugy.~ena famu.~ena gegu.~ena gotu.~ena gavo.~ena
+	abon.y -> agag.~ena aras.~ena abem.~ena baxe.~ena dyso.~ena fugy.~ena famu.~ena gegu.~ena gotu.~ena gavo.~ena
 	          wune.~ena wyga.~ena xehe.~ena
 	@-173.01,85.43,-173.01,86.38
 	@-173.17,85.42,-173.17,86.38,-165.49,86.38
@@ -323,7 +323,7 @@ wire abon:ctl
 	@-173.71,109.12,-174.74,109.12,-174.74,107.28;
 
 wire ~h5:data
-	abef.q -> boba.in2 cyle.in2 daga.in2 dety.in2 esaj.in2 xeny.in2 yfun.in2 zuza.in2 zemu.in2 zypu.in2
+	abef.y -> boba.in2 cyle.in2 daga.in2 dety.in2 esaj.in2 xeny.in2 yfun.in2 zuza.in2 zemu.in2 zypu.in2
 	@-174.55,85.43,-174.55,87.41,-175.40,87.41,-175.40,91.27,-180.19,91.27,-180.19,95.33,-181.05,95.33,-181.05,100.63,
 	 -181.22,100.63,-181.22,103.26,-183.96,103.26,-183.96,110.34,-184.99,110.34,-184.99,113.46,-185.51,113.46,
 	 -185.51,122.07,-185.34,122.07,-185.34,128.13
@@ -333,7 +333,7 @@ wire ~h5:data
 	@-175.09,129.13,-175.09,128.01,-169.97,128.01,-169.97,129.13;
 
 wire ~ppu_4mhz:clk
-	alet.q -> lebo.in1 lyzu.clk lape.in myvo.in mehe.in moxe.in nyka.clk nopa.clk pygo.clk rene.clk sovy.clk
+	alet.y -> lebo.in1 lyzu.clk lape.in myvo.in mehe.in moxe.in nyka.clk nopa.clk pygo.clk rene.clk sovy.clk
 	          voga.clk doba.clk
 	@-175.06,85.42,-175.06,88.08,-168.05,88.08
 	@-168.06,96.77,-168.06,96.07,-167.89,96.07,-167.89,92.27,-168.05,92.27,-168.05,87.78,-165.15,87.78,-165.15,83.49,
@@ -348,7 +348,7 @@ wire ~ppu_4mhz:clk
 	@-144.57,26.98,-144.57,28.80,-143.88,28.80,-143.88,26.99;
 
 wire aror:ctl
-	aror.q -> dyka.in1 dydu.in1 dego.in1 egom.in1 efyl.in1 xage.in1 ygem.in1 yloz.in1 ybez.in1 ydug.in1
+	aror.y -> dyka.in1 dydu.in1 dego.in1 egom.in1 efyl.in1 xage.in1 ygem.in1 yloz.in1 ybez.in1 ydug.in1
 	@-175.73,85.44,-175.73,87.06,-175.57,87.06,-175.57,91.52,-174.38,91.52,-174.38,96.18,-174.22,96.18,-174.22,99.61,
 	 -183.27,99.60
 	@-183.27,101.19,-183.27,99.30,-186.34,99.30,-199.00,99.29,-199.00,105.34,-198.32,105.34,-198.32,109.70,
@@ -360,7 +360,7 @@ wire aror:ctl
 	@-180.05,122.59,-180.05,123.80;
 
 wire ~h2:data
-	amel.q -> dyze.in2 ebef.in2 foky.in2 geve.in2 gabu.in2 xuco.in2 yfop.in2 ydaj.in2 zaku.in2 zaha.in2
+	amel.y -> dyze.in2 ebef.in2 foky.in2 geve.in2 gabu.in2 xuco.in2 yfop.in2 ydaj.in2 zaku.in2 zaha.in2
 	@-176.26,85.45,-176.26,87.22,-175.74,87.22,-175.74,91.83,-175.23,91.83,-175.23,99.77,-176.44,99.77,-176.44,103.39,
 	 -184.31,103.39
 	@-184.31,102.69,-184.31,108.04,-184.66,108.04,-184.66,114.57,-199.70,114.56,-201.23,114.56,-201.23,110.33,
@@ -371,24 +371,24 @@ wire ~h2:data
 	@-175.44,126.30,-173.39,126.30,-173.39,125.30;
 
 wire asul:ctl
-	asul.q -> beje.in
+	asul.y -> beje.in
 	@-176.94,85.42,-176.94,86.80,-169.92,86.80,-169.92,89.02;
 
 wire axad:ctl
-	axad.q -> asul.in1 acen.in2
+	axad.y -> asul.in1 acen.in2
 	@-177.28,85.43,-177.28,87.27,-176.42,87.27,-176.42,85.43
 	@-177.28,87.23,-177.62,87.23,-177.62,85.43;
 
 wire acen:ctl
-	acen.q -> bafy.in
+	acen.y -> bafy.in
 	@-177.96,85.43,-177.96,86.49,-168.40,86.50,-168.40,89.05;
 
 wire ales:ctl
-	ales.q -> abov.in2
+	ales.y -> abov.in2
 	@-178.30,83.92,-178.30,82.29,-178.64,82.29,-178.64,83.94;
 
 wire abov:ctl
-	abov.q -> catu.d
+	abov.y -> catu.d
 	@-178.98,85.42,-178.98,88.21,-178.81,88.21,-178.81,95.04,-157.28,95.04,-157.28,94.46;
 
 # atad.sum is not connected
@@ -398,7 +398,7 @@ wire atad_c:data
 	@-179.16,85.42,-179.16,87.09,-177.45,87.09,-177.45,89.05;
 
 wire stop_oam_parsing:ctl
-	avap.q -> nyxu.in1 pome.in1 xymu.r asen.in2
+	avap.y -> nyxu.in1 pome.in1 xymu.r asen.in2
 	@-181.21,83.91,-181.21,81.60,-181.81,81.60
 	@-182.58,83.91,-182.58,82.54,-181.81,82.54,-181.81,79.13,-181.30,79.13,-181.30,71.56,-155.90,71.57,-155.90,66.54,
 	 -156.06,66.54,-156.06,61.34,-155.88,61.34,-155.88,56.38,-156.22,56.38,-156.22,52.51,-157.07,52.51,-157.07,48.78,
@@ -406,7 +406,7 @@ wire stop_oam_parsing:ctl
 	@-152.44,36.10,-152.44,37.58,-156.72,37.58,-180.65,37.57,-180.65,38.94;
 
 wire ~h4:data
-	apux.q -> bazy.in2 cola.in2 ceko.in2 duze.in2 ejot.in2 woju.in2 yvap.in2 zywu.in2 zygo.in2 zyku.in2
+	apux.y -> bazy.in2 cola.in2 ceko.in2 duze.in2 ejot.in2 woju.in2 yvap.in2 zywu.in2 zygo.in2 zyku.in2
 	@-174.89,92.95,-174.89,91.40,-181.22,91.40,-181.22,88.28,-181.72,88.28,-181.72,82.92,-207.35,82.91,-207.35,92.93
 	@-207.35,92.36,-199.16,92.36,-199.16,100.60,-199.85,100.60,-199.85,104.91,-177.47,104.92,-177.47,102.67
 	@-199.85,104.27,-206.52,104.27,-206.52,108.28,-207.38,108.28,-207.38,114.42,-207.73,114.42,-207.73,118.84,
@@ -416,7 +416,7 @@ wire ~h4:data
 	@-176.98,127.75,-173.05,127.75,-173.05,129.14;
 
 wire atej:ctl
-	atej.q -> seca.in3 tady.in1 xahy.in anom.in1 abak.in1 azyb.in
+	atej.y -> seca.in3 tady.in1 xahy.in anom.in1 abak.in1 azyb.in
 	@-182.24,83.91,-182.24,80.36,-171.55,80.37,-171.55,79.26,-171.04,79.26,-171.04,73.14,-171.12,73.14,-171.12,66.95,
 	 -158.80,66.96,-158.46,66.96,-158.46,69.35
 	@-158.80,66.96,-158.80,61.33,-158.96,61.33,-158.96,57.79,-159.30,57.79,-159.30,52.07,-156.21,52.07,-156.21,50.85
@@ -425,11 +425,11 @@ wire atej:ctl
 	@-187.53,83.34,-187.53,83.91;
 
 wire asen:ctl
-	asen.q -> besu.r
+	asen.y -> besu.r
 	@-182.92,85.42,-182.92,88.08,-182.75,88.08,-182.75,92.07,-158.31,92.09,-158.31,90.52;
 
 wire ~sprite_x5:data
-	arop.q -> ceso.d dyby.d enad.d ejuf.d faxe.d wuha.d xuny.d yrop.d zogo.d zala.d
+	arop.y -> ceso.d dyby.d enad.d ejuf.d faxe.d wuha.d xuny.d yrop.d zogo.d zala.d
 	@-183.26,85.43,-183.26,87.39,-178.47,87.39,-178.47,94.90,-179.34,94.90,-179.34,100.74,-191.13,100.74,-207.54,100.73,
 	 -210.96,100.73,-210.96,101.18
 	@-207.54,100.73,-207.54,101.20
@@ -440,7 +440,7 @@ wire ~sprite_x5:data
 	@-193.05,132.55,-193.05,130.61;
 
 wire abez:rst
-	abez.q -> anel.~r byha.in3 ceno.~r catu.~r
+	abez.y -> anel.~r byha.in3 ceno.~r catu.~r
 	@-183.61,83.91,-183.61,83.17,-159.67,83.19,-159.67,86.94,-158.99,86.94
 	@-158.48,85.42,-158.48,86.81,-158.99,86.81,-158.99,92.27,-157.11,92.27
 	@-158.31,92.27,-158.31,92.96
@@ -448,7 +448,7 @@ wire abez:rst
 	@-155.41,92.13,-155.41,92.96;
 
 wire ~h7:data
-	asah.q -> bahu.in2 bumy.in2 cony.in2 ewud.in2 ejaw.in2 xeva.in2 ypuk.in2 zeda.in2 zuzy.in2 zefe.in2
+	asah.y -> bahu.in2 bumy.in2 cony.in2 ewud.in2 ejaw.in2 xeva.in2 ypuk.in2 zeda.in2 zuzy.in2 zefe.in2
 	@-202.08,101.18,-202.08,99.59,-201.56,99.59,-201.56,95.45,-201.38,95.45,-201.38,91.60,-201.21,91.60,-201.21,86.99,
 	 -198.64,86.99,-198.64,83.16,-184.11,83.17,-184.11,88.20,-182.24,88.20,-182.24,91.66,-179.17,91.66
 	@-201.38,91.77,-206.33,91.77,-206.33,92.95
@@ -458,7 +458,7 @@ wire ~h7:data
 	@-205.00,128.50,-207.23,128.50,-207.23,125.27;
 
 wire ~h3:data
-	ahal.q -> deso.in2 ewok.in2 fyva.in2 gude.in2 gafe.in2 yvac.in2 yvuz.in2 ybox.in2 zulo.in2 zoky.in2
+	ahal.y -> deso.in2 ewok.in2 fyva.in2 gude.in2 gafe.in2 yvac.in2 yvuz.in2 ybox.in2 zulo.in2 zoky.in2
 	@-184.63,85.42,-184.63,86.93,-172.83,86.93,-172.83,91.57,-173.19,91.57,-173.19,99.66,-173.02,99.66,-173.02,104.67,
 	 -181.23,104.67
 	@-182.60,102.69,-182.60,103.85,-181.23,103.85,-181.23,108.55,-186.36,108.55,-186.36,110.79
@@ -469,7 +469,7 @@ wire ~h3:data
 	@-178.34,127.15,-168.60,127.15,-168.60,125.29;
 
 wire ~h1:data
-	azub.q -> dagu.in2 emyb.in2 feso.in2 gola.in2 gasu.in2 ytyp.in2 ycah.in2 zate.in2 zuvu.in2 zeba.in2
+	azub.y -> dagu.in2 emyb.in2 feso.in2 gola.in2 gasu.in2 ytyp.in2 ycah.in2 zate.in2 zuvu.in2 zeba.in2
 	@-185.13,85.42,-185.13,86.68,-171.13,86.68,-171.13,100.25,-171.31,100.25,-171.31,105.23,-182.94,105.23
 	@-187.21,102.69,-187.21,104.66,-182.94,104.66,-182.94,108.05,-183.12,108.05,-183.12,113.88,-178.33,113.88,
 	 -178.33,122.07,-177.31,122.07,-177.31,127.88,-167.58,127.88,-167.58,125.32
@@ -478,7 +478,7 @@ wire ~h1:data
 	@-195.78,132.16,-195.78,130.61;
 
 wire ~oam_parse_reset:ctl
-	anom.q -> balu.in elyn.~r fony.~r faha.~r goso.~r wewy.~r yfel.~r
+	anom.y -> balu.in elyn.~r fony.~r faha.~r goso.~r wewy.~r yfel.~r
 	@-185.66,83.91,-185.66,82.66,-173.87,82.67,-173.87,91.50,-174.04,91.50,-174.04,96.19,-173.53,96.19,-173.53,99.77,
 	 -160.88,99.77,-160.88,105.35,-158.66,105.35,-158.66,109.50,-155.59,109.50,-155.59,113.13,-154.57,113.13,
 	 -154.57,118.32,-153.38,118.32,-153.38,116.51
@@ -490,13 +490,13 @@ wire ~oam_parse_reset:ctl
 	@-153.90,123.11,-155.09,123.11,-155.09,123.82;
 
 wire atar:rst
-	atar.q -> asen.in1 abez.in anom.in2
+	atar.y -> asen.in1 abez.in anom.in2
 	@-185.99,85.41,-185.99,87.40,-185.48,87.40,-185.48,85.41
 	@-185.48,87.22,-182.41,87.22,-182.41,85.41
 	@-183.43,87.22,-183.43,85.42;
 
 wire ~h0:data
-	acam.q -> duse.in2 edym.in2 fuzu.in2 guzo.in2 goho.in2 xosu.in2 xeju.in2 ymam.in2 yhok.in2 zogy.in2
+	acam.y -> duse.in2 edym.in2 fuzu.in2 guzo.in2 goho.in2 xosu.in2 xeju.in2 ymam.in2 yhok.in2 zogy.in2
 	@-186.51,85.42,-186.51,87.64,-173.02,87.65,-173.02,96.19,-172.16,96.19,-172.16,99.65,-172.67,99.65,-172.67,105.35,
 	 -176.44,105.35
 	@-186.18,102.67,-186.18,103.56,-176.44,103.56,-176.44,108.95,-176.61,108.95,-176.61,118.49,-174.41,118.49,
@@ -508,7 +508,7 @@ wire ~h0:data
 	@-202.09,121.06,-202.09,123.22,-202.27,123.22,-202.27,127.95,-211.68,127.94,-211.68,129.11;
 
 wire ~h6:data
-	adaz.q -> colu.in2 ceva.in2 ducu.in2 dawu.in2 dozo.in2 wyza.in2 xavu.in2 xaha.in2 zejo.in2 zare.in2
+	adaz.y -> colu.in2 ceva.in2 ducu.in2 dawu.in2 dozo.in2 wyza.in2 xavu.in2 xaha.in2 zejo.in2 zare.in2
 	@-187.02,83.91,-187.02,82.80
 	@-177.80,91.65,-177.80,82.80,-187.02,82.80,-202.75,82.78,-202.75,91.48,-202.92,91.48,-202.92,96.17,-202.75,96.17,
 	 -202.75,100.60,-205.32,100.60,-205.32,103.90,-205.49,103.90,-205.49,109.82,-206.18,109.82,-206.18,113.82,
@@ -522,15 +522,15 @@ wire ~h6:data
 	@-174.07,128.56,-174.07,129.12;
 
 wire amyg:rst
-	amyg.q -> abak.in2
+	amyg.y -> abak.in2
 	@-187.36,83.91,-187.36,82.66,-187.70,82.66,-187.70,83.93;
 
 wire abak:ctl
-	abak.q -> byva.in
+	abak.y -> byva.in
 	@-188.05,85.42,-188.05,86.79,-187.53,86.79,-187.53,89.02;
 
 wire asys:ctl
-	asys.q -> cusy.~ena ceso.~ena camo.in dake.~ena dyfu.~ena dazo.~ena desu.~ena duko.~ena dany.~ena
+	asys.y -> cusy.~ena ceso.~ena camo.in dake.~ena dyfu.~ena dazo.~ena desu.~ena duko.~ena dany.~ena
 	@-190.44,85.41,-190.44,88.45,-181.73,88.45,-181.73,95.33
 	@-181.39,96.76,-181.39,95.33,-184.81,95.33,-184.81,96.77
 	@-181.39,96.31,-176.09,96.31,-176.09,96.77
@@ -541,7 +541,7 @@ wire asys:ctl
 	@-176.59,96.31,-176.59,94.45;
 
 wire azyb:ctl
-	azyb.q -> bego.~r bese.~r cuxy.~r dybe.~r
+	azyb.y -> bego.~r bese.~r cuxy.~r dybe.~r
 	@-191.80,83.91,-191.80,83.34,-206.84,83.33,-206.84,88.18
 	@-206.67,89.02,-206.67,88.18,-210.27,88.18,-210.27,92.36,-210.61,92.36
 	@-211.81,92.93,-211.81,92.23,-210.61,92.23,-210.61,95.87,-207.88,95.87
@@ -550,7 +550,7 @@ wire azyb:ctl
 	@-207.87,88.18,-207.87,89.00;
 
 wire ahof:ctl
-	ahof.q -> arof.~ena abop.~ena ames.~ena abug.~ena bydy.in
+	ahof.y -> arof.~ena abop.~ena ames.~ena abug.~ena bydy.in
 	@-193.17,83.91,-193.17,82.66,-201.89,82.66
 	@-201.89,83.90,-201.89,82.40,-203.43,82.40,-203.43,83.91
 	@-203.43,82.78,-204.95,82.78,-204.95,87.08,-205.48,87.08,-205.48,89.02
@@ -569,7 +569,7 @@ wire ~axuv:data
 	@-200.18,83.92,-200.18,82.40,-198.46,82.40,-198.46,83.93;
 
 wire save_sprite_num8:ctl
-	avoz.q -> apev.ena axuv.ena bada.ena bado.ena bexy.ena byhe.ena
+	avoz.y -> apev.ena axuv.ena bada.ena bado.ena bexy.ena byhe.ena
 	@-200.69,85.41,-200.69,87.38
 	@-201.38,89.01,-201.38,87.38,-195.22,87.38,-195.22,89.04
 	@-199.50,87.38,-199.50,85.41
@@ -602,7 +602,7 @@ wire ~abug:data
 	@-207.70,85.41,-207.70,87.63,-202.91,87.63,-202.91,89.02;
 
 wire akol:ctl
-	akol.q -> apev.~ena axuv.~ena avoz.in bada.~ena bado.~ena bexy.~ena byhe.~ena
+	akol.y -> apev.~ena axuv.~ena avoz.in bada.~ena bado.~ena bexy.~ena byhe.~ena
 	@-208.20,83.90,-208.20,83.20,-200.52,83.20,-200.52,88.56
 	@-200.86,89.02,-200.86,88.56,-193.17,88.56,-193.17,89.02
 	@-198.98,88.56,-198.98,85.41

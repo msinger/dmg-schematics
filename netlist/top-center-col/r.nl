@@ -1,58 +1,58 @@
 # Cells in column R in top center
 # -------------------------------
 
-cell rugy:nor2        rot0 @-60.34,128.15,-59.83,130.22   ->timer;
-cell repa:nor2        rot0 @-60.85,128.16,-60.33,130.21   ->timer;
-cell rate:tffd        rot0 @-64.44,128.15,-61.02,130.23   ->timer;
-cell rage:tffd        rot0 @-67.87,128.15,-64.43,130.22   ->timer;
-cell rolu:nor2        rot0 @-68.37,128.15,-67.84,130.21   ->timer;
-cell ruby:tffd        rot0 @-71.79,128.15,-68.36,130.21   ->timer;
-cell ravy:tri_inv_if1 rot0 @-72.80,128.14,-71.77,130.21   ->timer;
-cell roke:muxi        rot0 @-73.66,128.14,-72.80,130.20   ->timer;
-cell rega:tffd        rot0 @-77.09,128.13,-73.64,130.22   ->timer;
-cell rake:or2         rot0 @-77.76,128.14,-77.07,130.20   ->int;
-cell racy:tri_inv_if1 rot0 @-78.79,128.13,-77.76,130.20   ->timer;
-cell rato:muxi        rot0 @-79.64,128.15,-78.77,130.20   ->timer;
-cell refu:muxi        rot0 @-80.50,128.14,-79.63,130.20   ->timer;
-cell rowu:tri_inv_if1 rot0 @-81.52,128.15,-80.49,130.21   ->timer;
-cell reva:tri_inv_if1 rot0 @-82.55,128.15,-81.52,130.21   ->timer;
-cell ryso:inv_a       rot0 @-82.89,128.14,-82.52,130.22   ->clocks;
-cell rala:tri_buf_if0 rot0 @-84.59,128.14,-82.87,130.20   ->bus-adr;
-cell rova:tri_inv_if1 rot0 @-85.61,128.14,-84.58,130.20   ->int;
-cell rotu:inv_a       rot0 @-85.95,128.15,-85.60,130.21   ->int;
-cell rore:nor2        rot0 @-86.47,128.13,-85.94,130.20   ->bus-adr;
-cell roxu:nand2       rot0 @-86.98,128.15,-86.45,130.19   ->bus-adr;
-cell roru:mux         rot0 @-88.00,128.13,-86.97,130.20   ->bus-adr;
-cell redu:inv_a       rot0 @-88.34,128.13,-87.99,130.20   ->bus-data;
-cell resu:tri_inv_if1 rot0 @-89.38,128.15,-88.35,130.21   ->ppu-dma;
-cell rave:inv_a       rot0 @-89.72,128.16,-89.36,130.21   ->clocks;
-cell raly:tri_inv_if1 rot0 @-90.75,128.13,-89.70,130.19   ->ppu-dma;
-cell rote:tri_inv_if1 rot0 @-91.77,128.13,-90.74,130.20   ->timer;
-cell rofo:tri_inv_if1 rot0 @-92.80,128.13,-91.76,130.20   ->ppu-dma;
-cell ryla:tri_inv_if1 rot0 @-93.81,128.13,-92.78,130.20   ->timer;
-cell raru:tri_inv_if1 rot0 @-94.84,128.13,-93.81,130.20   ->bus-data;
-cell rowe:tri_inv_if1 rot0 @-95.88,128.13,-94.83,130.19   ->bus-data;
-cell ryke:tri_inv_if1 rot0 @-96.91,128.13,-95.86,130.20   ->bus-data;
-cell ryne:tri_inv_if1 rot0 @-97.92,128.12,-96.89,130.19   ->bus-data;
-cell rase:tri_inv_if1 rot0 @-98.94,128.13,-97.91,130.20   ->bus-data;
-cell rejy:tri_inv_if1 rot0 @-99.97,128.12,-98.95,130.20   ->bus-data;
-cell reka:tri_inv_if1 rot0 @-100.98,128.12,-99.96,130.19  ->bus-data;
-cell romy:tri_inv_if1 rot0 @-102.02,128.13,-100.98,130.20 ->bus-data;
-cell rema:tri_inv_if1 rot0 @-103.05,128.14,-102.01,130.18 ->ppu-dma;
-cell ryfo:and3        rot0 @-103.91,128.13,-103.03,130.20 ->timer;
-cell rolo:nand4       rot0 @-104.92,128.13,-104.06,130.19 ->int;
-cell refa:nand4       rot0 @-105.81,128.12,-104.91,130.20 ->int;
+cell rugy:nor2    rot0 @-60.34,128.15,-59.83,130.22   ->timer;
+cell repa:nor2    rot0 @-60.85,128.16,-60.33,130.21   ->timer;
+cell rate:tffnl   rot0 @-64.44,128.15,-61.02,130.23   ->timer;
+cell rage:tffnl   rot0 @-67.87,128.15,-64.43,130.22   ->timer;
+cell rolu:nor2    rot0 @-68.37,128.15,-67.84,130.21   ->timer;
+cell ruby:tffnl   rot0 @-71.79,128.15,-68.36,130.21   ->timer;
+cell ravy:not_if1 rot0 @-72.80,128.14,-71.77,130.21   ->timer;
+cell roke:muxi    rot0 @-73.66,128.14,-72.80,130.20   ->timer;
+cell rega:tffnl   rot0 @-77.09,128.13,-73.64,130.22   ->timer;
+cell rake:or2     rot0 @-77.76,128.14,-77.07,130.20   ->int;
+cell racy:not_if1 rot0 @-78.79,128.13,-77.76,130.20   ->timer;
+cell rato:muxi    rot0 @-79.64,128.15,-78.77,130.20   ->timer;
+cell refu:muxi    rot0 @-80.50,128.14,-79.63,130.20   ->timer;
+cell rowu:not_if1 rot0 @-81.52,128.15,-80.49,130.21   ->timer;
+cell reva:not_if1 rot0 @-82.55,128.15,-81.52,130.21   ->timer;
+cell ryso:not_x1  rot0 @-82.89,128.14,-82.52,130.22   ->clocks;
+cell rala:buf_if0 rot0 @-84.59,128.14,-82.87,130.20   ->bus-adr;
+cell rova:not_if1 rot0 @-85.61,128.14,-84.58,130.20   ->int;
+cell rotu:not_x1  rot0 @-85.95,128.15,-85.60,130.21   ->int;
+cell rore:nor2    rot0 @-86.47,128.13,-85.94,130.20   ->bus-adr;
+cell roxu:nand2   rot0 @-86.98,128.15,-86.45,130.19   ->bus-adr;
+cell roru:mux     rot0 @-88.00,128.13,-86.97,130.20   ->bus-adr;
+cell redu:not_x1  rot0 @-88.34,128.13,-87.99,130.20   ->bus-data;
+cell resu:not_if1 rot0 @-89.38,128.15,-88.35,130.21   ->ppu-dma;
+cell rave:not_x1  rot0 @-89.72,128.16,-89.36,130.21   ->clocks;
+cell raly:not_if1 rot0 @-90.75,128.13,-89.70,130.19   ->ppu-dma;
+cell rote:not_if1 rot0 @-91.77,128.13,-90.74,130.20   ->timer;
+cell rofo:not_if1 rot0 @-92.80,128.13,-91.76,130.20   ->ppu-dma;
+cell ryla:not_if1 rot0 @-93.81,128.13,-92.78,130.20   ->timer;
+cell raru:not_if1 rot0 @-94.84,128.13,-93.81,130.20   ->bus-data;
+cell rowe:not_if1 rot0 @-95.88,128.13,-94.83,130.19   ->bus-data;
+cell ryke:not_if1 rot0 @-96.91,128.13,-95.86,130.20   ->bus-data;
+cell ryne:not_if1 rot0 @-97.92,128.12,-96.89,130.19   ->bus-data;
+cell rase:not_if1 rot0 @-98.94,128.13,-97.91,130.20   ->bus-data;
+cell rejy:not_if1 rot0 @-99.97,128.12,-98.95,130.20   ->bus-data;
+cell reka:not_if1 rot0 @-100.98,128.12,-99.96,130.19  ->bus-data;
+cell romy:not_if1 rot0 @-102.02,128.13,-100.98,130.20 ->bus-data;
+cell rema:not_if1 rot0 @-103.05,128.14,-102.01,130.18 ->ppu-dma;
+cell ryfo:and3    rot0 @-103.91,128.13,-103.03,130.20 ->timer;
+cell rolo:nand4   rot0 @-104.92,128.13,-104.06,130.19 ->int;
+cell refa:nand4   rot0 @-105.81,128.12,-104.91,130.20 ->int;
 
 
 # Wires originating from column R in top center
 # ---------------------------------------------
 
 wire rugy:data
-	rugy.q -> rage.d
+	rugy.y -> rage.d
 	@-60.25,128.45,-60.25,128.01,-64.87,128.01,-64.87,130.98,-67.09,130.98,-67.09,129.90;
 
 wire repa:data
-	repa.q -> rate.d
+	repa.y -> rate.d
 	@-60.77,128.47,-60.77,127.46,-63.66,127.46,-63.66,128.46
 	@-61.44,127.46,-61.44,128.45;
 
@@ -73,7 +73,7 @@ wire ~rage:data
 	@-67.26,129.92,-67.26,131.23,-64.35,131.23,-64.35,131.95;
 
 wire rolu:data
-	rolu.q -> ruby.d
+	rolu.y -> ruby.d
 	@-68.29,128.45,-68.29,127.87,-71.01,127.87,-71.01,128.48
 	@-68.80,127.87,-68.80,128.45;
 
@@ -86,7 +86,7 @@ wire ~ruby:data
 	@-71.19,129.92,-71.19,131.97;
 
 wire roke:data
-	roke.q -> puxy.in2
+	roke.y -> puxy.in2
 	@-73.57,128.44,-73.57,127.14,-74.25,127.14,-74.25,125.79;
 
 wire rega:clk
@@ -98,40 +98,40 @@ wire ~rega:data
 	@-76.48,129.92,-76.48,131.48,-73.91,131.48,-73.91,131.96;
 
 wire rake:data
-	rake.q -> pyga.in1
+	rake.y -> pyga.in1
 	@-77.68,128.44,-77.68,126.67,-76.30,126.67,-76.30,125.78;
 
 wire rato:data
-	rato.q -> pagu.in2
+	rato.y -> pagu.in2
 	@-79.55,128.44,-79.55,126.50,-73.73,126.50,-73.73,125.76;
 
 wire refu:data
-	refu.q -> pyma.in2
+	refu.y -> pyma.in2
 	@-80.41,128.43,-80.41,127.27,-73.23,127.27,-73.23,125.77;
 
 wire ryso:clk
-	ryso.q -> sawa.in
+	ryso.y -> sawa.in
 	@-82.80,129.93,-82.80,131.23,-81.77,131.23,-81.77,131.94;
 
 wire rotu:ctl
-	rotu.q -> myzu.in1 mody.in1 pyhu.in1 tome.in1 toga.in1
+	rotu.y -> myzu.in1 mody.in1 pyhu.in1 tome.in1 toga.in1
 	@-88.27,136.16,-88.27,134.98,-85.70,134.98,-85.70,131.22,-85.88,131.22,-85.88,127.56,-85.69,127.56,
 	 -85.69,126.50,-86.04,126.50,-86.04,122.70,-84.48,122.70,-84.48,118.38,-84.15,118.38,-84.15,117.29
 	@-86.04,123.00,-87.06,123.00,-87.06,117.25
 	@-84.48,121.88,-75.61,121.88,-75.61,127.61,-72.03,127.61,-72.03,134.69,-71.53,134.69,-71.53,136.16;
 
 wire rore:adr
-	rore.q -> a10.l
+	rore.y -> a10.ndrv
 	@-86.39,128.43,-86.39,123.38,-58.90,123.40,-58.90,130.67,-47.48,130.67,-47.51,147.37,-42.70,147.37,
 	 -42.70,146.96,-41.91,146.96;
 
 wire roxu:adr
-	roxu.q -> a10.~h
+	roxu.y -> a10.~pdrv
 	@-86.90,129.91,-86.90,131.09,-61.11,131.12,-61.11,135.47,-59.25,135.47,-59.25,135.33,-47.14,135.33,
 	 -47.14,139.18,-42.70,139.18,-42.70,138.77,-41.91,138.77;
 
 wire roru:ctl
-	roru.q -> rune.in1 resy.in1 rypu.in1 ryda.in1 rogy.in1 seze.in1 suly.in1 tamu.in1 lula.in lyra.in2
+	roru.y -> rune.in1 resy.in1 rypu.in1 ryda.in1 rogy.in1 seze.in1 suly.in1 tamu.in1 lula.in lyra.in2
 	@-57.73,27.39,-57.73,28.82,-56.20,28.82,-56.20,33.21,-55.17,33.21,-55.17,36.25,-79.14,36.25,-79.14,43.90,
 	 -44.97,43.91,-45.06,108.73,-78.63,108.72,-78.63,111.02,-84.31,111.02,-84.31,114.29,-86.88,114.29,
 	 -86.88,117.88,-87.57,117.88,-87.57,123.47,-88.09,123.47,-88.09,127.56,-87.91,127.56,-87.91,128.44
@@ -142,15 +142,15 @@ wire roru:ctl
 	@-83.46,111.02,-83.46,111.76;
 
 wire redu:ctl
-	redu.q -> roru.d1
+	redu.y -> roru.d1
 	@-88.27,129.91,-88.27,131.05,-87.24,131.05,-87.24,129.91;
 
 wire rave:clk
-	rave.q -> sepu.in
+	rave.y -> sepu.in
 	@-89.65,129.91,-89.65,130.97,-89.80,130.97,-89.80,131.94;
 
 wire ff04_ff07:dec
-	ryfo.q -> sara.in4 sora.in1 tope.in4 teda.in1 tyju.in4 tuby.in1 tape.in1 tagy.in1
+	ryfo.y -> sara.in4 sora.in1 tope.in4 teda.in1 tyju.in4 tuby.in1 tape.in1 tagy.in1
 	@-103.82,128.42,-103.82,127.34,-101.24,127.34,-101.24,130.83,-100.91,130.83,-100.91,135.41,-96.64,135.41,
 	 -96.64,133.41
 	@-96.64,135.40,-86.05,135.41,-86.05,136.16
@@ -161,7 +161,7 @@ wire ff04_ff07:dec
 	@-81.27,135.07,-80.24,135.07,-80.24,136.17;
 
 wire ~ff0f_rd:ctl
-	rolo.q -> mopo.ena maty.ena nejy.ena nuty.ena pola.in pavy.ena
+	rolo.y -> mopo.ena maty.ena nejy.ena nuty.ena pola.in pavy.ena
 	@-104.82,128.43,-104.82,123.70,-85.00,123.72,-83.98,123.72,-83.98,121.02
 	@-85.00,123.72,-85.00,124.31
 	@-84.66,123.72,-84.66,124.29
@@ -169,7 +169,7 @@ wire ~ff0f_rd:ctl
 	@-82.28,121.76,-81.25,121.76,-81.25,118.68,-80.06,118.68,-80.06,117.27;
 
 wire ~ff0f_wr:ctl
-	refa.q -> muxe.in2 nabe.in2 rake.in2 rotu.in sulo.in2 seme.in2
+	refa.y -> muxe.in2 nabe.in2 rake.in2 rotu.in sulo.in2 seme.in2
 	@-105.70,129.89,-105.70,131.47,-88.27,131.47
 	@-88.27,131.93,-88.27,131.23,-87.76,131.23,-87.76,127.13,-88.61,127.13,-88.61,123.59,-88.43,123.59,-88.43,118.67,-81.94,118.67,-81.94,117.28
 	@-87.76,130.79,-85.70,130.79,-85.70,129.90

@@ -1,104 +1,104 @@
 # Cells in column Y in bottom center
 # ----------------------------------
 
-cell ytux:tri_buf_if0 rot0,flip @-128.00,123.53,-126.32,125.60      ->ppu-ycomp;
-cell yweg:tri_buf_if0 rot0,flip @-129.72,123.55,-128.01,125.60      ->ppu-ycomp;
-cell ypon:tri_buf_if0 rot0,flip @-131.44,123.53,-129.72,125.59      ->ppu-ycomp;
-cell ynyc:and2        rot0,flip @-132.11,123.54,-131.43,125.59      ->ppu-oam;
-cell ylyc:and2        rot0,flip @-132.79,123.55,-132.11,125.58      ->ppu-oam;
-cell yfap:tri_buf_if0 rot0,flip @-134.50,123.55,-132.78,125.60      ->ppu-ycomp;
-cell yfoc:inv_a       rot0,flip @-134.84,123.54,-134.49,125.59      ->ppu-oam;
-cell yvuc:tri_inv_if0 rot0,flip @-135.86,123.54,-134.84,125.59      ->ppu-oam;
-cell yfot:inv_a       rot0,flip @-136.21,123.53,-135.86,125.59      ->ppu-oam;
-cell yvel:d_latch_b   rot0,flip @-137.91,123.55,-136.20,125.60      ->ppu-xcomp;
-cell yses:d_latch_b   rot0,flip @-139.63,123.55,-137.91,125.60      ->ppu-ycomp;
-cell ysex:d_latch_b   rot0,flip @-141.34,123.55,-139.62,125.58      ->ppu-xcomp;
-cell ydyv:d_latch_b   rot0,flip @-143.05,123.55,-141.33,125.59      ->ppu-ycomp;
-cell yceb:d_latch_b   rot0,flip @-144.76,123.55,-143.04,125.59      ->ppu-ycomp;
-cell yrum:d_latch_b   rot0,flip @-146.47,123.55,-144.75,125.59      ->ppu-xcomp;
-cell yzab:d_latch_a   rot0,flip @-147.99,123.55,-146.45,125.58      ->ppu-ycomp;
-cell yjex:d_latch_a   rot0,flip @-149.53,123.55,-147.98,125.59      ->ppu-ycomp;
-cell yzet:inv_a       rot0,flip @-149.89,123.55,-149.54,125.58      ->ppu-oam;
-cell ymev:inv_a       rot0,flip @-150.23,123.55,-149.88,125.59      ->ppu-oam;
-cell yvom:inv_a       rot0,flip @-150.57,123.55,-150.22,125.59      ->ppu-oam;
-cell yduf:dffr_b      rot0,flip @-152.96,123.55,-150.57,125.59      ->ppu-oam;
-cell yfel:dffr_b2     rot0,flip @-155.87,123.52,-152.96,125.59      ->ppu-objctl;
-cell yryv:inv_a       rot0,flip @-156.20,123.53,-155.84,125.60      ->ppu-oam;
-cell yval:inv_a       rot0,flip @-156.55,123.55,-156.20,125.59      ->ppu-oam;
-cell ybog:d_latch_a   rot0,flip @-158.09,123.54,-156.53,125.58      ->ppu-ycomp;
-cell ysum:inv_a       rot0,flip @-158.42,123.53,-158.08,125.58      ->ppu-ycomp;
-cell ywok:inv_a       rot0,flip @-158.77,123.54,-158.42,125.59 comp ->ppu-ycomp;
-cell yzos:d_latch_a   rot0,flip @-160.30,123.54,-158.77,125.59      ->ppu-xcomp;
-cell ylor:d_latch_a   rot0,flip @-161.84,123.53,-160.30,125.59      ->ppu-xcomp;
-cell yvok:inv_a       rot0,flip @-162.20,123.52,-161.84,125.58      ->ppu-xcomp;
-cell ywav:tri_inv_if0 rot0,flip @-163.21,123.54,-162.19,125.59      ->ppu-objreg;
-cell ypur:inv_a       rot0,flip @-163.55,123.55,-163.22,125.59      ->ppu-xcomp;
-cell yjem:tri_inv_if0 rot0,flip @-164.58,123.52,-163.54,125.58      ->ppu-objreg;
-cell ypoz:tri_inv_if0 rot0,flip @-165.61,123.53,-164.57,125.59      ->ppu-objreg;
-cell ygum:d_latch_a   rot0,flip @-167.14,123.52,-165.60,125.59      ->ppu-objreg;
-cell ytyp:xor         rot0,flip @-168.16,123.52,-167.13,125.59      ->ppu-xcomp;
-cell yvac:xor         rot0,flip @-169.20,123.52,-168.16,125.59      ->ppu-xcomp;
-cell ylev:nor4        rot0,flip @-170.05,123.52,-169.19,125.59      ->ppu-xcomp;
-cell ytub:nor4        rot0,flip @-170.91,123.52,-170.05,125.58      ->ppu-xcomp;
-cell ygem:nand3       rot0,flip @-171.59,123.52,-170.91,125.57      ->ppu-xprio;
-cell ymam:xor         rot0,flip @-172.63,123.52,-171.59,125.58      ->ppu-xcomp;
-cell yfag:inv_a       rot0,flip @-172.97,123.52,-172.61,125.59 comp ->ppu-objctl;
-cell yfop:xor         rot0,flip @-173.99,123.53,-172.95,125.56      ->ppu-xcomp;
-cell yhok:xor         rot0,flip @-174.99,123.53,-173.99,125.58      ->ppu-xcomp;
-cell ydaj:xor         rot0,flip @-176.03,123.53,-175.01,125.58      ->ppu-xcomp;
-cell ywap:nor4        rot0,flip @-176.89,123.52,-176.03,125.57      ->ppu-xcomp;
-cell ycah:xor         rot0,flip @-177.91,123.53,-176.88,125.56      ->ppu-xcomp;
-cell yvuz:xor         rot0,flip @-178.94,123.53,-177.91,125.58      ->ppu-xcomp;
-cell ybuk:tri_inv_if0 rot0,flip @-179.95,123.53,-178.94,125.57      ->ppu-objreg;
-cell yloz:nand3       rot0,flip @-180.65,123.52,-179.96,125.57      ->ppu-xprio;
-cell ybez:nand3       rot0,flip @-181.34,123.53,-180.64,125.57      ->ppu-xprio;
-cell ykoz:tri_inv_if0 rot0,flip @-182.36,123.52,-181.32,125.57      ->ppu-objreg;
-cell ywos:nor4        rot0,flip @-183.22,123.54,-182.35,125.59      ->ppu-xcomp;
-cell yvap:xor         rot0,flip @-184.25,123.52,-183.20,125.56      ->ppu-xcomp;
-cell yrop:dr_latch    rot0,flip @-185.94,123.52,-184.23,125.56      ->ppu-xcomp;
-cell ynep:dr_latch    rot0,flip @-187.66,123.52,-185.93,125.57      ->ppu-xcomp;
-cell ypod:dr_latch    rot0,flip @-189.37,123.53,-187.65,125.57      ->ppu-xcomp;
-cell yzof:dr_latch    rot0,flip @-191.07,123.52,-189.37,125.56      ->ppu-xcomp;
-cell ynaz:nor4        rot0,flip @-191.93,123.53,-191.07,125.56      ->ppu-xcomp;
-cell ybox:xor         rot0,flip @-192.97,123.52,-191.92,125.56      ->ppu-xcomp;
-cell yvag:dr_latch    rot0,flip @-194.66,123.52,-192.95,125.55      ->ppu-xcomp;
-cell yrac:dr_latch    rot0,flip @-196.36,123.52,-194.65,125.56      ->ppu-xcomp;
-cell ydot:nor4        rot0,flip @-197.23,123.51,-196.36,125.56      ->ppu-xcomp;
-cell ycol:dr_latch    rot0,flip @-198.93,123.49,-197.23,125.54      ->ppu-xcomp;
-cell ymem:dr_latch    rot0,flip @-200.63,123.52,-198.92,125.55      ->ppu-xcomp;
-cell ygaj:dr_latch    rot0,flip @-202.36,123.52,-200.64,125.56      ->ppu-xcomp;
-cell ybed:dr_latch    rot0,flip @-204.07,123.51,-202.35,125.57      ->ppu-xcomp;
-cell ykok:nor4        rot0,flip @-204.91,123.52,-204.06,125.55      ->ppu-xcomp;
-cell ydug:nand3       rot0,flip @-205.77,123.51,-205.08,125.57      ->ppu-xprio;
-cell yfun:xor         rot0,flip @-206.80,123.51,-205.76,125.55      ->ppu-xcomp;
-cell ypuk:xor         rot0,flip @-207.82,123.52,-206.79,125.56      ->ppu-xcomp;
-cell ylah:dr_latch    rot0,flip @-209.52,123.50,-207.82,125.54      ->ppu-xcomp;
-cell ykuk:d_latch_a   rot0,flip @-211.06,123.51,-209.52,125.55      ->ppu-objreg;
-cell ylov:d_latch_a   rot0,flip @-212.62,123.52,-211.06,125.55      ->ppu-objreg;
-cell ynev:tri_inv_if0 rot0,flip @-213.63,123.50,-212.60,125.55      ->ppu-objreg;
-cell yrad:tri_inv_if0 rot0,flip @-214.66,123.50,-213.63,125.54      ->ppu-objreg;
-cell ysok:d_latch_a   rot0,flip @-216.20,123.51,-214.65,125.55      ->ppu-objreg;
-cell yzor:d_latch_a   rot0,flip @-217.71,123.50,-216.19,125.55      ->ppu-objreg;
-cell ywak:d_latch_a   rot0,flip @-219.27,123.50,-217.73,125.55      ->ppu-objreg;
-cell ygus:d_latch_a   rot0,flip @-220.80,123.52,-219.27,125.54      ->ppu-objreg;
-cell yhal:tri_inv_if0 rot0,flip @-221.84,123.50,-220.81,125.54      ->ppu-objreg;
-cell yber:d_latch_a   rot0,flip @-223.37,123.52,-221.82,125.55      ->ppu-objreg;
-cell yzep:d_latch_a   rot0,flip @-224.91,123.49,-223.37,125.55      ->ppu-objreg;
+cell ytux:buf_if0    rot0,flip @-128.00,123.53,-126.32,125.60      ->ppu-ycomp;
+cell yweg:buf_if0    rot0,flip @-129.72,123.55,-128.01,125.60      ->ppu-ycomp;
+cell ypon:buf_if0    rot0,flip @-131.44,123.53,-129.72,125.59      ->ppu-ycomp;
+cell ynyc:and2       rot0,flip @-132.11,123.54,-131.43,125.59      ->ppu-oam;
+cell ylyc:and2       rot0,flip @-132.79,123.55,-132.11,125.58      ->ppu-oam;
+cell yfap:buf_if0    rot0,flip @-134.50,123.55,-132.78,125.60      ->ppu-ycomp;
+cell yfoc:not_x1     rot0,flip @-134.84,123.54,-134.49,125.59      ->ppu-oam;
+cell yvuc:not_if0    rot0,flip @-135.86,123.54,-134.84,125.59      ->ppu-oam;
+cell yfot:not_x1     rot0,flip @-136.21,123.53,-135.86,125.59      ->ppu-oam;
+cell yvel:dlatch     rot0,flip @-137.91,123.55,-136.20,125.60      ->ppu-xcomp;
+cell yses:dlatch     rot0,flip @-139.63,123.55,-137.91,125.60      ->ppu-ycomp;
+cell ysex:dlatch     rot0,flip @-141.34,123.55,-139.62,125.58      ->ppu-xcomp;
+cell ydyv:dlatch     rot0,flip @-143.05,123.55,-141.33,125.59      ->ppu-ycomp;
+cell yceb:dlatch     rot0,flip @-144.76,123.55,-143.04,125.59      ->ppu-ycomp;
+cell yrum:dlatch     rot0,flip @-146.47,123.55,-144.75,125.59      ->ppu-xcomp;
+cell yzab:dlatch_ee  rot0,flip @-147.99,123.55,-146.45,125.58      ->ppu-ycomp;
+cell yjex:dlatch_ee  rot0,flip @-149.53,123.55,-147.98,125.59      ->ppu-ycomp;
+cell yzet:not_x1     rot0,flip @-149.89,123.55,-149.54,125.58      ->ppu-oam;
+cell ymev:not_x1     rot0,flip @-150.23,123.55,-149.88,125.59      ->ppu-oam;
+cell yvom:not_x1     rot0,flip @-150.57,123.55,-150.22,125.59      ->ppu-oam;
+cell yduf:dffr_cc    rot0,flip @-152.96,123.55,-150.57,125.59      ->ppu-oam;
+cell yfel:dffr       rot0,flip @-155.87,123.52,-152.96,125.59      ->ppu-objctl;
+cell yryv:not_x1     rot0,flip @-156.20,123.53,-155.84,125.60      ->ppu-oam;
+cell yval:not_x1     rot0,flip @-156.55,123.55,-156.20,125.59      ->ppu-oam;
+cell ybog:dlatch_ee  rot0,flip @-158.09,123.54,-156.53,125.58      ->ppu-ycomp;
+cell ysum:not_x1     rot0,flip @-158.42,123.53,-158.08,125.58      ->ppu-ycomp;
+cell ywok:not_x1     rot0,flip @-158.77,123.54,-158.42,125.59 comp ->ppu-ycomp;
+cell yzos:dlatch_ee  rot0,flip @-160.30,123.54,-158.77,125.59      ->ppu-xcomp;
+cell ylor:dlatch_ee  rot0,flip @-161.84,123.53,-160.30,125.59      ->ppu-xcomp;
+cell yvok:not_x1     rot0,flip @-162.20,123.52,-161.84,125.58      ->ppu-xcomp;
+cell ywav:not_if0    rot0,flip @-163.21,123.54,-162.19,125.59      ->ppu-objreg;
+cell ypur:not_x1     rot0,flip @-163.55,123.55,-163.22,125.59      ->ppu-xcomp;
+cell yjem:not_if0    rot0,flip @-164.58,123.52,-163.54,125.58      ->ppu-objreg;
+cell ypoz:not_if0    rot0,flip @-165.61,123.53,-164.57,125.59      ->ppu-objreg;
+cell ygum:dlatch_ee  rot0,flip @-167.14,123.52,-165.60,125.59      ->ppu-objreg;
+cell ytyp:xor        rot0,flip @-168.16,123.52,-167.13,125.59      ->ppu-xcomp;
+cell yvac:xor        rot0,flip @-169.20,123.52,-168.16,125.59      ->ppu-xcomp;
+cell ylev:nor4       rot0,flip @-170.05,123.52,-169.19,125.59      ->ppu-xcomp;
+cell ytub:nor4       rot0,flip @-170.91,123.52,-170.05,125.58      ->ppu-xcomp;
+cell ygem:nand3      rot0,flip @-171.59,123.52,-170.91,125.57      ->ppu-xprio;
+cell ymam:xor        rot0,flip @-172.63,123.52,-171.59,125.58      ->ppu-xcomp;
+cell yfag:not_x1     rot0,flip @-172.97,123.52,-172.61,125.59 comp ->ppu-objctl;
+cell yfop:xor        rot0,flip @-173.99,123.53,-172.95,125.56      ->ppu-xcomp;
+cell yhok:xor        rot0,flip @-174.99,123.53,-173.99,125.58      ->ppu-xcomp;
+cell ydaj:xor        rot0,flip @-176.03,123.53,-175.01,125.58      ->ppu-xcomp;
+cell ywap:nor4       rot0,flip @-176.89,123.52,-176.03,125.57      ->ppu-xcomp;
+cell ycah:xor        rot0,flip @-177.91,123.53,-176.88,125.56      ->ppu-xcomp;
+cell yvuz:xor        rot0,flip @-178.94,123.53,-177.91,125.58      ->ppu-xcomp;
+cell ybuk:not_if0    rot0,flip @-179.95,123.53,-178.94,125.57      ->ppu-objreg;
+cell yloz:nand3      rot0,flip @-180.65,123.52,-179.96,125.57      ->ppu-xprio;
+cell ybez:nand3      rot0,flip @-181.34,123.53,-180.64,125.57      ->ppu-xprio;
+cell ykoz:not_if0    rot0,flip @-182.36,123.52,-181.32,125.57      ->ppu-objreg;
+cell ywos:nor4       rot0,flip @-183.22,123.54,-182.35,125.59      ->ppu-xcomp;
+cell yvap:xor        rot0,flip @-184.25,123.52,-183.20,125.56      ->ppu-xcomp;
+cell yrop:drlatch_ee rot0,flip @-185.94,123.52,-184.23,125.56      ->ppu-xcomp;
+cell ynep:drlatch_ee rot0,flip @-187.66,123.52,-185.93,125.57      ->ppu-xcomp;
+cell ypod:drlatch_ee rot0,flip @-189.37,123.53,-187.65,125.57      ->ppu-xcomp;
+cell yzof:drlatch_ee rot0,flip @-191.07,123.52,-189.37,125.56      ->ppu-xcomp;
+cell ynaz:nor4       rot0,flip @-191.93,123.53,-191.07,125.56      ->ppu-xcomp;
+cell ybox:xor        rot0,flip @-192.97,123.52,-191.92,125.56      ->ppu-xcomp;
+cell yvag:drlatch_ee rot0,flip @-194.66,123.52,-192.95,125.55      ->ppu-xcomp;
+cell yrac:drlatch_ee rot0,flip @-196.36,123.52,-194.65,125.56      ->ppu-xcomp;
+cell ydot:nor4       rot0,flip @-197.23,123.51,-196.36,125.56      ->ppu-xcomp;
+cell ycol:drlatch_ee rot0,flip @-198.93,123.49,-197.23,125.54      ->ppu-xcomp;
+cell ymem:drlatch_ee rot0,flip @-200.63,123.52,-198.92,125.55      ->ppu-xcomp;
+cell ygaj:drlatch_ee rot0,flip @-202.36,123.52,-200.64,125.56      ->ppu-xcomp;
+cell ybed:drlatch_ee rot0,flip @-204.07,123.51,-202.35,125.57      ->ppu-xcomp;
+cell ykok:nor4       rot0,flip @-204.91,123.52,-204.06,125.55      ->ppu-xcomp;
+cell ydug:nand3      rot0,flip @-205.77,123.51,-205.08,125.57      ->ppu-xprio;
+cell yfun:xor        rot0,flip @-206.80,123.51,-205.76,125.55      ->ppu-xcomp;
+cell ypuk:xor        rot0,flip @-207.82,123.52,-206.79,125.56      ->ppu-xcomp;
+cell ylah:drlatch_ee rot0,flip @-209.52,123.50,-207.82,125.54      ->ppu-xcomp;
+cell ykuk:dlatch_ee  rot0,flip @-211.06,123.51,-209.52,125.55      ->ppu-objreg;
+cell ylov:dlatch_ee  rot0,flip @-212.62,123.52,-211.06,125.55      ->ppu-objreg;
+cell ynev:not_if0    rot0,flip @-213.63,123.50,-212.60,125.55      ->ppu-objreg;
+cell yrad:not_if0    rot0,flip @-214.66,123.50,-213.63,125.54      ->ppu-objreg;
+cell ysok:dlatch_ee  rot0,flip @-216.20,123.51,-214.65,125.55      ->ppu-objreg;
+cell yzor:dlatch_ee  rot0,flip @-217.71,123.50,-216.19,125.55      ->ppu-objreg;
+cell ywak:dlatch_ee  rot0,flip @-219.27,123.50,-217.73,125.55      ->ppu-objreg;
+cell ygus:dlatch_ee  rot0,flip @-220.80,123.52,-219.27,125.54      ->ppu-objreg;
+cell yhal:not_if0    rot0,flip @-221.84,123.50,-220.81,125.54      ->ppu-objreg;
+cell yber:dlatch_ee  rot0,flip @-223.37,123.52,-221.82,125.55      ->ppu-objreg;
+cell yzep:dlatch_ee  rot0,flip @-224.91,123.49,-223.37,125.55      ->ppu-objreg;
 
 
 # Wires originating from column Y in bottom center
 # ------------------------------------------------
 
 wire ynyc:ctl
-	ynyc.q -> zofe.in
+	ynyc.y -> zofe.in
 	@-132.04,125.32,-132.04,126.87,-149.12,126.87,-149.12,129.13;
 
 wire ylyc:ctl
-	ylyc.q -> zone.in
+	ylyc.y -> zone.in
 	@-132.73,125.31,-132.73,127.73,-151.34,127.71,-151.34,129.14;
 
 wire oam_a3:adr
-	yfoc.q -> oam_a.a2 oam_b.a2 xedy.d wadu.in
+	yfoc.y -> oam_a.a2 oam_b.a2 xedy.d wadu.in
 	@-134.75,123.83,-134.75,122.98,-145.69,122.98
 	@-145.69,121.07,-145.69,123.11,-153.56,123.11,-153.56,127.46,-154.41,127.46,-154.41,132.45,
 	 -154.25,132.45,-154.25,134.58,-161.78,134.58,-161.78,136.16,-162.15,136.16,-162.15,139.58
@@ -106,7 +106,7 @@ wire oam_a3:adr
 	@-162.17,161.87,-165.77,161.87,-165.77,162.13,-206.02,162.11;
 
 wire oam_a2:adr
-	yfot.q -> xadu.d wola.in wexe.in2 wazu.in2
+	yfot.y -> xadu.d wola.in wexe.in2 wazu.in2
 	@-136.12,125.30,-136.12,127.85,-143.31,127.85
 	@-143.31,121.08,-143.31,132.58,-152.98,132.58,-152.98,134.70,-161.60,134.70,-161.60,136.35,-161.88,136.35
 	@-161.88,136.13,-161.88,139.92
@@ -181,7 +181,7 @@ wire ~yjex:data
 	 -172.69,107.30;
 
 wire oam_a7:adr
-	yzet.q -> oam_a.a6 oam_b.a6 xecu.d wuca.in
+	yzet.y -> oam_a.a6 oam_b.a6 xecu.d wuca.in
 	@-149.80,123.83,-149.80,122.52,-153.39,122.52,-153.39,121.05
 	@-153.39,121.88,-158.01,121.88,-158.01,126.99,-158.70,126.99,-158.70,131.72,-158.93,131.72,
 	 -158.93,133.55,-163.32,133.55,-163.32,136.16,-163.18,136.16,-163.18,138.21
@@ -189,7 +189,7 @@ wire oam_a7:adr
 	@-163.21,160.83,-166.82,160.83,-166.82,161.08,-206.02,161.06;
 
 wire oam_a5:adr
-	ymev.q -> oam_a.a4 oam_b.a4 xobe.d woso.in
+	ymev.y -> oam_a.a4 oam_b.a4 xobe.d woso.in
 	@-151.00,121.05,-151.00,121.83,-150.13,121.83,-150.13,128.27,-156.47,128.27,-156.47,132.44,
 	 -157.41,132.44,-157.41,134.18,-162.80,134.18,-162.80,136.34,-162.66,136.34
 	@-162.66,136.09,-162.66,138.89
@@ -197,7 +197,7 @@ wire oam_a5:adr
 	@-162.70,161.34,-166.30,161.34,-166.30,161.60,-206.03,161.59;
 
 wire oam_a4:adr
-	yvom.q -> oam_a.a3 oam_b.a3 zuze.d wawy.in
+	yvom.y -> oam_a.a3 oam_b.a3 zuze.d wawy.in
 	@-150.48,125.28,-150.48,128.14,-157.66,128.14,-157.66,132.40,-157.93,132.40,-157.93,134.95,
 	 -162.63,134.95,-162.63,136.17,-162.40,136.17,-162.40,139.23
 	@-152.37,128.14,-152.37,129.16
@@ -221,11 +221,11 @@ wire ~yfel:data
 	@-154.06,123.81,-154.06,118.88,-152.70,118.88,-152.70,116.51;
 
 wire yryv:ctl
-	yryv.q -> zodo.in
+	yryv.y -> zodo.in
 	@-156.13,125.31,-156.13,127.71,-155.28,127.71,-155.28,129.13;
 
 wire yval:ctl
-	yval.q -> yryv.in
+	yval.y -> yryv.in
 	@-156.47,123.81,-156.47,122.51,-155.95,122.51,-155.95,123.81;
 
 # ybog.q is not connected
@@ -235,7 +235,7 @@ wire ~ybog:data
 	@-157.83,123.81,-157.83,122.94,-161.08,122.94,-161.08,114.15,-163.97,114.15,-163.97,112.29;
 
 wire ysum:ctl
-	ysum.q -> wyso.ena xote.ena xyju.ena xuso.ena xegu.ena yzab.ena yjex.ena ybog.ena
+	ysum.y -> wyso.ena xote.ena xyju.ena xuso.ena xegu.ena yzab.ena yjex.ena ybog.ena
 	@-158.34,123.80,-158.34,121.95,-160.91,121.95,-160.91,121.07
 	@-159.37,121.95,-159.37,121.06
 	@-158.34,123.11,-157.14,123.11
@@ -245,7 +245,7 @@ wire ysum:ctl
 	@-148.09,122.98,-148.09,121.08;
 
 wire ywok:ctl
-	ywok.q -> wyso.~ena xote.~ena xyju.~ena xuso.~ena xegu.~ena yzab.~ena yjex.~ena ybog.~ena ysum.in
+	ywok.y -> wyso.~ena xote.~ena xyju.~ena xuso.~ena xegu.~ena yzab.~ena yjex.~ena ybog.~ena ysum.in
 	@-158.69,123.80,-158.69,123.23,-156.98,123.23,-156.98,118.02,-147.57,118.02,-147.57,123.37
 	@-158.18,123.23,-158.18,123.82
 	@-156.98,123.11,-156.63,123.11,-156.63,123.83
@@ -268,7 +268,7 @@ wire ~ylor:data
 	@-161.60,125.30,-161.60,127.98,-166.72,127.98,-166.72,129.13;
 
 wire ~sprite_x3:data
-	yvok.q -> dazo.d ehyn.d fesy.d gaza.d goxu.d xeka.d xexa.d xury.d yvag.d zulu.d
+	yvok.y -> dazo.d ehyn.d fesy.d gaza.d goxu.d xeka.d xexa.d xury.d yvag.d zulu.d
 	@-162.11,123.80,-162.11,123.23,-181.08,123.23,-193.38,123.22
 	@-181.08,123.23,-181.08,121.08
 	@-193.38,123.79,-193.38,122.66,-196.79,122.66,-196.79,121.06
@@ -280,7 +280,7 @@ wire ~sprite_x3:data
 	@-181.56,100.24,-174.05,100.24,-174.05,101.20;
 
 wire ~sprite_x2:data
-	ypur.q -> desu.d erol.d fozy.d fuby.d gady.d xabe.d xuzo.d ymem.d zyjo.d zola.d
+	ypur.y -> desu.d erol.d fozy.d fuby.d gady.d xabe.d xuzo.d ymem.d zyjo.d zola.d
 	@-163.48,123.80,-163.48,122.84,-175.94,122.84,-190.48,122.83,-190.48,118.43,-190.82,118.43,-190.82,113.41,
 	 -186.70,113.41,-186.70,108.42,-186.19,108.42,-186.19,103.73,-186.35,103.73,-186.35,99.47,-175.76,99.47,
 	 -175.76,101.19
@@ -298,32 +298,32 @@ wire ~ygum:data
 	@-166.89,125.30,-166.89,127.80,-165.19,127.80,-165.19,125.30;
 
 wire ytyp:data
-	ytyp.q -> ylev.in2
+	ytyp.y -> ylev.in2
 	@-167.22,125.30,-167.22,128.01,-169.46,128.01,-169.46,125.30;
 
 wire yvac:data
-	yvac.q -> ylev.in4
+	yvac.y -> ylev.in4
 	@-168.25,125.30,-168.25,126.73,-169.80,126.73,-169.80,125.30;
 
 wire sprite_x_match_l9:ctl
-	ylev.q -> ygem.in2
+	ylev.y -> ygem.in2
 	@-169.98,125.30,-169.98,127.29,-171.17,127.29,-171.17,125.28;
 
 wire sprite_x_match_h9:ctl
-	ytub.q -> ygem.in3
+	ytub.y -> ygem.in3
 	@-170.83,125.30,-170.83,126.43,-171.34,126.43,-171.34,125.30;
 
 wire ygem:ctl
-	ygem.q -> fove.in1 guze.in1 wobu.in
+	ygem.y -> fove.in1 guze.in1 wobu.in
 	@-171.51,123.80,-171.51,123.36,-171.67,123.36,-171.67,113.77,-179.70,113.77,-179.70,109.84,-181.58,109.84,
 	 -181.58,107.28;
 
 wire ymam:data
-	ymam.q -> ylev.in1
+	ymam.y -> ylev.in1
 	@-171.68,125.30,-171.68,128.13,-169.28,128.13,-169.28,125.31;
 
 wire yfag:ctl
-	yfag.q -> wyna.~ena wetu.in weco.~ena wuha.~ena xabe.~ena xyba.~ena xoly.~ena xeka.~ena xomy.~ena
+	yfag.y -> wyna.~ena wetu.in weco.~ena wuha.~ena xabe.~ena xyba.~ena xoly.~ena xeka.~ena xomy.~ena
 	@-172.88,123.78,-172.88,122.07,-175.77,122.07,-175.77,118.87,-183.63,118.87
 	@-177.48,118.87,-177.48,119.59
 	@-179.19,116.50,-179.19,119.58
@@ -333,45 +333,45 @@ wire yfag:ctl
 	@-183.63,116.51,-183.63,119.57;
 
 wire yfop:data
-	yfop.q -> ylev.in3
+	yfop.y -> ylev.in3
 	@-173.05,125.30,-173.05,127.58,-169.63,127.58,-169.63,125.30;
 
 wire yhok:data
-	yhok.q -> zure.in1
+	yhok.y -> zure.in1
 	@-174.08,125.30,-174.08,127.03,-175.78,127.03,-175.78,129.13;
 
 wire ydaj:data
-	ydaj.q -> zure.in3
+	ydaj.y -> zure.in3
 	@-175.09,125.30,-175.09,127.27,-176.12,127.27,-176.12,129.14;
 
 wire sprite_x_match_h6:ctl
-	ywap.q -> ybez.in3
+	ywap.y -> ybez.in3
 	@-176.81,125.31,-176.81,126.43,-181.09,126.43,-181.09,125.29;
 
 wire ycah:data
-	ycah.q -> zure.in2
+	ycah.y -> zure.in2
 	@-176.98,125.30,-176.98,126.01,-175.95,126.01,-175.95,129.13;
 
 wire yvuz:data
-	yvuz.q -> zure.in4
+	yvuz.y -> zure.in4
 	@-178.00,125.29,-178.00,127.28,-176.30,127.28,-176.30,129.14;
 
 wire yloz:ctl
-	yloz.q -> fefy.in2 gyfy.in1 webo.in
+	yloz.y -> fefy.in2 gyfy.in1 webo.in
 	@-180.56,123.79,-180.56,113.34,-180.20,113.34,-180.20,112.29
 	@-180.56,116.95,-185.84,116.95,-185.84,113.89,-187.91,113.89,-187.91,108.42,-187.72,108.42,-187.72,107.28;
 
 wire ybez:ctl
-	ybez.q -> fove.in4 wase.in xoja.in1
+	ybez.y -> fove.in4 wase.in xoja.in1
 	@-181.26,123.79,-181.26,122.20,-187.23,122.20,-187.23,118.44,-186.88,118.44,-186.88,109.83,-182.09,109.83,
 	 -182.09,107.28;
 
 wire sprite_x_match_h3:ctl
-	ywos.q -> yloz.in3
+	ywos.y -> yloz.in3
 	@-183.14,123.79,-183.14,122.70,-180.39,122.70,-180.39,123.80;
 
 wire yvap:data
-	yvap.q -> ywos.in1
+	yvap.y -> ywos.in1
 	@-183.30,123.80,-183.30,123.09,-182.45,123.09,-182.45,123.80;
 
 wire yrop:data
@@ -399,11 +399,11 @@ wire yzof:data
 # yzof.~q is not connected
 
 wire sprite_x_match_l4:ctl
-	ynaz.q -> xage.in2
+	ynaz.y -> xage.in2
 	@-191.86,123.79,-191.86,122.79,-198.68,122.79,-198.68,121.05;
 
 wire ybox:data
-	ybox.q -> ynaz.in4
+	ybox.y -> ynaz.in4
 	@-192.02,125.28,-192.02,126.42,-191.68,126.42,-191.68,125.29;
 
 wire yvag:data
@@ -419,7 +419,7 @@ wire yrac:data
 # yrac.~q is not connected
 
 wire sprite_x_match_l6:ctl
-	ydot.q -> ybez.in2
+	ydot.y -> ybez.in2
 	@-197.15,125.29,-197.15,125.86,-180.91,125.87,-180.91,125.29;
 
 wire ycol:data
@@ -447,20 +447,20 @@ wire ybed:data
 # ybed.~q is not connected
 
 wire sprite_x_match_h4:ctl
-	ykok.q -> xage.in3
+	ykok.y -> xage.in3
 	@-204.84,123.78,-204.84,122.73,-198.85,122.73,-198.85,121.05;
 
 wire ydug:ctl
-	ydug.q -> fefy.in5 guva.in1 wefu.in
+	ydug.y -> fefy.in5 guva.in1 wefu.in
 	@-205.69,125.28,-205.69,128.24,-189.28,128.24,-189.28,122.98,-189.11,122.98,-189.11,118.44,-188.25,118.44,
 	 -188.25,114.18,-190.13,114.18,-190.13,108.84,-188.23,108.84,-188.23,107.28;
 
 wire yfun:data
-	yfun.q -> xeba.in2
+	yfun.y -> xeba.in2
 	@-205.85,123.79,-205.85,122.19,-207.38,122.19,-207.38,121.04;
 
 wire ypuk:data
-	ypuk.q -> xeba.in4
+	ypuk.y -> xeba.in4
 	@-206.88,123.77,-206.88,123.03,-207.73,123.03,-207.73,121.05;
 
 wire ylah:data

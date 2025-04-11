@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2023-06-26")
-		(rev "0.6")
+		(date "2025-04-12")
+		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
@@ -5651,7 +5651,6 @@
 	(hierarchical_label "PPU_4MHz"
 		(shape input)
 		(at 26.035 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5663,7 +5662,6 @@
 	(hierarchical_label "NON_VRAM_MREQ"
 		(shape input)
 		(at 207.645 99.695 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5675,7 +5673,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 21.59 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5687,7 +5684,6 @@
 	(hierarchical_label "~{OAM_A_D[0..7]}"
 		(shape bidirectional)
 		(at 202.565 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5699,7 +5695,6 @@
 	(hierarchical_label "T1~{T2}"
 		(shape input)
 		(at 204.47 95.885 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5711,7 +5706,6 @@
 	(hierarchical_label "~{OAM_B_D[0..7]}"
 		(shape bidirectional)
 		(at 202.565 262.255 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5723,7 +5717,6 @@
 	(hierarchical_label "WRITE"
 		(shape input)
 		(at 204.47 89.535 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5735,7 +5728,6 @@
 	(hierarchical_label "FFXX"
 		(shape input)
 		(at 26.035 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5747,7 +5739,6 @@
 	(hierarchical_label "DMA_PHI"
 		(shape input)
 		(at 23.495 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5759,7 +5750,6 @@
 	(hierarchical_label "CPU_T4"
 		(shape input)
 		(at 23.495 257.175 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5771,7 +5761,6 @@
 	(hierarchical_label "INT_VBL"
 		(shape output)
 		(at 25.4 147.955 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5783,7 +5772,6 @@
 	(hierarchical_label "FEXX_FFXX"
 		(shape input)
 		(at 204.47 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5795,7 +5783,6 @@
 	(hierarchical_label "~{RESET2}"
 		(shape input)
 		(at 26.035 24.765 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5807,7 +5794,6 @@
 	(hierarchical_label "CPU_EXT_CS_EN"
 		(shape input)
 		(at 204.47 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5819,7 +5805,6 @@
 	(hierarchical_label "8192Hz"
 		(shape input)
 		(at 21.59 187.325 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5831,7 +5816,6 @@
 	(hierarchical_label "INT_STAT"
 		(shape output)
 		(at 25.4 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5843,7 +5827,6 @@
 	(hierarchical_label "DMA_ADDR_EXT"
 		(shape output)
 		(at 202.565 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5855,7 +5838,6 @@
 	(hierarchical_label "4096Hz"
 		(shape input)
 		(at 21.59 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5867,7 +5849,6 @@
 	(hierarchical_label "CPU_WR"
 		(shape input)
 		(at 26.035 20.955 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5879,7 +5860,6 @@
 	(hierarchical_label "CPU_WR_SYNC"
 		(shape input)
 		(at 204.47 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,7 +5871,6 @@
 	(hierarchical_label "CPU_RD"
 		(shape input)
 		(at 26.035 19.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5903,7 +5882,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 22.225 33.655 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5915,7 +5893,6 @@
 	(hierarchical_label "DMA_A[0..15]"
 		(shape output)
 		(at 202.565 266.065 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5927,7 +5904,6 @@
 	(hierarchical_label "FEXX"
 		(shape input)
 		(at 23.495 259.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

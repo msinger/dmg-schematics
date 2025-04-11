@@ -1,7 +1,7 @@
 # Ground and power rails
 # ----------------------
 
-cell supply:const virtual "Some cell inputs are directly connected to GND/VDD. For those we use this 'virtual' cell to connect them to.";
+cell supply:tie virtual "Some cell inputs are directly connected to GND/VDD. For those we use this 'virtual' cell to connect them to.";
 
 wire vdd:pwr
 	supply.vdd
@@ -456,7 +456,7 @@ wire const0:gnd
 	runy.gnd vypo.gnd pesu.gnd wefe.gnd bohy.gnd
 	-> tomy.d myde.d rugo.d nuro.d nylu.d romy.in reka.in rejy.in rase.in ryne.in ryke.in rowe.in
 	   raru.in wuwe.in gefy.in eruc.cin dyso.in geze.in2 guva.in2 benu.in beda.in arar.in ataj.in
-	   asuz.in ajec.in akaj.in anoc.in beku.d p10.~pu p11.~pu p12.~pu p13.~pu
+	   asuz.in ajec.in akaj.in anoc.in beku.d p10.~{ena}_pu p11.~{ena}_pu p12.~{ena}_pu p13.~{ena}_pu
 	@-69.52,25.89,-69.52,25.45,-78.59,25.45,-78.60,37.18,-78.89,37.18,-78.89,42.59,-116.90,42.57,
 	 -116.93,78.13,-116.99,129.52,-116.99,134.97,-117.04,178.97,-117.04,180.72,-49.08,180.76,
 	 -49.15,237.22,-185.35,237.15,-213.40,237.15,-213.40,237.82

@@ -1,98 +1,98 @@
 # Cells in column L in top center
 # -------------------------------
 
-cell lura:inv_a       rot0 @-59.80,111.49,-59.45,113.55        ->bus-adr;
-cell lahe:inv_a       rot0 @-60.15,111.49,-59.80,113.54        ->bus-adr;
-cell leva:nor2        rot0 @-60.67,111.49,-60.13,113.53        ->bus-adr;
-cell labe:nand2       rot0 @-61.16,111.47,-60.64,113.55        ->bus-adr;
-cell lyny:nor2        rot0 @-61.68,111.48,-61.16,113.54        ->bus-adr;
-cell lepy:nand2       rot0 @-62.20,111.49,-61.66,113.54        ->bus-adr;
-cell loso:nor2        rot0 @-62.70,111.48,-62.18,113.55        ->bus-adr;
-cell luce:nand2       rot0 @-63.22,111.48,-62.70,113.54        ->bus-adr;
-cell lyna:tri_buf_if0 rot0 @-64.93,111.47,-63.20,113.55        ->bus-adr;
-cell lefy:tri_buf_if0 rot0 @-66.63,111.47,-64.91,113.54        ->bus-adr;
-cell lofa:tri_buf_if0 rot0 @-68.34,111.47,-66.63,113.54        ->bus-adr;
-cell lora:tri_buf_if0 rot0 @-70.05,111.47,-68.34,113.54        ->bus-adr;
-cell lobu:d_latch_b   rot0 @-71.75,111.47,-70.03,113.55        ->bus-adr;
-cell lumy:d_latch_b   rot0 @-73.46,111.48,-71.74,113.55        ->bus-adr;
-cell luno:d_latch_b   rot0 @-75.18,111.48,-73.46,113.54        ->bus-adr;
-cell lonu:d_latch_b   rot0 @-76.89,111.47,-75.17,113.52        ->bus-adr;
-cell lysa:d_latch_b   rot0 @-78.61,111.47,-76.88,113.54        ->bus-adr;
-cell lasy:inv_a       rot0 @-78.95,111.48,-78.59,113.53        ->bus-adr;
-cell loxo:ao1         rot0 @-79.80,111.47,-78.92,113.52        ->bus-adr;
-cell lywe:inv_a       rot0 @-80.16,111.47,-79.77,113.53        ->bus-data;
-cell lagu:ao1         rot0 @-81.00,111.48,-80.12,113.54        ->bus-data;
-cell levo:inv_a       rot0 @-81.33,111.47,-80.98,113.54        ->bus-data;
-cell lavo:nand3       rot0 @-82.19,111.47,-81.48,113.53        ->bus-data;
-cell lyta:and3        rot0 @-83.03,111.46,-82.17,113.53        ->int;
-cell lety:inv_a       rot0 @-83.39,111.47,-83.03,113.52        ->int;
-cell lula:inv_a       rot0 @-83.71,111.48,-83.38,113.52        ->bus-data;
-cell lebu:inv_a       rot0 @-84.07,111.48,-83.70,113.52        ->ppu-dma;
-cell lyra:nand2       rot0 @-84.58,111.47,-84.05,113.51        ->bus-data;
-cell lope:dffsr       rot0 @-88.34,111.47,-84.55,113.52        ->int;
-cell leja:inv_a       rot0 @-88.69,111.48,-88.32,113.52        ->int;
-cell lufa:inv_a       rot0 @-89.03,111.48,-88.66,113.51        ->ppu-dma;
-cell lesa:inv_a       rot0 @-89.37,111.47,-89.00,113.51        ->int;
-cell lufe:inv_a       rot0 @-89.70,111.48,-89.34,113.52        ->int;
-cell lalu:dffsr       rot0 @-93.46,111.45,-89.68,113.52        ->int;
-cell lamo:inv_a       rot0 @-93.80,111.47,-93.45,113.52        ->int;
-cell leko:inv_b       rot0 @-94.31,111.48,-93.79,113.52        ->ppu-oam;
-cell lara:nand3       rot0 @-94.99,111.47,-94.30,113.53        ->ppu-dma;
-cell loky:nand2       rot0 @-95.52,111.46,-94.98,113.52        ->ppu-dma;
-cell lene:dffr_b2     rot0 @-98.41,111.45,-95.48,113.51        ->ppu-dma;
-cell loko:nand2       rot0 @-98.93,111.45,-98.40,113.51        ->ppu-dma;
-cell lapa:inv_a       rot0 @-99.27,111.46,-98.91,113.52        ->ppu-dma;
-cell logo:inv_a       rot0 @-99.61,111.46,-99.26,113.52        ->ppu-dma;
-cell leco:nor2        rot0 @-100.13,111.47,-99.59,113.51       ->bus-data;
-cell luma:inv_a       rot0 @-100.46,111.46,-100.10,113.51      ->ppu-dma;
-cell luvy:dffr_b2     rot0 @-103.37,111.47,-100.45,113.51      ->ppu-dma;
-cell loru:inv_a       rot0 @-103.72,111.45,-103.34,113.51 comp ->ppu-dma;
-cell lupa:nor2        rot0 @-104.23,111.46,-103.67,113.50      ->ppu-dma;
-cell lyxe:nor_latch   rot0 @-105.25,111.44,-104.20,113.51      ->ppu-dma;
-cell lexy:inv_a       rot0 @-105.60,111.45,-105.21,113.52;
-cell lavy:and2        rot0 @-106.28,111.46,-105.55,113.51      ->ppu-dma;
+cell lura:not_x1    rot0 @-59.80,111.49,-59.45,113.55        ->bus-adr;
+cell lahe:not_x1    rot0 @-60.15,111.49,-59.80,113.54        ->bus-adr;
+cell leva:nor2      rot0 @-60.67,111.49,-60.13,113.53        ->bus-adr;
+cell labe:nand2     rot0 @-61.16,111.47,-60.64,113.55        ->bus-adr;
+cell lyny:nor2      rot0 @-61.68,111.48,-61.16,113.54        ->bus-adr;
+cell lepy:nand2     rot0 @-62.20,111.49,-61.66,113.54        ->bus-adr;
+cell loso:nor2      rot0 @-62.70,111.48,-62.18,113.55        ->bus-adr;
+cell luce:nand2     rot0 @-63.22,111.48,-62.70,113.54        ->bus-adr;
+cell lyna:buf_if0   rot0 @-64.93,111.47,-63.20,113.55        ->bus-adr;
+cell lefy:buf_if0   rot0 @-66.63,111.47,-64.91,113.54        ->bus-adr;
+cell lofa:buf_if0   rot0 @-68.34,111.47,-66.63,113.54        ->bus-adr;
+cell lora:buf_if0   rot0 @-70.05,111.47,-68.34,113.54        ->bus-adr;
+cell lobu:dlatch    rot0 @-71.75,111.47,-70.03,113.55        ->bus-adr;
+cell lumy:dlatch    rot0 @-73.46,111.48,-71.74,113.55        ->bus-adr;
+cell luno:dlatch    rot0 @-75.18,111.48,-73.46,113.54        ->bus-adr;
+cell lonu:dlatch    rot0 @-76.89,111.47,-75.17,113.52        ->bus-adr;
+cell lysa:dlatch    rot0 @-78.61,111.47,-76.88,113.54        ->bus-adr;
+cell lasy:not_x1    rot0 @-78.95,111.48,-78.59,113.53        ->bus-adr;
+cell loxo:ao21      rot0 @-79.80,111.47,-78.92,113.52        ->bus-adr;
+cell lywe:not_x1    rot0 @-80.16,111.47,-79.77,113.53        ->bus-data;
+cell lagu:ao21      rot0 @-81.00,111.48,-80.12,113.54        ->bus-data;
+cell levo:not_x1    rot0 @-81.33,111.47,-80.98,113.54        ->bus-data;
+cell lavo:nand3     rot0 @-82.19,111.47,-81.48,113.53        ->bus-data;
+cell lyta:and3      rot0 @-83.03,111.46,-82.17,113.53        ->int;
+cell lety:not_x1    rot0 @-83.39,111.47,-83.03,113.52        ->int;
+cell lula:not_x1    rot0 @-83.71,111.48,-83.38,113.52        ->bus-data;
+cell lebu:not_x1    rot0 @-84.07,111.48,-83.70,113.52        ->ppu-dma;
+cell lyra:nand2     rot0 @-84.58,111.47,-84.05,113.51        ->bus-data;
+cell lope:dffsr     rot0 @-88.34,111.47,-84.55,113.52        ->int;
+cell leja:not_x1    rot0 @-88.69,111.48,-88.32,113.52        ->int;
+cell lufa:not_x1    rot0 @-89.03,111.48,-88.66,113.51        ->ppu-dma;
+cell lesa:not_x1    rot0 @-89.37,111.47,-89.00,113.51        ->int;
+cell lufe:not_x1    rot0 @-89.70,111.48,-89.34,113.52        ->int;
+cell lalu:dffsr     rot0 @-93.46,111.45,-89.68,113.52        ->int;
+cell lamo:not_x1    rot0 @-93.80,111.47,-93.45,113.52        ->int;
+cell leko:not_x2    rot0 @-94.31,111.48,-93.79,113.52        ->ppu-oam;
+cell lara:nand3     rot0 @-94.99,111.47,-94.30,113.53        ->ppu-dma;
+cell loky:nand2     rot0 @-95.52,111.46,-94.98,113.52        ->ppu-dma;
+cell lene:dffr      rot0 @-98.41,111.45,-95.48,113.51        ->ppu-dma;
+cell loko:nand2     rot0 @-98.93,111.45,-98.40,113.51        ->ppu-dma;
+cell lapa:not_x1    rot0 @-99.27,111.46,-98.91,113.52        ->ppu-dma;
+cell logo:not_x1    rot0 @-99.61,111.46,-99.26,113.52        ->ppu-dma;
+cell leco:nor2      rot0 @-100.13,111.47,-99.59,113.51       ->bus-data;
+cell luma:not_x1    rot0 @-100.46,111.46,-100.10,113.51      ->ppu-dma;
+cell luvy:dffr      rot0 @-103.37,111.47,-100.45,113.51      ->ppu-dma;
+cell loru:not_x1    rot0 @-103.72,111.45,-103.34,113.51 comp ->ppu-dma;
+cell lupa:nor2      rot0 @-104.23,111.46,-103.67,113.50      ->ppu-dma;
+cell lyxe:nor_latch rot0 @-105.25,111.44,-104.20,113.51      ->ppu-dma;
+cell lexy:not_x1    rot0 @-105.60,111.45,-105.21,113.52;
+cell lavy:and2      rot0 @-106.28,111.46,-105.55,113.51      ->ppu-dma;
 
 
 # Wires originating from column L in top center
 # ---------------------------------------------
 
 wire lura:adr
-	lura.q -> lefy.in
+	lura.y -> lefy.in
 	@-59.71,111.78,-59.71,110.91,-65.86,110.91,-65.86,111.78
 	@-65.01,110.91,-65.01,111.80;
 
 wire lahe:adr
-	lahe.q -> lyna.in
+	lahe.y -> lyna.in
 	@-60.05,111.78,-60.05,111.20,-63.30,111.20
 	@-63.30,111.77,-63.30,111.08,-64.16,111.08,-64.16,111.78;
 
 wire leva:adr
-	leva.q -> a13.l
+	leva.y -> a13.ndrv
 	@-60.56,111.79,-60.56,110.77,-59.03,110.77,-59.03,111.12,-45.40,111.13,-45.40,110.21,-42.66,110.21,
 	 -42.66,108.02,-41.85,108.02;
 
 wire labe:adr
-	labe.q -> a13.~h
+	labe.y -> a13.~pdrv
 	@-61.08,111.78,-61.08,111.33,-59.38,111.33,-59.38,112.02,-46.09,112.03,-46.09,102.00,-42.48,102.00,
 	 -42.48,99.81,-41.82,99.81;
 
 wire lyny:adr
-	lyny.q -> a11.l
+	lyny.y -> a11.ndrv
 	@-61.59,113.26,-61.59,114.99,-58.53,114.99,-58.53,121.71,-45.93,121.71,-45.93,129.32,-42.69,129.32,
 	 -42.69,128.02,-41.88,128.02;
 
 wire lepy:adr
-	lepy.q -> a11.~h
+	lepy.y -> a11.~pdrv
 	@-62.10,113.26,-62.10,115.26,-59.38,115.26,-59.38,116.96,-45.92,116.97,-45.92,121.12,-42.50,121.12,
 	 -42.50,119.81,-41.83,119.81;
 
 wire loso:adr
-	loso.q -> a12.l
+	loso.y -> a12.ndrv
 	@-62.63,113.26,-62.63,114.74,-59.04,114.74,-59.04,116.71,-46.09,116.72,-46.09,119.77,-42.67,119.77,
 	 -42.67,118.01,-41.86,118.01;
 
 wire luce:adr
-	luce.q -> a12.~h
+	luce.y -> a12.~pdrv
 	@-63.13,111.78,-63.13,111.07,-59.20,111.07,-59.20,112.52,-45.40,112.52,-45.40,111.56,-42.49,111.56,
 	 -42.49,109.81,-41.84,109.81;
 
@@ -127,27 +127,27 @@ wire lysa:adr
 # lysa.~q is not connected
 
 wire lasy:ctl
-	lasy.q -> mate.in
+	lasy.y -> mate.in
 	@-78.85,113.24,-78.85,113.70,-78.50,113.70,-78.50,114.42,-79.02,114.42,-79.02,115.83;
 
 wire loxo:ctl
-	loxo.q -> lasy.in
+	loxo.y -> lasy.in
 	@-79.70,113.24,-79.70,114.29,-78.67,114.29,-78.67,113.25;
 
 wire lywe:ctl
-	lywe.q -> moty.in2
+	lywe.y -> moty.in2
 	@-80.04,113.23,-80.04,115.36,-79.53,115.36,-79.53,115.83;
 
 wire lagu:ctl
-	lagu.q -> lywe.in
+	lagu.y -> lywe.in
 	@-80.90,113.24,-80.90,114.67,-79.87,114.67,-79.87,113.23;
 
 wire levo:ctl
-	levo.q -> lagu.in2
+	levo.y -> lagu.in2
 	@-81.24,113.24,-81.24,114.42,-80.38,114.42,-80.38,113.25;
 
 wire lavo:ctl
-	lavo.q -> rony.ena ruvo.~ena ryma.~ena ryko.~ena raxy.ena rupa.ena selo.ena soma.ena sevu.~ena
+	lavo.y -> rony.ena ruvo.~ena ryma.~ena ryko.~ena raxy.ena rupa.ena selo.ena soma.ena sevu.~ena
 	          sody.ena safo.~ena sago.ena sazy.ena tavo.~ena tepe.~ena taju.~ena
 	@-82.09,111.77,-82.09,110.76,-79.17,110.76,-79.17,109.14,-44.89,109.16,-44.80,44.04,
 	 -79.67,44.02,-79.67,36.12,-76.04,36.12
@@ -166,17 +166,17 @@ wire lavo:ctl
 	@-61.32,29.09,-61.32,27.38;
 
 wire lyta:data
-	lyta.q -> lope.~r
+	lyta.y -> lope.~r
 	@-82.95,113.23,-82.95,115.10,-87.39,115.10,-87.39,113.24;
 
 wire lety:ctl
-	lety.q -> lyta.in2 myzu.in2
+	lety.y -> lyta.in2 myzu.in2
 	@-83.29,113.23,-83.29,114.68
 	@-82.43,113.24,-82.43,114.68,-84.32,114.68,-84.32,115.82;
 
 wire lula:ctl
-	lula.q
-	-> d0.~pu d1.~pu d2.~pu d3.~pu d4.~pu d5.~pu d6.~pu d7.~pu
+	lula.y
+	-> d0.~{ena}_pu d1.~{ena}_pu d2.~{ena}_pu d3.~{ena}_pu d4.~{ena}_pu d5.~{ena}_pu d6.~{ena}_pu d7.~{ena}_pu
 	   ryvo.in2 rera.in2 raby.in2 ruxa.in2 rory.in2 ruja.in2 ravu.in2 rafy.in2
 	@-55.50,27.40,-55.50,28.82,-56.02,28.82
 	@-56.02,27.40,-56.02,29.07,-58.25,29.07
@@ -203,11 +203,11 @@ wire lula:ctl
 	@-60.34,18.45,-60.34,19.08;
 
 wire lebu:adr
-	lebu.q -> muda.in3
+	lebu.y -> muda.in3
 	@-83.97,113.23,-83.97,113.83,-85.16,113.83,-85.16,115.82;
 
 wire lyra:ctl
-	lyra.q -> ropa.~ena sugu.~ena sywa.~ena sajo.~ena tawo.~ena tute.~ena temy.~ena tuty.~ena
+	lyra.y -> ropa.~ena sugu.~ena sywa.~ena sajo.~ena tawo.~ena tute.~ena temy.~ena tuty.~ena
 	@-84.48,111.77,-84.48,110.88,-79.44,110.88,-79.44,109.27,-44.72,109.29,-44.63,44.16,-79.92,44.15,
 	 -79.92,37.87,-75.00,37.87
 	@-75.00,35.52,-75.00,38.04,-73.30,38.04,-73.30,33.46,-72.27,33.46,-72.27,28.29,-72.44,28.29,-72.44,27.40
@@ -225,11 +225,11 @@ wire cpu_irq0:ctl
 # lope.~q is not connected
 
 wire leja:ctl
-	leja.q -> mody.in2 movu.in2
+	leja.y -> mody.in2 movu.in2
 	@-88.59,113.23,-88.59,114.19,-87.91,114.19,-87.91,118.80,-87.22,118.80,-87.22,117.27;
 
 wire vram_to_oam:ctl
-	lufa.q -> sutu.in2 apam.in ahoc.in azar.in xane.in1
+	lufa.y -> sutu.in2 apam.in ahoc.in azar.in xane.in1
 	@-88.93,111.77,-88.93,110.46,-91.07,110.46,-91.07,109.38,-112.02,109.38,-118.84,109.38,-118.82,82.88,
 	 -125.48,82.88,-125.48,88.22,-127.70,88.22,-127.70,85.41
 	@-126.34,88.22,-126.34,85.42
@@ -238,12 +238,12 @@ wire vram_to_oam:ctl
 	@-120.53,82.88,-120.53,76.22,-123.84,76.22,-123.84,73.70,-130.09,73.70,-130.09,70.87;
 
 wire lesa:ctl
-	lesa.q -> pyhu.in2 pyga.in2
+	lesa.y -> pyhu.in2 pyga.in2
 	@-89.27,113.23,-89.27,114.08,-77.66,114.09,-77.66,117.75,-77.84,117.75,-77.84,122.32,-76.46,122.32,-76.46,124.32
 	@-76.46,123.85,-75.78,123.85,-75.78,124.33;
 
 wire lufe:ctl
-	lufe.q -> tuny.in2 tome.in2
+	lufe.y -> tuny.in2 tome.in2
 	@-89.61,113.22,-89.61,114.54,-70.30,114.56,-70.30,119.00,-70.15,119.00,-70.15,122.47,-69.98,122.47,
 	 -69.98,127.46,-69.82,127.46,-69.82,135.05,-70.86,135.05,-70.86,136.19
 	@-70.85,135.47,-71.72,135.47,-71.72,136.20;
@@ -256,23 +256,23 @@ wire cpu_irq1:ctl
 # lalu.~q is not connected
 
 wire lamo:ctl
-	lamo.q -> tyme.in2 toga.in2
+	lamo.y -> tyme.in2 toga.in2
 	@-93.71,113.22,-93.71,115.23,-89.61,115.23,-89.61,119.10,-89.27,119.10,-89.27,123.00,-89.45,123.00,
 	 -89.45,127.55,-88.60,127.55,-88.60,131.23,-88.44,131.23,-88.44,138.48,-87.59,138.48,-87.59,137.63;
 
 wire cpu_vram_oam_rd:ctl
-	leko.q -> guko.in3 wuku.in1 tyvy.in2
+	leko.y -> guko.in3 wuku.in1 tyvy.in2
 	@-94.22,111.77,-94.22,110.38,-96.93,110.38,-96.93,109.64,-113.21,109.63,-119.01,109.63,-119.01,112.19,
 	 -126.02,112.19,-126.02,113.56,-131.16,113.56,-131.16,115.04
 	@-113.21,109.63,-113.16,38.74,-103.42,38.74,-103.42,37.85,-103.22,37.85,-103.22,35.52
 	@-129.62,113.56,-129.62,112.29;
 
 wire lara:ctl
-	lara.q -> loky.in1
+	lara.y -> loky.in1
 	@-94.91,111.75,-94.91,111.02,-95.07,111.02,-95.07,111.76;
 
 wire loky:ctl
-	loky.q -> lara.in1 matu.d meta.in2
+	loky.y -> lara.in1 matu.d meta.in2
 	@-95.41,113.23,-95.41,115.22
 	@-94.38,113.22,-94.38,115.22,-101.40,115.22,-101.40,115.81
 	@-95.41,115.22,-95.41,113.21
@@ -286,12 +286,12 @@ wire ~lene:ctl
 	@-98.51,111.76,-98.51,111.01,-95.25,111.01,-95.25,111.76;
 
 wire loko:rst
-	loko.q -> lapa.in lyxe.r
+	loko.y -> lapa.in lyxe.r
 	@-98.84,111.75,-98.84,111.01,-105.16,111.01,-105.16,111.78
 	@-99.02,111.01,-99.02,111.77;
 
 wire lapa:rst
-	lapa.q -> mugu.~r muty.~r myte.~r nuto.~r nyko.~r nefy.~r naky.~r pylo.~r pyro.~r
+	lapa.y -> mugu.~r muty.~r myte.~r nuto.~r nyko.~r nefy.~r naky.~r pylo.~r pyro.~r
 	@-99.17,113.21,-99.17,114.50,-99.34,114.50,-99.34,117.98,-98.68,117.98,-98.68,122.90
 	@-101.41,124.28,-101.41,122.90,-98.50,122.90
 	@-100.20,122.90,-100.20,124.30
@@ -310,11 +310,11 @@ wire lapa:rst
 	@-91.15,117.99,-89.96,117.99,-89.96,117.27;
 
 wire logo:dec
-	logo.q -> mory.in2
+	logo.y -> mory.in2
 	@-99.52,113.22,-99.52,115.09,-100.88,115.09,-100.88,115.78;
 
 wire leco:clk
-	leco.q -> raru.ena rowe.ena ryke.ena ryne.ena rase.ena rejy.ena reka.ena romy.ena
+	leco.y -> raru.ena rowe.ena ryke.ena ryne.ena rase.ena rejy.ena reka.ena romy.ena
 	@-100.03,113.23,-100.03,118.84,-99.52,118.84,-99.52,122.27,-99.88,122.27,-99.88,127.34
 	@-101.08,128.42,-101.08,127.34,-99.02,127.34,-99.02,128.42
 	@-99.02,127.97,-93.90,127.97,-93.90,128.43
@@ -325,7 +325,7 @@ wire leco:clk
 	@-100.05,127.34,-100.05,128.43;
 
 wire luma:ctl
-	luma.q -> tazy.sel tyho.sel cede.in mojy.sel male.sel mano.sel muce.sel masu.sel pege.sel puva.in2
+	luma.y -> tazy.sel tyho.sel cede.in mojy.sel male.sel mano.sel muce.sel masu.sel pege.sel puva.in2
 	          pamy.sel tymu.in1 atol.sel atyr.sel atov.sel amer.sel asur.sel apok.sel atem.sel amet.sel
 	@-100.38,113.23,-100.38,114.50,-100.21,114.50,-100.21,118.24,-95.59,118.24,-95.59,123.84,
 	 -95.42,123.84,-85.18,123.85,-78.18,123.85
@@ -356,7 +356,7 @@ wire luvy:ctl
 # luvy.~q is not connected
 
 wire loru:ctl
-	loru.q -> maru.~ena nafa.~ena nydo.~ena nygy.~ena poku.~ena pula.~ena pyne.~ena para.~ena pysu.in
+	loru.y -> maru.~ena nafa.~ena nydo.~ena nygy.~ena poku.~ena pula.~ena pyne.~ena para.~ena pysu.in
 	@-103.60,113.22,-103.60,114.53,-103.44,114.53,-103.44,117.98,-103.77,117.98,-103.77,124.29
 	@-103.77,123.57,-102.27,123.57,-92.19,123.59,-88.94,123.59,-88.94,121.03
 	@-102.27,123.57,-102.27,124.30
@@ -367,7 +367,7 @@ wire loru:ctl
 	@-86.71,121.93,-85.34,121.93,-85.34,118.85,-85.52,118.85,-85.52,117.24;
 
 wire lupa:ctl
-	lupa.q -> luvy.d
+	lupa.y -> luvy.d
 	@-104.12,113.22,-104.12,115.21,-101.56,115.21,-101.56,113.22;
 
 # lyxe.q is not connected
@@ -377,12 +377,12 @@ wire ~lyxe:ctl
 	@-104.63,113.22,-104.63,114.35,-103.95,114.35,-103.95,113.21;
 
 wire ~m1:ctl
-	lexy.q -> m1.~o
+	lexy.y -> m1.~o
 	@-105.48,113.23,-105.48,115.21,-108.23,115.21,-108.23,121.90,-117.15,121.90,-117.17,134.84,
 	 -233.87,134.78,-233.87,129.72,-236.57,129.72,-236.57,128.41,-236.91,128.41;
 
 wire lavy:ctl
-	lavy.q -> loru.in lupa.in1 lyxe.s
+	lavy.y -> loru.in lupa.in1 lyxe.s
 	@-106.17,113.21,-106.17,114.48,-103.77,114.48,-103.77,113.21
 	@-104.29,114.48,-104.29,113.20
 	@-103.77,114.36,-103.42,114.36,-103.42,113.22;

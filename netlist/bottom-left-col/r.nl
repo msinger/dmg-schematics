@@ -1,128 +1,128 @@
 # Cells in column R in bottom left corner
 # ---------------------------------------
 
-cell rawa:inv_a       rot0 @-123.81,43.52,-123.50,45.57      ->ppu-vram;
-cell ryna:tri_inv_if0 rot0 @-124.84,43.50,-123.81,45.57      ->ppu-vram;
-cell rese:tri_inv_if0 rot0 @-125.87,43.52,-124.84,45.57      ->ppu-vram;
-cell rysu:tri_inv_if0 rot0 @-126.89,43.51,-125.86,45.57      ->ppu-vram;
-cell ruse:tri_inv_if0 rot0 @-127.92,43.52,-126.89,45.57      ->ppu-vram;
-cell ryle:inv_a       rot0 @-128.26,43.52,-127.91,45.57      ->ppu-bgfifo;
+cell rawa:not_x1      rot0 @-123.81,43.52,-123.50,45.57      ->ppu-vram;
+cell ryna:not_if0     rot0 @-124.84,43.50,-123.81,45.57      ->ppu-vram;
+cell rese:not_if0     rot0 @-125.87,43.52,-124.84,45.57      ->ppu-vram;
+cell rysu:not_if0     rot0 @-126.89,43.51,-125.86,45.57      ->ppu-vram;
+cell ruse:not_if0     rot0 @-127.92,43.52,-126.89,45.57      ->ppu-vram;
+cell ryle:not_x1      rot0 @-128.26,43.52,-127.91,45.57      ->ppu-bgfifo;
 cell raja:nand2       rot0 @-128.77,43.52,-128.25,45.56      ->ppu-bgfifo;
 cell ruce:nand2       rot0 @-129.29,43.52,-128.77,45.55      ->ppu-bgfifo;
-cell reso:tri_inv_if1 rot0 @-130.30,43.51,-129.28,45.56      ->ppu-bgfifo;
+cell reso:not_if1     rot0 @-130.30,43.51,-129.28,45.56      ->ppu-bgfifo;
 cell rajo:nand2       rot0 @-130.83,43.52,-130.30,45.55      ->ppu-bgfifo;
 cell ralu:dffsr       rot0 @-134.59,43.52,-130.82,45.56      ->ppu-bgfifo;
 cell ryjy:nand2       rot0 @-135.10,43.52,-134.59,45.57      ->ppu-bgfifo;
-cell rapu:inv_a       rot0 @-135.44,43.51,-135.10,45.56      ->ppu-bgfifo;
+cell rapu:not_x1      rot0 @-135.44,43.51,-135.10,45.56      ->ppu-bgfifo;
 cell raga:nand2       rot0 @-135.95,43.52,-135.43,45.56      ->ppu-bgfifo;
 cell ryja:nand2       rot0 @-136.46,43.51,-135.95,45.55      ->ppu-bgfifo;
 cell ruto:nand2       rot0 @-136.98,43.51,-136.46,45.56      ->ppu-bgfifo;
 cell rysa:dffsr       rot0 @-140.75,43.52,-136.97,45.58      ->ppu-bgfifo;
-cell ruco:inv_a       rot0 @-141.08,43.50,-140.73,45.56      ->ppu-bgfifo;
-cell rawu:dffr_a      rot0 @-143.30,43.50,-141.08,45.55      ->ppu-bgfifo;
-cell rumo:tri_inv_if0 rot0 @-144.34,43.51,-143.31,45.57      ->ppu-vram;
-cell revy:inv_a       rot0 @-144.66,43.52,-144.33,45.55      ->ppu-bgfifo;
+cell ruco:not_x1      rot0 @-141.08,43.50,-140.73,45.56      ->ppu-bgfifo;
+cell rawu:dffr_cc_q   rot0 @-143.30,43.50,-141.08,45.55      ->ppu-bgfifo;
+cell rumo:not_if0     rot0 @-144.34,43.51,-143.31,45.57      ->ppu-vram;
+cell revy:not_x1      rot0 @-144.66,43.52,-144.33,45.55      ->ppu-bgfifo;
 cell rope:nand2       rot0 @-145.18,43.50,-144.66,45.56      ->sys-decode;
-cell ryga:inv_a       rot0 @-145.54,43.51,-145.19,45.55      ->ppu-bgfifo;
-cell rusa:tri_inv_if1 rot0 @-146.55,43.50,-145.52,45.56      ->ppu-bgfifo;
-cell roha:tri_inv_if1 rot0 @-147.58,43.51,-146.55,45.55      ->ppu-bgfifo;
+cell ryga:not_x1      rot0 @-145.54,43.51,-145.19,45.55      ->ppu-bgfifo;
+cell rusa:not_if1     rot0 @-146.55,43.50,-145.52,45.56      ->ppu-bgfifo;
+cell roha:not_if1     rot0 @-147.58,43.51,-146.55,45.55      ->ppu-bgfifo;
 cell ryce:and2        rot0 @-148.26,43.50,-147.57,45.54      ->ppu-ycomp;
-cell rene:dffr_b2     rot0 @-151.17,43.50,-148.25,45.55      ->ppu-cycles;
+cell rene:dffr        rot0 @-151.17,43.50,-148.25,45.55      ->ppu-cycles;
 cell rajy:and2        rot0 @-151.85,43.49,-151.16,45.55      ->ppu-mux;
-cell romo:inv_a       rot0 @-152.20,43.50,-151.84,45.55      ->ppu-cycles;
-cell ryfa:dffr_b2     rot0 @-155.44,43.51,-152.54,45.56      ->ppu-cycles;
-cell rosy:inv_a       rot0 @-155.78,43.49,-155.43,45.54      ->ppu-ycomp;
+cell romo:not_x1      rot0 @-152.20,43.50,-151.84,45.55      ->ppu-cycles;
+cell ryfa:dffr        rot0 @-155.44,43.51,-152.54,45.56      ->ppu-cycles;
+cell rosy:not_x1      rot0 @-155.78,43.49,-155.43,45.54      ->ppu-ycomp;
 cell roxy:nor_latch   rot0 @-156.80,43.49,-155.77,45.55      ->ppu-cycles;
-cell ruma:inv_a       rot0 @-157.14,43.49,-156.80,45.55      ->ppu-vram;
-cell rypo:inv_c       rot0 @-157.82,43.49,-157.14,45.55      ->ppu-cycles;
-cell rubu:dffr_b2     rot0 @-160.73,43.50,-157.83,45.55      ->ppu-cycles;
+cell ruma:not_x1      rot0 @-157.14,43.49,-156.80,45.55      ->ppu-vram;
+cell rypo:not_x3      rot0 @-157.82,43.49,-157.14,45.55      ->ppu-cycles;
+cell rubu:dffr        rot0 @-160.73,43.50,-157.83,45.55      ->ppu-cycles;
 cell rone:nand4       rot0 @-161.59,43.50,-160.73,45.55      ->ppu-cycles;
-cell roga:dffr_b2     rot0 @-164.49,43.51,-161.59,45.55      ->ppu-cycles;
+cell roga:dffr        rot0 @-164.49,43.51,-161.59,45.55      ->ppu-cycles;
 cell roze:nand3       rot0 @-165.35,43.50,-164.66,45.55      ->ppu-cycles;
 cell rydy:nor3        rot0 @-166.03,43.50,-165.35,45.54      ->ppu-cycles;
-cell ryku:dffr_b2     rot0 @-169.11,43.49,-166.20,45.55      ->ppu-cycles;
+cell ryku:dffr        rot0 @-169.11,43.49,-166.20,45.55      ->ppu-cycles;
 cell roku:xor         rot0 @-170.48,43.50,-169.45,45.54      ->ppu-stat;
-cell roxo:inv_a       rot0 @-170.82,43.50,-170.47,45.54      ->ppu-cycles;
-cell roco:inv_a       rot0 @-171.16,43.50,-170.80,45.52      ->ppu-cycles;
+cell roxo:not_x1      rot0 @-170.82,43.50,-170.47,45.54      ->ppu-cycles;
+cell roco:not_x1      rot0 @-171.16,43.50,-170.80,45.52      ->ppu-cycles;
 cell repu:or2         rot0 @-172.02,43.50,-171.32,45.55      ->ppu-window;
 cell rejo:nor_latch   rot0 @-173.05,43.48,-172.02,45.54      ->ppu-window;
 cell rybo:xor         rot0 @-174.07,43.49,-173.04,45.53      ->ppu-stat;
-cell razu:tri_inv_if0 rot0 @-175.10,43.49,-174.07,45.55      ->ppu-stat;
-cell retu:tri_inv_if0 rot0 @-176.12,43.48,-175.09,45.55      ->ppu-stat;
+cell razu:not_if0     rot0 @-175.10,43.49,-174.07,45.55      ->ppu-stat;
+cell retu:not_if0     rot0 @-176.12,43.48,-175.09,45.55      ->ppu-stat;
 cell reda:xor         rot0 @-177.15,43.50,-176.11,45.53      ->ppu-stat;
-cell reho:inv_a       rot0 @-177.49,43.48,-177.15,45.55      ->ppu-vram;
-cell redy:tri_inv_if0 rot0 @-178.52,43.49,-177.48,45.54      ->ppu-stat;
-cell race:tri_inv_if0 rot0 @-179.53,43.49,-178.51,45.54      ->ppu-stat;
-cell raha:dr_latch    rot0 @-181.25,43.49,-179.52,45.55      ->ppu-stat;
+cell reho:not_x1      rot0 @-177.49,43.48,-177.15,45.55      ->ppu-vram;
+cell redy:not_if0     rot0 @-178.52,43.49,-177.48,45.54      ->ppu-stat;
+cell race:not_if0     rot0 @-179.53,43.49,-178.51,45.54      ->ppu-stat;
+cell raha:drlatch_ee  rot0 @-181.25,43.49,-179.52,45.55      ->ppu-stat;
 cell ruju:or3         rot0 @-182.10,43.49,-181.25,45.53      ->ppu-cycles;
 cell rasy:xor         rot0 @-183.13,43.48,-182.10,45.52      ->ppu-stat;
 cell ryme:xor         rot0 @-184.15,43.48,-183.13,45.55      ->ppu-stat;
 cell ruta:and2        rot0 @-184.83,43.48,-184.16,45.55      ->ppu-mux;
-cell roge:inv_a       rot0 @-185.18,43.48,-184.84,45.53      ->ppu-window;
+cell roge:not_x1      rot0 @-185.18,43.48,-184.84,45.53      ->ppu-window;
 cell rape:nand2       rot0 @-185.86,43.48,-185.34,45.54      ->ppu-stat;
-cell ruky:inv_a       rot0 @-186.21,43.48,-185.86,45.55      ->ppu-vram;
+cell ruky:not_x1      rot0 @-186.21,43.48,-185.86,45.55      ->ppu-vram;
 cell ryfu:and2        rot0 @-186.89,43.48,-186.20,45.55      ->ppu-mux;
-cell ryju:inv_a       rot0 @-187.23,43.48,-186.88,45.53      ->ppu-stat;
-cell ryve:inv_a       rot0 @-187.55,43.49,-187.22,45.53 comp ->ppu-stat;
-cell rugu:dr_latch    rot0 @-189.28,43.50,-187.55,45.53      ->ppu-stat;
-cell roxe:dr_latch    rot0 @-191.16,43.49,-189.45,45.52      ->ppu-stat;
-cell rufo:dr_latch    rot0 @-192.86,43.48,-191.15,45.53      ->ppu-stat;
-cell refe:dr_latch    rot0 @-194.57,43.48,-192.87,45.53      ->ppu-stat;
+cell ryju:not_x1      rot0 @-187.23,43.48,-186.88,45.53      ->ppu-stat;
+cell ryve:not_x1      rot0 @-187.55,43.49,-187.22,45.53 comp ->ppu-stat;
+cell rugu:drlatch_ee  rot0 @-189.28,43.50,-187.55,45.53      ->ppu-stat;
+cell roxe:drlatch_ee  rot0 @-191.16,43.49,-189.45,45.52      ->ppu-stat;
+cell rufo:drlatch_ee  rot0 @-192.86,43.48,-191.15,45.53      ->ppu-stat;
+cell refe:drlatch_ee  rot0 @-194.57,43.48,-192.87,45.53      ->ppu-stat;
 cell rupo:nor_latch   rot0 @-195.60,43.48,-194.57,45.53      ->ppu-stat;
-cell ropo:dffr_b2     rot0 @-198.51,43.48,-195.60,45.52      ->ppu-stat;
+cell ropo:dffr        rot0 @-198.51,43.48,-195.60,45.52      ->ppu-stat;
 cell raca:and2        rot0 @-199.19,43.48,-198.51,45.53      ->ppu-ycomp;
-cell rydu:d_latch_a2  rot0 @-200.56,43.48,-199.19,45.52      ->ppu-objfifo;
-cell raro:tri_inv_if0 rot0 @-201.58,43.48,-200.56,45.54      ->ppu-pal;
-cell rama:d_latch_a2  rot0 @-202.96,43.48,-201.58,45.52      ->ppu-objfifo;
-cell ryfe:inv_a       rot0 @-203.30,43.48,-202.95,45.53      ->ppu-xcomp;
-cell redo:tri_inv_if0 rot0 @-204.33,43.47,-203.30,45.52      ->ppu-pal;
-cell rozo:inv_a       rot0 @-204.66,43.48,-204.31,45.53      ->ppu-objfifo;
-cell ramu:d_latch_a2  rot0 @-206.03,43.49,-204.66,45.54      ->ppu-objfifo;
-cell rewo:d_latch_a2  rot0 @-207.40,43.48,-206.02,45.53      ->ppu-objfifo;
-cell roka:d_latch_a2  rot0 @-208.77,43.48,-207.40,45.52      ->ppu-objfifo;
-cell rutu:dffr_b2     rot0 @-211.67,43.48,-208.76,45.52      ->ppu-lcd;
+cell rydu:dlatch_ee_q rot0 @-200.56,43.48,-199.19,45.52      ->ppu-objfifo;
+cell raro:not_if0     rot0 @-201.58,43.48,-200.56,45.54      ->ppu-pal;
+cell rama:dlatch_ee_q rot0 @-202.96,43.48,-201.58,45.52      ->ppu-objfifo;
+cell ryfe:not_x1      rot0 @-203.30,43.48,-202.95,45.53      ->ppu-xcomp;
+cell redo:not_if0     rot0 @-204.33,43.47,-203.30,45.52      ->ppu-pal;
+cell rozo:not_x1      rot0 @-204.66,43.48,-204.31,45.53      ->ppu-objfifo;
+cell ramu:dlatch_ee_q rot0 @-206.03,43.49,-204.66,45.54      ->ppu-objfifo;
+cell rewo:dlatch_ee_q rot0 @-207.40,43.48,-206.02,45.53      ->ppu-objfifo;
+cell roka:dlatch_ee_q rot0 @-208.77,43.48,-207.40,45.52      ->ppu-objfifo;
+cell rutu:dffr        rot0 @-211.67,43.48,-208.76,45.52      ->ppu-lcd;
 cell rusy:nand2       rot0 @-212.18,43.48,-211.66,45.52      ->ppu-objfifo;
 cell ryno:or2         rot0 @-212.86,43.48,-212.18,45.51      ->ppu-lcd;
 cell ruca:nand2       rot0 @-213.38,43.47,-212.85,45.52      ->ppu-objfifo;
-cell rata:inv_a       rot0 @-213.72,43.47,-213.37,45.52      ->ppu-objfifo;
+cell rata:not_x1      rot0 @-213.72,43.47,-213.37,45.52      ->ppu-objfifo;
 cell rugo:dffsr       rot0 @-217.48,43.48,-213.70,45.52      ->ppu-xcomp;
-cell ryzy:inv_a       rot0 @-217.81,43.47,-217.47,45.52      ->ppu-xcomp;
+cell ryzy:not_x1      rot0 @-217.81,43.47,-217.47,45.52      ->ppu-xcomp;
 cell rudu:nand2       rot0 @-218.33,43.46,-217.82,45.53      ->ppu-xcomp;
 cell rora:nand2       rot0 @-218.84,43.46,-218.32,45.52      ->ppu-xcomp;
 cell ruda:or3         rot0 @-219.70,43.48,-218.84,45.52      ->ppu-xcomp;
 cell rosa:dffsr       rot0 @-223.47,43.48,-219.70,45.53      ->ppu-xcomp;
 cell rano:nand2       rot0 @-223.98,43.47,-223.46,45.52      ->ppu-objfifo;
 cell rehu:nand2       rot0 @-224.50,43.47,-223.97,45.52      ->ppu-objfifo;
-cell roby:inv_a       rot0 @-224.83,43.48,-224.48,45.52      ->ppu-xcomp;
-cell ruze:inv_c       rot0 @-225.50,43.47,-224.82,45.51      ->ppu-cycles;
-cell ravo:inv_b       rot0 @-226.02,43.47,-225.51,45.52      ->ppu-mux;
-cell remy:inv_b       rot0 @-226.54,43.46,-226.02,45.52      ->ppu-mux;
+cell roby:not_x1      rot0 @-224.83,43.48,-224.48,45.52      ->ppu-xcomp;
+cell ruze:not_x3      rot0 @-225.50,43.47,-224.82,45.51      ->ppu-cycles;
+cell ravo:not_x2      rot0 @-226.02,43.47,-225.51,45.52      ->ppu-mux;
+cell remy:not_x2      rot0 @-226.54,43.46,-226.02,45.52      ->ppu-mux;
 
 
 # Wires originating from column R in bottom left corner
 # -----------------------------------------------------
 
 wire rawa:ctl
-	rawa.q -> racu.in2
+	rawa.y -> racu.in2
 	@-110.38,27.38,-110.38,32.77,-113.80,32.77,-113.80,30.92,-120.48,30.92,-120.48,34.05,-122.52,34.05,
 	 -122.52,38.40,-123.55,38.40,-123.55,43.36,-123.73,43.36,-123.73,43.80;
 
 wire ryle:data
-	ryle.q -> sywe.in1
+	ryle.y -> sywe.in1
 	@-128.18,45.28,-128.18,48.36,-127.67,48.36,-127.67,49.38;
 
 wire raja:data
-	raja.q -> setu.~s
+	raja.y -> setu.~s
 	@-128.70,45.27,-128.70,47.95,-126.13,47.95,-126.13,49.38
 	@-126.13,48.92,-123.91,48.92,-123.91,49.38;
 
 wire ruce:data
-	ruce.q -> sady.~s
+	ruce.y -> sady.~s
 	@-129.21,45.28,-129.21,48.66
 	@-128.69,49.36,-128.69,48.66,-130.92,48.66,-130.92,49.38;
 
 wire rajo:data
-	rajo.q -> ralu.~s
+	rajo.y -> ralu.~s
 	@-130.74,45.28,-130.74,47.39,-130.91,47.39,-130.91,45.27
 	@-130.91,47.00,-133.14,47.00,-133.14,45.27;
 
@@ -133,24 +133,24 @@ wire ralu:data
 # ralu.~q is not connected
 
 wire ryjy:data
-	ryjy.q -> sohu.~r
+	ryjy.y -> sohu.~r
 	@-135.02,45.29,-135.02,48.63,-136.05,48.63,-136.05,49.38;
 
 wire rapu:data
-	rapu.q -> supu.in1
+	rapu.y -> supu.in1
 	@-135.37,45.28,-135.37,48.37,-132.45,48.37,-132.45,49.35;
 
 wire raga:data
-	raga.q -> sohu.~s
+	raga.y -> sohu.~s
 	@-135.87,45.28,-135.87,48.37,-135.53,48.37,-135.53,52.52,-133.31,52.52,-133.31,50.87;
 
 wire ryja:data
-	ryja.q -> rysa.~s
+	ryja.y -> rysa.~s
 	@-136.38,45.29,-136.38,47.52,-139.30,47.52,-139.30,45.28
 	@-137.07,47.52,-137.07,45.29;
 
 wire ruto:data
-	ruto.q -> sobo.~s
+	ruto.y -> sobo.~s
 	@-136.90,45.29,-136.90,48.33,-137.07,48.33,-137.07,49.38
 	@-137.07,48.41,-139.29,48.41,-139.29,49.38;
 
@@ -161,7 +161,7 @@ wire rysa:data
 # rysa.~q is not connected
 
 wire ruco:data
-	ruco.q -> seno.in1
+	ruco.y -> seno.in1
 	@-141.00,45.27,-141.00,48.50,-140.84,48.50,-140.84,49.38;
 
 wire bg_tile0:data
@@ -170,19 +170,19 @@ wire bg_tile0:data
 	@-143.57,56.99,-143.92,56.99,-143.92,55.13;
 
 wire revy:data
-	revy.q -> sebo.in1
+	revy.y -> sebo.in1
 	@-144.59,45.28,-144.59,48.54,-143.91,48.54,-143.91,49.38;
 
 wire rope:dec
-	rope.q -> saro.in
+	rope.y -> saro.in
 	@-145.10,45.29,-145.10,48.49,-155.36,48.49,-155.36,49.35;
 
 wire ryga:data
-	ryga.q -> suca.in1
+	ryga.y -> suca.in1
 	@-145.45,45.28,-145.45,47.95,-145.62,47.95,-145.62,49.36;
 
 wire ryce:ctl
-	ryce.q -> seca.in1
+	ryce.y -> seca.in1
 	@-148.18,45.27,-148.18,48.66,-155.87,48.66,-155.87,49.37;
 
 wire rene:ctl
@@ -192,12 +192,12 @@ wire rene:ctl
 # rene.~q is not connected
 
 wire rajy:data
-	rajy.q -> ryfu.in1 soba.in
+	rajy.y -> ryfu.in1 soba.in
 	@-151.77,45.27,-151.77,45.98,-186.29,45.97
 	@-186.29,45.26,-186.29,46.69,-195.52,46.69,-195.52,49.34;
 
 wire romo:ctl
-	romo.q -> suvu.in2
+	romo.y -> suvu.in2
 	@-152.12,45.27,-152.12,47.63,-153.48,47.63,-153.48,49.36;
 
 wire ryfa:ctl
@@ -209,7 +209,7 @@ wire ~ryfa:ctl
 	@-155.18,45.27,-155.18,48.79,-152.63,48.79,-152.63,49.38;
 
 wire rosy:rst
-	rosy.q -> seca.in2
+	rosy.y -> seca.in2
 	@-155.70,45.27,-155.70,48.78,-156.05,48.78,-156.05,49.38;
 
 wire roxy:ctl
@@ -220,11 +220,11 @@ wire roxy:ctl
 # roxy.~q is not connected
 
 wire ruma:adr
-	ruma.q -> pedu.in
+	ruma.y -> pedu.in
 	@-157.07,45.27,-157.07,48.36,-225.26,48.32,-225.26,43.13,-226.27,43.13,-226.27,40.41;
 
 wire rypo:clk
-	rypo.q -> cp.~o
+	rypo.y -> cp.~o
 	@-157.74,45.26,-157.74,48.78,-227.64,48.74,-227.64,45.74,-229.64,45.74,-229.75,148.87,-236.58,148.87,
 	 -236.58,148.45,-236.93,148.45;
 
@@ -238,7 +238,7 @@ wire ~rubu:clk
 	@-160.48,45.27,-160.48,48.65,-158.95,48.65,-158.95,45.27;
 
 wire rone:ctl
-	rone.q -> pohu.in
+	rone.y -> pohu.in
 	@-161.51,43.77,-161.51,40.45;
 
 wire roga:data
@@ -252,12 +252,12 @@ wire ~roga:clk
 	@-162.70,45.27,-162.70,46.95,-158.09,46.95,-158.09,45.27;
 
 wire roze:ctl
-	roze.q -> pecu.in2 pany.in1
+	roze.y -> pecu.in2 pany.in1
 	@-165.27,43.79,-165.27,42.23,-165.77,42.23,-165.77,40.44
 	@-165.43,42.23,-165.43,40.45;
 
 wire rydy:ctl
-	rydy.q -> puku.in2 sylo.in sovy.d
+	rydy.y -> puku.in2 sylo.in sovy.d
 	@-165.95,45.27,-165.95,47.80,-164.58,47.80
 	@-164.92,40.46,-164.92,42.91,-164.58,42.91,-164.58,48.48,-160.32,48.48,-160.32,51.95,-158.95,51.95,-158.95,50.84;
 
@@ -272,20 +272,20 @@ wire ~ryku:clk
 	@-167.32,46.69,-161.85,46.69,-161.85,45.26;
 
 wire roku:data
-	roku.q -> sybe.d
+	roku.y -> sybe.d
 	@-169.54,45.27,-169.54,48.91,-166.29,48.91,-166.29,49.35;
 
 wire roxo:clk
-	roxo.q -> puxa.clk pecu.in1 paho.clk
+	roxo.y -> puxa.clk pecu.in1 paho.clk
 	@-170.73,43.77,-170.73,41.67,-165.26,41.67,-165.26,37.31,-162.02,37.31,-162.02,38.95
 	@-170.73,43.33,-173.81,43.33,-173.81,40.43;
 
 wire roco:clk
-	roco.q -> pyco.clk
+	roco.y -> pyco.clk
 	@-171.08,43.77,-171.08,41.92,-169.88,41.92,-169.88,40.45;
 
 wire repu:ctl
-	repu.q -> rejo.r syny.in
+	repu.y -> rejo.r syny.in
 	@-171.94,45.26,-171.94,47.63,-155.01,47.63,-155.01,49.37
 	@-171.94,46.99,-172.97,46.99,-172.97,45.25;
 
@@ -296,15 +296,15 @@ wire wy_latch:ctl
 # rejo.~q is not connected
 
 wire rybo:data
-	rybo.q -> savy.d
+	rybo.y -> savy.d
 	@-173.13,45.27,-173.13,46.70,-173.99,46.70,-173.99,49.35;
 
 wire reda:data
-	reda.q -> subo.in2
+	reda.y -> subo.in2
 	@-176.20,45.27,-176.20,47.80,-183.40,47.80,-183.40,49.36;
 
 wire reho:adr
-	reho.q -> pony.in
+	reho.y -> pony.in
 	@-177.40,43.77,-177.40,41.28,-225.77,41.26,-225.77,40.42;
 
 wire raha:data
@@ -316,43 +316,43 @@ wire ~raha:data
 	@-180.99,43.76,-180.99,43.02,-178.08,43.02,-178.08,40.44;
 
 wire ruju:ctl
-	ruju.q -> pofy.in
+	ruju.y -> pofy.in
 	@-182.02,43.77,-182.02,43.02,-190.73,43.02,-190.73,40.44;
 
 wire rasy:data
-	rasy.q -> subo.in1
+	rasy.y -> subo.in1
 	@-182.19,45.26,-182.19,47.67,-183.22,47.67,-183.22,49.38;
 
 wire ryme:data
-	ryme.q -> subo.in4
+	ryme.y -> subo.in4
 	@-183.21,45.26,-183.21,46.98,-183.73,46.98,-183.73,49.36;
 
 wire ruta:data
-	ruta.q -> poka.in2
+	ruta.y -> poka.in2
 	@-184.76,45.26,-184.76,45.84,-197.91,45.83,-197.91,40.43;
 
 wire wy_match:ctl
-	roge.q -> sary.d
+	roge.y -> sary.d
 	@-185.09,45.27,-185.09,46.52,-188.00,46.52,-188.00,49.34;
 
 wire rape:ctl
-	rape.q -> paly.in
+	rape.y -> paly.in
 	@-185.78,45.27,-185.78,47.67,-194.50,47.66,-194.50,43.31,-194.15,43.31,-194.15,40.45;
 
 wire ruky:adr
-	ruky.q -> nuva.in
+	ruky.y -> nuva.in
 	@-186.12,43.77,-186.12,38.24,-226.11,38.22,-226.11,36.06;
 
 wire ryfu:data
-	ryfu.q -> poka.in3
+	ryfu.y -> poka.in3
 	@-186.80,45.27,-186.80,47.54,-198.94,47.53,-198.94,42.16,-198.08,42.16,-198.08,40.45;
 
 wire ryju:ctl
-	ryju.q -> pago.in2
+	ryju.y -> pago.in2
 	@-187.14,45.27,-187.14,47.23,-190.22,47.23,-190.22,41.66,-189.88,41.66,-189.88,40.45;
 
 wire ryve:ctl
-	ryve.q -> pupu.in rugu.~ena roxe.~ena rufo.~ena refe.~ena
+	ryve.y -> pupu.in rugu.~ena roxe.~ena rufo.~ena refe.~ena
 	@-187.48,43.76,-187.48,43.32,-189.88,43.32,-189.88,41.91,-191.42,41.91,-191.42,43.78
 	@-187.83,43.32,-187.83,43.78
 	@-189.71,43.32,-189.71,43.78
@@ -405,7 +405,7 @@ wire lyc_int:ctl
 # ropo.~q is not connected
 
 wire raca:ctl
-	raca.q -> peby.in
+	raca.y -> peby.in
 	@-199.11,45.25,-199.11,47.61,-205.09,47.61,-205.09,43.31,-204.41,43.31,-204.41,40.42;
 
 wire rydu:data
@@ -417,11 +417,11 @@ wire rama:data
 	@-202.70,45.25,-202.70,47.78,-200.82,47.78,-200.82,53.04,-201.00,53.04,-201.00,53.62;
 
 wire ryfe:data
-	ryfe.q -> pazo.in1
+	ryfe.y -> pazo.in1
 	@-203.21,43.76,-203.21,42.76,-200.99,42.76,-200.99,40.43;
 
 wire latch_sp_bp_a:ctl
-	rozo.q -> mytu.ena pefo.ena rydu.ena rama.ena ramu.ena roka.ena suto.ena sele.ena
+	rozo.y -> mytu.ena pefo.ena rydu.ena rama.ena ramu.ena roka.ena suto.ena sele.ena
 	@-204.58,45.26,-204.58,47.91,-199.97,47.91
 	@-204.58,46.93,-205.27,46.93,-205.27,43.32,-208.00,43.32,-208.00,43.77
 	@-205.60,43.32,-205.60,37.73,-206.10,37.73,-206.10,33.23,-207.13,33.23,-207.13,31.51
@@ -453,20 +453,20 @@ wire vclk:ctl
 # rutu.~q is not connected
 
 wire rusy:data
-	rusy.q -> pefu.~s
+	rusy.y -> pefu.~s
 	@-212.09,43.76,-212.09,40.44
 	@-212.09,43.01,-209.87,43.01,-209.87,40.44;
 
 wire ryno:ctl
-	ryno.q -> pogu.in
+	ryno.y -> pogu.in
 	@-212.79,45.25,-212.79,47.78,-225.77,47.78,-225.77,42.88,-225.26,42.88,-225.26,40.42;
 
 wire ruca:data
-	ruca.q -> pefu.~r
+	ruca.y -> pefu.~r
 	@-213.30,43.73,-213.30,43.01,-212.61,43.01,-212.61,40.42;
 
 wire rata:data
-	rata.q -> pyzu.in1
+	rata.y -> pyzu.in1
 	@-213.63,43.76,-213.63,43.01,-214.32,43.01,-214.32,40.40;
 
 wire rugo:data
@@ -476,20 +476,20 @@ wire rugo:data
 # rugo.~q is not connected
 
 wire ryzy:data
-	ryzy.q -> rudu.in1
+	ryzy.y -> rudu.in1
 	@-217.73,43.75,-217.73,43.30,-217.91,43.30,-217.91,43.75;
 
 wire rudu:data
-	rudu.q -> palu.~r
+	rudu.y -> palu.~r
 	@-218.26,45.24,-218.26,46.92,-219.96,46.92,-219.96,42.59,-219.77,42.59,-219.77,40.41;
 
 wire rora:data
-	rora.q -> palu.~s
+	rora.y -> palu.~s
 	@-218.76,43.75,-218.76,42.07
 	@-219.27,40.42,-219.27,42.07,-217.05,42.07,-217.05,40.41;
 
 wire ruda:data
-	ruda.q -> roby.in
+	ruda.y -> roby.in
 	@-219.62,45.24,-219.62,48.63,-224.58,48.63,-224.58,45.25;
 
 wire rosa:data
@@ -499,16 +499,16 @@ wire rosa:data
 # rosa.~q is not connected
 
 wire rano:data
-	rano.q -> pyjo.~s
+	rano.y -> pyjo.~s
 	@-223.90,43.74,-223.90,42.59,-223.72,42.59,-223.72,40.41
 	@-223.72,42.49,-221.49,42.49,-221.49,40.43;
 
 wire rehu:data
-	rehu.q -> pyjo.~r
+	rehu.y -> pyjo.~r
 	@-224.41,43.75,-224.41,42.76,-224.23,42.76,-224.23,40.42;
 
 wire sprite_on3:data
-	roby.q -> lufy.in2 mame.in2 rano.in2 rehu.in2 suky.in2 towa.in2 wevo.in2 xyru.in2
+	roby.y -> lufy.in2 mame.in2 rano.in2 rehu.in2 suky.in2 towa.in2 wevo.in2 xyru.in2
 	@-224.75,45.25,-224.75,47.90,-223.72,47.90
 	@-224.24,47.90,-224.24,45.25
 	@-221.31,26.96,-221.31,33.66,-223.54,33.66,-223.54,37.97,-223.38,37.97,-223.38,42.74,-223.72,42.74,-223.72,48.88,
@@ -516,16 +516,16 @@ wire sprite_on3:data
 	 -222.04,68.16,-222.04,69.34;
 
 wire ruze:ctl
-	ruze.q -> st.~o
+	ruze.y -> st.~o
 	@-225.43,45.25,-225.43,48.88,-227.80,48.88,-227.80,44.81,-229.80,44.81,-229.92,158.46,-236.60,158.45,-236.60,158.48,
 	 -236.93,158.48;
 
 wire ravo:data
-	ravo.q -> ld1.~o
+	ravo.y -> ld1.~o
 	@-225.95,45.25,-225.95,48.16,-228.63,48.16,-228.63,44.32,-233.10,44.32,-233.18,110.55,-236.54,110.55,-236.54,108.35,
 	 -236.88,108.35;
 
 wire remy:data
-	remy.q -> ld0.~o
+	remy.y -> ld0.~o
 	@-226.45,45.23,-226.45,47.73,-228.13,47.73,-228.13,44.57,-229.98,44.57,-230.06,120.13,-236.55,120.13,-236.55,118.38,
 	 -236.87,118.38;

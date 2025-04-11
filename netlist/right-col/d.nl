@@ -1,151 +1,151 @@
 # Cells in column D on right hand side
 # ------------------------------------
 
-cell dala:nor_latch   rot0,flip @-62.29,199.02,-61.27,201.09        ->apu-ch2;
-cell dova:inv_d       rot0,flip @-63.15,199.03,-62.29,201.09        ->apu-control;
-cell doxa:nor2        rot0,flip @-63.66,199.02,-63.14,201.08        ->apu-ch2;
-cell dero:inv_a       rot0,flip @-64.01,199.02,-63.65,201.08        ->apu-ch3;
-cell dory:dffr_b2     rot0,flip @-66.91,199.03,-64.01,201.08        ->apu-ch2;
-cell dera:nor2        rot0,flip @-67.41,199.03,-66.91,201.07        ->apu-ch2;
-cell dope:dffr_b2     rot0,flip @-70.34,199.03,-67.42,201.08        ->apu-ch2;
-cell doca:inv_a       rot0,flip @-70.67,199.02,-70.33,201.08        ->apu-ch2;
-cell done:tffd        rot0,flip @-74.08,199.01,-70.66,201.09        ->apu-ch2;
-cell davo:dffr_b2     rot0,flip @-76.98,199.02,-74.09,201.09        ->apu-ch3;
-cell date:muxi        rot0,flip @-77.85,199.02,-76.98,201.07        ->apu-ch3;
-cell dynu:tffd        rot0,flip @-81.27,199.02,-77.84,201.07        ->apu-ch2;
-cell dazy:muxi        rot0,flip @-82.11,199.02,-81.26,201.07        ->apu-ch3;
-cell doky:ao2         rot0,flip @-83.48,199.01,-82.10,201.06        ->apu-ch3;
-cell dore:and2        rot0,flip @-84.16,199.03,-83.48,201.06        ->apu-ch3;
-cell desa:tri_inv_if1 rot0,flip @-85.20,199.00,-84.15,201.06        ->apu-ch3;
-cell doru:inv_a       rot0,flip @-85.52,199.02,-85.18,201.05        ->apu-ch3;
-cell dugu:tri_inv_if1 rot0,flip @-86.56,199.01,-85.52,201.05        ->apu-ch3;
-cell dosa:and2        rot0,flip @-87.24,199.01,-86.55,201.07        ->apu-ch2;
-cell desy:tri_inv_if1 rot0,flip @-88.27,199.01,-87.23,201.06        ->apu-ch3;
-cell daxu:inv_a       rot0,flip @-88.61,199.02,-88.25,201.06        ->apu-ch2;
-cell duce:inv_b       rot0,flip @-89.11,199.02,-88.60,201.07        ->apu-decode;
-cell deno:inv_b       rot0,flip @-89.63,199.02,-89.12,201.07        ->apu-decode;
-cell dupa:inv_b       rot0,flip @-90.14,199.01,-89.63,201.07        ->apu-decode;
-cell datu:nand4       rot0,flip @-91.00,199.03,-90.13,201.08        ->apu-decode;
-cell dofa:and4        rot0,flip @-92.02,199.02,-90.98,201.07        ->apu-decode;
-cell dupo:nand4       rot0,flip @-92.88,199.02,-92.02,201.06        ->apu-decode;
-cell damy:nand4       rot0,flip @-93.73,199.02,-92.87,201.06        ->apu-decode;
-cell daza:nand4       rot0,flip @-94.59,199.02,-93.72,201.07        ->apu-decode;
-cell dufe:nand4       rot0,flip @-95.45,199.02,-94.58,201.06        ->apu-decode;
-cell dejy:nand4       rot0,flip @-96.30,199.00,-95.43,201.05        ->apu-decode;
-cell dewa:nand4       rot0,flip @-97.15,199.00,-96.28,201.06        ->apu-decode;
-cell duno:nand4       rot0,flip @-98.18,199.00,-97.33,201.05        ->apu-decode;
-cell dura:nand4       rot0,flip @-99.03,199.01,-98.17,201.05        ->apu-decode;
-cell duvu:nand4       rot0,flip @-99.88,199.01,-99.04,201.06        ->apu-decode;
-cell doso:inv_b       rot0,flip @-100.40,199.02,-99.89,201.05       ->apu-decode;
-cell dara:nor2        rot0,flip @-100.91,199.01,-100.40,201.05      ->apu-decode;
-cell dafy:nand4       rot0,flip @-101.76,199.00,-100.91,201.06      ->apu-decode;
-cell dona:nand4       rot0,flip @-102.63,199.02,-101.76,201.05      ->apu-decode;
-cell dyte:inv_b       rot0,flip @-103.14,199.00,-102.63,201.05      ->apu-decode;
-cell deta:nand2       rot0,flip @-103.65,199.01,-103.13,201.05 comp ->apu-ch2;
-cell doza:nor2        rot0,flip @-104.16,199.02,-103.65,201.06      ->apu-decode;
-cell dugo:nor2        rot0,flip @-104.68,199.02,-104.16,201.05      ->apu-decode;
-cell defy:nand2       rot0,flip @-105.19,199.01,-104.67,201.05      ->bus-adr;
-cell dutu:nor2        rot0,flip @-105.70,199.02,-105.18,201.05      ->apu-decode;
-cell duju:nor2        rot0,flip @-106.21,199.02,-105.70,201.05      ->apu-ch2;
-cell davu:inv_a       rot0,flip @-106.55,199.02,-106.20,201.05      ->apu-ch2;
-cell dovo:inv_a       rot0,flip @-106.89,199.02,-106.55,201.05      ->apu-ch3;
-cell dyta:nor2        rot0,flip @-107.40,199.01,-106.88,201.05      ->apu-ch2;
-cell domo:nor2        rot0,flip @-107.91,198.99,-107.40,201.07      ->apu-ch2;
-cell duge:inv_a       rot0,flip @-108.26,199.02,-107.91,201.05      ->apu-ch2;
-cell dove:nor2        rot0,flip @-108.77,199.01,-108.27,201.05      ->apu-ch2;
-cell doju:nor2        rot0,flip @-109.29,199.00,-108.77,201.06      ->apu-ch2;
-cell dare:inv_a       rot0,flip @-109.63,199.01,-109.29,201.05      ->apu-ch2;
-cell doxy:and2        rot0,flip @-110.31,199.00,-109.63,201.05      ->apu-decode;
-cell dymu:and2        rot0,flip @-110.99,199.00,-110.31,201.06      ->apu-ch2;
-cell dylu:inv_a       rot0,flip @-111.34,199.01,-110.98,201.05      ->apu-ch1;
-cell dyve:dffr_b      rot0,flip @-113.73,199.01,-111.34,201.05      ->apu-ch2;
-cell dome:dffr_b2     rot0,flip @-116.64,199.00,-113.73,201.05      ->apu-ch2;
-cell dusa:nor2        rot0,flip @-117.15,199.01,-116.63,201.05      ->apu-decode;
-cell dery:nand2       rot0,flip @-117.66,198.99,-117.15,201.05      ->apu-ch3;
-cell dyva:nor2        rot0,flip @-118.17,199.00,-117.65,201.06      ->apu-decode;
-cell deco:nor2        rot0,flip @-118.68,199.00,-118.16,201.05      ->apu-decode;
-cell duvo:inv_a       rot0,flip @-119.03,199.00,-118.69,201.05      ->apu-ch1;
-cell dape:dffr_b      rot0,flip @-121.42,198.99,-119.03,201.05      ->apu-ch1;
-cell duna:ao4         rot0,flip @-123.82,199.00,-121.42,201.06      ->apu-ch1;
-cell dafo:inv_a       rot0,flip @-124.16,199.01,-123.80,201.06 comp ->apu-ch1;
-cell dyca:dr_latch    rot0,flip @-125.87,199.00,-124.15,201.05      ->apu-ch1;
-cell duja:nor2        rot0,flip @-126.38,199.01,-125.87,201.05      ->apu-decode;
-cell deke:inv_a       rot0,flip @-126.73,198.99,-126.38,201.05      ->apu-ch1;
-cell danu:nor2        rot0,flip @-127.24,199.00,-126.72,201.05      ->apu-decode;
-cell dyro:inv_a       rot0,flip @-127.58,198.98,-127.23,201.05      ->apu-ch1;
-cell dajo:inv_a       rot0,flip @-127.91,199.00,-127.57,201.05      ->apu-ch1;
-cell deme:nor3        rot0,flip @-128.61,198.99,-127.91,201.05      ->apu-ch2;
-cell dora:and2        rot0,flip @-129.28,199.01,-128.59,201.06      ->apu-ch2;
-cell duso:inv_a       rot0,flip @-129.63,198.99,-129.28,201.05      ->apu-ch2;
-cell duwo:dffr_b2     rot0,flip @-132.53,198.98,-129.63,201.05      ->apu-ch1;
-cell duka:inv_a       rot0,flip @-132.88,198.99,-132.53,201.05      ->apu-ch1;
-cell dane:nor_latch   rot0,flip @-133.91,198.98,-132.88,201.05      ->apu-ch2;
-cell depu:nand2       rot0,flip @-134.41,198.98,-133.88,201.05      ->apu-ch1;
-cell dyla:inv_b       rot0,flip @-134.92,198.99,-134.41,201.05      ->apu-ch1;
-cell defu:inv_a       rot0,flip @-135.27,198.98,-134.92,201.05      ->apu-ch2;
-cell dulo:inv_a       rot0,flip @-135.61,199.00,-135.26,201.05      ->apu-ch1;
-cell dypu:nor2        rot0,flip @-136.12,198.98,-135.61,201.05      ->apu-ch1;
-cell debo:inv_a       rot0,flip @-136.45,198.99,-136.11,201.05      ->apu-ch1;
-cell dado:nor2        rot0,flip @-136.98,199.00,-136.46,201.05      ->apu-ch1;
-cell daco:and2        rot0,flip @-137.65,198.98,-136.98,201.05      ->apu-ch4;
-cell dyke:inv_a       rot0,flip @-138.01,198.99,-137.65,201.05 comp ->apu-ch4;
-cell duru:nand2       rot0,flip @-138.51,198.99,-138.00,201.06      ->apu-control;
-cell doge:nand2       rot0,flip @-139.03,198.98,-138.52,201.05 comp ->apu-ch1;
-cell dupe:dr_latch    rot0,flip @-140.91,199.00,-139.20,201.02      ->apu-ch1;
-cell demy:tri_inv_if0 rot0,flip @-141.94,198.99,-140.91,201.04      ->apu-ch4;
-cell dogo:tffd        rot0,flip @-145.53,198.98,-142.10,201.05      ->apu-ch4;
-cell daxa:nand2       rot0,flip @-146.04,198.99,-145.52,201.05      ->apu-ch1;
-cell dupy:or2         rot0,flip @-146.72,198.98,-146.02,201.05      ->apu-ch1;
-cell dega:inv_a       rot0,flip @-147.05,198.99,-146.70,201.05      ->apu-ch1;
-cell deru:inv_a       rot0,flip @-147.41,198.98,-147.05,201.04      ->apu-ch1;
-cell dopa:tri_inv_if0 rot0,flip @-148.44,198.99,-147.41,201.03      ->apu-ch1;
-cell dexo:tri_inv_if0 rot0,flip @-149.45,198.99,-148.42,201.05      ->apu-ch1;
-cell dulu:nand2       rot0,flip @-149.97,198.98,-149.45,201.03 comp ->apu-ch4;
-cell demu:tri_inv_if0 rot0,flip @-151.00,198.98,-149.96,201.04      ->apu-ch1;
-cell deby:and2        rot0,flip @-151.68,198.97,-150.98,201.03      ->apu-ch1;
-cell dyfa:inv_b       rot0,flip @-152.18,198.98,-151.67,201.05      ->apu-control;
-cell dako:inv_a       rot0,flip @-152.54,198.97,-152.18,201.05      ->apu-ch1;
-cell dygy:dffsr       rot0,flip @-156.28,198.98,-152.52,201.04      ->apu-ch1;
-cell dena:tffd        rot0,flip @-159.88,198.98,-156.45,201.05      ->apu-ch4;
-cell dano:tffd        rot0,flip @-163.29,198.98,-159.87,201.04      ->apu-ch4;
-cell dotu:inv_a       rot0,flip @-163.63,198.98,-163.29,201.05      ->apu-ch4;
-cell doly:dffr_a      rot0,flip @-165.85,198.98,-163.63,201.04      ->apu-ch1;
-cell dace:nand2       rot0,flip @-166.37,198.98,-165.87,201.03      ->apu-ch1;
-cell dele:dffr_a      rot0,flip @-168.61,198.98,-166.35,201.03      ->apu-ch1;
-cell deva:dffr_a      rot0,flip @-170.82,198.98,-168.60,201.02      ->apu-ch1;
-cell dexe:dffr_a      rot0,flip @-173.04,198.98,-170.82,201.02      ->apu-ch1;
-cell dyxe:full_add    rot0,flip @-176.45,198.98,-173.04,201.02      ->apu-ch1;
-cell dyme:xor         rot0,flip @-177.48,198.98,-176.45,201.03      ->apu-ch1;
-cell defa:dffr_a      rot0,flip @-179.71,198.96,-177.46,201.02      ->apu-ch1;
-cell dofy:dffr_a      rot0,flip @-181.92,198.98,-179.70,201.00      ->apu-ch1;
-cell dozy:xor         rot0,flip @-182.94,198.96,-181.92,201.02      ->apu-ch1;
-cell dule:full_add    rot0,flip @-186.36,198.98,-182.94,201.03      ->apu-ch1;
-cell dafa:nor2        rot0,flip @-186.88,198.98,-186.37,201.02      ->apu-ch1;
-cell dapy:inv_a       rot0,flip @-187.22,198.96,-186.87,201.03      ->apu-ch4;
-cell dopu:inv_a       rot0,flip @-187.55,198.98,-187.22,201.04      ->apu-ch4;
-cell doka:and2        rot0,flip @-188.24,198.98,-187.55,201.02      ->apu-ch1;
-cell dyru:nor3        rot0,flip @-188.93,198.97,-188.23,201.02      ->apu-ch1;
-cell dacu:nor2        rot0,flip @-189.44,198.95,-188.91,201.03      ->apu-ch1;
-cell dody:nor2        rot0,flip @-189.95,198.98,-189.44,201.03      ->apu-ch1;
-cell dere:dffr_b2     rot0,flip @-192.85,198.97,-189.95,201.03      ->apu-ch4;
-cell dapu:inv_a       rot0,flip @-193.20,198.98,-192.84,201.03      ->apu-ch1;
-cell dota:dffr_b2     rot0,flip @-196.09,198.96,-193.19,201.05      ->apu-ch4;
-cell dete:dffr_b2     rot0,flip @-199.00,198.97,-196.09,201.02      ->apu-ch4;
-cell dose:dffr_b2     rot0,flip @-201.91,198.96,-199.00,201.03      ->apu-ch4;
-cell dudu:nor3        rot0,flip @-202.59,198.96,-201.91,201.02      ->apu-ch4;
-cell doda:nor3        rot0,flip @-203.29,198.95,-202.59,201.02      ->apu-ch4;
-cell dary:ao4         rot0,flip @-205.67,198.95,-203.28,201.02      ->apu-ch4;
-cell deko:dffr_b2     rot0,flip @-208.59,198.96,-205.67,201.02      ->apu-ch4;
-cell dole:nand2       rot0,flip @-209.10,198.96,-208.58,201.01      ->apu-control;
-cell demo:dffr_b2     rot0,flip @-212.00,198.96,-209.09,201.01      ->apu-ch4;
-cell doke:dffr_b2     rot0,flip @-214.90,198.95,-211.99,201.02      ->apu-ch4;
-cell dale:dffr_b2     rot0,flip @-217.80,198.96,-214.91,201.03      ->apu-ch4;
-cell dapa:inv_b       rot0,flip @-218.32,198.95,-217.80,201.01      ->apu-control;
-cell dure:dffr_b2     rot0,flip @-221.23,198.95,-218.31,201.02      ->apu-ch4;
-cell dyry:and2        rot0,flip @-221.91,198.95,-221.23,201.02      ->apu-ch4;
-cell dato:or2         rot0,flip @-222.60,198.95,-221.91,201.02      ->apu-ch4;
-cell dubo:inv_a       rot0,flip @-222.93,198.96,-222.59,201.02      ->apu-ch4;
-cell daro:nor5        rot0,flip @-223.96,198.95,-222.94,201.02      ->apu-ch4;
+cell dala:nor_latch  rot0,flip @-62.29,199.02,-61.27,201.09        ->apu-ch2;
+cell dova:not_x4     rot0,flip @-63.15,199.03,-62.29,201.09        ->apu-control;
+cell doxa:nor2       rot0,flip @-63.66,199.02,-63.14,201.08        ->apu-ch2;
+cell dero:not_x1     rot0,flip @-64.01,199.02,-63.65,201.08        ->apu-ch3;
+cell dory:dffr       rot0,flip @-66.91,199.03,-64.01,201.08        ->apu-ch2;
+cell dera:nor2       rot0,flip @-67.41,199.03,-66.91,201.07        ->apu-ch2;
+cell dope:dffr       rot0,flip @-70.34,199.03,-67.42,201.08        ->apu-ch2;
+cell doca:not_x1     rot0,flip @-70.67,199.02,-70.33,201.08        ->apu-ch2;
+cell done:tffnl      rot0,flip @-74.08,199.01,-70.66,201.09        ->apu-ch2;
+cell davo:dffr       rot0,flip @-76.98,199.02,-74.09,201.09        ->apu-ch3;
+cell date:muxi       rot0,flip @-77.85,199.02,-76.98,201.07        ->apu-ch3;
+cell dynu:tffnl      rot0,flip @-81.27,199.02,-77.84,201.07        ->apu-ch2;
+cell dazy:muxi       rot0,flip @-82.11,199.02,-81.26,201.07        ->apu-ch3;
+cell doky:ao22       rot0,flip @-83.48,199.01,-82.10,201.06        ->apu-ch3;
+cell dore:and2       rot0,flip @-84.16,199.03,-83.48,201.06        ->apu-ch3;
+cell desa:not_if1    rot0,flip @-85.20,199.00,-84.15,201.06        ->apu-ch3;
+cell doru:not_x1     rot0,flip @-85.52,199.02,-85.18,201.05        ->apu-ch3;
+cell dugu:not_if1    rot0,flip @-86.56,199.01,-85.52,201.05        ->apu-ch3;
+cell dosa:and2       rot0,flip @-87.24,199.01,-86.55,201.07        ->apu-ch2;
+cell desy:not_if1    rot0,flip @-88.27,199.01,-87.23,201.06        ->apu-ch3;
+cell daxu:not_x1     rot0,flip @-88.61,199.02,-88.25,201.06        ->apu-ch2;
+cell duce:not_x2     rot0,flip @-89.11,199.02,-88.60,201.07        ->apu-decode;
+cell deno:not_x2     rot0,flip @-89.63,199.02,-89.12,201.07        ->apu-decode;
+cell dupa:not_x2     rot0,flip @-90.14,199.01,-89.63,201.07        ->apu-decode;
+cell datu:nand4      rot0,flip @-91.00,199.03,-90.13,201.08        ->apu-decode;
+cell dofa:and4       rot0,flip @-92.02,199.02,-90.98,201.07        ->apu-decode;
+cell dupo:nand4      rot0,flip @-92.88,199.02,-92.02,201.06        ->apu-decode;
+cell damy:nand4      rot0,flip @-93.73,199.02,-92.87,201.06        ->apu-decode;
+cell daza:nand4      rot0,flip @-94.59,199.02,-93.72,201.07        ->apu-decode;
+cell dufe:nand4      rot0,flip @-95.45,199.02,-94.58,201.06        ->apu-decode;
+cell dejy:nand4      rot0,flip @-96.30,199.00,-95.43,201.05        ->apu-decode;
+cell dewa:nand4      rot0,flip @-97.15,199.00,-96.28,201.06        ->apu-decode;
+cell duno:nand4      rot0,flip @-98.18,199.00,-97.33,201.05        ->apu-decode;
+cell dura:nand4      rot0,flip @-99.03,199.01,-98.17,201.05        ->apu-decode;
+cell duvu:nand4      rot0,flip @-99.88,199.01,-99.04,201.06        ->apu-decode;
+cell doso:not_x2     rot0,flip @-100.40,199.02,-99.89,201.05       ->apu-decode;
+cell dara:nor2       rot0,flip @-100.91,199.01,-100.40,201.05      ->apu-decode;
+cell dafy:nand4      rot0,flip @-101.76,199.00,-100.91,201.06      ->apu-decode;
+cell dona:nand4      rot0,flip @-102.63,199.02,-101.76,201.05      ->apu-decode;
+cell dyte:not_x2     rot0,flip @-103.14,199.00,-102.63,201.05      ->apu-decode;
+cell deta:nand2      rot0,flip @-103.65,199.01,-103.13,201.05 comp ->apu-ch2;
+cell doza:nor2       rot0,flip @-104.16,199.02,-103.65,201.06      ->apu-decode;
+cell dugo:nor2       rot0,flip @-104.68,199.02,-104.16,201.05      ->apu-decode;
+cell defy:nand2      rot0,flip @-105.19,199.01,-104.67,201.05      ->bus-adr;
+cell dutu:nor2       rot0,flip @-105.70,199.02,-105.18,201.05      ->apu-decode;
+cell duju:nor2       rot0,flip @-106.21,199.02,-105.70,201.05      ->apu-ch2;
+cell davu:not_x1     rot0,flip @-106.55,199.02,-106.20,201.05      ->apu-ch2;
+cell dovo:not_x1     rot0,flip @-106.89,199.02,-106.55,201.05      ->apu-ch3;
+cell dyta:nor2       rot0,flip @-107.40,199.01,-106.88,201.05      ->apu-ch2;
+cell domo:nor2       rot0,flip @-107.91,198.99,-107.40,201.07      ->apu-ch2;
+cell duge:not_x1     rot0,flip @-108.26,199.02,-107.91,201.05      ->apu-ch2;
+cell dove:nor2       rot0,flip @-108.77,199.01,-108.27,201.05      ->apu-ch2;
+cell doju:nor2       rot0,flip @-109.29,199.00,-108.77,201.06      ->apu-ch2;
+cell dare:not_x1     rot0,flip @-109.63,199.01,-109.29,201.05      ->apu-ch2;
+cell doxy:and2       rot0,flip @-110.31,199.00,-109.63,201.05      ->apu-decode;
+cell dymu:and2       rot0,flip @-110.99,199.00,-110.31,201.06      ->apu-ch2;
+cell dylu:not_x1     rot0,flip @-111.34,199.01,-110.98,201.05      ->apu-ch1;
+cell dyve:dffr_cc    rot0,flip @-113.73,199.01,-111.34,201.05      ->apu-ch2;
+cell dome:dffr       rot0,flip @-116.64,199.00,-113.73,201.05      ->apu-ch2;
+cell dusa:nor2       rot0,flip @-117.15,199.01,-116.63,201.05      ->apu-decode;
+cell dery:nand2      rot0,flip @-117.66,198.99,-117.15,201.05      ->apu-ch3;
+cell dyva:nor2       rot0,flip @-118.17,199.00,-117.65,201.06      ->apu-decode;
+cell deco:nor2       rot0,flip @-118.68,199.00,-118.16,201.05      ->apu-decode;
+cell duvo:not_x1     rot0,flip @-119.03,199.00,-118.69,201.05      ->apu-ch1;
+cell dape:dffr_cc    rot0,flip @-121.42,198.99,-119.03,201.05      ->apu-ch1;
+cell duna:ao2222     rot0,flip @-123.82,199.00,-121.42,201.06      ->apu-ch1;
+cell dafo:not_x1     rot0,flip @-124.16,199.01,-123.80,201.06 comp ->apu-ch1;
+cell dyca:drlatch_ee rot0,flip @-125.87,199.00,-124.15,201.05      ->apu-ch1;
+cell duja:nor2       rot0,flip @-126.38,199.01,-125.87,201.05      ->apu-decode;
+cell deke:not_x1     rot0,flip @-126.73,198.99,-126.38,201.05      ->apu-ch1;
+cell danu:nor2       rot0,flip @-127.24,199.00,-126.72,201.05      ->apu-decode;
+cell dyro:not_x1     rot0,flip @-127.58,198.98,-127.23,201.05      ->apu-ch1;
+cell dajo:not_x1     rot0,flip @-127.91,199.00,-127.57,201.05      ->apu-ch1;
+cell deme:nor3       rot0,flip @-128.61,198.99,-127.91,201.05      ->apu-ch2;
+cell dora:and2       rot0,flip @-129.28,199.01,-128.59,201.06      ->apu-ch2;
+cell duso:not_x1     rot0,flip @-129.63,198.99,-129.28,201.05      ->apu-ch2;
+cell duwo:dffr       rot0,flip @-132.53,198.98,-129.63,201.05      ->apu-ch1;
+cell duka:not_x1     rot0,flip @-132.88,198.99,-132.53,201.05      ->apu-ch1;
+cell dane:nor_latch  rot0,flip @-133.91,198.98,-132.88,201.05      ->apu-ch2;
+cell depu:nand2      rot0,flip @-134.41,198.98,-133.88,201.05      ->apu-ch1;
+cell dyla:not_x2     rot0,flip @-134.92,198.99,-134.41,201.05      ->apu-ch1;
+cell defu:not_x1     rot0,flip @-135.27,198.98,-134.92,201.05      ->apu-ch2;
+cell dulo:not_x1     rot0,flip @-135.61,199.00,-135.26,201.05      ->apu-ch1;
+cell dypu:nor2       rot0,flip @-136.12,198.98,-135.61,201.05      ->apu-ch1;
+cell debo:not_x1     rot0,flip @-136.45,198.99,-136.11,201.05      ->apu-ch1;
+cell dado:nor2       rot0,flip @-136.98,199.00,-136.46,201.05      ->apu-ch1;
+cell daco:and2       rot0,flip @-137.65,198.98,-136.98,201.05      ->apu-ch4;
+cell dyke:not_x1     rot0,flip @-138.01,198.99,-137.65,201.05 comp ->apu-ch4;
+cell duru:nand2      rot0,flip @-138.51,198.99,-138.00,201.06      ->apu-control;
+cell doge:nand2      rot0,flip @-139.03,198.98,-138.52,201.05 comp ->apu-ch1;
+cell dupe:drlatch_ee rot0,flip @-140.91,199.00,-139.20,201.02      ->apu-ch1;
+cell demy:not_if0    rot0,flip @-141.94,198.99,-140.91,201.04      ->apu-ch4;
+cell dogo:tffnl      rot0,flip @-145.53,198.98,-142.10,201.05      ->apu-ch4;
+cell daxa:nand2      rot0,flip @-146.04,198.99,-145.52,201.05      ->apu-ch1;
+cell dupy:or2        rot0,flip @-146.72,198.98,-146.02,201.05      ->apu-ch1;
+cell dega:not_x1     rot0,flip @-147.05,198.99,-146.70,201.05      ->apu-ch1;
+cell deru:not_x1     rot0,flip @-147.41,198.98,-147.05,201.04      ->apu-ch1;
+cell dopa:not_if0    rot0,flip @-148.44,198.99,-147.41,201.03      ->apu-ch1;
+cell dexo:not_if0    rot0,flip @-149.45,198.99,-148.42,201.05      ->apu-ch1;
+cell dulu:nand2      rot0,flip @-149.97,198.98,-149.45,201.03 comp ->apu-ch4;
+cell demu:not_if0    rot0,flip @-151.00,198.98,-149.96,201.04      ->apu-ch1;
+cell deby:and2       rot0,flip @-151.68,198.97,-150.98,201.03      ->apu-ch1;
+cell dyfa:not_x2     rot0,flip @-152.18,198.98,-151.67,201.05      ->apu-control;
+cell dako:not_x1     rot0,flip @-152.54,198.97,-152.18,201.05      ->apu-ch1;
+cell dygy:dffsr      rot0,flip @-156.28,198.98,-152.52,201.04      ->apu-ch1;
+cell dena:tffnl      rot0,flip @-159.88,198.98,-156.45,201.05      ->apu-ch4;
+cell dano:tffnl      rot0,flip @-163.29,198.98,-159.87,201.04      ->apu-ch4;
+cell dotu:not_x1     rot0,flip @-163.63,198.98,-163.29,201.05      ->apu-ch4;
+cell doly:dffr_cc_q  rot0,flip @-165.85,198.98,-163.63,201.04      ->apu-ch1;
+cell dace:nand2      rot0,flip @-166.37,198.98,-165.87,201.03      ->apu-ch1;
+cell dele:dffr_cc_q  rot0,flip @-168.61,198.98,-166.35,201.03      ->apu-ch1;
+cell deva:dffr_cc_q  rot0,flip @-170.82,198.98,-168.60,201.02      ->apu-ch1;
+cell dexe:dffr_cc_q  rot0,flip @-173.04,198.98,-170.82,201.02      ->apu-ch1;
+cell dyxe:full_add   rot0,flip @-176.45,198.98,-173.04,201.02      ->apu-ch1;
+cell dyme:xor        rot0,flip @-177.48,198.98,-176.45,201.03      ->apu-ch1;
+cell defa:dffr_cc_q  rot0,flip @-179.71,198.96,-177.46,201.02      ->apu-ch1;
+cell dofy:dffr_cc_q  rot0,flip @-181.92,198.98,-179.70,201.00      ->apu-ch1;
+cell dozy:xor        rot0,flip @-182.94,198.96,-181.92,201.02      ->apu-ch1;
+cell dule:full_add   rot0,flip @-186.36,198.98,-182.94,201.03      ->apu-ch1;
+cell dafa:nor2       rot0,flip @-186.88,198.98,-186.37,201.02      ->apu-ch1;
+cell dapy:not_x1     rot0,flip @-187.22,198.96,-186.87,201.03      ->apu-ch4;
+cell dopu:not_x1     rot0,flip @-187.55,198.98,-187.22,201.04      ->apu-ch4;
+cell doka:and2       rot0,flip @-188.24,198.98,-187.55,201.02      ->apu-ch1;
+cell dyru:nor3       rot0,flip @-188.93,198.97,-188.23,201.02      ->apu-ch1;
+cell dacu:nor2       rot0,flip @-189.44,198.95,-188.91,201.03      ->apu-ch1;
+cell dody:nor2       rot0,flip @-189.95,198.98,-189.44,201.03      ->apu-ch1;
+cell dere:dffr       rot0,flip @-192.85,198.97,-189.95,201.03      ->apu-ch4;
+cell dapu:not_x1     rot0,flip @-193.20,198.98,-192.84,201.03      ->apu-ch1;
+cell dota:dffr       rot0,flip @-196.09,198.96,-193.19,201.05      ->apu-ch4;
+cell dete:dffr       rot0,flip @-199.00,198.97,-196.09,201.02      ->apu-ch4;
+cell dose:dffr       rot0,flip @-201.91,198.96,-199.00,201.03      ->apu-ch4;
+cell dudu:nor3       rot0,flip @-202.59,198.96,-201.91,201.02      ->apu-ch4;
+cell doda:nor3       rot0,flip @-203.29,198.95,-202.59,201.02      ->apu-ch4;
+cell dary:ao2222     rot0,flip @-205.67,198.95,-203.28,201.02      ->apu-ch4;
+cell deko:dffr       rot0,flip @-208.59,198.96,-205.67,201.02      ->apu-ch4;
+cell dole:nand2      rot0,flip @-209.10,198.96,-208.58,201.01      ->apu-control;
+cell demo:dffr       rot0,flip @-212.00,198.96,-209.09,201.01      ->apu-ch4;
+cell doke:dffr       rot0,flip @-214.90,198.95,-211.99,201.02      ->apu-ch4;
+cell dale:dffr       rot0,flip @-217.80,198.96,-214.91,201.03      ->apu-ch4;
+cell dapa:not_x2     rot0,flip @-218.32,198.95,-217.80,201.01      ->apu-control;
+cell dure:dffr       rot0,flip @-221.23,198.95,-218.31,201.02      ->apu-ch4;
+cell dyry:and2       rot0,flip @-221.91,198.95,-221.23,201.02      ->apu-ch4;
+cell dato:or2        rot0,flip @-222.60,198.95,-221.91,201.02      ->apu-ch4;
+cell dubo:not_x1     rot0,flip @-222.93,198.96,-222.59,201.02      ->apu-ch4;
+cell daro:nor5       rot0,flip @-223.96,198.95,-222.94,201.02      ->apu-ch4;
 
 
 # Wires originating from column D on right hand side
@@ -158,19 +158,19 @@ wire ~dala:ctl
 	@-61.70,200.79,-61.70,202.14,-62.55,202.14,-62.55,204.17;
 
 wire apu_phi:clk
-	dova.q -> dope.clk ezec.clk foba.clk gysu.clk
+	dova.y -> dope.clk ezec.clk foba.clk gysu.clk
 	@-63.07,200.79,-63.07,203.04,-67.69,203.04
 	@-67.69,200.79,-67.69,203.08,-71.28,203.08,-71.28,208.46,-72.13,208.46,-132.29,208.42,-132.29,205.60
 	@-72.13,208.46,-72.13,209.29
 	@-132.29,207.06,-146.99,207.05,-146.99,213.49,-147.34,213.49,-147.34,214.06;
 
 wire doxa:ctl
-	doxa.q -> celo.in elox.~r
+	doxa.y -> celo.in elox.~r
 	@-61.34,195.20,-61.34,198.19,-63.58,198.19,-63.58,204.19
 	@-63.58,203.33,-62.39,203.33,-62.39,204.18;
 
 wire dero:ctl
-	dero.q -> efar.clk
+	dero.y -> efar.clk
 	@-63.93,200.80,-63.93,202.77,-65.12,202.77,-65.12,204.18;
 
 wire dory:ctl
@@ -180,7 +180,7 @@ wire dory:ctl
 # dory.~q is not connected
 
 wire dera:rst
-	dera.q -> etap.~r
+	dera.y -> etap.~r
 	@-67.34,200.80,-67.34,203.59,-88.88,203.57,-88.88,204.16;
 
 wire ch2_start:ctl
@@ -191,7 +191,7 @@ wire ch2_start:ctl
 # dope.~q is not connected
 
 wire doca:clk
-	doca.q -> done.~tclk
+	doca.y -> done.~tclk
 	@-70.59,200.80,-70.59,202.95,-74.00,202.95,-74.00,200.78;
 
 wire done:clk
@@ -209,7 +209,7 @@ wire ~davo:ctl
 	@-76.73,199.30,-76.73,197.20,-73.65,197.20,-73.65,195.16;
 
 wire wave_play_d0:data
-	date.q -> ezag.in1
+	date.y -> ezag.in1
 	@-77.77,200.79,-77.77,203.20,-79.48,203.20,-79.48,204.16;
 
 wire dynu:clk
@@ -221,34 +221,34 @@ wire ~dynu:data
 	@-80.67,200.79,-80.67,203.71,-78.28,203.71,-78.28,209.30;
 
 wire wave_play_d1:data
-	dazy.q -> ezag.in3 evug.in1
+	dazy.y -> ezag.in3 evug.in1
 	@-82.03,200.78,-82.03,201.95,-81.36,201.95,-81.36,207.09,-79.99,207.09,-79.99,205.64;
 
 wire doky:data
-	doky.q -> bopa.in2
+	doky.y -> bopa.in2
 	@-83.41,199.29,-83.41,198.59,-84.42,198.59,-84.42,192.06,-93.13,192.07,-93.13,190.74;
 
 wire dore:data
-	dore.q -> bely.in2
+	dore.y -> bely.in2
 	@-84.08,199.28,-84.08,197.49,-93.81,197.48,-93.81,191.77,-94.49,191.77,-94.49,190.75;
 
 wire doru:ctl
-	doru.q -> davo.d
+	doru.y -> davo.d
 	@-85.45,200.79,-85.45,202.64,-75.20,202.65,-75.20,200.76;
 
 wire dosa:ctl
-	dosa.q -> esur.in fofe.ena fova.ena fedy.ena fome.ena fora.ena
+	dosa.y -> esur.in fofe.ena fova.ena fedy.ena fome.ena fora.ena
 	@-87.16,200.79,-87.16,203.02,-86.65,203.02,-86.65,207.26,-87.34,207.26,-87.34,209.28
 	@-86.65,207.21,-83.91,207.21,-83.91,209.28
 	@-85.63,207.21,-85.63,209.28
 	@-83.91,208.02,-82.22,208.02,-82.22,212.97,-80.34,212.97,-80.34,210.77;
 
 wire daxu:ctl
-	daxu.q -> etap.ena
+	daxu.y -> etap.ena
 	@-88.54,200.79,-88.54,204.17;
 
 wire duce:adr
-	duce.q -> dejy.in1 dafy.in1 emos.in4 egen.in4 exat.in1 emax.in4 gany.in4
+	duce.y -> dejy.in1 dafy.in1 emos.in4 egen.in4 exat.in1 emax.in4 gany.in4
 	@-89.05,200.78,-89.05,203.57,-95.02,203.57
 	@-95.53,200.76,-95.53,201.95,-95.02,201.95,-95.02,207.90,-99.82,207.90,-99.82,205.64
 	@-99.82,206.70,-100.50,206.70,-100.50,211.86,-101.35,211.86,-101.35,214.10
@@ -256,7 +256,7 @@ wire duce:adr
 	@-101.00,200.77,-101.00,202.17,-101.69,202.17,-101.69,204.16;
 
 wire deno:adr
-	deno.q -> datu.in3 daza.in2 dura.in3 duvu.in2 emos.in3 ekag.in2 esot.in2 egen.in3 gany.in3
+	deno.y -> datu.in3 daza.in2 dura.in3 duvu.in2 emos.in3 ekag.in2 esot.in2 egen.in3 gany.in3
 	@-89.55,199.29,-89.55,198.04,-93.99,198.04,-93.99,203.28,-95.53,203.28
 	@-90.57,198.04,-90.57,199.30
 	@-94.85,203.28,-94.85,204.16
@@ -266,7 +266,7 @@ wire deno:adr
 	@-99.30,201.95,-99.30,200.76;
 
 wire dupa:adr
-	dupa.q -> dofa.in3 damy.in3 daza.in3 dufe.in2 duvu.in3 ekag.in3 egen.in2 exat.in3 emax.in2 etuf.in3
+	dupa.y -> dofa.in3 damy.in3 daza.in3 dufe.in2 duvu.in3 ekag.in3 egen.in2 exat.in3 emax.in2 etuf.in3
 	@-90.06,199.29,-90.06,198.46,-94.16,198.46
 	@-91.43,198.46,-91.43,199.28
 	@-93.31,198.46,-93.31,199.29
@@ -277,51 +277,51 @@ wire dupa:adr
 	@-101.35,203.57,-101.35,204.15;
 
 wire datu:dec
-	datu.q -> cafy.in1
+	datu.y -> cafy.in1
 	@-90.91,199.28,-90.91,197.06,-125.44,197.05,-125.44,195.18;
 
 wire dofa:dec
-	dofa.q -> ekez.in2
+	dofa.y -> ekez.in2
 	@-91.95,200.78,-91.95,203.03,-111.44,203.02,-111.44,204.15;
 
 wire dupo:dec
-	dupo.q -> dyva.in2
+	dupo.y -> dyva.in2
 	@-92.80,199.28,-92.80,196.93,-117.92,196.92,-117.92,199.30;
 
 wire damy:dec
-	damy.q -> edaf.in2
+	damy.y -> edaf.in2
 	@-93.66,200.77,-93.66,202.77,-92.63,202.77,-92.63,207.09,-103.57,207.07,-103.57,205.62;
 
 wire daza:dec
-	daza.q -> covy.in2
+	daza.y -> covy.in2
 	@-94.50,199.28,-94.50,196.80,-96.39,196.80,-96.39,195.19;
 
 wire dufe:dec
-	dufe.q -> cuge.in1
+	dufe.y -> cuge.in1
 	@-95.36,199.28,-95.36,197.73,-115.35,197.73,-115.35,195.18;
 
 wire dejy:dec
-	dejy.q -> doza.in2
+	dejy.y -> doza.in2
 	@-96.22,199.27,-96.22,198.47,-103.91,198.46,-103.91,199.30;
 
 wire dewa:dec
-	dewa.q -> covo.in1
+	dewa.y -> covo.in1
 	@-97.06,199.28,-97.06,198.12,-126.63,198.10,-126.63,195.18;
 
 wire duno:dec
-	duno.q -> caxe.in2
+	duno.y -> caxe.in2
 	@-98.09,199.28,-98.09,196.07,-105.44,196.08,-105.44,195.16;
 
 wire dura:dec
-	dura.q -> cora.in1
+	dura.y -> cora.in1
 	@-98.95,199.28,-98.95,196.80,-114.84,196.80,-114.84,195.18;
 
 wire duvu:dec
-	duvu.q -> dutu.in2
+	duvu.y -> dutu.in2
 	@-99.80,199.28,-99.80,198.84,-105.45,198.84,-105.45,199.30;
 
 wire doso:adr
-	doso.q -> dufe.in1 dejy.in4 dewa.in1 duno.in4 dura.in1 duvu.in4 emos.in1 emax.in1 etuf.in4
+	doso.y -> dufe.in1 dejy.in4 dewa.in1 duno.in4 dura.in1 duvu.in4 emos.in1 emax.in1 etuf.in4
 	@-100.33,200.78,-100.33,201.87,-101.18,201.87,-101.18,204.16
 	@-100.33,201.52,-98.26,201.52,-98.26,197.35,-96.04,197.35,-96.04,199.30
 	@-99.64,201.52,-99.64,200.76
@@ -331,21 +331,21 @@ wire doso:adr
 	@-101.18,203.27,-102.54,203.27,-102.54,204.14;
 
 wire ff18:dec
-	dara.q -> dosa.in1 exuc.in1 fery.in
+	dara.y -> dosa.in1 exuc.in1 fery.in
 	@-100.84,200.78,-100.84,202.42
 	@-97.76,202.42,-101.01,202.42,-101.01,207.89,-101.87,207.89,-101.87,209.28
 	@-97.76,204.15,-97.76,202.08,-86.65,202.08,-86.65,200.77;
 
 wire dafy:dec
-	dafy.q -> dara.in2
+	dafy.y -> dara.in2
 	@-101.68,199.28,-101.68,196.38,-100.65,196.38,-100.65,199.30;
 
 wire dona:dec
-	dona.q -> danu.in1
+	dona.y -> danu.in1
 	@-102.54,200.75,-102.54,202.90,-126.81,202.88,-126.81,200.75;
 
 wire dyte:adr
-	dyte.q -> datu.in1 dofa.in4 dupo.in4 damy.in4 daza.in4 doso.in dafy.in4 dona.in1 ekag.in4 esot.in4 egen.in1
+	dyte.y -> datu.in1 dofa.in4 dupo.in4 damy.in4 daza.in4 doso.in dafy.in4 dona.in1 ekag.in4 esot.in4 egen.in1
 	          exat.in4 gany.in1
 	@-103.05,200.78,-103.05,201.91,-101.86,201.91,-101.86,200.73
 	@-101.86,201.36,-100.66,201.36,-100.66,204.16
@@ -360,11 +360,11 @@ wire dyte:adr
 	@-91.60,200.77,-91.60,203.02,-90.23,203.02,-90.23,200.76;
 
 wire deta:ctl
-	deta.q -> daxu.in etap.~ena
+	deta.y -> daxu.in etap.~ena
 	@-103.56,199.29,-103.56,198.71,-88.35,198.72,-88.35,202.60,-88.19,202.60,-88.19,204.16;
 
 wire ff19:dec
-	doza.q -> deta.in2 evyf.in2 gote.in huma.in1 jenu.in1
+	doza.y -> deta.in2 evyf.in2 gote.in huma.in1 jenu.in1
 	@-104.08,200.78,-104.08,203.69,-108.53,203.69,-129.21,203.68,-129.21,204.16
 	@-104.08,202.59,-103.40,202.59,-103.40,200.77
 	@-108.53,203.69,-108.53,206.69,-108.70,206.69,-108.70,211.64,-106.49,211.64,-106.49,217.15,-106.32,217.15,
@@ -372,7 +372,7 @@ wire ff19:dec
 	@-106.32,221.49,-122.41,221.48,-122.41,220.46;
 
 wire ff1e:dec
-	dugo.q -> epyx.in2 fovo.in2 gunu.in gawa.in1 huda.in1
+	dugo.y -> epyx.in2 fovo.in2 gunu.in gawa.in1 huda.in1
 	@-104.59,200.77,-104.59,202.05,-104.77,202.05,-104.77,208.15,-104.60,208.15,-104.60,218.16
 	@-86.33,219.00,-86.33,218.17,-88.38,218.17,-102.73,218.16,-104.60,218.16,-119.83,218.15,-119.83,212.36,
 	 -124.60,212.36,-124.60,210.75
@@ -380,58 +380,58 @@ wire ff1e:dec
 	@-88.38,218.17,-88.38,207.08,-87.34,207.08,-87.34,205.63;
 
 wire defy:adr
-	defy.q -> a7.~h
+	defy.y -> a7.~pdrv
 	@-105.11,200.77,-105.11,202.59,-104.42,202.59,-104.42,208.14,-60.51,208.16,-60.51,199.55,-48.77,199.55,
 	 -48.73,167.85,-42.74,167.85,-42.74,168.76,-41.92,168.76;
 
 wire ff17:dec
-	dutu.q -> enuf.in1 fyry.in gere.in2 gure.in
+	dutu.y -> enuf.in1 fyry.in gere.in2 gure.in
 	@-105.62,200.77,-105.62,207.37,-105.11,207.37,-105.11,211.91,-114.18,211.90,-114.18,214.09
 	@-114.18,212.49,-118.12,212.49,-118.12,214.09
 	@-118.12,213.26,-118.29,213.26,-118.29,210.74;
 
 wire duju:ctl
-	duju.q -> cogu.in erog.in gypa.in
+	duju.y -> cogu.in erog.in gypa.in
 	@-106.13,199.29,-106.13,198.59,-88.02,198.59
 	@-83.38,195.20,-83.38,197.23,-88.02,197.23,-88.02,203.02,-90.08,203.02,-90.08,208.57,-83.23,208.58,
 	 -83.23,212.25,-82.90,212.25,-82.90,214.10;
 
 wire ch2_frst:ctl
-	davu.q -> cule.in duju.in1 dome.clk
+	davu.y -> cule.in duju.in1 dome.clk
 	@-106.47,199.29,-106.47,198.59,-106.80,198.59,-113.99,198.58,-113.99,199.28
 	@-106.47,198.84,-105.78,198.84,-105.78,199.30
 	@-106.81,198.59,-106.81,195.20;
 
 wire dovo:ctl
-	dovo.q -> egad.in1
+	dovo.y -> egad.in1
 	@-106.82,200.77,-106.82,203.56,-106.30,203.56,-106.30,204.16;
 
 wire dyta:ctl
-	dyta.q -> exes.in4
+	dyta.y -> exes.in4
 	@-107.33,200.78,-107.33,203.56,-109.55,203.56,-109.55,204.16;
 
 wire domo:ctl
-	domo.q -> exes.in2
+	domo.y -> exes.in2
 	@-107.84,200.77,-107.84,202.59,-109.04,202.59,-109.04,204.16;
 
 wire duge:clk
-	duge.q -> egog.in2
+	duge.y -> egog.in2
 	@-108.18,200.77,-108.18,201.91,-108.35,201.91,-108.35,204.16;
 
 wire dove:ctl
-	dove.q -> exes.in8
+	dove.y -> exes.in8
 	@-108.70,200.77,-108.70,201.90,-110.58,201.90,-110.58,204.15;
 
 wire doju:ctl
-	doju.q -> exes.in6
+	doju.y -> exes.in6
 	@-109.21,200.77,-109.21,202.59,-110.07,202.59,-110.07,204.15;
 
 wire dare:clk
-	dare.q -> exes.in7
+	dare.y -> exes.in7
 	@-109.55,200.77,-109.55,201.77,-110.41,201.77,-110.41,204.14;
 
 wire ff26:dec
-	doxy.q -> bopy.in2 duru.in1 dole.in1 etuc.in2 fewa.in1 hawu.in1 jure.in2 kamu.in1
+	doxy.y -> bopy.in2 duru.in1 dole.in1 etuc.in2 fewa.in1 hawu.in1 jure.in2 kamu.in1
 	@-110.74,190.75,-110.74,192.31,-110.40,192.31,-110.40,198.46,-110.23,198.46,-110.23,201.34,-110.75,201.34,
 	 -110.75,213.25,-109.23,213.25,-96.23,213.26,-96.23,206.52,-96.56,206.52,-96.56,205.66
 	@-110.75,202.03,-138.09,202.02,-138.09,198.10,-208.67,198.07,-208.67,203.27,-215.17,203.26,-215.17,208.64,
@@ -440,11 +440,11 @@ wire ff26:dec
 	@-109.23,213.25,-109.23,217.40,-109.06,217.40,-109.06,222.89,-122.40,222.89,-122.40,223.36;
 
 wire dymu:clk
-	dymu.q -> dare.in egog.in1 exes.in3
+	dymu.y -> dare.in egog.in1 exes.in3
 	@-110.91,199.28,-110.91,198.33,-109.38,198.33,-109.38,206.52,-108.19,206.52,-108.19,205.64;
 
 wire dylu:data
-	dylu.q -> etok.in2
+	dylu.y -> etok.in2
 	@-111.26,200.78,-111.26,201.36,-112.11,201.36,-112.11,204.14;
 
 wire dyve:clk
@@ -463,24 +463,24 @@ wire dome:data
 # dome.~q is not connected
 
 wire ff1b:dec
-	dusa.q -> dery.in2
+	dusa.y -> dery.in2
 	@-117.07,200.77,-117.07,202.59,-117.41,202.59,-117.41,200.75;
 
 wire dery:ctl
-	dery.q -> emut.in geto.in gajy.in
+	dery.y -> emut.in geto.in gajy.in
 	@-117.58,200.77,-117.58,202.59,-122.88,202.59,-122.88,208.17,-122.54,208.17,-122.54,212.06
 	@-122.04,214.08,-122.04,212.06,-124.09,212.06,-124.09,214.08;
 
 wire ff10:dec
-	dyva.q -> buze.in cenu.in2
+	dyva.y -> buze.in cenu.in2
 	@-118.09,199.29,-118.09,197.18,-162.36,197.16,-162.36,192.67,-159.45,192.67,-159.45,190.73;
 
 wire ff13:dec
-	deco.q -> caca.in depu.in2
+	deco.y -> caca.in depu.in2
 	@-118.60,200.77,-118.60,203.27,-134.16,203.26,-134.16,197.98,-133.98,197.98,-133.98,195.16;
 
 wire duvo:clk
-	duvo.q -> enek.in2
+	duvo.y -> enek.in2
 	@-118.95,200.77,-118.95,203.01,-119.30,203.01,-119.30,204.13;
 
 wire dape:clk
@@ -493,11 +493,11 @@ wire ~dape:clk
 	@-121.17,199.27,-121.17,196.91,-119.63,196.91,-119.63,199.29;
 
 wire ch1_pwm:data
-	duna.q -> duwo.d
+	duna.y -> duwo.d
 	@-123.74,200.77,-123.74,202.41,-130.75,202.41,-130.75,200.74;
 
 wire dafo:ctl
-	dafo.q -> cena.~ena dyca.~ena
+	dafo.y -> cena.~ena dyca.~ena
 	@-123.89,195.19,-123.89,197.36,-124.07,197.36,-124.07,203.01,-124.41,203.01,-124.41,200.75;
 
 wire ff11_d7:ctl
@@ -512,38 +512,38 @@ wire ~ff11_d7:ctl
 	@-122.36,196.49,-122.36,195.18;
 
 wire ff14:dec
-	duja.q -> bage.in2 bale.in1 cure.in doge.in2 deby.in2
+	duja.y -> bage.in2 bale.in1 cure.in doge.in2 deby.in2
 	@-126.30,199.27,-126.30,198.83,-138.77,198.83,-145.95,198.82,-151.24,198.82,-151.24,199.26
 	@-138.77,198.83,-138.77,199.28
 	@-145.95,198.82,-145.95,193.23
 	@-143.04,190.73,-143.04,193.23,-148.68,193.23,-148.68,190.71;
 
 wire deke:data
-	deke.q -> ejyf.in2
+	deke.y -> ejyf.in2
 	@-126.65,200.76,-126.65,203.15,-126.81,203.15,-126.81,204.13;
 
 wire ff20:dec
-	danu.q -> caze.in2
+	danu.y -> caze.in2
 	@-127.15,199.29,-127.15,198.41,-164.06,198.38,-164.06,195.16;
 
 wire dyro:clk
-	dyro.q -> eryc.~tclk
+	dyro.y -> eryc.~tclk
 	@-127.49,200.77,-127.49,202.71,-94.34,202.72,-94.34,204.16;
 
 wire dajo:ctl
-	dajo.q -> esut.clk
+	dajo.y -> esut.clk
 	@-127.84,200.77,-127.84,202.58,-123.39,202.58,-123.39,204.12;
 
 wire deme:clk
-	deme.q -> dyro.in
+	deme.y -> dyro.in
 	@-128.53,200.77,-128.53,201.90,-127.32,201.90,-127.32,200.77;
 
 wire dora:ctl
-	dora.q -> esyk.in2
+	dora.y -> esyk.in2
 	@-129.21,200.76,-129.21,203.00,-131.43,203.00,-131.43,204.13;
 
 wire duso:ctl
-	duso.q -> emer.ena
+	duso.y -> emer.ena
 	@-129.55,200.76,-129.55,202.88,-130.07,202.88,-130.07,204.15;
 
 wire duwo:data
@@ -553,7 +553,7 @@ wire duwo:data
 # duwo.~q is not connected
 
 wire duka:rst
-	duka.q -> ezec.~r
+	duka.y -> ezec.~r
 	@-132.80,200.77,-132.80,203.43,-134.16,203.43,-134.16,204.13
 	@-132.97,203.43,-132.97,204.14;
 
@@ -565,11 +565,11 @@ wire dane:ctl
 # dane.~q is not connected
 
 wire depu:ctl
-	depu.q -> dyla.in
+	depu.y -> dyla.in
 	@-134.33,200.76,-134.33,203.39,-134.50,203.39,-134.50,200.75;
 
 wire dyla:ctl
-	dyla.q -> etok.in1 eler.in2 etol.in2 ejyf.in1 emar.in1 foke.in1 fega.in1 fopu.in1 geta.in2 golo.in2 gylu.in2
+	dyla.y -> etok.in1 eler.in2 etol.in2 ejyf.in1 emar.in1 foke.in1 fega.in1 fopu.in1 geta.in2 golo.in2 gylu.in2
 	          gope.in2 kavo.in1 kyfu.in1 kypa.in2 kovu.in2
 	@-134.84,200.77,-134.84,202.84,-135.19,202.84,-135.19,208.08,-148.36,208.08,-148.36,213.62,-155.71,213.62
 	@-135.19,207.31,-126.64,207.31
@@ -586,43 +586,43 @@ wire dyla:ctl
 	@-160.51,228.07,-161.02,228.07,-161.02,229.15;
 
 wire ~ch2_active:ctl
-	defu.q -> efus.in
+	defu.y -> efus.in
 	@-135.19,200.77,-135.19,202.45,-135.53,202.45,-135.53,204.13;
 
 wire dulo:data
-	dulo.q -> emar.in2
+	dulo.y -> emar.in2
 	@-135.53,200.75,-135.53,202.16,-128.52,202.15,-128.52,204.15;
 
 wire dypu:ctl
-	dypu.q -> evaj.in
+	dypu.y -> evaj.in
 	@-136.04,200.77,-136.04,203.42,-143.23,203.42,-143.23,204.16;
 
 wire debo:data
-	debo.q -> ereg.in2
+	debo.y -> ereg.in2
 	@-136.38,200.76,-136.38,202.87,-141.34,202.87,-141.34,204.15;
 
 wire dado:ctl
-	dado.q -> dupe.~r
+	dado.y -> dupe.~r
 	@-136.89,199.27,-136.89,198.70,-140.14,198.70,-140.14,199.27;
 
 wire daco:ctl
-	daco.q -> dyke.in etyj.ena ezyk.ena emok.ena
+	daco.y -> dyke.in etyj.ena ezyk.ena emok.ena
 	@-137.58,200.77,-137.58,203.01,-139.98,203.01,-139.98,204.13
 	@-137.58,202.45,-136.55,202.45,-136.55,204.14
 	@-137.76,203.01,-137.76,200.76
 	@-138.27,203.01,-138.27,204.14;
 
 wire dyke:ctl
-	dyke.q -> etyj.~ena ezyk.~ena emok.~ena
+	dyke.y -> etyj.~ena ezyk.~ena emok.~ena
 	@-137.93,200.76,-137.93,207.79,-139.64,207.79,-139.64,205.60
 	@-137.93,206.94,-136.22,206.94,-136.22,205.63;
 
 wire duru:ctl
-	duru.q -> efus.~ena
+	duru.y -> efus.~ena
 	@-138.44,200.74,-138.44,202.70,-135.02,202.70,-135.02,204.13;
 
 wire doge:ctl
-	doge.q -> cyho.in dupe.~ena
+	doge.y -> cyho.in dupe.~ena
 	@-138.94,199.27,-138.94,195.17
 	@-138.94,197.04,-139.45,197.04,-139.45,199.27;
 
@@ -639,18 +639,18 @@ wire dogo:clk
 # dugo.~q is not connected
 
 wire daxa:ctl
-	daxa.q -> dypu.in2 dupy.in2
+	daxa.y -> dypu.in2 dupy.in2
 	@-145.95,200.76,-145.95,202.31
 	@-146.30,200.76,-146.30,202.31,-145.95,202.31,-135.87,202.32,-135.87,200.75;
 
 wire dupy:ctl
-	dupy.q -> dopa.~ena dexo.~ena demu.~ena
+	dupy.y -> dopa.~ena dexo.~ena demu.~ena
 	@-146.64,200.74,-146.64,202.06,-147.49,202.06,-147.49,200.74
 	@-147.49,202.01,-150.05,202.01,-150.05,200.74
 	@-148.52,202.01,-148.52,200.73;
 
 wire dega:ctl
-	dega.q -> ekov.l feva.l hyke.l jema.l
+	dega.y -> ekov.l feva.l hyke.l jema.l
 	@-146.98,200.76,-146.98,202.48,-145.95,202.48,-145.95,208.42,-144.25,208.42,-144.25,205.60
 	@-145.45,208.42,-145.45,213.49,-146.48,213.49
 	@-147.16,210.73,-147.16,212.22,-146.48,212.22,-146.48,217.76,-146.66,217.76,-146.66,221.21
@@ -658,16 +658,16 @@ wire dega:ctl
 	@-148.20,221.21,-148.20,223.34;
 
 wire deru:clk
-	deru.q -> emus.~tclk
+	deru.y -> emus.~tclk
 	@-147.33,200.75,-147.33,203.67,-150.92,203.67,-150.92,204.12;
 
 wire dulu:ctl
-	dulu.q -> cazo.in cuny.~ena
+	dulu.y -> cazo.in cuny.~ena
 	@-149.88,199.27,-149.88,197.29,-217.04,197.25
 	@-217.04,195.15,-217.04,197.38,-217.89,197.38,-217.89,195.14;
 
 wire deby:ctl
-	deby.q -> amac.in1 ajux.in1 afeg.in2 bugu.in2 baso.in1 budo.in2 
+	deby.y -> amac.in1 ajux.in1 afeg.in2 bugu.in2 baso.in1 budo.in2 
 	@-151.60,199.25,-151.60,198.81,-152.27,198.81,-152.27,193.23,-153.47,193.23,-153.47,187.26,-154.31,187.26,
 	 -154.31,185.23
 	@-152.62,193.23,-152.62,190.73
@@ -676,7 +676,7 @@ wire deby:ctl
 	@-155.84,185.23,-155.84,188.53,-156.19,188.53,-156.19,189.23;
 
 wire ch1_1mhz:clk
-	dyfa.q -> doka.in2 egyp.in2 feku.clk fare.clk fyte.clk fulo.in1
+	dyfa.y -> doka.in2 egyp.in2 feku.clk fare.clk fyte.clk fulo.in1
 	@-152.11,200.76,-152.11,208.55
 	@-149.21,209.25,-149.21,208.55,-153.48,208.55,-161.68,208.54
 	@-149.21,208.80,-141.18,208.80,-141.18,209.25
@@ -684,7 +684,7 @@ wire ch1_1mhz:clk
 	@-161.68,209.24,-161.68,208.49,-187.48,208.48,-187.48,203.52,-187.82,203.52,-187.82,200.75;
 
 wire dako:ctl
-	dako.q -> copu.l emus.l evak.l
+	dako.y -> copu.l emus.l evak.l
 	@-154.31,195.18,-154.31,198.82,-152.45,198.82,-152.45,202.01
 	@-151.95,204.13,-151.95,202.01,-153.65,202.01,-153.65,204.13
 	@-151.95,202.87,-148.17,202.87,-148.17,204.13
@@ -714,7 +714,7 @@ wire dano:clk
 # dano.~q is not connected
 
 wire dotu:ctl
-	dotu.q -> cedo.l dena.l dano.l favy.l
+	dotu.y -> cedo.l dena.l dano.l favy.l
 	@-163.55,199.26,-163.55,198.81
 	@-157.06,200.76,-157.06,202.05,-160.48,202.05,-160.48,198.81,-166.62,198.81,-166.62,195.17
 	@-157.57,202.05,-157.57,207.09,-158.77,207.09,-158.77,209.27
@@ -728,7 +728,7 @@ wire doly:data
 	@-165.59,199.26,-165.59,197.03,-170.73,197.03,-170.73,195.16;
 
 wire dace:data
-	dace.q -> exac.~s
+	dace.y -> exac.~s
 	@-166.29,200.74,-166.29,203.41,-171.94,203.41,-171.94,204.13
 	@-169.72,203.41,-169.72,204.13;
 
@@ -753,7 +753,7 @@ wire dyxe_c:data
 	@-174.66,200.74,-174.66,202.60,-183.38,202.59,-183.38,200.73;
 
 wire dyme:data
-	dyme.q -> edok.d
+	dyme.y -> edok.d
 	@-176.53,200.74,-176.53,203.28,-177.74,203.28,-177.74,204.12;
 
 wire defa:data
@@ -765,7 +765,7 @@ wire dofy:data
 	@-181.67,200.74,-181.67,203.41,-185.60,203.41,-185.60,200.73;
 
 wire dozy:data
-	dozy.q -> eter.d
+	dozy.y -> eter.d
 	@-182.01,200.73,-182.01,202.34,-184.06,202.34,-184.06,204.11;
 
 wire sum9:data
@@ -777,11 +777,11 @@ wire dule_c:data
 	@-184.56,199.24,-184.56,198.20,-168.51,198.22,-168.51,195.15;
 
 wire dafa:ctl
-	dafa.q -> cymu.in
+	dafa.y -> cymu.in
 	@-186.79,199.25,-186.79,198.55,-186.27,198.55,-186.27,195.16;
 
 wire dapy:ctl
-	dapy.q -> cuna.l cofe.l dogo.l
+	dapy.y -> cuna.l cofe.l dogo.l
 	@-187.13,199.24,-187.13,196.03,-149.54,196.05,-147.82,196.05
 	@-149.54,196.05,-149.55,195.19
 	@-147.82,195.17,-147.82,198.70,-144.41,198.70
@@ -790,24 +790,24 @@ wire dapy:ctl
 	@-142.70,199.28,-142.70,196.05,-142.02,196.05,-142.02,195.17;
 
 wire dopu:clk
-	dopu.q -> fylo.~tclk
+	dopu.y -> fylo.~tclk
 	@-187.47,200.73,-187.47,203.10,-191.75,203.10,-191.75,209.22;
 
 wire doka:ctl
-	doka.q -> dyru.in3
+	doka.y -> dyru.in3
 	@-188.16,200.74,-188.16,202.84,-188.68,202.84,-188.68,200.73;
 
 wire dyru:ctl
-	dyru.q -> comy.~r
+	dyru.y -> comy.~r
 	@-188.84,199.27,-188.84,197.82,-189.18,197.82
 	@-189.18,195.16,-189.18,198.42,-190.38,198.42,-190.38,195.16;
 
 wire dacu:ctl
-	dacu.q -> cylu.in
+	dacu.y -> cylu.in
 	@-189.35,199.24,-189.35,197.82,-194.98,197.81,-194.98,195.14;
 
 wire dody:clk
-	dody.q -> egor.in
+	dody.y -> egor.in
 	@-189.88,200.73,-189.88,203.23,-191.58,203.23,-191.58,204.13;
 
 wire dere:clk
@@ -820,7 +820,7 @@ wire ~dere:clk
 	@-192.44,204.12,-192.44,202.33,-191.06,202.33,-191.06,200.73;
 
 wire dapu:clk
-	dapu.q -> copa.~tclk
+	dapu.y -> copa.~tclk
 	@-193.11,199.25,-193.11,198.55,-201.99,198.53,-201.99,195.13;
 
 wire dota:clk
@@ -851,16 +851,16 @@ wire ~dose:clk
 	@-200.13,202.49,-196.36,202.49,-196.36,200.73;
 
 wire dudu:ctl
-	dudu.q -> etyr.in2 elyx.in6
+	dudu.y -> etyr.in2 elyx.in6
 	@-202.52,200.73,-202.52,202.72,-212.44,202.71,-212.44,204.09
 	@-202.52,202.63,-198.75,202.63,-198.75,204.10;
 
 wire doda:clk
-	doda.q -> cuwa.in
+	doda.y -> cuwa.in
 	@-203.20,199.23,-203.20,198.54,-202.16,198.54,-202.16,195.13;
 
 wire dary:clk
-	dary.q -> eryf.in1
+	dary.y -> eryf.in1
 	@-205.59,200.73,-205.59,203.27,-205.25,203.27,-205.25,204.09;
 
 wire deko:clk
@@ -872,7 +872,7 @@ wire ~deko:clk
 	@-208.33,199.24,-208.33,197.69,-206.79,197.69,-206.79,203.27,-207.13,203.27,-207.13,204.09;
 
 wire dole:ctl
-	dole.q -> coto.~ena
+	dole.y -> coto.~ena
 	@-209.02,199.23,-209.02,197.69,-209.18,197.69,-209.18,195.14;
 
 wire demo:clk
@@ -903,7 +903,7 @@ wire ~dale:clk
 	@-216.02,197.98,-216.02,199.23;
 
 wire ~apu_reset4:rst
-	dapa.q -> cexo.~r dere.~r dota.~r dete.~r dose.~r deko.~r demo.~r doke.~r dale.~r dure.~r esep.~r erut.~r
+	dapa.y -> cexo.~r dere.~r dota.~r dete.~r dose.~r deko.~r demo.~r doke.~r dale.~r dure.~r esep.~r erut.~r
 	          ezef.~r epor.~r fyto.~r feta.~r gafo.~r gogo.~r
 	@-218.24,200.73,-218.24,203.52
 	@-214.14,200.73,-214.14,203.52,-220.47,203.52,-220.47,200.71
@@ -944,19 +944,19 @@ wire ~dure:clk
 	@-219.43,199.24,-219.43,197.69,-215.16,197.69,-215.16,199.23;
 
 wire noise_counter_bypass:ctl
-	dyry.q -> como.in1 ezul.sel
+	dyry.y -> como.in1 ezul.sel
 	@-222.01,204.09,-222.01,203.39,-221.83,203.39,-221.83,198.10,-213.63,198.11,-213.63,195.15;
 
 wire dato:data
-	dato.q -> akof.in2 apyr.in2 byzy.in2 boza.in2
+	dato.y -> akof.in2 apyr.in2 byzy.in2 boza.in2
 	@-222.51,199.24,-222.51,188.76
 	@-223.19,189.21,-223.19,188.76,-222.33,188.76,-222.33,185.20
 	@-223.02,188.76,-223.02,185.21;
 
 wire dubo:ctl
-	dubo.q -> evur.in2
+	dubo.y -> evur.in2
 	@-222.85,200.73,-222.85,202.84,-223.20,202.84,-223.20,204.08;
 
 wire daro:ctl
-	daro.q -> evur.in1
+	daro.y -> evur.in1
 	@-223.88,200.73,-223.88,203.38,-223.02,203.38,-223.02,204.08;

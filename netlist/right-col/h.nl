@@ -1,126 +1,126 @@
 # Cells in column H on right hand side
 # ------------------------------------
 
-cell hefo:nor2        rot0,flip @-61.98,218.73,-61.48,220.79        ->apu-ch3;
-cell hyle:or2         rot0,flip @-62.66,218.73,-61.98,220.79        ->apu-ch2;
-cell hera:nor2        rot0,flip @-63.16,218.73,-62.66,220.80        ->apu-ch3;
-cell hema:inv_a       rot0,flip @-63.52,218.73,-63.17,220.79        ->apu-ch3;
-cell hupa:and2        rot0,flip @-64.20,218.72,-63.52,220.79        ->apu-ch3;
-cell hypa:nor2        rot0,flip @-64.72,218.72,-64.20,220.80        ->apu-ch2;
-cell hyfo:inv_a       rot0,flip @-65.05,218.72,-64.70,220.79        ->apu-ch3;
-cell huno:dffr_b2     rot0,flip @-67.96,218.73,-65.05,220.80        ->apu-ch3;
-cell hufo:tri_inv_if0 rot0,flip @-68.98,218.72,-67.95,220.79        ->apu-ch3;
-cell hepo:dffr_b2     rot0,flip @-71.88,218.71,-68.99,220.80        ->apu-ch2;
-cell hufa:inv_a       rot0,flip @-72.23,218.72,-71.88,220.80 comp   ->apu-ch3;
-cell hofo:or3         rot0,flip @-73.08,218.73,-72.23,220.79        ->apu-ch2;
-cell hafe:nor4        rot0,flip @-73.95,218.73,-73.07,220.80        ->apu-ch2;
-cell hyly:nor2        rot0,flip @-74.45,218.72,-73.94,220.79        ->apu-ch2;
-cell holy:nor2        rot0,flip @-74.96,218.73,-74.45,220.79        ->apu-ch2;
-cell hero:tffd        rot0,flip @-78.39,218.73,-74.95,220.78        ->apu-ch2;
-cell hepu:tffd        rot0,flip @-81.80,218.73,-78.38,220.78        ->apu-ch2;
-cell huna:tri_inv_if0 rot0,flip @-82.80,218.71,-81.79,220.77        ->apu-ch2;
-cell hevy:tffd        rot0,flip @-86.24,218.71,-82.80,220.77        ->apu-ch2;
-cell huda:and2        rot0,flip @-86.92,218.71,-86.23,220.77        ->apu-ch3;
-cell hude:inv_a       rot0,flip @-87.27,218.72,-86.91,220.78        ->apu-ch2;
-cell huco:tri_inv_if0 rot0,flip @-88.30,218.72,-87.25,220.79        ->apu-ch3;
-cell hamu:tri_inv_if0 rot0,flip @-89.32,218.73,-88.28,220.78        ->apu-ch3;
-cell hody:dr_latch    rot0,flip @-91.02,218.70,-89.32,220.77        ->apu-ch3;
-cell huky:dr_latch    rot0,flip @-92.73,218.71,-91.02,220.77        ->apu-ch3;
-cell haga:and2        rot0,flip @-93.41,218.73,-92.73,220.77        ->apu-ch3;
-cell henu:nand2       rot0,flip @-93.91,218.73,-93.41,220.78        ->apu-ch3;
-cell hovo:inv_b       rot0,flip @-94.45,218.72,-93.92,220.77        ->apu-ch3;
-cell havu:tri_inv_if0 rot0,flip @-95.46,218.70,-94.44,220.78        ->apu-ch2;
-cell hyre:tri_inv_if0 rot0,flip @-96.49,218.72,-95.47,220.77        ->apu-ch2;
-cell huvu:tri_inv_if0 rot0,flip @-97.52,218.71,-96.48,220.77        ->apu-ch2;
-cell hore:dr_latch    rot0,flip @-99.23,218.70,-97.50,220.77        ->apu-ch2;
-cell hava:dr_latch    rot0,flip @-100.95,218.72,-99.21,220.77       ->apu-ch2;
-cell hoxa:inv_a       rot0,flip @-101.27,218.71,-100.93,220.77      ->apu-ch3;
-cell hyfu:dr_latch    rot0,flip @-102.98,218.71,-101.28,220.77      ->apu-ch2;
-cell hony:and3        rot0,flip @-103.84,218.70,-102.98,220.77      ->apu-ch3;
-cell hyry:tri_inv_if0 rot0,flip @-104.87,218.71,-103.83,220.77      ->apu-ch2;
-cell hupe:tri_inv_if0 rot0,flip @-105.89,218.72,-104.87,220.77      ->apu-ch2;
-cell hypo:or2         rot0,flip @-106.58,218.70,-105.89,220.77      ->apu-ch2;
-cell horo:tri_inv_if0 rot0,flip @-107.60,218.70,-106.57,220.77      ->apu-ch2;
-cell here:tri_inv_if0 rot0,flip @-108.63,218.69,-107.59,220.77      ->apu-ch2;
-cell hato:inv_a       rot0,flip @-108.98,218.70,-108.63,220.77      ->apu-ch1;
-cell hawu:nand2       rot0,flip @-109.48,218.70,-108.96,220.77      ->apu-control;
-cell hada:dffr_b2     rot0,flip @-112.39,218.71,-109.48,220.77      ->apu-control;
-cell hota:inv_a       rot0,flip @-112.73,218.70,-112.38,220.77      ->apu-ch2;
-cell heky:inv_a       rot0,flip @-113.07,218.70,-112.72,220.77      ->apu-ch3;
-cell haxe:inv_a       rot0,flip @-113.41,218.70,-113.07,220.77      ->apu-ch1;
-cell hamy:or2         rot0,flip @-114.09,218.70,-113.41,220.77      ->apu-ch1;
-cell hafu:and2        rot0,flip @-114.78,218.70,-114.09,220.77      ->apu-ch1;
-cell hyxu:dffsr       rot0,flip @-118.55,218.71,-114.77,220.77      ->apu-ch1;
-cell hope:tri_inv_if0 rot0,flip @-119.57,218.70,-118.55,220.76      ->apu-control;
-cell hewa:tri_inv_if0 rot0,flip @-120.60,218.70,-119.56,220.76      ->apu-ch1;
-cell haca:tri_inv_if0 rot0,flip @-121.63,218.69,-120.59,220.76      ->apu-ch3;
-cell hocu:or2         rot0,flip @-122.30,218.70,-121.62,220.77      ->apu-ch1;
-cell huma:nand2       rot0,flip @-122.82,218.70,-122.30,220.77      ->apu-ch2;
-cell hoto:dr_latch    rot0,flip @-124.52,218.70,-122.81,220.77      ->apu-ch3;
-cell hapo:inv_b       rot0,flip @-125.05,218.70,-124.52,220.76      ->apu-control;
-cell howu:tri_inv_if0 rot0,flip @-126.07,218.70,-125.04,220.77      ->apu-ch1;
-cell hopo:dffsr       rot0,flip @-129.83,218.69,-126.05,220.77      ->apu-ch1;
-cell heve:tri_inv_if0 rot0,flip @-130.85,218.69,-129.84,220.77      ->apu-ch1;
-cell hoca:nor5        rot0,flip @-131.88,218.70,-130.85,220.75      ->apu-ch1;
-cell hono:tri_inv_if0 rot0,flip @-132.89,218.70,-131.88,220.75      ->apu-ch1;
-cell hyto:ao2         rot0,flip @-134.26,218.69,-132.88,220.76      ->apu-ch1;
-cell hafo:tffd        rot0,flip @-137.69,218.70,-134.26,220.76      ->apu-ch1;
-cell hevo:tffd        rot0,flip @-141.27,218.69,-137.85,220.75      ->apu-ch1;
-cell hesu:ao2         rot0,flip @-142.65,218.70,-141.28,220.76      ->apu-ch1;
-cell hoko:tffd        rot0,flip @-146.05,218.69,-142.64,220.74      ->apu-ch1;
-cell hyke:tffd        rot0,flip @-149.48,218.69,-146.05,220.75      ->apu-ch1;
-cell heto:ao2         rot0,flip @-150.84,218.69,-149.48,220.75      ->apu-ch1;
-cell hemy:tffd        rot0,flip @-154.24,218.69,-150.84,220.74      ->apu-ch1;
-cell hyfe:tffd        rot0,flip @-157.68,218.69,-154.26,220.76      ->apu-ch1;
-cell havo:dffsr       rot0,flip @-161.45,218.68,-157.68,220.74      ->apu-ch1;
-cell hufu:nand5       rot0,flip @-162.65,218.69,-161.61,220.75      ->apu-ch1;
-cell hano:nor5        rot0,flip @-163.66,218.68,-162.63,220.74      ->apu-ch1;
-cell hexo:full_add    rot0,flip @-167.09,218.68,-163.65,220.73      ->apu-ch1;
-cell homu:inv_a       rot0,flip @-167.42,218.68,-167.09,220.74 comp ->apu-ch1;
-cell holu:dffsr       rot0,flip @-171.18,218.67,-167.42,220.74      ->apu-ch1;
-cell hake:inv_a       rot0,flip @-171.52,218.67,-171.19,220.74      ->apu-ch1;
-cell hyka:dffsr       rot0,flip @-175.29,218.67,-171.52,220.73      ->apu-ch1;
-cell halu:full_add    rot0,flip @-178.71,218.67,-175.27,220.73      ->apu-ch1;
-cell hopa:dffr_a      rot0,flip @-180.93,218.67,-178.70,220.73      ->apu-ch1;
-cell hozu:nand2       rot0,flip @-181.44,218.66,-180.94,220.73      ->apu-ch1;
-cell hefy:xor         rot0,flip @-182.46,218.67,-181.44,220.74      ->apu-ch1;
-cell hawy:nand2       rot0,flip @-182.98,218.66,-182.46,220.73      ->apu-ch1;
-cell hola:nand2       rot0,flip @-183.48,218.66,-182.97,220.73      ->apu-ch1;
-cell hele:dffr_a      rot0,flip @-185.70,218.68,-183.48,220.74      ->apu-ch1;
-cell hecy:inv_a       rot0,flip @-186.04,218.68,-185.70,220.72 comp ->apu-ch1;
-cell hora:dffr_a      rot0,flip @-188.27,218.67,-186.04,220.72      ->apu-ch1;
-cell hury:nor2        rot0,flip @-188.78,218.66,-188.27,220.73      ->apu-ch4;
-cell horu:inv_c       rot0,flip @-189.45,218.66,-188.77,220.73      ->apu-control;
-cell helu:inv_a       rot0,flip @-189.81,218.67,-189.46,220.73      ->apu-ch4;
-cell hazo:nor_latch   rot0,flip @-190.83,218.66,-189.80,220.73      ->apu-ch4;
-cell hyvu:nor2        rot0,flip @-191.34,218.66,-190.83,220.73      ->apu-ch1;
-cell huny:inv_a       rot0,flip @-191.69,218.66,-191.34,220.73      ->apu-ch1;
-cell hoxe:inv_a       rot0,flip @-192.03,218.66,-191.69,220.73      ->apu-ch1;
-cell hobu:nor2        rot0,flip @-192.54,218.66,-192.03,220.73      ->apu-ch1;
-cell hoga:dr_latch    rot0,flip @-194.24,218.67,-192.53,220.73      ->apu-ch4;
-cell hape:dffr_b2     rot0,flip @-197.15,218.66,-194.23,220.72      ->apu-ch4;
-cell hama:inv_d       rot0,flip @-198.01,218.66,-197.14,220.74      ->apu-control;
-cell hepa:dffr_b2     rot0,flip @-200.91,218.66,-198.01,220.72      ->apu-ch4;
-cell hapu:inv_a       rot0,flip @-201.26,218.67,-200.91,220.73      ->apu-ch4;
-cell hery:nor2        rot0,flip @-201.76,218.66,-201.25,220.73      ->apu-ch4;
-cell hapy:tri_inv_if0 rot0,flip @-202.79,218.66,-201.77,220.72      ->apu-ch4;
-cell hory:dffr_b2     rot0,flip @-205.70,218.66,-202.78,220.73      ->apu-ch4;
-cell hova:inv_b       rot0,flip @-206.20,218.66,-205.70,220.72 comp ->apu-ch4;
-cell humo:and2        rot0,flip @-206.89,218.66,-206.20,220.73      ->apu-ch4;
-cell heda:tri_inv_if0 rot0,flip @-207.92,218.66,-206.88,220.73      ->apu-ch4;
-cell hacu:tri_inv_if0 rot0,flip @-208.95,218.66,-207.92,220.71      ->apu-ch4;
-cell hasu:or2         rot0,flip @-209.63,218.66,-208.94,220.72      ->apu-ch4;
-cell hoso:nand2       rot0,flip @-210.14,218.66,-209.63,220.71 comp ->apu-ch4;
-cell hefa:nor2        rot0,flip @-210.66,218.65,-210.13,220.73      ->apu-control;
-cell hyne:inv_a       rot0,flip @-211.00,218.66,-210.66,220.73      ->apu-ch4;
-cell heno:dffr_b2     rot0,flip @-213.91,218.66,-211.00,220.73      ->apu-ch4;
-cell hoge:tri_inv_if0 rot0,flip @-214.93,218.66,-213.90,220.72      ->apu-ch4;
-cell heze:or2         rot0,flip @-215.61,218.66,-214.92,220.73      ->apu-ch4;
-cell hyro:dffr_b2     rot0,flip @-218.52,218.64,-215.59,220.73      ->apu-ch4;
-cell hura:xnor        rot0,flip @-219.55,218.65,-218.52,220.73      ->apu-ch4;
-cell huce:inv_a       rot0,flip @-219.88,218.64,-219.54,220.72      ->apu-ch4;
-cell hyno:and3        rot0,flip @-220.74,218.65,-219.89,220.72      ->apu-ch4;
-cell hezu:dffr_b2     rot0,flip @-223.63,218.65,-220.73,220.72      ->apu-ch4;
+cell hefo:nor2       rot0,flip @-61.98,218.73,-61.48,220.79        ->apu-ch3;
+cell hyle:or2        rot0,flip @-62.66,218.73,-61.98,220.79        ->apu-ch2;
+cell hera:nor2       rot0,flip @-63.16,218.73,-62.66,220.80        ->apu-ch3;
+cell hema:not_x1     rot0,flip @-63.52,218.73,-63.17,220.79        ->apu-ch3;
+cell hupa:and2       rot0,flip @-64.20,218.72,-63.52,220.79        ->apu-ch3;
+cell hypa:nor2       rot0,flip @-64.72,218.72,-64.20,220.80        ->apu-ch2;
+cell hyfo:not_x1     rot0,flip @-65.05,218.72,-64.70,220.79        ->apu-ch3;
+cell huno:dffr       rot0,flip @-67.96,218.73,-65.05,220.80        ->apu-ch3;
+cell hufo:not_if0    rot0,flip @-68.98,218.72,-67.95,220.79        ->apu-ch3;
+cell hepo:dffr       rot0,flip @-71.88,218.71,-68.99,220.80        ->apu-ch2;
+cell hufa:not_x1     rot0,flip @-72.23,218.72,-71.88,220.80 comp   ->apu-ch3;
+cell hofo:or3        rot0,flip @-73.08,218.73,-72.23,220.79        ->apu-ch2;
+cell hafe:nor4       rot0,flip @-73.95,218.73,-73.07,220.80        ->apu-ch2;
+cell hyly:nor2       rot0,flip @-74.45,218.72,-73.94,220.79        ->apu-ch2;
+cell holy:nor2       rot0,flip @-74.96,218.73,-74.45,220.79        ->apu-ch2;
+cell hero:tffnl      rot0,flip @-78.39,218.73,-74.95,220.78        ->apu-ch2;
+cell hepu:tffnl      rot0,flip @-81.80,218.73,-78.38,220.78        ->apu-ch2;
+cell huna:not_if0    rot0,flip @-82.80,218.71,-81.79,220.77        ->apu-ch2;
+cell hevy:tffnl      rot0,flip @-86.24,218.71,-82.80,220.77        ->apu-ch2;
+cell huda:and2       rot0,flip @-86.92,218.71,-86.23,220.77        ->apu-ch3;
+cell hude:not_x1     rot0,flip @-87.27,218.72,-86.91,220.78        ->apu-ch2;
+cell huco:not_if0    rot0,flip @-88.30,218.72,-87.25,220.79        ->apu-ch3;
+cell hamu:not_if0    rot0,flip @-89.32,218.73,-88.28,220.78        ->apu-ch3;
+cell hody:drlatch_ee rot0,flip @-91.02,218.70,-89.32,220.77        ->apu-ch3;
+cell huky:drlatch_ee rot0,flip @-92.73,218.71,-91.02,220.77        ->apu-ch3;
+cell haga:and2       rot0,flip @-93.41,218.73,-92.73,220.77        ->apu-ch3;
+cell henu:nand2      rot0,flip @-93.91,218.73,-93.41,220.78        ->apu-ch3;
+cell hovo:not_x2     rot0,flip @-94.45,218.72,-93.92,220.77        ->apu-ch3;
+cell havu:not_if0    rot0,flip @-95.46,218.70,-94.44,220.78        ->apu-ch2;
+cell hyre:not_if0    rot0,flip @-96.49,218.72,-95.47,220.77        ->apu-ch2;
+cell huvu:not_if0    rot0,flip @-97.52,218.71,-96.48,220.77        ->apu-ch2;
+cell hore:drlatch_ee rot0,flip @-99.23,218.70,-97.50,220.77        ->apu-ch2;
+cell hava:drlatch_ee rot0,flip @-100.95,218.72,-99.21,220.77       ->apu-ch2;
+cell hoxa:not_x1     rot0,flip @-101.27,218.71,-100.93,220.77      ->apu-ch3;
+cell hyfu:drlatch_ee rot0,flip @-102.98,218.71,-101.28,220.77      ->apu-ch2;
+cell hony:and3       rot0,flip @-103.84,218.70,-102.98,220.77      ->apu-ch3;
+cell hyry:not_if0    rot0,flip @-104.87,218.71,-103.83,220.77      ->apu-ch2;
+cell hupe:not_if0    rot0,flip @-105.89,218.72,-104.87,220.77      ->apu-ch2;
+cell hypo:or2        rot0,flip @-106.58,218.70,-105.89,220.77      ->apu-ch2;
+cell horo:not_if0    rot0,flip @-107.60,218.70,-106.57,220.77      ->apu-ch2;
+cell here:not_if0    rot0,flip @-108.63,218.69,-107.59,220.77      ->apu-ch2;
+cell hato:not_x1     rot0,flip @-108.98,218.70,-108.63,220.77      ->apu-ch1;
+cell hawu:nand2      rot0,flip @-109.48,218.70,-108.96,220.77      ->apu-control;
+cell hada:dffr       rot0,flip @-112.39,218.71,-109.48,220.77      ->apu-control;
+cell hota:not_x1     rot0,flip @-112.73,218.70,-112.38,220.77      ->apu-ch2;
+cell heky:not_x1     rot0,flip @-113.07,218.70,-112.72,220.77      ->apu-ch3;
+cell haxe:not_x1     rot0,flip @-113.41,218.70,-113.07,220.77      ->apu-ch1;
+cell hamy:or2        rot0,flip @-114.09,218.70,-113.41,220.77      ->apu-ch1;
+cell hafu:and2       rot0,flip @-114.78,218.70,-114.09,220.77      ->apu-ch1;
+cell hyxu:dffsr      rot0,flip @-118.55,218.71,-114.77,220.77      ->apu-ch1;
+cell hope:not_if0    rot0,flip @-119.57,218.70,-118.55,220.76      ->apu-control;
+cell hewa:not_if0    rot0,flip @-120.60,218.70,-119.56,220.76      ->apu-ch1;
+cell haca:not_if0    rot0,flip @-121.63,218.69,-120.59,220.76      ->apu-ch3;
+cell hocu:or2        rot0,flip @-122.30,218.70,-121.62,220.77      ->apu-ch1;
+cell huma:nand2      rot0,flip @-122.82,218.70,-122.30,220.77      ->apu-ch2;
+cell hoto:drlatch_ee rot0,flip @-124.52,218.70,-122.81,220.77      ->apu-ch3;
+cell hapo:not_x2     rot0,flip @-125.05,218.70,-124.52,220.76      ->apu-control;
+cell howu:not_if0    rot0,flip @-126.07,218.70,-125.04,220.77      ->apu-ch1;
+cell hopo:dffsr      rot0,flip @-129.83,218.69,-126.05,220.77      ->apu-ch1;
+cell heve:not_if0    rot0,flip @-130.85,218.69,-129.84,220.77      ->apu-ch1;
+cell hoca:nor5       rot0,flip @-131.88,218.70,-130.85,220.75      ->apu-ch1;
+cell hono:not_if0    rot0,flip @-132.89,218.70,-131.88,220.75      ->apu-ch1;
+cell hyto:ao22       rot0,flip @-134.26,218.69,-132.88,220.76      ->apu-ch1;
+cell hafo:tffnl      rot0,flip @-137.69,218.70,-134.26,220.76      ->apu-ch1;
+cell hevo:tffnl      rot0,flip @-141.27,218.69,-137.85,220.75      ->apu-ch1;
+cell hesu:ao22       rot0,flip @-142.65,218.70,-141.28,220.76      ->apu-ch1;
+cell hoko:tffnl      rot0,flip @-146.05,218.69,-142.64,220.74      ->apu-ch1;
+cell hyke:tffnl      rot0,flip @-149.48,218.69,-146.05,220.75      ->apu-ch1;
+cell heto:ao22       rot0,flip @-150.84,218.69,-149.48,220.75      ->apu-ch1;
+cell hemy:tffnl      rot0,flip @-154.24,218.69,-150.84,220.74      ->apu-ch1;
+cell hyfe:tffnl      rot0,flip @-157.68,218.69,-154.26,220.76      ->apu-ch1;
+cell havo:dffsr      rot0,flip @-161.45,218.68,-157.68,220.74      ->apu-ch1;
+cell hufu:nand5      rot0,flip @-162.65,218.69,-161.61,220.75      ->apu-ch1;
+cell hano:nor5       rot0,flip @-163.66,218.68,-162.63,220.74      ->apu-ch1;
+cell hexo:full_add   rot0,flip @-167.09,218.68,-163.65,220.73      ->apu-ch1;
+cell homu:not_x1     rot0,flip @-167.42,218.68,-167.09,220.74 comp ->apu-ch1;
+cell holu:dffsr      rot0,flip @-171.18,218.67,-167.42,220.74      ->apu-ch1;
+cell hake:not_x1     rot0,flip @-171.52,218.67,-171.19,220.74      ->apu-ch1;
+cell hyka:dffsr      rot0,flip @-175.29,218.67,-171.52,220.73      ->apu-ch1;
+cell halu:full_add   rot0,flip @-178.71,218.67,-175.27,220.73      ->apu-ch1;
+cell hopa:dffr_cc_q  rot0,flip @-180.93,218.67,-178.70,220.73      ->apu-ch1;
+cell hozu:nand2      rot0,flip @-181.44,218.66,-180.94,220.73      ->apu-ch1;
+cell hefy:xor        rot0,flip @-182.46,218.67,-181.44,220.74      ->apu-ch1;
+cell hawy:nand2      rot0,flip @-182.98,218.66,-182.46,220.73      ->apu-ch1;
+cell hola:nand2      rot0,flip @-183.48,218.66,-182.97,220.73      ->apu-ch1;
+cell hele:dffr_cc_q  rot0,flip @-185.70,218.68,-183.48,220.74      ->apu-ch1;
+cell hecy:not_x1     rot0,flip @-186.04,218.68,-185.70,220.72 comp ->apu-ch1;
+cell hora:dffr_cc_q  rot0,flip @-188.27,218.67,-186.04,220.72      ->apu-ch1;
+cell hury:nor2       rot0,flip @-188.78,218.66,-188.27,220.73      ->apu-ch4;
+cell horu:not_x3     rot0,flip @-189.45,218.66,-188.77,220.73      ->apu-control;
+cell helu:not_x1     rot0,flip @-189.81,218.67,-189.46,220.73      ->apu-ch4;
+cell hazo:nor_latch  rot0,flip @-190.83,218.66,-189.80,220.73      ->apu-ch4;
+cell hyvu:nor2       rot0,flip @-191.34,218.66,-190.83,220.73      ->apu-ch1;
+cell huny:not_x1     rot0,flip @-191.69,218.66,-191.34,220.73      ->apu-ch1;
+cell hoxe:not_x1     rot0,flip @-192.03,218.66,-191.69,220.73      ->apu-ch1;
+cell hobu:nor2       rot0,flip @-192.54,218.66,-192.03,220.73      ->apu-ch1;
+cell hoga:drlatch_ee rot0,flip @-194.24,218.67,-192.53,220.73      ->apu-ch4;
+cell hape:dffr       rot0,flip @-197.15,218.66,-194.23,220.72      ->apu-ch4;
+cell hama:not_x4     rot0,flip @-198.01,218.66,-197.14,220.74      ->apu-control;
+cell hepa:dffr       rot0,flip @-200.91,218.66,-198.01,220.72      ->apu-ch4;
+cell hapu:not_x1     rot0,flip @-201.26,218.67,-200.91,220.73      ->apu-ch4;
+cell hery:nor2       rot0,flip @-201.76,218.66,-201.25,220.73      ->apu-ch4;
+cell hapy:not_if0    rot0,flip @-202.79,218.66,-201.77,220.72      ->apu-ch4;
+cell hory:dffr       rot0,flip @-205.70,218.66,-202.78,220.73      ->apu-ch4;
+cell hova:not_x2     rot0,flip @-206.20,218.66,-205.70,220.72 comp ->apu-ch4;
+cell humo:and2       rot0,flip @-206.89,218.66,-206.20,220.73      ->apu-ch4;
+cell heda:not_if0    rot0,flip @-207.92,218.66,-206.88,220.73      ->apu-ch4;
+cell hacu:not_if0    rot0,flip @-208.95,218.66,-207.92,220.71      ->apu-ch4;
+cell hasu:or2        rot0,flip @-209.63,218.66,-208.94,220.72      ->apu-ch4;
+cell hoso:nand2      rot0,flip @-210.14,218.66,-209.63,220.71 comp ->apu-ch4;
+cell hefa:nor2       rot0,flip @-210.66,218.65,-210.13,220.73      ->apu-control;
+cell hyne:not_x1     rot0,flip @-211.00,218.66,-210.66,220.73      ->apu-ch4;
+cell heno:dffr       rot0,flip @-213.91,218.66,-211.00,220.73      ->apu-ch4;
+cell hoge:not_if0    rot0,flip @-214.93,218.66,-213.90,220.72      ->apu-ch4;
+cell heze:or2        rot0,flip @-215.61,218.66,-214.92,220.73      ->apu-ch4;
+cell hyro:dffr       rot0,flip @-218.52,218.64,-215.59,220.73      ->apu-ch4;
+cell hura:xnor       rot0,flip @-219.55,218.65,-218.52,220.73      ->apu-ch4;
+cell huce:not_x1     rot0,flip @-219.88,218.64,-219.54,220.72      ->apu-ch4;
+cell hyno:and3       rot0,flip @-220.74,218.65,-219.89,220.72      ->apu-ch4;
+cell hezu:dffr       rot0,flip @-223.63,218.65,-220.73,220.72      ->apu-ch4;
 
 alias cell juzo -> hufa;
 
@@ -129,33 +129,33 @@ alias cell juzo -> hufa;
 # --------------------------------------------------
 
 wire hefo:clk
-	hefo.q -> juty.in
+	hefo.y -> juty.in
 	@-61.90,220.51,-61.90,222.80,-62.07,222.80,-62.07,223.36;
 
 wire hyle:ctl
-	hyle.q -> jeme.r
+	hyle.y -> jeme.r
 	@-62.59,220.49,-62.59,222.62,-68.74,222.62,-68.74,223.38;
 
 wire hera:ctl
-	hera.q -> jera.in kyko.in kaso.in
+	hera.y -> jera.in kyko.in kaso.in
 	@-63.09,220.51,-63.09,222.91,-61.73,222.91,-61.73,228.76,-69.09,228.74
 	@-69.09,229.18,-69.09,228.49,-69.44,228.49,-69.44,229.18;
 
 wire hema:ctl
-	hema.q -> gase.in
+	hema.y -> gase.in
 	@-63.44,219.01,-63.44,218.18,-62.92,218.18,-62.92,215.60;
 
 wire hupa:ctl
-	hupa.q -> gafu.in3
+	hupa.y -> gafu.in3
 	@-64.12,219.00,-64.12,218.18,-63.60,218.18,-63.60,215.59;
 
 wire hypa:ctl
-	hypa.q -> hepo.~r
+	hypa.y -> hepo.~r
 	@-64.64,220.51,-64.64,222.49,-69.94,222.49,-69.94,220.51
 	@-69.94,222.23,-71.13,222.23,-71.13,220.50;
 
 wire hyfo:clk
-	hyfo.q -> huno.clk
+	hyfo.y -> huno.clk
 	@-64.98,220.51,-64.98,222.75,-65.32,222.75,-65.32,220.50;
 
 wire huno:ctl
@@ -174,27 +174,27 @@ wire hepo:ctl
 # hepo.~q is not connected
 
 wire hufa:ctl
-	hufa.q -> jety.~ena jemo.~ena jacy.~ena
+	hufa.y -> jety.~ena jemo.~ena jacy.~ena
 	@-72.15,220.52,-72.15,222.66
 	@-72.49,223.38,-72.49,222.66,-69.08,222.66,-69.08,223.37
 	@-70.79,222.66,-70.79,223.38;
 
 wire hofo:clk
-	hofo.q -> gafa.in2 gafa.in3
+	hofo.y -> gafa.in2 gafa.in3
 	@-73.00,220.48,-73.00,221.63,-114.52,221.61,-114.52,218.02,-115.20,218.02,-115.20,215.58
 	@-114.87,218.02,-114.87,215.58;
 
 wire hafe:ctl
-	hafe.q -> jopa.~r
+	hafe.y -> jopa.~r
 	@-73.86,220.50,-73.86,222.78,-77.11,222.78,-77.11,223.38
 	@-75.91,222.78,-75.91,223.36;
 
 wire hyly:ctl
-	hyly.q -> jake.in
+	hyly.y -> jake.in
 	@-74.37,220.51,-74.37,222.36,-77.97,222.36,-77.97,223.36;
 
 wire holy:ctl
-	holy.q -> hafe.in1
+	holy.y -> hafe.in1
 	@-74.88,218.99,-74.88,218.42,-73.16,218.42,-73.16,219.01;
 
 wire ch2_ftick:clk
@@ -222,12 +222,12 @@ wire ~hevy:data
 	@-85.63,219.00,-85.63,216.85,-82.39,216.85,-82.39,219.02;
 
 wire huda:ctl
-	huda.q -> hufa.in jety.ena jemo.ena jacy.ena
+	huda.y -> hufa.in jety.ena jemo.ena jacy.ena
 	@-86.84,218.98,-86.84,218.54,-71.97,218.54,-71.97,222.79,-72.83,222.79,-72.83,223.37
 	@-71.97,222.52,-71.13,222.52,-71.13,227.95,-69.43,227.95,-69.43,224.86;
 
 wire hude:rst
-	hude.q -> fofe.~r fova.~r fedy.~r fome.~r fora.~r goda.~r gumy.~r gupu.~r
+	hude.y -> fofe.~r fova.~r fedy.~r fome.~r fora.~r goda.~r gumy.~r gupu.~r
 	@-87.19,218.99,-87.19,218.55,-96.06,218.54,-96.06,213.21,-87.69,213.21,-87.69,208.02,-85.96,208.02,-85.96,213.21,
 	 -84.26,213.21
 	@-96.06,213.64,-99.48,213.64,-99.48,214.08
@@ -255,18 +255,18 @@ wire ~ff1c_d6:ctl
 	@-81.55,215.59,-81.55,217.83,-81.03,217.83,-81.03,215.59;
 
 wire haga:ctl
-	haga.q -> guzu.in hody.ena huky.ena
+	haga.y -> guzu.in hody.ena huky.ena
 	@-93.33,219.00,-93.33,217.57,-91.11,217.57,-91.11,215.58
 	@-91.63,217.57,-91.63,219.00
 	@-91.11,216.71,-89.91,216.71,-89.91,219.00;
 
 wire henu:ctl
-	henu.q -> huco.~ena hamu.~ena
+	henu.y -> huco.~ena hamu.~ena
 	@-93.84,220.49,-93.84,221.50,-88.38,221.50
 	@-88.38,220.50,-88.38,221.92,-87.35,221.92,-87.35,220.50;
 
 wire hovo:ctl
-	hovo.q -> juke.~ena jeza.~ena jofo.~ena jude.~ena kamy.~ena kora.~ena kafu.~ena kesy.~ena
+	hovo.y -> juke.~ena jeza.~ena jofo.~ena jude.~ena kamy.~ena kora.~ena kafu.~ena kesy.~ena
 	@-94.36,220.49,-94.36,222.52,-94.02,222.52,-94.02,228.22
 	@-95.56,229.17,-95.56,228.22,-82.41,228.22,-82.41,224.84
 	@-94.54,228.22,-94.54,229.18
@@ -294,7 +294,7 @@ wire ~ff17_d2:data
 	@-100.69,218.98,-100.69,217.56,-95.04,217.56,-95.04,222.09,-91.12,222.09,-91.12,227.29,-88.90,227.29,-88.90,224.84;
 
 wire hoxa:dec
-	hoxa.q -> gute.in1
+	hoxa.y -> gute.in1
 	@-101.20,218.99,-101.20,217.26,-100.34,217.26,-100.34,215.58;
 
 wire ff17_d0:data
@@ -308,17 +308,17 @@ wire ~ff17_d0:data
 	@-97.95,222.38,-97.95,223.36;
 
 wire hony:ctl
-	hony.q -> geno.in
+	hony.y -> geno.in
 	@-103.76,220.49,-103.76,221.79,-76.59,221.80,-76.59,217.33,-76.76,217.33,-76.76,215.58;
 
 wire hypo:ctl
-	hypo.q -> huna.~ena jeke.~ena jaro.~ena
+	hypo.y -> huna.~ena jeke.~ena jaro.~ena
 	@-106.50,220.50,-106.50,222.64,-81.88,222.65,-78.30,222.65,-78.30,223.38
 	@-81.88,222.65,-81.88,220.49
 	@-79.33,222.65,-79.33,223.36;
 
 wire hato:rst
-	hato.q -> jusa.~r joma.~r juzy.~r jaxo.~r jaty.~r jena.~r jafy.~r jopu.~r
+	hato.y -> jusa.~r joma.~r juzy.~r jaxo.~r jaty.~r jena.~r jafy.~r jopu.~r
 	@-108.90,220.48,-108.90,221.79,-114.53,221.79,-114.53,227.83,-116.59,227.83,-116.59,224.84
 	@-116.59,227.53,-118.30,227.53,-118.30,224.83
 	@-118.30,227.41,-127.36,227.41,-127.36,224.83
@@ -326,7 +326,7 @@ wire hato:rst
 	@-130.77,222.63,-132.48,222.63,-132.48,226.51,-134.19,226.51,-134.19,224.84;
 
 wire hawu:ctl
-	hawu.q -> hada.clk
+	hawu.y -> hada.clk
 	@-109.41,220.48,-109.41,221.91,-109.75,221.91,-109.75,220.47;
 
 # hada.q is not connected
@@ -337,24 +337,24 @@ wire ~hada:rst
 	@-119.16,222.09,-119.16,220.46;
 
 wire hota:clk
-	hota.q -> jyna.clk
+	hota.y -> jyna.clk
 	@-112.65,220.49,-112.65,222.64,-110.95,222.64,-110.95,223.34;
 
 wire heky:rst
-	heky.q -> hoto.~r
+	heky.y -> hoto.~r
 	@-112.99,218.99,-112.99,217.38,-123.76,217.38,-123.76,219.00;
 
 wire haxe:dec
-	haxe.q -> hamy.in1
+	haxe.y -> hamy.in1
 	@-113.33,220.49,-113.33,222.65,-113.51,222.65,-113.51,220.48;
 
 wire hamy:ctl
-	hamy.q -> joku.~ena jyne.~ena jaca.~ena
+	hamy.y -> joku.~ena jyne.~ena jaca.~ena
 	@-114.02,220.48,-114.02,222.63,-119.16,222.63,-119.16,223.35
 	@-119.16,222.77,-120.18,222.77,-120.18,227.53,-121.20,227.53,-121.20,224.82;
 
 wire hafu:ctl
-	hafu.q -> jusa.ena joma.ena juzy.ena kygy.in
+	hafu.y -> jusa.ena joma.ena juzy.ena kygy.in
 	@-114.70,220.48,-114.70,222.51,-114.19,222.51,-114.19,227.70,-114.88,227.70,-114.88,229.19
 	@-114.70,222.38,-116.24,222.38,-116.24,227.70,-117.96,227.70,-117.96,224.84;
 
@@ -369,14 +369,14 @@ wire acc_d6:data
 # hyxu.~q is not connected
 
 wire hocu:ctl
-	hocu.q -> hewa.~ena howu.~ena heve.~ena hono.~ena jyse.~ena
+	hocu.y -> hewa.~ena howu.~ena heve.~ena hono.~ena jyse.~ena
 	@-122.23,220.47,-122.23,222.64
 	@-119.66,220.48,-119.66,222.64,-129.92,222.64,-129.92,218.52,-131.97,218.52,-131.97,221.35,-135.04,221.35,
 	 -135.04,223.33
 	@-125.13,222.64,-125.13,220.47;
 
 wire huma:ctl
-	huma.q -> gojy.~ena
+	huma.y -> gojy.~ena
 	@-122.74,218.98,-122.74,217.89,-125.13,217.89,-125.13,215.55;
 
 wire ff1e_d6:ctl
@@ -389,7 +389,7 @@ wire ~ff1e_d6:ctl
 	@-124.27,218.14,-121.20,218.14,-121.20,218.98;
 
 wire hapo:rst
-	hapo.q -> gufo.in jyro.in2
+	hapo.y -> gufo.in jyro.in2
 	@-119.14,215.57,-119.14,218.02,-124.95,218.02,-124.95,221.78,-136.23,221.78,-136.23,223.34;
 
 wire acc_d7:data
@@ -402,7 +402,7 @@ wire acc_d7:data
 # hopo.~q is not connected
 
 wire ~ch1_amp_en:ctl
-	hoca.q -> bery.in4 femy.in1 tace.in1 # TODO: connect to analog parts
+	hoca.y -> bery.in4 femy.in1 tace.in1 # TODO: connect to analog parts
 	@-131.79,218.98,-131.79,217.26,-131.97,217.26,-131.97,216.91,-132.13,216.91,-132.13,212.48,-152.97,212.47,
 	 -152.97,207.95,-157.75,207.95,-157.75,209.25
 	@-153.48,207.95,-153.48,201.88,-152.95,201.88,-152.95,197.97,-153.13,197.97,-153.13,193.10,-151.92,193.10,
@@ -411,7 +411,7 @@ wire ~ch1_amp_en:ctl
 	@-130.23,171.40,-130.23,167.20,-131.27,167.20,-131.27,166.80;
 
 wire hyto:ctl
-	hyto.q -> hemy.~tclk
+	hyto.y -> hemy.~tclk
 	@-134.18,220.47,-134.18,222.50,-154.17,222.49,-154.17,220.47;
 
 wire ch1_env0:ctl
@@ -436,7 +436,7 @@ wire ch1_env3:ctl
 # hevo.~q is not connected
 
 wire hesu:ctl
-	hesu.q -> hevo.~tclk
+	hesu.y -> hevo.~tclk
 	@-142.57,220.46,-142.57,221.34,-141.20,221.34,-141.20,220.46;
 
 wire ch1_env2:ctl
@@ -460,7 +460,7 @@ wire ~hyke:data
 	@-148.88,218.98,-148.88,216.13,-146.31,216.13,-146.31,215.55;
 
 wire heto:ctl
-	heto.q -> hoko.~tclk
+	heto.y -> hoko.~tclk
 	@-150.76,218.97,-150.76,216.38,-145.97,216.38,-145.97,218.97;
 
 wire ch1_env1:ctl
@@ -493,11 +493,11 @@ wire acc_d2:data
 # havo.~q is not connected
 
 wire hufu:ctl
-	hufu.q -> hake.in
+	hufu.y -> hake.in
 	@-162.55,218.95,-162.55,217.23,-171.27,217.23,-171.27,218.95;
 
 wire hano:ctl
-	hano.q -> jade.in1
+	hano.y -> jade.in1
 	@-163.57,220.46,-163.57,221.81,-163.41,221.81,-163.41,226.16,-170.93,226.16,-170.93,224.81;
 
 wire sum4:data
@@ -509,7 +509,7 @@ wire hexo_c:data
 	@-165.27,218.95,-165.27,216.55,-166.83,216.55,-166.83,215.54;
 
 wire homu:ctl
-	homu.q -> deva.~clk gele.~clk jete.~clk
+	homu.y -> deva.~clk gele.~clk jete.~clk
 	@-167.85,223.31,-167.85,221.80,-167.34,221.80,-167.34,217.06,-171.26,217.06,-171.26,213.48,-171.09,213.48,
 	 -171.09,206.66,-170.91,206.66,-170.91,202.86,-170.04,202.86,-170.04,200.75;
 
@@ -523,7 +523,7 @@ wire acc_d5:data
 # holu.~q is not connected
 
 wire hake:ctl
-	hake.q -> jade.in2
+	hake.y -> jade.in2
 	@-171.45,220.45,-171.45,221.93,-171.09,221.93,-171.09,223.31;
 
 wire acc_d0:data
@@ -549,21 +549,21 @@ wire hopa:data
 	@-180.67,220.47,-180.67,222.35,-178.10,222.35,-178.10,220.45;
 
 wire hozu:data
-	hozu.q -> fabu.~s
+	hozu.y -> fabu.~s
 	@-181.36,218.96,-181.36,216.42,-181.00,216.42,-181.00,213.43,-180.48,213.43,-180.48,208.65,-182.70,208.65,
 	 -182.70,209.24;
 
 wire hefy:data
-	hefy.q -> jape.d
+	hefy.y -> jape.d
 	@-181.52,218.95,-181.52,217.74,-171.95,217.74,-171.95,221.94,-172.13,221.94,-172.13,223.31;
 
 wire hawy:data
-	hawy.q -> goga.~s
+	hawy.y -> goga.~s
 	@-182.89,218.95,-182.89,217.35,-181.52,217.35,-181.52,215.54
 	@-182.89,218.51,-183.74,218.51,-183.74,215.55;
 
 wire hola:data
-	hola.q -> jefa.~s
+	hola.y -> jefa.~s
 	@-183.41,220.45,-183.41,222.86,-183.92,222.86,-183.92,223.32
 	@-183.41,222.34,-181.70,222.34,-181.70,223.30;
 
@@ -572,7 +572,7 @@ wire hele:data
 	@-185.45,220.45,-185.45,222.60,-159.31,222.62,-159.31,223.34;
 
 wire hecy:ctl
-	hecy.q -> hopa.~clk hele.~clk hora.~clk jape.~clk
+	hecy.y -> hopa.~clk hele.~clk hora.~clk jape.~clk
 	@-185.97,220.46,-185.97,222.86,-184.94,222.86,-184.94,220.45
 	@-185.97,221.96,-187.50,221.96,-187.50,220.45
 	@-184.94,221.79,-180.16,221.79,-172.98,221.80,-172.98,223.32
@@ -583,11 +583,11 @@ wire hora:data
 	@-188.01,218.95,-188.01,217.86,-175.88,217.87,-175.88,215.54;
 
 wire hury:clk
-	hury.q -> gopa.in1
+	hury.y -> gopa.in1
 	@-188.70,218.95,-188.70,217.73,-185.27,217.73,-185.27,215.54;
 
 wire horu_512hz:clk
-	horu.q -> fosy.clk holy.in1 hury.in1 jopa.clk kozy.clk kuku.in1
+	horu.y -> fosy.clk holy.in1 hury.in1 jopa.clk kozy.clk kuku.in1
 	@-189.38,220.43,-189.38,222.47,-188.35,222.47,-188.35,220.43
 	@-188.35,222.35,-183.58,222.35,-183.58,212.46,-184.75,212.46,-184.75,210.72
 	@-183.58,222.22,-172.81,222.23
@@ -596,7 +596,7 @@ wire horu_512hz:clk
 	@-162.90,222.19,-162.90,226.84,-162.73,226.84,-162.73,229.15;
 
 wire helu:ctl
-	helu.q -> hazo.s
+	helu.y -> hazo.s
 	@-189.73,220.46,-189.73,222.48,-189.90,222.48,-189.90,220.45;
 
 # hazo.q is not connected
@@ -606,19 +606,19 @@ wire ~hazo:ctl
 	@-190.24,218.95,-190.24,218.24,-187.16,218.24,-187.16,215.53;
 
 wire hyvu:data
-	hyvu.q -> goga.~r
+	hyvu.y -> goga.~r
 	@-191.27,218.95,-191.27,218.50,-184.25,218.50,-184.25,215.55;
 
 wire huny:data
-	huny.q -> jehy.in2
+	huny.y -> jehy.in2
 	@-191.61,220.45,-191.61,221.98,-191.44,221.98,-191.44,223.32;
 
 wire hoxe:data
-	hoxe.q -> jocy.in2
+	hoxe.y -> jocy.in2
 	@-191.95,220.45,-191.95,222.73,-192.13,222.73,-192.13,223.30;
 
 wire hobu:data
-	hobu.q -> jefa.~r
+	hobu.y -> jefa.~r
 	@-192.46,220.44,-192.46,222.21,-184.42,222.21,-184.42,223.31;
 
 wire hoga:ctl
@@ -634,7 +634,7 @@ wire hape:data
 # hape.~q is not connected
 
 wire hama_512khz:clk
-	hama.q -> bule.d1 beze.d1 gale.d1 gone.clk gora.clk gaty.clk
+	hama.y -> bule.d1 beze.d1 gale.d1 gone.clk gora.clk gaty.clk
 	@-197.92,218.95,-197.92,217.34,-186.30,217.34,-186.30,212.92,-177.23,212.92
 	@-194.00,217.34,-194.00,215.55
 	@-190.74,217.34,-190.74,215.53
@@ -649,11 +649,11 @@ wire hepa:data
 # hepa.~q is not connected
 
 wire hapu:ctl
-	hapu.q -> jery.~s
+	hapu.y -> jery.~s
 	@-201.18,220.45,-201.18,222.72,-202.20,222.72,-202.20,223.30;
 
 wire hery:ctl
-	hery.q -> jery.~r
+	hery.y -> jery.~r
 	@-201.69,220.45,-201.69,222.60,-201.34,222.60,-201.34,223.30;
 
 wire hory:data
@@ -663,34 +663,34 @@ wire hory:data
 # hory.~q is not connected
 
 wire hova:ctl
-	hova.q -> jero.~ena jaky.~ena jare.~ena
+	hova.y -> jero.~ena jaky.~ena jare.~ena
 	@-206.12,220.45,-206.12,222.30,-205.95,222.30,-205.95,227.71,-204.25,227.71,-204.25,224.79
 	@-204.25,227.46,-202.55,227.46,-202.55,224.80;
 
 wire humo:ctl
-	humo.q -> hova.in jero.ena jaky.ena jare.ena
+	humo.y -> hova.in jero.ena jaky.ena jare.ena
 	@-206.81,220.43,-206.81,222.85,-204.59,222.85
 	@-206.30,222.85,-206.30,223.30
 	@-205.79,222.85,-205.79,220.45
 	@-204.59,223.31,-204.59,222.72,-202.88,222.72,-202.88,223.31;
 
 wire hasu:ctl
-	hasu.q -> godu.~ena gome.~ena heda.~ena hacu.~ena hoge.~ena
+	hasu.y -> godu.~ena gome.~ena heda.~ena hacu.~ena hoge.~ena
 	@-210.91,218.37,-209.55,218.37,-209.55,221.74,-206.98,221.74,-206.98,220.43
 	@-208.01,221.74,-208.01,220.42
 	@-210.91,215.52,-210.91,218.49,-217.23,218.49,-217.23,215.52
 	@-213.99,218.49,-213.99,218.95;
 
 wire hoso:ctl
-	hoso.q -> jamy.~ena kuhu.in
+	hoso.y -> jamy.~ena kuhu.in
 	@-210.07,220.43,-210.07,222.34,-210.92,222.34,-210.92,227.16,-210.75,227.16,-210.75,229.12;
 
 wire hefa:ctl
-	hefa.q -> gumu.in
+	hefa.y -> gumu.in
 	@-210.57,218.94,-210.57,218.11,-216.37,218.11,-216.37,215.53;
 
 wire hyne:rst
-	hyne.q -> jamy.~r
+	hyne.y -> jamy.~r
 	@-210.91,220.44,-210.91,221.74,-211.61,221.74,-211.61,223.30;
 
 wire heno:data
@@ -700,7 +700,7 @@ wire heno:data
 # heno.~q is not connected
 
 wire heze:ctl
-	heze.q -> geda.~ena gaka.~ena gype.~ena hapy.~ena
+	heze.y -> geda.~ena gaka.~ena gype.~ena hapy.~ena
 	@-215.52,218.93,-215.52,218.24,-203.73,218.24,-203.73,215.53
 	@-204.76,218.24,-204.76,215.53
 	@-203.73,217.73,-201.86,217.73,-201.86,218.95
@@ -714,11 +714,11 @@ wire hyro:data
 # hyro.~q is not connected
 
 wire lfsr_bit13_eq_bit14:data
-	hura.q -> joto.d
+	hura.y -> joto.d
 	@-218.60,220.43,-218.60,221.61,-208.87,221.61,-208.87,223.30;
 
 wire huce:ctl
-	huce.q -> jyco.l jyre.l jyfu.l
+	huce.y -> jyco.l jyre.l jyfu.l
 	@-219.80,220.42,-219.80,222.16
 	@-218.61,223.29,-218.61,222.16,-220.66,222.16,-220.66,223.30
 	@-220.66,222.72,-222.37,222.72,-222.37,223.30
@@ -727,7 +727,7 @@ wire huce:ctl
 	@-215.19,222.46,-215.19,223.29;
 
 wire hyno:clk
-	hyno.q -> gary.d
+	hyno.y -> gary.d
 	@-220.65,218.93,-220.65,218.48,-222.36,218.48,-222.36,215.53;
 
 wire hezu:data

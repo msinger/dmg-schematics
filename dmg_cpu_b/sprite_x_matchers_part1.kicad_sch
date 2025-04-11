@@ -6,13 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2023-06-26")
-		(rev "0.6")
+		(date "2025-04-12")
+		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
-		(symbol "DMG_CPU_Cells:DR_LATCH"
+		(symbol "DMG_CPU_Cells:DRLATCH_EE"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "DR_LATCH"
+			(property "Value" "DRLATCH_EE"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -42,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dr_latch"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 				(at 0 -8.255 0)
 				(effects
 					(font
@@ -51,8 +51,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gated data latch with active-low reset."
-				(at 0 0 0)
+			(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DR_LATCH_0_1"
+			(symbol "DRLATCH_EE_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -73,7 +73,7 @@
 					)
 				)
 			)
-			(symbol "DR_LATCH_1_1"
+			(symbol "DRLATCH_EE_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 3.81) hide
@@ -184,7 +184,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:NOR_4"
+		(symbol "DMG_CPU_Cells:NOR4"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -197,7 +197,7 @@
 					)
 				)
 			)
-			(property "Value" "NOR_4"
+			(property "Value" "NOR4"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -224,7 +224,7 @@
 				)
 			)
 			(property "Description" "NOR gate with four inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -232,7 +232,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NOR_4_1_1"
+			(symbol "NOR4_1_1"
 				(arc
 					(start -3.8102 -3.81)
 					(mid -2.5892 0)
@@ -442,7 +442,7 @@
 				)
 			)
 			(property "Description" "XOR gate with two inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7616,7 +7616,6 @@
 	)
 	(label "~{H4}"
 		(at 328.295 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7627,7 +7626,6 @@
 	)
 	(label "~{SPRITE_X1}"
 		(at 181.61 245.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7638,7 +7636,6 @@
 	)
 	(label "SPRITE_RST3"
 		(at 55.245 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7649,7 +7646,6 @@
 	)
 	(label "~{SPRITE_X0}"
 		(at 52.705 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7660,7 +7656,6 @@
 	)
 	(label "SPRITE_X_MATCH_H3"
 		(at 171.45 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7671,7 +7666,6 @@
 	)
 	(label "~{H4}"
 		(at 234.315 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7682,7 +7676,6 @@
 	)
 	(label "~{SPRITE_X7}"
 		(at 181.61 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7693,7 +7686,6 @@
 	)
 	(label "~{H6}"
 		(at 105.41 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7704,7 +7696,6 @@
 	)
 	(label "~{SPRITE_X2}"
 		(at 285.75 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7715,7 +7706,6 @@
 	)
 	(label "~{H5}"
 		(at 90.805 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7726,7 +7716,6 @@
 	)
 	(label "~{H4}"
 		(at 90.805 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7737,7 +7726,6 @@
 	)
 	(label "SPRITE_X_MATCH_L4"
 		(at 300.355 232.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7748,7 +7736,6 @@
 	)
 	(label "~{SPRITE_X1}"
 		(at 285.75 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7759,7 +7746,6 @@
 	)
 	(label "~{SPRITE_X2}"
 		(at 52.705 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7770,7 +7756,6 @@
 	)
 	(label "~{H1}"
 		(at 328.295 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7781,7 +7766,6 @@
 	)
 	(label "~{H3}"
 		(at 328.295 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,7 +7776,6 @@
 	)
 	(label "~{H3}"
 		(at 90.805 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7803,7 +7786,6 @@
 	)
 	(label "~{SPRITE_X5}"
 		(at 167.005 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7814,7 +7796,6 @@
 	)
 	(label "~{SPRITE_X6}"
 		(at 181.61 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7825,7 +7806,6 @@
 	)
 	(label "~{SPRITE_X6}"
 		(at 285.75 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7836,7 +7816,6 @@
 	)
 	(label "~{SPRITE_X5}"
 		(at 52.705 187.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7847,7 +7826,6 @@
 	)
 	(label "~{H2}"
 		(at 105.41 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7858,7 +7836,6 @@
 	)
 	(label "SAVE_SPRITE_X4"
 		(at 186.69 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,7 +7846,6 @@
 	)
 	(label "~{H2}"
 		(at 234.315 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7880,7 +7856,6 @@
 	)
 	(label "~{H5}"
 		(at 234.315 187.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7891,7 +7866,6 @@
 	)
 	(label "~{SPRITE_X4}"
 		(at 285.75 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7902,7 +7876,6 @@
 	)
 	(label "~{H5}"
 		(at 105.41 187.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7913,7 +7886,6 @@
 	)
 	(label "~{SPRITE_X6}"
 		(at 52.705 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7924,7 +7896,6 @@
 	)
 	(label "SPRITE_RST1"
 		(at 159.385 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7935,7 +7906,6 @@
 	)
 	(label "~{SPRITE_X2}"
 		(at 181.61 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7946,7 +7916,6 @@
 	)
 	(label "SPRITE_X_MATCH_H4"
 		(at 300.355 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7957,7 +7926,6 @@
 	)
 	(label "SPRITE_RST4"
 		(at 184.15 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7968,7 +7936,6 @@
 	)
 	(label "~{SPRITE_X6}"
 		(at 167.005 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7979,7 +7946,6 @@
 	)
 	(label "~{H7}"
 		(at 90.805 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7990,7 +7956,6 @@
 	)
 	(label "~{SPRITE_X7}"
 		(at 167.005 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8001,7 +7966,6 @@
 	)
 	(label "~{H4}"
 		(at 105.41 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8012,7 +7976,6 @@
 	)
 	(label "~{H1}"
 		(at 209.55 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8023,7 +7986,6 @@
 	)
 	(label "SPRITE_X_MATCH_H1"
 		(at 275.59 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8034,7 +7996,6 @@
 	)
 	(label "~{H6}"
 		(at 209.55 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8045,7 +8006,6 @@
 	)
 	(label "~{SPRITE_X7}"
 		(at 285.75 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8056,7 +8016,6 @@
 	)
 	(label "~{H6}"
 		(at 234.315 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8067,7 +8026,6 @@
 	)
 	(label "~{SPRITE_X1}"
 		(at 52.705 245.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8078,7 +8036,6 @@
 	)
 	(label "SAVE_SPRITE_X0"
 		(at 43.18 27.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8089,7 +8046,6 @@
 	)
 	(label "~{H5}"
 		(at 328.295 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8100,7 +8056,6 @@
 	)
 	(label "~{H7}"
 		(at 328.295 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8111,7 +8066,6 @@
 	)
 	(label "~{SPRITE_X1}"
 		(at 48.26 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8122,7 +8076,6 @@
 	)
 	(label "~{H6}"
 		(at 328.295 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8133,7 +8086,6 @@
 	)
 	(label "~{SPRITE_X4}"
 		(at 48.26 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8144,7 +8096,6 @@
 	)
 	(label "SPRITE_X_MATCH_L0"
 		(at 156.845 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8155,7 +8106,6 @@
 	)
 	(label "SPRITE_X_MATCH_L2"
 		(at 394.335 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8166,7 +8116,6 @@
 	)
 	(label "~{SPRITE_X7}"
 		(at 52.705 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8177,7 +8126,6 @@
 	)
 	(label "~{SPRITE_X4}"
 		(at 167.005 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8188,7 +8136,6 @@
 	)
 	(label "~{H1}"
 		(at 90.805 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8199,7 +8146,6 @@
 	)
 	(label "~{SPRITE_X3}"
 		(at 181.61 274.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8210,7 +8156,6 @@
 	)
 	(label "~{H7}"
 		(at 234.315 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8221,7 +8166,6 @@
 	)
 	(label "~{SPRITE_X6}"
 		(at 48.26 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8232,7 +8176,6 @@
 	)
 	(label "~{SPRITE_X3}"
 		(at 285.75 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8243,7 +8186,6 @@
 	)
 	(label "~{H1}"
 		(at 105.41 245.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8254,7 +8196,6 @@
 	)
 	(label "~{H0}"
 		(at 105.41 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8265,7 +8206,6 @@
 	)
 	(label "~{H3}"
 		(at 105.41 274.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8276,7 +8216,6 @@
 	)
 	(label "~{H1}"
 		(at 234.315 245.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8287,7 +8226,6 @@
 	)
 	(label "~{H3}"
 		(at 234.315 274.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8298,7 +8236,6 @@
 	)
 	(label "~{SPRITE_X2}"
 		(at 167.005 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8309,7 +8246,6 @@
 	)
 	(label "~{H7}"
 		(at 209.55 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8320,7 +8256,6 @@
 	)
 	(label "SPRITE_X_MATCH_L3"
 		(at 171.45 232.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8331,7 +8266,6 @@
 	)
 	(label "~{SPRITE_X0}"
 		(at 48.26 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8342,7 +8276,6 @@
 	)
 	(label "~{H0}"
 		(at 209.55 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8353,7 +8286,6 @@
 	)
 	(label "SAVE_SPRITE_X3"
 		(at 57.785 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8364,7 +8296,6 @@
 	)
 	(label "SPRITE_X_MATCH_H0"
 		(at 156.845 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8375,7 +8306,6 @@
 	)
 	(label "~{SPRITE_X5}"
 		(at 181.61 187.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8386,7 +8316,6 @@
 	)
 	(label "SPRITE_X_MATCH_L1"
 		(at 275.59 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8397,7 +8326,6 @@
 	)
 	(label "~{SPRITE_X0}"
 		(at 167.005 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8408,7 +8336,6 @@
 	)
 	(label "~{SPRITE_X5}"
 		(at 48.26 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8419,7 +8346,6 @@
 	)
 	(label "~{SPRITE_X2}"
 		(at 48.26 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8430,7 +8356,6 @@
 	)
 	(label "~{H6}"
 		(at 90.805 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8441,7 +8366,6 @@
 	)
 	(label "~{H7}"
 		(at 105.41 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8452,7 +8376,6 @@
 	)
 	(label "SAVE_SPRITE_X2"
 		(at 280.67 27.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8463,7 +8386,6 @@
 	)
 	(label "~{SPRITE_X4}"
 		(at 181.61 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8474,7 +8396,6 @@
 	)
 	(label "SPRITE_X_MATCH_H2"
 		(at 394.335 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8485,7 +8406,6 @@
 	)
 	(label "~{SPRITE_X7}"
 		(at 48.26 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8496,7 +8416,6 @@
 	)
 	(label "~{H2}"
 		(at 90.805 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8507,7 +8426,6 @@
 	)
 	(label "~{H0}"
 		(at 90.805 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8518,7 +8436,6 @@
 	)
 	(label "~{SPRITE_X1}"
 		(at 167.005 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8529,7 +8446,6 @@
 	)
 	(label "~{H2}"
 		(at 328.295 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8540,7 +8456,6 @@
 	)
 	(label "~{SPRITE_X3}"
 		(at 48.26 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8551,7 +8466,6 @@
 	)
 	(label "~{H5}"
 		(at 209.55 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8562,7 +8476,6 @@
 	)
 	(label "~{H0}"
 		(at 234.315 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,7 +8486,6 @@
 	)
 	(label "~{SPRITE_X5}"
 		(at 285.75 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8584,7 +8496,6 @@
 	)
 	(label "~{H3}"
 		(at 209.55 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8595,7 +8506,6 @@
 	)
 	(label "~{SPRITE_X0}"
 		(at 181.61 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8606,7 +8516,6 @@
 	)
 	(label "SPRITE_RST2"
 		(at 278.13 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8617,7 +8526,6 @@
 	)
 	(label "SAVE_SPRITE_X1"
 		(at 161.925 27.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8628,7 +8536,6 @@
 	)
 	(label "~{H2}"
 		(at 209.55 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8639,7 +8546,6 @@
 	)
 	(label "SPRITE_RST0"
 		(at 40.64 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8650,7 +8556,6 @@
 	)
 	(label "~{H4}"
 		(at 209.55 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8661,7 +8566,6 @@
 	)
 	(label "~{SPRITE_X3}"
 		(at 52.705 274.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8672,7 +8576,6 @@
 	)
 	(label "~{SPRITE_X0}"
 		(at 285.75 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8683,7 +8586,6 @@
 	)
 	(label "~{SPRITE_X3}"
 		(at 167.005 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8694,7 +8596,6 @@
 	)
 	(label "~{H0}"
 		(at 328.295 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8705,7 +8606,6 @@
 	)
 	(label "~{SPRITE_X4}"
 		(at 52.705 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8717,7 +8617,6 @@
 	(hierarchical_label "SPRITE_X_MATCH_H[0..9]"
 		(shape output)
 		(at 332.74 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,7 +8628,6 @@
 	(hierarchical_label "~{H[0..7]}"
 		(shape input)
 		(at 39.37 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8741,7 +8639,6 @@
 	(hierarchical_label "SPRITE_RST[0..9]"
 		(shape input)
 		(at 39.37 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8753,7 +8650,6 @@
 	(hierarchical_label "SAVE_SPRITE_X[0..9]"
 		(shape input)
 		(at 39.37 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8765,7 +8661,6 @@
 	(hierarchical_label "SPRITE_X_MATCH_L[0..9]"
 		(shape output)
 		(at 332.74 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8777,7 +8672,6 @@
 	(hierarchical_label "~{SPRITE_X[0..7]}"
 		(shape input)
 		(at 39.37 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8787,7 +8681,7 @@
 		(uuid "d9121fbc-5e97-4c4e-88fb-bcb75bb7672b")
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 272.415 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8804,7 +8698,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 272.4148 169.0171 0)
 			(effects
 				(font
@@ -8830,7 +8724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 272.415 173.99 0)
 			(effects
 				(font
@@ -8864,7 +8758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8880,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 252.3291 0)
 			(effects
 				(font
@@ -8897,7 +8791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 266.065 0)
 			(effects
 				(font
@@ -8906,7 +8800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 257.81 0)
 			(effects
 				(font
@@ -8985,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -9056,7 +8950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 228.6 0)
 			(effects
 				(font
@@ -9084,7 +8978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 122.555 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9100,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 117.0741 0)
 			(effects
 				(font
@@ -9117,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 130.81 0)
 			(effects
 				(font
@@ -9126,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 122.555 0)
 			(effects
 				(font
@@ -9163,7 +9057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9179,7 +9073,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 164.6991 0)
 			(effects
 				(font
@@ -9196,7 +9090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 178.435 0)
 			(effects
 				(font
@@ -9205,7 +9099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 170.18 0)
 			(effects
 				(font
@@ -9242,7 +9136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9258,7 +9152,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 193.9091 0)
 			(effects
 				(font
@@ -9275,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 207.645 0)
 			(effects
 				(font
@@ -9284,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 199.39 0)
 			(effects
 				(font
@@ -9321,7 +9215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9337,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 102.4691 0)
 			(effects
 				(font
@@ -9354,7 +9248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 116.205 0)
 			(effects
 				(font
@@ -9363,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 107.95 0)
 			(effects
 				(font
@@ -9443,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 257.81 0)
 			(effects
 				(font
@@ -9471,7 +9365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9487,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 252.3291 0)
 			(effects
 				(font
@@ -9504,7 +9398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 266.065 0)
 			(effects
 				(font
@@ -9513,7 +9407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 257.81 0)
 			(effects
 				(font
@@ -9550,7 +9444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9566,7 +9460,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 44.0491 0)
 			(effects
 				(font
@@ -9583,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 57.785 0)
 			(effects
 				(font
@@ -9592,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 49.53 0)
 			(effects
 				(font
@@ -9629,7 +9523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9645,7 +9539,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 164.6991 0)
 			(effects
 				(font
@@ -9662,7 +9556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 178.435 0)
 			(effects
 				(font
@@ -9671,7 +9565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -9708,7 +9602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 272.415 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9724,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 266.9341 0)
 			(effects
 				(font
@@ -9741,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 280.67 0)
 			(effects
 				(font
@@ -9750,7 +9644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 272.415 0)
 			(effects
 				(font
@@ -9787,7 +9681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 34.925 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9803,7 +9697,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 29.4441 0)
 			(effects
 				(font
@@ -9820,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 43.18 0)
 			(effects
 				(font
@@ -9829,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 34.925 0)
 			(effects
 				(font
@@ -9866,7 +9760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9882,7 +9776,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 73.2591 0)
 			(effects
 				(font
@@ -9899,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 86.995 0)
 			(effects
 				(font
@@ -9908,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 78.74 0)
 			(effects
 				(font
@@ -9988,7 +9882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 257.81 0)
 			(effects
 				(font
@@ -10016,7 +9910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 184.785 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10032,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 179.3041 0)
 			(effects
 				(font
@@ -10049,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 193.04 0)
 			(effects
 				(font
@@ -10058,7 +9952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 184.785 0)
 			(effects
 				(font
@@ -10138,7 +10032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 228.6 0)
 			(effects
 				(font
@@ -10166,7 +10060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10182,7 +10076,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 102.4691 0)
 			(effects
 				(font
@@ -10199,7 +10093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 116.205 0)
 			(effects
 				(font
@@ -10208,7 +10102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 107.95 0)
 			(effects
 				(font
@@ -10245,7 +10139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10261,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 131.6791 0)
 			(effects
 				(font
@@ -10278,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 145.415 0)
 			(effects
 				(font
@@ -10287,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 137.16 0)
 			(effects
 				(font
@@ -10367,7 +10261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 199.39 0)
 			(effects
 				(font
@@ -10438,7 +10332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 184.785 0)
 			(effects
 				(font
@@ -10509,7 +10403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 34.925 0)
 			(effects
 				(font
@@ -10579,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 78.74 0)
 			(effects
 				(font
@@ -10650,7 +10544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 93.345 0)
 			(effects
 				(font
@@ -10720,7 +10614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 272.415 0)
 			(effects
 				(font
@@ -10791,7 +10685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 64.135 0)
 			(effects
 				(font
@@ -10819,7 +10713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 247.65 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10836,7 +10730,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 247.6498 128.3771 0)
 			(effects
 				(font
@@ -10862,7 +10756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 247.65 133.35 0)
 			(effects
 				(font
@@ -10896,7 +10790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 272.415 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10913,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 272.4148 227.4371 0)
 			(effects
 				(font
@@ -10939,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 272.415 232.41 0)
 			(effects
 				(font
@@ -11016,7 +10910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 107.95 0)
 			(effects
 				(font
@@ -11044,7 +10938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 122.555 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11060,7 +10954,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 117.0741 0)
 			(effects
 				(font
@@ -11077,7 +10971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 130.81 0)
 			(effects
 				(font
@@ -11086,7 +10980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 122.555 0)
 			(effects
 				(font
@@ -11166,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 184.785 0)
 			(effects
 				(font
@@ -11237,7 +11131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 107.95 0)
 			(effects
 				(font
@@ -11265,7 +11159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 64.135 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11281,7 +11175,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 58.6541 0)
 			(effects
 				(font
@@ -11298,7 +11192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 72.39 0)
 			(effects
 				(font
@@ -11307,7 +11201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 64.135 0)
 			(effects
 				(font
@@ -11387,7 +11281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 243.205 0)
 			(effects
 				(font
@@ -11457,7 +11351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -11528,7 +11422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 122.555 0)
 			(effects
 				(font
@@ -11599,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 122.555 0)
 			(effects
 				(font
@@ -11670,7 +11564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 93.345 0)
 			(effects
 				(font
@@ -11698,7 +11592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 128.905 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11715,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 128.9048 69.9571 0)
 			(effects
 				(font
@@ -11741,7 +11635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 128.905 74.93 0)
 			(effects
 				(font
@@ -11817,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 78.74 0)
 			(effects
 				(font
@@ -11845,7 +11739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 366.395 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11862,7 +11756,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 366.3948 128.3771 0)
 			(effects
 				(font
@@ -11888,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 366.395 133.35 0)
 			(effects
 				(font
@@ -11922,7 +11816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 366.395 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11939,7 +11833,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 366.3948 69.9571 0)
 			(effects
 				(font
@@ -11965,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 366.395 74.93 0)
 			(effects
 				(font
@@ -11999,7 +11893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 184.785 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12015,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 179.3041 0)
 			(effects
 				(font
@@ -12032,7 +11926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 193.04 0)
 			(effects
 				(font
@@ -12041,7 +11935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 184.785 0)
 			(effects
 				(font
@@ -12078,7 +11972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 213.995 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12094,7 +11988,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 208.5141 0)
 			(effects
 				(font
@@ -12111,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 222.25 0)
 			(effects
 				(font
@@ -12120,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 213.995 0)
 			(effects
 				(font
@@ -12199,7 +12093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 137.16 0)
 			(effects
 				(font
@@ -12270,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 49.53 0)
 			(effects
 				(font
@@ -12340,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 213.995 0)
 			(effects
 				(font
@@ -12368,7 +12262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12384,7 +12278,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 87.8641 0)
 			(effects
 				(font
@@ -12401,7 +12295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 101.6 0)
 			(effects
 				(font
@@ -12410,7 +12304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 93.345 0)
 			(effects
 				(font
@@ -12490,7 +12384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 170.18 0)
 			(effects
 				(font
@@ -12560,7 +12454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 213.995 0)
 			(effects
 				(font
@@ -12630,7 +12524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 137.16 0)
 			(effects
 				(font
@@ -12701,7 +12595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 199.39 0)
 			(effects
 				(font
@@ -12729,7 +12623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 272.415 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12745,7 +12639,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 266.9341 0)
 			(effects
 				(font
@@ -12762,7 +12656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 280.67 0)
 			(effects
 				(font
@@ -12771,7 +12665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 272.415 0)
 			(effects
 				(font
@@ -12808,7 +12702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 64.135 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12824,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 58.6541 0)
 			(effects
 				(font
@@ -12841,7 +12735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -12850,7 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 64.135 0)
 			(effects
 				(font
@@ -12887,7 +12781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 143.51 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12904,7 +12798,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 143.5098 227.4371 0)
 			(effects
 				(font
@@ -12930,7 +12824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 143.51 232.41 0)
 			(effects
 				(font
@@ -13007,7 +12901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 107.95 0)
 			(effects
 				(font
@@ -13035,7 +12929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13051,7 +12945,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 44.0491 0)
 			(effects
 				(font
@@ -13068,7 +12962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 57.785 0)
 			(effects
 				(font
@@ -13077,7 +12971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 49.53 0)
 			(effects
 				(font
@@ -13157,7 +13051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 118.745 243.205 0)
 			(effects
 				(font
@@ -13185,7 +13079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 128.905 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13202,7 +13096,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 128.9048 128.3771 0)
 			(effects
 				(font
@@ -13228,7 +13122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 128.905 133.35 0)
 			(effects
 				(font
@@ -13262,7 +13156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13278,7 +13172,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 223.1191 0)
 			(effects
 				(font
@@ -13295,7 +13189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 236.855 0)
 			(effects
 				(font
@@ -13304,7 +13198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 228.6 0)
 			(effects
 				(font
@@ -13384,7 +13278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 49.53 0)
 			(effects
 				(font
@@ -13455,7 +13349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 64.135 0)
 			(effects
 				(font
@@ -13483,7 +13377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13499,7 +13393,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 87.8641 0)
 			(effects
 				(font
@@ -13516,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 101.6 0)
 			(effects
 				(font
@@ -13525,7 +13419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 93.345 0)
 			(effects
 				(font
@@ -13562,7 +13456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 64.135 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13578,7 +13472,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 58.6541 0)
 			(effects
 				(font
@@ -13595,7 +13489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 72.39 0)
 			(effects
 				(font
@@ -13604,7 +13498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 64.135 0)
 			(effects
 				(font
@@ -13641,7 +13535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13657,7 +13551,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 44.0491 0)
 			(effects
 				(font
@@ -13674,7 +13568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 57.785 0)
 			(effects
 				(font
@@ -13683,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 49.53 0)
 			(effects
 				(font
@@ -13762,7 +13656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 272.415 0)
 			(effects
 				(font
@@ -13790,7 +13684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13806,7 +13700,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 223.1191 0)
 			(effects
 				(font
@@ -13823,7 +13717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 236.855 0)
 			(effects
 				(font
@@ -13832,7 +13726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 228.6 0)
 			(effects
 				(font
@@ -13869,7 +13763,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 247.65 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13886,7 +13780,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 247.6498 69.9571 0)
 			(effects
 				(font
@@ -13912,7 +13806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 247.65 74.93 0)
 			(effects
 				(font
@@ -13946,7 +13840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 213.995 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13962,7 +13856,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 208.5141 0)
 			(effects
 				(font
@@ -13979,7 +13873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 222.25 0)
 			(effects
 				(font
@@ -13988,7 +13882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 213.995 0)
 			(effects
 				(font
@@ -14025,7 +13919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 34.925 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14041,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 29.4441 0)
 			(effects
 				(font
@@ -14058,7 +13952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 43.18 0)
 			(effects
 				(font
@@ -14067,7 +13961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 34.925 0)
 			(effects
 				(font
@@ -14104,7 +13998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 122.555 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14120,7 +14014,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 117.0741 0)
 			(effects
 				(font
@@ -14137,7 +14031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 130.81 0)
 			(effects
 				(font
@@ -14146,7 +14040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 122.555 0)
 			(effects
 				(font
@@ -14183,7 +14077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14199,7 +14093,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 193.9091 0)
 			(effects
 				(font
@@ -14216,7 +14110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 207.645 0)
 			(effects
 				(font
@@ -14225,7 +14119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 199.39 0)
 			(effects
 				(font
@@ -14262,7 +14156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 90.17 243.205 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14278,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 90.17 237.7241 0)
 			(effects
 				(font
@@ -14295,7 +14189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 90.17 251.46 0)
 			(effects
 				(font
@@ -14304,7 +14198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 90.17 243.205 0)
 			(effects
 				(font
@@ -14384,7 +14278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 222.885 49.53 0)
 			(effects
 				(font
@@ -14455,7 +14349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 93.345 0)
 			(effects
 				(font
@@ -14483,7 +14377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14499,7 +14393,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 73.2591 0)
 			(effects
 				(font
@@ -14516,7 +14410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 86.995 0)
 			(effects
 				(font
@@ -14525,7 +14419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 78.74 0)
 			(effects
 				(font
@@ -14605,7 +14499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 34.925 0)
 			(effects
 				(font
@@ -14676,7 +14570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 122.555 0)
 			(effects
 				(font
@@ -14704,7 +14598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 34.925 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14720,7 +14614,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 29.4441 0)
 			(effects
 				(font
@@ -14737,7 +14631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 43.18 0)
 			(effects
 				(font
@@ -14746,7 +14640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 34.925 0)
 			(effects
 				(font
@@ -14783,7 +14677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 143.51 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14800,7 +14694,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 143.5098 169.0171 0)
 			(effects
 				(font
@@ -14826,7 +14720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 143.51 173.99 0)
 			(effects
 				(font
@@ -14860,7 +14754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14876,7 +14770,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 131.6791 0)
 			(effects
 				(font
@@ -14893,7 +14787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 145.415 0)
 			(effects
 				(font
@@ -14902,7 +14796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -14982,7 +14876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 104.14 64.135 0)
 			(effects
 				(font
@@ -15010,7 +14904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15026,7 +14920,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 131.6791 0)
 			(effects
 				(font
@@ -15043,7 +14937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 145.415 0)
 			(effects
 				(font
@@ -15052,7 +14946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 137.16 0)
 			(effects
 				(font
@@ -15132,7 +15026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 247.65 170.18 0)
 			(effects
 				(font
@@ -15160,7 +15054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 75.565 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15176,7 +15070,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 75.565 102.4691 0)
 			(effects
 				(font
@@ -15193,7 +15087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 75.565 116.205 0)
 			(effects
 				(font
@@ -15202,7 +15096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 75.565 107.95 0)
 			(effects
 				(font
@@ -15282,7 +15176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XOR gate with two inputs."
 			(at 341.63 34.925 0)
 			(effects
 				(font
@@ -15310,7 +15204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 194.31 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15326,7 +15220,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 194.31 73.2591 0)
 			(effects
 				(font
@@ -15343,7 +15237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 194.31 86.995 0)
 			(effects
 				(font
@@ -15352,7 +15246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 194.31 78.74 0)
 			(effects
 				(font
@@ -15389,7 +15283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 313.055 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15405,7 +15299,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 313.055 87.8641 0)
 			(effects
 				(font
@@ -15422,7 +15316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 313.055 101.6 0)
 			(effects
 				(font
@@ -15431,7 +15325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 313.055 93.345 0)
 			(effects
 				(font
@@ -15468,7 +15362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:DR_LATCH")
+		(lib_id "DMG_CPU_Cells:DRLATCH_EE")
 		(at 219.075 243.205 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15484,7 +15378,7 @@
 				)
 			)
 		)
-		(property "Value" "DR_LATCH"
+		(property "Value" "DRLATCH_EE"
 			(at 219.075 237.7241 0)
 			(effects
 				(font
@@ -15501,7 +15395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#drlatch_ee"
 			(at 219.075 251.46 0)
 			(effects
 				(font
@@ -15510,7 +15404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with externally inverted enable inputs and active-low reset."
 			(at 219.075 243.205 0)
 			(effects
 				(font

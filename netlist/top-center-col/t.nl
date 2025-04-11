@@ -1,47 +1,47 @@
 # Cells in column T in top center
 # -------------------------------
 
-cell taba:or3         rot0 @-60.52,135.88,-59.66,137.96   ->clocks;
-cell tubo:nor_latch   rot0 @-61.55,135.88,-60.49,137.95   ->clocks;
-cell tova:inv_a       rot0 @-61.91,135.87,-61.52,137.95   ->bus-adr;
-cell tyva:dffr_b2     rot0 @-64.78,135.88,-61.87,137.95   ->timer;
-cell teka:dffr_b2     rot0 @-67.70,135.88,-64.77,137.95   ->clocks;
-cell tyru:dffr_b2     rot0 @-70.59,135.87,-67.67,137.95   ->timer;
-cell tuny:and3        rot0 @-71.46,135.88,-70.58,137.94   ->int;
-cell tome:nand3       rot0 @-72.13,135.88,-71.45,137.93   ->int;
-cell tama:dffr_b2     rot0 @-75.02,135.88,-72.11,137.95   ->clocks;
-cell tatu:tri_inv_if1 rot0 @-76.05,135.88,-75.02,137.94   ->clocks;
-cell tero:dffr_b2     rot0 @-78.97,135.87,-76.04,137.94   ->clocks;
-cell tapu:inv_c       rot0 @-79.65,135.87,-78.94,137.95   ->bus-data;
-cell tope:nand4       rot0 @-80.51,135.87,-79.64,137.93   ->timer;
-cell tedo:inv_c       rot0 @-81.18,135.86,-80.48,137.94   ->bus-data;
-cell teda:and4        rot0 @-82.20,135.87,-81.18,137.91   ->timer;
-cell tyju:nand4       rot0 @-83.05,135.86,-82.20,137.93   ->timer;
-cell tuby:and4        rot0 @-84.08,135.86,-83.04,137.94   ->timer;
-cell tymu:nor2        rot0 @-84.61,135.87,-84.06,137.92   ->bus-data;
-cell tape:and4        rot0 @-85.63,135.87,-84.59,137.93   ->clocks;
-cell tovy:inv_a       rot0 @-85.97,135.87,-85.61,137.94   ->timer;
-cell tagy:and4        rot0 @-87.00,135.86,-85.95,137.94   ->clocks;
-cell tola:inv_a       rot0 @-87.34,135.85,-86.98,137.95   ->timer;
-cell tyme:and3        rot0 @-88.20,135.86,-87.32,137.94   ->int;
-cell toga:nand3       rot0 @-88.87,135.85,-88.18,137.93   ->int;
-cell tecy:muxi        rot0 @-89.73,135.88,-88.85,137.94   ->timer;
-cell teru:dffr_b2     rot0 @-92.64,135.88,-89.72,137.94   ->clocks;
-cell teko:muxi        rot0 @-93.48,135.85,-92.61,137.93   ->timer;
-cell tofe:dffr_b2     rot0 @-96.40,135.84,-93.46,137.92   ->clocks;
-cell taku:tri_inv_if1 rot0 @-97.42,135.86,-96.38,137.93   ->clocks;
-cell tulu:dffr_b2     rot0 @-100.33,135.85,-97.41,137.92  ->clocks;
-cell tugo:dffr_b2     rot0 @-103.23,135.88,-100.31,137.91 ->clocks;
-cell tuse:tri_inv_if1 rot0 @-104.26,135.86,-103.21,137.91 ->clocks;
-cell temu:tri_inv_if1 rot0 @-105.28,135.84,-104.23,137.93 ->clocks;
-cell tawu:tri_inv_if1 rot0 @-106.30,135.85,-105.27,137.91 ->clocks;
+cell taba:or3       rot0 @-60.52,135.88,-59.66,137.96   ->clocks;
+cell tubo:nor_latch rot0 @-61.55,135.88,-60.49,137.95   ->clocks;
+cell tova:not_x1    rot0 @-61.91,135.87,-61.52,137.95   ->bus-adr;
+cell tyva:dffr      rot0 @-64.78,135.88,-61.87,137.95   ->timer;
+cell teka:dffr      rot0 @-67.70,135.88,-64.77,137.95   ->clocks;
+cell tyru:dffr      rot0 @-70.59,135.87,-67.67,137.95   ->timer;
+cell tuny:and3      rot0 @-71.46,135.88,-70.58,137.94   ->int;
+cell tome:nand3     rot0 @-72.13,135.88,-71.45,137.93   ->int;
+cell tama:dffr      rot0 @-75.02,135.88,-72.11,137.95   ->clocks;
+cell tatu:not_if1   rot0 @-76.05,135.88,-75.02,137.94   ->clocks;
+cell tero:dffr      rot0 @-78.97,135.87,-76.04,137.94   ->clocks;
+cell tapu:not_x3    rot0 @-79.65,135.87,-78.94,137.95   ->bus-data;
+cell tope:nand4     rot0 @-80.51,135.87,-79.64,137.93   ->timer;
+cell tedo:not_x3    rot0 @-81.18,135.86,-80.48,137.94   ->bus-data;
+cell teda:and4      rot0 @-82.20,135.87,-81.18,137.91   ->timer;
+cell tyju:nand4     rot0 @-83.05,135.86,-82.20,137.93   ->timer;
+cell tuby:and4      rot0 @-84.08,135.86,-83.04,137.94   ->timer;
+cell tymu:nor2      rot0 @-84.61,135.87,-84.06,137.92   ->bus-data;
+cell tape:and4      rot0 @-85.63,135.87,-84.59,137.93   ->clocks;
+cell tovy:not_x1    rot0 @-85.97,135.87,-85.61,137.94   ->timer;
+cell tagy:and4      rot0 @-87.00,135.86,-85.95,137.94   ->clocks;
+cell tola:not_x1    rot0 @-87.34,135.85,-86.98,137.95   ->timer;
+cell tyme:and3      rot0 @-88.20,135.86,-87.32,137.94   ->int;
+cell toga:nand3     rot0 @-88.87,135.85,-88.18,137.93   ->int;
+cell tecy:muxi      rot0 @-89.73,135.88,-88.85,137.94   ->timer;
+cell teru:dffr      rot0 @-92.64,135.88,-89.72,137.94   ->clocks;
+cell teko:muxi      rot0 @-93.48,135.85,-92.61,137.93   ->timer;
+cell tofe:dffr      rot0 @-96.40,135.84,-93.46,137.92   ->clocks;
+cell taku:not_if1   rot0 @-97.42,135.86,-96.38,137.93   ->clocks;
+cell tulu:dffr      rot0 @-100.33,135.85,-97.41,137.92  ->clocks;
+cell tugo:dffr      rot0 @-103.23,135.88,-100.31,137.91 ->clocks;
+cell tuse:not_if1   rot0 @-104.26,135.86,-103.21,137.91 ->clocks;
+cell temu:not_if1   rot0 @-105.28,135.84,-104.23,137.93 ->clocks;
+cell tawu:not_if1   rot0 @-106.30,135.85,-105.27,137.91 ->clocks;
 
 
 # Wires originating from column T in top center
 # ---------------------------------------------
 
 wire osc_stable:ctl
-	taba.q -> cpu.t15 alyp.in
+	taba.y -> cpu.t15 alyp.in
 	@-54.09,101.95,-54.03,65.84,-47.74,65.84,-47.82,127.00,-47.87,160.66,-56.16,160.66
 	@-47.82,127.00,-59.39,126.99,-59.41,135.09,-60.44,135.09,-60.44,136.20;
 
@@ -52,7 +52,7 @@ wire tubo:ctl
 	@-60.95,137.67,-60.95,139.40,-59.75,139.40,-59.75,139.85;
 
 wire ~ext_addr_en:ctl
-	tova.q -> labe.in2 lepy.in2 luce.in2 lyna.~ena lefy.~ena lofa.~ena lora.~ena myny.in2 mune.in2 mapu.~ena
+	tova.y -> labe.in2 lepy.in2 luce.in2 lyna.~ena lefy.~ena lofa.~ena lora.~ena myny.in2 mune.in2 mapu.~ena
 	          nefe.~ena puhe.in2 rala.~ena roxu.in2 uver.in2 ugac.in2 akan.~ena azuv.~ena anar.~ena ajov.~ena
 	          byxe.~ena badu.in2 boty.in2 byne.~ena byna.~ena boku.in2 byla.in2 cepu.in2 caba.in2 defy.in2
 	          kejo.~ena kupo.in2
@@ -112,11 +112,11 @@ wire ~tyru:data
 	@-70.34,136.16,-70.34,135.47,-70.17,135.47,-70.17,133.40;
 
 wire tuny:data
-	tuny.q -> ubul.~r
+	tuny.y -> ubul.~r
 	@-71.36,137.67,-71.36,138.71,-71.87,138.71,-71.87,139.82;
 
 wire tome:data
-	tome.q -> ubul.~s
+	tome.y -> ubul.~s
 	@-72.05,137.65,-72.05,139.26,-71.35,139.26,-71.35,143.52,-69.15,143.52,-69.15,141.33;
 
 wire tama:clk
@@ -138,7 +138,7 @@ wire ~tero:clk
 	@-77.17,137.65,-77.17,139.14,-76.99,139.14,-76.99,142.66,-66.41,142.67,-66.41,141.31;
 
 wire cpu_wr:ctl
-	tapu.q -> tuge.in4 dyky.in refa.in4 sara.in3 tope.in3 tyju.in3 tape.in2 uwam.in3 urys.in3 atef.in2
+	tapu.y -> tuge.in4 dyky.in refa.in4 sara.in3 tope.in3 tyju.in3 tape.in2 uwam.in3 urys.in3 atef.in2
 	          aper.in4 atoz.in3 bafu.in
 	@-127.10,161.89,-127.10,162.66,-123.31,162.66,-123.31,163.12,-117.54,163.12
 	@-102.20,35.52,-102.19,43.72,-112.13,43.72,-112.19,105.51,-117.46,105.49,-117.46,105.59,-117.52,139.04,
@@ -153,7 +153,7 @@ wire cpu_wr:ctl
 	@-140.98,181.86,-147.81,181.85,-147.81,183.77;
 
 wire tope:ctl
-	tope.q -> muzu.in2 nyku.sel petu.sel roke.sel rato.sel refu.sel syru.sel soce.sel sala.sel
+	tope.y -> muzu.in2 nyku.sel petu.sel roke.sel rato.sel refu.sel syru.sel soce.sel sala.sel
 	@-80.42,136.16,-80.42,135.20,-79.90,135.20,-79.90,131.23,-79.73,131.23,-79.73,127.99,-78.87,127.99
 	@-78.87,128.45,-78.87,127.40,-72.88,127.40,-72.88,128.45
 	@-77.15,127.40,-77.15,125.79
@@ -163,7 +163,7 @@ wire tope:ctl
 	@-61.97,135.60,-60.09,135.60,-60.09,133.44;
 
 wire cpu_rd:ctl
-	tedo.q -> texe.in1 ajas.in redu.in rolo.in4 sora.in2 teda.in2 tuby.in2 tagy.in2 ucom.in2 ufeg.in2
+	tedo.y -> texe.in1 ajas.in redu.in rolo.in4 sora.in2 teda.in2 tuby.in2 tagy.in2 ucom.in2 ufeg.in2
 	          yula.in3 abuf.in2 acat.in2 aguz.in
 	@-126.08,161.89,-126.08,162.53,-123.18,162.53,-123.18,162.95,-117.36,162.95
 	@-83.87,166.63,-84.63,166.63,-84.61,149.02,-98.39,149.01,-98.39,148.34,-105.23,148.34,-105.23,148.67,
@@ -183,7 +183,7 @@ wire cpu_rd:ctl
 	@-148.49,182.80,-149.35,182.80,-149.35,183.76;
 
 wire teda:ctl
-	teda.q -> puso.ena ravy.ena racy.ena rowu.ena sosy.ena suro.ena somu.ena soku.ena
+	teda.y -> puso.ena ravy.ena racy.ena rowu.ena sosy.ena suro.ena somu.ena soku.ena
 	@-82.13,136.16,-82.13,135.20,-80.59,135.20,-80.59,129.90
 	@-80.59,134.51,-78.02,134.51,-78.02,131.49,-77.84,131.49,-77.84,129.91
 	@-78.02,134.26,-73.40,134.26,-73.40,126.67,-74.59,126.67,-74.59,125.80
@@ -193,7 +193,7 @@ wire teda:ctl
 	@-63.84,131.49,-63.84,131.94;
 
 wire tyju:ctl
-	tyju.q -> muru.clk nyke.clk peto.clk sufy.clk sabu.clk seta.clk tyva.clk tyru.clk
+	tyju.y -> muru.clk nyke.clk peto.clk sufy.clk sabu.clk seta.clk tyva.clk tyru.clk
 	@-82.97,136.16,-82.97,135.71,-74.60,135.71,-67.95,135.72
 	@-78.54,135.71,-78.54,131.23,-78.02,131.23,-78.02,126.25,-78.35,126.25,-78.35,123.52,-77.49,123.52,
 	 -77.49,118.98,-72.02,118.98,-72.02,117.30
@@ -203,7 +203,7 @@ wire tyju:ctl
 	@-65.04,135.34,-65.04,133.42;
 
 wire tuby:ctl
-	tuby.q -> nola.ena pyre.ena reva.ena salu.ena sotu.ena supo.ena sete.ena sapu.ena
+	tuby.y -> nola.ena pyre.ena reva.ena salu.ena sotu.ena supo.ena sete.ena sapu.ena
 	@-84.00,136.15,-84.00,135.32,-77.34,135.32,-72.38,135.33,-69.66,135.33,-69.66,133.42
 	@-81.44,135.32,-81.44,130.38,-81.60,130.38,-81.60,126.63,-78.70,126.63,-78.70,122.95,-71.69,122.95,-71.69,121.05
 	@-77.34,135.32,-77.34,133.40
@@ -212,16 +212,16 @@ wire tuby:ctl
 	@-68.63,135.03,-68.63,133.44;
 
 wire tymu:ctl
-	tymu.q -> ugac.in1 urun.in2
+	tymu.y -> ugac.in1 urun.in2
 	@-84.51,137.66,-84.51,138.83,-83.65,138.83,-83.65,139.83
 	@-84.34,138.83,-84.34,139.84;
 
 wire tape:ctl
-	tape.q -> ufol.in3
+	tape.y -> ufol.in3
 	@-85.54,137.66,-85.54,138.95,-82.80,138.95,-82.80,139.84;
 
 wire tovy:adr
-	tovy.q -> tyju.in1 tuby.in4 tape.in4 tagy.in4 uwam.in1 ucom.in4
+	tovy.y -> tyju.in1 tuby.in4 tape.in4 tagy.in4 uwam.in1 ucom.in4
 	@-85.89,137.64,-85.89,139.23,-86.05,139.23
 	@-86.05,139.84,-86.05,138.23,-86.57,138.23,-86.57,137.63
 	@-85.89,138.77,-85.19,138.77
@@ -230,7 +230,7 @@ wire tovy:adr
 	@-83.66,138.53,-83.66,137.65;
 
 wire tagy:ctl
-	tagy.q -> sawa.ena sepu.ena tatu.ena taku.ena tuse.ena temu.ena tawu.ena upug.ena
+	tagy.y -> sawa.ena sepu.ena tatu.ena taku.ena tuse.ena temu.ena tawu.ena upug.ena
 	@-86.91,136.16,-86.91,134.68,-81.27,134.68,-81.27,133.40
 	@-86.90,135.70,-96.47,135.70,-96.47,138.70,-103.31,138.69
 	@-89.30,135.70,-89.30,133.41
@@ -240,7 +240,7 @@ wire tagy:ctl
 	@-81.27,134.13,-75.11,134.13,-75.11,136.16;
 
 wire tola:adr
-	tola.q -> tope.in2 teda.in3 tape.in3 tagy.in3 urys.in2 ufeg.in3
+	tola.y -> tope.in2 teda.in3 tape.in3 tagy.in3 urys.in2 ufeg.in3
 	@-87.26,137.65,-87.26,139.38,-87.77,139.38,-87.77,139.82
 	@-87.26,139.25,-86.39,139.25,-86.39,137.64
 	@-86.74,139.25,-86.74,139.82
@@ -249,15 +249,15 @@ wire tola:adr
 	@-81.62,137.65,-81.62,139.00,-79.90,139.00,-79.90,137.65;
 
 wire tyme:data
-	tyme.q -> ulak.~r
+	tyme.y -> ulak.~r
 	@-88.11,137.65,-88.11,142.96,-92.38,142.96,-92.38,141.30;
 
 wire toga:data
-	toga.q -> ulak.~s
+	toga.y -> ulak.~s
 	@-88.80,137.65,-88.80,139.09,-89.65,139.09,-89.65,142.03,-91.88,142.03,-91.88,141.30;
 
 wire tecy:clk
-	tecy.q -> sogu.in1
+	tecy.y -> sogu.in1
 	@-89.65,136.16,-89.65,135.15,-88.78,135.15,-88.78,133.41;
 
 wire teru:clk
@@ -270,7 +270,7 @@ wire ~teru:clk
 	@-90.84,135.57,-90.84,136.16;
 
 wire teko:clk
-	teko.q -> tecy.d0
+	teko.y -> tecy.d0
 	@-93.40,137.64,-93.40,139.38,-89.30,139.38,-89.30,137.63;
 
 wire tofe:clk

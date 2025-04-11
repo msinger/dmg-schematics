@@ -1,54 +1,54 @@
 # Cells in row B in top center
 # ----------------------------
 
-cell boma:inv_e rot270 @-62.20,149.63,-60.10,150.84 comp  ->clocks;
-cell boga:inv_e rot270 @-62.20,150.84,-60.09,152.04       ->clocks;
-cell byju:or2   rot270 @-62.19,152.03,-60.10,152.72       ->clocks;
-cell baly:inv_a rot270 @-62.18,152.72,-60.11,153.06       ->clocks;
-cell bele:inv_a rot270 @-62.20,153.05,-60.09,153.41       ->clocks;
-cell buto:nand3 rot270 @-62.19,153.40,-60.12,154.09       ->clocks;
-cell baze:inv_a rot270 @-62.20,154.25,-60.11,154.58       ->clocks;
-cell buve:inv_b rot270 @-62.20,154.76,-60.12,155.28 spare;
-cell begy:inv_b rot270 @-62.19,155.27,-60.12,155.80 spare ->clocks;
-cell behy:inv_b rot270 @-62.20,155.79,-60.13,156.30 spare ->clocks;
-cell bexe:inv_b rot270 @-62.19,156.30,-60.13,156.83 spare ->clocks;
-cell bope:inv_b rot270 @-62.20,156.81,-60.13,157.33 spare ->clocks;
-cell belo:inv_a rot270 @-62.20,157.31,-60.13,157.66       ->clocks;
-cell bane:inv_a rot270 @-62.20,157.66,-60.14,158.02       ->clocks;
-cell beja:nand4 rot270 @-62.20,158.01,-60.14,158.87       ->clocks;
-cell buke:inv_e rot270 @-62.20,158.85,-60.12,160.06       ->clocks;
-cell basu:inv_a rot270 @-62.20,160.05,-60.13,160.41       ->clocks;
-cell bugo:inv_a rot270 @-62.20,160.40,-60.12,160.75       ->clocks;
-cell bate:nor3  rot270 @-62.20,160.74,-60.12,161.43       ->clocks;
-cell bufa:inv_d rot270 @-62.20,161.43,-60.12,162.29       ->clocks;
-cell byly:inv_e rot270 @-62.21,162.28,-60.12,163.49       ->clocks;
-cell bolo:inv_d rot270 @-62.20,163.47,-60.13,164.34       ->clocks;
-cell byda:inv_e rot270 @-62.20,164.33,-60.13,165.54       ->clocks;
-cell beru:inv_b rot270 @-62.20,165.53,-60.14,166.05       ->clocks;
-cell bapy:nor3  rot270 @-62.21,166.05,-60.13,166.74       ->clocks;
-cell bude:inv_d rot270 @-62.20,166.73,-60.13,167.59       ->clocks;
-cell beva:inv_e rot270 @-62.20,167.59,-60.13,168.79       ->clocks;
-cell beko:inv_d rot270 @-62.20,168.78,-60.15,169.65       ->clocks;
-cell bavy:inv_e rot270 @-62.21,169.64,-60.15,170.84       ->clocks;
-cell byry:inv_b rot270 @-62.22,170.83,-60.15,171.34       ->clocks;
-cell belu:nor2  rot270 @-62.22,171.34,-60.13,171.86       ->clocks;
-cell bedo:inv_e rot270 @-62.21,171.84,-60.14,173.05       ->clocks;
-cell bowa:inv_e rot270 @-62.20,173.05,-60.13,174.25       ->clocks;
-cell buvu:and2  rot270 @-62.21,174.25,-60.13,174.94       ->clocks;
-cell byxo:inv_a rot270 @-62.23,174.92,-60.14,175.27       ->clocks;
-cell buty:inv_a rot270 @-62.22,175.27,-60.14,175.60       ->clocks;
+cell boma:not_x6 rot270 @-62.20,149.63,-60.10,150.84 comp  ->clocks;
+cell boga:not_x6 rot270 @-62.20,150.84,-60.09,152.04       ->clocks;
+cell byju:or2    rot270 @-62.19,152.03,-60.10,152.72       ->clocks;
+cell baly:not_x1 rot270 @-62.18,152.72,-60.11,153.06       ->clocks;
+cell bele:not_x1 rot270 @-62.20,153.05,-60.09,153.41       ->clocks;
+cell buto:nand3  rot270 @-62.19,153.40,-60.12,154.09       ->clocks;
+cell baze:not_x1 rot270 @-62.20,154.25,-60.11,154.58       ->clocks;
+cell buve:not_x2 rot270 @-62.20,154.76,-60.12,155.28 spare;
+cell begy:not_x2 rot270 @-62.19,155.27,-60.12,155.80 spare ->clocks;
+cell behy:not_x2 rot270 @-62.20,155.79,-60.13,156.30 spare ->clocks;
+cell bexe:not_x2 rot270 @-62.19,156.30,-60.13,156.83 spare ->clocks;
+cell bope:not_x2 rot270 @-62.20,156.81,-60.13,157.33 spare ->clocks;
+cell belo:not_x1 rot270 @-62.20,157.31,-60.13,157.66       ->clocks;
+cell bane:not_x1 rot270 @-62.20,157.66,-60.14,158.02       ->clocks;
+cell beja:nand4  rot270 @-62.20,158.01,-60.14,158.87       ->clocks;
+cell buke:not_x6 rot270 @-62.20,158.85,-60.12,160.06       ->clocks;
+cell basu:not_x1 rot270 @-62.20,160.05,-60.13,160.41       ->clocks;
+cell bugo:not_x1 rot270 @-62.20,160.40,-60.12,160.75       ->clocks;
+cell bate:nor3   rot270 @-62.20,160.74,-60.12,161.43       ->clocks;
+cell bufa:not_x4 rot270 @-62.20,161.43,-60.12,162.29       ->clocks;
+cell byly:not_x6 rot270 @-62.21,162.28,-60.12,163.49       ->clocks;
+cell bolo:not_x4 rot270 @-62.20,163.47,-60.13,164.34       ->clocks;
+cell byda:not_x6 rot270 @-62.20,164.33,-60.13,165.54       ->clocks;
+cell beru:not_x2 rot270 @-62.20,165.53,-60.14,166.05       ->clocks;
+cell bapy:nor3   rot270 @-62.21,166.05,-60.13,166.74       ->clocks;
+cell bude:not_x4 rot270 @-62.20,166.73,-60.13,167.59       ->clocks;
+cell beva:not_x6 rot270 @-62.20,167.59,-60.13,168.79       ->clocks;
+cell beko:not_x4 rot270 @-62.20,168.78,-60.15,169.65       ->clocks;
+cell bavy:not_x6 rot270 @-62.21,169.64,-60.15,170.84       ->clocks;
+cell byry:not_x2 rot270 @-62.22,170.83,-60.15,171.34       ->clocks;
+cell belu:nor2   rot270 @-62.22,171.34,-60.13,171.86       ->clocks;
+cell bedo:not_x6 rot270 @-62.21,171.84,-60.14,173.05       ->clocks;
+cell bowa:not_x6 rot270 @-62.20,173.05,-60.13,174.25       ->clocks;
+cell buvu:and2   rot270 @-62.21,174.25,-60.13,174.94       ->clocks;
+cell byxo:not_x1 rot270 @-62.23,174.92,-60.14,175.27       ->clocks;
+cell buty:not_x1 rot270 @-62.22,175.27,-60.14,175.60       ->clocks;
 
 
 # Wires originating from row B in top center
 # ------------------------------------------
 
 wire boma_1mhz:clk
-	boma.q -> cpu.t9 afer.~clk
+	boma.y -> cpu.t9 afer.~clk
 	@-54.88,101.38,-54.82,65.55,-55.95,65.55,-55.94,48.92,-54.35,48.92,-54.35,44.45
 	@-54.35,46.55,-43.95,46.57,-44.08,148.01,-62.50,148.00,-62.50,150.75,-58.59,150.75,-58.59,158.09,-57.61,158.09;
 
 wire boga_1mhz:clk
-	boga.q -> cpu.t10 afer.clk boma.in moba.clk nydu.clk ulur.d1 ukup.clk apug.clk agem.clk acef.clk
+	boga.y -> cpu.t10 afer.clk boma.in moba.clk nydu.clk ulur.d1 ukup.clk apug.clk agem.clk acef.clk
 	          batu.clk awob.ena
 	@-54.88,57.34,-54.88,56.83,-54.02,56.83,-54.00,49.14,-55.80,49.14,-55.81,65.37,-54.70,65.37,-54.75,103.54,
 	 -54.87,103.54,-54.87,103.62
@@ -67,37 +67,37 @@ wire boga_1mhz:clk
 	@-138.59,189.26,-138.59,188.24,-144.74,188.24,-144.74,185.22;
 
 wire byju:clk
-	byju.q -> baly.in
+	byju.y -> baly.in
 	@-60.41,152.64,-59.61,152.64,-59.61,152.80,-60.41,152.80;
 
 wire baly:clk
-	baly.q -> boga.in buvu.in1
+	baly.y -> boga.in buvu.in1
 	@-61.90,150.92,-62.51,150.92,-62.51,152.98,-59.97,152.98,-60.00,174.34,-60.45,174.34;
 
 wire bele:clk
-	bele.q -> byju.in1
+	bele.y -> byju.in1
 	@-60.41,153.32,-59.45,153.32,-59.45,152.12,-60.41,152.12;
 
 wire buto:clk
-	buto.q -> bele.in
+	buto.y -> bele.in
 	@-61.88,154.01,-62.50,154.01,-62.50,153.15,-61.88,153.15;
 
 wire baze:clk
-	baze.q -> buto.in3
+	baze.y -> buto.in3
 	@-61.90,154.51,-62.50,154.51,-62.50,154.17,-59.62,154.17,-59.62,153.83,-60.41,153.83;
 
-# buve.q is not connected
-# begy.q is not connected
-# behy.q is not connected
-# bexe.q is not connected
-# bope.q is not connected
+# buve.y is not connected
+# begy.y is not connected
+# behy.y is not connected
+# bexe.y is not connected
+# bope.y is not connected
 
 wire belo:clk
-	belo.q -> baze.in
+	belo.y -> baze.in
 	@-60.41,157.59,-59.62,157.59,-59.62,154.34,-60.41,154.34;
 
 wire bane:clk
-	bane.q -> begy.in behy.in bexe.in bope.in belo.in
+	bane.y -> begy.in behy.in bexe.in bope.in belo.in
 	@-61.91,157.92,-62.52,157.92,-62.52,155.36,-61.89,155.36
 	@-62.52,155.88,-61.90,155.88
 	@-62.52,156.39,-61.90,156.39
@@ -105,11 +105,11 @@ wire bane:clk
 	@-62.52,157.41,-61.91,157.41;
 
 wire beja:clk
-	beja.q -> bane.in
+	beja.y -> bane.in
 	@-60.41,158.78,-59.62,158.78,-59.62,157.75,-60.41,157.75;
 
 wire buke:clk
-	buke.q -> cpu.t8 azug.in1 abur.in
+	buke.y -> cpu.t8 azug.in1 abur.in
 	@-124.88,161.90,-124.88,162.41,-123.04,162.41,-123.04,162.77,-116.68,162.78,-116.70,180.34,-116.70,180.59,
 	 -48.40,180.63,-48.36,147.84
 	@-116.70,180.34,-133.02,180.33,-133.02,182.08,-141.48,182.08,-141.48,183.77
@@ -117,19 +117,19 @@ wire buke:clk
 	@-54.68,44.44,-54.68,48.14,-59.50,48.14,-59.50,49.92;
 
 wire basu:clk
-	basu.q -> buke.in
+	basu.y -> buke.in
 	@-60.42,160.32,-59.63,160.32,-59.63,158.95,-60.41,158.95;
 
 wire bugo:clk
-	bugo.q -> bate.in1
+	bugo.y -> bate.in1
 	@-61.91,160.66,-62.34,160.66,-62.34,160.82,-61.91,160.82;
 
 wire bate:clk
-	bate.q -> basu.in
+	bate.y -> basu.in
 	@-61.91,161.34,-62.52,161.34,-62.52,160.14,-61.91,160.14;
 
 wire cpu_t4:clk
-	bufa.q byly.q -> cpu.t7 bolo.in byda.in anuj.in1 lavo.in3 muzu.in1 decy.in
+	bufa.y byly.y -> cpu.t7 bolo.in byda.in anuj.in1 lavo.in3 muzu.in1 decy.in
 	@-59.63,49.79,-59.63,48.01,-54.87,48.01,-54.87,44.45
 	@-54.87,46.05,-48.74,46.07,-48.88,147.66,-48.91,179.70,-118.75,179.65,-118.75,178.59,-118.70,126.91,
 	 -118.65,99.14,-125.66,99.14,-125.66,99.41,-126.34,99.41,-126.34,98.23
@@ -141,7 +141,7 @@ wire cpu_t4:clk
 	@-81.92,115.09,-69.11,115.11,-69.11,115.82;
 
 wire ~cpu_t4:clk
-	bolo.q byda.q -> cpu.t6 beja.in1 beja.in2
+	bolo.y byda.y -> cpu.t6 beja.in1 beja.in2
 	@-54.84,54.59,-54.18,54.59,-54.18,49.43,-55.02,49.43,-55.02,44.43
 	@-55.02,47.88,-59.76,47.88,-59.76,49.65
 	@-55.02,45.81,-48.05,45.82,-48.19,147.50,-63.01,147.49,-63.02,158.08,-63.02,163.91,-62.51,163.91,
@@ -151,16 +151,16 @@ wire ~cpu_t4:clk
 	@-62.51,158.08,-62.51,158.26,-61.87,158.26;
 
 wire beru:clk
-	beru.q -> bufa.in byly.in
+	beru.y -> bufa.in byly.in
 	@-60.42,165.96,-59.46,165.96,-59.46,161.51,-60.44,161.51
 	@-59.46,162.38,-60.43,162.38;
 
 wire bapy:clk
-	bapy.q -> beru.in
+	bapy.y -> beru.in
 	@-61.90,166.65,-62.52,166.65,-62.52,165.62,-61.89,165.62;
 
 wire ~cpu_phi:clk
-	bude.q beva.q -> cpu.t5 beko.in bavy.in dova.in uvyt.in phi.~o
+	bude.y beva.y -> cpu.t5 beko.in bavy.in dova.in uvyt.in phi.~o
 	@-59.89,49.52,-59.89,47.75,-55.21,47.75,-55.21,44.44
 	@-55.21,45.56,-48.23,45.57,-48.35,147.32,-49.21,147.32,-63.19,147.33,-63.20,167.15,-62.52,167.15,
 	 -62.52,168.70,-59.63,168.70,-59.63,169.73,-60.45,169.73
@@ -172,7 +172,7 @@ wire ~cpu_phi:clk
 	 -63.03,179.98,-111.42,179.95,-111.38,145.37,-103.91,145.37,-103.91,143.65,-103.84,143.65,-103.84,141.30;
 
 wire cpu_phi:clk
-	beko.q bavy.q -> cpu.t4 beja.in3 beja.in4
+	beko.y bavy.y -> cpu.t4 beja.in3 beja.in4
 	@-54.93,51.88,-54.34,51.88,-54.34,49.68,-55.37,49.68,-55.37,44.43
 	@-55.37,47.61,-60.02,47.61,-60.02,49.40
 	@-55.37,45.30,-44.29,45.32,-44.42,147.16,-63.35,147.16,-63.37,158.42,-63.37,167.49,-62.85,167.49,
@@ -182,16 +182,16 @@ wire cpu_phi:clk
 	@-62.52,158.42,-62.52,158.60,-61.88,158.60;
 
 wire byry:clk
-	byry.q -> bude.in beva.in
+	byry.y -> bude.in beva.in
 	@-60.42,171.27,-59.46,171.27,-59.46,166.81,-60.42,166.81
 	@-59.46,167.68,-60.41,167.68;
 
 wire belu:clk
-	belu.q -> byry.in
+	belu.y -> byry.in
 	@-61.92,171.77,-62.52,171.77,-62.52,170.91,-61.91,170.91;
 
 wire data_valid:clk
-	bedo.q -> cpu.t3 bowa.in leco.in1 axyn.in tuso.in2
+	bedo.y -> cpu.t3 bowa.in leco.in1 axyn.in tuso.in2
 	@-55.31,65.85,-56.20,65.85,-56.19,48.70,-55.54,48.70,-55.54,44.44
 	@-55.54,47.48,-60.15,47.48,-60.15,49.27
 	@-55.54,45.06,-48.75,45.07,-44.46,45.07,-44.55,109.55,-47.28,109.55,-93.70,109.51
@@ -203,19 +203,19 @@ wire data_valid:clk
 	 -111.59,179.95,-114.89,179.95,-114.89,183.19,-127.81,183.19,-127.81,183.77;
 
 wire bowa:clk
-	bowa.q -> cpu.t2
+	bowa.y -> cpu.t2
 	@-60.30,49.13,-60.30,47.35,-55.71,47.35,-55.71,44.42
 	@-55.71,44.81,-49.07,44.81,-49.21,146.81,-63.70,146.80,-63.71,167.84,-63.20,167.84,-63.20,169.55,
 	 -62.86,169.55,-62.86,174.16,-61.91,174.16;
 
 wire buvu:clk
-	buvu.q -> byxo.in
+	buvu.y -> byxo.in
 	@-61.91,174.84,-62.38,174.84,-62.38,175.01,-61.92,175.01;
 
 wire byxo:clk
-	byxo.q -> bedo.in
+	byxo.y -> bedo.in
 	@-61.91,175.19,-62.38,175.19,-62.38,171.94,-61.91,171.94;
 
 wire buty:ctl
-	buty.q -> buvu.in2
+	buty.y -> buvu.in2
 	@-61.91,175.53,-62.53,175.53,-62.53,174.50,-61.91,174.50;

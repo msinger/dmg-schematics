@@ -157,17 +157,17 @@ label "80"     :white 1.5        @-57.88,252.00;
 # ------
 
 label "           Wires    Cells      Ports                   Floorplan"                        1.7 @  0.0,16  top-left;
-label "[Orange]   Decoded  DFF        ×Output tristate        Clocks & Resets"         :orange  1.7 @ -1.9,16  top-left;
-label "[Purple]   Control  XOR        ×Output always 0 (GND)  VRAM Interface"          :purple  1.7 @ -3.8,16  top-left;
+label "[Orange]   Decoded  Flip-flop  ×Output tristate        Clocks & Resets"         :orange  1.7 @ -1.9,16  top-left;
+label "[Purple]   Control  XOR/XNOR   ×Output always 0 (GND)  VRAM Interface"          :purple  1.7 @ -3.8,16  top-left;
 label "[Magenta]  Clock    Const 1&0  ×Output always 1 (VDD)  Interrupts"              :magenta 1.7 @ -5.7,16  top-left;
-label "[Blue]     Data     OR         ×Not connected          PPU"                     :blue    1.7 @ -7.6,16  top-left;
+label "[Blue]     Data     NOR/OR     ×Not connected          PPU"                     :blue    1.7 @ -7.6,16  top-left;
 label "[Yellow]   Address  Latch      ×Bidirectional          Adr&Data Bus, Sys-Decode":yellow  1.7 @ -9.5,16  top-left;
 label "[Cyan]              Adder                              Serial Link"             :cyan    1.7 @-11.4,16  top-left;
 label "[Teal]     Reset                                       Timer"                   :teal    1.7 @-13.3,16  top-left;
-label "[Lime]     Analog   Tribuf     ×Input                  Joypad"                  :lime    1.7 @-15.2,16  top-left;
-label "[Green]             Mux                                Boot ROM & High RAM"     :green   1.7 @-17.1,16  top-left;
-label "[Red]      VDD      AND        ×Output                 APU"                     :red     1.7 @-19.0,16  top-left;
-label "[Black]    GND      Inverter"                                                   :black   1.7 @-20.9,16  top-left;
+label "[Lime]     Analog   Tristate   ×Input                  Joypad"                  :lime    1.7 @-15.2,16  top-left;
+label "[Green]             Compound                           Boot ROM & High RAM"     :green   1.7 @-17.1,16  top-left;
+label "[Red]      VDD      NAND/AND   ×Output                 APU"                     :red     1.7 @-19.0,16  top-left;
+label "[Black]    GND      NOT"                                                        :black   1.7 @-20.9,16  top-left;
 label "                                               [Navy]  DMA"                     :navy    1.7 @-20.9,16  top-left;
 label "                                                             [Gray]  Test mode" :gray    1.7 @-20.9,16  top-left;
 label "Note: Cells with dark background are SPARE."                                             1.7 @-20.9,140 top-left;

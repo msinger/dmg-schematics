@@ -1,47 +1,47 @@
 # Cells in column N in top center
 # -------------------------------
 
-cell nena:inv_a       rot0 @-59.99,119.29,-59.63,121.36   ->bus-adr;
-cell nefe:tri_buf_if0 rot0 @-61.70,119.28,-59.96,121.34   ->bus-adr;
-cell nada:nor2        rot0 @-62.20,119.30,-61.67,121.35   ->timer;
-cell nydu:dffr_b2     rot0 @-65.10,119.29,-62.18,121.34   ->timer;
-cell nero:nor2        rot0 @-65.61,119.30,-65.09,121.34   ->timer;
-cell nuga:tffd        rot0 @-69.04,119.28,-65.61,121.34   ->timer;
-cell nyre:d_latch_b   rot0 @-70.75,119.28,-69.02,121.35   ->bus-adr;
-cell nyku:muxi        rot0 @-71.59,119.27,-70.74,121.34   ->timer;
-cell nola:tri_inv_if1 rot0 @-72.62,119.29,-71.59,121.34   ->timer;
-cell nybo:dffsr       rot0 @-76.38,119.27,-72.61,121.33   ->int;
-cell nevy:or2         rot0 @-77.23,119.27,-76.54,121.34   ->bus-data;
-cell nyke:dffr_b2     rot0 @-80.15,119.27,-77.22,121.33   ->timer;
-cell nabo:tri_inv_if1 rot0 @-81.17,119.27,-80.13,121.33   ->int;
-cell nejy:d_latch_b   rot0 @-82.87,119.26,-81.15,121.33   ->int;
-cell nela:tri_inv_if1 rot0 @-83.89,119.27,-82.86,121.33   ->int;
-cell nuty:d_latch_b   rot0 @-85.63,119.27,-83.88,121.34   ->int;
-cell nuvy:tri_inv_if1 rot0 @-86.63,119.25,-85.60,121.31   ->ppu-dma;
-cell nafa:d_latch_a   rot0 @-88.18,119.26,-86.62,121.32   ->ppu-dma;
-cell nabe:or2         rot0 @-88.86,119.27,-88.16,121.32   ->int;
-cell nydo:d_latch_a   rot0 @-90.41,119.26,-88.84,121.32   ->ppu-dma;
-cell nuto:dffr_b2     rot0 @-93.29,119.27,-90.40,121.33   ->ppu-dma;
-cell nyko:dffr_b2     rot0 @-96.20,119.25,-93.26,121.31   ->ppu-dma;
-cell nolo:inv_a       rot0 @-96.53,119.27,-96.16,121.32   ->ppu-dma;
-cell nefy:dffr_b2     rot0 @-99.45,119.26,-96.52,121.32   ->ppu-dma;
-cell navo:nand6       rot0 @-100.80,119.25,-99.61,121.32  ->ppu-dma;
-cell naky:dffr_b2     rot0 @-103.70,119.24,-100.80,121.32 ->ppu-dma;
-cell nygy:d_latch_a   rot0 @-105.24,119.23,-103.68,121.30 ->ppu-dma;
-cell naxy:nor2        rot0 @-105.75,119.23,-105.23,121.31 ->ppu-oam;
-cell nygo:inv_a       rot0 @-106.09,119.25,-105.74,121.31 ->ppu-dma;
+cell nena:not_x1    rot0 @-59.99,119.29,-59.63,121.36   ->bus-adr;
+cell nefe:buf_if0   rot0 @-61.70,119.28,-59.96,121.34   ->bus-adr;
+cell nada:nor2      rot0 @-62.20,119.30,-61.67,121.35   ->timer;
+cell nydu:dffr      rot0 @-65.10,119.29,-62.18,121.34   ->timer;
+cell nero:nor2      rot0 @-65.61,119.30,-65.09,121.34   ->timer;
+cell nuga:tffnl     rot0 @-69.04,119.28,-65.61,121.34   ->timer;
+cell nyre:dlatch    rot0 @-70.75,119.28,-69.02,121.35   ->bus-adr;
+cell nyku:muxi      rot0 @-71.59,119.27,-70.74,121.34   ->timer;
+cell nola:not_if1   rot0 @-72.62,119.29,-71.59,121.34   ->timer;
+cell nybo:dffsr     rot0 @-76.38,119.27,-72.61,121.33   ->int;
+cell nevy:or2       rot0 @-77.23,119.27,-76.54,121.34   ->bus-data;
+cell nyke:dffr      rot0 @-80.15,119.27,-77.22,121.33   ->timer;
+cell nabo:not_if1   rot0 @-81.17,119.27,-80.13,121.33   ->int;
+cell nejy:dlatch    rot0 @-82.87,119.26,-81.15,121.33   ->int;
+cell nela:not_if1   rot0 @-83.89,119.27,-82.86,121.33   ->int;
+cell nuty:dlatch    rot0 @-85.63,119.27,-83.88,121.34   ->int;
+cell nuvy:not_if1   rot0 @-86.63,119.25,-85.60,121.31   ->ppu-dma;
+cell nafa:dlatch_ee rot0 @-88.18,119.26,-86.62,121.32   ->ppu-dma;
+cell nabe:or2       rot0 @-88.86,119.27,-88.16,121.32   ->int;
+cell nydo:dlatch_ee rot0 @-90.41,119.26,-88.84,121.32   ->ppu-dma;
+cell nuto:dffr      rot0 @-93.29,119.27,-90.40,121.33   ->ppu-dma;
+cell nyko:dffr      rot0 @-96.20,119.25,-93.26,121.31   ->ppu-dma;
+cell nolo:not_x1    rot0 @-96.53,119.27,-96.16,121.32   ->ppu-dma;
+cell nefy:dffr      rot0 @-99.45,119.26,-96.52,121.32   ->ppu-dma;
+cell navo:nand6     rot0 @-100.80,119.25,-99.61,121.32  ->ppu-dma;
+cell naky:dffr      rot0 @-103.70,119.24,-100.80,121.32 ->ppu-dma;
+cell nygy:dlatch_ee rot0 @-105.24,119.23,-103.68,121.30 ->ppu-dma;
+cell naxy:nor2      rot0 @-105.75,119.23,-105.23,121.31 ->ppu-oam;
+cell nygo:not_x1    rot0 @-106.09,119.25,-105.74,121.31 ->ppu-dma;
 
 
 # Wires originating from column N in top center
 # ---------------------------------------------
 
 wire nena:adr
-	nena.q -> mapu.in
+	nena.y -> mapu.in
 	@-59.91,119.59,-59.91,118.62,-62.62,118.62,-62.62,117.30
 	@-62.62,118.57,-63.48,118.57,-63.48,117.30;
 
 wire nada:data
-	nada.q -> peru.d
+	nada.y -> peru.d
 	@-62.11,121.06,-62.11,123.70,-61.78,123.70,-61.78,124.32
 	@-62.11,123.13,-63.99,123.13,-63.99,124.29;
 
@@ -52,7 +52,7 @@ wire ~nydu:ctl
 	@-64.84,119.57,-64.84,117.30;
 
 wire nero:data
-	nero.q -> povy.d
+	nero.y -> povy.d
 	@-65.54,121.05,-65.54,123.87
 	@-65.19,124.31,-65.19,123.87,-67.42,123.87,-67.42,124.32;
 
@@ -72,7 +72,7 @@ wire nyre:adr
 # nyre.~q is not connected
 
 wire nyku:data
-	nyku.q -> nada.in2
+	nyku.y -> nada.in2
 	@-71.52,121.05,-71.52,123.01,-61.94,123.01,-61.94,121.05;
 
 wire cpu_irq2:ctl
@@ -83,7 +83,7 @@ wire cpu_irq2:ctl
 # nybo.~q is not connected
 
 wire nevy:ctl
-	nevy.q -> puva.in1
+	nevy.y -> puva.in1
 	@-77.16,121.05,-77.16,121.52,-78.01,121.52,-78.01,124.30;
 
 wire nyke:data
@@ -116,7 +116,7 @@ wire ~dma_a8:adr
 	@-87.92,121.04,-87.92,122.99,-88.77,122.99,-88.77,124.30;
 
 wire nabe:data
-	nabe.q -> movu.in1
+	nabe.y -> movu.in1
 	@-88.77,119.55,-88.77,118.93,-87.74,118.93,-87.74,117.27;
 
 wire dma_a11:adr
@@ -154,7 +154,7 @@ wire ~dma_a4:adr
 	@-95.94,123.16,-94.40,123.16,-94.40,121.03;
 
 wire nolo:dec
-	nolo.q -> myte.d
+	nolo.y -> myte.d
 	@-96.45,119.55,-96.45,117.98,-95.94,117.98,-95.94,117.28;
 
 wire dma_a2:adr
@@ -171,7 +171,7 @@ wire ~dma_a2:adr
 	@-97.66,118.84,-97.66,119.54;
 
 wire navo:dec
-	navo.q -> nolo.in
+	navo.y -> nolo.in
 	@-100.73,121.02,-100.73,123.02,-96.28,123.02,-96.28,121.03;
 
 wire dma_a0:adr
@@ -198,9 +198,9 @@ wire ~dma_a12:adr
 	@-104.97,121.03,-104.97,122.50,-104.63,122.50,-104.63,124.29;
 
 wire naxy:clk
-	naxy.q -> powu.in2
+	naxy.y -> powu.in2
 	@-105.66,121.02,-105.66,124.30;
 
 wire nygo:ctl
-	nygo.q -> pusy.in
+	nygo.y -> pusy.in
 	@-106.00,121.02,-106.00,123.39,-105.15,123.39,-105.15,124.29;

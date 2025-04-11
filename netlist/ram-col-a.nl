@@ -1,52 +1,52 @@
 # Cells in column A next to HRAM
 # ------------------------------
 
-cell abev:inv_b rot180 @-124.28,160.13,-123.77,162.18 ->hram;
-cell azug:nor3  rot180 @-124.96,160.13,-124.27,162.19 ->hram;
-cell anyk:inv_a rot180 @-125.30,160.12,-124.95,162.20 ->hram;
-cell apow:inv_b rot180 @-125.81,160.13,-125.30,162.19 ->hram;
-cell abuf:nand2 rot180 @-126.33,160.11,-125.82,162.20 ->hram;
-cell apuh:inv_b rot180 @-126.85,160.13,-126.32,162.20 ->hram;
-cell atef:nand2 rot180 @-127.36,160.13,-126.84,162.20 ->hram;
-cell ajoj:inv_a rot180 @-127.71,160.13,-127.35,162.18 ->hram;
-cell azac:inv_a rot180 @-128.04,160.12,-127.70,162.19 ->hram;
-cell ajom:and2  rot180 @-128.73,160.13,-128.03,162.18 ->hram;
-cell axyc:and2  rot180 @-129.41,160.13,-128.72,162.18 ->hram;
-cell avub:and2  rot180 @-130.09,160.12,-129.40,162.17 ->hram;
-cell apul:and2  rot180 @-130.78,160.13,-130.09,162.19 ->hram;
+cell abev:not_x2 rot180 @-124.28,160.13,-123.77,162.18 ->hram;
+cell azug:nor3   rot180 @-124.96,160.13,-124.27,162.19 ->hram;
+cell anyk:not_x1 rot180 @-125.30,160.12,-124.95,162.20 ->hram;
+cell apow:not_x2 rot180 @-125.81,160.13,-125.30,162.19 ->hram;
+cell abuf:nand2  rot180 @-126.33,160.11,-125.82,162.20 ->hram;
+cell apuh:not_x2 rot180 @-126.85,160.13,-126.32,162.20 ->hram;
+cell atef:nand2  rot180 @-127.36,160.13,-126.84,162.20 ->hram;
+cell ajoj:not_x1 rot180 @-127.71,160.13,-127.35,162.18 ->hram;
+cell azac:not_x1 rot180 @-128.04,160.12,-127.70,162.19 ->hram;
+cell ajom:and2   rot180 @-128.73,160.13,-128.03,162.18 ->hram;
+cell axyc:and2   rot180 @-129.41,160.13,-128.72,162.18 ->hram;
+cell avub:and2   rot180 @-130.09,160.12,-129.40,162.17 ->hram;
+cell apul:and2   rot180 @-130.78,160.13,-130.09,162.19 ->hram;
 
 
 # Wires originating from column A next to HRAM
 # --------------------------------------------
 
 wire ~hram_bl_precharge:ctl
-	abev.q -> high_ram.~bl_pch wopo.in2
+	abev.y -> high_ram.~bl_pch wopo.in2
 	@-123.85,160.42,-123.85,159.32,-125.91,159.32,-125.90,136.13,-126.04,136.13,-126.04,135.83,
 	 -156.85,135.81,-156.85,136.09,-156.95,136.09,-156.98,159.43,-157.45,159.43,-157.45,156.82
 	@-157.45,157.00,-159.37,157.00;
 
 wire azug:ctl
-	azug.q -> abev.in
+	azug.y -> abev.in
 	@-124.19,161.91,-124.19,162.31,-124.36,162.31,-124.36,161.90;
 
 wire hram_~oe:ctl
-	anyk.q -> high_ram.~oe
+	anyk.y -> high_ram.~oe
 	@-125.05,160.41,-125.05,159.89,-124.88,159.89,-124.88,159.44
 	@-124.67,159.44,-125.79,159.44,-125.77,136.13;
 
 wire hram_oe:ctl
-	apow.q -> high_ram.oe anyk.in azug.in3 wype.in1
+	apow.y -> high_ram.oe anyk.in azug.in3 wype.in1
 	@-125.22,161.89,-125.22,162.41,-125.39,162.41,-125.39,159.57,-123.36,159.57,-123.36,159.13,-123.24,159.13,
 	 -123.22,136.13,-123.27,136.13,-123.27,135.83,-125.68,135.83,-125.68,135.57,-157.98,135.55,-157.98,157.86,
 	 -159.37,157.86
 	@-124.53,159.57,-124.53,160.43;
 
 wire abuf:ctl
-	abuf.q -> apow.in
+	abuf.y -> apow.in
 	@-125.91,161.89,-125.91,162.41,-125.73,162.41,-125.73,161.89;
 
 wire hram_wr:ctl
-	apuh.q -> high_ram.wr azug.in2 wype.in2
+	apuh.y -> high_ram.wr azug.in2 wype.in2
 	@-157.84,157.86,-157.84,157.69,-157.82,135.68,-128.13,135.70,-128.13,137.05
 	@-157.84,157.69,-159.35,157.69
 	@-126.29,137.05,-129.70,137.05
@@ -54,31 +54,31 @@ wire hram_wr:ctl
 	@-126.42,159.70,-126.42,160.44;
 
 wire atef:ctl
-	atef.q -> apuh.in
+	atef.y -> apuh.in
 	@-126.93,161.89,-126.93,162.41,-126.75,162.41,-126.75,161.89;
 
 wire ajoj:adr
-	ajoj.q -> ajom.in1 avub.in1
+	ajoj.y -> ajom.in1 avub.in1
 	@-127.45,161.91,-127.45,162.66,-130.01,162.66,-130.01,161.89
 	@-128.64,162.66,-128.64,161.88;
 
 wire azac:adr
-	azac.q -> ajom.in2 axyc.in1
+	azac.y -> ajom.in2 axyc.in1
 	@-127.78,161.90,-127.78,162.41,-129.34,162.41,-129.34,161.89
 	@-128.47,162.41,-128.47,161.88;
 
 wire hram_~{a1a0}:dec
-	ajom.q -> high_ram.col0
+	ajom.y -> high_ram.col0
 	@-128.13,160.42,-128.13,159.84,-130.62,159.84,-130.62,136.14;
 
 wire hram_~{a1}a0:dec
-	axyc.q -> high_ram.col1
+	axyc.y -> high_ram.col1
 	@-128.81,160.41,-128.81,159.70,-130.48,159.70,-130.48,136.13;
 
 wire hram_a1~{a0}:dec
-	avub.q -> high_ram.col2
+	avub.y -> high_ram.col2
 	@-129.49,160.41,-129.49,159.57,-130.36,159.57,-130.35,136.15;
 
 wire hram_a1a0:dec
-	apul.q -> high_ram.col3
+	apul.y -> high_ram.col3
 	@-130.18,160.41,-130.17,159.45,-130.23,159.45,-130.22,136.13;

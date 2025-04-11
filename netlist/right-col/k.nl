@@ -1,147 +1,147 @@
 # Cells in column K on right hand side
 # ------------------------------------
 
-cell keza:tffd        rot0,flip @-65.24,228.90,-61.83,230.97        ->apu-ch3;
-cell keju:tffd        rot0,flip @-68.66,228.91,-65.23,230.98        ->apu-ch3;
-cell kese:inv_a       rot0,flip @-69.00,228.91,-68.66,230.98        ->apu-ch3;
-cell kyko:inv_a       rot0,flip @-69.34,228.91,-68.99,230.97        ->apu-ch3;
-cell kaso:inv_a       rot0,flip @-69.69,228.91,-69.34,230.98        ->apu-ch3;
-cell kopy:inv_a       rot0,flip @-70.02,228.91,-69.68,230.97        ->apu-ch3;
-cell keno:tffd        rot0,flip @-73.44,228.91,-70.02,230.98        ->apu-ch3;
-cell kamy:tri_inv_if0 rot0,flip @-74.46,228.91,-73.43,230.97        ->apu-ch3;
-cell kygu:tffd        rot0,flip @-77.89,228.90,-74.45,230.97        ->apu-ch3;
-cell kyru:inv_a       rot0,flip @-78.22,228.91,-77.88,230.96        ->apu-ch3;
-cell kepa:tffd        rot0,flip @-81.65,228.90,-78.22,230.98        ->apu-ch3;
-cell kafo:tffd        rot0,flip @-85.05,228.91,-81.64,230.98        ->apu-ch3;
-cell kora:tri_inv_if0 rot0,flip @-86.09,228.90,-85.05,230.97        ->apu-ch3;
-cell kysa:inv_a       rot0,flip @-86.42,228.89,-86.08,230.96 comp   ->apu-ch2;
-cell kypu:inv_a       rot0,flip @-86.76,228.90,-86.42,230.95        ->apu-ch2;
-cell kutu:tffd        rot0,flip @-90.19,228.90,-86.76,230.95        ->apu-ch3;
-cell kyvo:and3        rot0,flip @-91.04,228.91,-90.18,230.95        ->apu-ch2;
-cell kemu:tffd        rot0,flip @-94.46,228.89,-91.04,230.95        ->apu-ch3;
-cell kafu:tri_inv_if0 rot0,flip @-95.48,228.89,-94.45,230.95        ->apu-ch3;
-cell kesy:tri_inv_if0 rot0,flip @-96.50,228.91,-95.47,230.95        ->apu-ch3;
-cell kupe:tffd        rot0,flip @-99.93,228.90,-96.50,230.95        ->apu-ch3;
-cell kunu:tffd        rot0,flip @-103.35,228.89,-99.92,230.96       ->apu-ch3;
-cell koga:dr_latch    rot0,flip @-105.05,228.90,-103.34,230.95      ->apu-ch3;
-cell kota:and2        rot0,flip @-105.73,228.89,-105.05,230.95      ->apu-ch3;
-cell kuha:inv_a       rot0,flip @-106.07,228.89,-105.73,230.94      ->apu-ch3;
-cell kuly:inv_b       rot0,flip @-106.59,228.89,-106.07,230.95 comp ->apu-ch3;
-cell kene:inv_a       rot0,flip @-106.93,228.89,-106.59,230.95      ->apu-ch2;
-cell kogu:dr_latch    rot0,flip @-108.65,228.89,-106.92,230.95      ->apu-ch3;
-cell kyho:inv_a       rot0,flip @-108.98,228.89,-108.65,230.94 comp ->apu-ch3;
-cell kana:dr_latch    rot0,flip @-110.70,228.89,-108.98,230.95      ->apu-ch3;
-cell kylo:inv_a       rot0,flip @-111.03,228.89,-110.70,230.94      ->apu-ch2;
-cell katy:inv_a       rot0,flip @-111.38,228.89,-111.03,230.95      ->apu-ch2;
-cell kejo:tri_buf_if0 rot0,flip @-113.08,228.89,-111.38,230.95      ->bus-adr;
-cell kova:inv_a       rot0,flip @-113.43,228.88,-113.08,230.95      ->bus-adr;
-cell kopu:inv_a       rot0,flip @-113.77,228.88,-113.42,230.95      ->apu-ch1;
-cell kavo:and2        rot0,flip @-114.45,228.89,-113.77,230.95      ->apu-ch1;
-cell kado:inv_a       rot0,flip @-114.80,228.89,-114.44,230.95      ->apu-ch1;
-cell kygy:inv_a       rot0,flip @-115.13,228.90,-114.79,230.95 comp ->apu-ch1;
-cell kaly:dffr_b2     rot0,flip @-118.05,228.88,-115.13,230.94      ->apu-ch1;
-cell koma:nor3        rot0,flip @-118.73,228.88,-118.05,230.95      ->apu-ch1;
-cell kere:inv_a       rot0,flip @-119.08,228.89,-118.73,230.95      ->apu-ch1;
-cell kera:tffd        rot0,flip @-122.48,228.88,-119.06,230.94      ->apu-ch1;
-cell kydu:inv_a       rot0,flip @-122.84,228.90,-122.48,230.95      ->apu-control;
-cell kote:and3        rot0,flip @-123.68,228.88,-122.82,230.95      ->apu-ch1;
-cell kenu:tffd        rot0,flip @-127.10,228.88,-123.67,230.95      ->apu-ch1;
-cell kagy:inv_b       rot0,flip @-127.61,228.88,-127.09,230.93 comp ->apu-ch1;
-cell kena:muxi        rot0,flip @-128.48,228.88,-127.61,230.95      ->serial;
-cell kuko:dffr_b2     rot0,flip @-131.38,228.88,-128.46,230.95      ->test;
-cell kyme:dffr_b2     rot0,flip @-134.28,228.88,-131.37,230.94      ->test;
-cell keru:dffr_b2     rot0,flip @-137.18,228.88,-134.27,230.95      ->test;
-cell kore:nand2       rot0,flip @-137.70,228.87,-137.18,230.93      ->test;
-cell kywe:nor2        rot0,flip @-138.21,228.88,-137.70,230.94      ->test;
-cell kyfu:and2        rot0,flip @-138.88,228.87,-138.20,230.93      ->apu-ch1;
-cell kujo:nor2        rot0,flip @-139.41,228.86,-138.89,230.95      ->serial;
-cell kexu:nand2       rot0,flip @-139.92,228.88,-139.39,230.95      ->serial;
-cell kely:dffr_b2     rot0,flip @-142.83,228.88,-139.91,230.94      ->joypad;
-cell kupo:nand2       rot0,flip @-143.34,228.88,-142.82,230.94      ->bus-adr;
-cell koty:nor2        rot0,flip @-143.84,228.88,-143.34,230.93      ->bus-adr;
-cell kory:nand2       rot0,flip @-144.36,228.88,-143.84,230.94      ->test;
-cell kale:nor2        rot0,flip @-144.87,228.87,-144.35,230.93      ->test;
-cell karu:or2         rot0,flip @-145.55,228.86,-144.88,230.94      ->joypad;
-cell koce:tri_inv_if0 rot0,flip @-146.59,228.90,-145.55,230.93      ->joypad;
-cell kary:tri_inv_if0 rot0,flip @-147.60,228.88,-146.57,230.94      ->apu-ch1;
-cell kolo:d_latch_b   rot0,flip @-149.33,228.87,-147.59,230.92      ->joypad;
-cell kura:inv_a       rot0,flip @-149.67,228.87,-149.32,230.93      ->test;
-cell kype:inv_a       rot0,flip @-150.00,228.86,-149.66,230.94      ->apu-ch1;
-cell kumo:tri_inv_if0 rot0,flip @-151.03,228.88,-150.00,230.92      ->apu-ch1;
-cell kyvu:tri_inv_if0 rot0,flip @-152.05,228.88,-151.03,230.92      ->apu-ch1;
-cell kyna:tffd        rot0,flip @-155.47,228.87,-152.05,230.92      ->apu-ch1;
-cell kecy:dffr_b2     rot0,flip @-158.38,228.87,-155.46,230.93      ->test;
-cell kybu:nor2        rot0,flip @-158.89,228.87,-158.38,230.93      ->test;
-cell kole:nand2       rot0,flip @-159.41,228.88,-158.88,230.92      ->test;
-cell kaju:nor2        rot0,flip @-159.91,228.88,-159.40,230.92      ->apu-ch1;
-cell kuxu:inv_a       rot0,flip @-160.26,228.86,-159.91,230.91      ->apu-ch1;
-cell kypa:nand2       rot0,flip @-160.77,228.87,-160.26,230.93      ->apu-ch1;
-cell kovu:nand2       rot0,flip @-161.29,228.87,-160.77,230.94      ->apu-ch1;
-cell kapo:nor2        rot0,flip @-161.98,228.88,-161.45,230.93      ->apu-ch1;
-cell kaza:nor2        rot0,flip @-162.48,228.87,-161.97,230.91      ->apu-ch1;
-cell kozy:dffr_b2     rot0,flip @-165.38,228.88,-162.47,230.91      ->apu-ch1;
-cell kyto:nand2       rot0,flip @-165.89,228.87,-165.38,230.92      ->test;
-cell kabu:nor2        rot0,flip @-166.41,228.87,-165.89,230.92      ->test;
-cell koko:and2        rot0,flip @-167.08,228.87,-166.40,230.91      ->apu-ch1;
-cell kare:dffr_a      rot0,flip @-169.32,228.88,-167.08,230.91      ->apu-ch1;
-cell kede:inv_a       rot0,flip @-169.66,228.87,-169.33,230.91 comp ->apu-ch1;
-cell kery:or4         rot0,flip @-170.68,228.86,-169.64,230.91      ->joypad;
-cell koro:nor4        rot0,flip @-171.53,228.85,-170.68,230.92      ->apu-ch1;
-cell kake:or3         rot0,flip @-172.38,228.86,-171.52,230.92      ->apu-ch1;
-cell kyhu:nand2       rot0,flip @-172.90,228.88,-172.38,230.91      ->test;
-cell kuku:nor2        rot0,flip @-173.41,228.88,-172.90,230.91      ->apu-ch1;
-cell kury:inv_a       rot0,flip @-173.76,228.86,-173.41,230.93      ->apu-ch1;
-cell kola:nand2       rot0,flip @-174.26,228.86,-173.75,230.91      ->apu-ch1;
-cell kasy:nor2        rot0,flip @-174.78,228.87,-174.26,230.92      ->test;
-cell kefe:xor         rot0,flip @-175.80,228.88,-174.77,230.92      ->apu-ch1;
-cell kedo:inv_a       rot0,flip @-176.16,228.86,-175.80,230.92      ->apu-ch1;
-cell kezu:nor_latch   rot0,flip @-177.17,228.87,-176.13,230.94      ->apu-ch1;
-cell kyno:dffr_b2     rot0,flip @-180.09,228.86,-177.16,230.92      ->apu-ch1;
-cell kyry:nand2       rot0,flip @-180.59,228.86,-180.08,230.92      ->apu-ch1;
-cell kybo:nor2        rot0,flip @-181.10,228.87,-180.59,230.92      ->apu-ch1;
-cell kala:nor2        rot0,flip @-181.63,228.86,-181.09,230.91      ->apu-ch1;
-cell kape:inv_a       rot0,flip @-181.96,228.85,-181.62,230.91      ->apu-ch1;
-cell kovo:inv_a       rot0,flip @-182.30,228.85,-181.95,230.92      ->apu-ch1;
-cell kevy:and2        rot0,flip @-182.98,228.86,-182.30,230.93      ->apu-ch1;
-cell keke:inv_a       rot0,flip @-183.32,228.87,-182.96,230.92      ->apu-ch1;
-cell kaxy:and2        rot0,flip @-184.01,228.86,-183.31,230.91      ->apu-ch1;
-cell keto:nor2        rot0,flip @-184.51,228.86,-183.99,230.91      ->apu-ch1;
-cell koru:nor2        rot0,flip @-185.02,228.86,-184.52,230.94      ->apu-ch1;
-cell keko:or2         rot0,flip @-185.72,228.85,-185.02,230.91      ->apu-ch1;
-cell kapa:d_latch_b   rot0,flip @-187.42,228.86,-185.71,230.93      ->joypad;
-cell kuro:tri_inv_if0 rot0,flip @-188.45,228.85,-187.41,230.91      ->joypad;
-cell kyny:inv_b       rot0,flip @-188.96,228.87,-188.45,230.91      ->apu-ch1;
-cell kaba:or2         rot0,flip @-189.64,228.85,-188.95,230.91      ->apu-ch1;
-cell kepy:inv_c       rot0,flip @-190.33,228.86,-189.65,230.92      ->apu-control;
-cell kevu:d_latch_b   rot0,flip @-192.05,228.85,-190.32,230.92      ->joypad;
-cell kema:tri_inv_if0 rot0,flip @-193.05,228.84,-192.03,230.91      ->joypad;
-cell kuby:inv_a       rot0,flip @-193.41,228.85,-193.05,230.92      ->apu-control;
-cell keba:inv_e       rot0,flip @-194.60,228.86,-193.39,230.91      ->apu-control;
-cell keja:d_latch_b   rot0,flip @-196.31,228.84,-194.60,230.92      ->joypad;
-cell kuve:tri_inv_if0 rot0,flip @-197.33,228.85,-196.30,230.91      ->joypad;
-cell kara:inv_a       rot0,flip @-197.68,228.84,-197.33,230.91      ->apu-ch4;
-cell kywy:dffr_b2     rot0,flip @-200.59,228.84,-197.67,230.90      ->apu-ch4;
-cell kyku:or2         rot0,flip @-201.26,228.84,-200.57,230.91      ->apu-ch4;
-cell kopa:inv_a       rot0,flip @-201.60,228.85,-201.27,230.91      ->apu-ch4;
-cell kuzy:dffr_b2     rot0,flip @-204.51,228.84,-201.60,230.91      ->apu-ch4;
-cell kame:inv_a       rot0,flip @-204.85,228.84,-204.51,230.90      ->apu-control;
-cell kuta:dffr_b2     rot0,flip @-207.75,228.87,-204.84,230.91      ->apu-ch4;
-cell ketu:dffr_b2     rot0,flip @-210.67,228.85,-207.74,230.91      ->apu-ch4;
-cell kuhu:inv_a       rot0,flip @-211.02,228.84,-210.67,230.91      ->apu-ch4;
-cell kavu:ao2         rot0,flip @-212.38,228.84,-210.99,230.91      ->apu-ch4;
-cell kage:inv_a       rot0,flip @-212.72,228.84,-212.37,230.91      ->apu-ch4;
-cell keta:tri_inv_if0 rot0,flip @-213.75,228.84,-212.72,230.91      ->apu-ch4;
-cell komu:dffr_b2     rot0,flip @-216.65,228.84,-213.73,230.91      ->apu-ch4;
-cell kamo:tri_inv_if0 rot0,flip @-217.68,228.84,-216.64,230.91      ->apu-ch4;
-cell koku:inv_a       rot0,flip @-218.02,228.84,-217.67,230.90      ->apu-ch4;
-cell keka:or2         rot0,flip @-218.70,228.84,-218.01,230.90      ->apu-ch4;
-cell kazo:inv_a       rot0,flip @-219.05,228.84,-218.70,230.90      ->apu-control;
-cell kamu:nand2       rot0,flip @-219.55,228.84,-219.04,230.91      ->apu-control;
-cell kaku:tri_inv_if0 rot0,flip @-220.57,228.84,-219.54,230.91      ->apu-ch4;
-cell kyro:tri_inv_if0 rot0,flip @-221.59,228.85,-220.58,230.91      ->apu-ch4;
-cell kanu:inv_a       rot0,flip @-221.94,228.85,-221.59,230.91      ->apu-ch4;
-cell kony:inv_a       rot0,flip @-222.29,228.84,-221.95,230.91      ->apu-ch4;
-cell koge:tri_inv_if0 rot0,flip @-223.31,228.84,-222.29,230.90      ->apu-control;
+cell keza:tffnl      rot0,flip @-65.24,228.90,-61.83,230.97        ->apu-ch3;
+cell keju:tffnl      rot0,flip @-68.66,228.91,-65.23,230.98        ->apu-ch3;
+cell kese:not_x1     rot0,flip @-69.00,228.91,-68.66,230.98        ->apu-ch3;
+cell kyko:not_x1     rot0,flip @-69.34,228.91,-68.99,230.97        ->apu-ch3;
+cell kaso:not_x1     rot0,flip @-69.69,228.91,-69.34,230.98        ->apu-ch3;
+cell kopy:not_x1     rot0,flip @-70.02,228.91,-69.68,230.97        ->apu-ch3;
+cell keno:tffnl      rot0,flip @-73.44,228.91,-70.02,230.98        ->apu-ch3;
+cell kamy:not_if0    rot0,flip @-74.46,228.91,-73.43,230.97        ->apu-ch3;
+cell kygu:tffnl      rot0,flip @-77.89,228.90,-74.45,230.97        ->apu-ch3;
+cell kyru:not_x1     rot0,flip @-78.22,228.91,-77.88,230.96        ->apu-ch3;
+cell kepa:tffnl      rot0,flip @-81.65,228.90,-78.22,230.98        ->apu-ch3;
+cell kafo:tffnl      rot0,flip @-85.05,228.91,-81.64,230.98        ->apu-ch3;
+cell kora:not_if0    rot0,flip @-86.09,228.90,-85.05,230.97        ->apu-ch3;
+cell kysa:not_x1     rot0,flip @-86.42,228.89,-86.08,230.96 comp   ->apu-ch2;
+cell kypu:not_x1     rot0,flip @-86.76,228.90,-86.42,230.95        ->apu-ch2;
+cell kutu:tffnl      rot0,flip @-90.19,228.90,-86.76,230.95        ->apu-ch3;
+cell kyvo:and3       rot0,flip @-91.04,228.91,-90.18,230.95        ->apu-ch2;
+cell kemu:tffnl      rot0,flip @-94.46,228.89,-91.04,230.95        ->apu-ch3;
+cell kafu:not_if0    rot0,flip @-95.48,228.89,-94.45,230.95        ->apu-ch3;
+cell kesy:not_if0    rot0,flip @-96.50,228.91,-95.47,230.95        ->apu-ch3;
+cell kupe:tffnl      rot0,flip @-99.93,228.90,-96.50,230.95        ->apu-ch3;
+cell kunu:tffnl      rot0,flip @-103.35,228.89,-99.92,230.96       ->apu-ch3;
+cell koga:drlatch_ee rot0,flip @-105.05,228.90,-103.34,230.95      ->apu-ch3;
+cell kota:and2       rot0,flip @-105.73,228.89,-105.05,230.95      ->apu-ch3;
+cell kuha:not_x1     rot0,flip @-106.07,228.89,-105.73,230.94      ->apu-ch3;
+cell kuly:not_x2     rot0,flip @-106.59,228.89,-106.07,230.95 comp ->apu-ch3;
+cell kene:not_x1     rot0,flip @-106.93,228.89,-106.59,230.95      ->apu-ch2;
+cell kogu:drlatch_ee rot0,flip @-108.65,228.89,-106.92,230.95      ->apu-ch3;
+cell kyho:not_x1     rot0,flip @-108.98,228.89,-108.65,230.94 comp ->apu-ch3;
+cell kana:drlatch_ee rot0,flip @-110.70,228.89,-108.98,230.95      ->apu-ch3;
+cell kylo:not_x1     rot0,flip @-111.03,228.89,-110.70,230.94      ->apu-ch2;
+cell katy:not_x1     rot0,flip @-111.38,228.89,-111.03,230.95      ->apu-ch2;
+cell kejo:buf_if0    rot0,flip @-113.08,228.89,-111.38,230.95      ->bus-adr;
+cell kova:not_x1     rot0,flip @-113.43,228.88,-113.08,230.95      ->bus-adr;
+cell kopu:not_x1     rot0,flip @-113.77,228.88,-113.42,230.95      ->apu-ch1;
+cell kavo:and2       rot0,flip @-114.45,228.89,-113.77,230.95      ->apu-ch1;
+cell kado:not_x1     rot0,flip @-114.80,228.89,-114.44,230.95      ->apu-ch1;
+cell kygy:not_x1     rot0,flip @-115.13,228.90,-114.79,230.95 comp ->apu-ch1;
+cell kaly:dffr       rot0,flip @-118.05,228.88,-115.13,230.94      ->apu-ch1;
+cell koma:nor3       rot0,flip @-118.73,228.88,-118.05,230.95      ->apu-ch1;
+cell kere:not_x1     rot0,flip @-119.08,228.89,-118.73,230.95      ->apu-ch1;
+cell kera:tffnl      rot0,flip @-122.48,228.88,-119.06,230.94      ->apu-ch1;
+cell kydu:not_x1     rot0,flip @-122.84,228.90,-122.48,230.95      ->apu-control;
+cell kote:and3       rot0,flip @-123.68,228.88,-122.82,230.95      ->apu-ch1;
+cell kenu:tffnl      rot0,flip @-127.10,228.88,-123.67,230.95      ->apu-ch1;
+cell kagy:not_x2     rot0,flip @-127.61,228.88,-127.09,230.93 comp ->apu-ch1;
+cell kena:muxi       rot0,flip @-128.48,228.88,-127.61,230.95      ->serial;
+cell kuko:dffr       rot0,flip @-131.38,228.88,-128.46,230.95      ->test;
+cell kyme:dffr       rot0,flip @-134.28,228.88,-131.37,230.94      ->test;
+cell keru:dffr       rot0,flip @-137.18,228.88,-134.27,230.95      ->test;
+cell kore:nand2      rot0,flip @-137.70,228.87,-137.18,230.93      ->test;
+cell kywe:nor2       rot0,flip @-138.21,228.88,-137.70,230.94      ->test;
+cell kyfu:and2       rot0,flip @-138.88,228.87,-138.20,230.93      ->apu-ch1;
+cell kujo:nor2       rot0,flip @-139.41,228.86,-138.89,230.95      ->serial;
+cell kexu:nand2      rot0,flip @-139.92,228.88,-139.39,230.95      ->serial;
+cell kely:dffr       rot0,flip @-142.83,228.88,-139.91,230.94      ->joypad;
+cell kupo:nand2      rot0,flip @-143.34,228.88,-142.82,230.94      ->bus-adr;
+cell koty:nor2       rot0,flip @-143.84,228.88,-143.34,230.93      ->bus-adr;
+cell kory:nand2      rot0,flip @-144.36,228.88,-143.84,230.94      ->test;
+cell kale:nor2       rot0,flip @-144.87,228.87,-144.35,230.93      ->test;
+cell karu:or2        rot0,flip @-145.55,228.86,-144.88,230.94      ->joypad;
+cell koce:not_if0    rot0,flip @-146.59,228.90,-145.55,230.93      ->joypad;
+cell kary:not_if0    rot0,flip @-147.60,228.88,-146.57,230.94      ->apu-ch1;
+cell kolo:dlatch     rot0,flip @-149.33,228.87,-147.59,230.92      ->joypad;
+cell kura:not_x1     rot0,flip @-149.67,228.87,-149.32,230.93      ->test;
+cell kype:not_x1     rot0,flip @-150.00,228.86,-149.66,230.94      ->apu-ch1;
+cell kumo:not_if0    rot0,flip @-151.03,228.88,-150.00,230.92      ->apu-ch1;
+cell kyvu:not_if0    rot0,flip @-152.05,228.88,-151.03,230.92      ->apu-ch1;
+cell kyna:tffnl      rot0,flip @-155.47,228.87,-152.05,230.92      ->apu-ch1;
+cell kecy:dffr       rot0,flip @-158.38,228.87,-155.46,230.93      ->test;
+cell kybu:nor2       rot0,flip @-158.89,228.87,-158.38,230.93      ->test;
+cell kole:nand2      rot0,flip @-159.41,228.88,-158.88,230.92      ->test;
+cell kaju:nor2       rot0,flip @-159.91,228.88,-159.40,230.92      ->apu-ch1;
+cell kuxu:not_x1     rot0,flip @-160.26,228.86,-159.91,230.91      ->apu-ch1;
+cell kypa:nand2      rot0,flip @-160.77,228.87,-160.26,230.93      ->apu-ch1;
+cell kovu:nand2      rot0,flip @-161.29,228.87,-160.77,230.94      ->apu-ch1;
+cell kapo:nor2       rot0,flip @-161.98,228.88,-161.45,230.93      ->apu-ch1;
+cell kaza:nor2       rot0,flip @-162.48,228.87,-161.97,230.91      ->apu-ch1;
+cell kozy:dffr       rot0,flip @-165.38,228.88,-162.47,230.91      ->apu-ch1;
+cell kyto:nand2      rot0,flip @-165.89,228.87,-165.38,230.92      ->test;
+cell kabu:nor2       rot0,flip @-166.41,228.87,-165.89,230.92      ->test;
+cell koko:and2       rot0,flip @-167.08,228.87,-166.40,230.91      ->apu-ch1;
+cell kare:dffr_cc_q  rot0,flip @-169.32,228.88,-167.08,230.91      ->apu-ch1;
+cell kede:not_x1     rot0,flip @-169.66,228.87,-169.33,230.91 comp ->apu-ch1;
+cell kery:or4        rot0,flip @-170.68,228.86,-169.64,230.91      ->joypad;
+cell koro:nor4       rot0,flip @-171.53,228.85,-170.68,230.92      ->apu-ch1;
+cell kake:or3        rot0,flip @-172.38,228.86,-171.52,230.92      ->apu-ch1;
+cell kyhu:nand2      rot0,flip @-172.90,228.88,-172.38,230.91      ->test;
+cell kuku:nor2       rot0,flip @-173.41,228.88,-172.90,230.91      ->apu-ch1;
+cell kury:not_x1     rot0,flip @-173.76,228.86,-173.41,230.93      ->apu-ch1;
+cell kola:nand2      rot0,flip @-174.26,228.86,-173.75,230.91      ->apu-ch1;
+cell kasy:nor2       rot0,flip @-174.78,228.87,-174.26,230.92      ->test;
+cell kefe:xor        rot0,flip @-175.80,228.88,-174.77,230.92      ->apu-ch1;
+cell kedo:not_x1     rot0,flip @-176.16,228.86,-175.80,230.92      ->apu-ch1;
+cell kezu:nor_latch  rot0,flip @-177.17,228.87,-176.13,230.94      ->apu-ch1;
+cell kyno:dffr       rot0,flip @-180.09,228.86,-177.16,230.92      ->apu-ch1;
+cell kyry:nand2      rot0,flip @-180.59,228.86,-180.08,230.92      ->apu-ch1;
+cell kybo:nor2       rot0,flip @-181.10,228.87,-180.59,230.92      ->apu-ch1;
+cell kala:nor2       rot0,flip @-181.63,228.86,-181.09,230.91      ->apu-ch1;
+cell kape:not_x1     rot0,flip @-181.96,228.85,-181.62,230.91      ->apu-ch1;
+cell kovo:not_x1     rot0,flip @-182.30,228.85,-181.95,230.92      ->apu-ch1;
+cell kevy:and2       rot0,flip @-182.98,228.86,-182.30,230.93      ->apu-ch1;
+cell keke:not_x1     rot0,flip @-183.32,228.87,-182.96,230.92      ->apu-ch1;
+cell kaxy:and2       rot0,flip @-184.01,228.86,-183.31,230.91      ->apu-ch1;
+cell keto:nor2       rot0,flip @-184.51,228.86,-183.99,230.91      ->apu-ch1;
+cell koru:nor2       rot0,flip @-185.02,228.86,-184.52,230.94      ->apu-ch1;
+cell keko:or2        rot0,flip @-185.72,228.85,-185.02,230.91      ->apu-ch1;
+cell kapa:dlatch     rot0,flip @-187.42,228.86,-185.71,230.93      ->joypad;
+cell kuro:not_if0    rot0,flip @-188.45,228.85,-187.41,230.91      ->joypad;
+cell kyny:not_x2     rot0,flip @-188.96,228.87,-188.45,230.91      ->apu-ch1;
+cell kaba:or2        rot0,flip @-189.64,228.85,-188.95,230.91      ->apu-ch1;
+cell kepy:not_x3     rot0,flip @-190.33,228.86,-189.65,230.92      ->apu-control;
+cell kevu:dlatch     rot0,flip @-192.05,228.85,-190.32,230.92      ->joypad;
+cell kema:not_if0    rot0,flip @-193.05,228.84,-192.03,230.91      ->joypad;
+cell kuby:not_x1     rot0,flip @-193.41,228.85,-193.05,230.92      ->apu-control;
+cell keba:not_x6     rot0,flip @-194.60,228.86,-193.39,230.91      ->apu-control;
+cell keja:dlatch     rot0,flip @-196.31,228.84,-194.60,230.92      ->joypad;
+cell kuve:not_if0    rot0,flip @-197.33,228.85,-196.30,230.91      ->joypad;
+cell kara:not_x1     rot0,flip @-197.68,228.84,-197.33,230.91      ->apu-ch4;
+cell kywy:dffr       rot0,flip @-200.59,228.84,-197.67,230.90      ->apu-ch4;
+cell kyku:or2        rot0,flip @-201.26,228.84,-200.57,230.91      ->apu-ch4;
+cell kopa:not_x1     rot0,flip @-201.60,228.85,-201.27,230.91      ->apu-ch4;
+cell kuzy:dffr       rot0,flip @-204.51,228.84,-201.60,230.91      ->apu-ch4;
+cell kame:not_x1     rot0,flip @-204.85,228.84,-204.51,230.90      ->apu-control;
+cell kuta:dffr       rot0,flip @-207.75,228.87,-204.84,230.91      ->apu-ch4;
+cell ketu:dffr       rot0,flip @-210.67,228.85,-207.74,230.91      ->apu-ch4;
+cell kuhu:not_x1     rot0,flip @-211.02,228.84,-210.67,230.91      ->apu-ch4;
+cell kavu:ao22       rot0,flip @-212.38,228.84,-210.99,230.91      ->apu-ch4;
+cell kage:not_x1     rot0,flip @-212.72,228.84,-212.37,230.91      ->apu-ch4;
+cell keta:not_if0    rot0,flip @-213.75,228.84,-212.72,230.91      ->apu-ch4;
+cell komu:dffr       rot0,flip @-216.65,228.84,-213.73,230.91      ->apu-ch4;
+cell kamo:not_if0    rot0,flip @-217.68,228.84,-216.64,230.91      ->apu-ch4;
+cell koku:not_x1     rot0,flip @-218.02,228.84,-217.67,230.90      ->apu-ch4;
+cell keka:or2        rot0,flip @-218.70,228.84,-218.01,230.90      ->apu-ch4;
+cell kazo:not_x1     rot0,flip @-219.05,228.84,-218.70,230.90      ->apu-control;
+cell kamu:nand2      rot0,flip @-219.55,228.84,-219.04,230.91      ->apu-control;
+cell kaku:not_if0    rot0,flip @-220.57,228.84,-219.54,230.91      ->apu-ch4;
+cell kyro:not_if0    rot0,flip @-221.59,228.85,-220.58,230.91      ->apu-ch4;
+cell kanu:not_x1     rot0,flip @-221.94,228.85,-221.59,230.91      ->apu-ch4;
+cell kony:not_x1     rot0,flip @-222.29,228.84,-221.95,230.91      ->apu-ch4;
+cell koge:not_if0    rot0,flip @-223.31,228.84,-222.29,230.90      ->apu-control;
 
 
 # Wires originating from column K on right hand side
@@ -164,11 +164,11 @@ wire ~keju:data
 	@-68.06,229.19,-68.06,228.48,-66.35,228.48,-66.35,224.84;
 
 wire kese:clk
-	kese.q -> keju.~tclk
+	kese.y -> keju.~tclk
 	@-68.93,230.68,-68.93,232.20,-68.58,232.20,-68.58,230.69;
 
 wire kyko:ctl
-	kyko.q -> kutu.l kemu.l kupe.l kunu.l
+	kyko.y -> kutu.l kemu.l kupe.l kunu.l
 	@-69.27,229.19,-69.27,228.75,-87.37,228.73,-87.37,232.20,-91.64,232.20,-91.64,230.65
 	@-89.08,232.20,-89.08,230.66
 	@-91.64,232.06,-97.11,232.06,-97.11,228.59,-100.53,228.59
@@ -177,7 +177,7 @@ wire kyko:ctl
 	@-100.53,229.16,-100.53,228.22,-102.24,228.22,-102.24,229.18;
 
 wire kaso:ctl
-	kaso.q -> keno.l kygu.l kepa.l kafo.l
+	kaso.y -> keno.l kygu.l kepa.l kafo.l
 	@-69.62,230.70,-69.62,232.20,-83.95,232.20,-83.95,230.68
 	@-70.62,232.20,-70.62,230.67
 	@-72.33,232.20,-72.33,230.68
@@ -188,7 +188,7 @@ wire kaso:ctl
 	@-82.24,232.20,-82.24,230.68;
 
 wire kopy:rst
-	kopy.q -> jety.~r jemo.~r jacy.~r
+	kopy.y -> jety.~r jemo.~r jacy.~r
 	@-69.95,229.19,-69.95,226.59,-69.76,226.59,-69.76,224.85
 	@-69.95,228.49,-73.18,228.49,-73.18,224.84
 	@-71.48,228.49,-71.48,224.86;
@@ -209,7 +209,7 @@ wire ~kygu:data
 	@-77.29,229.18,-77.29,228.48,-74.55,228.48,-74.55,224.84;
 
 wire kyru:clk
-	kyru.q -> kygu.~tclk
+	kyru.y -> kygu.~tclk
 	@-78.15,230.68,-78.15,232.07,-77.80,232.07,-77.80,230.68;
 
 wire kepa:clk
@@ -229,13 +229,13 @@ wire ~kafo:data
 	@-84.46,230.67,-84.46,232.19,-85.66,232.19,-85.66,230.66;
 
 wire kysa:ctl
-	kysa.q -> jefu.~ena jupy.~ena jany.~ena
+	kysa.y -> jefu.~ena jupy.~ena jany.~ena
 	@-86.34,229.18,-86.34,227.41
 	@-87.02,224.85,-87.02,227.41,-85.30,227.41
 	@-85.30,224.85,-85.30,227.80,-83.60,227.80,-83.60,224.85;
 
 wire kypu:rst
-	kypu.q -> jefu.~r jupy.~r jany.~r
+	kypu.y -> jefu.~r jupy.~r jany.~r
 	@-86.69,229.18,-86.69,227.24,-87.70,227.24,-87.70,224.85
 	@-85.99,224.85,-85.99,227.30,-86.69,227.30
 	@-84.28,224.87,-84.28,227.25,-85.99,227.25;
@@ -249,7 +249,7 @@ wire ~kutu:data
 	@-89.59,229.17,-89.59,226.86,-81.89,226.86,-81.89,224.85;
 
 wire kyvo:clk
-	kyvo.q -> jopa.d
+	kyvo.y -> jopa.d
 	@-90.97,230.68,-90.97,231.80,-76.09,231.81,-76.09,224.84;
 
 # kemu.q is not connected
@@ -283,13 +283,13 @@ wire koga:data
 # koga.~q is not connected
 
 wire kota:ctl
-	kota.q -> jove.ena kogu.ena kyho.in kana.ena
+	kota.y -> jove.ena kogu.ena kyho.in kana.ena
 	@-105.66,230.66,-105.66,232.05,-107.54,232.05,-107.54,228.59,-109.59,228.59
 	@-108.73,228.59,-108.73,229.16
 	@-109.59,229.17,-109.59,224.82;
 
 wire kuha:rst
-	kuha.q -> jovy.~r jypo.~r jefe.~r jaxa.~r jove.~r koga.~r kogu.~r kana.~r
+	kuha.y -> jovy.~r jypo.~r jefe.~r jaxa.~r jove.~r koga.~r kogu.~r kana.~r
 	@-103.42,227.41,-104.29,227.41,-104.29,232.18,-106.00,232.18,-106.00,227.12,-107.88,227.12
 	@-103.42,224.85,-103.42,227.80,-101.72,227.80,-101.72,224.86
 	@-106.16,227.12,-106.16,224.84
@@ -298,7 +298,7 @@ wire kuha:rst
 	@-109.92,224.84,-109.92,229.18;
 
 wire kuly:ctl
-	kuly.q -> jovy.~ena jypo.~ena jefe.~ena jaxa.~ena koga.~ena
+	kuly.y -> jovy.~ena jypo.~ena jefe.~ena jaxa.~ena koga.~ena
 	@-106.52,229.16,-106.52,228.59
 	@-101.02,224.85,-101.02,228.59,-107.19,228.59,-107.19,224.84
 	@-102.75,228.59,-102.75,224.83
@@ -306,7 +306,7 @@ wire kuly:ctl
 	@-105.48,228.59,-105.48,224.83;
 
 wire kene:clk
-	kene.q -> jore.~tclk
+	kene.y -> jore.~tclk
 	@-106.85,229.16,-106.85,227.53,-98.65,227.53,-98.65,224.84;
 
 wire kogu:data
@@ -317,7 +317,7 @@ wire kogu:data
 # kogu.~q is not connected
 
 wire kyho:ctl
-	kyho.q -> jove.~ena kogu.~ena kana.~ena
+	kyho.y -> jove.~ena kogu.~ena kana.~ena
 	@-108.91,230.66,-108.91,232.05,-109.25,232.05,-109.25,224.82
 	@-108.91,231.55,-107.20,231.55,-107.20,230.64;
 
@@ -328,34 +328,34 @@ wire kana:data
 # kana.~q is not connected
 
 wire kylo:clk
-	kylo.q -> kene.in
+	kylo.y -> kene.in
 	@-110.96,230.66,-110.96,232.18,-106.69,232.18,-106.69,230.66;
 
 wire katy:rst
-	katy.q -> jyna.~r
+	katy.y -> jyna.~r
 	@-111.30,229.16,-111.30,228.21,-111.63,228.21,-111.63,224.84
 	@-111.63,227.37,-112.84,227.37,-112.84,224.84;
 
 wire kova:adr
-	kova.q -> kejo.in
+	kova.y -> kejo.in
 	@-113.35,230.67,-113.35,232.18,-111.47,232.18,-111.47,230.66
 	@-112.33,232.18,-112.33,230.67;
 
 wire kopu:data
-	kopu.q -> kavo.in2
+	kopu.y -> kavo.in2
 	@-113.69,230.66,-113.69,232.18,-114.03,232.18,-114.03,230.66;
 
 wire kavo:data
-	kavo.q -> kapo.in1
+	kavo.y -> kapo.in1
 	@-114.38,230.66,-114.38,231.63,-161.55,231.59,-161.55,230.63;
 
 wire kado:rst
-	kado.q -> kaly.~r
+	kado.y -> kaly.~r
 	@-114.72,230.67,-114.72,232.18,-116.09,232.18,-116.09,230.66
 	@-116.09,231.92,-117.29,231.92,-117.29,230.66;
 
 wire kygy:ctl
-	kygy.q -> jusa.~ena joma.~ena juzy.~ena
+	kygy.y -> jusa.~ena joma.~ena juzy.~ena
 	@-115.05,229.15,-115.05,228.47
 	@-113.84,224.84,-113.84,228.47,-115.91,228.47,-115.91,224.83
 	@-115.91,227.11,-117.62,227.11,-117.62,224.83;
@@ -369,12 +369,12 @@ wire ~kaly:clk
 	@-117.80,230.67,-117.80,232.17,-116.25,232.17,-116.25,230.66;
 
 wire koma:ctl
-	koma.q -> koro.in2 kake.in2
+	koma.y -> koro.in2 kake.in2
 	@-118.65,230.66,-118.65,231.49,-170.95,231.47,-171.80,231.47,-171.80,230.64
 	@-170.95,231.47,-170.95,230.63;
 
 wire kere:clk
-	kere.q -> jola.in
+	kere.y -> jola.in
 	@-118.99,229.16,-118.99,228.09,-122.75,228.09,-122.75,224.81;
 
 wire kera:clk
@@ -384,11 +384,11 @@ wire kera:clk
 # kera.~q is not connected
 
 wire kydu:ctl
-	kydu.q -> jure.in1
+	kydu.y -> jure.in1
 	@-122.74,229.16,-122.74,228.34,-122.23,228.34,-122.23,224.84;
 
 wire kote:clk
-	kote.q -> kozy.d
+	kote.y -> kozy.d
 	@-123.61,229.16,-123.61,227.79,-163.59,227.77,-163.59,229.16;
 
 wire kenu:clk
@@ -399,7 +399,7 @@ wire kenu:clk
 # kenu.~q is not connected
 
 wire kagy:ctl
-	kagy.q -> jaxo.~ena jaty.~ena jena.~ena jafy.~ena jopu.~ena
+	kagy.y -> jaxo.~ena jaty.~ena jena.~ena jafy.~ena jopu.~ena
 	@-127.53,229.16,-127.53,228.46
 	@-126.67,224.83,-126.67,228.46,-128.39,228.46,-128.39,224.83
 	@-128.39,226.98,-133.51,226.98,-133.51,224.82
@@ -407,7 +407,7 @@ wire kagy:ctl
 	@-131.80,226.98,-131.80,224.80;
 
 wire kena:data
-	kena.q -> sout.~o
+	kena.y -> sout.~o
 	@-128.39,230.64,-128.39,232.16,-141.87,232.16,-141.87,234.68,-154.04,234.67,-154.04,238.02,
 	 -152.53,238.02,-152.53,238.34;
 
@@ -432,59 +432,59 @@ wire keru:data
 # keru.~q is not connected
 
 wire kore:data
-	kore.q -> sin.~h
+	kore.y -> sin.~pdrv
 	@-137.61,229.15,-137.61,227.39,-151.29,227.39,-151.29,231.78,-151.45,231.78,-151.45,234.16,-163.82,234.16,
 	 -163.82,238.02,-163.13,238.02,-163.13,238.34;
 
 wire kywe:data
-	kywe.q -> sin.l
+	kywe.y -> sin.ndrv
 	@-138.13,230.65,-138.13,231.91,-155.80,231.90,-155.80,234.67,-172.02,234.66,-172.02,238.01,-171.34,238.01,
 	 -171.34,238.33;
 
 wire kyfu:data
-	kyfu.q -> kaju.in1
+	kyfu.y -> kaju.in1
 	@-138.81,229.15,-138.81,228.32,-159.48,228.32,-159.48,229.16;
 
 wire kujo:clk
-	kujo.q -> sck.l
+	kujo.y -> sck.ndrv
 	@-139.33,229.15,-139.33,226.80,-161.37,226.80,-161.37,231.77,-161.69,231.77,-161.69,234.41,-182.43,234.40,
 	 -182.43,238.02,-182.56,238.02,-182.56,238.31;
 
 wire kexu:clk
-	kexu.q -> sck.~h
+	kexu.y -> sck.~pdrv
 	@-139.84,229.15,-139.84,227.09,-157.27,227.09,-157.27,231.90,-157.49,231.90,-157.49,234.28,-173.54,234.27,
 	 -173.54,238.02,-173.67,238.02,-173.67,238.31;
 
 # kely.q is not connected
 
 wire ~kely:data
-	kely.~q -> p14.l karu.in1 koce.in
+	kely.~q -> p14.ndrv karu.in1 koce.in
 	@-142.57,230.66,-142.57,232.17,-144.96,232.17,-144.96,226.67,-146.16,226.67,-185.97,226.66,-185.97,232.15,
 	 -186.00,232.15,-186.00,234.39,-224.67,234.38,-224.67,237.65,-235.57,237.64,-235.57,238.29
 	@-146.16,226.67,-146.16,229.16;
 
 wire kupo:adr
-	kupo.q -> a0.~h
+	kupo.y -> a0.~pdrv
 	@-143.25,229.16,-143.25,227.23,-102.06,227.25,-102.06,231.81,-102.02,231.81,-102.02,232.78,-59.80,232.80,
 	 -59.80,237.89,-43.17,237.90,-43.17,238.40;
 
 wire koty:adr
-	koty.q -> a0.l
+	koty.y -> a0.ndrv
 	@-143.77,230.64,-143.77,231.78,-102.53,231.80,-102.53,232.53,-61.13,232.54,-61.13,237.55,-51.38,237.55,
 	 -51.38,238.38;
 
 wire kory:data
-	kory.q -> p13.~h
+	kory.y -> p13.~pdrv
 	@-144.27,230.66,-144.27,232.03,-179.80,232.02,-179.80,234.15,-213.16,234.13,-213.16,237.65,-216.77,237.65,
 	 -216.77,238.30;
 
 wire kale:data
-	kale.q -> p13.l
+	kale.y -> p13.ndrv
 	@-144.79,230.66,-144.79,231.36,-184.24,231.34,-184.24,234.02,-221.52,233.99,-221.52,237.99,-224.98,237.99,
 	 -224.98,238.31;
 
 wire karu:data
-	karu.q -> p14.~h
+	karu.y -> p14.~pdrv
 	@-145.47,230.64,-145.47,232.16,-185.45,232.14,-185.45,234.27,-223.10,234.25,-223.10,237.81,-227.36,237.81,
 	 -227.36,238.30;
 
@@ -495,7 +495,7 @@ wire kolo:data
 # kolo.~q is not connected
 
 wire kura:ctl
-	kura.q -> cela.in2 kale.in2 karu.in2 kybu.in2 kabu.in2 kasy.in2
+	kura.y -> cela.in2 kale.in2 karu.in2 kybu.in2 kabu.in2 kasy.in2
 	@-149.59,229.13,-149.59,228.71
 	@-144.62,229.16,-144.62,228.71,-149.59,228.71,-158.64,228.70,-166.15,228.70
 	@-145.13,228.71,-145.13,229.14
@@ -505,7 +505,7 @@ wire kura:ctl
 	 -173.65,206.95,-173.81,206.95,-173.81,202.86,-173.63,202.86,-173.63,198.80,-222.34,198.78,-222.34,195.13;
 
 wire kype:clk
-	kype.q -> jema.~tclk
+	kype.y -> jema.~tclk
 	@-149.92,229.13,-149.92,226.16,-149.23,226.16,-149.23,224.81;
 
 # kyna.q is not connected
@@ -523,21 +523,21 @@ wire kecy:data
 # kecy.~q is not connected
 
 wire kybu:data
-	kybu.q -> p10.l
+	kybu.y -> p10.ndrv
 	@-158.80,230.63,-158.80,231.09,-176.38,231.08,-176.38,234.53,-192.20,234.52,-192.20,237.82,-193.18,237.82,
 	 -193.18,238.31;
 
 wire kole:data
-	kole.q -> p10.~h
+	kole.y -> p10.~pdrv
 	@-159.33,230.63,-159.33,231.90,-172.53,231.89,-172.53,234.66,-183.98,234.66,-183.98,238.00,-184.95,238.00,
 	 -184.95,238.31;
 
 wire kaju:data
-	kaju.q -> holu.~r
+	kaju.y -> holu.~r
 	@-159.83,229.15,-159.83,221.93,-170.24,221.93,-170.24,220.45;
 
 wire kuxu:ctl
-	kuxu.q -> jova.l kera.l kenu.l
+	kuxu.y -> jova.l kera.l kenu.l
 	@-160.17,229.15,-160.17,227.94,-125.99,227.95
 	@-125.99,229.16,-125.99,226.98,-124.28,226.98,-124.28,229.17
 	@-125.31,226.98,-125.31,224.83
@@ -546,23 +546,23 @@ wire kuxu:ctl
 	@-121.38,227.83,-119.67,227.83,-119.67,229.19;
 
 wire kypa:data
-	kypa.q -> holu.~s
+	kypa.y -> holu.~s
 	@-160.69,229.14,-160.69,222.31,-169.73,222.31,-169.73,220.45
 	@-167.51,222.31,-167.51,220.46;
 
 wire kovu:data
-	kovu.q -> fely.~s
+	kovu.y -> fely.~s
 	@-161.20,229.15,-161.20,221.80,-161.54,221.80,-161.54,217.23,-162.05,217.23,-162.05,213.62,-164.42,213.62,
 	 -164.42,210.73
 	@-162.21,213.62,-162.21,210.73;
 
 wire kapo:data
-	kapo.q -> fely.~r
+	kapo.y -> fely.~r
 	@-161.88,229.16,-161.88,226.84,-161.70,226.84,-161.70,221.55,-163.74,221.55,-163.74,211.61,-164.93,211.61,
 	 -164.93,210.72;
 
 wire kaza:ctl
-	kaza.q -> kuxu.in
+	kaza.y -> kuxu.in
 	@-162.40,229.16,-162.40,228.32,-160.00,228.32,-160.00,229.16;
 
 wire ch1_eg_tick:clk
@@ -575,17 +575,17 @@ wire ch1_eg_tick:clk
 # kozy.~q is not connected
 
 wire kyto:data
-	kyto.q -> p11.~h
+	kyto.y -> p11.~pdrv
 	@-165.81,230.64,-165.81,231.60,-180.56,231.59,-180.56,237.02,-193.59,237.02,-193.59,237.83,-195.56,237.83,
 	 -195.56,238.31;
 
 wire kabu:data
-	kabu.q -> p11.l
+	kabu.y -> p11.ndrv
 	@-166.32,229.15,-166.32,228.70,-185.46,228.69,-185.46,231.97,-185.00,231.97,-185.00,233.89,-201.97,233.88,
 	 -201.97,238.00,-203.77,238.00,-203.77,238.30;
 
 wire koko:data
-	koko.q -> jado.in2
+	koko.y -> jado.in2
 	@-167.01,229.14,-167.01,227.51,-166.15,227.51,-166.15,224.81;
 
 wire kare:data
@@ -593,56 +593,56 @@ wire kare:data
 	@-169.05,229.14,-169.05,227.26,-159.14,227.26,-159.14,224.81;
 
 wire kede:ctl
-	kede.q -> galo.~clk jyme.~clk jode.~clk kare.~clk
+	kede.y -> galo.~clk jyme.~clk jode.~clk kare.~clk
 	@-169.57,229.15,-169.57,225.90,-170.08,225.90,-170.08,224.81
 	@-169.57,228.31,-164.78,228.31,-164.78,218.00,-165.62,218.00,-165.62,215.53
 	@-168.54,228.31,-168.54,229.16;
 
 wire kery:ctl
-	kery.q -> awob.d batu.d
+	kery.y -> awob.d batu.d
 	@-170.59,229.13,-170.59,228.32,-170.42,228.32,-170.42,221.20,-169.55,221.20,-169.55,212.88,-169.20,212.88,
 	 -169.20,206.96,-169.37,206.96,-169.37,202.85,-168.16,202.85,-168.16,198.27,-168.33,198.27,-168.33,191.81,
 	 -167.64,191.81,-167.64,186.87,-167.98,186.87,-167.98,182.65,-145.07,182.67,-145.07,188.54,-139.45,188.54,
 	 -139.45,189.26;
 
 wire koro:ctl
-	koro.q -> kozy.~r
+	koro.y -> kozy.~r
 	@-171.45,229.14,-171.45,227.38,-164.61,227.38,-164.61,231.65,-163.41,231.65,-163.41,230.65;
 
 wire kake:clk
-	kake.q -> jufy.in2 jufy.in3
+	kake.y -> jufy.in2 jufy.in3
 	@-172.30,229.15,-172.30,225.77,-137.26,225.79
 	@-137.26,224.83,-137.26,227.40,-136.93,227.40,-136.93,224.82;
 
 wire kyhu:data
-	kyhu.q -> p12.~h
+	kyhu.y -> p12.~pdrv
 	@-172.83,230.63,-172.83,231.46,-189.03,231.46,-189.03,234.66,-203.38,234.65,-203.38,237.83,-206.16,237.83,
 	 -206.16,238.30;
 
 wire kuku:ctl
-	kuku.q -> koro.in1
+	kuku.y -> koro.in1
 	@-173.33,229.16,-173.33,228.31,-170.77,228.31,-170.77,229.15;
 
 wire kury:clk
-	kury.q -> kuku.in2
+	kury.y -> kuku.in2
 	@-173.67,229.13,-173.67,227.13,-173.15,227.13,-173.15,229.17;
 
 wire kola:data
-	kola.q -> jota.~s
+	kola.y -> jota.~s
 	@-174.17,229.13,-174.17,225.59,-176.05,225.59,-176.05,224.79
 	@-174.17,226.41,-173.84,226.41,-173.84,224.79;
 
 wire kasy:data
-	kasy.q -> p12.l
+	kasy.y -> p12.ndrv
 	@-174.70,230.63,-174.70,231.85,-194.16,231.84,-194.16,237.02,-211.75,237.01,-211.75,237.99,-214.38,237.99,
 	 -214.38,238.30;
 
 wire kefe:data
-	kefe.q -> jete.d
+	kefe.y -> jete.d
 	@-174.86,229.13,-174.86,226.27,-167.00,226.27,-167.00,224.80;
 
 wire kedo:ctl
-	kedo.q -> afug.in1 afyr.in1 bapu.in1 beju.in2 bege.in2 buvo.in1 beso.in2 dace.in2
+	kedo.y -> afug.in1 afyr.in1 bapu.in1 beju.in2 bege.in2 buvo.in1 beso.in2 dace.in2
 	@-176.06,229.13,-176.06,225.77,-175.88,225.77,-175.88,221.67,-176.05,221.67,-176.05,212.92,-175.52,212.92,
 	 -175.52,208.20,-175.34,208.20,-175.34,202.30,-166.12,202.30,-166.12,197.16,-166.45,197.16,-166.45,193.09,
 	 -165.93,193.09,-165.93,188.53
@@ -664,22 +664,22 @@ wire kyno:ctl
 # kyno.~q is not connected
 
 wire kyry:data
-	kyry.q -> jolu.~s
+	kyry.y -> jolu.~s
 	@-180.51,229.13,-180.51,226.27,-177.93,226.27,-177.93,224.81
 	@-180.16,226.27,-180.16,224.79;
 
 wire kybo:data
-	kybo.q -> jota.~r
+	kybo.y -> jota.~r
 	@-181.02,229.13,-181.02,228.05,-176.57,228.05,-176.57,224.79;
 
 wire ~ch1_ld_shift:ctl
-	kala.q -> juju.in kedo.in kape.in
+	kala.y -> juju.in kedo.in kape.in
 	@-181.53,229.14,-181.53,225.89,-177.59,225.89
 	@-181.53,228.06,-181.70,228.06,-181.70,229.14
 	@-177.59,224.81,-177.59,226.28,-175.88,226.28,-175.88,229.14;
 
 wire kape:ctl
-	kape.q -> hozu.in2 hawy.in2 hola.in2 jehy.in1 jocy.in1 koko.in1
+	kape.y -> hozu.in2 hawy.in2 hola.in2 jehy.in1 jocy.in1 koko.in1
 	@-181.87,229.13,-181.87,226.03,-166.49,226.03,-166.49,229.16
 	@-181.87,226.11,-191.27,226.11
 	@-182.89,226.11,-182.89,221.41,-181.18,221.41,-181.18,220.44
@@ -688,32 +688,32 @@ wire kape:ctl
 	@-191.27,224.80,-191.27,228.05,-191.95,228.05,-191.95,224.80;
 
 wire kovo:data
-	kovo.q -> kevy.in2
+	kovo.y -> kevy.in2
 	@-182.22,229.14,-182.22,228.06,-182.55,228.06,-182.55,229.13;
 
 wire kevy:data
-	kevy.q -> kybo.in2
+	kevy.y -> kybo.in2
 	@-182.90,229.13,-182.90,226.27,-180.84,226.27,-180.84,229.15;
 
 wire keke:data
-	keke.q -> kaxy.in2
+	keke.y -> kaxy.in2
 	@-183.24,230.64,-183.24,232.02,-183.59,232.02,-183.59,230.62;
 
 wire kaxy:data
-	kaxy.q -> keto.in2
+	kaxy.y -> keto.in2
 	@-183.93,229.14,-183.93,228.31,-184.27,228.31,-184.27,229.14;
 
 wire keto:data
-	keto.q -> jolu.~r
+	keto.y -> jolu.~r
 	@-184.44,229.13,-184.44,227.76,-180.67,227.76,-180.67,224.80;
 
 wire koru:ctl
-	koru.q -> kyno.~r
+	koru.y -> kyno.~r
 	@-184.95,230.63,-184.95,231.21,-178.11,231.21,-178.11,230.63
 	@-179.31,231.21,-179.31,230.63;
 
 wire keko:ctl
-	keko.q -> kezu.r
+	keko.y -> kezu.r
 	@-185.63,229.14,-185.63,227.38,-177.08,227.38,-177.08,229.13;
 
 wire kapa:data
@@ -723,7 +723,7 @@ wire kapa:data
 # kapa.~q is not connected
 
 wire ~sum_reset:ctl
-	kyny.q -> doly.~r dele.~r deva.~r dexe.~r defa.~r dofy.~r exap.~r edok.~r epyr.~r eter.~r faxo.~r gyme.~r
+	kyny.y -> doly.~r dele.~r deva.~r dexe.~r defa.~r dofy.~r exap.~r edok.~r epyr.~r eter.~r faxo.~r gyme.~r
 	          galo.~r gele.~r hopa.~r hele.~r hora.~r jyme.~r jete.~r jode.~r jape.~r kare.~r
 	@-188.88,229.14,-188.88,228.17,-187.68,228.17,-187.68,220.45
 	@-187.68,222.48,-169.05,222.48,-169.05,226.84,-166.83,226.84,-166.83,221.80,-163.75,221.80,-163.75,223.32
@@ -766,11 +766,11 @@ wire ~sum_reset:ctl
 	@-164.94,221.80,-164.94,223.32;
 
 wire kaba:ctl
-	kaba.q -> kyny.in
+	kaba.y -> kyny.in
 	@-189.56,230.64,-189.56,232.14,-188.54,232.14,-188.54,230.64;
 
 wire ~ff24_ff25_ff26_reset:rst
-	kepy.q -> anev.~r atuf.~r apeg.~r apos.~r ager.~r bowy.~r bepu.~r befo.~r bume.~r bofa.~r byre.~r bedu.~r
+	kepy.y -> anev.~r atuf.~r apeg.~r apos.~r ager.~r bowy.~r bepu.~r befo.~r bume.~r bofa.~r byre.~r bedu.~r
 	          bumo.~r bafo.~r bogu.~r byga.~r cozu.~r fero.~r
 	@-190.25,229.13,-190.25,228.19,-190.07,228.19,-190.07,217.86,-191.09,217.86,-191.09,212.70,-116.23,212.74,
 	 -97.60,212.74,-97.60,210.77
@@ -800,11 +800,11 @@ wire kevu:data
 # kevu.~q is not connected
 
 wire kuby:rst
-	kuby.q -> keba.in
+	kuby.y -> keba.in
 	@-193.33,230.64,-193.33,231.98,-193.49,231.98,-193.49,230.63;
 
 wire apu_reset:rst
-	keba.q -> acor.in atyv.in ares.in2 afat.in apaj.in2 avuf.in1 agor.in1 afux.in1 atat.in1 agur.in atus.in
+	keba.y -> acor.in atyv.in ares.in2 afat.in apaj.in2 avuf.in1 agor.in1 afux.in1 atat.in1 agur.in atus.in
 	          byho.in buwe.in bela.in bama.in beny.in2 boky.in bery.in2 boxu.in2 bovu.in2 bewo.in1 bury.in2
 	          bopo.in cywu.in cexe.in calu.in cepo.in cory.in2 camy.in cabe.in doxa.in1 dera.in1 duka.in
 	          dado.in1 dyru.in1 dapa.in eluf.in2 esel.in2 efor.in2 esyk.in1 eget.in1 erum.in enok.in1 ezuk.in1
@@ -900,7 +900,7 @@ wire keja:data
 # keja.~q is not connected
 
 wire kara:clk
-	kara.q -> kopa.in
+	kara.y -> kopa.in
 	@-197.60,230.62,-197.60,231.97,-201.36,231.97,-201.36,230.63;
 
 wire kywy:data
@@ -910,11 +910,11 @@ wire kywy:data
 # kywy.~q is not connected
 
 wire kyku:clk
-	kyku.q -> kony.in
+	kyku.y -> kony.in
 	@-201.19,230.62,-201.19,231.84,-222.04,231.83,-222.04,230.61;
 
 wire ch4_lfsr_clk3:clk
-	kopa.q -> kywy.clk kuzy.clk kuta.clk ketu.clk komu.clk
+	kopa.y -> kywy.clk kuzy.clk kuta.clk ketu.clk komu.clk
 	@-201.53,230.62,-201.53,232.14,-214.01,232.14,-214.01,230.62
 	@-201.87,232.14,-201.87,230.59
 	@-205.12,232.14,-205.12,230.63
@@ -928,7 +928,7 @@ wire kuzy:data
 # kuzy.~q is not connected
 
 wire ~apu_reset5:rst
-	kame.q -> jeso.~r jero.~r jaky.~r jare.~r
+	kame.y -> jeso.~r jero.~r jaky.~r jare.~r
 	@-204.77,229.14,-204.77,227.88,-203.23,227.88,-203.23,224.79
 	@-204.77,228.44,-206.66,228.44,-206.66,224.80
 	@-204.94,228.44,-204.94,224.80
@@ -948,15 +948,15 @@ wire ketu:data
 # ketu.~q is not connected
 
 wire kuhu:ctl
-	kuhu.q -> jamy.ena
+	kuhu.y -> jamy.ena
 	@-210.92,229.12,-210.92,227.32,-211.27,227.32,-211.27,224.78;
 
 wire kavu:data
-	kavu.q -> jepe.d
+	kavu.y -> jepe.d
 	@-212.30,229.13,-212.30,228.55,-189.38,228.56,-189.38,224.80;
 
 wire kage:ctl
-	kage.q -> jora.in1
+	kage.y -> jora.in1
 	@-212.63,229.12,-212.63,228.30,-212.45,228.30,-212.45,224.79;
 
 wire komu:data
@@ -966,27 +966,27 @@ wire komu:data
 # komu.~q is not connected
 
 wire koku:dec
-	koku.q -> keka.in1
+	koku.y -> keka.in1
 	@-217.94,230.63,-217.94,232.01,-218.10,232.01,-218.10,230.61;
 
 wire keka:ctl
-	keka.q -> kamo.~ena kaku.~ena kyro.~ena
+	keka.y -> kamo.~ena kaku.~ena kyro.~ena
 	@-218.62,230.63,-218.62,232.13
 	@-216.73,230.62,-216.73,232.13,-220.67,232.13,-220.67,230.61
 	@-219.65,232.13,-219.65,230.61;
 
 wire kazo:ctl
-	kazo.q -> kamu.in2
+	kazo.y -> kamu.in2
 	@-218.96,230.62,-218.96,232.01,-219.30,232.01,-219.30,230.62;
 
 wire kamu:ctl
-	kamu.q -> koge.~ena
+	kamu.y -> koge.~ena
 	@-219.48,230.62,-219.48,232.01,-222.38,232.01,-222.38,230.59;
 
 wire kanu:clk
-	kanu.q -> jyco.~tclk
+	kanu.y -> jyco.~tclk
 	@-221.87,229.13,-221.87,228.67,-216.22,228.67,-216.22,224.77;
 
 wire kony:clk
-	kony.q -> kanu.in
+	kony.y -> kanu.in
 	@-222.21,230.61,-222.21,232.13,-221.69,232.13,-221.69,230.63;

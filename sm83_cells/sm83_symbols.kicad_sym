@@ -2,7 +2,876 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "A3OI_2_OD"
+	(symbol "AOI21_IF1_OD"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOI21_IF1_OD"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.905 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain 2-1 AND-OR-INVERT two-level compound gate with active-high enable input."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AOI21_IF1_OD_1_0"
+			(pin input line
+				(at 3.81 6.35 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AOI21_IF1_OD_1_1"
+			(arc
+				(start -1.905 -0.635)
+				(mid 1.22 2.54)
+				(end -1.905 5.715)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2698 2.54) (xy 4.4448 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 -2.54) (xy 8.255 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 1.27 2.54) (xy 1.27 2.54) (xy 1.524 2.1336) (xy 2.0574 0.9906) (xy 2.3876 -0.2286)
+					(xy 2.4638 -1.524) (xy 2.3114 -2.7686) (xy 1.905 -3.9878) (xy 1.27 -5.08) (xy 1.27 -5.08) (xy 4.445 -5.08)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 1.2698 -5.08)
+				(mid 2.4908 -1.27)
+				(end 1.2698 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.4702 -5.08)
+				(mid 7.2653 -3.854)
+				(end 8.8898 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 8.8898 -1.27)
+				(mid 7.2726 1.3225)
+				(end 4.4702 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 12)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 12.7 -1.27 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AOI21_OD"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOI21_OD"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.905 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain 2-1 AND-OR-INVERT two-level compound gate."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AOI21_OD_1_1"
+			(arc
+				(start -1.905 -0.635)
+				(mid 1.22 2.54)
+				(end -1.905 5.715)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2698 2.54) (xy 4.4448 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 -2.54) (xy 8.255 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 1.27 2.54) (xy 1.27 2.54) (xy 1.524 2.1336) (xy 2.0574 0.9906) (xy 2.3876 -0.2286)
+					(xy 2.4638 -1.524) (xy 2.3114 -2.7686) (xy 1.905 -3.9878) (xy 1.27 -5.08) (xy 1.27 -5.08) (xy 4.445 -5.08)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 1.2698 -5.08)
+				(mid 2.4908 -1.27)
+				(end 1.2698 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.4702 -5.08)
+				(mid 7.2653 -3.854)
+				(end 8.8898 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 8.8898 -1.27)
+				(mid 7.2726 1.3225)
+				(end 4.4702 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 12)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 12.7 -1.27 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AOI222_OD"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 12.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOI222_OD"
+			(at 0 -12.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain 2-2-2 AND-OR-INVERT two-level compound gate."
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AOI222_OD_1_1"
+			(arc
+				(start -3.175 -10.795)
+				(mid -0.05 -7.62)
+				(end -3.175 -4.445)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -3.175)
+				(mid -0.05 0)
+				(end -3.175 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 4.445)
+				(mid -0.05 7.62)
+				(end -3.175 10.795)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.0002 -7.62)
+				(mid 1.2208 -3.81)
+				(end -0.0002 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 -7.62) (xy 3.1748 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 0) (xy 3.1748 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -5.08) (xy 6.985 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -4.445) (xy -6.985 -4.445) (xy -6.985 -10.795) (xy -3.175 -10.795)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 3.175) (xy -6.985 3.175) (xy -6.985 -3.175) (xy -3.175 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 10.795) (xy -6.985 10.795) (xy -6.985 4.445) (xy -3.175 4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -3.81) (xy 5.715 -2.54) (xy 4.445 -3.81) (xy 5.715 -5.08) (xy 6.985 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 0 0) (xy 0 0) (xy 0.254 -0.4064) (xy 0.7874 -1.5494) (xy 1.1176 -2.7686) (xy 1.1938 -4.064)
+					(xy 1.0414 -5.3086) (xy 0.635 -6.5278) (xy 0 -7.62) (xy 0 -7.62) (xy 3.175 -7.62)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.2002 -7.62)
+				(mid 5.9953 -6.394)
+				(end 7.6198 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 7.6198 -3.81)
+				(mid 6.0026 -1.2175)
+				(end 3.2002 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -11.43 8.89 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 6.35 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -6.35 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -8.89 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 11.43 -3.81 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AOI22_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -16,7 +885,294 @@
 				)
 			)
 		)
-		(property "Value" "A3OI_2_OD"
+		(property "Value" "AOI22_OD"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain 2-2 AND-OR-INVERT two-level compound gate."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AOI22_OD_1_1"
+			(arc
+				(start -3.175 -6.985)
+				(mid -0.05 -3.81)
+				(end -3.175 -0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 0.635)
+				(mid -0.05 3.81)
+				(end -3.175 6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.0002 -3.81)
+				(mid 1.2208 0)
+				(end -0.0002 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 3.81) (xy 3.1748 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 3.81) (xy 0 3.81) (xy 0 3.81) (xy 0.254 3.4036) (xy 0.7874 2.2606) (xy 1.1176 1.0414)
+					(xy 1.1938 -0.254) (xy 1.0414 -1.4986) (xy 0.635 -2.7178) (xy 0 -3.81) (xy 0 -3.81) (xy 3.175 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.2002 -3.81)
+				(mid 5.9953 -2.584)
+				(end 7.6198 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 7.6198 0)
+				(mid 6.0026 2.5925)
+				(end 3.2002 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -11.43 5.08 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 2.54 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -2.54 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -5.08 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AOI33_OD"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOI33_OD"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -51,7 +1207,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "A3OI_2_OD_1_1"
+		(symbol "AOI33_OD_1_1"
 			(arc
 				(start -3.175 -6.985)
 				(mid -0.05 -3.81)
@@ -325,7 +1481,7 @@
 			)
 		)
 	)
-	(symbol "A4OI_2_OD"
+	(symbol "AOI44_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -339,7 +1495,7 @@
 				)
 			)
 		)
-		(property "Value" "A4OI_2_OD"
+		(property "Value" "AOI44_OD"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -374,7 +1530,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "A4OI_2_OD_1_1"
+		(symbol "AOI44_OD_1_1"
 			(arc
 				(start -3.175 -6.985)
 				(mid -0.05 -3.81)
@@ -708,169 +1864,60 @@
 			)
 		)
 	)
-	(symbol "AOI_1_OD"
+	(symbol "BUF_IF00"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -6.35 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AOI_1_OD"
+		(property "Value" "BUF_IF00"
+			(at 0 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tri-state buffer with two active-low enable inputs."
 			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1.905 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.27 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain 2-1 AND-OR-INVERT two-level compound gate."
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOI_1_OD_1_1"
-			(arc
-				(start -1.905 -0.635)
-				(mid 1.22 2.54)
-				(end -1.905 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "BUF_IF00_1_0"
 			(polyline
 				(pts
-					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
 				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.2698 2.54) (xy 4.4448 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.715 -2.54) (xy 8.255 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 2.54) (xy 1.27 2.54) (xy 1.27 2.54) (xy 1.524 2.1336) (xy 2.0574 0.9906) (xy 2.3876 -0.2286)
-					(xy 2.4638 -1.524) (xy 2.3114 -2.7686) (xy 1.905 -3.9878) (xy 1.27 -5.08) (xy 1.27 -5.08) (xy 4.445 -5.08)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 1.2698 -5.08)
-				(mid 2.4908 -1.27)
-				(end 1.2698 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 4.4702 -5.08)
-				(mid 7.2653 -3.854)
-				(end 8.8898 -1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 8.8898 -1.27)
-				(mid 7.2726 1.3225)
-				(end 4.4702 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -880,26 +1927,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 3.81 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 1.27 0)
-				(length 4.3)
+				(at -6.35 0 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -915,9 +1944,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -3.81 0)
-				(length 12)
+			(pin tri_state line
+				(at 6.35 0 180)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -933,225 +1962,12 @@
 					)
 				)
 			)
-			(pin tri_state inverted
-				(at 12.7 -1.27 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
 		)
-	)
-	(symbol "AOI_2_OD"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AOI_2_OD"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain 2-2 AND-OR-INVERT two-level compound gate."
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOI_2_OD_1_1"
-			(arc
-				(start -3.175 -6.985)
-				(mid -0.05 -3.81)
-				(end -3.175 -0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 0.635)
-				(mid -0.05 3.81)
-				(end -3.175 6.985)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -3.81)
-				(mid 1.2208 0)
-				(end -0.0002 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.0002 3.81) (xy 3.1748 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -1.27) (xy 6.985 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 3.81) (xy 0 3.81) (xy 0 3.81) (xy 0.254 3.4036) (xy 0.7874 2.2606) (xy 1.1176 1.0414)
-					(xy 1.1938 -0.254) (xy 1.0414 -1.4986) (xy 0.635 -2.7178) (xy 0 -3.81) (xy 0 -3.81) (xy 3.175 -3.81)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.2002 -3.81)
-				(mid 5.9953 -2.584)
-				(end 7.6198 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 7.6198 0)
-				(mid 6.0026 2.5925)
-				(end 3.2002 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -11.43 5.08 0)
-				(length 4.3)
-				(name "~"
+		(symbol "BUF_IF00_1_1"
+			(pin input inverted
+				(at -0.635 5.08 270)
+				(length 2.5)
+				(name "ENA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1166,315 +1982,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 2.54 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -2.54 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -5.08 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 11.43 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "AOI_3_OD"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 12.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AOI_3_OD"
-			(at 0 -12.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -14.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain 2-2-2 AND-OR-INVERT two-level compound gate."
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOI_3_OD_1_1"
-			(arc
-				(start -3.175 -10.795)
-				(mid -0.05 -7.62)
-				(end -3.175 -4.445)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 -3.175)
-				(mid -0.05 0)
-				(end -3.175 3.175)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 4.445)
-				(mid -0.05 7.62)
-				(end -3.175 10.795)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -7.62)
-				(mid 1.2208 -3.81)
-				(end -0.0002 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.0002 -7.62) (xy 3.1748 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.0002 0) (xy 3.1748 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 7.62) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -5.08) (xy 6.985 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -4.445) (xy -6.985 -4.445) (xy -6.985 -10.795) (xy -3.175 -10.795)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 3.175) (xy -6.985 3.175) (xy -6.985 -3.175) (xy -3.175 -3.175)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 10.795) (xy -6.985 10.795) (xy -6.985 4.445) (xy -3.175 4.445)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 -3.81) (xy 5.715 -2.54) (xy 4.445 -3.81) (xy 5.715 -5.08) (xy 6.985 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 0) (xy 0 0) (xy 0 0) (xy 0.254 -0.4064) (xy 0.7874 -1.5494) (xy 1.1176 -2.7686) (xy 1.1938 -4.064)
-					(xy 1.0414 -5.3086) (xy 0.635 -6.5278) (xy 0 -7.62) (xy 0 -7.62) (xy 3.175 -7.62)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.2002 -7.62)
-				(mid 5.9953 -6.394)
-				(end 7.6198 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 7.6198 -3.81)
-				(mid 6.0026 -1.2175)
-				(end 3.2002 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -11.43 8.89 0)
-				(length 4.3)
-				(name "~"
+			(pin input inverted
+				(at 1.27 5.08 270)
+				(length 3.9)
+				(name "ENA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1485,379 +1996,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 6.35 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 1.27 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -1.27 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -6.35 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -8.89 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 11.43 -3.81 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "AOI_IF1_OD"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AOI_IF1_OD"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1.905 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1.27 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain 2-1 AND-OR-INVERT two-level compound gate with active-high enable input."
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOI_IF1_OD_1_0"
-			(pin input line
-				(at 3.81 6.35 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "AOI_IF1_OD_1_1"
-			(arc
-				(start -1.905 -0.635)
-				(mid 1.22 2.54)
-				(end -1.905 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.2698 2.54) (xy 4.4448 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.715 -2.54) (xy 8.255 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 2.54) (xy 1.27 2.54) (xy 1.27 2.54) (xy 1.524 2.1336) (xy 2.0574 0.9906) (xy 2.3876 -0.2286)
-					(xy 2.4638 -1.524) (xy 2.3114 -2.7686) (xy 1.905 -3.9878) (xy 1.27 -5.08) (xy 1.27 -5.08) (xy 4.445 -5.08)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 1.2698 -5.08)
-				(mid 2.4908 -1.27)
-				(end 1.2698 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 4.4702 -5.08)
-				(mid 7.2653 -3.854)
-				(end 8.8898 -1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 8.8898 -1.27)
-				(mid 7.2726 1.3225)
-				(end 4.4702 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -10.16 3.81 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 1.27 0)
-				(length 4.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -3.81 0)
-				(length 12)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 12.7 -1.27 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -2017,6 +2155,264 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BUF_IF1"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUF_IF1"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tri-state buffer with active-high enable input."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BUF_IF1_1_0"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 6.35 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BUF_IF1_1_1"
+			(pin input line
+				(at 0 5.08 270)
+				(length 3.15)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BUF_IF11"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUF_IF11"
+			(at 0 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tri-state buffer with two active-high enable inputs."
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BUF_IF11_1_0"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 6.35 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BUF_IF11_1_1"
+			(pin input line
+				(at -0.635 5.08 270)
+				(length 2.7)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 4)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2332,7 +2728,7 @@
 			)
 		)
 	)
-	(symbol "NAND_2_OD"
+	(symbol "NAND2_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -2346,7 +2742,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2_OD"
+		(property "Value" "NAND2_OD"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2381,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_2_OD_1_1"
+		(symbol "NAND2_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -2486,7 +2882,7 @@
 			)
 		)
 	)
-	(symbol "NAND_2_OS"
+	(symbol "NAND2_OS"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -2500,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_2_OS"
+		(property "Value" "NAND2_OS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2535,7 +2931,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_2_OS_1_1"
+		(symbol "NAND2_OS_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -2640,7 +3036,7 @@
 			)
 		)
 	)
-	(symbol "NAND_3_OD"
+	(symbol "NAND3_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -2654,7 +3050,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3_OD"
+		(property "Value" "NAND3_OD"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2689,7 +3085,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_3_OD_1_1"
+		(symbol "NAND3_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -2812,7 +3208,7 @@
 			)
 		)
 	)
-	(symbol "NAND_4_OD"
+	(symbol "NAND4_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -2826,7 +3222,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_4_OD"
+		(property "Value" "NAND4_OD"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2861,7 +3257,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_4_OD_1_1"
+		(symbol "NAND4_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -3002,7 +3398,7 @@
 			)
 		)
 	)
-	(symbol "NAND_5_OD"
+	(symbol "NAND5_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -3016,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_5_OD"
+		(property "Value" "NAND5_OD"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -3051,7 +3447,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_5_OD_1_1"
+		(symbol "NAND5_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -3234,7 +3630,7 @@
 			)
 		)
 	)
-	(symbol "NAND_6_OD"
+	(symbol "NAND6_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -3248,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_6_OD"
+		(property "Value" "NAND6_OD"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3283,7 +3679,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_6_OD_1_1"
+		(symbol "NAND6_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7712 0)
@@ -3484,7 +3880,7 @@
 			)
 		)
 	)
-	(symbol "NAND_7_OD"
+	(symbol "NAND7_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -3498,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_7_OD"
+		(property "Value" "NAND7_OD"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -3533,7 +3929,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_7_OD_1_1"
+		(symbol "NAND7_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -3752,7 +4148,7 @@
 			)
 		)
 	)
-	(symbol "NAND_8_OD"
+	(symbol "NAND8_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -3766,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_8_OD"
+		(property "Value" "NAND8_OD"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -3801,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_8_OD_1_1"
+		(symbol "NAND8_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -4038,7 +4434,7 @@
 			)
 		)
 	)
-	(symbol "NAND_9_OD"
+	(symbol "NAND9_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -4052,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_9_OD"
+		(property "Value" "NAND9_OD"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -4087,7 +4483,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NAND_9_OD_1_1"
+		(symbol "NAND9_OD_1_1"
 			(arc
 				(start 0 -3.81)
 				(mid 3.7825 0)
@@ -4342,7 +4738,7 @@
 			)
 		)
 	)
-	(symbol "NOR_2_OD"
+	(symbol "NOR2_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -4356,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_2_OD"
+		(property "Value" "NOR2_OD"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -4391,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NOR_2_OD_1_1"
+		(symbol "NOR2_OD_1_1"
 			(arc
 				(start -3.8102 -3.81)
 				(mid -2.5892 0)
@@ -4546,7 +4942,283 @@
 			)
 		)
 	)
-	(symbol "O3AI_OD"
+	(symbol "NOT_IF01"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_IF01"
+			(at 0 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NOT_IF01_1_0"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 6.35 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NOT_IF01_1_1"
+			(pin input inverted
+				(at -0.635 5.08 270)
+				(length 2.5)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 4)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "NOT_IF11"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_IF11"
+			(at 0 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tri-state inverter with two active-high enable inputs."
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NOT_IF11_1_0"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 6.35 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NOT_IF11_1_1"
+			(pin input line
+				(at -0.635 5.08 270)
+				(length 2.7)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 4)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "OAI21_OD"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -4560,7 +5232,253 @@
 				)
 			)
 		)
-		(property "Value" "O3AI_OD"
+		(property "Value" "OAI21_OD"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.635 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain 2-1 OR-AND-INVERT two-level compound gate."
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OAI21_OD_1_1"
+			(arc
+				(start -6.9841 -0.635)
+				(mid -5.9668 2.54)
+				(end -6.9841 5.715)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.4441 -0.635)
+				(mid -1.734 0.2698)
+				(end 0.0007 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.9841 -0.635) (xy -4.4441 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.9841 5.715) (xy -4.4441 5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 6.985 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 5.715 0) (xy 4.445 -1.27) (xy 5.715 -2.54) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
+					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
+					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 0.0007 2.54)
+				(mid -1.7279 4.8188)
+				(end -4.4441 5.715)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8109 -5.08)
+				(mid 7.5934 -1.27)
+				(end 3.8109 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -11.43 3.81 0)
+				(length 5.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 1.27 0)
+				(length 5.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -3.81 0)
+				(length 11.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state inverted
+				(at 11.43 -1.27 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "OAI31_OD"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OAI31_OD"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -4595,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "O3AI_OD_1_1"
+		(symbol "OAI31_OD_1_1"
 			(arc
 				(start -6.9841 -0.635)
 				(mid -5.9668 2.54)
@@ -4804,924 +5722,6 @@
 					(effects
 						(font
 							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "OAI_OD"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 6.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OAI_OD"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0.635 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain 2-1 OR-AND-INVERT two-level compound gate."
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "OAI_OD_1_1"
-			(arc
-				(start -6.9841 -0.635)
-				(mid -5.9668 2.54)
-				(end -6.9841 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.4441 -0.635)
-				(mid -1.734 0.2698)
-				(end 0.0007 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.9841 -0.635) (xy -4.4441 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.9841 5.715) (xy -4.4441 5.715)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -2.54) (xy 6.985 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 -1.27) (xy 5.715 0) (xy 4.445 -1.27) (xy 5.715 -2.54) (xy 6.985 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
-					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
-					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 0.0007 2.54)
-				(mid -1.7279 4.8188)
-				(end -4.4441 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.8109 -5.08)
-				(mid 7.5934 -1.27)
-				(end 3.8109 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -11.43 3.81 0)
-				(length 5.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 1.27 0)
-				(length 5.3)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -3.81 0)
-				(length 11.4)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 11.43 -1.27 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TRI_BUF_IF00"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI_BUF_IF00"
-			(at 0 -6.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tri-state buffer with two active-low enable inputs."
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TRI_BUF_IF00_1_0"
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 6.35 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TRI_BUF_IF00_1_1"
-			(pin input inverted
-				(at -0.635 5.08 270)
-				(length 2.5)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input inverted
-				(at 1.27 5.08 270)
-				(length 3.9)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TRI_BUF_IF1"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U?"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI_BUF_IF1"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1.27 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tri-state buffer with active-high enable input."
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TRI_BUF_IF1_1_0"
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 6.35 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TRI_BUF_IF1_1_1"
-			(pin input line
-				(at 0 5.08 270)
-				(length 3.15)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TRI_BUF_IF11"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI_BUF_IF11"
-			(at 0 -6.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tri-state buffer with two active-high enable inputs."
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TRI_BUF_IF11_1_0"
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 6.35 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TRI_BUF_IF11_1_1"
-			(pin input line
-				(at -0.635 5.08 270)
-				(length 2.7)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 5.08 270)
-				(length 4)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TRI_INV_IF01"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI_INV_IF01"
-			(at 0 -6.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TRI_INV_IF01_1_0"
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 6.35 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TRI_INV_IF01_1_1"
-			(pin input inverted
-				(at -0.635 5.08 270)
-				(length 2.5)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 5.08 270)
-				(length 4)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TRI_INV_IF11"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI_INV_IF11"
-			(at 0 -6.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -2.54 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tri-state inverter with two active-high enable inputs."
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TRI_INV_IF11_1_0"
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 6.35 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TRI_INV_IF11_1_1"
-			(pin input line
-				(at -0.635 5.08 270)
-				(length 2.7)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 5.08 270)
-				(length 4)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
 						)
 					)
 				)

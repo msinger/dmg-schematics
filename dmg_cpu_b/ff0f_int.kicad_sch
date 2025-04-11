@@ -6,13 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2023-06-26")
-		(rev "0.6")
+		(date "2025-04-12")
+		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
-		(symbol "DMG_CPU_Cells:AND_3"
+		(symbol "DMG_CPU_Cells:AND3"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "AND_3"
+			(property "Value" "AND3"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 				)
 			)
 			(property "Description" "AND gate with three inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AND_3_1_1"
+			(symbol "AND3_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -159,7 +159,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:AND_4"
+		(symbol "DMG_CPU_Cells:AND4"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -172,7 +172,7 @@
 					)
 				)
 			)
-			(property "Value" "AND_4"
+			(property "Value" "AND4"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -199,7 +199,7 @@
 				)
 			)
 			(property "Description" "AND gate with four inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AND_4_1_1"
+			(symbol "AND4_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -364,7 +364,7 @@
 				)
 			)
 			(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
-				(at 0 0 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:D_LATCH_B"
+		(symbol "DMG_CPU_Cells:DLATCH"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -527,7 +527,7 @@
 					)
 				)
 			)
-			(property "Value" "D_LATCH_B"
+			(property "Value" "DLATCH"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -544,7 +544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#d_latch_b"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 				(at 0 -8.255 0)
 				(effects
 					(font
@@ -553,8 +553,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gated data latch."
-				(at 0 0 0)
+			(property "Description" "Gated data latch with active-high enable."
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -562,7 +562,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_LATCH_B_0_1"
+			(symbol "DLATCH_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -575,7 +575,7 @@
 					)
 				)
 			)
-			(symbol "D_LATCH_B_1_1"
+			(symbol "DLATCH_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 3.81)
@@ -650,107 +650,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:INVERTER_A"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INVERTER_A"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Simple inverter."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INVERTER_A_1_0"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMG_CPU_Cells:NAND_3"
+		(symbol "DMG_CPU_Cells:NAND3"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -763,7 +663,7 @@
 					)
 				)
 			)
-			(property "Value" "NAND_3"
+			(property "Value" "NAND3"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -790,7 +690,7 @@
 				)
 			)
 			(property "Description" "NAND gate with three inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -798,7 +698,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_3_1_1"
+			(symbol "NAND3_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -897,7 +797,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:NAND_4"
+		(symbol "DMG_CPU_Cells:NAND4"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -910,7 +810,7 @@
 					)
 				)
 			)
-			(property "Value" "NAND_4"
+			(property "Value" "NAND4"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -937,7 +837,7 @@
 				)
 			)
 			(property "Description" "NAND gate with four inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -945,7 +845,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NAND_4_1_1"
+			(symbol "NAND4_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7825 0)
@@ -1062,7 +962,7 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:NOR_4"
+		(symbol "DMG_CPU_Cells:NOR4"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1075,7 +975,7 @@
 					)
 				)
 			)
-			(property "Value" "NOR_4"
+			(property "Value" "NOR4"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1102,7 +1002,7 @@
 				)
 			)
 			(property "Description" "NOR gate with four inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1110,7 +1010,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NOR_4_1_1"
+			(symbol "NOR4_1_1"
 				(arc
 					(start -3.8102 -3.81)
 					(mid -2.5892 0)
@@ -1277,7 +1177,227 @@
 				)
 			)
 		)
-		(symbol "DMG_CPU_Cells:OR_2"
+		(symbol "DMG_CPU_Cells:NOT_IF1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_IF1"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tri-state inverter with active-high enable input."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_IF1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NOT_IF1_1_1"
+				(pin input line
+					(at 0 5.08 270)
+					(length 3.15)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMG_CPU_Cells:NOT_X1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_X1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple inverter."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_X1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMG_CPU_Cells:OR2"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1290,7 +1410,7 @@
 					)
 				)
 			)
-			(property "Value" "OR_2"
+			(property "Value" "OR2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1317,7 +1437,7 @@
 				)
 			)
 			(property "Description" "OR gate with two inputs."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1325,7 +1445,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OR_2_1_1"
+			(symbol "OR2_1_1"
 				(arc
 					(start -3.8102 -3.81)
 					(mid -2.5892 0)
@@ -1450,126 +1570,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMG_CPU_Cells:TRI_INV_IF1"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TRI_INV_IF1"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
-				(at 1.27 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tri-state inverter with active-high enable input."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TRI_INV_IF1_1_0"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TRI_INV_IF1_1_1"
-				(pin input line
-					(at 0 5.08 270)
-					(length 3.15)
-					(name "ENA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4207,7 +4207,6 @@
 	)
 	(label "CPU_IRQ_ACK4"
 		(at 74.93 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4218,7 +4217,6 @@
 	)
 	(label "CPU_IRQ_ACK2"
 		(at 74.93 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4229,7 +4227,6 @@
 	)
 	(label "D2"
 		(at 278.765 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4240,7 +4237,6 @@
 	)
 	(label "D3"
 		(at 123.825 210.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4251,7 +4247,6 @@
 	)
 	(label "A0"
 		(at 138.43 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4262,7 +4257,6 @@
 	)
 	(label "D0"
 		(at 278.765 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4273,7 +4267,6 @@
 	)
 	(label "D3"
 		(at 278.765 205.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4284,7 +4277,6 @@
 	)
 	(label "A1"
 		(at 138.43 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,7 +4287,6 @@
 	)
 	(label "D4"
 		(at 123.825 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4306,7 +4297,6 @@
 	)
 	(label "A4"
 		(at 138.43 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4317,7 +4307,6 @@
 	)
 	(label "D0"
 		(at 123.825 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4328,7 +4317,6 @@
 	)
 	(label "CPU_IRQ1"
 		(at 193.675 147.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4339,7 +4327,6 @@
 	)
 	(label "A7"
 		(at 138.43 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4350,7 +4337,6 @@
 	)
 	(label "D1"
 		(at 278.765 147.955 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4361,7 +4347,6 @@
 	)
 	(label "CPU_IRQ0"
 		(at 193.675 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4372,7 +4357,6 @@
 	)
 	(label "D3"
 		(at 90.805 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4383,7 +4367,6 @@
 	)
 	(label "~{FF0F_WR}"
 		(at 59.69 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4394,7 +4377,6 @@
 	)
 	(label "D2"
 		(at 123.825 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4405,7 +4387,6 @@
 	)
 	(label "CPU_IRQ3"
 		(at 193.675 205.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4416,7 +4397,6 @@
 	)
 	(label "~{FF0F_RD}"
 		(at 201.93 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4407,6 @@
 	)
 	(label "CPU_IRQ_ACK3"
 		(at 74.93 207.645 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4438,7 +4417,6 @@
 	)
 	(label "CPU_IRQ_ACK0"
 		(at 74.93 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4449,7 +4427,6 @@
 	)
 	(label "CPU_IRQ_ACK1"
 		(at 74.93 150.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4460,7 +4437,6 @@
 	)
 	(label "D2"
 		(at 90.805 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4471,7 +4447,6 @@
 	)
 	(label "~{FF0F_WR}"
 		(at 52.705 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4482,7 +4457,6 @@
 	)
 	(label "D4"
 		(at 90.805 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4493,7 +4467,6 @@
 	)
 	(label "D1"
 		(at 90.805 159.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4504,7 +4477,6 @@
 	)
 	(label "A3"
 		(at 138.43 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4515,7 +4487,6 @@
 	)
 	(label "D4"
 		(at 278.765 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4526,7 +4497,6 @@
 	)
 	(label "A2"
 		(at 138.43 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4537,7 +4507,6 @@
 	)
 	(label "~{FF0F_RD}"
 		(at 206.375 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4517,6 @@
 	)
 	(label "A5"
 		(at 138.43 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,7 +4527,6 @@
 	)
 	(label "CPU_IRQ2"
 		(at 193.675 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4570,7 +4537,6 @@
 	)
 	(label "CPU_IRQ4"
 		(at 193.675 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4581,7 +4547,6 @@
 	)
 	(label "D0"
 		(at 90.805 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4592,7 +4557,6 @@
 	)
 	(label "A6"
 		(at 138.43 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4603,7 +4567,6 @@
 	)
 	(label "D1"
 		(at 123.825 153.035 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4577,6 @@
 	)
 	(label "~{FF0F_WR}"
 		(at 201.93 64.135 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4626,7 +4588,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 132.715 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,7 +4599,6 @@
 	(hierarchical_label "CPU_IRQ[0..4]"
 		(shape output)
 		(at 214.63 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4650,7 +4610,6 @@
 	(hierarchical_label "INT_STAT"
 		(shape input)
 		(at 167.64 147.955 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4662,7 +4621,6 @@
 	(hierarchical_label "~{RESET2}"
 		(shape input)
 		(at 59.69 112.395 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4674,7 +4632,6 @@
 	(hierarchical_label "INT_VBL"
 		(shape input)
 		(at 167.64 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4643,6 @@
 	(hierarchical_label "FFXX"
 		(shape input)
 		(at 167.64 65.405 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4698,7 +4654,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 284.48 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,7 +4665,6 @@
 	(hierarchical_label "CPU_WR"
 		(shape input)
 		(at 167.64 67.945 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4722,7 +4676,6 @@
 	(hierarchical_label "CPU_RD"
 		(shape input)
 		(at 167.64 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4687,6 @@
 	(hierarchical_label "INT_TIMER"
 		(shape input)
 		(at 167.64 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4746,7 +4698,6 @@
 	(hierarchical_label "INT_JP"
 		(shape input)
 		(at 167.64 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4758,7 +4709,6 @@
 	(hierarchical_label "CPU_IRQ_ACK[0..4]"
 		(shape input)
 		(at 59.69 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4770,7 +4720,6 @@
 	(hierarchical_label "INT_SERIAL"
 		(shape input)
 		(at 167.64 205.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4780,7 +4729,7 @@
 		(uuid "f3888452-2820-47dc-adaa-4896faee1dd5")
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_3")
+		(lib_id "DMG_CPU_Cells:AND3")
 		(at 141.605 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4797,7 +4746,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_3"
+		(property "Value" "AND3"
 			(at 141.605 245.2171 0)
 			(effects
 				(font
@@ -4823,7 +4772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with three inputs."
 			(at 141.605 250.19 0)
 			(effects
 				(font
@@ -4854,7 +4803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 228.6 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4871,7 +4820,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 228.6 95.9921 0)
 			(effects
 				(font
@@ -4888,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 229.87 108.585 0)
 			(effects
 				(font
@@ -4897,7 +4846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 228.6 100.965 0)
 			(effects
 				(font
@@ -4922,7 +4871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 106.045 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4939,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 100.965 101.0721 0)
 			(effects
 				(font
@@ -4956,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 113.665 0)
 			(effects
 				(font
@@ -4965,7 +4914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 106.045 0)
 			(effects
 				(font
@@ -4990,7 +4939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_3")
+		(lib_id "DMG_CPU_Cells:AND3")
 		(at 141.605 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5007,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_3"
+		(property "Value" "AND3"
 			(at 141.605 188.0671 0)
 			(effects
 				(font
@@ -5033,7 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with three inputs."
 			(at 141.605 193.04 0)
 			(effects
 				(font
@@ -5064,7 +5013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_2")
+		(lib_id "DMG_CPU_Cells:OR2")
 		(at 102.235 161.925 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5080,7 +5029,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_2"
+		(property "Value" "OR2"
 			(at 107.315 158.75 0)
 			(effects
 				(font
@@ -5106,7 +5055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with two inputs."
 			(at 102.235 161.925 0)
 			(effects
 				(font
@@ -5134,7 +5083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:TRI_INV_IF1")
+		(lib_id "DMG_CPU_Cells:NOT_IF1")
 		(at 262.255 205.105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5151,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Value" "TRI_INV_IF1"
+		(property "Value" "NOT_IF1"
 			(at 262.255 212.725 0)
 			(effects
 				(font
@@ -5168,7 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
 			(at 263.525 215.265 0)
 			(effects
 				(font
@@ -5177,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tri-state inverter with active-high enable input."
 			(at 262.255 205.105 0)
 			(effects
 				(font
@@ -5205,7 +5154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:TRI_INV_IF1")
+		(lib_id "DMG_CPU_Cells:NOT_IF1")
 		(at 262.255 147.955 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5222,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Value" "TRI_INV_IF1"
+		(property "Value" "NOT_IF1"
 			(at 262.255 155.575 0)
 			(effects
 				(font
@@ -5239,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
 			(at 263.525 158.115 0)
 			(effects
 				(font
@@ -5248,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tri-state inverter with active-high enable input."
 			(at 262.255 147.955 0)
 			(effects
 				(font
@@ -5276,7 +5225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_2")
+		(lib_id "DMG_CPU_Cells:OR2")
 		(at 102.235 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5292,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_2"
+		(property "Value" "OR2"
 			(at 107.315 187.325 0)
 			(effects
 				(font
@@ -5318,7 +5267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with two inputs."
 			(at 102.235 190.5 0)
 			(effects
 				(font
@@ -5346,7 +5295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_2")
+		(lib_id "DMG_CPU_Cells:OR2")
 		(at 102.235 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5362,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_2"
+		(property "Value" "OR2"
 			(at 107.315 130.175 0)
 			(effects
 				(font
@@ -5388,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with two inputs."
 			(at 102.235 133.35 0)
 			(effects
 				(font
@@ -5416,7 +5365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:D_LATCH_B")
+		(lib_id "DMG_CPU_Cells:DLATCH")
 		(at 229.87 202.565 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5433,7 +5382,7 @@
 				)
 			)
 		)
-		(property "Value" "D_LATCH_B"
+		(property "Value" "DLATCH"
 			(at 229.87 197.0841 0)
 			(effects
 				(font
@@ -5450,7 +5399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 			(at 229.87 210.82 0)
 			(effects
 				(font
@@ -5459,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with active-high enable."
 			(at 229.87 202.565 0)
 			(effects
 				(font
@@ -5490,7 +5439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_3")
+		(lib_id "DMG_CPU_Cells:AND3")
 		(at 141.605 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5507,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_3"
+		(property "Value" "AND3"
 			(at 141.605 130.9171 0)
 			(effects
 				(font
@@ -5533,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with three inputs."
 			(at 141.605 135.89 0)
 			(effects
 				(font
@@ -5564,7 +5513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:D_LATCH_B")
+		(lib_id "DMG_CPU_Cells:DLATCH")
 		(at 229.87 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5581,7 +5530,7 @@
 				)
 			)
 		)
-		(property "Value" "D_LATCH_B"
+		(property "Value" "DLATCH"
 			(at 229.87 168.5091 0)
 			(effects
 				(font
@@ -5598,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 			(at 229.87 182.245 0)
 			(effects
 				(font
@@ -5607,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with active-high enable."
 			(at 229.87 173.99 0)
 			(effects
 				(font
@@ -5638,7 +5587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_3")
+		(lib_id "DMG_CPU_Cells:AND3")
 		(at 141.605 221.615 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5655,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_3"
+		(property "Value" "AND3"
 			(at 141.605 216.6421 0)
 			(effects
 				(font
@@ -5681,7 +5630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with three inputs."
 			(at 141.605 221.615 0)
 			(effects
 				(font
@@ -5712,7 +5661,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:TRI_INV_IF1")
+		(lib_id "DMG_CPU_Cells:NOT_IF1")
 		(at 262.255 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5729,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Value" "TRI_INV_IF1"
+		(property "Value" "NOT_IF1"
 			(at 262.255 127.7573 0)
 			(effects
 				(font
@@ -5746,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
 			(at 263.525 129.54 0)
 			(effects
 				(font
@@ -5755,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tri-state inverter with active-high enable input."
 			(at 262.255 119.38 0)
 			(effects
 				(font
@@ -5783,7 +5732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 207.645 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5799,7 +5748,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 106.045 204.47 0)
 			(effects
 				(font
@@ -5816,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 215.265 0)
 			(effects
 				(font
@@ -5825,7 +5774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 207.645 0)
 			(effects
 				(font
@@ -5850,7 +5799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_2")
+		(lib_id "DMG_CPU_Cells:OR2")
 		(at 102.235 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5866,7 +5815,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_2"
+		(property "Value" "OR2"
 			(at 107.315 244.475 0)
 			(effects
 				(font
@@ -5892,7 +5841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with two inputs."
 			(at 102.235 247.65 0)
 			(effects
 				(font
@@ -5920,7 +5869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_4")
+		(lib_id "DMG_CPU_Cells:NAND4")
 		(at 185.42 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5936,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_4"
+		(property "Value" "NAND4"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -5962,7 +5911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with four inputs."
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -5996,7 +5945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_3")
+		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 141.605 150.495 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6012,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3"
+		(property "Value" "NAND3"
 			(at 141.605 145.5221 0)
 			(effects
 				(font
@@ -6038,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with three inputs."
 			(at 141.605 150.495 0)
 			(effects
 				(font
@@ -6069,7 +6018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6085,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 106.045 118.745 0)
 			(effects
 				(font
@@ -6102,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 129.54 0)
 			(effects
 				(font
@@ -6111,7 +6060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 121.92 0)
 			(effects
 				(font
@@ -6136,7 +6085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:OR_2")
+		(lib_id "DMG_CPU_Cells:OR2")
 		(at 102.235 219.075 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6152,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Value" "OR_2"
+		(property "Value" "OR2"
 			(at 107.315 215.9 0)
 			(effects
 				(font
@@ -6178,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR gate with two inputs."
 			(at 102.235 219.075 0)
 			(effects
 				(font
@@ -6248,7 +6197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
 			(at 183.515 237.49 0)
 			(effects
 				(font
@@ -6288,7 +6237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6304,7 +6253,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 106.045 233.045 0)
 			(effects
 				(font
@@ -6321,7 +6270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 243.84 0)
 			(effects
 				(font
@@ -6330,7 +6279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 236.22 0)
 			(effects
 				(font
@@ -6355,7 +6304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_3")
+		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 141.605 207.645 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6371,7 +6320,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3"
+		(property "Value" "NAND3"
 			(at 141.605 202.6721 0)
 			(effects
 				(font
@@ -6397,7 +6346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with three inputs."
 			(at 141.605 207.645 0)
 			(effects
 				(font
@@ -6428,7 +6377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NOR_4")
+		(lib_id "DMG_CPU_Cells:NOR4")
 		(at 153.035 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6445,7 +6394,7 @@
 				)
 			)
 		)
-		(property "Value" "NOR_4"
+		(property "Value" "NOR4"
 			(at 153.0348 30.5871 0)
 			(effects
 				(font
@@ -6471,7 +6420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NOR gate with four inputs."
 			(at 153.035 35.56 0)
 			(effects
 				(font
@@ -6505,7 +6454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_3")
+		(lib_id "DMG_CPU_Cells:AND3")
 		(at 141.605 164.465 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6522,7 +6471,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_3"
+		(property "Value" "AND3"
 			(at 141.605 159.4921 0)
 			(effects
 				(font
@@ -6548,7 +6497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with three inputs."
 			(at 141.605 164.465 0)
 			(effects
 				(font
@@ -6579,7 +6528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 150.495 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6595,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 106.045 147.32 0)
 			(effects
 				(font
@@ -6612,7 +6561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 158.115 0)
 			(effects
 				(font
@@ -6621,7 +6570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 150.495 0)
 			(effects
 				(font
@@ -6646,7 +6595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:TRI_INV_IF1")
+		(lib_id "DMG_CPU_Cells:NOT_IF1")
 		(at 262.255 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6663,7 +6612,7 @@
 				)
 			)
 		)
-		(property "Value" "TRI_INV_IF1"
+		(property "Value" "NOT_IF1"
 			(at 262.255 241.3 0)
 			(effects
 				(font
@@ -6680,7 +6629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
 			(at 263.525 243.84 0)
 			(effects
 				(font
@@ -6689,7 +6638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tri-state inverter with active-high enable input."
 			(at 262.255 233.68 0)
 			(effects
 				(font
@@ -6783,7 +6732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:D_LATCH_B")
+		(lib_id "DMG_CPU_Cells:DLATCH")
 		(at 229.87 145.415 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6800,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Value" "D_LATCH_B"
+		(property "Value" "DLATCH"
 			(at 229.87 139.9341 0)
 			(effects
 				(font
@@ -6817,7 +6766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 			(at 229.87 153.67 0)
 			(effects
 				(font
@@ -6826,7 +6775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with active-high enable."
 			(at 229.87 145.415 0)
 			(effects
 				(font
@@ -6857,7 +6806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_4")
+		(lib_id "DMG_CPU_Cells:NAND4")
 		(at 185.42 64.135 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6873,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_4"
+		(property "Value" "NAND4"
 			(at 185.42 59.055 0)
 			(effects
 				(font
@@ -6899,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with four inputs."
 			(at 185.42 64.135 0)
 			(effects
 				(font
@@ -6975,7 +6924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
 			(at 183.515 151.765 0)
 			(effects
 				(font
@@ -7015,7 +6964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:D_LATCH_B")
+		(lib_id "DMG_CPU_Cells:DLATCH")
 		(at 229.87 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7032,7 +6981,7 @@
 				)
 			)
 		)
-		(property "Value" "D_LATCH_B"
+		(property "Value" "DLATCH"
 			(at 229.87 225.6591 0)
 			(effects
 				(font
@@ -7049,7 +6998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 			(at 229.87 239.395 0)
 			(effects
 				(font
@@ -7058,7 +7007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with active-high enable."
 			(at 229.87 231.14 0)
 			(effects
 				(font
@@ -7089,7 +7038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:AND_4")
+		(lib_id "DMG_CPU_Cells:AND4")
 		(at 153.035 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7106,7 +7055,7 @@
 				)
 			)
 		)
-		(property "Value" "AND_4"
+		(property "Value" "AND4"
 			(at 153.035 44.5571 0)
 			(effects
 				(font
@@ -7132,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AND gate with four inputs."
 			(at 153.035 49.53 0)
 			(effects
 				(font
@@ -7208,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
 			(at 183.515 208.915 0)
 			(effects
 				(font
@@ -7290,7 +7239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
 			(at 183.515 180.34 0)
 			(effects
 				(font
@@ -7330,7 +7279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:TRI_INV_IF1")
+		(lib_id "DMG_CPU_Cells:NOT_IF1")
 		(at 262.255 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7347,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Value" "TRI_INV_IF1"
+		(property "Value" "NOT_IF1"
 			(at 262.255 184.15 0)
 			(effects
 				(font
@@ -7364,7 +7313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#tri_inv_if1"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_if1"
 			(at 263.525 186.69 0)
 			(effects
 				(font
@@ -7373,7 +7322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tri-state inverter with active-high enable input."
 			(at 262.255 176.53 0)
 			(effects
 				(font
@@ -7443,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive-edge-triggered data flip-flop with active-low asynchronous set and reset."
 			(at 183.515 123.19 0)
 			(effects
 				(font
@@ -7483,7 +7432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_3")
+		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 141.605 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7499,7 +7448,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3"
+		(property "Value" "NAND3"
 			(at 141.605 231.2471 0)
 			(effects
 				(font
@@ -7525,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with three inputs."
 			(at 141.605 236.22 0)
 			(effects
 				(font
@@ -7556,7 +7505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:D_LATCH_B")
+		(lib_id "DMG_CPU_Cells:DLATCH")
 		(at 229.87 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7573,7 +7522,7 @@
 				)
 			)
 		)
-		(property "Value" "D_LATCH_B"
+		(property "Value" "DLATCH"
 			(at 229.87 111.3591 0)
 			(effects
 				(font
@@ -7590,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch_b"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dlatch"
 			(at 229.87 125.095 0)
 			(effects
 				(font
@@ -7599,7 +7548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gated data latch with active-high enable."
 			(at 229.87 116.84 0)
 			(effects
 				(font
@@ -7630,7 +7579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:INVERTER_A")
+		(lib_id "DMG_CPU_Cells:NOT_X1")
 		(at 100.965 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7646,7 +7595,7 @@
 				)
 			)
 		)
-		(property "Value" "INVERTER_A"
+		(property "Value" "NOT_X1"
 			(at 106.045 175.895 0)
 			(effects
 				(font
@@ -7663,7 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#inv_a"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
 			(at 102.235 186.69 0)
 			(effects
 				(font
@@ -7672,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Simple inverter."
 			(at 100.965 179.07 0)
 			(effects
 				(font
@@ -7697,7 +7646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_3")
+		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 141.605 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7713,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3"
+		(property "Value" "NAND3"
 			(at 141.605 116.9471 0)
 			(effects
 				(font
@@ -7739,7 +7688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with three inputs."
 			(at 141.605 121.92 0)
 			(effects
 				(font
@@ -7770,7 +7719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:NAND_3")
+		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 141.605 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7786,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_3"
+		(property "Value" "NAND3"
 			(at 141.605 174.0971 0)
 			(effects
 				(font
@@ -7812,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NAND gate with three inputs."
 			(at 141.605 179.07 0)
 			(effects
 				(font

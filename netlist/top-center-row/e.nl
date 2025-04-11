@@ -1,23 +1,23 @@
 # Cells in row E in top center
 # ----------------------------
 
-cell ejab:dffsr       rot270 @-77.58,149.45,-75.48,153.22 ->serial;
-cell evok:tri_inv_if1 rot270 @-77.56,153.22,-75.49,154.25 ->serial;
-cell ehuj:oa          rot270 @-77.55,154.24,-75.49,155.10 ->serial;
-cell elok:nand2       rot270 @-77.56,155.09,-75.49,155.62 ->serial;
-cell erod:dffsr       rot270 @-77.56,155.60,-75.50,159.37 ->serial;
-cell efab:tri_inv_if1 rot270 @-77.57,159.36,-75.52,160.39 ->serial;
-cell efak:oa          rot270 @-77.57,160.38,-75.51,161.24 ->serial;
-cell edel:nand2       rot270 @-77.56,161.24,-75.50,161.76 ->serial;
-cell eder:dffsr       rot270 @-77.56,161.75,-75.52,165.52 ->serial;
-cell etak:tri_inv_if1 rot270 @-77.58,165.52,-75.52,166.55 ->serial;
-cell eguv:oa          rot270 @-77.56,166.55,-75.51,167.41 ->serial;
-cell efef:nand2       rot270 @-77.55,167.41,-75.48,167.93 ->serial;
-cell epyt:inv_b       rot270 @-77.58,167.91,-75.50,168.43 ->serial;
-cell elys:dffr_b2     rot270 @-77.58,168.42,-75.52,171.33 ->serial;
-cell edyl:inv_a       rot270 @-77.60,171.33,-75.52,171.67 ->serial;
-cell etaf:dffr_b2     rot270 @-77.59,171.66,-75.51,174.57 ->serial;
-cell eluv:tri_inv_if1 rot270 @-77.60,174.57,-75.50,175.59 ->serial;
+cell ejab:dffsr   rot270 @-77.58,149.45,-75.48,153.22 ->serial;
+cell evok:not_if1 rot270 @-77.56,153.22,-75.49,154.25 ->serial;
+cell ehuj:oa21    rot270 @-77.55,154.24,-75.49,155.10 ->serial;
+cell elok:nand2   rot270 @-77.56,155.09,-75.49,155.62 ->serial;
+cell erod:dffsr   rot270 @-77.56,155.60,-75.50,159.37 ->serial;
+cell efab:not_if1 rot270 @-77.57,159.36,-75.52,160.39 ->serial;
+cell efak:oa21    rot270 @-77.57,160.38,-75.51,161.24 ->serial;
+cell edel:nand2   rot270 @-77.56,161.24,-75.50,161.76 ->serial;
+cell eder:dffsr   rot270 @-77.56,161.75,-75.52,165.52 ->serial;
+cell etak:not_if1 rot270 @-77.58,165.52,-75.52,166.55 ->serial;
+cell eguv:oa21    rot270 @-77.56,166.55,-75.51,167.41 ->serial;
+cell efef:nand2   rot270 @-77.55,167.41,-75.48,167.93 ->serial;
+cell epyt:not_x2  rot270 @-77.58,167.91,-75.50,168.43 ->serial;
+cell elys:dffr    rot270 @-77.58,168.42,-75.52,171.33 ->serial;
+cell edyl:not_x1  rot270 @-77.60,171.33,-75.52,171.67 ->serial;
+cell etaf:dffr    rot270 @-77.59,171.66,-75.51,174.57 ->serial;
+cell eluv:not_if1 rot270 @-77.60,174.57,-75.50,175.59 ->serial;
 
 
 # Wires originating from row E in top center
@@ -32,11 +32,11 @@ wire ~ejab:data
 	@-75.77,151.94,-75.33,151.94,-75.33,153.82,-75.77,153.82;
 
 wire ehuj:data
-	ehuj.q -> ejab.~r
+	ehuj.y -> ejab.~r
 	@-75.79,155.02,-74.65,155.02,-74.65,152.28,-75.78,152.28;
 
 wire elok:data
-	elok.q -> ejab.~s
+	elok.y -> ejab.~s
 	@-75.78,155.54,-74.48,155.54,-74.48,151.77,-75.80,151.77
 	@-75.34,151.77,-75.34,149.54,-75.79,149.54;
 
@@ -49,11 +49,11 @@ wire ~erod:data
 	@-75.79,158.08,-75.35,158.08,-75.35,159.96,-75.78,159.96;
 
 wire efak:data
-	efak.q -> erod.~r
+	efak.y -> erod.~r
 	@-75.79,161.16,-74.66,161.16,-74.66,158.42,-75.81,158.42;
 
 wire edel:data
-	edel.q -> erod.~s
+	edel.y -> erod.~s
 	@-75.80,161.67,-74.48,161.67,-74.48,157.91,-75.81,157.91
 	@-75.34,157.91,-75.34,155.70,-75.78,155.70;
 
@@ -66,16 +66,16 @@ wire ~eder:data
 	@-75.79,164.23,-75.34,164.23,-75.34,166.12,-75.80,166.12;
 
 wire eguv:data
-	eguv.q -> eder.~r
+	eguv.y -> eder.~r
 	@-75.78,167.32,-74.66,167.32,-74.66,164.59,-75.80,164.59;
 
 wire efef:data
-	efef.q -> eder.~s
+	efef.y -> eder.~s
 	@-75.79,167.84,-74.48,167.84,-74.48,164.07,-75.82,164.07
 	@-75.34,164.07,-75.34,161.84,-75.80,161.84;
 
 wire epyt:clk
-	epyt.q -> dovu.clk deho.in ejab.clk erod.clk eder.clk
+	epyt.y -> dovu.clk deho.in ejab.clk erod.clk eder.clk
 	@-77.29,168.35,-78.43,168.35,-78.43,165.44,-78.42,159.27,-78.41,153.13,-78.41,148.34,-73.11,148.34,
 	 -73.11,155.19,-71.98,155.19
 	@-78.43,165.44,-77.27,165.44
@@ -93,7 +93,7 @@ wire ser_out:data
 # elys.~q is not connected
 
 wire ~serial_tick:clk
-	edyl.q -> epyt.in elys.clk
+	edyl.y -> epyt.in elys.clk
 	@-77.29,171.59,-77.76,171.59,-77.76,167.99,-77.27,167.99
 	@-77.76,168.69,-77.27,168.69;
 

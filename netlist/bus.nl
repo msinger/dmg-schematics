@@ -2,10 +2,10 @@
 # ---------------------------
 
 wire d0:data
-	cpu.b1 ryma.q ruga.q sypu.q tovu.q tuty.q nela.q poly.q ryla.q romy.q sete.q soku.q tawu.q core.q
-	cugy.q anoc.q amyd.q atel.q akod.q buzu.q coto.q dugu.q demy.q dopa.q fapy.q fava.q foru.q huna.q
-	huvu.q juvy.q jofo.q jyne.q kema.q kamo.q laju.q lova.q punu.q retu.q raro.q teby.q vega.q wypo.q
-	xary.q edos.q ware.q xaca.q yfap.q boot_rom.d0 high_ram.d7
+	cpu.b1 ryma.y ruga.y sypu.y tovu.y tuty.y nela.y poly.y ryla.y romy.y sete.y soku.y tawu.y core.y
+	cugy.y anoc.y amyd.y atel.y akod.y buzu.y coto.y dugu.y demy.y dopa.y fapy.y fava.y foru.y huna.y
+	huvu.y juvy.y jofo.y jyne.y kema.y kamo.y laju.y lova.y punu.y retu.y raro.y teby.y vega.y wypo.y
+	xary.y edos.y ware.y xaca.y yfap.y boot_rom.d0 high_ram.d7
 	-> ruxa.in1 rune.in2 sato.in1 teme.in muxe.in1 myzu.in3 nafa.d roke.d0 sabu.d sopu.d culy.d
 	   cohy.in2 cufu.in1 anev.d apeg.d bacy.d buro.d bugu.in1 bysu.in bany.d deke.in dano.d eryc.d
 	   emok.d fofe.d gevo.d gylu.in1 hyfu.d jemo.d jefu.d jusa.d jute.d jare.d koga.d moxy.d mypa.d
@@ -97,10 +97,10 @@ wire d0:data
 	@-138.34,128.02,-138.34,129.15;
 
 wire d1:data
-	cpu.b2 ruvo.q rota.q sywa.q sosa.q nabo.q pyre.q racy.q rote.q rofo.q ryne.q taku.q dude.q lepa.q
-	muka.q poda.q paba.q vojo.q wuva.q wuga.q xero.q xoke.q ekob.q goba.q xele.q xagu.q ataj.q atax.q
-	awed.q coce.q capu.q desy.q demu.q efus.q faro.q fajy.q gefu.q hyre.q jura.q jaro.q jaca.q kafu.q
-	kuro.q kaku.q boot_rom.d1 high_ram.d6
+	cpu.b2 ruvo.y rota.y sywa.y sosa.y nabo.y pyre.y racy.y rote.y rofo.y ryne.y taku.y dude.y lepa.y
+	muka.y poda.y paba.y vojo.y wuva.y wuga.y xero.y xoke.y ekob.y goba.y xele.y xagu.y ataj.y atax.y
+	awed.y coce.y capu.y desy.y demu.y efus.y faro.y fajy.y gefu.y hyre.y jura.y jaro.y jaca.y kafu.y
+	kuro.y kaku.y boot_rom.d1 high_ram.d6
 	-> ruja.in1 rypu.in2 tewu.in mody.in3 nyke.d nabe.in1 petu.d0 pyne.d samy.d dumo.in2 docu.in1
 	   lawo.d nofe.d nyro.d nusy.d vuce.d xylo.d xuky.d duzu.d fymo.d zaky.in zopu.in amut.d arax.d
 	   bofu.in budo.in1 bogu.d byga.d cera.d cavy.d etyj.d fova.d fory.d favy.d geta.in1 gulu.in
@@ -178,10 +178,10 @@ wire d1:data
 	@-202.72,224.77,-202.72,228.01,-220.49,227.99,-220.49,229.14;
 
 wire d2:data
-	cpu.b3 ryko.q rybu.q sugu.q sedu.q lode.q lyco.q moko.q pygu.q razu.q redo.q sego.q wyju.q xuno.q
-	cuga.q gonu.q xepu.q ypon.q nola.q ravy.q rova.q rejy.q rema.q supe.q temu.q detu.q ajec.q azyp.q
-	avud.q baty.q cuzu.q caga.q dexo.q fote.q fegu.q fate.q hufo.q havu.q jeke.q joku.q kesy.q kyvu.q
-	kuve.q kyro.q boot_rom.d2 high_ram.d5
+	cpu.b3 ryko.y rybu.y sugu.y sedu.y lode.y lyco.y moko.y pygu.y razu.y redo.y sego.y wyju.y xuno.y
+	cuga.y gonu.y xepu.y ypon.y nola.y ravy.y rova.y rejy.y rema.y supe.y temu.y detu.y ajec.y azyp.y
+	avud.y baty.y cuzu.y caga.y dexo.y fote.y fegu.y fate.y hufo.y havu.y jeke.y joku.y kesy.y kyvu.y
+	kuve.y kyro.y boot_rom.d2 high_ram.d5
 	-> raby.in1 suly.in2 tygo.in mosa.d noke.d naga.d pylu.d sedy.d xymo.d xova.d cyxu.d fezu.d
 	   wule.in wyky.in muru.d nyku.d0 pyhu.in3 para.d rake.in1 sabo.d dybo.in2 dela.in1 afeg.in1
 	   anaz.d ager.d bovy.d byfu.in bafo.d conu.d dena.d ezyk.d fedy.d fule.in gatu.d golo.in1
@@ -268,9 +268,9 @@ wire d2:data
 	@-219.77,188.03,-219.77,185.20;
 
 wire d3:data
-	cpu.b4 raju.q tawo.q tavo.q taxo.q xuby.q wuka.q wojy.q redy.q puzo.q lyza.q lole.q loka.q lobe.q
-	godo.q wony.q xuvo.q xygu.q pado.q pane.q rase.q sosy.q salu.q tuse.q daso.q asuz.q afox.q axem.q
-	bade.q boca.q fana.q fose.q gene.q gome.q hono.q jude.q jeku.q kumo.q keta.q koge.q
+	cpu.b4 raju.y tawo.y tavo.y taxo.y xuby.y wuka.y wojy.y redy.y puzo.y lyza.y lole.y loka.y lobe.y
+	godo.y wony.y xuvo.y xygu.y pado.y pane.y rase.y sosy.y salu.y tuse.y daso.y asuz.y afox.y axem.y
+	bade.y boca.y fana.y fose.y gene.y gome.y hono.y jude.y jeku.y kumo.y keta.y koge.y
 	boot_rom.d3 high_ram.d4
 	-> rera.in1 seze.in2 sote.in xafo.d xalo.d salo.d roxe.d meby.d mela.d maxy.d lose.d fujo.d
 	   gubo.d zozo.in zaja.in nydo.d soce.d0 sulo.in1 tyva.d tome.in3 daju.in2 dyge.in1 avaf.d
@@ -346,9 +346,9 @@ wire d3:data
 	@-105.66,227.92,-83.26,227.93,-83.26,224.82;
 
 wire d4:data
-	cpu.b5 tute.q tahy.q tepe.q tyja.q luky.q lace.q mele.q mega.q pofo.q race.q voke.q vyne.q xaju.q
-	cedu.q cusa.q xuna.q zysa.q pegy.q pare.q reka.q supo.q somu.q upug.q dame.q avek.q amad.q bune.q
-	benu.q cavu.q fera.q gero.q geda.q hupe.q howu.q heda.q juke.q koce.q kary.q boot_rom.d4 high_ram.d3
+	cpu.b5 tute.y tahy.y tepe.y tyja.y luky.y lace.y mele.y mega.y pofo.y race.y voke.y vyne.y xaju.y
+	cedu.y cusa.y xuna.y zysa.y pegy.y pare.y reka.y supo.y somu.y upug.y dame.y avek.y amad.y bune.y
+	benu.y cavu.y fera.y gero.y geda.y hupe.y howu.y heda.y juke.y koce.y kary.y boot_rom.d4 high_ram.d3
 	-> resy.in2 rory.in1 seke.in lune.d mypu.d muke.d nulo.d rufo.d sota.d wexu.d xeru.d bemy.d
 	   dede.d zuga.in zufo.in nygy.d sala.d0 seme.in1 tyru.d toga.in3 dyly.in2 dola.in1 adek.d
 	   buva.d bume.d byre.d cura.d efop.in1 fora.d fylo.d feta.d gata.d gemo.d garu.d jypo.d
@@ -427,9 +427,9 @@ wire d4:data
 	@-203.55,213.59,-206.12,213.59,-206.12,217.34,-207.84,217.34,-207.84,218.94;
 
 wire d5:data
-	cpu.b6 rexu.q sajo.q safo.q tesu.q luga.q lyka.q mufe.q pela.q sasy.q vato.q vazu.q wama.q xobo.q
-	cata.q deve.q gyzo.q yweg.q raly.q rowe.q suro.q sotu.q sepu.q evok.q akaj.q akux.q arux.q bava.q
-	cudy.q cudu.q gaky.q gode.q gype.q godu.q hamu.q here.q hewa.q jeza.q boot_rom.d5 high_ram.d2
+	cpu.b6 rexu.y sajo.y safo.y tesu.y luga.y lyka.y mufe.y pela.y sasy.y vato.y vazu.y wama.y xobo.y
+	cata.y deve.y gyzo.y yweg.y raly.y rowe.y suro.y sotu.y sepu.y evok.y akaj.y akux.y arux.y bava.y
+	cudy.y cudu.y gaky.y gode.y gype.y godu.y hamu.y here.y hewa.y jeza.y boot_rom.d5 high_ram.d2
 	-> ryvo.in1 rujo.in tamu.in2 lugu.d myce.d moru.d nene.d refe.d vafa.d wymo.d xyze.d cuzy.d
 	   foty.d zumo.in zato.in pula.d syru.d0 sufy.d ehuj.in2 elok.in1 akyd.d bowy.d bana.d bofa.d
 	   bumo.d cofy.d eram.d edop.d foro.d fyto.d goda.d gufe.d goky.d hody.d jove.d jaxo.d julo.in
@@ -504,10 +504,10 @@ wire d5:data
 	@-195.16,29.15,-195.16,26.97;
 
 wire d6:data
-	cpu.b7 rupy.q sevu.q tazu.q temy.q leba.q lody.q muly.q polo.q pote.q vaha.q vafe.q wavo.q xaxa.q
-	doxe.q gune.q xabu.q zeha.q rowu.q reva.q resu.q ryke.q sawa.q efab.q arar.q awos.q bowo.q bytu.q
-	bocy.q cecy.q cada.q cury.q desa.q gadu.q gojy.q goje.q gaka.q huco.q horo.q haca.q heve.q hoge.q
-	kora.q boot_rom.d6 high_ram.d1
+	cpu.b7 rupy.y sevu.y tazu.y temy.y leba.y lody.y muly.y polo.y pote.y vaha.y vafe.y wavo.y xaxa.y
+	doxe.y gune.y xabu.y zeha.y rowu.y reva.y resu.y ryke.y sawa.y efab.y arar.y awos.y bowo.y bytu.y
+	bocy.y cecy.y cada.y cury.y desa.y gadu.y gojy.y goje.y gaka.y huco.y horo.y haca.y heve.y hoge.y
+	kora.y boot_rom.d6 high_ram.d1
 	-> rafy.in1 rogy.in2 tofa.in lepu.d muvo.d mogy.d nuka.d rugu.d vevo.d woky.d xupo.d cabu.d
 	   foha.d xyto.in yvuc.in peto.d poku.d refu.d0 efak.in2 edel.in1 bera.d boko.d botu.d befo.d
 	   cena.d cuny.d cozu.d dylu.in eler.in1 emer.d fave.d gumy.d gura.d gogo.d gozo.d huky.d
@@ -583,9 +583,9 @@ wire d6:data
 	@-215.01,215.52,-215.01,217.18,-214.84,217.18,-214.84,218.96;
 
 wire d7:data
-	cpu.b8 ropa.q tewa.q taju.q toku.q lelu.q lary.q mara.q mera.q pufy.q weze.q xebu.q xawo.q casy.q
-	fyra.q gyza.q ytux.q nuvy.q puso.q raru.q sapu.q tatu.q etak.q eluv.q atum.q bezu.q beda.q ceka.q
-	cuda.q cere.q foze.q gazo.q geko.q hyry.q hope.q hapy.q hacu.q jyse.q kamy.q
+	cpu.b8 ropa.y tewa.y taju.y toku.y lelu.y lary.y mara.y mera.y pufy.y weze.y xebu.y xawo.y casy.y
+	fyra.y gyza.y ytux.y nuvy.y puso.y raru.y sapu.y tatu.y etak.y eluv.y atum.y bezu.y beda.y ceka.y
+	cuda.y cere.y foze.y gazo.y geko.y hyry.y hope.y hapy.y hacu.y jyse.y kamy.y
 	boot_rom.d7 high_ram.d0
 	-> ravu.in1 ryda.in2 suza.in luxo.d mena.d nuku.d nafu.d raha.d xona.d xecy.d xana.d bake.d
 	   funy.d zufe.in zyfa.in maru.d rato.d0 seta.d eguv.in2 efef.in1 etaf.d bamy.d bepu.d bedu.d
@@ -665,7 +665,7 @@ wire d7:data
 	 -74.38,227.42,-74.38,229.20;
 
 wire md0:data
-	rody.q teme.q -> rery.in synu.in2 sefa.in1 legu.d pute.d0 puly.d1 rawu.d wuzu.in wowa.in
+	rody.y teme.y -> rery.in synu.in2 sefa.in1 legu.d pute.d0 puly.d1 rawu.d wuzu.in wowa.in
 	@-85.61,34.04,-85.61,33.09,-87.15,33.09,-87.15,28.91,-87.30,28.91,-87.30,25.32,-102.34,25.32,
 	 -102.34,28.95,-112.78,28.94,-112.78,30.44,-121.16,30.43,-121.17,46.17
 	@-85.61,33.47,-84.41,33.47,-84.41,31.28
@@ -678,7 +678,7 @@ wire md0:data
 	@-156.96,113.68,-162.09,113.67,-162.09,115.04;
 
 wire md1:data
-	reba.q tewu.q -> runa.in syma.in2 sogo.in1 nudu.d pozo.d pelo.d0 pawe.d1 axer.in aveb.in
+	reba.y tewu.y -> runa.in syma.in2 sogo.in1 nudu.d pozo.d pelo.d0 pawe.d1 axer.in aveb.in
 	@-80.30,27.38,-80.30,29.20,-80.98,29.20,-80.98,33.34,-95.86,33.33,-113.48,33.33,-113.48,35.12,
 	 -119.46,35.11,-119.45,41.21,-119.50,76.47,-150.08,76.46,-150.08,80.38,-152.33,80.38,-152.33,83.95
 	@-80.30,28.91,-79.09,28.91,-79.09,33.20,-78.42,33.20,-78.42,34.06
@@ -689,7 +689,7 @@ wire md1:data
 	@-152.33,83.19,-156.76,83.19,-156.76,83.95;
 
 wire md2:data
-	rydo.q tygo.q -> roko.in2 rona.in sefu.in1 muku.d pyzo.d pono.d0 pugu.d1 asox.in amuh.in
+	rydo.y tygo.y -> roko.in2 rona.in sefu.in1 muku.d pyzo.d pono.d0 pugu.d1 asox.in amuh.in
 	@-83.21,27.41,-83.21,28.29
 	@-94.48,25.89,-94.48,24.80,-93.96,24.80,-93.96,28.27,-83.21,28.29,-83.03,28.29,
 	 -83.03,33.47,-83.90,33.47,-83.90,34.06
@@ -702,7 +702,7 @@ wire md2:data
 	@-150.61,83.95,-150.61,82.55,-150.83,82.55,-161.04,82.55,-161.04,83.94;
 
 wire md3:data
-	remo.q sote.q -> runo.in suna.in1 sybu.in2 luzo.d poxa.d pacy.d1 pobe.d0 cetu.in cofo.in
+	remo.y sote.y -> runo.in suna.in1 sybu.in2 luzo.d poxa.d pacy.d1 pobe.d0 cetu.in cofo.in
 	@-86.28,27.38,-86.28,29.34
 	@-85.09,29.79,-85.09,29.34,-89.02,29.34,-95.34,29.33,-97.22,29.33,-113.81,29.32,-113.81,28.68,
 	 -121.32,28.66,-121.34,41.70
@@ -715,7 +715,7 @@ wire md3:data
 	@-136.38,42.20,-149.55,42.19,-149.55,38.52,-150.73,38.52,-150.73,38.98;
 
 wire md4:data
-	roce.q seke.q -> sumo.in1 sako.in2 sana.in megu.d pulo.d pacy.d0 pobe.d1 aryn.in azoz.in
+	roce.y seke.y -> sumo.in1 sako.in2 sana.in megu.d pulo.d pacy.d0 pobe.d1 aryn.in azoz.in
 	@-90.90,27.39,-90.90,28.53
 	@-86.80,29.79,-86.80,28.53,-91.07,28.53,-91.07,33.47,-97.06,33.46,-97.06,29.20,-98.08,29.20,-98.08,29.78
 	@-97.91,29.20,-97.91,25.45,-113.46,25.44,-113.46,32.18,-121.68,32.16,-121.69,41.95
@@ -726,7 +726,7 @@ wire md4:data
 	@-149.71,42.91,-149.71,40.45;
 
 wire md5:data
-	ropu.q rujo.q -> roro.in sejy.in2 sazu.in1 myjy.d poju.d pono.d1 pugu.d0 acot.in agyk.in
+	ropu.y rujo.y -> roro.in sejy.in2 sazu.in1 myjy.d poju.d pono.d1 pugu.d0 acot.in agyk.in
 	@-84.74,27.38,-84.74,29.34,-82.34,29.34,-82.34,33.09,-81.84,33.09,-81.84,31.27
 	@-84.74,28.79,-92.95,28.78,-92.95,24.46,-99.95,24.45,-99.95,28.95,-99.79,28.95,-99.79,33.04,
 	 -113.47,33.03,-113.47,32.43,-120.99,32.41,-121.00,39.61
@@ -738,7 +738,7 @@ wire md5:data
 	@-135.05,82.72,-134.02,82.72,-134.02,83.96;
 
 wire md6:data
-	reta.q tofa.q -> rabo.in sedo.in2 samo.in1 nasa.d powy.d pelo.d1 pawe.d0 buse.in cuje.in
+	reta.y tofa.y -> rabo.in sedo.in2 samo.in1 nasa.d powy.d pelo.d1 pawe.d0 buse.in cuje.in
 	@-82.18,27.40,-82.18,28.11
 	@-81.16,34.04,-81.16,32.48,-82.02,32.48,-82.02,29.34,-81.84,29.34,-81.84,28.11,-82.18,28.11,-98.59,28.09
 	@-81.16,33.20,-80.30,33.20,-80.30,31.26
@@ -751,7 +751,7 @@ wire md6:data
 	@-140.65,38.22,-140.65,36.09;
 
 wire md7:data
-	raku.q suza.q -> suke.in1 sawu.in2 same.in nefo.d pyju.d pute.d1 puly.d0 ater.in anum.in
+	raku.y suza.y -> suke.in1 sawu.in2 same.in nefo.d pyju.d pute.d1 puly.d0 ater.in anum.in
 	@-88.84,27.39,-88.84,29.21,-95.01,29.21,-95.01,24.81,-113.63,24.80,-113.64,33.27,
 	 -118.77,33.26,-118.77,41.46,-118.81,78.77,-150.33,78.77,-150.33,80.26,-154.37,80.25,
 	 -154.37,87.41,-162.06,87.40,-162.06,85.41
@@ -765,7 +765,7 @@ wire md7:data
 	@-142.70,42.06,-143.91,42.06,-143.91,40.45;
 
 wire a15:adr
-	cpu.b9 syzu.q -> soby.in1 sore.in sose.in1 tynu.in1 tuma.in3 tuna.in1 tulo.in1 zoro.in1
+	cpu.b9 syzu.y -> soby.in1 sore.in sose.in1 tynu.in1 tuma.in3 tuna.in1 tulo.in1 zoro.in1
 	@-72.10,31.27,-72.10,32.91,-86.30,32.91,-88.86,32.91,-88.86,34.08
 	@-86.30,32.91,-86.30,31.27
 	@-87.48,32.91,-87.48,31.27
@@ -778,7 +778,7 @@ wire a15:adr
 	 -118.41,176.00,-109.56,176.00,-109.56,175.89,-109.05,175.89;
 
 wire a14:adr
-	cpu.b10 nefe.q -> sogy.in tevy.in2 tynu.in2 tuna.in2 tulo.in2 nyre.d zoro.in2
+	cpu.b10 nefe.y -> sogy.in tevy.in2 tynu.in2 tuna.in2 tulo.in2 nyre.d zoro.in2
 	@-104.97,99.13,-104.97,99.25,-104.84,99.25,-104.84,99.87,-121.05,99.86,-121.06,108.98,-115.41,108.98,
 	 -112.36,108.99,-112.36,108.95,-112.30,39.52,-92.18,39.53,-92.18,38.16,-87.32,38.16,-87.32,35.53
 	@-115.41,108.98,-115.50,175.83,-109.72,175.83,-109.72,175.71,-109.03,175.71
@@ -789,7 +789,7 @@ wire a14:adr
 	@-95.52,34.06,-95.52,32.96,-96.88,32.96,-96.88,34.05;
 
 wire a13:adr
-	cpu.b11 lefy.q -> tevy.in1 tuma.in1 tuna.in3 tulo.in3 lonu.d zoro.in3
+	cpu.b11 lefy.y -> tevy.in1 tuma.in1 tuna.in3 tulo.in3 lonu.d zoro.in3
 	@-102.09,99.14,-102.09,100.00,-117.80,99.98,-117.80,108.68,-117.89,175.66,-109.90,175.66,
 	 -109.90,175.54,-109.02,175.54
 	@-117.80,108.68,-112.88,108.70,-112.88,107.55,-112.81,39.63,-91.93,39.66,-91.93,38.41
@@ -800,7 +800,7 @@ wire a13:adr
 	@-91.60,38.41,-91.60,35.54;
 
 wire a12:adr
-	cpu.b12 lyna.q -> tuna.in4 tulo.in4 rumo.in lobu.d zoro.in4
+	cpu.b12 lyna.y -> tuna.in4 tulo.in4 rumo.in lobu.d zoro.in4
 	@-99.11,99.12,-99.11,99.27,-99.02,99.27,-99.02,100.13,-114.55,100.11,-115.92,100.11,-115.92,108.30,
 	 -116.01,175.48,-110.06,175.49,-110.06,175.38,-109.03,175.38
 	@-114.55,100.11,-114.50,43.68,-122.70,43.68,-122.70,42.80,-143.90,42.79,-143.90,43.79
@@ -810,7 +810,7 @@ wire a12:adr
 	@-70.48,111.79,-70.48,110.34,-64.66,110.34,-64.66,111.78;
 
 wire a11:adr
-	cpu.b13 lora.q -> tuna.in5 tulo.in5 ryna.in lumy.d zadu.in1
+	cpu.b13 lora.y -> tuna.in5 tulo.in5 ryna.in lumy.d zadu.in1
 	@-96.23,99.13,-96.23,99.26,-96.12,99.26,-96.12,100.24,-117.97,100.23
 	@-124.41,45.27,-124.41,48.80,-122.88,48.80,-122.88,43.43,-117.92,43.43,-117.97,100.23,-117.97,108.05,
 	 -118.06,175.15,-109.76,175.15,-109.76,175.03,-109.02,175.03
@@ -820,7 +820,7 @@ wire a11:adr
 	@-72.18,111.77,-72.18,110.51,-69.80,110.51,-69.80,111.78;
 
 wire a10:adr
-	cpu.b14 rala.q -> tuna.in6 tulo.in6 ruse.in pate.d zadu.in2
+	cpu.b14 rala.y -> tuna.in6 tulo.in6 ruse.in pate.d zadu.in2
 	@-93.35,99.13,-93.35,99.26,-93.21,99.26,-93.21,100.38,-115.75,100.35,-118.14,100.35,-118.09,43.18,
 	 -122.20,43.18,-122.20,48.33,-127.49,48.33,-127.49,45.27
 	@-115.75,100.35,-115.75,109.50,-115.84,174.98,-109.95,174.98,-109.95,174.86,-109.04,174.86
@@ -830,7 +830,7 @@ wire a10:adr
 	@-97.04,38.41,-96.20,38.41,-96.20,35.53;
 
 wire a9:adr
-	cpu.b15 mapu.q -> tuna.in7 tulo.in7 rese.in lysa.d zadu.in3
+	cpu.b15 mapu.y -> tuna.in7 tulo.in7 rese.in lysa.d zadu.in3
 	@-90.48,99.14,-90.48,100.50,-115.58,100.48,-116.43,100.48,-116.39,43.92,-117.76,43.92,-122.71,43.92,
 	 -122.71,48.20,-125.44,48.20,-125.44,45.27
 	@-117.76,43.92,-117.76,42.31,-97.29,42.33,-97.29,37.91,-96.38,37.91,-96.38,35.53
@@ -841,7 +841,7 @@ wire a9:adr
 	@-77.31,111.77,-77.31,111.02,-73.97,111.02,-64.32,111.02,-64.32,114.31,-63.98,114.31,-63.98,115.84;
 
 wire a8:adr
-	cpu.b16 lofa.q -> tulo.in8 tona.in rysu.in luno.d zadu.in4
+	cpu.b16 lofa.y -> tulo.in8 tona.in rysu.in luno.d zadu.in4
 	@-87.73,99.13,-87.73,99.26,-87.58,99.26,-87.58,100.63,-116.59,100.60,-118.14,100.60,-118.14,107.79,
 	 -118.23,174.63,-110.19,174.63,-110.19,174.43,-109.76,174.43,-109.76,174.52,-109.04,174.52
 	@-116.59,100.60,-116.55,44.17,-122.54,44.17,-122.54,47.35,-126.46,47.35,-126.46,45.27
@@ -851,7 +851,7 @@ wire a8:adr
 	@-73.88,111.77,-73.88,111.19,-68.08,111.19,-68.08,111.77;
 
 wire a7:adr
-	cpu.b17 byna.q
+	cpu.b17 byna.y
 	-> tyro.in1 xybo.in xaly.in1 foby.in semy.in1 sare.in1 woly.in2 zyra.in arym.d awet.in4 ateg.in4 avun.in
 	   amus.in1 boot_rom.a7
 	@-105.50,99.13,-105.50,100.74,-105.53,100.74,-105.53,100.86,-120.03,100.84
@@ -874,7 +874,7 @@ wire a7:adr
 	@-115.34,188.25,-115.34,189.27;
 
 wire a6:adr
-	cpu.b18 byne.q
+	cpu.b18 byne.y
 	-> tufa.in2 wutu.in2 xopo.in waxa.in semy.in2 sare.in2 wale.in7 weju.in zage.in aros.d awet.in3
 	   ateg.in3 asad.in aper.in3 akug.in boot_rom.a6 high_ram.a6
 	@-102.49,99.13,-102.49,100.98,-116.60,100.98,-117.29,100.98,-117.27,74.17,-137.74,74.16,-137.74,73.57,
@@ -901,7 +901,7 @@ wire a6:adr
 	@-140.81,188.37,-146.45,188.36,-146.45,185.23;
 
 wire a5:adr
-	cpu.b19 ajov.q
+	cpu.b19 ajov.y
 	-> tyro.in2 xaly.in2 xoba.in gera.in semy.in3 sare.in3 wale.in6 wady.in zuko.in1 zovy.in1 zera.in
 	   atev.d ateg.in2 acom.in3 aper.in2 boxy.in byko.in high_ram.a5
 	@-99.63,99.13,-99.63,99.57,-99.54,99.57,-99.54,101.12,-120.19,101.09
@@ -929,7 +929,7 @@ wire a5:adr
 	@-140.64,187.82,-143.38,187.82,-143.38,189.24;
 
 wire a4:adr
-	cpu.b20 azuv.q
+	cpu.b20 azuv.y
 	-> tufa.in1 xeca.in xaly.in3 fevu.in semy.in4 sare.in4 wale.in5 woce.in avys.d awet.in1 atup.in
 	   acom.in4 amus.in2 zuko.in2 zyga.in2 zufy.in high_ram.a4
 	@-96.75,99.13,-96.75,99.56,-96.80,99.56,-96.80,101.23,-117.29,101.22,-117.45,101.22,-117.45,74.05,
@@ -953,7 +953,7 @@ wire a4:adr
 	@-109.66,168.72,-109.03,168.72;
 
 wire a3:adr
-	cpu.b21 anar.q
+	cpu.b21 anar.y
 	-> tyro.in3 xody.in xera.in wape.in sapa.in4 sare.in5 zabu.in wale.in4 webe.in axol.d0 acol.in
 	   aret.d amus.in3 boot_rom.a3 high_ram.a3
 	@-93.90,99.15,-93.90,101.36,-119.34,101.34
@@ -979,7 +979,7 @@ wire a3:adr
 	@-79.96,183.20,-79.96,183.79;
 
 wire a2:adr
-	cpu.b22 akan.q
+	cpu.b22 akan.y
 	-> tyro.in4 xyne.in xusy.in gose.in ryfo.in1 sefy.in sapa.in3 zoke.in wale.in3 wehu.in afum.d0
 	   abub.in alyr.d amus.in4 boot_rom.a2 high_ram.a2
 	@-91.01,99.14,-91.01,99.57,-90.98,99.57,-90.98,100.88,-90.99,100.88,-90.99,101.49,-117.63,101.47
@@ -1005,7 +1005,7 @@ wire a2:adr
 	@-74.66,183.08,-74.66,183.79;
 
 wire a1:adr
-	cpu.b23 byxe.q
+	cpu.b23 byxe.y
 	-> tyro.in5 xuxu.in xeno.in wacu.in sara.in2 sora.in3 sapa.in2 tyju.in2 tuby.in3 tola.in uwam.in2
 	   ucom.in3 zapy.in1 zubu.in2 zuvy.in azac.in avub.in2 apul.in2 wale.in2 agyl.d0 afob.in apur.d
 	   amus.in5
@@ -1037,7 +1037,7 @@ wire a1:adr
 	@-74.50,188.40,-71.59,188.40,-71.59,185.27;
 
 wire a0:adr
-	cpu.b24 kejo.q
+	cpu.b24 kejo.y
 	-> tyro.in6 xaky.in xola.in garo.in sara.in1 sora.in4 sapa.in1 tope.in1 teda.in4 tovy.in urys.in1
 	   ufeg.in4 zapy.in2 zaje.in2 zyba.in ajoj.in apul.in1 axyc.in2 wale.in1 alor.d amus.in6 bole.d0
 	   dyte.in
@@ -1072,7 +1072,7 @@ wire a0:adr
 	@-114.66,187.27,-114.66,185.23;
 
 wire ~ma12:adr
-	rumo.q vogu.q vury.q coxo.q dyso.q exyf.q -> reho.in
+	rumo.y vogu.y vury.y coxo.y dyso.y exyf.y -> reho.in
 	@-144.25,45.28,-144.25,47.95,-144.42,47.95
 	@-177.23,45.26,-177.23,46.23,-144.42,46.23,-144.42,57.42,-146.48,57.42,-146.48,62.49,-146.66,62.49,-146.66,67.35,
 	 -146.32,67.35,-146.32,73.70,-147.27,73.70,-147.27,78.51,-147.80,78.51,-147.80,81.20,-148.39,81.20,-148.39,88.34,
@@ -1080,7 +1080,7 @@ wire ~ma12:adr
 	@-144.94,57.42,-144.94,58.50;
 
 wire ~ma11:adr
-	ryna.q tobo.q veza.q cove.q fusy.q xehe.q -> ruma.in
+	ryna.y tobo.y veza.y cove.y fusy.y xehe.y -> ruma.in
 	@-124.76,45.28,-124.76,48.63,-125.10,48.63,-125.10,52.90,-143.23,52.90
 	@-156.89,45.27,-156.89,48.19,-146.81,48.19,-146.81,52.76,-143.23,52.76,-143.23,62.36,-143.93,62.36,-143.93,68.80,
 	 -149.23,68.80,-149.23,72.42,-149.76,72.42,-149.76,78.47,-150.58,78.47,-150.58,82.01,-149.76,82.01,-149.76,87.71,
@@ -1088,7 +1088,7 @@ wire ~ma11:adr
 	@-143.23,56.56,-140.84,56.56,-140.84,58.49;
 
 wire ~ma10:adr
-	ruse.q suvo.q vevy.q amuv.q eraf.q gegu.q -> ruky.in
+	ruse.y suvo.y vevy.y amuv.y eraf.y gegu.y -> ruky.in
 	@-127.84,45.29,-127.84,47.64,-142.71,47.64
 	@-185.95,45.27,-185.95,47.50,-142.71,47.52,-142.71,57.30,-143.92,57.30,-143.92,62.06,-144.09,62.06,-144.09,67.48,
 	 -150.59,67.48,-150.59,73.45,-151.63,73.45,-151.63,78.85,-152.06,78.85,-152.06,82.43,-151.98,82.43,-151.98,86.68,
@@ -1098,7 +1098,7 @@ wire ~ma10:adr
 	@-151.98,85.88,-170.79,85.87,-170.79,85.41;
 
 wire ~ma9:adr
-	rese.q reso.q vulo.q duve.q dafe.q gotu.q -> vode.in
+	rese.y reso.y vulo.y duve.y dafe.y gotu.y -> vode.in
 	@-125.79,45.28,-125.79,53.07,-125.62,53.07,-125.62,57.14,-125.79,57.14,-125.79,57.94,-125.97,57.94,-125.97,62.66,
 	 -142.21,62.66
 	@-125.79,48.20,-130.23,48.20,-130.23,45.26
@@ -1108,7 +1108,7 @@ wire ~ma9:adr
 	@-138.14,99.48,-127.89,99.49,-127.89,98.27;
 
 wire ~ma8:adr
-	rysu.q roha.q vovo.q ceta.q evax.q wune.q -> vova.in
+	rysu.y roha.y vovo.y ceta.y evax.y wune.y -> vova.in
 	@-126.81,45.27,-126.81,48.93,-146.13,48.92
 	@-147.49,45.27,-147.49,48.37,-146.13,48.37,-146.13,56.95,-147.67,56.95,-147.67,61.03,-138.29,61.04,-138.29,66.97,
 	 -137.77,66.97,-137.77,73.32,-138.21,73.32,-138.21,78.52,-138.73,78.52,-138.73,81.36,-141.38,81.36,-141.38,87.57,
@@ -1119,7 +1119,7 @@ wire ~ma8:adr
 	 -161.41,113.42,-161.41,115.03;
 
 wire ~ma7:adr
-	rusa.q vace.q xybo.q cypo.q erew.q wyga.q -> mume.in
+	rusa.y vace.y xybo.y cypo.y erew.y wyga.y -> mume.in
 	@-149.87,31.54,-149.87,33.57,-148.68,33.57,-148.68,38.05,-146.11,38.05,-146.11,42.37,-146.46,42.37,-146.46,48.20,
 	 -130.74,48.20,-130.74,52.77,-131.77,52.77,-131.77,57.30,-131.95,57.30,-131.95,61.63,-138.45,61.63,-138.45,67.40,
 	 -140.00,67.40,-140.00,72.90,-141.45,72.90,-141.45,78.51,-141.98,78.51,-141.98,82.13,-141.72,82.13,-141.72,87.70,
@@ -1128,7 +1128,7 @@ wire ~ma7:adr
 	@-141.39,98.88,-131.31,98.89,-131.31,101.21;
 
 wire ~ma6:adr
-	vejy.q veha.q xopo.q case.q eteg.q gavo.q -> mewy.in
+	vejy.y veha.y xopo.y case.y eteg.y gavo.y -> mewy.in
 	@-130.93,58.50,-130.93,57.93,-132.98,57.93,-132.98,61.51,-137.43,61.51,-137.43,67.44,-138.29,67.44,-138.29,72.08,
 	 -148.13,72.08,-148.13,78.51,-148.65,78.51,-148.65,82.01,-144.28,82.01,-144.28,86.36,-144.12,86.36,-144.12,92.40,
 	 -144.47,92.40,-144.47,100.33
@@ -1138,7 +1138,7 @@ wire ~ma6:adr
 	 -165.50,110.78;
 
 wire ~ma5:adr
-	sezu.q vyto.q xoba.q dava.q duho.q fugy.q -> mysa.in
+	sezu.y vyto.y xoba.y dava.y duho.y fugy.y -> mysa.in
 	@-156.88,31.55,-156.88,32.54,-144.92,32.55,-144.92,37.84,-144.06,37.84,-144.06,43.04,-143.74,43.04,-143.74,53.20,
 	 -139.98,53.20,-139.98,57.30,-139.82,57.30,-139.82,61.98,-139.31,61.98,-139.31,67.74,-144.10,67.74,-144.10,72.44,
 	 -148.91,72.44,-148.91,78.50,-149.34,78.50,-149.34,82.51,-144.63,82.51,-144.63,92.40,-144.80,92.40,-144.80,96.33,
@@ -1146,7 +1146,7 @@ wire ~ma5:adr
 	@-130.46,98.28,-130.46,100.16,-130.80,100.16,-130.80,104.12,-144.13,104.13,-174.57,104.12,-174.57,105.80;
 
 wire ~ma4:adr
-	vapy.q wuju.q xeca.q ajan.q damu.q famu.q -> mepa.in
+	vapy.y wuju.y xeca.y ajan.y damu.y famu.y -> mepa.in
 	@-150.21,31.54,-150.21,33.44,-144.74,33.44,-144.74,37.54,-143.05,37.54,-143.05,43.09,-142.20,43.09,-142.20,47.51,
 	 -142.55,47.51,-142.55,56.99,-142.89,56.99,-142.89,62.52,-138.97,62.52,-138.97,67.52,-141.03,67.52,-141.03,73.58,
 	 -145.23,73.58,-145.23,76.34,-145.81,76.34,-145.81,82.98,-128.56,82.98,-128.56,87.75,-128.91,87.75,-128.91,100.21,
@@ -1154,7 +1154,7 @@ wire ~ma4:adr
 	@-139.49,82.98,-139.49,83.92;
 
 wire ~ma3:adr
-	wolu.q xulo.q xody.q agag.q coly.q dode.q fyzy.q -> mavu.in
+	wolu.y xulo.y xody.y agag.y coly.y dode.y fyzy.y -> mavu.in
 	@-174.13,30.02,-174.13,28.60,-141.49,28.63,-141.49,32.77,-141.67,32.77,-141.67,37.41,-139.29,37.41,-139.29,42.07,
 	 -138.95,42.07,-138.95,46.67,-138.77,46.67,-138.77,47.39,-139.12,47.39,-139.12,53.06,-138.45,53.06,-138.45,57.12,
 	 -137.76,57.12,-137.76,60.95,-137.95,60.95,-137.95,67.09
@@ -1164,7 +1164,7 @@ wire ~ma3:adr
 	 -147.38,91.59,-147.38,87.70,-147.54,87.70,-147.54,80.51,-156.77,80.50,-165.30,80.50,-165.30,83.94;
 
 wire ~ma2:adr
-	wawe.q xahe.q xyne.q alel.q aras.q dahu.q fuhe.q -> myre.in
+	wawe.y xahe.y xyne.y alel.y aras.y dahu.y fuhe.y -> myre.in
 	@-170.90,31.52,-170.90,34.15,-141.16,34.16,-141.16,37.29,-139.11,37.29,-139.11,46.84,-138.95,46.84,-138.95,51.88,
 	 -135.71,51.88,-135.71,57.42,-135.54,57.42,-135.54,61.09,-135.71,61.09,-135.71,62.10,-135.88,62.10,-135.88,68.25
 	@-128.89,69.37,-128.89,68.25,-135.88,68.25,-143.07,68.24,-143.07,69.37
@@ -1175,7 +1175,7 @@ wire ~ma2:adr
 	 -148.41,104.41,-148.41,105.80;
 
 wire ~ma1:adr
-	wudo.q xamo.q xuxu.q afeb.q baxe.q egez.q evad.q -> masa.in
+	wudo.y xamo.y xuxu.y afeb.y baxe.y egez.y evad.y -> masa.in
 	@-149.54,31.55,-149.54,32.41,-137.23,32.42,-137.23,38.40,-137.05,38.40,-137.05,42.08,-137.41,42.08,-137.41,47.09,
 	 -137.24,47.09,-137.24,52.30,-136.73,52.30,-136.73,57.94,-136.57,57.94,-136.57,61.38,-136.91,61.38,-136.91,66.55,
 	 -134.02,66.55,-134.02,73.15
@@ -1185,7 +1185,7 @@ wire ~ma1:adr
 	@-155.93,100.49,-156.78,100.49,-156.78,92.39,-162.76,92.39,-162.76,90.54;
 
 wire ~ma0:adr
-	xeja.q xaky.q xonu.q axep.q asum.q abem.q ecal.q -> myfu.in
+	xeja.y xaky.y xonu.y axep.y asum.y abem.y ecal.y -> myfu.in
 	@-132.99,70.89,-132.99,72.90,-135.05,72.90
 	@-135.05,70.89,-135.05,73.45,-144.29,73.45,-144.29,76.34,-144.80,76.34,-144.80,82.63
 	@-136.93,73.45,-136.93,66.80,-137.77,66.80,-137.77,61.13,-137.59,61.13,-137.59,57.13,-137.42,57.13,-137.42,48.80,
@@ -1197,7 +1197,7 @@ wire ~ma0:adr
 	@-171.81,83.05,-174.03,83.05,-174.03,83.93;
 
 wire ~oam_a_d0:data
-	oam_a.d7 wasa.q wuzu.q zaxa.q -> xyky.d
+	oam_a.d7 wasa.y wuzu.y zaxa.y -> xyky.d
 	@-165.53,137.03,-163.84,137.03,-163.84,136.12
 	@-163.84,136.34,-164.17,136.34,-164.17,132.91,-161.26,132.91,-161.26,132.56,-161.09,132.56,-161.09,127.12,
 	 -159.54,127.12,-159.54,118.99,-157.31,118.99,-141.42,119.01
@@ -1206,7 +1206,7 @@ wire ~oam_a_d0:data
 	 -137.66,129.15;
 
 wire ~oam_a_d1:data
-	oam_a.d6 axer.q bubo.q zaky.q -> yrum.d
+	oam_a.d6 axer.y bubo.y zaky.y -> yrum.d
 	@-165.52,139.95,-163.97,139.95,-163.97,136.10
 	@-163.97,136.52,-164.34,136.52,-164.34,133.41,-159.18,133.41,-159.18,132.57,-159.20,132.57,-159.20,127.59,
 	 -145.18,127.59,-140.74,127.59,-140.74,129.15
@@ -1216,14 +1216,14 @@ wire ~oam_a_d1:data
 	@-144.13,96.32,-143.96,96.32,-143.96,92.39,-141.22,92.39,-141.22,90.52;
 
 wire ~oam_a_d2:data
-	oam_a.d5 asox.q basa.q wule.q -> ysex.d
+	oam_a.d5 asox.y basa.y wule.y -> ysex.d
 	@-165.52,142.86,-164.10,142.86,-164.10,136.12
 	@-164.10,136.69,-164.51,136.69,-164.51,133.80,-158.43,133.80,-158.43,131.71,-158.17,131.71,-158.17,128.68,
 	 -140.05,128.70,-140.05,121.66,-139.54,121.66,-139.54,108.75,-139.35,108.75,-139.35,100.03,-139.01,100.03,
 	 -139.01,92.27,-139.17,92.27,-139.17,87.84,-139.34,87.84,-139.34,83.36,-150.96,83.36,-150.96,83.94;
 
 wire ~oam_a_d3:data
-	oam_a.d4 cyme.q cetu.q zozo.q -> yvel.d
+	oam_a.d4 cyme.y cetu.y zozo.y -> yvel.d
 	@-165.54,145.77,-164.24,145.77,-164.23,136.87,-164.23,136.09
 	@-164.23,136.87,-164.68,136.87,-164.68,133.67,-158.68,133.67,-158.68,131.89,-159.55,131.89,-159.55,127.28,
 	 -159.20,127.28,-159.20,122.38,-136.64,122.38,-136.29,122.38,-136.29,114.59,-136.11,114.59,-136.11,108.95,
@@ -1232,7 +1232,7 @@ wire ~oam_a_d3:data
 	@-128.06,94.47,-128.06,95.77,-133.18,95.77,-151.14,95.76,-151.14,94.45;
 
 wire ~oam_a_d4:data
-	oam_a.d3 aryn.q baxu.q zufo.q -> wyno.d
+	oam_a.d3 aryn.y baxu.y zufo.y -> wyno.d
 	@-165.54,148.68,-164.37,148.68,-164.36,137.22,-164.36,136.11
 	@-164.36,137.22,-164.85,137.22,-164.85,133.16,-159.81,133.16,-159.81,132.57,-159.72,132.57,-159.72,127.97,
 	 -139.89,127.97
@@ -1242,7 +1242,7 @@ wire ~oam_a_d4:data
 	@-142.08,95.05,-152.68,95.04,-152.68,92.13,-153.70,92.13,-153.70,85.42;
 
 wire ~oam_a_d5:data
-	oam_a.d2 acot.q bupy.q zato.q -> cyra.d
+	oam_a.d2 acot.y bupy.y zato.y -> cyra.d
 	@-165.52,151.60,-164.50,151.60,-164.49,137.39,-164.49,136.11
 	@-164.49,137.39,-165.02,137.39,-165.02,134.44,-155.54,134.44,-155.54,132.58,-155.44,132.58,-155.44,128.57,
 	 -129.81,128.58,-129.64,128.58,-129.64,118.33,-129.12,118.33,-129.12,114.59,-128.94,114.59,-128.94,104.98,
@@ -1251,7 +1251,7 @@ wire ~oam_a_d5:data
 	@-129.81,128.58,-129.81,129.15;
 
 wire ~oam_a_d6:data
-	oam_a.d1 byny.q cuje.q yvuc.q -> zuve.d
+	oam_a.d1 byny.y cuje.y yvuc.y -> zuve.d
 	@-165.53,154.52,-164.63,154.52,-164.62,137.56,-164.62,136.13
 	@-164.62,137.56,-165.19,137.56,-165.19,133.29,-159.42,133.29,-159.42,132.13,-158.01,132.13,-158.01,127.84,
 	 -146.04,127.84
@@ -1261,7 +1261,7 @@ wire ~oam_a_d6:data
 	@-134.21,92.52,-152.17,92.52,-152.17,92.96;
 
 wire ~oam_a_d7:data
-	oam_a.d0 ater.q bypy.q zufe.q -> eced.d
+	oam_a.d0 ater.y bypy.y zufe.y -> eced.d
 	@-165.54,157.45,-164.77,157.45,-164.75,137.74,-164.75,136.12
 	@-164.75,137.74,-165.36,137.74,-165.36,135.07,-161.95,135.07,-161.95,132.40,-161.43,132.40,-161.43,127.29,
 	 -159.72,127.29,-159.72,122.25,-141.59,122.26
@@ -1271,7 +1271,7 @@ wire ~oam_a_d7:data
 	@-142.09,104.69,-142.09,99.53,-141.73,99.53,-141.73,96.06,-141.91,96.06,-141.91,92.27,-142.25,92.27,-142.25,90.52;
 
 wire ~oam_b_d0:data
-	oam_b.d0 wejo.q wowa.q zamy.q -> ydyv.d
+	oam_b.d0 wejo.y wowa.y zamy.y -> ydyv.d
 	@-213.50,157.41,-214.27,157.41,-214.26,137.54,-214.26,136.09
 	@-214.26,137.54,-213.39,137.54,-213.39,134.16,-188.45,134.17,-188.45,131.45,-141.61,131.48
 	@-138.70,130.63,-138.70,131.72,-141.61,131.72,-141.61,126.44,-141.77,126.44,-141.77,118.45,-162.45,118.45,
@@ -1279,7 +1279,7 @@ wire ~oam_b_d0:data
 	@-141.77,118.71,-137.48,118.71,-137.48,116.49;
 
 wire ~oam_b_d1:data
-	oam_b.d1 aveb.q bomo.q zopu.q -> yceb.d
+	oam_b.d1 aveb.y bomo.y zopu.y -> yceb.d
 	@-213.51,154.51,-214.41,154.51,-214.40,137.36,-214.40,136.08
 	@-214.40,137.36,-213.56,137.36,-213.56,134.54,-185.88,134.55,-185.88,132.01,-143.82,132.03,-143.82,127.85,
 	 -143.48,127.85,-143.48,123.11,-143.82,123.11,-143.82,113.70,-143.97,113.70,-143.97,108.35,-143.80,108.35,
@@ -1287,7 +1287,7 @@ wire ~oam_b_d1:data
 	 -157.11,86.51,-157.11,85.41;
 
 wire ~oam_b_d2:data
-	oam_b.d2 amuh.q betu.q wyky.q -> zuca.d
+	oam_b.d2 amuh.y betu.y wyky.y -> zuca.d
 	@-213.49,151.58,-214.54,151.58,-214.53,137.19,-214.53,136.08
 	@-214.53,137.19,-213.73,137.19,-213.73,134.28,-188.10,134.30,-188.10,131.20,-147.76,131.22,-147.76,128.10,
 	 -147.41,128.10,-147.41,122.51,-147.05,122.51,-147.05,118.16,-140.91,118.16,-140.91,109.08,-140.55,109.08,
@@ -1295,7 +1295,7 @@ wire ~oam_b_d2:data
 	 -140.20,92.40,-140.20,87.83,-161.38,87.82,-161.38,85.41;
 
 wire ~oam_b_d3:data
-	oam_b.d3 cako.q cofo.q zaja.q -> wone.d
+	oam_b.d3 cako.y cofo.y zaja.y -> wone.d
 	@-213.51,148.66,-214.67,148.66,-214.66,136.84,-214.66,136.08
 	@-214.66,136.84,-213.91,136.84,-213.91,135.05,-184.09,135.06,-184.09,131.58,-130.84,131.60,-130.84,123.38,
 	 -131.00,123.38,-131.00,118.41,-141.42,118.41,-141.42,109.08,-141.07,109.08,-141.07,104.68,-141.23,104.68,
@@ -1303,7 +1303,7 @@ wire ~oam_b_d3:data
 	@-141.05,96.20,-153.20,96.20,-153.20,94.45;
 
 wire ~oam_b_d4:data
-	oam_b.d4 azoz.q buma.q zuga.q -> zaxe.d
+	oam_b.d4 azoz.y buma.y zuga.y -> zaxe.d
 	@-213.50,145.75,-214.80,145.75,-214.78,136.66,-214.78,136.05
 	@-214.78,136.66,-214.08,136.66,-214.08,134.92,-185.29,134.94,-185.29,132.26,-149.98,132.27,-149.98,130.59
 	@-149.98,131.84,-134.95,131.85,-134.95,128.02,-134.41,128.02,-134.41,113.31,-134.56,113.31,-134.56,109.38,
@@ -1311,7 +1311,7 @@ wire ~oam_b_d4:data
 	 -132.51,91.55,-132.66,91.55,-132.66,86.95,-155.74,86.94,-155.74,85.43;
 
 wire ~oam_b_d5:data
-	oam_b.d5 agyk.q buhu.q zumo.q -> xafu.d
+	oam_b.d5 agyk.y buhu.y zumo.y -> xafu.d
 	@-213.50,142.84,-214.91,142.84,-214.91,136.07
 	@-214.91,136.49,-214.25,136.49,-214.25,134.66,-185.52,134.68,-185.52,131.76,-185.36,131.76,-185.36,128.38,
 	 -155.44,128.39,-127.76,128.41,-127.76,129.16
@@ -1321,7 +1321,7 @@ wire ~oam_b_d5:data
 	@-135.41,85.41,-135.41,87.62,-127.54,87.62,-127.54,89.05;
 
 wire ~oam_b_d6:data
-	oam_b.d6 basy.q buse.q xyto.q -> yses.d
+	oam_b.d6 basy.y buse.y xyto.y -> yses.d
 	@-213.50,139.92,-215.04,139.92,-215.04,136.06
 	@-215.04,136.31,-214.42,136.31,-214.42,134.41,-186.38,134.43,-186.38,126.55,-138.35,126.57,-138.35,122.77,
 	 -127.23,122.77,-127.23,119.15,-127.06,119.15,-127.06,114.34,-126.88,114.34,-126.88,105.23,-126.70,105.23,
@@ -1329,14 +1329,14 @@ wire ~oam_b_d6:data
 	 -157.28,88.59,-157.28,89.05;
 
 wire ~oam_b_d7:data
-	oam_b.d7 anum.q bape.q zyfa.q -> zeca.d
+	oam_b.d7 anum.y bape.y zyfa.y -> zeca.d
 	@-213.48,137.00,-215.17,137.00,-215.17,136.06
 	@-215.17,136.14,-214.59,136.14,-214.59,134.02,-189.05,134.04,-189.05,131.31,-144.34,131.34
 	@-144.34,130.62,-144.34,132.15,-142.80,132.15,-142.80,118.88,-143.47,118.88,-143.47,108.65,-142.95,108.65,
 	 -142.95,104.55,-143.11,104.55,-143.11,92.27,-143.27,92.27,-143.27,88.09,-162.41,88.08,-162.41,85.41;
 
 wire oam_render_a2:data
-	apoc.q cube.q cubo.q dobo.q enap.q wuzy.q wuxu.q wato.q wako.q zedy.q zaro.q
+	apoc.y cube.y cubo.y dobo.y enap.y wuzy.y wuxu.y wato.y wako.y zedy.y zaro.y
 	-> buhe.d byhe.d cadu.d devy.d ekop.d gybu.in gabo.d gule.d xave.d ywak.d yber.d
 	@-209.23,85.40,-209.23,88.56
 	@-201.03,91.77,-201.03,88.56,-216.07,88.56,-216.07,91.98,-216.24,91.98,-216.24,95.26,-221.90,95.26,-221.90,100.13,
@@ -1355,7 +1355,7 @@ wire oam_render_a2:data
 	@-146.88,115.02,-146.88,113.72,-145.85,113.72,-145.85,112.30;
 
 wire oam_render_a3:data
-	afoz.q akyh.q celu.q dygo.q dyny.q wyse.q wepy.q wywy.q wygo.q zojy.q zumu.q
+	afoz.y akyh.y celu.y dygo.y dyny.y wyse.y wepy.y wywy.y wygo.y zojy.y zumu.y
 	-> byhu.d bexy.d cebo.d dese.d etym.d gyka.in gacy.d gyno.d xefe.d yzor.d zony.d
 	@-152.17,96.77,-152.17,95.72,-192.67,95.70,-192.67,92.33,-191.47,92.33,-191.47,82.41,-197.78,82.41,-197.78,86.96,
 	 -198.13,86.96,-198.13,89.02
@@ -1373,7 +1373,7 @@ wire oam_render_a3:data
 	@-145.85,114.45,-145.85,115.02;
 
 wire oam_render_a4:data
-	apon.q afen.q cegy.q dowa.q ezoc.q elep.q weru.q waga.q woko.q ynev.q zysu.q
+	apon.y afen.y cegy.y dowa.y ezoc.y elep.y weru.y waga.y woko.y ynev.y zysu.y
 	-> beca.d bado.d cufa.d duny.d faby.in fogo.d fefa.d goru.d wanu.d wyte.d xyfe.d
 	@-189.59,89.02,-189.59,87.38,-190.09,87.38,-190.09,83.05,-194.20,83.05,-194.20,87.64,-202.57,87.64,-202.57,91.65,
 	 -202.76,91.65,-202.76,95.58,-203.11,95.58,-203.11,98.87,-202.59,98.87,-202.59,104.95,-216.60,104.94
@@ -1391,7 +1391,7 @@ wire oam_render_a4:data
 	@-165.85,114.14,-165.51,114.14,-165.51,115.03;
 
 wire oam_render_a5:data
-	apyv.q bety.q cuvu.q dony.q duza.q etad.q wyda.q wabo.q xyre.q xyra.q zave.q
+	apyv.y bety.y cuvu.y dony.y duza.y etad.y wyda.y wabo.y xyre.y xyra.y zave.y
 	-> apev.d bulu.d coma.d duha.d ebex.d faco.in fysu.d gohu.d xabo.d xotu.d yzep.d
 	@-195.23,85.41,-195.23,87.22,-195.56,87.22
 	@-195.23,87.09,-184.63,87.10,-184.63,91.52,-185.65,91.52,-185.65,95.58,-154.73,95.59,-154.38,95.59,-154.38,96.78
@@ -1411,7 +1411,7 @@ wire oam_render_a5:data
 	@-223.63,123.32,-223.63,128.23,-224.65,128.23,-224.65,129.12;
 
 wire oam_render_a6:data
-	apob.q cyro.q cyby.q daly.q efud.q elyc.q wuco.q woxy.q waba.q yrad.q zece.q
+	apob.y cyro.y cyby.y daly.y efud.y elyc.y wuco.y woxy.y waba.y yrad.y zece.y
 	-> buna.d bada.d cuza.d deba.d etav.d fugu.in foxy.d gesy.d xege.d xute.d ysok.d
 	@-192.83,85.41,-192.83,88.27,-193.34,88.27,-193.34,92.20,-195.22,92.20,-195.22,95.75,-195.57,95.75
 	@-192.83,88.02,-183.09,88.02,-183.09,92.12,-184.63,92.12,-184.63,92.95
@@ -1425,7 +1425,7 @@ wire oam_render_a6:data
 	@-169.62,119.56,-169.62,117.29,-152.36,117.30,-152.36,116.51;
 
 wire oam_render_a7:data
-	axec.q adyb.q bemo.q dezu.q dalo.q evyt.q weza.q waja.q wocy.q yhal.q zetu.q
+	axec.y adyb.y bemo.y dezu.y dalo.y evyt.y weza.y waja.y wocy.y yhal.y zetu.y
 	-> axuv.d boxa.d cajy.d dafu.d ekap.d fyke.in fuzo.d gecu.d xynu.d xufo.d ygus.d
 	@-214.57,118.98,-214.57,109.13,-215.07,109.13,-215.07,104.26,-216.59,104.26,-216.59,100.17,-215.40,100.17,
 	 -215.40,95.69,-197.11,95.70,-197.11,91.64,-197.79,91.64,-197.79,87.13,-198.81,87.13,-198.81,82.52,-189.06,82.53,
@@ -1441,7 +1441,7 @@ wire oam_render_a7:data
 	@-166.20,119.13,-156.28,119.13,-156.28,116.51;
 
 wire sprite_y_store0:data
-	buce.q byro.q boso.q bace.q byme.q cucu.q gofo.q waxe.q ybuk.q zexe.q zuke.q
+	buce.y byro.y boso.y bace.y byme.y cucu.y gofo.y waxe.y ybuk.y zexe.y zuke.y
 	-> ames.d azap.d acep.d cyvu.in2 capo.d cana.d fyhy.d xyna.d ylov.d zuro.d zumy.d
 	@-205.14,87.89,-163.78,87.91,-163.78,92.27,-161.90,92.27,-161.90,92.97
 	@-162.42,92.27,-162.42,92.97
@@ -1458,7 +1458,7 @@ wire sprite_y_store0:data
 	@-161.94,128.27,-161.94,129.13;
 
 wire sprite_y_store1:data
-	ahum.q bevy.q bazu.q buky.q buja.q cuca.q gate.q were.q ywav.q ypoz.q ykoz.q
+	ahum.y bevy.y bazu.y buky.y buja.y cuca.y gate.y were.y ywav.y ypoz.y ykoz.y
 	-> arof.d afyx.d abeg.d bore.in2 caju.d cufo.d fofo.d xosy.d ygum.d zylu.d zafu.d
 	@-201.72,85.41,-201.72,87.76,-168.23,87.78,-168.23,92.22,-168.40,92.22,-168.40,92.96
 	@-201.72,87.38,-202.06,87.38,-202.06,82.66,-215.21,82.65,-215.21,87.63,-216.24,87.63,-216.24,89.02
@@ -1475,7 +1475,7 @@ wire sprite_y_store1:data
 	@-163.48,128.56,-163.48,129.15;
 
 wire sprite_y_store2:data
-	ahac.q ajal.q bove.q baco.q bodu.q cega.q coho.q wabu.q wuxe.q yjem.q zyto.q
+	ahac.y ajal.y bove.y baco.y bodu.y cega.y coho.y wabu.y wuxe.y yjem.y zyto.y
 	-> abop.d afut.d abux.d buvy.in2 bozu.d cono.d dysy.d xaku.d xazy.d zene.d zexo.d
 	@-210.26,83.90,-210.26,83.45
 	@-168.06,94.45,-168.06,94.91,-164.80,94.91,-164.80,86.81,-165.65,86.81,-165.65,83.48,-203.59,83.47,-210.26,83.45,
@@ -1492,7 +1492,7 @@ wire sprite_y_store2:data
 	@-210.61,83.45,-210.61,83.91;
 
 wire sprite_y_store3:data
-	awat.q bydo.q befe.q bujy.q cawo.q wenu.q wana.q wehe.q zypo.q zudo.q zaby.q
+	awat.y bydo.y befe.y bujy.y cawo.y wenu.y wana.y wehe.y zypo.y zudo.y zaby.y
 	-> abug.d afym.d aned.d cumu.d dewu.d gyho.d wago.in2 xygo.d ykuk.d zury.d zube.d
 	@-218.46,85.40,-218.46,88.43
 	@-218.81,88.43,-212.14,88.43,-212.14,82.39,-206.67,82.39,-206.67,87.38,-203.25,87.38,-203.25,89.02
@@ -1511,52 +1511,52 @@ wire sprite_y_store3:data
 	@-173.89,118.87,-173.89,116.52;
 
 wire oam_~{a0}_tri:adr
-	fodo.q garo.q gefy.q geca.q -> geka.in
+	fodo.y garo.y gefy.y geca.y -> geka.in
 	@-133.20,107.30,-133.20,110.19,-131.16,110.19,-131.16,110.80
 	@-133.20,108.95,-135.25,108.95,-135.25,110.80
 	@-131.16,110.23,-129.09,110.23,-129.09,110.81
 	@-130.98,110.23,-130.98,110.80;
 
 wire oam_~{a1}_tri:adr
-	fesa.q wacu.q wuwe.q wydu.q -> zyfo.in
+	fesa.y wacu.y wuwe.y wydu.y -> zyfo.in
 	@-134.22,107.30,-134.22,110.36,-134.74,110.36,-134.74,114.59,-134.92,114.59,-134.92,118.67,-132.88,118.67
 	@-132.88,116.52,-132.88,118.71,-127.23,118.71
 	@-127.23,116.52,-127.23,118.97,-126.55,118.97,-126.55,129.16;
 
 wire oam_~{a2}_tri:adr
-	fago.q gose.q guse.q gybu.q -> yfot.in
+	fago.y gose.y guse.y gybu.y -> yfot.in
 	@-131.16,107.31,-131.16,109.80
 	@-135.95,123.80,-135.95,122.23,-135.78,122.23,-135.78,119.13,-128.60,119.13,-128.60,113.17,-128.08,113.17,
 	 -128.08,109.80,-144.14,109.80,-144.14,114.58,-146.20,114.58,-146.20,112.30;
 
 wire oam_~{a3}_tri:adr
-	fyky.q gema.q gyka.q wape.q -> yfoc.in
+	fyky.y gema.y gyka.y wape.y -> yfoc.in
 	@-130.13,107.32,-130.13,109.38,-132.35,109.38,-132.35,114.58
 	@-129.29,115.02,-129.29,114.58,-134.23,114.58
 	@-136.29,112.31,-136.29,113.78,-134.23,113.78,-134.23,118.84,-134.58,118.84,-134.58,123.82;
 
 wire oam_~{a4}_tri:adr
-	elug.q fevu.q futo.q faby.q -> yvom.in
+	elug.y fevu.y futo.y faby.y -> yvom.in
 	@-129.27,102.70,-129.27,104.25,-127.04,104.25,-127.04,108.48,-150.65,108.48
 	@-162.95,107.30,-162.95,108.39,-154.91,108.39,-150.65,108.40,-150.65,118.33,-150.48,118.33,-150.48,122.00,
 	 -150.31,122.00,-150.31,123.82
 	@-154.91,108.39,-154.91,107.30;
 
 wire oam_~{a5}_tri:adr
-	edol.q faku.q faco.q gera.q -> ymev.in
+	edol.y faku.y faco.y gera.y -> ymev.in
 	@-130.30,102.70,-130.30,104.56,-130.46,104.56,-130.46,109.25,-127.05,109.25,-127.05,113.30,-130.47,113.30,
 	 -130.47,118.28,-149.79,118.28,-149.79,122.01,-149.97,122.01,-149.97,123.80
 	@-149.79,118.33,-150.31,118.33,-150.31,113.73,-156.80,113.73,-156.80,109.92,-161.58,109.92,-161.58,107.30
 	@-157.65,109.92,-157.65,107.30;
 
 wire oam_~{a6}_tri:adr
-	fydu.q fugu.q gama.q waxa.q -> xemu.in
+	fydu.y fugu.y gama.y waxa.y -> xemu.in
 	@-132.19,107.30,-132.19,114.16
 	@-128.26,115.02,-128.26,114.16,-132.19,114.16,-150.13,114.15,-150.13,119.59
 	@-150.13,114.20,-157.48,114.19,-157.48,110.35,-163.97,110.35,-163.97,107.30;
 
 wire oam_~{a7}_tri:adr
-	foby.q fetu.q fyke.q goby.q -> yzet.in
+	foby.y fetu.y fyke.y goby.y -> yzet.in
 	@-128.07,107.31,-128.07,109.38,-129.10,109.38
 	@-129.10,107.32,-129.10,110.06,-147.91,110.06
 	@-165.00,107.30,-165.00,109.03,-147.91,109.03,-147.91,113.73,-149.11,113.73,-149.11,117.43,-149.45,117.43,

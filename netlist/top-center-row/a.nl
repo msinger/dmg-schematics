@@ -1,48 +1,48 @@
 # Cells in row A in top center
 # ----------------------------
 
-cell abol:inv_a     rot270 @-57.94,149.66,-55.82,149.98       ->clocks;
-cell atez:inv_a     rot270 @-57.93,149.98,-55.82,150.33       ->clocks;
-cell araf:inv_b     rot270 @-57.94,150.32,-55.83,150.84 spare;
-cell apov:inv_c     rot270 @-57.93,150.84,-55.82,151.52       ->clocks;
-cell arev:nand2     rot270 @-57.93,151.52,-55.83,152.04       ->clocks;
-cell afas:nor2      rot270 @-57.93,152.04,-55.83,152.55       ->clocks;
-cell azup:inv_b     rot270 @-57.93,152.55,-55.84,153.07 spare;
-cell abuz:inv_c     rot270 @-57.95,153.06,-55.83,153.76       ->clocks;
-cell awod:nor2      rot270 @-57.94,153.75,-55.81,154.27       ->clocks;
-cell agut:oa        rot270 @-57.93,154.26,-55.83,155.12       ->clocks;
-cell ajax:inv_a     rot270 @-57.94,155.11,-55.84,155.46       ->clocks;
-cell alur:inv_b     rot270 @-57.92,155.45,-55.84,155.97       ->clocks;
-cell avor:or2       rot270 @-57.95,155.96,-55.84,156.63       ->clocks;
-cell afer:dffr_b    rot270 @-57.94,156.64,-55.84,159.04       ->clocks;
-cell asol:nor_latch rot270 @-57.95,159.03,-55.84,160.06       ->clocks;
-cell afar:nor2      rot270 @-57.95,160.06,-55.86,160.59       ->clocks;
-cell alyp:inv_a     rot270 @-57.94,160.58,-55.84,160.91       ->clocks;
-cell adar:inv_a     rot270 @-57.95,161.09,-55.86,161.42       ->clocks;
-cell adyk:dr_latch  rot270 @-57.96,161.42,-55.85,163.14       ->clocks;
-cell akut:nand2     rot270 @-57.95,163.14,-55.84,163.64 spare;
-cell arov:inv_a     rot270 @-57.95,163.81,-55.84,164.17       ->clocks;
-cell apuk:dr_latch  rot270 @-57.95,164.16,-55.85,165.88       ->clocks;
-cell adap:nand2     rot270 @-57.96,165.88,-55.86,166.39 spare;
-cell afep:inv_a     rot270 @-57.95,166.55,-55.84,166.90       ->clocks;
-cell alef:dr_latch  rot270 @-57.96,166.90,-55.85,168.61       ->clocks;
-cell aced:nand2     rot270 @-57.96,168.61,-55.84,169.13 spare;
-cell atyp:inv_a     rot270 @-57.96,169.30,-55.86,169.63       ->clocks;
-cell afur:dr_latch  rot270 @-57.95,169.63,-55.84,171.34       ->clocks;
-cell azym:nand2     rot270 @-57.96,171.34,-55.84,171.84 spare;
-cell adeh:inv_a     rot270 @-57.97,172.02,-55.86,172.37 comp  ->clocks;
-cell atal:inv_b     rot270 @-57.97,172.37,-55.87,172.88 comp  ->clocks;
-cell anos:nand2     rot270 @-57.97,172.88,-55.87,173.39       ->clocks;
-cell avet:nand2     rot270 @-57.98,173.40,-55.86,173.91       ->clocks;
-cell arys:inv_a     rot270 @-57.98,173.91,-55.86,174.25       ->clocks;
-cell azof:inv_e     rot270 @-57.95,174.25,-55.85,175.44       ->clocks;
+cell abol:not_x1     rot270 @-57.94,149.66,-55.82,149.98       ->clocks;
+cell atez:not_x1     rot270 @-57.93,149.98,-55.82,150.33       ->clocks;
+cell araf:not_x2     rot270 @-57.94,150.32,-55.83,150.84 spare;
+cell apov:not_x3     rot270 @-57.93,150.84,-55.82,151.52       ->clocks;
+cell arev:nand2      rot270 @-57.93,151.52,-55.83,152.04       ->clocks;
+cell afas:nor2       rot270 @-57.93,152.04,-55.83,152.55       ->clocks;
+cell azup:not_x2     rot270 @-57.93,152.55,-55.84,153.07 spare;
+cell abuz:not_x3     rot270 @-57.95,153.06,-55.83,153.76       ->clocks;
+cell awod:nor2       rot270 @-57.94,153.75,-55.81,154.27       ->clocks;
+cell agut:oa21       rot270 @-57.93,154.26,-55.83,155.12       ->clocks;
+cell ajax:not_x1     rot270 @-57.94,155.11,-55.84,155.46       ->clocks;
+cell alur:not_x2     rot270 @-57.92,155.45,-55.84,155.97       ->clocks;
+cell avor:or2        rot270 @-57.95,155.96,-55.84,156.63       ->clocks;
+cell afer:dffr_cc    rot270 @-57.94,156.64,-55.84,159.04       ->clocks;
+cell asol:nor_latch  rot270 @-57.95,159.03,-55.84,160.06       ->clocks;
+cell afar:nor2       rot270 @-57.95,160.06,-55.86,160.59       ->clocks;
+cell alyp:not_x1     rot270 @-57.94,160.58,-55.84,160.91       ->clocks;
+cell adar:not_x1     rot270 @-57.95,161.09,-55.86,161.42       ->clocks;
+cell adyk:drlatch_ee rot270 @-57.96,161.42,-55.85,163.14       ->clocks;
+cell akut:nand2      rot270 @-57.95,163.14,-55.84,163.64 spare;
+cell arov:not_x1     rot270 @-57.95,163.81,-55.84,164.17       ->clocks;
+cell apuk:drlatch_ee rot270 @-57.95,164.16,-55.85,165.88       ->clocks;
+cell adap:nand2      rot270 @-57.96,165.88,-55.86,166.39 spare;
+cell afep:not_x1     rot270 @-57.95,166.55,-55.84,166.90       ->clocks;
+cell alef:drlatch_ee rot270 @-57.96,166.90,-55.85,168.61       ->clocks;
+cell aced:nand2      rot270 @-57.96,168.61,-55.84,169.13 spare;
+cell atyp:not_x1     rot270 @-57.96,169.30,-55.86,169.63       ->clocks;
+cell afur:drlatch_ee rot270 @-57.95,169.63,-55.84,171.34       ->clocks;
+cell azym:nand2      rot270 @-57.96,171.34,-55.84,171.84 spare;
+cell adeh:not_x1     rot270 @-57.97,172.02,-55.86,172.37 comp  ->clocks;
+cell atal:not_x2     rot270 @-57.97,172.37,-55.87,172.88 comp  ->clocks;
+cell anos:nand2      rot270 @-57.97,172.88,-55.87,173.39       ->clocks;
+cell avet:nand2      rot270 @-57.98,173.40,-55.86,173.91       ->clocks;
+cell arys:not_x1     rot270 @-57.98,173.91,-55.86,174.25       ->clocks;
+cell azof:not_x6     rot270 @-57.95,174.25,-55.85,175.44       ->clocks;
 
 
 # Wires originating from row A in top center
 # ------------------------------------------
 
 wire ~clk_ena:ctl
-	abol.q -> bate.in3 bapy.in1 belu.in2 buty.in
+	abol.y -> bate.in3 bapy.in1 belu.in2 buty.in
 	@-57.66,149.90,-58.42,149.90,-58.42,150.91,-59.79,150.91,-59.80,161.17,-59.80,166.14,-59.81,171.60,
 	 -59.82,175.37,-60.45,175.37
 	@-59.80,161.17,-60.45,161.17
@@ -50,13 +50,13 @@ wire ~clk_ena:ctl
 	@-59.81,171.60,-60.45,171.60;
 
 wire atez:ctl
-	atez.q -> byju.in2
+	atez.y -> byju.in2
 	@-57.64,150.24,-58.24,150.24,-58.24,152.29,-60.41,152.29;
 
-# araf.q is not connected
+# araf.y is not connected
 
 wire cpu_wr_sync:ctl
-	apov.q -> tuja.in2 mexo.in ubal.d0
+	apov.y -> tuja.in2 mexo.in ubal.d0
 	@-91.09,35.53,-91.09,37.62,-85.85,37.62,-85.85,40.55,-112.48,40.53,-112.53,108.19,-78.38,108.20,
 	 -45.73,108.23,-45.80,151.44,-56.12,151.44
 	@-78.38,108.20,-78.38,110.88,-77.14,110.88,-77.14,114.42,-76.80,114.42,-76.80,118.39,-76.98,118.39,
@@ -64,17 +64,17 @@ wire cpu_wr_sync:ctl
 	 -79.39,135.45,-79.39,138.84,-80.08,138.84,-80.08,139.84;
 
 wire arev:ctl
-	arev.q -> apov.in
+	arev.y -> apov.in
 	@-57.65,151.95,-58.08,151.95,-58.08,150.93,-57.63,150.93;
 
 wire afas:clk
-	afas.q -> arev.in1
+	afas.y -> arev.in1
 	@-56.15,152.47,-55.69,152.47,-55.69,151.61,-56.15,151.61;
 
-# azup.q is not connected
+# azup.y is not connected
 
 wire cpu_ext_cs_en:ctl
-	abuz.q -> sepy.in1 toza.in2 tuca.in2
+	abuz.y -> sepy.in1 toza.in2 tuca.in2
 	@-85.77,31.28,-85.77,37.45
 	@-88.18,35.54,-88.18,37.49,-90.41,37.49,-90.41,35.52
 	@-88.18,37.45,-85.77,37.45,-70.14,37.44,-70.14,43.26,-48.57,43.27,-48.70,153.66,-56.14,153.66
@@ -82,19 +82,19 @@ wire cpu_ext_cs_en:ctl
 	"the CPU accesses them. PPU and DMA use different CS timings.";
 
 wire awod:ctl
-	awod.q -> abuz.in
+	awod.y -> abuz.in
 	@-57.64,154.18,-58.07,154.18,-58.07,153.15,-57.63,153.15;
 
 wire agut:ctl
-	agut.q -> awod.in2
+	agut.y -> awod.in2
 	@-56.13,155.03,-55.52,155.03,-55.52,154.01,-56.16,154.01;
 
 wire ajax:clk
-	ajax.q -> agut.in2
+	ajax.y -> agut.in2
 	@-56.15,155.38,-55.70,155.38,-55.70,154.52,-56.15,154.52;
 
 wire ~reset2:rst
-	alur.q -> tepu.~r dula.in lyta.in3 mulo.in moba.~r mexu.in2 muru.~r movu.in3 nyke.~r pyga.in3 peto.~r
+	alur.y -> tepu.~r dula.in lyta.in3 mulo.in moba.~r mexu.in2 muru.~r movu.in3 nyke.~r pyga.in3 peto.~r
 	          sufy.~r sabu.~r seta.~r samy.~r sopu.~r sabo.~r tyva.~r tyru.~r tuny.in3 tyme.in3 caro.in2
 	          culy.~r cohy.in3 caby.in2 dyly.in3 daju.in3 dybo.in3 dumo.in3 ehuj.in3 efak.in3 eguv.in3
 	          elys.~r amut.~r apug.~r agem.~r acef.~r buro.~r batu.~r cofy.~r hapo.in jute.~r jale.~r
@@ -171,7 +171,7 @@ wire ~reset2:rst
 	 -160.98,195.17;
 
 wire avor:rst
-	avor.q -> alur.in
+	avor.y -> alur.in
 	@-57.63,156.56,-58.09,156.56,-58.09,155.53,-57.62,155.53;
 
 wire reset_latch:rst
@@ -190,18 +190,18 @@ wire ~asol:rst
 	"stays high for 31.25 milliseconds after the reset gets deasserted.";
 
 wire afar:ctl
-	afar.q -> asol.s
+	afar.y -> asol.s
 	@-57.64,160.49,-58.09,160.49,-58.09,159.12,-57.63,159.12
 	"High if the external reset is not asserted right now and at least 31.25 milliseconds have passed since "
 	"the reset was last asserted. If T1~{T2} or ~{T1}T2 is active, the signal goes high immediately when the "
 	"reset gets deasserted without the 31.25 ms delay.";
 
 wire alyp:ctl
-	alyp.q -> afar.in2
+	alyp.y -> afar.in2
 	@-57.65,160.83,-58.26,160.83,-58.26,160.32,-57.63,160.32;
 
 wire adar:clk
-	adar.q -> afas.in1
+	adar.y -> afas.in1
 	@-57.64,161.34,-58.77,161.34,-58.77,152.11,-57.63,152.11;
 
 wire adyk:clk
@@ -217,10 +217,10 @@ wire adyk_p5n5_drain_poly:clk
 	"Dead end, which is connected to a polysilicon wire inside of ADYK, which is driven by the drain of "
 	"transistor pair P5/N5.";
 
-# akut.q is not connected
+# akut.y is not connected
 
 wire arov:clk
-	arov.q -> agut.in1 bate.in2 bapy.in2
+	arov.y -> agut.in1 bate.in2 bapy.in2
 	@-56.14,164.08,-55.70,164.08,-55.70,161.00,-60.44,161.00
 	@-57.63,154.34,-58.94,154.34,-58.95,166.30,-60.46,166.30;
 
@@ -237,10 +237,10 @@ wire apuk_p5n5_drain_poly:clk
 	"Dead end, which is connected to a polysilicon wire inside of APUK, which is driven by the drain of "
 	"transistor pair P5/N5.";
 
-# adap.q is not connected
+# adap.y is not connected
 
 wire afep:clk
-	afep.q -> buto.in1 bugo.in
+	afep.y -> buto.in1 bugo.in
 	@-57.63,166.82,-59.12,166.82,-59.12,160.48,-59.10,153.48,-60.42,153.48
 	@-59.12,160.48,-60.42,160.48;
 
@@ -256,10 +256,10 @@ wire alef_p5n5_drain_poly:clk
 	"Dead end, which is connected to a polysilicon wire inside of ALEF, which is driven by the drain of "
 	"transistor pair P5/N5.";
 
-# aced.q is not connected
+# aced.y is not connected
 
 wire atyp:clk
-	atyp.q -> afas.in2 ajax.in buto.in2 bapy.in3 belu.in1
+	atyp.y -> afas.in2 ajax.in buto.in2 bapy.in3 belu.in1
 	@-57.65,169.56,-59.29,169.56
 	@-57.64,152.29,-58.09,152.29,-58.09,152.80,-59.27,152.80,-59.27,155.19,-59.29,166.48,-59.29,171.42,-60.46,171.42
 	@-59.27,153.66,-60.41,153.66
@@ -279,17 +279,17 @@ wire afur_p5n5_drain_poly:clk
 	"Dead end, which is connected to a polysilicon wire inside of AFUR, which is driven by the drain of "
 	"transistor pair P5/N5.";
 
-# azym.q is not connected
+# azym.y is not connected
 
 wire adeh:clk
-	adeh.q -> adyk.ena apuk.~ena alef.ena afur.~ena
+	adeh.y -> adyk.ena apuk.~ena alef.ena afur.~ena
 	@-56.17,172.29,-55.19,172.29,-55.19,162.03,-56.16,162.03
 	@-55.19,164.42,-56.17,164.42
 	@-55.19,167.50,-56.15,167.50
 	@-55.19,169.90,-56.17,169.90;
 
 wire atal_4mhz:clk
-	atal.q -> adyk.~ena apuk.ena alef.~ena afur.ena adeh.in azof.in
+	atal.y -> adyk.~ena apuk.ena alef.~ena afur.ena adeh.in azof.in
 	@-57.65,172.80,-58.44,172.80
 	@-57.63,161.69,-58.44,161.69,-58.44,174.33,-57.66,174.33
 	@-58.44,164.77,-57.63,164.77
@@ -298,20 +298,20 @@ wire atal_4mhz:clk
 	@-58.44,172.11,-57.63,172.11;
 
 wire anos:clk
-	anos.q -> avet.in1
+	anos.y -> avet.in1
 	@-57.65,173.31,-58.10,173.31,-58.10,173.48,-57.63,173.48;
 
 wire avet:clk
-	avet.q -> atal.in anos.in2
+	avet.y -> atal.in anos.in2
 	@-56.17,173.82,-55.73,173.82,-55.73,172.45,-56.19,172.45
 	@-55.73,173.14,-56.17,173.14;
 
 wire arys:clk
-	arys.q -> avet.in2
+	arys.y -> avet.in2
 	@-57.67,174.17,-58.10,174.17,-58.10,173.65,-57.63,173.65;
 
 wire azof:clk
-	azof.q -> zaxy.in atag.in
+	azof.y -> zaxy.in atag.in
 	@-131.86,130.63,-131.86,132.58,-131.13,132.58,-131.13,134.06,-120.76,134.08,-120.77,145.88
 	@-109.19,183.78,-109.19,181.70,-110.71,181.70,-110.71,181.02,-111.94,181.02,-111.90,145.88,-121.12,145.88,
 	 -121.12,146.77,-64.04,146.80,-64.04,149.03,-63.87,149.03,-63.89,168.01,-63.38,168.01,-63.38,169.69,

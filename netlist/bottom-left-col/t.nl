@@ -1,99 +1,99 @@
 # Cells in column T in bottom left corner
 # ---------------------------------------
 
-cell teke:dffr_b2     rot0 @-126.04,53.38,-123.16,55.42      ->ppu-window;
-cell tate:dffr_b2     rot0 @-128.95,53.38,-126.04,55.41      ->ppu-window;
-cell tyce:inv_a       rot0 @-129.30,53.38,-128.95,55.42      ->ppu-bgfifo;
-cell tozo:dffr_b2     rot0 @-132.20,53.37,-129.30,55.43      ->ppu-window;
-cell taxa:dffr_b2     rot0 @-135.10,53.37,-132.19,55.41      ->ppu-window;
-cell tufu:dffr_b2     rot0 @-138.02,53.37,-135.10,55.44      ->ppu-window;
-cell taca:dffsr       rot0 @-141.79,53.36,-138.01,55.43      ->ppu-bgfifo;
-cell texy:inv_b       rot0 @-142.30,53.36,-141.77,55.44      ->ppu-ycomp;
-cell tobo:tri_inv_if1 rot0 @-143.33,53.34,-142.29,55.43      ->ppu-bgfifo;
-cell tuxe:nand2       rot0 @-143.83,53.36,-143.31,55.42      ->ppu-bgfifo;
-cell tosa:inv_a       rot0 @-144.16,53.35,-143.82,55.42      ->ppu-bgfifo;
-cell tomy:dffsr       rot0 @-147.94,53.37,-144.16,55.41      ->ppu-bgfifo;
-cell taka:nand_latch  rot0 @-148.96,53.35,-147.93,55.42      ->ppu-ycomp;
-cell teky:and4        rot0 @-149.98,53.35,-148.95,55.41      ->ppu-ycomp;
-cell tava:inv_a       rot0 @-150.33,53.36,-149.98,55.41      ->ppu-ycomp;
-cell tego:inv_b       rot0 @-150.84,53.34,-150.32,55.41      ->ppu-decode;
-cell tuku:inv_a       rot0 @-151.19,53.34,-150.84,55.42      ->ppu-ycomp;
-cell tave:inv_a       rot0 @-151.52,53.35,-151.18,55.41      ->ppu-cycles;
-cell tevo:or3         rot0 @-152.38,53.35,-151.52,55.41      ->ppu-cycles;
-cell tade:and2        rot0 @-153.05,53.36,-152.36,55.41      ->ppu-mux;
-cell tyfa:and3        rot0 @-153.92,53.34,-153.05,55.40      ->ppu-cycles;
-cell tobu:dffr_b2     rot0 @-156.81,53.35,-153.89,55.41      ->ppu-ycomp;
-cell toba:and2        rot0 @-157.49,53.34,-156.80,55.41      ->ppu-cycles;
-cell tomu:inv_a       rot0 @-157.83,53.34,-157.48,55.41      ->ppu-cycles;
-cell tuxy:nand2       rot0 @-158.53,53.34,-158.01,55.41      ->ppu-cycles;
-cell taru:and2        rot0 @-159.21,53.34,-158.52,55.41      ->ppu-stat;
-cell tady:nor2        rot0 @-159.73,53.35,-159.20,55.40      ->ppu-stat;
-cell tuva:inv_a       rot0 @-160.07,53.34,-159.72,55.41      ->ppu-stat;
-cell toca:inv_a       rot0 @-160.41,53.34,-160.06,55.41      ->ppu-stat;
-cell tuhu:dffr_b2     rot0 @-163.32,53.34,-160.41,55.41      ->ppu-stat;
-cell tako:dffr_b2     rot0 @-166.21,53.34,-163.30,55.40      ->ppu-stat;
-cell tuky:dffr_b2     rot0 @-169.13,53.35,-166.20,55.41      ->ppu-stat;
-cell tyge:xor         rot0 @-170.32,53.34,-169.29,55.41      ->ppu-stat;
-cell tyba:and2        rot0 @-171.01,53.34,-170.31,55.40      ->ppu-stat;
-cell tyno:nand3       rot0 @-171.69,53.35,-171.00,55.40      ->ppu-ycomp;
-cell tese:dffr_b2     rot0 @-175.10,53.35,-172.20,55.39      ->ppu-ycomp;
-cell tuly:dffr_b2     rot0 @-178.36,53.34,-175.44,55.41      ->ppu-ycomp;
-cell toxe:dffr_b2     rot0 @-181.27,53.34,-178.34,55.39      ->ppu-ycomp;
-cell tofu:inv_a       rot0 @-181.61,53.34,-181.27,55.40      ->ppu-cycles;
-cell tyde:xor         rot0 @-182.63,53.34,-181.60,55.40      ->ppu-stat;
-cell tame:nand2       rot0 @-183.15,53.34,-182.63,55.39      ->ppu-ycomp;
-cell tuvo:nor3        rot0 @-183.82,53.34,-183.13,55.41      ->ppu-ycomp;
-cell tyku:xor         rot0 @-185.02,53.34,-183.99,55.39      ->ppu-stat;
-cell tery:xor         rot0 @-186.04,53.34,-185.01,55.38      ->ppu-stat;
-cell tucy:xor         rot0 @-187.07,53.34,-186.03,55.38      ->ppu-stat;
-cell tyfo:dffr_b2     rot0 @-189.98,53.34,-187.06,55.39      ->ppu-ycomp;
-cell tapa:and2        rot0 @-190.65,53.34,-189.97,55.38      ->ppu-stat;
-cell tolu:inv_a       rot0 @-190.99,53.34,-190.66,55.39      ->ppu-stat;
-cell tobe:and2        rot0 @-191.69,53.34,-190.99,55.39      ->ppu-stat;
-cell tepa:inv_a       rot0 @-192.02,53.34,-191.67,55.38      ->ppu-ycomp;
-cell tytu:inv_a       rot0 @-192.38,53.34,-192.02,55.38      ->ppu-ycomp;
-cell tacu:nand2       rot0 @-192.89,53.34,-192.35,55.38      ->ppu-ycomp;
-cell tede:nand2       rot0 @-193.39,53.34,-192.88,55.39      ->ppu-xcomp;
-cell teby:tri_inv_if1 rot0 @-194.59,53.34,-193.56,55.38      ->ppu-stat;
-cell talu:inv_d       rot0 @-195.45,53.34,-194.58,55.38      ->ppu-lcd;
-cell tepo:inv_a       rot0 @-195.78,53.33,-195.43,55.38 comp ->ppu-pal;
-cell tyso:or2         rot0 @-196.46,53.34,-195.77,55.39      ->ppu-ycomp;
-cell tepy:inv_a       rot0 @-196.81,53.34,-196.46,55.38      ->ppu-pal;
-cell tuwu:nand2       rot0 @-197.31,53.34,-196.80,55.38      ->ppu-xcomp;
-cell tyko:nand2       rot0 @-197.83,53.34,-197.32,55.39      ->ppu-xcomp;
-cell topu:and2        rot0 @-198.52,53.34,-197.82,55.38      ->ppu-ycomp;
-cell teso:nand2       rot0 @-199.03,53.34,-198.51,55.38      ->ppu-objfifo;
-cell tula:nand2       rot0 @-199.54,53.34,-199.02,55.38      ->ppu-objfifo;
-cell tory:or3         rot0 @-200.40,53.32,-199.54,55.39      ->ppu-xcomp;
-cell taby:nand2       rot0 @-200.90,53.33,-200.40,55.39      ->ppu-objfifo;
-cell tapo:nand2       rot0 @-201.43,53.34,-200.91,55.39      ->ppu-objfifo;
-cell tena:nand2       rot0 @-201.94,53.33,-201.41,55.38      ->ppu-xcomp;
-cell tafu:inv_a       rot0 @-202.29,53.30,-201.93,55.39      ->ppu-xcomp;
-cell tyco:inv_a       rot0 @-202.63,53.34,-202.27,55.39      ->ppu-xcomp;
-cell tuxa:nand2       rot0 @-203.14,53.34,-202.62,55.39      ->ppu-objfifo;
-cell tupe:nand2       rot0 @-203.65,53.33,-203.13,55.40      ->ppu-objfifo;
-cell tujy:inv_b       rot0 @-204.16,53.31,-203.65,55.38      ->ppu-vram;
-cell tajo:inv_a       rot0 @-204.50,53.33,-204.16,55.39      ->ppu-xcomp;
-cell tago:inv_b       rot0 @-205.01,53.32,-204.49,55.38      ->ppu-vram;
-cell totu:inv_a       rot0 @-205.35,53.34,-205.01,55.38      ->ppu-xcomp;
-cell tyra:nand2       rot0 @-205.86,53.34,-205.36,55.38      ->ppu-xcomp;
-cell tufo:nand2       rot0 @-206.37,53.32,-205.85,55.38      ->ppu-xcomp;
-cell typo:dffr_b2     rot0 @-209.29,53.33,-206.37,55.38      ->ppu-lcd;
-cell tyry:dffr_b2     rot0 @-212.20,53.33,-209.28,55.39      ->ppu-lcd;
-cell tyta:inv_a       rot0 @-212.55,53.31,-212.20,55.38      ->ppu-xcomp;
-cell tyga:nand2       rot0 @-213.05,53.32,-212.53,55.38      ->ppu-objfifo;
-cell tafa:nand2       rot0 @-213.55,53.33,-213.05,55.38      ->ppu-xcomp;
-cell taha:dffr_b2     rot0 @-216.46,53.32,-213.55,55.38      ->ppu-lcd;
-cell telu:dffr_b2     rot0 @-219.36,53.31,-216.46,55.38      ->ppu-lcd;
-cell tocu:inv_a       rot0 @-219.70,53.33,-219.37,55.38      ->ppu-lcd;
-cell tafy:inv_a       rot0 @-220.22,53.33,-219.88,55.38      ->ppu-lcd;
-cell tebo:nand7       rot0 @-221.59,53.32,-220.23,55.38      ->ppu-lcd;
-cell tegy:nand4       rot0 @-222.79,53.33,-221.93,55.38      ->ppu-lcd;
-cell tece:nand7       rot0 @-224.16,53.31,-222.79,55.38      ->ppu-lcd;
-cell tuju:inv_a       rot0 @-224.50,53.30,-224.16,55.38      ->ppu-lcd;
-cell tuda:inv_a       rot0 @-224.84,53.32,-224.49,55.38      ->ppu-lcd;
-cell tozu:nand7       rot0 @-226.20,53.32,-224.84,55.37      ->ppu-lcd;
-cell towa:nand2       rot0 @-226.70,53.30,-226.20,55.38      ->ppu-xcomp;
+cell teke:dffr       rot0 @-126.04,53.38,-123.16,55.42      ->ppu-window;
+cell tate:dffr       rot0 @-128.95,53.38,-126.04,55.41      ->ppu-window;
+cell tyce:not_x1     rot0 @-129.30,53.38,-128.95,55.42      ->ppu-bgfifo;
+cell tozo:dffr       rot0 @-132.20,53.37,-129.30,55.43      ->ppu-window;
+cell taxa:dffr       rot0 @-135.10,53.37,-132.19,55.41      ->ppu-window;
+cell tufu:dffr       rot0 @-138.02,53.37,-135.10,55.44      ->ppu-window;
+cell taca:dffsr      rot0 @-141.79,53.36,-138.01,55.43      ->ppu-bgfifo;
+cell texy:not_x2     rot0 @-142.30,53.36,-141.77,55.44      ->ppu-ycomp;
+cell tobo:not_if1    rot0 @-143.33,53.34,-142.29,55.43      ->ppu-bgfifo;
+cell tuxe:nand2      rot0 @-143.83,53.36,-143.31,55.42      ->ppu-bgfifo;
+cell tosa:not_x1     rot0 @-144.16,53.35,-143.82,55.42      ->ppu-bgfifo;
+cell tomy:dffsr      rot0 @-147.94,53.37,-144.16,55.41      ->ppu-bgfifo;
+cell taka:nand_latch rot0 @-148.96,53.35,-147.93,55.42      ->ppu-ycomp;
+cell teky:and4       rot0 @-149.98,53.35,-148.95,55.41      ->ppu-ycomp;
+cell tava:not_x1     rot0 @-150.33,53.36,-149.98,55.41      ->ppu-ycomp;
+cell tego:not_x2     rot0 @-150.84,53.34,-150.32,55.41      ->ppu-decode;
+cell tuku:not_x1     rot0 @-151.19,53.34,-150.84,55.42      ->ppu-ycomp;
+cell tave:not_x1     rot0 @-151.52,53.35,-151.18,55.41      ->ppu-cycles;
+cell tevo:or3        rot0 @-152.38,53.35,-151.52,55.41      ->ppu-cycles;
+cell tade:and2       rot0 @-153.05,53.36,-152.36,55.41      ->ppu-mux;
+cell tyfa:and3       rot0 @-153.92,53.34,-153.05,55.40      ->ppu-cycles;
+cell tobu:dffr       rot0 @-156.81,53.35,-153.89,55.41      ->ppu-ycomp;
+cell toba:and2       rot0 @-157.49,53.34,-156.80,55.41      ->ppu-cycles;
+cell tomu:not_x1     rot0 @-157.83,53.34,-157.48,55.41      ->ppu-cycles;
+cell tuxy:nand2      rot0 @-158.53,53.34,-158.01,55.41      ->ppu-cycles;
+cell taru:and2       rot0 @-159.21,53.34,-158.52,55.41      ->ppu-stat;
+cell tady:nor2       rot0 @-159.73,53.35,-159.20,55.40      ->ppu-stat;
+cell tuva:not_x1     rot0 @-160.07,53.34,-159.72,55.41      ->ppu-stat;
+cell toca:not_x1     rot0 @-160.41,53.34,-160.06,55.41      ->ppu-stat;
+cell tuhu:dffr       rot0 @-163.32,53.34,-160.41,55.41      ->ppu-stat;
+cell tako:dffr       rot0 @-166.21,53.34,-163.30,55.40      ->ppu-stat;
+cell tuky:dffr       rot0 @-169.13,53.35,-166.20,55.41      ->ppu-stat;
+cell tyge:xor        rot0 @-170.32,53.34,-169.29,55.41      ->ppu-stat;
+cell tyba:and2       rot0 @-171.01,53.34,-170.31,55.40      ->ppu-stat;
+cell tyno:nand3      rot0 @-171.69,53.35,-171.00,55.40      ->ppu-ycomp;
+cell tese:dffr       rot0 @-175.10,53.35,-172.20,55.39      ->ppu-ycomp;
+cell tuly:dffr       rot0 @-178.36,53.34,-175.44,55.41      ->ppu-ycomp;
+cell toxe:dffr       rot0 @-181.27,53.34,-178.34,55.39      ->ppu-ycomp;
+cell tofu:not_x1     rot0 @-181.61,53.34,-181.27,55.40      ->ppu-cycles;
+cell tyde:xor        rot0 @-182.63,53.34,-181.60,55.40      ->ppu-stat;
+cell tame:nand2      rot0 @-183.15,53.34,-182.63,55.39      ->ppu-ycomp;
+cell tuvo:nor3       rot0 @-183.82,53.34,-183.13,55.41      ->ppu-ycomp;
+cell tyku:xor        rot0 @-185.02,53.34,-183.99,55.39      ->ppu-stat;
+cell tery:xor        rot0 @-186.04,53.34,-185.01,55.38      ->ppu-stat;
+cell tucy:xor        rot0 @-187.07,53.34,-186.03,55.38      ->ppu-stat;
+cell tyfo:dffr       rot0 @-189.98,53.34,-187.06,55.39      ->ppu-ycomp;
+cell tapa:and2       rot0 @-190.65,53.34,-189.97,55.38      ->ppu-stat;
+cell tolu:not_x1     rot0 @-190.99,53.34,-190.66,55.39      ->ppu-stat;
+cell tobe:and2       rot0 @-191.69,53.34,-190.99,55.39      ->ppu-stat;
+cell tepa:not_x1     rot0 @-192.02,53.34,-191.67,55.38      ->ppu-ycomp;
+cell tytu:not_x1     rot0 @-192.38,53.34,-192.02,55.38      ->ppu-ycomp;
+cell tacu:nand2      rot0 @-192.89,53.34,-192.35,55.38      ->ppu-ycomp;
+cell tede:nand2      rot0 @-193.39,53.34,-192.88,55.39      ->ppu-xcomp;
+cell teby:not_if1    rot0 @-194.59,53.34,-193.56,55.38      ->ppu-stat;
+cell talu:not_x4     rot0 @-195.45,53.34,-194.58,55.38      ->ppu-lcd;
+cell tepo:not_x1     rot0 @-195.78,53.33,-195.43,55.38 comp ->ppu-pal;
+cell tyso:or2        rot0 @-196.46,53.34,-195.77,55.39      ->ppu-ycomp;
+cell tepy:not_x1     rot0 @-196.81,53.34,-196.46,55.38      ->ppu-pal;
+cell tuwu:nand2      rot0 @-197.31,53.34,-196.80,55.38      ->ppu-xcomp;
+cell tyko:nand2      rot0 @-197.83,53.34,-197.32,55.39      ->ppu-xcomp;
+cell topu:and2       rot0 @-198.52,53.34,-197.82,55.38      ->ppu-ycomp;
+cell teso:nand2      rot0 @-199.03,53.34,-198.51,55.38      ->ppu-objfifo;
+cell tula:nand2      rot0 @-199.54,53.34,-199.02,55.38      ->ppu-objfifo;
+cell tory:or3        rot0 @-200.40,53.32,-199.54,55.39      ->ppu-xcomp;
+cell taby:nand2      rot0 @-200.90,53.33,-200.40,55.39      ->ppu-objfifo;
+cell tapo:nand2      rot0 @-201.43,53.34,-200.91,55.39      ->ppu-objfifo;
+cell tena:nand2      rot0 @-201.94,53.33,-201.41,55.38      ->ppu-xcomp;
+cell tafu:not_x1     rot0 @-202.29,53.30,-201.93,55.39      ->ppu-xcomp;
+cell tyco:not_x1     rot0 @-202.63,53.34,-202.27,55.39      ->ppu-xcomp;
+cell tuxa:nand2      rot0 @-203.14,53.34,-202.62,55.39      ->ppu-objfifo;
+cell tupe:nand2      rot0 @-203.65,53.33,-203.13,55.40      ->ppu-objfifo;
+cell tujy:not_x2     rot0 @-204.16,53.31,-203.65,55.38      ->ppu-vram;
+cell tajo:not_x1     rot0 @-204.50,53.33,-204.16,55.39      ->ppu-xcomp;
+cell tago:not_x2     rot0 @-205.01,53.32,-204.49,55.38      ->ppu-vram;
+cell totu:not_x1     rot0 @-205.35,53.34,-205.01,55.38      ->ppu-xcomp;
+cell tyra:nand2      rot0 @-205.86,53.34,-205.36,55.38      ->ppu-xcomp;
+cell tufo:nand2      rot0 @-206.37,53.32,-205.85,55.38      ->ppu-xcomp;
+cell typo:dffr       rot0 @-209.29,53.33,-206.37,55.38      ->ppu-lcd;
+cell tyry:dffr       rot0 @-212.20,53.33,-209.28,55.39      ->ppu-lcd;
+cell tyta:not_x1     rot0 @-212.55,53.31,-212.20,55.38      ->ppu-xcomp;
+cell tyga:nand2      rot0 @-213.05,53.32,-212.53,55.38      ->ppu-objfifo;
+cell tafa:nand2      rot0 @-213.55,53.33,-213.05,55.38      ->ppu-xcomp;
+cell taha:dffr       rot0 @-216.46,53.32,-213.55,55.38      ->ppu-lcd;
+cell telu:dffr       rot0 @-219.36,53.31,-216.46,55.38      ->ppu-lcd;
+cell tocu:not_x1     rot0 @-219.70,53.33,-219.37,55.38      ->ppu-lcd;
+cell tafy:not_x1     rot0 @-220.22,53.33,-219.88,55.38      ->ppu-lcd;
+cell tebo:nand7      rot0 @-221.59,53.32,-220.23,55.38      ->ppu-lcd;
+cell tegy:nand4      rot0 @-222.79,53.33,-221.93,55.38      ->ppu-lcd;
+cell tece:nand7      rot0 @-224.16,53.31,-222.79,55.38      ->ppu-lcd;
+cell tuju:not_x1     rot0 @-224.50,53.30,-224.16,55.38      ->ppu-lcd;
+cell tuda:not_x1     rot0 @-224.84,53.32,-224.49,55.38      ->ppu-lcd;
+cell tozu:nand7      rot0 @-226.20,53.32,-224.84,55.37      ->ppu-lcd;
+cell towa:nand2      rot0 @-226.70,53.30,-226.20,55.38      ->ppu-xcomp;
 
 
 # Wires originating from column T in bottom left corner
@@ -117,7 +117,7 @@ wire ~tate:adr
 	@-127.16,57.42,-127.16,55.15;
 
 wire tyce:data
-	tyce.q -> sure.in1
+	tyce.y -> sure.in1
 	@-129.22,53.64,-129.22,53.06,-128.18,53.06,-128.18,50.86;
 
 wire tozo:adr
@@ -154,7 +154,7 @@ wire taca:data
 # taca.~q is not connected
 
 wire sp_bp_cys:ctl
-	texy.q -> sutu.in3 soho.in2 xono.in2 abon.in
+	texy.y -> sutu.in3 soho.in2 xono.in2 abon.in
 	@-111.59,31.26,-111.59,33.46,-113.81,33.46,-113.81,33.63,-120.14,33.63,-120.16,62.59
 	@-140.67,57.67,-122.89,57.67,-122.55,57.67,-122.55,62.59,-119.83,62.59,-119.84,79.15,-159.51,79.14,
 	 -159.51,82.68,-172.67,82.67,-172.67,83.93
@@ -162,12 +162,12 @@ wire sp_bp_cys:ctl
 	@-122.89,57.67,-122.89,53.20,-123.39,53.20,-123.39,50.86;
 
 wire tuxe:data
-	tuxe.q -> tomy.~s
+	tuxe.y -> tomy.~s
 	@-143.74,55.14,-143.74,57.42,-144.25,57.42,-144.25,55.14
 	@-144.25,57.25,-146.48,57.25,-146.48,55.12;
 
 wire tosa:data
-	tosa.q -> seja.in1
+	tosa.y -> seja.in1
 	@-144.09,53.62,-144.09,52.88,-144.93,52.88,-144.93,50.86;
 
 wire tomy:data
@@ -183,41 +183,41 @@ wire taka:data
 # taka.~q is not connected
 
 wire teky:ctl
-	teky.q -> sobu.d
+	teky.y -> sobu.d
 	@-149.91,53.63,-149.91,51.86,-150.58,51.86,-150.58,50.88;
 
 wire clk5:clk
-	tava.q -> sobu.clk tobu.clk vonu.clk
+	tava.y -> sobu.clk tobu.clk vonu.clk
 	@-150.24,53.62,-150.24,53.06
 	@-149.73,50.86,-149.73,53.06,-154.18,53.06,-154.18,57.67,-154.34,57.67,-154.34,58.48;
 
 wire ff49:dec
-	tego.q -> mumy.in2 myxe.in2
+	tego.y -> mumy.in2 myxe.in2
 	@-150.75,53.63,-150.75,52.16,-151.27,52.16,-151.27,47.63,-150.74,47.63,-150.74,42.91,-151.08,42.91,-151.08,38.01,
 	 -151.42,38.01,-151.42,31.52
 	@-151.42,33.56,-152.10,33.56,-152.10,31.55;
 
 wire tuku:ctl
-	tuku.q -> teky.in2
+	tuku.y -> teky.in2
 	@-151.10,53.64,-151.10,52.33,-149.21,52.33,-149.21,53.65;
 
 wire tave:ctl
-	tave.q -> tevo.in3 veku.in2
+	tave.y -> tevo.in3 veku.in2
 	@-151.44,55.13,-151.44,56.69
 	@-151.95,55.13,-151.95,56.69,-150.24,56.69,-150.24,58.48;
 
 wire tevo:ctl
-	tevo.q -> nyxu.in3 paso.in2 vetu.in1
+	tevo.y -> nyxu.in3 paso.in2 vetu.in1
 	@-152.96,37.70,-152.96,42.91,-152.45,42.91,-152.45,51.62,-152.29,51.62,-152.29,61.33,-141.36,61.33,-141.36,59.97
 	@-152.79,36.10,-152.79,37.70,-157.22,37.70,-157.22,38.97;
 
 wire tade:data
-	tade.q -> ruta.in1 vyco.in
+	tade.y -> ruta.in1 vyco.in
 	@-152.98,55.13,-152.98,58.05,-154.50,58.05,-154.50,52.09,-154.69,52.09,-154.69,45.85,-184.25,45.84,-184.25,45.27
 	@-154.50,57.67,-165.45,57.66,-165.45,58.49;
 
 wire tyfa:clk
-	tyfa.q -> segu.in
+	tyfa.y -> segu.in
 	@-153.84,53.63,-153.84,51.95,-156.56,51.95,-156.56,50.86;
 
 wire tobu:ctl
@@ -227,24 +227,24 @@ wire tobu:ctl
 # tobu.~q is not connected
 
 wire toba:clk
-	toba.q -> semu.in1
+	toba.y -> semu.in1
 	@-157.41,53.62,-157.41,50.86;
 
 wire tomu:ctl
-	tomu.q -> socy.in tuku.in
+	tomu.y -> socy.in tuku.in
 	@-157.75,53.63,-157.75,52.33,-154.17,52.33,-154.17,50.85
 	@-154.17,51.73,-150.92,51.73,-150.92,53.63;
 
 wire tuxy:ctl
-	tuxy.q -> suzu.in
+	tuxy.y -> suzu.in
 	@-158.45,53.63,-158.45,51.81,-154.51,51.81,-154.51,50.85;
 
 wire mode0:ctl
-	taru.q -> suko.in8
+	taru.y -> suko.in8
 	@-159.13,53.63,-159.13,51.68,-191.59,51.67,-191.59,50.82;
 
 wire ~h_reset:ctl
-	tady.q -> sybe.~r savy.~r tuhu.~r tako.~r tuky.~r voga.~r xeho.~r xydo.~r xodu.~r
+	tady.y -> sybe.~r savy.~r tuhu.~r tako.~r tuky.~r voga.~r xeho.~r xydo.~r xodu.~r
 	@-151.45,59.99,-151.45,62.52,-152.64,62.52,-152.64,56.68,-159.64,56.68,-159.64,53.05,-167.15,53.05
 	@-151.96,62.52,-151.96,68.16
 	@-151.79,69.37,-151.79,68.16,-152.99,68.16
@@ -262,11 +262,11 @@ wire ~h_reset:ctl
 	@-168.35,53.63,-168.35,52.33,-173.83,52.33,-173.83,48.65,-175.02,48.65,-175.02,49.35;
 
 wire tuva:ctl
-	tuva.q -> voty.in
+	tuva.y -> voty.in
 	@-159.99,55.13,-159.99,56.81,-124.43,56.83,-124.43,58.50;
 
 wire toca:data
-	toca.q -> sybe.clk tuhu.clk tako.clk tuky.clk
+	toca.y -> sybe.clk tuhu.clk tako.clk tuky.clk
 	@-160.33,55.13,-160.33,58.05,-160.66,58.05,-160.66,52.50,-166.47,52.50,-166.47,53.63
 	@-163.57,52.50,-163.57,53.62
 	@-165.44,52.50,-165.44,50.85;
@@ -304,15 +304,15 @@ wire h5:data
 # tuky.~q is not connected
 
 wire tyge:data
-	tyge.q -> tako.d
+	tyge.y -> tako.d
 	@-169.38,55.12,-169.38,56.09,-164.42,56.09,-164.42,55.13;
 
 wire tyba:data
-	tyba.q -> sury.in1 tyge.in2
+	tyba.y -> sury.in1 tyge.in2
 	@-170.93,55.13,-170.93,56.60,-169.72,56.60,-169.72,52.49,-168.18,52.49,-168.18,50.85;
 
 wire tyno:ctl
-	tyno.q -> vusa.in2
+	tyno.y -> vusa.in2
 	@-171.61,55.13,-171.61,57.78,-170.58,57.78,-170.58,58.50;
 
 wire tese:ctl
@@ -348,34 +348,34 @@ wire ~toxe:clk
 	@-179.46,55.70,-175.70,55.70,-175.70,55.13;
 
 wire h_reset:ctl
-	tofu.q -> ruju.in2 tady.in2 wego.in1
+	tofu.y -> ruju.in2 tady.in2 wego.in1
 	@-181.52,53.61,-181.52,52.91,-159.47,52.93,-159.47,53.62
 	@-180.83,52.91,-180.83,46.43,-181.51,46.43,-181.51,45.26
 	@-159.47,53.06,-155.70,53.06,-155.70,61.33,-155.03,61.33,-155.03,63.11;
 
 wire tyde:data
-	tyde.q -> subo.in3
+	tyde.y -> subo.in3
 	@-181.69,53.62,-181.69,52.19,-183.57,52.19,-183.57,50.84;
 
 wire tame:ctl
-	tame.q -> sabe.in2
+	tame.y -> sabe.in2
 	@-183.06,53.63,-183.06,52.92,-182.89,52.92,-182.89,50.83;
 
 wire tuvo:ctl
-	tuvo.q -> vape.in2 wefy.in1
+	tuvo.y -> vape.in2 wefy.in1
 	@-183.74,55.13,-183.74,56.85,-181.35,56.85,-181.35,61.92,-157.26,61.92,-157.26,59.97
 	@-180.00,61.92,-180.00,63.09;
 
 wire tyku:data
-	tyku.q -> sovu.in4
+	tyku.y -> sovu.in4
 	@-184.08,53.63,-184.08,52.74,-185.95,52.74,-185.95,50.85;
 
 wire tery:data
-	tery.q -> sovu.in2
+	tery.y -> sovu.in2
 	@-185.11,53.62,-185.11,53.17,-185.61,53.17,-185.61,50.84;
 
 wire tucy:data
-	tucy.q -> sovu.in3
+	tucy.y -> sovu.in3
 	@-186.13,53.62,-186.13,53.17,-185.78,53.17,-185.78,50.85;
 
 wire tyfo:ctl
@@ -388,49 +388,49 @@ wire ~tyfo:ctl
 	@-180.16,62.64,-170.42,62.64,-170.42,59.99;
 
 wire int_oam:ctl
-	tapa.q -> suko.in4
+	tapa.y -> suko.in4
 	@-190.58,53.62,-190.58,50.84;
 
 wire tolu:ctl
-	tolu.q -> taru.in2 tapa.in1 vypu.in
+	tolu.y -> taru.in2 tapa.in1 vypu.in
 	@-190.92,55.12,-190.92,57.52,-190.06,57.52,-158.78,57.54
 	@-190.06,57.52,-190.06,55.13
 	@-158.78,55.13,-158.78,57.79,-123.74,57.80,-123.74,58.52;
 
 wire tobe:ctl
-	tobe.q -> sego.ena teby.ena vave.in wuga.ena
+	tobe.y -> sego.ena teby.ena vave.in wuga.ena
 	@-191.60,53.59,-191.60,53.17,-193.65,53.17
 	@-194.50,50.84,-194.50,52.02,-193.65,52.02,-193.65,57.53,-193.82,57.53,-193.82,62.08,-191.61,62.08,-191.61,63.09;
 
 wire tepa:ctl
-	tepa.q -> sycu.in2 tuvo.in1 tyso.in2
+	tepa.y -> sycu.in2 tuvo.in1 tyso.in2
 	@-191.95,53.61,-191.95,52.87,-183.23,52.88,-183.23,53.63
 	@-191.95,52.91,-192.97,52.91,-192.97,50.84
 	@-192.97,52.44,-196.04,52.44,-196.04,53.61;
 
 wire tytu:ctl
-	tytu.q -> sycu.in1 tacu.in1
+	tytu.y -> sycu.in1 tacu.in1
 	@-192.28,53.61,-192.28,52.44,-192.80,52.44,-192.80,50.84
 	@-192.45,52.44,-192.45,53.62;
 
 wire tacu:ctl
-	tacu.q -> soho.in1 vape.in1
+	tacu.y -> soho.in1 vape.in1
 	@-192.80,55.11,-192.80,57.40,-157.08,57.41,-157.08,58.48
 	@-157.08,57.53,-123.74,57.55,-123.74,53.07,-123.23,53.07,-123.23,50.87;
 
 wire tede:data
-	tede.q -> vezo.~s
+	tede.y -> vezo.~s
 	@-193.31,55.11,-193.31,56.54,-191.77,56.54,-191.77,61.27,-189.55,61.27,-189.55,59.96;
 
 wire hclk:clk
-	talu.q -> nype.clk ropo.clk sary.clk sono.in saxo.clk
+	talu.y -> nype.clk ropo.clk sary.clk sono.in saxo.clk
 	@-195.37,53.60,-195.37,53.04,-187.15,53.04,-187.15,50.84
 	@-195.19,53.04,-195.19,48.64,-206.29,48.64
 	@-195.86,48.64,-195.86,42.21,-195.34,42.21,-195.34,37.30,-193.80,37.30,-193.80,36.08
 	@-206.29,49.34,-206.29,48.20,-206.80,48.20,-206.80,49.34;
 
 wire tepo:ctl
-	tepo.q -> lyfa.in maxy.~ena muke.~ena mena.~ena moru.~ena mogy.~ena nusy.~ena pavo.~ena pylu.~ena
+	tepo.y -> lyfa.in maxy.~ena muke.~ena mena.~ena moru.~ena mogy.~ena nusy.~ena pavo.~ena pylu.~ena
 	@-195.70,53.61,-195.70,52.70,-200.14,52.70,-200.14,46.81,-199.96,46.81,-199.96,42.20,-199.45,42.20,-199.45,33.71,
 	 -197.73,33.71,-197.73,31.51
 	@-199.45,37.69,-201.50,37.69,-201.50,38.94
@@ -440,11 +440,11 @@ wire tepo:ctl
 	@-194.66,32.52,-194.66,31.52;
 
 wire tyso:ctl
-	tyso.q -> texy.in
+	tyso.y -> texy.in
 	@-196.38,55.11,-196.38,55.94,-141.87,55.97,-141.87,55.13;
 
 wire tepy:ctl
-	tepy.q -> lobe.~ena lace.~ena lary.~ena lyka.~ena lody.~ena paba.~ena raro.~ena redo.~ena
+	tepy.y -> lobe.~ena lace.~ena lary.~ena lyka.~ena lody.~ena paba.~ena raro.~ena redo.~ena
 	@-196.73,53.61,-196.73,52.44,-197.23,52.44,-197.23,46.93,-200.65,46.93
 	@-203.38,45.25,-203.38,47.36,-200.65,47.36,-200.65,42.34,-198.42,42.34,-198.42,38.11,-198.76,38.11,-198.76,33.42,-198.58,33.42,-198.58,28.17,-192.25,28.17
 	@-198.58,28.22,-199.95,28.22,-199.95,26.95
@@ -453,51 +453,51 @@ wire tepy:ctl
 	@-192.25,26.96,-192.25,28.47,-190.72,28.47,-190.72,26.97;
 
 wire tuwu:data
-	tuwu.q -> vava.~s
+	tuwu.y -> vava.~s
 	@-197.23,55.10,-197.23,57.26,-184.25,57.28,-182.02,57.28,-182.02,58.48
 	@-184.25,57.28,-184.25,58.48;
 
 wire tyko:data
-	tyko.q -> vumo.~s
+	tyko.y -> vumo.~s
 	@-197.76,55.12,-197.76,57.77,-188.02,57.78,-185.79,57.78,-185.79,58.48
 	@-188.02,57.78,-188.02,58.49;
 
 wire topu:ctl
-	topu.q -> vywa.in
+	topu.y -> vywa.in
 	@-198.44,55.11,-198.44,56.45,-226.13,56.43,-226.13,58.47;
 
 wire teso:data
-	teso.q -> vupy.~s
+	teso.y -> vupy.~s
 	@-198.95,55.11,-198.95,57.52,-194.16,57.52,-194.16,58.49
 	@-196.38,57.52,-196.38,58.47;
 
 wire tula:data
-	tula.q -> vupy.~r
+	tula.y -> vupy.~r
 	@-199.47,55.10,-199.47,57.65,-196.90,57.65,-196.90,58.46;
 
 wire tory:data
-	tory.q -> soka.in
+	tory.y -> soka.in
 	@-200.32,53.61,-200.32,52.86,-202.88,52.86,-202.88,50.84;
 
 wire taby:data
-	taby.q -> vanu.~r
+	taby.y -> vanu.~r
 	@-200.83,55.12,-200.83,56.32,-201.17,56.32,-201.17,58.48;
 
 wire tapo:data
-	tapo.q -> vanu.~s
+	tapo.y -> vanu.~s
 	@-201.35,55.11,-201.35,56.84,-198.44,56.84,-198.44,58.48
 	@-200.66,56.84,-200.66,58.47;
 
 wire tena:data
-	tena.q -> vumo.~r
+	tena.y -> vumo.~r
 	@-201.86,55.10,-201.86,57.09,-188.52,57.09,-188.52,58.49;
 
 wire tafu:data
-	tafu.q -> tena.in1
+	tafu.y -> tena.in1
 	@-202.20,53.61,-202.20,52.73,-201.52,52.73,-201.52,53.62;
 
 wire sprite_on5:data
-	tyco.q -> mene.in2 pazo.in2 vume.in2 vaby.in2 wuja.in2 xely.in2 xole.in2 xexu.in2
+	tyco.y -> mene.in2 pazo.in2 vume.in2 vaby.in2 wuja.in2 xely.in2 xole.in2 xexu.in2
 	@-200.98,31.52,-200.98,33.25,-201.15,33.25,-201.15,41.91,-202.52,41.91,-202.52,47.24,-202.36,47.24,-202.36,52.74,
 	 -202.55,52.74,-202.55,57.77
 	@-203.23,58.47,-203.23,57.77,-198.10,57.77,-198.10,62.20,-193.32,62.20,-193.32,67.08,-196.22,67.08,-196.22,69.35
@@ -505,39 +505,39 @@ wire sprite_on5:data
 	@-196.22,68.91,-203.24,68.91,-203.24,69.35;
 
 wire tuxa:data
-	tuxa.q -> vafo.~s
+	tuxa.y -> vafo.~s
 	@-203.06,55.10,-203.06,57.09,-203.56,57.09,-203.56,58.48
 	@-203.56,57.48,-205.79,57.48,-205.79,58.47;
 
 wire tupe:data
-	tupe.q -> vafo.~r
+	tupe.y -> vafo.~r
 	@-203.57,55.10,-203.57,56.93,-206.30,56.93,-206.30,58.48;
 
 wire tujy:adr
-	tujy.q -> ma8.~o
+	tujy.y -> ma8.~o
 	@-204.08,53.61,-204.08,53.16,-228.64,53.14,-228.64,54.69,-233.29,54.69,-233.32,91.39,-236.52,91.39,-236.52,88.30,
 	 -236.84,88.30;
 
 wire tajo:data
-	tajo.q -> tufo.in1
+	tajo.y -> tufo.in1
 	@-204.42,53.59,-204.42,52.90,-205.95,52.90,-205.95,53.59;
 
 wire tago:adr
-	tago.q -> ma9.~o
+	tago.y -> ma9.~o
 	@-204.94,55.11,-204.94,57.86,-228.64,57.84,-228.64,55.60,-229.30,55.60,-229.33,81.82,-236.52,81.81,-236.52,78.28,
 	 -236.83,78.28;
 
 wire totu:data
-	totu.q -> tafa.in1
+	totu.y -> tafa.in1
 	@-205.28,53.61,-205.28,52.66,-213.13,52.66,-213.13,53.61;
 
 wire tyra:data
-	tyra.q -> vosa.~s
+	tyra.y -> vosa.~s
 	@-205.78,55.10,-205.78,57.09,-207.32,57.09,-207.32,58.48
 	@-207.32,58.02,-209.55,58.02,-209.55,58.47;
 
 wire tufo:data
-	tufo.q -> vosa.~r
+	tufo.y -> vosa.~r
 	@-206.30,55.10,-206.30,56.74,-210.06,56.74,-210.06,58.47;
 
 wire lcd_x1:data
@@ -561,7 +561,7 @@ wire ~tyry:clk
 	@-211.94,55.11,-211.94,58.02,-210.40,58.02,-210.40,55.11;
 
 wire sprite_on4:data
-	tyta.q -> rudu.in2 rora.in2 tyga.in2 vexu.in2 waxo.in2 wedy.in2 xato.in2 xuku.in2
+	tyta.y -> rudu.in2 rora.in2 tyga.in2 vexu.in2 waxo.in2 wedy.in2 xato.in2 xuku.in2
 	@-212.46,55.09,-212.46,57.34
 	@-218.59,45.24,-218.59,47.64,-215.01,47.64,-215.01,52.77,-212.80,52.77,-212.80,57.34,-211.26,57.34,-211.26,62.32,
 	 -212.30,62.32,-212.30,68.89
@@ -570,12 +570,12 @@ wire sprite_on4:data
 	@-221.52,69.34,-221.52,67.91,-222.04,67.91,-222.04,64.56;
 
 wire tyga:data
-	tyga.q -> vare.~s
+	tyga.y -> vare.~s
 	@-212.97,55.11,-212.97,58.02,-212.79,58.02,-212.79,58.47
 	@-212.97,56.83,-215.02,56.83,-215.02,58.48;
 
 wire tafa:data
-	tafa.q -> sata.~r
+	tafa.y -> sata.~r
 	@-213.48,53.60,-213.48,52.00,-217.40,52.00,-217.40,50.81;
 
 wire lcd_x5:data
@@ -599,42 +599,42 @@ wire ~telu:clk
 	@-218.59,52.38,-217.57,52.38,-217.57,53.60;
 
 wire tocu:data
-	tocu.q -> voku.in7
+	tocu.y -> voku.in7
 	@-219.63,55.09,-219.63,56.87,-223.56,56.87,-223.56,58.46;
 
 wire tafy:data
-	tafy.q -> tebo.in2 tozu.in2 voku.in2
+	tafy.y -> tebo.in2 tozu.in2 voku.in2
 	@-220.13,55.11,-220.13,57.34,-222.71,57.34,-222.71,58.47
 	@-220.48,57.34,-220.48,55.10
 	@-222.71,58.02,-225.10,58.02,-225.10,55.10;
 
 wire tebo:ctl
-	tebo.q -> tegy.in4
+	tebo.y -> tegy.in4
 	@-221.51,53.59,-221.51,52.34,-222.54,52.34,-222.54,53.60;
 
 wire tegy:ctl
-	tegy.q -> sygu.d
+	tegy.y -> sygu.d
 	@-222.71,53.59,-222.71,52.89,-211.08,52.90,-211.08,50.83;
 
 wire tece:ctl
-	tece.q -> tegy.in3
+	tece.y -> tegy.in3
 	@-224.08,53.60,-224.08,52.77,-222.36,52.77,-222.36,53.61;
 
 wire tuju:data
-	tuju.q -> tece.in1 tozu.in1 voku.in1
+	tuju.y -> tece.in1 tozu.in1 voku.in1
 	@-224.42,55.10,-224.42,57.12
 	@-224.93,55.09,-224.93,57.12,-222.88,57.12
 	@-222.88,55.09,-222.88,57.16,-222.53,57.16,-222.53,58.46;
 
 wire tuda:data
-	tuda.q -> tece.in3 tozu.in3 voku.in3
+	tuda.y -> tece.in3 tozu.in3 voku.in3
 	@-224.76,53.59,-224.76,52.89
 	@-225.27,53.60,-225.27,52.89,-223.22,52.89,-223.22,57.34,-222.88,57.34,-222.88,58.47;
 
 wire tozu:ctl
-	tozu.q -> tegy.in2
+	tozu.y -> tegy.in2
 	@-226.13,53.60,-226.13,53.02,-222.20,53.02,-222.20,53.63;
 
 wire towa:data
-	towa.q -> somy.~r
+	towa.y -> somy.~r
 	@-226.63,53.59,-226.63,52.84,-226.13,52.84,-226.13,50.83;

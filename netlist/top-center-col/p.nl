@@ -1,59 +1,59 @@
 # Cells in column P in top center
 # -------------------------------
 
-cell pevo:inv_a       rot0,flip @-60.16,124.02,-59.81,126.09         ->bus-adr;
-cell puhe:nand2       rot0,flip @-60.84,124.02,-60.33,126.09         ->bus-adr;
-cell pahy:nor2        rot0,flip @-61.35,124.03,-60.83,126.09         ->bus-adr;
-cell peru:tffd        rot0,flip @-64.77,124.00,-61.34,126.09         ->timer;
-cell povy:tffd        rot0,flip @-68.19,124.01,-64.76,126.08         ->timer;
-cell peda:tffd        rot0,flip @-71.79,124.00,-68.34,126.09         ->timer;
-cell pege:mux         rot0,flip @-72.78,124.01,-71.76,126.09         ->bus-adr;
-cell pyma:nor2        rot0,flip @-73.47,124.02,-72.96,126.08         ->timer;
-cell pagu:nor2        rot0,flip @-73.99,124.01,-73.46,126.06         ->timer;
-cell puxy:nor2        rot0,flip @-74.50,124.02,-73.98,126.07         ->timer;
-cell puso:tri_inv_if1 rot0,flip @-75.52,124.01,-74.48,126.07         ->timer;
-cell pyhu:nand3       rot0,flip @-76.21,124.01,-75.52,126.06         ->int;
-cell pyga:and3        rot0,flip @-77.07,124.02,-76.20,126.08         ->int;
-cell petu:muxi        rot0,flip @-77.92,123.99,-77.05,126.08         ->timer;
-cell puva:or2         rot0,flip @-78.62,124.00,-77.91,126.07         ->bus-data;
-cell pyre:tri_inv_if1 rot0,flip @-79.64,124.00,-78.59,126.08         ->timer;
-cell peto:dffr_b2     rot0,flip @-82.53,124.01,-79.63,126.08         ->timer;
-cell pado:tri_inv_if1 rot0,flip @-83.55,123.99,-82.51,126.08         ->int;
-cell pegy:tri_inv_if1 rot0,flip @-84.57,124.00,-83.54,126.07         ->int;
-cell pola:inv_a       rot0,flip @-84.92,124.01,-84.56,126.07         ->int;
-cell pavy:d_latch_b   rot0,flip @-86.63,124.00,-84.91,126.07         ->int;
-cell poku:d_latch_a   rot0,flip @-88.17,123.98,-86.61,126.06         ->ppu-dma;
-cell poly:tri_inv_if1 rot0,flip @-89.20,124.01,-88.16,126.07         ->ppu-dma;
-cell pane:tri_inv_if1 rot0,flip @-90.23,123.98,-89.18,126.06         ->ppu-dma;
-cell pula:d_latch_a   rot0,flip @-91.77,124.00,-90.21,126.06         ->ppu-dma;
-cell pesu:const       rot0,flip @-92.11,124.00,-91.74,126.07 trivial;
-cell pyne:d_latch_a   rot0,flip @-93.63,123.99,-92.09,126.07         ->ppu-dma;
-cell pate:d_latch_b   rot0,flip @-95.34,123.99,-93.63,126.06         ->bus-adr;
-cell pamy:mux         rot0,flip @-96.38,123.99,-95.34,126.06         ->bus-adr;
-cell pylo:dffr_b2     rot0,flip @-99.27,123.99,-96.35,126.06         ->ppu-dma;
-cell pyro:dffr_b2     rot0,flip @-102.18,123.98,-99.25,126.06        ->ppu-dma;
-cell para:d_latch_a   rot0,flip @-103.70,123.98,-102.17,126.08       ->ppu-dma;
-cell pysu:inv_a       rot0,flip @-104.03,123.98,-103.70,126.06       ->ppu-dma;
-cell pare:tri_inv_if1 rot0,flip @-105.06,123.98,-104.03,126.05       ->ppu-dma;
-cell pusy:inv_a       rot0,flip @-105.42,124.00,-105.05,126.05       ->ppu-dma;
-cell powu:and2        rot0,flip @-106.08,123.98,-105.41,126.04       ->ppu-oam;
+cell pevo:not_x1    rot0,flip @-60.16,124.02,-59.81,126.09         ->bus-adr;
+cell puhe:nand2     rot0,flip @-60.84,124.02,-60.33,126.09         ->bus-adr;
+cell pahy:nor2      rot0,flip @-61.35,124.03,-60.83,126.09         ->bus-adr;
+cell peru:tffnl     rot0,flip @-64.77,124.00,-61.34,126.09         ->timer;
+cell povy:tffnl     rot0,flip @-68.19,124.01,-64.76,126.08         ->timer;
+cell peda:tffnl     rot0,flip @-71.79,124.00,-68.34,126.09         ->timer;
+cell pege:mux       rot0,flip @-72.78,124.01,-71.76,126.09         ->bus-adr;
+cell pyma:nor2      rot0,flip @-73.47,124.02,-72.96,126.08         ->timer;
+cell pagu:nor2      rot0,flip @-73.99,124.01,-73.46,126.06         ->timer;
+cell puxy:nor2      rot0,flip @-74.50,124.02,-73.98,126.07         ->timer;
+cell puso:not_if1   rot0,flip @-75.52,124.01,-74.48,126.07         ->timer;
+cell pyhu:nand3     rot0,flip @-76.21,124.01,-75.52,126.06         ->int;
+cell pyga:and3      rot0,flip @-77.07,124.02,-76.20,126.08         ->int;
+cell petu:muxi      rot0,flip @-77.92,123.99,-77.05,126.08         ->timer;
+cell puva:or2       rot0,flip @-78.62,124.00,-77.91,126.07         ->bus-data;
+cell pyre:not_if1   rot0,flip @-79.64,124.00,-78.59,126.08         ->timer;
+cell peto:dffr      rot0,flip @-82.53,124.01,-79.63,126.08         ->timer;
+cell pado:not_if1   rot0,flip @-83.55,123.99,-82.51,126.08         ->int;
+cell pegy:not_if1   rot0,flip @-84.57,124.00,-83.54,126.07         ->int;
+cell pola:not_x1    rot0,flip @-84.92,124.01,-84.56,126.07         ->int;
+cell pavy:dlatch    rot0,flip @-86.63,124.00,-84.91,126.07         ->int;
+cell poku:dlatch_ee rot0,flip @-88.17,123.98,-86.61,126.06         ->ppu-dma;
+cell poly:not_if1   rot0,flip @-89.20,124.01,-88.16,126.07         ->ppu-dma;
+cell pane:not_if1   rot0,flip @-90.23,123.98,-89.18,126.06         ->ppu-dma;
+cell pula:dlatch_ee rot0,flip @-91.77,124.00,-90.21,126.06         ->ppu-dma;
+cell pesu:tie       rot0,flip @-92.11,124.00,-91.74,126.07 trivial;
+cell pyne:dlatch_ee rot0,flip @-93.63,123.99,-92.09,126.07         ->ppu-dma;
+cell pate:dlatch    rot0,flip @-95.34,123.99,-93.63,126.06         ->bus-adr;
+cell pamy:mux       rot0,flip @-96.38,123.99,-95.34,126.06         ->bus-adr;
+cell pylo:dffr      rot0,flip @-99.27,123.99,-96.35,126.06         ->ppu-dma;
+cell pyro:dffr      rot0,flip @-102.18,123.98,-99.25,126.06        ->ppu-dma;
+cell para:dlatch_ee rot0,flip @-103.70,123.98,-102.17,126.08       ->ppu-dma;
+cell pysu:not_x1    rot0,flip @-104.03,123.98,-103.70,126.06       ->ppu-dma;
+cell pare:not_if1   rot0,flip @-105.06,123.98,-104.03,126.05       ->ppu-dma;
+cell pusy:not_x1    rot0,flip @-105.42,124.00,-105.05,126.05       ->ppu-dma;
+cell powu:and2      rot0,flip @-106.08,123.98,-105.41,126.04       ->ppu-oam;
 
 
 # Wires originating from column P in top center
 # ---------------------------------------------
 
 wire pevo:adr
-	pevo.q -> nefe.in
+	pevo.y -> nefe.in
 	@-60.08,124.30,-60.08,121.05
 	@-60.08,122.93,-60.94,122.93,-60.94,121.05;
 
 wire puhe:adr
-	puhe.q -> a14.~h
+	puhe.y -> a14.~pdrv
 	@-60.76,125.80,-60.76,127.28,-58.55,127.28,-58.55,124.80,-47.48,124.81,-47.44,92.45,-42.47,92.45,
 	 -42.47,89.80,-41.84,89.80;
 
 wire pahy:adr
-	pahy.q -> a14.l
+	pahy.y -> a14.ndrv
 	@-61.27,124.32,-61.27,123.87,-59.39,123.87,-59.39,125.06,-46.96,125.06,-46.94,100.65,-42.66,100.65,
 	 -42.66,98.01,-41.85,98.01;
 
@@ -82,40 +82,40 @@ wire ~peda:data
 	@-71.17,125.80,-71.17,127.87,-81.09,127.87,-81.09,128.45;
 
 wire pege:adr
-	pege.q -> puhe.in1 pahy.in2
+	pege.y -> puhe.in1 pahy.in2
 	@-72.71,124.30,-72.71,123.25,-61.10,123.27,-61.10,124.32
 	@-61.10,123.74,-60.41,123.74,-60.41,124.33;
 
 wire pyma:data
-	pyma.q -> peda.d
+	pyma.y -> peda.d
 	@-73.39,125.79,-73.39,126.50,-71.01,126.50
 	@-71.01,125.79,-71.01,126.55,-68.78,126.55,-68.78,125.79;
 
 wire pagu:data
-	pagu.q -> nuga.d
+	pagu.y -> nuga.d
 	@-73.91,124.30,-73.91,122.70,-66.04,122.70,-66.04,121.03
 	@-68.27,122.70,-68.27,121.06;
 
 wire puxy:data
-	puxy.q -> rega.d
+	puxy.y -> rega.d
 	@-74.42,125.79,-74.42,127.98,-74.07,127.98,-74.07,128.45
 	@-74.42,127.15,-76.30,127.15,-76.30,128.43;
 
 wire pyhu:data
-	pyhu.q -> nybo.~s
+	pyhu.y -> nybo.~s
 	@-76.13,124.29,-76.13,123.55,-74.92,123.55,-74.92,121.06
 	@-74.92,122.45,-72.70,122.45,-72.70,121.05;
 
 wire pyga:data
-	pyga.q -> nybo.~r
+	pyga.y -> nybo.~r
 	@-76.98,124.30,-76.98,123.73,-75.44,123.73,-75.44,121.04;
 
 wire petu:data
-	petu.q -> nero.in2
+	petu.y -> nero.in2
 	@-77.84,124.30,-77.84,122.83,-65.36,122.84,-65.36,121.05;
 
 wire puva:ctl
-	puva.q -> usuf.in2 uver.in1
+	puva.y -> usuf.in2 uver.in1
 	@-78.52,125.80,-78.52,126.68,-78.18,126.68,-78.18,130.38,-77.67,130.38,-77.67,135.46,-77.86,135.46,-77.86,139.26
 	@-73.06,139.85,-73.06,139.26,-83.14,139.26,-83.14,139.84;
 
@@ -128,7 +128,7 @@ wire ~peto:data
 	@-82.27,125.79,-82.27,127.28,-82.10,127.28,-82.10,128.43;
 
 wire pola:ctl
-	pola.q -> nabo.ena nela.ena pado.ena pegy.ena rova.ena
+	pola.y -> nabo.ena nela.ena pado.ena pegy.ena rova.ena
 	@-84.84,125.77,-84.84,127.87,-84.67,127.87
 	@-84.67,128.45,-84.67,126.74,-83.64,126.74,-83.64,123.71,-80.23,123.71,-80.23,121.03
 	@-82.95,123.71,-82.95,121.03
@@ -182,7 +182,7 @@ wire pate:adr
 # pate.~q is not connected
 
 wire pamy:adr
-	pamy.q -> rore.in2 roxu.in1
+	pamy.y -> rore.in2 roxu.in1
 	@-96.29,125.77,-96.29,126.96,-86.55,126.97,-86.55,128.46
 	@-86.55,127.01,-86.20,127.01,-86.20,128.45;
 
@@ -219,7 +219,7 @@ wire ~dma_a10:adr
 	@-103.45,125.75,-103.45,127.72,-102.62,127.72,-102.62,128.44;
 
 wire pysu:ctl
-	pysu.q -> maru.ena nafa.ena nydo.ena nygy.ena poku.ena pula.ena pyne.ena para.ena
+	pysu.y -> maru.ena nafa.ena nydo.ena nygy.ena poku.ena pula.ena pyne.ena para.ena
 	@-103.95,124.27,-103.95,123.40,-104.30,123.40,-104.30,121.01
 	@-103.95,123.44,-102.77,123.44,-92.69,123.45
 	@-102.77,123.44,-102.77,124.30
@@ -229,7 +229,7 @@ wire pysu:ctl
 	@-87.23,121.04,-87.23,124.30;
 
 wire pusy:ctl
-	pusy.q -> nuvy.ena poly.ena pane.ena pare.ena resu.ena raly.ena rofo.ena rema.ena
+	pusy.y -> nuvy.ena poly.ena pane.ena pare.ena resu.ena raly.ena rofo.ena rema.ena
 	@-105.32,125.76,-105.32,127.16,-102.09,127.16,-102.09,128.43
 	@-104.13,127.16,-104.13,125.77
 	@-102.09,127.72,-91.85,127.74,-89.80,127.74
@@ -239,6 +239,6 @@ wire pusy:ctl
 	@-88.43,127.56,-88.26,127.56,-88.26,123.59,-85.69,123.59,-85.69,121.02;
 
 wire powu:ctl
-	powu.q -> wyja.in3
+	powu.y -> wyja.in3
 	@-129.97,116.51,-129.97,118.59,-126.03,118.59,-126.03,120.59,-107.38,120.60,-107.38,123.57,
 	 -106.01,123.57,-106.01,124.28;
