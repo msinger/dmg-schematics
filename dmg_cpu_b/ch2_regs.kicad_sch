@@ -1,19 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0a4a5032-97f6-4c81-8d55-98facd7ff865")
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-04-12")
+		(date "2025-04-22")
 		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
 		(symbol "DMG_CPU_Cells:AND2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -62,9 +64,9 @@
 			)
 			(symbol "AND2_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:DFFR"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -240,26 +245,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 0 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "~{RESET}"
 						(effects
 							(font
@@ -275,17 +263,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 -2.54 0)
 					(length 3.81)
-					(name "~{Q}"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -311,10 +299,31 @@
 						)
 					)
 				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 3.81)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:DRLATCH_EE"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -377,7 +386,8 @@
 			(symbol "DRLATCH_EE_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "~{ENA}"
 						(effects
 							(font
@@ -386,24 +396,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -440,6 +432,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -484,9 +494,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NAND2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -535,9 +548,9 @@
 			)
 			(symbol "NAND2_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -613,9 +626,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -664,39 +680,15 @@
 			)
 			(symbol "NOR2_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -713,12 +705,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -727,10 +717,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -792,10 +808,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_IF0"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -912,10 +933,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_X1"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1012,10 +1038,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_X2"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1112,9 +1143,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:OR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1163,39 +1197,15 @@
 			)
 			(symbol "OR2_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -1212,12 +1222,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1226,10 +1234,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -1291,9 +1325,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:TFFNL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1354,17 +1391,17 @@
 				)
 			)
 			(symbol "TFFNL_1_1"
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input inverted_clock
+					(at -10.16 2.54 0)
 					(length 3.81)
-					(name "Q"
+					(name "TCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1392,7 +1429,8 @@
 				)
 				(pin input line
 					(at -10.16 0 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "LOAD"
 						(effects
 							(font
@@ -1427,6 +1465,24 @@
 					)
 				)
 				(pin output line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 3.81)
 					(name "~{Q}"
@@ -1444,26 +1500,61 @@
 						)
 					)
 				)
-				(pin input inverted_clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(name "TCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "FF16 NR21\n"
+		(exclude_from_sim no)
+		(at 359.41 194.31 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "20575b13-2644-49b8-8a6e-a31f2937b280")
+	)
+	(text "FF19 NR24\n"
+		(exclude_from_sim no)
+		(at 126.238 24.765 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8094b5ef-8dfe-434f-acfd-0e3116f5b624")
+	)
+	(text "FF17 NR22\n"
+		(exclude_from_sim no)
+		(at 95.885 88.265 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a246eda-1b38-417c-ba0b-e73bbc5ea1a0")
+	)
+	(text "FF18 NR23\n"
+		(exclude_from_sim no)
+		(at 247.65 273.05 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd4f256-30b8-4cdb-bfbf-f50870f3df28")
 	)
 	(junction
 		(at 233.045 213.995)
@@ -7032,58 +7123,6 @@
 			(type default)
 		)
 		(uuid "ffb1deb9-913c-49b4-a3ba-d34339f55bbe")
-	)
-	(text "FF16 NR21\n"
-		(exclude_from_sim no)
-		(at 359.41 194.31 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "20575b13-2644-49b8-8a6e-a31f2937b280")
-	)
-	(text "FF19 NR24\n"
-		(exclude_from_sim no)
-		(at 126.238 24.765 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8094b5ef-8dfe-434f-acfd-0e3116f5b624")
-	)
-	(text "FF17 NR22\n"
-		(exclude_from_sim no)
-		(at 95.885 88.265 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a246eda-1b38-417c-ba0b-e73bbc5ea1a0")
-	)
-	(text "FF18 NR23\n"
-		(exclude_from_sim no)
-		(at 247.65 273.05 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bd4f256-30b8-4cdb-bfbf-f50870f3df28")
 	)
 	(label "D7"
 		(at 69.215 69.215 0)

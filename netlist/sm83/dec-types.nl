@@ -50,6 +50,12 @@ type not_x2_dec2:black in y:out
 	y @-61.31,121.63
 	"Inverter with 2× drive strength.";
 
+type not_dec3:black in y:out
+	  @-107.53,233.72,-102.81,235.50
+	in@-103.72,235.16
+	y @-107.53,234.06
+	"Simple inverter.";
+
 type not_pch_dec3_a:black ~pch in:inout y:out
 	    @-109.84,112.34,-102.97,114.38
 	~pch@-108.59,112.34,-108.59,114.38
@@ -77,6 +83,18 @@ type not_pch_dec3_b2:black ~pch in:inout y:out
 	in  @-102.94,169.27
 	y   @-109.78,169.85,-103.83,169.85
 	"Inverter with precharge.";
+
+type not_p2_dec3_a:black in y:out
+	  @-79.22,227.63,-72.16,228.81
+	in@-79.22,228.16
+	y @-79.22,228.50
+	"Inverter with 2× PMOS drive strength.";
+
+type not_p2_dec3_b:black in y:out
+	  @-79.22,227.63,-72.16,228.81
+	in@-79.22,228.16
+	y @-79.22,228.50
+	"Inverter with 2× PMOS drive strength.";
 
 type not_p2_pch_dec3:black ~pch in:inout y:out
 	    @-109.78,148.81,-102.88,150.81

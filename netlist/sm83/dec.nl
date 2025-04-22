@@ -165,4 +165,11 @@ cell dec3_not64:not_pch_dec3_a   rot0,flip @-109.69,221.19,-102.91,223.16 ->dec3
 cell dec3_not65:not_pch_dec3_a   rot0      @-109.69,224.50,-102.84,226.59 ->dec3;
 cell dec3_not66:not_pch_dec3_a   rot0      @-109.72,227.22,-102.84,229.28 ->dec3;
 cell dec3_not67:not_pch_dec3_a   rot0,flip @-109.69,229.75,-102.84,231.78 ->dec3;
+cell dec3_not68:not_dec3         rot0      @-107.53,233.72,-102.81,235.50 ->dec3;
+cell dec3_not69:not_p2_dec3_a    rot0,flip @-79.34,226.75,-72.19,228.03   ->dec3;
+cell dec3_not70:not_p2_dec3_a    rot0      @-79.22,227.63,-72.16,228.81   ->dec3;
+cell dec3_not71:not_p2_dec3_b    rot0,flip @-79.28,228.72,-72.16,230.16   ->dec3;
+cell dec3_not72:not_p2_dec3_b    rot0      @-79.28,229.56,-72.22,230.84   ->dec3;
+cell dec3_not73:not_p2_dec3_a    rot0,flip @-79.25,230.78,-72.13,232.09   ->dec3;
+cell dec3_not74:not_p2_dec3_a    rot0      @-79.25,231.47,-72.09,232.78   ->dec3;
 

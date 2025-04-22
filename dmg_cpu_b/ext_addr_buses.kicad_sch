@@ -1,19 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "bcdddccf-ed4f-48aa-8be2-a13fad85f9ba")
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-04-12")
+		(date "2025-04-22")
 		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
 		(symbol "DMG_CPU_Cells:AND2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -62,9 +64,9 @@
 			)
 			(symbol "AND2_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AND3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -191,9 +196,9 @@
 			)
 			(symbol "AND3_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -287,9 +292,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AO21"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,21 +346,9 @@
 			)
 			(symbol "AO21_1_1"
 				(arc
-					(start -3.175 -0.635)
-					(mid -0.05 2.54)
-					(end -3.175 5.715)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.0002 -5.08)
+					(start -0.0002 2.54)
 					(mid 1.2208 -1.27)
-					(end -0.0002 2.54)
+					(end -0.0002 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -361,9 +357,21 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -3.175 5.715)
+					(mid -0.05 2.54)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -0.0002 -5.08) (xy 3.1748 -5.08)
+						(xy -3.175 5.715) (xy -6.985 5.715) (xy -6.985 -0.635) (xy -3.175 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -387,8 +395,32 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 5.715) (xy -6.985 5.715) (xy -6.985 -0.635) (xy -3.175 -0.635)
+						(xy -0.0002 -5.08) (xy 3.1748 -5.08)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.6198 -1.27)
+					(mid 5.9953 -3.854)
+					(end 3.2002 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.2002 2.54)
+					(mid 6.0027 1.3225)
+					(end 7.6198 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -404,30 +436,6 @@
 					)
 					(stroke
 						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.2002 -5.08)
-					(mid 5.9953 -3.854)
-					(end 7.6198 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 7.6198 -1.27)
-					(mid 6.0026 1.3225)
-					(end 3.2002 2.54)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -507,10 +515,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:BUF_IF0"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -590,7 +603,8 @@
 				)
 				(pin input line
 					(at -6.35 0 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "IN"
 						(effects
 							(font
@@ -645,9 +659,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:DLATCH"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -781,9 +798,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:MUX"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -834,16 +854,16 @@
 				)
 			)
 			(symbol "MUX_0_0"
-				(text "0"
-					(at 0 -2.54 0)
+				(text "1"
+					(at 0 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "1"
-					(at 0 2.54 0)
+				(text "0"
+					(at 0 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -866,24 +886,6 @@
 				)
 			)
 			(symbol "MUX_1_1"
-				(pin input line
-					(at 0 7.62 270)
-					(length 3.17)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 3.81)
@@ -920,6 +922,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 3.17)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 6.35 0 180)
 					(length 3.81)
@@ -939,9 +959,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NAND2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -990,9 +1013,9 @@
 			)
 			(symbol "NAND2_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1068,9 +1091,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1119,39 +1145,15 @@
 			)
 			(symbol "NOR2_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -1168,12 +1170,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1182,10 +1182,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -1247,10 +1273,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_X1"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1347,9 +1378,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:OR3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1398,39 +1432,15 @@
 			)
 			(symbol "OR3_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -1447,12 +1457,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1461,10 +1469,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -1544,9 +1578,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:PAD_BIDIR"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1660,24 +1697,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 13.97 -3.81 180)
-					(length 3.81)
-					(name "~{INPUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 13.97 1.27 180)
 					(length 3.81)
@@ -1696,10 +1715,31 @@
 						)
 					)
 				)
+				(pin output line
+					(at 13.97 -3.81 180)
+					(length 3.81)
+					(name "~{INPUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:PAD_OUT"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1814,7 +1854,217 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Pin 1"
+		(exclude_from_sim no)
+		(at 374.015 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "004e10d2-7c2f-4fc9-b422-f704e1875d3b")
+	)
+	(text "Pin 9"
+		(exclude_from_sim no)
+		(at 227.33 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0de8780d-7e9c-484d-984a-1557b0769743")
+	)
+	(text "Pin 10"
+		(exclude_from_sim no)
+		(at 227.33 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f0c8946-2dac-4c47-b19a-34d272fdc477")
+	)
+	(text "Pin 12"
+		(exclude_from_sim no)
+		(at 227.33 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23e2ff0b-550c-4d75-b170-7769ef69ae9b")
+	)
+	(text "TEXO = '1' during mem req access when A < 0x8000 or A >= 0xA000 else '0'.\nIt excludes the VRAM address range.\nA0-14 are latched and presented to external pins when driven by CPU "
+		(exclude_from_sim no)
+		(at 19.05 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d15f404-5623-4a59-a9a6-49a1ac727291")
+	)
+	(text "Pin 14"
+		(exclude_from_sim no)
+		(at 227.33 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d7a4c18-dbf4-4e22-bda1-5f902cff889f")
+	)
+	(text "Pin 2"
+		(exclude_from_sim no)
+		(at 374.015 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e371cf2-5704-4005-8cae-38bf91b43229")
+	)
+	(text "TYNU = '1' when A >= 0xA000 else '0'.\nTOZA = '1' when A >= 0xA000 and < 0xFE00; RAM space\n~{RAM_CS} can only go low in RAM space when driven by CPU"
+		(exclude_from_sim no)
+		(at 41.91 23.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e4554f1-ec69-4a30-bfd3-8ff4533a1a3d")
+	)
+	(text "Pin 16"
+		(exclude_from_sim no)
+		(at 227.33 48.895 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "554f2175-0fbf-4ce5-a202-23e73f083d02")
+	)
+	(text "Pin 5"
+		(exclude_from_sim no)
+		(at 374.015 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f3718f-a96a-4271-abab-36a6090c529e")
+	)
+	(text "Pin 7"
+		(exclude_from_sim no)
+		(at 374.015 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "772942d3-9b9b-4e1c-97f4-9a92bb302f48")
+	)
+	(text "Pin 8"
+		(exclude_from_sim no)
+		(at 374.015 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78bd423f-f752-47f6-896c-33f8ba3a20ec")
+	)
+	(text "Pin 15"
+		(exclude_from_sim no)
+		(at 227.33 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c4d8eb-6421-4d9a-bd7b-ea9042888bbf")
+	)
+	(text "Pin 3"
+		(exclude_from_sim no)
+		(at 374.015 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a086157f-c096-451f-83ac-f0e26801babe")
+	)
+	(text "Pin 6"
+		(exclude_from_sim no)
+		(at 374.015 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac2dd4ab-784e-4d43-9bbb-ad2fca4ea969")
+	)
+	(text "Pin 11"
+		(exclude_from_sim no)
+		(at 227.33 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae18456a-b11d-43d1-93d9-cfee034a990a")
+	)
+	(text "Pin 4"
+		(exclude_from_sim no)
+		(at 374.015 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7c205c9-881e-4b7a-b214-0762d779b850")
+	)
+	(text "Pin 13"
+		(exclude_from_sim no)
+		(at 227.33 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db31fad0-1cf8-4f40-ae43-d35bae9cc524")
+	)
+	(text "Pin 80"
+		(exclude_from_sim no)
+		(at 227.33 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0055eb1-edb4-4788-95b0-5f8acd1316a3")
 	)
 	(junction
 		(at 175.26 95.885)
@@ -8417,215 +8667,6 @@
 			(type default)
 		)
 		(uuid "fff42a11-72ea-452e-84ac-ddcf3e4394be")
-	)
-	(text "Pin 1"
-		(exclude_from_sim no)
-		(at 374.015 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "004e10d2-7c2f-4fc9-b422-f704e1875d3b")
-	)
-	(text "Pin 9"
-		(exclude_from_sim no)
-		(at 227.33 256.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0de8780d-7e9c-484d-984a-1557b0769743")
-	)
-	(text "Pin 10"
-		(exclude_from_sim no)
-		(at 227.33 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f0c8946-2dac-4c47-b19a-34d272fdc477")
-	)
-	(text "Pin 12"
-		(exclude_from_sim no)
-		(at 227.33 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23e2ff0b-550c-4d75-b170-7769ef69ae9b")
-	)
-	(text "TEXO = '1' during mem req access when A < 0x8000 or A >= 0xA000 else '0'.\nIt excludes the VRAM address range.\nA0-14 are latched and presented to external pins when driven by CPU "
-		(exclude_from_sim no)
-		(at 19.05 136.525 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d15f404-5623-4a59-a9a6-49a1ac727291")
-	)
-	(text "Pin 14"
-		(exclude_from_sim no)
-		(at 227.33 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d7a4c18-dbf4-4e22-bda1-5f902cff889f")
-	)
-	(text "Pin 2"
-		(exclude_from_sim no)
-		(at 374.015 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e371cf2-5704-4005-8cae-38bf91b43229")
-	)
-	(text "TYNU = '1' when A >= 0xA000 else '0'.\nTOZA = '1' when A >= 0xA000 and < 0xFE00; RAM space\n~{RAM_CS} can only go low in RAM space when driven by CPU"
-		(exclude_from_sim no)
-		(at 41.91 23.495 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e4554f1-ec69-4a30-bfd3-8ff4533a1a3d")
-	)
-	(text "Pin 16"
-		(exclude_from_sim no)
-		(at 227.33 48.895 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "554f2175-0fbf-4ce5-a202-23e73f083d02")
-	)
-	(text "Pin 5"
-		(exclude_from_sim no)
-		(at 374.015 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59f3718f-a96a-4271-abab-36a6090c529e")
-	)
-	(text "Pin 7"
-		(exclude_from_sim no)
-		(at 374.015 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "772942d3-9b9b-4e1c-97f4-9a92bb302f48")
-	)
-	(text "Pin 8"
-		(exclude_from_sim no)
-		(at 374.015 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78bd423f-f752-47f6-896c-33f8ba3a20ec")
-	)
-	(text "Pin 15"
-		(exclude_from_sim no)
-		(at 227.33 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81c4d8eb-6421-4d9a-bd7b-ea9042888bbf")
-	)
-	(text "Pin 3"
-		(exclude_from_sim no)
-		(at 374.015 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a086157f-c096-451f-83ac-f0e26801babe")
-	)
-	(text "Pin 6"
-		(exclude_from_sim no)
-		(at 374.015 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac2dd4ab-784e-4d43-9bbb-ad2fca4ea969")
-	)
-	(text "Pin 11"
-		(exclude_from_sim no)
-		(at 227.33 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae18456a-b11d-43d1-93d9-cfee034a990a")
-	)
-	(text "Pin 4"
-		(exclude_from_sim no)
-		(at 374.015 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7c205c9-881e-4b7a-b214-0762d779b850")
-	)
-	(text "Pin 13"
-		(exclude_from_sim no)
-		(at 227.33 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db31fad0-1cf8-4f40-ae43-d35bae9cc524")
-	)
-	(text "Pin 80"
-		(exclude_from_sim no)
-		(at 227.33 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0055eb1-edb4-4788-95b0-5f8acd1316a3")
 	)
 	(label "A8"
 		(at 258.445 266.7 180)

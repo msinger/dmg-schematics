@@ -1,10 +1,318 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
+	(symbol "AO33"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO33"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-3 AND-OR two-level compound gate."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AO33_1_1"
+			(arc
+				(start -0.0002 3.81)
+				(mid 1.2208 0)
+				(end -0.0002 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 6.985)
+				(mid -0.05 3.81)
+				(end -3.175 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -0.635)
+				(mid -0.05 -3.81)
+				(end -3.175 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 3.81) (xy 3.1748 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 7.6198 0)
+				(mid 5.9953 -2.584)
+				(end 3.2002 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.2002 3.81)
+				(mid 6.0027 2.5925)
+				(end 7.6198 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 3.81) (xy 0 3.81) (xy 0 3.81) (xy 0.254 3.4036) (xy 0.7874 2.2606) (xy 1.1176 1.0414)
+					(xy 1.1938 -0.254) (xy 1.0414 -1.4986) (xy 0.635 -2.7178) (xy 0 -3.81) (xy 0 -3.81) (xy 3.175 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -11.43 6.35 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 3.81 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -3.81 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -6.35 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AOI21_IF1_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,9 +381,21 @@
 		)
 		(symbol "AOI21_IF1_OD_1_1"
 			(arc
-				(start -1.905 -0.635)
+				(start 1.2698 2.54)
+				(mid 2.4908 -1.27)
+				(end 1.2698 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 5.715)
 				(mid 1.22 2.54)
-				(end -1.905 5.715)
+				(end -1.905 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -86,7 +406,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
+					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -110,19 +430,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -2.54) (xy 8.255 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
+					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -132,16 +440,28 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
-				)
+			(arc
+				(start 8.8898 -1.27)
+				(mid 7.2652 -3.8537)
+				(end 4.4702 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(arc
+				(start 4.4702 2.54)
+				(mid 7.2727 1.3225)
+				(end 8.8898 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(polyline
@@ -157,10 +477,10 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 1.2698 -5.08)
-				(mid 2.4908 -1.27)
-				(end 1.2698 2.54)
+			(polyline
+				(pts
+					(xy 5.715 -2.54) (xy 8.255 -2.54)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -169,28 +489,16 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 4.4702 -5.08)
-				(mid 7.2653 -3.854)
-				(end 8.8898 -1.27)
+			(polyline
+				(pts
+					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 8.8898 -1.27)
-				(mid 7.2726 1.3225)
-				(end 4.4702 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -266,10 +574,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOI21_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -318,9 +631,21 @@
 		)
 		(symbol "AOI21_OD_1_1"
 			(arc
-				(start -1.905 -0.635)
+				(start 1.2698 2.54)
+				(mid 2.4908 -1.27)
+				(end 1.2698 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 5.715)
 				(mid 1.22 2.54)
-				(end -1.905 5.715)
+				(end -1.905 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -331,7 +656,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
+					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -355,19 +680,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -2.54) (xy 8.255 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 5.715) (xy -5.715 5.715) (xy -5.715 -0.635) (xy -1.905 -0.635)
+					(xy 1.2698 -5.08) (xy 4.4448 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -377,16 +690,28 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
-				)
+			(arc
+				(start 8.8898 -1.27)
+				(mid 7.2652 -3.8537)
+				(end 4.4702 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(arc
+				(start 4.4702 2.54)
+				(mid 7.2727 1.3225)
+				(end 8.8898 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(polyline
@@ -402,10 +727,10 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 1.2698 -5.08)
-				(mid 2.4908 -1.27)
-				(end 1.2698 2.54)
+			(polyline
+				(pts
+					(xy 5.715 -2.54) (xy 8.255 -2.54)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -414,28 +739,16 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 4.4702 -5.08)
-				(mid 7.2653 -3.854)
-				(end 8.8898 -1.27)
+			(polyline
+				(pts
+					(xy 8.255 -1.27) (xy 6.985 0) (xy 5.715 -1.27) (xy 6.985 -2.54) (xy 8.255 -1.27)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 8.8898 -1.27)
-				(mid 7.2726 1.3225)
-				(end 4.4702 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -511,10 +824,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOI222_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -563,45 +881,9 @@
 		)
 		(symbol "AOI222_OD_1_1"
 			(arc
-				(start -3.175 -10.795)
-				(mid -0.05 -7.62)
-				(end -3.175 -4.445)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 -3.175)
-				(mid -0.05 0)
-				(end -3.175 3.175)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 4.445)
-				(mid -0.05 7.62)
-				(end -3.175 10.795)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -7.62)
+				(start -0.0002 0)
 				(mid 1.2208 -3.81)
-				(end -0.0002 0)
+				(end -0.0002 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -610,10 +892,34 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.0002 -7.62) (xy 3.1748 -7.62)
+			(arc
+				(start -3.175 10.795)
+				(mid -0.05 7.62)
+				(end -3.175 4.445)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 3.175)
+				(mid -0.05 0)
+				(end -3.175 -3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -4.445)
+				(mid -0.05 -7.62)
+				(end -3.175 -10.795)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -624,43 +930,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.0002 0) (xy 3.1748 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 7.62) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -5.08) (xy 6.985 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -4.445) (xy -6.985 -4.445) (xy -6.985 -10.795) (xy -3.175 -10.795)
+					(xy -3.175 10.795) (xy -6.985 10.795) (xy -6.985 4.445) (xy -3.175 4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -684,7 +954,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 10.795) (xy -6.985 10.795) (xy -6.985 4.445) (xy -3.175 4.445)
+					(xy -3.175 -4.445) (xy -6.985 -4.445) (xy -6.985 -10.795) (xy -3.175 -10.795)
 				)
 				(stroke
 					(width 0.254)
@@ -696,14 +966,62 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 -3.81) (xy 5.715 -2.54) (xy 4.445 -3.81) (xy 5.715 -5.08) (xy 6.985 -3.81)
+					(xy -0.0002 0) (xy 3.1748 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 -7.62) (xy 3.1748 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 7.6198 -3.81)
+				(mid 5.9953 -6.394)
+				(end 3.2002 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.2002 0)
+				(mid 6.0027 -1.2175)
+				(end 7.6198 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(polyline
@@ -719,28 +1037,28 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.2002 -7.62)
-				(mid 5.9953 -6.394)
-				(end 7.6198 -3.81)
+			(polyline
+				(pts
+					(xy 4.445 -5.08) (xy 6.985 -5.08)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(arc
-				(start 7.6198 -3.81)
-				(mid 6.0026 -1.2175)
-				(end 3.2002 0)
+			(polyline
+				(pts
+					(xy 6.985 -3.81) (xy 5.715 -2.54) (xy 4.445 -3.81) (xy 5.715 -5.08) (xy 6.985 -3.81)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -870,10 +1188,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOI22_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -922,33 +1245,9 @@
 		)
 		(symbol "AOI22_OD_1_1"
 			(arc
-				(start -3.175 -6.985)
-				(mid -0.05 -3.81)
-				(end -3.175 -0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 0.635)
-				(mid -0.05 3.81)
-				(end -3.175 6.985)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -3.81)
+				(start -0.0002 3.81)
 				(mid 1.2208 0)
-				(end -0.0002 3.81)
+				(end -0.0002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -957,9 +1256,45 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -3.175 6.985)
+				(mid -0.05 3.81)
+				(end -3.175 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -0.635)
+				(mid -0.05 -3.81)
+				(end -3.175 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
 				)
 				(stroke
 					(width 0.254)
@@ -983,19 +1318,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -1.27) (xy 6.985 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1005,10 +1328,10 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
-				)
+			(arc
+				(start 7.6198 0)
+				(mid 5.9953 -2.584)
+				(end 3.2002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1017,16 +1340,16 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
-				)
+			(arc
+				(start 3.2002 3.81)
+				(mid 6.0027 2.5925)
+				(end 7.6198 0)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -1042,28 +1365,28 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.2002 -3.81)
-				(mid 5.9953 -2.584)
-				(end 7.6198 0)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 6.985 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(arc
-				(start 7.6198 0)
-				(mid 6.0026 2.5925)
-				(end 3.2002 3.81)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -1157,10 +1480,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOI33_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1209,33 +1537,9 @@
 		)
 		(symbol "AOI33_OD_1_1"
 			(arc
-				(start -3.175 -6.985)
-				(mid -0.05 -3.81)
-				(end -3.175 -0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 0.635)
-				(mid -0.05 3.81)
-				(end -3.175 6.985)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -3.81)
+				(start -0.0002 3.81)
 				(mid 1.2208 0)
-				(end -0.0002 3.81)
+				(end -0.0002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1244,9 +1548,45 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -3.175 6.985)
+				(mid -0.05 3.81)
+				(end -3.175 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -0.635)
+				(mid -0.05 -3.81)
+				(end -3.175 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
 				)
 				(stroke
 					(width 0.254)
@@ -1270,19 +1610,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -1.27) (xy 6.985 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1292,10 +1620,10 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
-				)
+			(arc
+				(start 7.6198 0)
+				(mid 5.9953 -2.584)
+				(end 3.2002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1304,16 +1632,16 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
-				)
+			(arc
+				(start 3.2002 3.81)
+				(mid 6.0027 2.5925)
+				(end 7.6198 0)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -1329,28 +1657,28 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.2002 -3.81)
-				(mid 5.9953 -2.584)
-				(end 7.6198 0)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 6.985 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(arc
-				(start 7.6198 0)
-				(mid 6.0026 2.5925)
-				(end 3.2002 3.81)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -1480,10 +1808,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOI44_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1531,34 +1864,10 @@
 			)
 		)
 		(symbol "AOI44_OD_1_1"
-			(arc
-				(start -3.175 -6.985)
-				(mid -0.05 -3.81)
-				(end -3.175 -0.635)
-				(stroke
-					(width 0.254)
-					(type default)
+			(polyline
+				(pts
+					(xy -6.985 8.89) (xy -6.985 6.985)
 				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.175 0.635)
-				(mid -0.05 3.81)
-				(end -3.175 6.985)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -0.0002 -3.81)
-				(mid 1.2208 0)
-				(end -0.0002 3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1579,10 +1888,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.985 8.89) (xy -6.985 6.985)
-				)
+			(arc
+				(start -0.0002 3.81)
+				(mid 1.2208 0)
+				(end -0.0002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1591,9 +1900,45 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -3.175 6.985)
+				(mid -0.05 3.81)
+				(end -3.175 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -3.175 -0.635)
+				(mid -0.05 -3.81)
+				(end -3.175 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
 				)
 				(stroke
 					(width 0.254)
@@ -1617,19 +1962,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -1.27) (xy 6.985 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+					(xy -0.0002 -3.81) (xy 3.1748 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1639,10 +1972,10 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
-				)
+			(arc
+				(start 7.6198 0)
+				(mid 5.9953 -2.584)
+				(end 3.2002 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1651,16 +1984,16 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
-				)
+			(arc
+				(start 3.2002 3.81)
+				(mid 6.0027 2.5925)
+				(end 7.6198 0)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -1676,28 +2009,28 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.2002 -3.81)
-				(mid 5.9953 -2.584)
-				(end 7.6198 0)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 6.985 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(arc
-				(start 7.6198 0)
-				(mid 6.0026 2.5925)
-				(end 3.2002 3.81)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 5.715 1.27) (xy 4.445 0) (xy 5.715 -1.27) (xy 6.985 0)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin input line
@@ -1863,10 +2196,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF00"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2001,10 +2339,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF0_OS"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2084,7 +2427,8 @@
 			)
 			(pin input line
 				(at -6.35 0 0)
-				(length 3.81) hide
+				(length 3.81)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -2163,10 +2507,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF1"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2283,10 +2632,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF11"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2421,10 +2775,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF11_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2583,10 +2942,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BUF_IF1_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2727,10 +3091,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND2_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2779,9 +3148,21 @@
 		)
 		(symbol "NAND2_OD_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7825 0)
-				(end 0 3.81)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2800,18 +3181,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -2881,10 +3250,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND2_OS"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2933,9 +3307,21 @@
 		)
 		(symbol "NAND2_OS_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7825 0)
-				(end 0 3.81)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2954,18 +3340,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -3035,10 +3409,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND3_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3087,9 +3466,21 @@
 		)
 		(symbol "NAND3_OD_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7825 0)
-				(end 0 3.81)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3108,18 +3499,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -3207,10 +3586,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND4_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3259,9 +3643,21 @@
 		)
 		(symbol "NAND4_OD_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7825 0)
-				(end 0 3.81)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3280,18 +3676,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -3397,10 +3781,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND5_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3448,10 +3837,10 @@
 			)
 		)
 		(symbol "NAND5_OD_1_1"
-			(arc
-				(start 0 -3.81)
-				(mid 3.7825 0)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -3.81 5.08) (xy -3.81 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3472,9 +3861,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -3.81 5.08) (xy -3.81 3.81)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -3494,18 +3895,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -3629,10 +4018,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND6_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3680,10 +4074,10 @@
 			)
 		)
 		(symbol "NAND6_OD_1_1"
-			(arc
-				(start 0 -3.81)
-				(mid 3.7712 0)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -3.81 6.35) (xy -3.81 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3704,9 +4098,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0 3.81)
+				(mid 3.7712 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -3.81 6.35) (xy -3.81 3.81)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -3726,18 +4132,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -3879,10 +4273,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND7_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3930,10 +4329,10 @@
 			)
 		)
 		(symbol "NAND7_OD_1_1"
-			(arc
-				(start 0 -3.81)
-				(mid 3.7825 0)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -3.81 7.62) (xy -3.81 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3954,9 +4353,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -3.81 7.62) (xy -3.81 3.81)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -3976,18 +4387,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -4147,10 +4546,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND8_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4198,10 +4602,10 @@
 			)
 		)
 		(symbol "NAND8_OD_1_1"
-			(arc
-				(start 0 -3.81)
-				(mid 3.7825 0)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -3.81 8.89) (xy -3.81 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4222,9 +4626,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -3.81 8.89) (xy -3.81 3.81)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -4244,18 +4660,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -4433,10 +4837,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NAND9_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4484,10 +4893,10 @@
 			)
 		)
 		(symbol "NAND9_OD_1_1"
-			(arc
-				(start 0 -3.81)
-				(mid 3.7825 0)
-				(end 0 3.81)
+			(polyline
+				(pts
+					(xy -3.81 10.16) (xy -3.81 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4508,9 +4917,21 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -3.81 10.16) (xy -3.81 3.81)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -4530,18 +4951,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -4570,24 +4979,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -4736,11 +5127,34 @@
 					)
 				)
 			)
+			(pin tri_state inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NOR2_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4789,9 +5203,9 @@
 		)
 		(symbol "NOR2_OD_1_1"
 			(arc
-				(start -3.8102 -3.81)
+				(start -3.8102 3.81)
 				(mid -2.5892 0)
-				(end -3.8102 3.81)
+				(end -3.8102 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4800,10 +5214,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6098 -3.81)
-				(mid 2.1853 -2.584)
-				(end 3.8098 0)
+			(polyline
+				(pts
+					(xy -3.8102 3.81) (xy -0.6352 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4824,12 +5238,38 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.8102 3.81) (xy -0.6352 3.81)
-				)
+			(arc
+				(start 3.8098 0)
+				(mid 2.1853 -2.584)
+				(end -0.6098 -3.81)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6098 3.81)
+				(mid 2.1927 2.5925)
+				(end 3.8098 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606) (xy -2.6926 1.0414)
+					(xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81) (xy -3.8102 -3.81)
+					(xy -0.6352 -3.81)
+				)
+				(stroke
+					(width -25.4)
 					(type default)
 				)
 				(fill
@@ -4858,32 +5298,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606) (xy -2.6926 1.0414)
-					(xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81) (xy -3.8102 -3.81)
-					(xy -0.6352 -3.81)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.8098 0)
-				(mid 2.1926 2.5925)
-				(end -0.6098 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin input line
@@ -4941,10 +5355,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NOT_IF01"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5079,10 +5498,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NOT_IF11"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5217,10 +5641,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OAI21_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5269,9 +5698,9 @@
 		)
 		(symbol "OAI21_OD_1_1"
 			(arc
-				(start -6.9841 -0.635)
+				(start -6.9841 5.715)
 				(mid -5.9668 2.54)
-				(end -6.9841 5.715)
+				(end -6.9841 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5280,10 +5709,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -4.4441 -0.635)
-				(mid -1.734 0.2698)
-				(end 0.0007 2.54)
+			(polyline
+				(pts
+					(xy -6.9841 5.715) (xy -4.4441 5.715)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5304,9 +5733,59 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0.0007 2.54)
+				(mid -1.734 0.2698)
+				(end -4.4441 -0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -4.4441 5.715)
+				(mid -1.7279 4.8188)
+				(end 0.0007 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -6.9841 5.715) (xy -4.4441 5.715)
+					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
+					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
+					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8109 2.54)
+				(mid 7.5934 -1.27)
+				(end 3.8109 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -5330,18 +5809,6 @@
 			)
 			(polyline
 				(pts
-					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
 					(xy 6.985 -1.27) (xy 5.715 0) (xy 4.445 -1.27) (xy 5.715 -2.54) (xy 6.985 -1.27)
 				)
 				(stroke
@@ -5350,44 +5817,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
-					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
-					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 0.0007 2.54)
-				(mid -1.7279 4.8188)
-				(end -4.4441 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.8109 -5.08)
-				(mid 7.5934 -1.27)
-				(end 3.8109 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin input line
@@ -5463,10 +5892,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OAI31_OD"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5515,9 +5949,9 @@
 		)
 		(symbol "OAI31_OD_1_1"
 			(arc
-				(start -6.9841 -0.635)
+				(start -6.9841 5.715)
 				(mid -5.9668 2.54)
-				(end -6.9841 5.715)
+				(end -6.9841 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5526,10 +5960,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -4.4441 -0.635)
-				(mid -1.734 0.2698)
-				(end 0.0007 2.54)
+			(polyline
+				(pts
+					(xy -6.9841 5.715) (xy -4.4441 5.715)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5550,9 +5984,59 @@
 					(type background)
 				)
 			)
+			(arc
+				(start 0.0007 2.54)
+				(mid -1.734 0.2698)
+				(end -4.4441 -0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -4.4441 5.715)
+				(mid -1.7279 4.8188)
+				(end 0.0007 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -6.9841 5.715) (xy -4.4441 5.715)
+					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
+					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
+					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8109 2.54)
+				(mid 7.5934 -1.27)
+				(end 3.8109 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -5576,18 +6060,6 @@
 			)
 			(polyline
 				(pts
-					(xy 3.8109 2.54) (xy 0.0009 2.54) (xy 0.0009 -5.08) (xy 3.8109 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
 					(xy 6.985 -1.27) (xy 5.715 0) (xy 4.445 -1.27) (xy 5.715 -2.54) (xy 6.985 -1.27)
 				)
 				(stroke
@@ -5596,44 +6068,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.4441 5.715) (xy -6.9587 5.6896) (xy -6.5523 5.0292) (xy -6.2475 4.318) (xy -6.0951 3.6576)
-					(xy -5.9427 2.9464) (xy -5.9427 2.1336) (xy -6.0443 1.4224) (xy -6.3491 0.5588) (xy -6.6031 0)
-					(xy -6.9079 -0.6096) (xy -4.4441 -0.635)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 0.0007 2.54)
-				(mid -1.7279 4.8188)
-				(end -4.4441 5.715)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.8109 -5.08)
-				(mid 7.5934 -1.27)
-				(end 3.8109 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin input line
@@ -5727,5 +6161,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

@@ -1,19 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "430cb0cd-a96b-48a9-9bc7-225d47d6bd06")
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-04-12")
+		(date "2025-04-22")
 		(rev "0.7")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
 	(lib_symbols
 		(symbol "DMG_CPU_Cells:AND2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -62,9 +64,9 @@
 			)
 			(symbol "AND2_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AND3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -191,9 +196,9 @@
 			)
 			(symbol "AND3_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7825 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -287,9 +292,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AO22"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,33 +346,9 @@
 			)
 			(symbol "AO22_1_1"
 				(arc
-					(start -3.175 -6.985)
-					(mid -0.05 -3.81)
-					(end -3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 0.635)
-					(mid -0.05 3.81)
-					(end -3.175 6.985)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.0002 -3.81)
+					(start -0.0002 3.81)
 					(mid 1.2208 0)
-					(end -0.0002 3.81)
+					(end -0.0002 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -373,10 +357,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+				(arc
+					(start -3.175 6.985)
+					(mid -0.05 3.81)
+					(end -3.175 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -0.635)
+					(mid -0.05 -3.81)
+					(end -3.175 -6.985)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -387,7 +383,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.0002 3.81) (xy 3.1748 3.81)
+						(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -411,8 +407,44 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+						(xy -0.0002 3.81) (xy 3.1748 3.81)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.6198 0)
+					(mid 5.9953 -2.584)
+					(end 3.2002 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.2002 3.81)
+					(mid 6.0027 2.5925)
+					(end 7.6198 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -428,30 +460,6 @@
 					)
 					(stroke
 						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.2002 -3.81)
-					(mid 5.9953 -2.584)
-					(end 7.6198 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 7.6198 0)
-					(mid 6.0026 2.5925)
-					(end 3.2002 3.81)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -549,9 +557,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AO2222"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -600,57 +611,9 @@
 			)
 			(symbol "AO2222_1_1"
 				(arc
-					(start -3.175 -14.605)
-					(mid -0.05 -11.43)
-					(end -3.175 -8.255)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 -6.985)
-					(mid -0.05 -3.81)
-					(end -3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 0.635)
-					(mid -0.05 3.81)
-					(end -3.175 6.985)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 8.255)
-					(mid -0.05 11.43)
-					(end -3.175 14.605)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.0002 -3.81)
+					(start -0.0002 3.81)
 					(mid 1.2208 0)
-					(end -0.0002 3.81)
+					(end -0.0002 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -659,10 +622,46 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -11.43)
+				(arc
+					(start -3.175 14.605)
+					(mid -0.05 11.43)
+					(end -3.175 8.255)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 6.985)
+					(mid -0.05 3.81)
+					(end -3.175 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -0.635)
+					(mid -0.05 -3.81)
+					(end -3.175 -6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -8.255)
+					(mid -0.05 -11.43)
+					(end -3.175 -14.605)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -673,55 +672,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.0002 3.81) (xy 3.1748 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 11.43) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -8.255) (xy -6.985 -8.255) (xy -6.985 -14.605) (xy -3.175 -14.605)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+						(xy -3.175 14.605) (xy -6.985 14.605) (xy -6.985 8.255) (xy -3.175 8.255)
 					)
 					(stroke
 						(width 0.254)
@@ -745,8 +696,92 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 14.605) (xy -6.985 14.605) (xy -6.985 8.255) (xy -3.175 8.255)
+						(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -8.255) (xy -6.985 -8.255) (xy -6.985 -14.605) (xy -3.175 -14.605)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 3.81) (xy 3.1748 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 11.43) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.6198 0)
+					(mid 5.9953 -2.584)
+					(end 3.2002 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.2002 3.81)
+					(mid 6.0027 2.5925)
+					(end 7.6198 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -762,30 +797,6 @@
 					)
 					(stroke
 						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.2002 -3.81)
-					(mid 5.9953 -2.584)
-					(end 7.6198 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 7.6198 0)
-					(mid 6.0026 2.5925)
-					(end 3.2002 3.81)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -955,9 +966,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:AO222222"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1006,81 +1020,9 @@
 			)
 			(symbol "AO222222_1_1"
 				(arc
-					(start -3.175 -22.225)
-					(mid -0.05 -19.05)
-					(end -3.175 -15.875)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 -14.605)
-					(mid -0.05 -11.43)
-					(end -3.175 -8.255)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 -6.985)
-					(mid -0.05 -3.81)
-					(end -3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 0.635)
-					(mid -0.05 3.81)
-					(end -3.175 6.985)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 8.255)
-					(mid -0.05 11.43)
-					(end -3.175 14.605)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.175 15.875)
-					(mid -0.05 19.05)
-					(end -3.175 22.225)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.0002 -3.81)
+					(start -0.0002 3.81)
 					(mid 1.2208 0)
-					(end -0.0002 3.81)
+					(end -0.0002 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1089,10 +1031,70 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -19.05)
+				(arc
+					(start -3.175 22.225)
+					(mid -0.05 19.05)
+					(end -3.175 15.875)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 14.605)
+					(mid -0.05 11.43)
+					(end -3.175 8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 6.985)
+					(mid -0.05 3.81)
+					(end -3.175 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -0.635)
+					(mid -0.05 -3.81)
+					(end -3.175 -6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -8.255)
+					(mid -0.05 -11.43)
+					(end -3.175 -14.605)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -15.875)
+					(mid -0.05 -19.05)
+					(end -3.175 -22.225)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1103,79 +1105,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.0002 3.81) (xy 3.1748 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 19.05) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -15.875) (xy -6.985 -15.875) (xy -6.985 -22.225) (xy -3.175 -22.225)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -8.255) (xy -6.985 -8.255) (xy -6.985 -14.605) (xy -3.175 -14.605)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
+						(xy -3.175 22.225) (xy -6.985 22.225) (xy -6.985 15.875) (xy -3.175 15.875)
 					)
 					(stroke
 						(width 0.254)
@@ -1199,8 +1129,116 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 22.225) (xy -6.985 22.225) (xy -6.985 15.875) (xy -3.175 15.875)
+						(xy -3.175 6.985) (xy -6.985 6.985) (xy -6.985 0.635) (xy -3.175 0.635)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -6.985 -0.635) (xy -6.985 -6.985) (xy -3.175 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -8.255) (xy -6.985 -8.255) (xy -6.985 -14.605) (xy -3.175 -14.605)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -15.875) (xy -6.985 -15.875) (xy -6.985 -22.225) (xy -3.175 -22.225)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 3.81) (xy 3.1748 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 -3.81) (xy 3.1748 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 19.05) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.6198 0)
+					(mid 5.9953 -2.584)
+					(end 3.2002 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.2002 3.81)
+					(mid 6.0027 2.5925)
+					(end 7.6198 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1222,30 +1260,6 @@
 						(type background)
 					)
 				)
-				(arc
-					(start 3.2002 -3.81)
-					(mid 5.9953 -2.584)
-					(end 7.6198 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 7.6198 0)
-					(mid 6.0026 2.5925)
-					(end 3.2002 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
 					(at -11.43 20.32 0)
 					(length 4.3)
@@ -1260,78 +1274,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -12.7 0)
-					(length 4.3)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -17.78 0)
-					(length 4.3)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -20.32 0)
-					(length 4.3)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1480,10 +1422,85 @@
 						)
 					)
 				)
+				(pin input line
+					(at -11.43 -12.7 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -17.78 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -20.32 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:DFFR"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1581,26 +1598,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 0 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "~{RESET}"
 						(effects
 							(font
@@ -1616,17 +1616,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 -2.54 0)
 					(length 3.81)
-					(name "~{Q}"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1652,10 +1652,31 @@
 						)
 					)
 				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 3.81)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:MUX"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1706,16 +1727,16 @@
 				)
 			)
 			(symbol "MUX_0_0"
-				(text "0"
-					(at 0 -2.54 0)
+				(text "1"
+					(at 0 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "1"
-					(at 0 2.54 0)
+				(text "0"
+					(at 0 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1738,24 +1759,6 @@
 				)
 			)
 			(symbol "MUX_1_1"
-				(pin input line
-					(at 0 7.62 270)
-					(length 3.17)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 3.81)
@@ -1792,6 +1795,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 3.17)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 6.35 0 180)
 					(length 3.81)
@@ -1811,9 +1832,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NAND5"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1861,10 +1885,10 @@
 				)
 			)
 			(symbol "NAND5_1_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7825 0)
-					(end 0 3.81)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1885,10 +1909,10 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 3.81)
-					)
+				(arc
+					(start 0 3.81)
+					(mid 3.7825 0)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2018,9 +2042,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2069,39 +2096,15 @@
 			)
 			(symbol "NOR2_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -2118,12 +2121,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2132,10 +2133,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -2197,9 +2224,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2248,39 +2278,15 @@
 			)
 			(symbol "NOR3_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -2297,12 +2303,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2311,10 +2315,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -2394,9 +2424,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR4"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2445,39 +2478,15 @@
 			)
 			(symbol "NOR4_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -2494,12 +2503,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2508,10 +2515,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -2609,9 +2642,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR5"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2660,9 +2696,9 @@
 			)
 			(symbol "NOR5_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2671,21 +2707,9 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy -3.81 -3.81) (xy -3.81 -5.08)
+						(xy -3.8102 3.81) (xy -0.6352 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2698,18 +2722,6 @@
 				(polyline
 					(pts
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 3.81) (xy -0.6352 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2733,12 +2745,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+						(xy -3.81 -3.81) (xy -3.81 -5.08)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2747,10 +2757,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -2866,9 +2902,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOR_LATCH"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2947,17 +2986,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 -2.54 0)
 					(length 3.81)
-					(name "~{Q}"
+					(name "RESET"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2983,17 +3022,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 3.81)
-					(name "RESET"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3002,10 +3041,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_X1"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3102,10 +3146,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:NOT_X2"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3202,9 +3251,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:OR2"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3253,39 +3305,15 @@
 			)
 			(symbol "OR2_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -3302,12 +3330,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3316,10 +3342,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -3381,9 +3433,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:OR3"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3432,39 +3487,15 @@
 			)
 			(symbol "OR3_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -3481,12 +3512,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
-						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
 						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
 					)
 					(stroke
-						(width -25.4)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3495,10 +3524,36 @@
 				)
 				(arc
 					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606)
+						(xy -2.6926 1.0414) (xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81)
+						(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+					)
+					(stroke
+						(width -25.4)
 						(type default)
 					)
 					(fill
@@ -3578,9 +3633,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:TFFNL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3641,17 +3699,17 @@
 				)
 			)
 			(symbol "TFFNL_1_1"
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input inverted_clock
+					(at -10.16 2.54 0)
 					(length 3.81)
-					(name "Q"
+					(name "TCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3679,7 +3737,8 @@
 				)
 				(pin input line
 					(at -10.16 0 0)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "LOAD"
 						(effects
 							(font
@@ -3714,6 +3773,24 @@
 					)
 				)
 				(pin output line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 3.81)
 					(name "~{Q}"
@@ -3731,28 +3808,13 @@
 						)
 					)
 				)
-				(pin input inverted_clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(name "TCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG_CPU_Cells:XNOR"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3804,9 +3866,9 @@
 			)
 			(symbol "XNOR_1_0"
 				(arc
-					(start -4.5468 -3.81)
+					(start -4.5468 3.81)
 					(mid -3.3305 0)
-					(end -4.5468 3.81)
+					(end -4.5468 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3818,9 +3880,9 @@
 			)
 			(symbol "XNOR_1_1"
 				(arc
-					(start -3.8102 -3.81)
+					(start -3.8102 3.81)
 					(mid -2.5892 0)
-					(end -3.8102 3.81)
+					(end -3.8102 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3829,10 +3891,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6098 -3.81)
-					(mid 2.1853 -2.584)
-					(end 3.8098 0)
+				(polyline
+					(pts
+						(xy -3.8102 3.81) (xy -0.6352 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3853,10 +3915,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.8102 3.81) (xy -0.6352 3.81)
+				(arc
+					(start 3.8098 0)
+					(mid 2.1853 -2.584)
+					(end -0.6098 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6098 3.81)
+					(mid 2.1927 2.5925)
+					(end 3.8098 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3877,36 +3951,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start 3.8098 0)
-					(mid 2.1926 2.5925)
-					(end -0.6098 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -3945,8 +3989,214 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "FF22_D7-4 = \"0000\", Noise Counter CLK/2"
+		(exclude_from_sim no)
+		(at 173.99 123.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c50ed2d-a688-4fae-a193-e027883b21a9")
+	)
+	(text "FF22_D7-4 = \"1101\", Noise Counter CLK/16384"
+		(exclude_from_sim no)
+		(at 173.99 20.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4160ca7e-2c4d-4775-83ae-001470c3d6b7")
+	)
+	(text "FF22_D7-4 = \"0101\", Noise Counter CLK/64"
+		(exclude_from_sim no)
+		(at 173.99 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b393128-7714-47bd-9d6f-caa4e2bd427c")
+	)
+	(text "FF22_D7-4 = \"0100\", Noise Counter CLK/32"
+		(exclude_from_sim no)
+		(at 173.99 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f425bcd-9e99-45e8-add0-b56dea153c7f")
+	)
+	(text "FF22_D7-4 = \"1011\", Noise Counter CLK/4096\n"
+		(exclude_from_sim no)
+		(at 173.99 36.195 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8476be79-0cb5-4025-a37f-e3d01d0be9aa")
+	)
+	(text "FF22_D7-4 = \"1000\", Noise Counter CLK/512"
+		(exclude_from_sim no)
+		(at 173.99 59.055 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "943eae85-634f-4c63-a11b-2ad16bfb1489")
+	)
+	(text "FF22_D7-4 = \"0011\", Noise Counter CLK/16"
+		(exclude_from_sim no)
+		(at 173.99 100.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c01d269-24ea-4ca3-9bcd-155e5a3870ea")
+	)
+	(text "FF22_D7-4 = \"0111\", Noise Counter CLK/256"
+		(exclude_from_sim no)
+		(at 173.99 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a933c5ba-f945-4dd2-893a-4487dbc70fc4")
+	)
+	(text "64Hz\n"
+		(exclude_from_sim no)
+		(at 317.5 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9551796-c7b2-4daf-9ef8-d15c8050e54c")
+	)
+	(text "FF22_D7-4 = \"1010\", Noise Counter CLK/2048"
+		(exclude_from_sim no)
+		(at 173.99 43.815 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d7a761-59eb-47e9-bba4-bf1f36914491")
+	)
+	(text "FF22_D7-4 = \"0110\", Noise Counter CLK/128"
+		(exclude_from_sim no)
+		(at 173.99 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba189288-74f1-4819-b2b2-c71712b9ae0f")
+	)
+	(text "FF22_D7-4 = \"1001\", Noise Counter CLK/1024"
+		(exclude_from_sim no)
+		(at 173.99 51.435 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf9f0e37-fcac-4eb3-818a-4721cb89cd7e")
+	)
+	(text "EG timer"
+		(exclude_from_sim no)
+		(at 365.125 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c95f2638-4a76-4883-8ba5-9e9ed5ad658c")
+	)
+	(text "FF22_D7-4 = \"0001\", Noise Counter CLK/4\n"
+		(exclude_from_sim no)
+		(at 173.99 116.205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4dd1fa-db44-45e8-bbac-427c5134b6bd")
+	)
+	(text "FF22_D7-4 = \"0010\", Noise Counter CLK/8"
+		(exclude_from_sim no)
+		(at 173.99 108.585 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e627d202-8860-47bb-87db-97659b96bc07")
+	)
+	(text "FF22_D7-4 = \"1100\", Noise Counter CLK/8192"
+		(exclude_from_sim no)
+		(at 173.99 28.575 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4d38085-2b0b-445c-a18d-9f4d1e13b84b")
+	)
+	(text "Frequency divider: \nNoise Counter CLK = 1MHz/ 1, 2, 4, 6, 8, 10, 12 or 14"
+		(exclude_from_sim no)
+		(at 21.59 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8b7f4b2-f63c-4529-92be-e584d2b1f7ac")
 	)
 	(junction
 		(at 200.66 134.62)
@@ -12215,193 +12465,6 @@
 			(type default)
 		)
 		(uuid "ff65f5b7-f923-4385-ad48-d2d0399031bc")
-	)
-	(text "FF22_D7-4 = \"0000\", Noise Counter CLK/2"
-		(exclude_from_sim no)
-		(at 173.99 123.825 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c50ed2d-a688-4fae-a193-e027883b21a9")
-	)
-	(text "FF22_D7-4 = \"1101\", Noise Counter CLK/16384"
-		(exclude_from_sim no)
-		(at 173.99 20.955 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4160ca7e-2c4d-4775-83ae-001470c3d6b7")
-	)
-	(text "FF22_D7-4 = \"0101\", Noise Counter CLK/64"
-		(exclude_from_sim no)
-		(at 173.99 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b393128-7714-47bd-9d6f-caa4e2bd427c")
-	)
-	(text "FF22_D7-4 = \"0100\", Noise Counter CLK/32"
-		(exclude_from_sim no)
-		(at 173.99 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f425bcd-9e99-45e8-add0-b56dea153c7f")
-	)
-	(text "FF22_D7-4 = \"1011\", Noise Counter CLK/4096\n"
-		(exclude_from_sim no)
-		(at 173.99 36.195 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8476be79-0cb5-4025-a37f-e3d01d0be9aa")
-	)
-	(text "FF22_D7-4 = \"1000\", Noise Counter CLK/512"
-		(exclude_from_sim no)
-		(at 173.99 59.055 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "943eae85-634f-4c63-a11b-2ad16bfb1489")
-	)
-	(text "FF22_D7-4 = \"0011\", Noise Counter CLK/16"
-		(exclude_from_sim no)
-		(at 173.99 100.965 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c01d269-24ea-4ca3-9bcd-155e5a3870ea")
-	)
-	(text "FF22_D7-4 = \"0111\", Noise Counter CLK/256"
-		(exclude_from_sim no)
-		(at 173.99 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a933c5ba-f945-4dd2-893a-4487dbc70fc4")
-	)
-	(text "64Hz\n"
-		(exclude_from_sim no)
-		(at 317.5 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9551796-c7b2-4daf-9ef8-d15c8050e54c")
-	)
-	(text "FF22_D7-4 = \"1010\", Noise Counter CLK/2048"
-		(exclude_from_sim no)
-		(at 173.99 43.815 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6d7a761-59eb-47e9-bba4-bf1f36914491")
-	)
-	(text "FF22_D7-4 = \"0110\", Noise Counter CLK/128"
-		(exclude_from_sim no)
-		(at 173.99 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba189288-74f1-4819-b2b2-c71712b9ae0f")
-	)
-	(text "FF22_D7-4 = \"1001\", Noise Counter CLK/1024"
-		(exclude_from_sim no)
-		(at 173.99 51.435 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf9f0e37-fcac-4eb3-818a-4721cb89cd7e")
-	)
-	(text "EG timer"
-		(exclude_from_sim no)
-		(at 365.125 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c95f2638-4a76-4883-8ba5-9e9ed5ad658c")
-	)
-	(text "FF22_D7-4 = \"0001\", Noise Counter CLK/4\n"
-		(exclude_from_sim no)
-		(at 173.99 116.205 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc4dd1fa-db44-45e8-bbac-427c5134b6bd")
-	)
-	(text "FF22_D7-4 = \"0010\", Noise Counter CLK/8"
-		(exclude_from_sim no)
-		(at 173.99 108.585 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e627d202-8860-47bb-87db-97659b96bc07")
-	)
-	(text "FF22_D7-4 = \"1100\", Noise Counter CLK/8192"
-		(exclude_from_sim no)
-		(at 173.99 28.575 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4d38085-2b0b-445c-a18d-9f4d1e13b84b")
-	)
-	(text "Frequency divider: \nNoise Counter CLK = 1MHz/ 1, 2, 4, 6, 8, 10, 12 or 14"
-		(exclude_from_sim no)
-		(at 21.59 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8b7f4b2-f63c-4529-92be-e584d2b1f7ac")
 	)
 	(label "~{FF22_D3}"
 		(at 53.34 254 0)

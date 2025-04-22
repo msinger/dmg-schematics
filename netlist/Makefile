@@ -74,6 +74,8 @@ SM83_NETLIST_FILES = \
 	sm83/alu.nl \
 	sm83/dec-types.nl \
 	sm83/dec.nl \
+	sm83/seq-types.nl \
+	sm83/seq.nl \
 	sm83/signals.nl \
 	sm83/categories.nl
 
