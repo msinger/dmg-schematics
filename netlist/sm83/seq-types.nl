@@ -1,6 +1,47 @@
 # Type definitions of cells in sequencer in the top right corner
 # --------------------------------------------------------------
 
+type nand2_d:red in1 in2 y:out
+	   @-31.81,243.00,-29.59,248.16
+	in1@-31.19,243.00
+	in2@-30.66,243.00
+	y  @-30.09,243.00
+	"NAND gate with two inputs.";
+
+type nor2_b:blue in1 in2 y:out
+	   @-33.38,242.97,-31.13,248.13
+	in1@-31.94,248.13
+	in2@-32.50,248.13
+	y  @-32.13,244.00
+	"NOR gate with two inputs.";
+
+type not_x3_p2:black in y:out
+	  @-34.69,243.00,-32.72,248.09
+	in@-34.00,245.66
+	y @-33.06,247.13
+	"Inverter with 3× drive strength and a PMOS-to-NMOS size ratio of 2:1.";
+
+type and2:red in1 in2 y:out
+	   @-46.16,243.03,-43.38,248.13
+	in1@-45.56,243.03
+	in2@-44.94,243.03
+	y  @-43.88,243.03
+	"AND gate with two inputs.";
+
+type not_b:black in y:out
+	  @-47.06,243.03,-45.56,248.16
+	in@-46.22,243.03,-46.22,248.16
+	y @-46.63,243.03
+	"Simple inverter.";
+
+type and3:red in1 in2 in3 y:out
+	   @-61.44,243.03,-56.72,248.13
+	in1@-59.03,243.03
+	in2@-59.97,248.13
+	in3@-60.78,245.66
+	y  @-57.81,243.03
+	"AND gate with three inputs.";
+
 type oa211_in1_n_in3_n:green ~in1 in2 ~in3 in4 y:out
 	    @-71.03,243.03,-65.53,248.16
 	~in1@-66.91,248.16
@@ -93,7 +134,8 @@ type aoi331_s3:green in1 in2 in3 in4 in5 in6 y:out
 type srlatch_r_n:yellow s ~r q:out
 	  @-119.44,243.06,-116.19,248.25
 	s @-118.75,243.06,-118.75,244.50
-	~r@-118.38,243.06,-118.75,248.25
+	~r@-118.38,243.06
+	~r@-118.75,248.25
 	q @-117.44,245.38
 	"SR-latch with active-high set input and active-low reset input. Reset takes precedence when both inputs are asserted.";
 

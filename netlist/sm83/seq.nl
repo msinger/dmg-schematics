@@ -1,6 +1,19 @@
 # Cells in sequencer in the top right corner
 # ------------------------------------------
 
+cell zaza:dff_cc_q          rot180,flip @-23.81,242.97,-17.72,248.13                                      ->seq;
+cell zorp:dff_cc_q          rot180,flip @-29.88,242.97,-23.78,248.09                                      ->seq;
+cell ziks:nand2_d           rot0        @-31.81,243.00,-29.59,248.16                                      ->seq;
+cell zwlm:nor2_b            rot0        @-33.38,242.97,-31.13,248.13                                      ->seq;
+cell zjbf:not_x3_p2         rot0        @-34.69,243.00,-32.72,248.09                                      ->seq;
+cell zumn:srlatch_r_n       rot0        @-37.25,243.03,-34.06,248.13   ~r@-36.16,243.00                   ->seq;
+cell zkai:dff_cc_q          rot180,flip @-43.59,243.03,-37.50,248.09                                      ->seq;
+cell ziul:and2              rot0        @-46.16,243.03,-43.38,248.13                                      ->seq;
+cell zudn:not_b             rot0        @-47.06,243.03,-45.56,248.16                                      ->seq;
+cell zrby:dff_cc_q          rot180,flip @-53.88,243.03,-47.72,248.16                                      ->seq;
+cell zloz:srlatch_r_n       rot0        @-57.38,243.03,-54.22,248.13   s@-56.69,243.03 ~r@-56.28,243.03   ->seq;
+cell zyoc:and3              rot0        @-61.44,243.03,-56.72,248.13                                      ->seq;
+cell zojz:srlatch_r_n       rot0        @-63.91,243.06,-60.72,248.13   s@-63.28,243.06 ~r@-62.88,243.06   ->seq;
 cell zlyz:oa211_in1_n_in3_n rot0        @-71.03,243.03,-65.53,248.16                                      ->seq;
 cell zacw:dff_cc_q          rot180,flip @-77.28,243.03,-71.16,248.16                                      ->seq;
 cell zfex:or2_b             rot0        @-80.13,242.97,-77.19,248.16                                      ->seq;
