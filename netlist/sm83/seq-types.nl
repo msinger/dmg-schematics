@@ -100,6 +100,16 @@ type dff_cc_q:orange d clk ~clk q:out
 	q   @-103.72,244.28,-103.72,247.03
 	"Single-edge-triggered data flip-flop with complementary clock inputs and no inverted output.";
 
+type dff_cc_q_alt:orange d clk ~clk q:out
+	    @-40.88,224.58,-33.92,229.69
+	d   @-38.03,224.58
+	clk @-37.50,229.69
+	clk @-39.52,229.69
+	~clk@-37.50,224.58
+	~clk@-39.50,224.58
+	q   @-40.88,225.39
+	"Single-edge-triggered data flip-flop with complementary clock inputs and no inverted output.";
+
 type not_a:black in y:out
 	  @-105.34,243.09,-103.97,248.22
 	in@-104.84,248.22
@@ -139,6 +149,13 @@ type srlatch_r_n:yellow s ~r q:out
 	q @-117.44,245.38
 	"SR-latch with active-high set input and active-low reset input. Reset takes precedence when both inputs are asserted.";
 
+type srlatch_r_n_alt:yellow s ~r q:out
+	  @-40.09,233.50,-36.55,239.17
+	s @-38.59,236.31
+	~r@-39.16,233.50
+	q @-36.55,236.67
+	"SR-latch with active-high set input and active-low reset input. Reset takes precedence when both inputs are asserted.";
+
 type ao33_s3_tap_in1_n:green in1 in2 in3 in4 in5
                              y:out tap_~in1:out
 	        @-124.28,243.03,-118.53,248.25
@@ -150,3 +167,65 @@ type ao33_s3_tap_in1_n:green in1 in2 in3 in4 in5
 	y       @-118.97,244.84
 	tap_~in1@-123.84,243.03
 	"3-3 AND-OR two-level compound gate with shared IN3, and inverting tap on IN1.";
+
+type oai21:green in1 in2 in3 y:out
+	   @-25.80,233.48,-23.28,239.19
+	in1@-25.80,236.50
+	in2@-23.28,236.50
+	in3@-25.56,233.48
+	y  @-23.94,233.48
+	"2-1 OR-AND-INVERT two-level compound gate.";
+
+type nor2_in2_n:blue in1 ~in2 y:out
+	    @-28.47,233.50,-25.73,238.63
+	in1 @-27.78,233.50
+	~in2@-25.95,233.50
+	y   @-25.73,235.96
+	"NOR gate with two inputs, one of them inverted.";
+
+type or3_a:blue in1 in2 in3 y:out
+	   @-37.67,233.52,-34.41,238.61
+	in1@-36.36,233.52
+	in2@-35.45,233.52
+	in3@-34.41,235.24,-34.41,236.16
+	y  @-37.28,235.97
+	"OR gate with three inputs.";
+
+type or3_b:blue in1 in2 in3 y:out
+	   @-43.64,233.56,-39.53,239.17
+	in1@-39.53,236.73
+	in1@-40.22,239.17
+	in2@-40.73,233.56
+	in3@-41.31,239.17
+	y  @-43.64,237.07
+	"OR gate with three inputs.";
+
+type aoi21_a:green in1 in2 in3 y:out
+	   @-50.77,233.52,-48.33,238.61
+	in1@-49.00,233.52
+	in2@-49.38,238.61
+	in3@-50.13,233.52
+	y  @-49.73,233.52
+	"2-1 AND-OR-INVERT two-level compound gate.";
+
+type not_c:black in y:out
+	  @-51.84,233.53,-49.86,238.64
+	in@-51.02,233.53
+	y @-51.56,233.53
+	"Simple inverter.";
+
+type dlatch_q:yellow d ena ~ena q:out
+	    @-61.80,233.55,-56.45,239.19
+	d   @-57.81,236.55
+	ena @-58.89,233.82
+	~ena@-58.53,239.19
+	q   @-59.81,234.88
+	"Gated data latch with no inverted output.";
+
+type nor2_c:blue in1 in2 y:out
+	   @-62.78,233.56,-60.41,238.64
+	in1@-60.41,234.36
+	in2@-61.25,233.56
+	y  @-62.78,236.76
+	"NOR gate with two inputs.";
+
