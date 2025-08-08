@@ -245,8 +245,8 @@ type mux_idu_h:green d0 d1 sel y:out
 	y  @-153.69,194.88
 	"Multiplexer with two inputs.";
 
-type dlatch_irq:yellow d ena ~ena q:out ~q:out
-                       ~pch ~ena_q gated_~q:out
+type dlatch_ee_irq:yellow d ena ~ena q:out ~q:out
+                          ~pch ~ena_q gated_~q:out
 	        @-155.28,210.28,-143.28,215.44
 	d       @-153.34,210.28
 	ena     @-155.28,214.00,-143.28,214.00
@@ -258,9 +258,9 @@ type dlatch_irq:yellow d ena ~ena q:out ~q:out
 	~pch    @-146.56,214.00
 	~ena_q  @-145.97,215.44
 	gated_~q@-143.81,215.44
-	"Gated data latch with additional dynamically controlled inverted output.";
+	"Gated data latch with externally inverted enable inputs and additional dynamically controlled inverted output.";
 
-type dffge_x1_reg_bit:orange d ena ~ena clk ~clk q:out
+type dff_cc_ee_q_x1_reg_bit:orange d ena ~ena clk ~clk q:out
 	    @-149.95,35.25,-143.13,41.52
 	d   @-149.47,40.66
 	ena @-149.95,39.56,-143.13,39.56
@@ -268,9 +268,9 @@ type dffge_x1_reg_bit:orange d ena ~ena clk ~clk q:out
 	clk @-149.95,40.12,-143.13,40.12
 	~clk@-149.95,36.65,-143.13,36.65
 	q   @-143.59,35.25
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no inverted output.";
 
-type dffge_x2_reg_bit:orange d ena ~ena clk ~clk q:out
+type dff_cc_ee_q_x2_reg_bit:orange d ena ~ena clk ~clk q:out
 	    @-149.95,35.25,-143.13,41.52
 	d   @-149.47,40.66
 	ena @-149.95,39.56,-143.13,39.56
@@ -278,9 +278,9 @@ type dffge_x2_reg_bit:orange d ena ~ena clk ~clk q:out
 	clk @-149.95,40.12,-143.13,40.12
 	~clk@-149.95,36.65,-143.13,36.65
 	q   @-143.59,35.25
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, 2× drive strength, and no inverted output.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, 2× drive strength, and no inverted output.";
 
-type dffge_reg_wz_bit:orange d ena ~ena clk ~clk ~q:out
+type dff_cc_ee_q_n_reg_wz_bit:orange d ena ~ena clk ~clk ~q:out
 	    @-149.91,128.78,-143.06,135.00
 	d   @-149.38,130.38
 	ena @-149.91,133.06,-143.06,133.06
@@ -288,10 +288,10 @@ type dffge_reg_wz_bit:orange d ena ~ena clk ~clk ~q:out
 	clk @-149.91,133.63,-143.06,133.63
 	~clk@-149.91,130.16,-143.06,130.16
 	~q  @-143.53,128.78
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no non-inverted output.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no non-inverted output.";
 
-type dffge_reg_sp_bit:orange d:inout ~pch
-                             ena ~ena clk ~clk q:out ~q:out
+type dff_cc_ee_pch_d_reg_sp_bit:orange d:inout ~pch
+                                       ena ~ena clk ~clk q:out ~q:out
 	    @-149.91,153.75,-143.00,160.56
 	d   @-149.38,153.75
 	~pch@-149.91,155.09,-143.00,155.09
@@ -301,10 +301,10 @@ type dffge_reg_sp_bit:orange d:inout ~pch
 	~clk@-149.91,155.66,-143.00,155.66
 	q   @-143.53,153.75
 	~q  @-144.41,153.75
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and prechargable D input.";
 
-type dffgse_reg_pc_bit:orange d:inout ~pch ~s
-                              ena ~ena clk ~clk q:out ~q:out
+type dffs_cc_ee_pch_d_reg_pc_bit:orange d:inout ~pch ~s
+                                        ena ~ena clk ~clk q:out ~q:out
 	    @-149.91,179.25,-143.03,187.16
 	d   @-149.34,179.25
 	~pch@-149.91,181.19,-143.03,181.19
@@ -316,10 +316,10 @@ type dffgse_reg_pc_bit:orange d:inout ~pch ~s
 	~clk@-149.91,181.75,-143.03,181.75
 	q   @-143.50,179.25
 	~q  @-144.38,179.25
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, prechargable D input, and active-low asynchronous set with clock-gated behavior.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, prechargable D input, and active-low set gated by the clock level.";
 
-type dffgre_reg_ie_bit:orange d r
-                              ena ~ena clk ~clk q:out ~q:out
+type dffr_cc_ee_reg_ie_bit:orange d r
+                                  ena ~ena clk ~clk q:out ~q:out
 	    @-150.22,202.97,-143.34,210.84
 	d   @-149.53,203.78
 	r   @-150.22,209.47,-143.34,209.47
@@ -330,7 +330,7 @@ type dffgre_reg_ie_bit:orange d r
 	~clk@-150.22,205.40,-143.34,205.40
 	q   @-143.84,210.84
 	~q  @-144.75,210.84
-	"Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and active-high asynchronous reset with clock-gated behavior.";
+	"Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and active-high reset gated by the clock level.";
 
 type reg_a_out:lime in a_ena b_ena a_y:tri b_y:tri
 	     @-149.81,40.91,-143.22,44.16

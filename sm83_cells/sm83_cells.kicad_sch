@@ -6,7 +6,7 @@
 	(paper "User" 2000 2000)
 	(title_block
 		(title "SM83 Cells - Circuits")
-		(date "2025-08-07")
+		(date "2025-08-08")
 		(rev "0")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -6676,6 +6676,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NOT_IF01_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_IF01"
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_IF01_1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NOT_IF01_1_1_1"
+				(pin input inverted
+					(at -0.635 5.08 270)
+					(length 2.5)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 4)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NOT_IF01_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_IF01"
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_IF01_2_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NOT_IF01_2_1_1"
+				(pin input inverted
+					(at -0.635 5.08 270)
+					(length 2.5)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 4)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OA21_1"
 			(pin_numbers
 				(hide yes)
@@ -7643,6 +7929,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SM83_Cells:AO31_IN3_N"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO31_IN3_N"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#ao31_in3_n"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-1 AND-OR two-level compound gate with inverted IN3."
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO31_IN3_N_1_1"
+				(arc
+					(start -0.0002 2.54)
+					(mid 1.2208 -1.27)
+					(end -0.0002 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.175 5.715)
+					(mid -0.05 2.54)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 5.715) (xy -6.985 5.715) (xy -6.985 -0.635) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 2.54) (xy 3.1748 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.0002 -5.08) (xy 3.1748 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.6198 -1.27)
+					(mid 5.9953 -3.854)
+					(end 3.2002 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.2002 2.54)
+					(mid 6.0027 1.3225)
+					(end 7.6198 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 2.54) (xy 0 2.54) (xy 0 2.54) (xy 0.254 2.1336) (xy 0.7874 0.9906) (xy 1.1176 -0.2286)
+						(xy 1.1938 -1.524) (xy 1.0414 -2.7686) (xy 0.635 -3.9878) (xy 0 -5.08) (xy 0 -5.08) (xy 3.175 -5.08)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -11.43 5.08 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -11.43 0 0)
+					(length 4.3)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 12)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -1.27 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SM83_Cells:AOI21_A"
 			(pin_numbers
 				(hide yes)
@@ -8234,7 +8764,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFGE_REG_SP_BIT"
+		(symbol "SM83_Cells:DFFN_EE_PCH_D_ALU_FLAG"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8249,7 +8779,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFGE_REG_SP_BIT"
+			(property "Value" "DFFN_EE_PCH_D_ALU_FLAG"
 				(at 0 -6.985 0)
 				(effects
 					(font
@@ -8266,7 +8796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_sp_bit"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_pch_d_alu_flag"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -8275,7 +8805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
+			(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -8284,7 +8814,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFGE_REG_SP_BIT_0_1"
+			(symbol "DFFN_EE_PCH_D_ALU_FLAG_0_1"
 				(rectangle
 					(start -6.35 5.715)
 					(end 6.35 -5.715)
@@ -8297,30 +8827,11 @@
 					)
 				)
 			)
-			(symbol "DFFGE_REG_SP_BIT_1_1"
-				(pin input clock
+			(symbol "DFFN_EE_PCH_D_ALU_FLAG_1_1"
+				(pin input inverted_clock
 					(at -10.16 3.81 0)
 					(length 3.81)
 					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 3.81 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{CLK}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8447,7 +8958,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFGE_REG_WZ_BIT"
+		(symbol "SM83_Cells:DFFN_EE_Q_ALU_TMP"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8462,7 +8973,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFGE_REG_WZ_BIT"
+			(property "Value" "DFFN_EE_Q_ALU_TMP"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -8479,7 +8990,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_wz_bit"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_tmp"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -8488,7 +8999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no non-inverted output."
+			(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -8497,7 +9008,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFGE_REG_WZ_BIT_0_1"
+			(symbol "DFFN_EE_Q_ALU_TMP_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -8510,207 +9021,11 @@
 					)
 				)
 			)
-			(symbol "DFFGE_REG_WZ_BIT_1_1"
-				(pin input clock
+			(symbol "DFFN_EE_Q_ALU_TMP_1_1"
+				(pin input inverted_clock
 					(at -10.16 2.54 0)
 					(length 3.81)
 					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{CLK}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(name "ENA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{ENA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 3.81)
-					(name "~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SM83_Cells:DFFGE_X1_REG_BIT"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DFFGE_X1_REG_BIT"
-				(at 0 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x1_reg_bit"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DFFGE_X1_REG_BIT_0_1"
-				(rectangle
-					(start -6.35 4.445)
-					(end 6.35 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DFFGE_X1_REG_BIT_1_1"
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{CLK}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8801,184 +9116,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFGE_X2_REG_BIT"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DFFGE_X2_REG_BIT"
-				(at 0 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x2_reg_bit"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, doubled driving strength, and no inverted output."
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DFFGE_X2_REG_BIT_0_1"
-				(rectangle
-					(start -6.35 4.445)
-					(end 6.35 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DFFGE_X2_REG_BIT_1_1"
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{CLK}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(name "ENA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(hide yes)
-					(name "~{ENA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 3.81)
-					(name "Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SM83_Cells:DFFGRE_REG_IE_BIT"
+		(symbol "SM83_Cells:DFFR_CC_EE_REG_IE_BIT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8993,7 +9131,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFGRE_REG_IE_BIT"
+			(property "Value" "DFFR_CC_EE_REG_IE_BIT"
 				(at 0 -6.985 0)
 				(effects
 					(font
@@ -9010,7 +9148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgre_reg_ie_bit"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffr_cc_ee_reg_ie_bit"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -9019,7 +9157,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and active-high asynchronous reset with clock-gated behavior."
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and active-high reset gated by the clock level."
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -9028,7 +9166,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFGRE_REG_IE_BIT_0_1"
+			(symbol "DFFR_CC_EE_REG_IE_BIT_0_1"
 				(rectangle
 					(start -6.35 5.715)
 					(end 6.35 -5.715)
@@ -9041,7 +9179,7 @@
 					)
 				)
 			)
-			(symbol "DFFGRE_REG_IE_BIT_1_1"
+			(symbol "DFFR_CC_EE_REG_IE_BIT_1_1"
 				(pin input clock
 					(at -10.16 3.81 0)
 					(length 3.81)
@@ -9191,7 +9329,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFGSE_REG_PC_BIT"
+		(symbol "SM83_Cells:DFFS_CC_EE_PCH_D_REG_PC_BIT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -9206,7 +9344,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFGSE_REG_PC_BIT"
+			(property "Value" "DFFS_CC_EE_PCH_D_REG_PC_BIT"
 				(at 0 -8.255 0)
 				(effects
 					(font
@@ -9223,7 +9361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgse_reg_pc_bit"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffs_cc_ee_pch_d_reg_pc_bit"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -9232,7 +9370,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, prechargable D input, and active-low asynchronous set with clock-gated behavior."
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, prechargable D input, and active-low set gated by the clock level."
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -9241,7 +9379,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFGSE_REG_PC_BIT_0_1"
+			(symbol "DFFS_CC_EE_PCH_D_REG_PC_BIT_0_1"
 				(rectangle
 					(start -6.35 6.985)
 					(end 6.35 -6.985)
@@ -9254,7 +9392,7 @@
 					)
 				)
 			)
-			(symbol "DFFGSE_REG_PC_BIT_1_1"
+			(symbol "DFFS_CC_EE_PCH_D_REG_PC_BIT_1_1"
 				(pin input clock
 					(at -10.16 5.08 0)
 					(length 3.81)
@@ -9422,7 +9560,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFNGE_ALU_FLAG"
+		(symbol "SM83_Cells:DFF_CC_EE_PCH_D_REG_SP_BIT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -9437,7 +9575,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFNGE_ALU_FLAG"
+			(property "Value" "DFF_CC_EE_PCH_D_REG_SP_BIT"
 				(at 0 -6.985 0)
 				(effects
 					(font
@@ -9454,7 +9592,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_flag"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_pch_d_reg_sp_bit"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -9463,7 +9601,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -9472,7 +9610,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFNGE_ALU_FLAG_0_1"
+			(symbol "DFF_CC_EE_PCH_D_REG_SP_BIT_0_1"
 				(rectangle
 					(start -6.35 5.715)
 					(end 6.35 -5.715)
@@ -9485,11 +9623,30 @@
 					)
 				)
 			)
-			(symbol "DFFNGE_ALU_FLAG_1_1"
-				(pin input inverted_clock
+			(symbol "DFF_CC_EE_PCH_D_REG_SP_BIT_1_1"
+				(pin input clock
 					(at -10.16 3.81 0)
 					(length 3.81)
 					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{CLK}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9616,7 +9773,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFNGE_ALU_TMP"
+		(symbol "SM83_Cells:DFF_CC_EE_Q_N_REG_WZ_BIT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -9631,7 +9788,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFNGE_ALU_TMP"
+			(property "Value" "DFF_CC_EE_Q_N_REG_WZ_BIT"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -9648,7 +9805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_tmp"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_n_reg_wz_bit"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -9657,7 +9814,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no non-inverted output."
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -9666,7 +9823,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFNGE_ALU_TMP_0_1"
+			(symbol "DFF_CC_EE_Q_N_REG_WZ_BIT_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -9679,11 +9836,384 @@
 					)
 				)
 			)
-			(symbol "DFFNGE_ALU_TMP_1_1"
-				(pin input inverted_clock
+			(symbol "DFF_CC_EE_Q_N_REG_WZ_BIT_1_1"
+				(pin input clock
 					(at -10.16 2.54 0)
 					(length 3.81)
 					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{CLK}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{ENA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 3.81)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:DFF_CC_EE_Q_X1_REG_BIT"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DFF_CC_EE_Q_X1_REG_BIT"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x1_reg_bit"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DFF_CC_EE_Q_X1_REG_BIT_0_1"
+				(rectangle
+					(start -6.35 4.445)
+					(end 6.35 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DFF_CC_EE_Q_X1_REG_BIT_1_1"
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{CLK}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{ENA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:DFF_CC_EE_Q_X2_REG_BIT"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DFF_CC_EE_Q_X2_REG_BIT"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x2_reg_bit"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, 2× drive strength, and no inverted output."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DFF_CC_EE_Q_X2_REG_BIT_0_1"
+				(rectangle
+					(start -6.35 4.445)
+					(end 6.35 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DFF_CC_EE_Q_X2_REG_BIT_1_1"
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(hide yes)
+					(name "~{CLK}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10054,7 +10584,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DLATCH_IRQ"
+		(symbol "SM83_Cells:DLATCH_EE_IRQ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10069,7 +10599,7 @@
 					)
 				)
 			)
-			(property "Value" "DLATCH_IRQ"
+			(property "Value" "DLATCH_EE_IRQ"
 				(at 0 -6.985 0)
 				(effects
 					(font
@@ -10086,7 +10616,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_irq"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_irq"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -10095,7 +10625,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gated data latch with additional dynamically controlled inverted output."
+			(property "Description" "Gated data latch with externally inverted enable inputs and additional dynamically controlled inverted output."
 				(at -0.254 -11.43 0)
 				(effects
 					(font
@@ -10104,7 +10634,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DLATCH_IRQ_0_1"
+			(symbol "DLATCH_EE_IRQ_0_1"
 				(rectangle
 					(start -7.62 5.715)
 					(end 7.62 -5.715)
@@ -10117,7 +10647,7 @@
 					)
 				)
 			)
-			(symbol "DLATCH_IRQ_1_1"
+			(symbol "DLATCH_EE_IRQ_1_1"
 				(pin input line
 					(at -11.43 3.81 0)
 					(length 3.81)
@@ -10266,7 +10796,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DLATCH_Q"
+		(symbol "SM83_Cells:DLATCH_EE_Q"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10281,7 +10811,7 @@
 					)
 				)
 			)
-			(property "Value" "DLATCH_Q"
+			(property "Value" "DLATCH_EE_Q"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -10298,7 +10828,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_q"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -10307,7 +10837,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gated data latch with no inverted output."
+			(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -10316,7 +10846,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DLATCH_Q_0_1"
+			(symbol "DLATCH_EE_Q_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -10329,7 +10859,7 @@
 					)
 				)
 			)
-			(symbol "DLATCH_Q_1_1"
+			(symbol "DLATCH_EE_Q_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 3.81)
@@ -18937,7 +19467,7 @@
 	)
 	(rectangle
 		(start 793.115 278.13)
-		(end 996.95 408.305)
+		(end 996.95 410.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -19186,6 +19716,18 @@
 			(type none)
 		)
 		(uuid a4254233-afe0-4ead-b041-a872dc536ab4)
+	)
+	(rectangle
+		(start 1791.97 396.24)
+		(end 1910.08 497.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a4c10bfd-2ce9-40b8-89e0-6497e2c30a1f)
 	)
 	(rectangle
 		(start 14.605 142.24)
@@ -19578,6 +20120,17 @@
 			(justify left bottom)
 		)
 		(uuid "30694e21-d345-4138-b993-548ad82bdd8d")
+	)
+	(text "AO31_IN3_N"
+		(exclude_from_sim no)
+		(at 1845.945 400.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3072bd2f-d9fc-48e6-b7bc-7abdab2e98b8")
 	)
 	(text "DFF_CC_Q"
 		(exclude_from_sim no)
@@ -20096,7 +20649,7 @@
 		)
 		(uuid "eb2c08d3-6c35-4c3d-b087-c41c257f4c84")
 	)
-	(text "DLATCH_Q"
+	(text "DLATCH_EE_Q"
 		(exclude_from_sim no)
 		(at 1428.115 386.715 0)
 		(effects
@@ -20731,6 +21284,12 @@
 		(uuid "1655f2e7-2e3e-46cd-aa9e-5244f9b9cb6b")
 	)
 	(junction
+		(at 1851.66 424.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d2f422-52bc-4991-8d50-108d7e237343")
+	)
+	(junction
 		(at 534.035 453.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20755,10 +21314,22 @@
 		(uuid "1834df5d-a0a7-442d-9071-c8849f408779")
 	)
 	(junction
+		(at 864.87 395.605)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b53007-482f-4c36-ba3b-38e8a26814d1")
+	)
+	(junction
 		(at 1761.49 430.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18bcb87c-b95f-414e-82e7-9c6758d8aea8")
+	)
+	(junction
+		(at 628.015 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1906732d-89ee-4a76-a343-ee58763a42e8")
 	)
 	(junction
 		(at 655.955 394.97)
@@ -20855,6 +21426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e39c310-5605-458d-be1c-79286da9c51a")
+	)
+	(junction
+		(at 1859.28 430.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e3dfb73-51dc-4cbc-b107-8d0c4a56a473")
 	)
 	(junction
 		(at 184.15 420.37)
@@ -21403,6 +21980,12 @@
 		(uuid "337523aa-da47-4251-9fa6-ac8bd09d0af0")
 	)
 	(junction
+		(at 857.885 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d829bc-3538-4964-9b9e-22a778794b6b")
+	)
+	(junction
 		(at 610.235 581.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21931,6 +22514,12 @@
 		(uuid "46088ece-b067-4f37-b0b5-4191305a89fa")
 	)
 	(junction
+		(at 1819.91 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "461c4cdb-0b30-495b-aae6-14d4b99433c9")
+	)
+	(junction
 		(at 1490.98 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22259,6 +22848,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5304b0e0-11ad-42e9-b971-ba70d7cebda2")
+	)
+	(junction
+		(at 838.835 255.905)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "533d34dd-1ee0-45f1-a385-6ed0f49091b5")
 	)
 	(junction
 		(at 267.97 371.475)
@@ -23131,6 +23726,12 @@
 		(uuid "763d73a2-71d0-4cc8-897c-06fbac0a997b")
 	)
 	(junction
+		(at 628.015 268.605)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768b3392-dc9e-4cbd-a276-c96ff8fc58af")
+	)
+	(junction
 		(at 198.755 327.025)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23201,6 +23802,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79bca971-6f6c-4afd-a0b8-ab92b797913c")
+	)
+	(junction
+		(at 1826.26 417.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a07c193-f2a6-47d6-b572-c9cf7ff7567e")
 	)
 	(junction
 		(at 480.06 689.61)
@@ -23381,6 +23988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82413785-93e9-4be7-9831-6c44150fb101")
+	)
+	(junction
+		(at 1811.02 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82985687-dcdb-48e6-a929-01225c032cdd")
 	)
 	(junction
 		(at 940.435 198.12)
@@ -23857,12 +24470,6 @@
 		(uuid "98718e67-f453-4f87-8306-a898286609d9")
 	)
 	(junction
-		(at 857.885 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98eeed8b-596c-4795-8899-706387179ab2")
-	)
-	(junction
 		(at 854.075 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24277,6 +24884,12 @@
 		(uuid "ab9a5acd-cab4-4494-97fb-57df88a59537")
 	)
 	(junction
+		(at 1842.77 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba76403-71e1-4ff9-8115-60c6cd81f7a2")
+	)
+	(junction
 		(at 233.68 43.815)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24379,7 +24992,7 @@
 		(uuid "ae34d05c-a7a3-4809-8a62-50fe249fafc7")
 	)
 	(junction
-		(at 76.835 107.315)
+		(at 67.945 107.315)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae67b32a-a872-494a-a2d2-0209d92b8e8b")
@@ -24491,6 +25104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1de22a3-c561-430c-aeca-961f220bf3e0")
+	)
+	(junction
+		(at 889.635 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b204ac41-50e6-44af-8e11-bb2cfba3ca32")
 	)
 	(junction
 		(at 382.27 273.685)
@@ -24781,6 +25400,12 @@
 		(uuid "be954e58-3125-49a0-81b6-5b64139d5b57")
 	)
 	(junction
+		(at 1884.68 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beec5a06-1204-479c-a2b1-6d8b60202d15")
+	)
+	(junction
 		(at 715.645 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24845,6 +25470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c061ff03-55de-45f4-a764-daacd9585ca9")
+	)
+	(junction
+		(at 624.205 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c068cf57-1bf3-4cd0-a2b6-379578e54de3")
 	)
 	(junction
 		(at 285.115 61.595)
@@ -24967,6 +25598,12 @@
 		(uuid "c4db9394-bc91-4937-abdc-c08bbcf8d9dd")
 	)
 	(junction
+		(at 1868.17 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c56b4f91-50ca-4021-ab2e-b30ace27a857")
+	)
+	(junction
 		(at 1261.11 398.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25025,6 +25662,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7e2b6f0-4269-41b8-88b0-893609c6d218")
+	)
+	(junction
+		(at 1868.17 424.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8625488-5490-465a-9a58-62a9f884f81d")
 	)
 	(junction
 		(at 1062.99 514.985)
@@ -25123,7 +25766,7 @@
 		(uuid "cb9054b8-3144-4989-8740-561c7334f106")
 	)
 	(junction
-		(at 838.835 243.84)
+		(at 831.215 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbbf19c2-8438-4bbc-9009-a581668dc3cd")
@@ -25205,12 +25848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce95febb-6476-4376-82d6-af4a0cc55420")
-	)
-	(junction
-		(at 624.205 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfbe8f7c-7180-468d-bbea-1f972d9a32aa")
 	)
 	(junction
 		(at 931.545 198.12)
@@ -25337,6 +25974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d44da7d1-310c-4789-bd94-f541021f07af")
+	)
+	(junction
+		(at 1875.79 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47e637d-36cb-470f-9836-42b4461cb4d5")
 	)
 	(junction
 		(at 695.96 936.625)
@@ -25687,6 +26330,12 @@
 		(uuid "e23946ef-158d-4bbf-a011-3e3e5c2176db")
 	)
 	(junction
+		(at 1840.23 427.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25b2a22-8a2e-45e4-a0b5-2d25a52fc70d")
+	)
+	(junction
 		(at 704.85 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25799,6 +26448,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5d12be7-de22-42a4-b8ec-dedc0e5024d7")
+	)
+	(junction
+		(at 75.565 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6574e60-bdee-4615-86ce-02065658ca3c")
 	)
 	(junction
 		(at 1708.15 189.23)
@@ -26353,6 +27008,12 @@
 		(uuid "fccec434-a4ca-4516-a31a-e701cffc8bf2")
 	)
 	(junction
+		(at 655.955 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fce6a207-46e3-4ea5-bda2-219ff1592c63")
+	)
+	(junction
 		(at 539.75 1042.035)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26598,6 +27259,16 @@
 	)
 	(wire
 		(pts
+			(xy 838.835 256.54) (xy 838.835 255.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013038b8-6216-4c36-bdba-0007646495ba")
+	)
+	(wire
+		(pts
 			(xy 1892.3 60.96) (xy 1899.92 60.96)
 		)
 		(stroke
@@ -26655,6 +27326,16 @@
 			(type default)
 		)
 		(uuid "01615f9c-cdd7-4697-a0b2-a2ae810c2027")
+	)
+	(wire
+		(pts
+			(xy 1819.91 441.96) (xy 1819.91 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01665d34-5eaa-4672-8647-f21f519afc46")
 	)
 	(wire
 		(pts
@@ -27128,7 +27809,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 111.125) (xy 78.74 111.125)
+			(xy 60.96 111.125) (xy 69.85 111.125)
 		)
 		(stroke
 			(width 0)
@@ -27918,7 +28599,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 71.12 119.38)
+			(xy 60.96 119.38) (xy 62.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -29708,6 +30389,16 @@
 	)
 	(wire
 		(pts
+			(xy 1868.17 435.61) (xy 1868.17 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecc79bb-7ce8-48fe-8fe6-c3cfa83d313d")
+	)
+	(wire
+		(pts
 			(xy 1193.8 409.575) (xy 1203.96 409.575)
 		)
 		(stroke
@@ -30625,6 +31316,16 @@
 			(type default)
 		)
 		(uuid "1284692b-95b8-47a0-8a39-883a491c66f3")
+	)
+	(wire
+		(pts
+			(xy 655.955 139.7) (xy 655.955 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1291a5a0-fe89-4bed-a011-7070f863a496")
 	)
 	(wire
 		(pts
@@ -32528,7 +33229,7 @@
 	)
 	(wire
 		(pts
-			(xy 889.635 123.825) (xy 889.635 138.43)
+			(xy 889.635 123.825) (xy 889.635 131.445)
 		)
 		(stroke
 			(width 0)
@@ -32565,6 +33266,16 @@
 			(type default)
 		)
 		(uuid "1a9ff841-145f-4320-8767-1b80847502ea")
+	)
+	(wire
+		(pts
+			(xy 1884.68 436.88) (xy 1897.38 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aaf33dd-d03a-4efe-b731-e0446ae69529")
 	)
 	(wire
 		(pts
@@ -33358,13 +34069,23 @@
 	)
 	(wire
 		(pts
-			(xy 838.835 243.84) (xy 838.835 250.825)
+			(xy 831.215 243.84) (xy 831.215 250.825)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d81f991-d389-4223-b59c-972ccae283bc")
+	)
+	(wire
+		(pts
+			(xy 1859.28 443.23) (xy 1860.55 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db7c4e0-7b43-4081-a308-68b3aff285d3")
 	)
 	(wire
 		(pts
@@ -34548,6 +35269,16 @@
 	)
 	(wire
 		(pts
+			(xy 1836.42 481.33) (xy 1837.69 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f44fac-8eb1-49b7-91d0-32f0648be73b")
+	)
+	(wire
+		(pts
 			(xy 849.63 111.76) (xy 849.63 133.35)
 		)
 		(stroke
@@ -35345,6 +36076,16 @@
 			(type default)
 		)
 		(uuid "26040316-6675-48e4-8a29-0d628f1aa451")
+	)
+	(wire
+		(pts
+			(xy 1835.15 424.18) (xy 1851.66 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26044aa5-9e52-4bbb-b1bf-103cdcb2a0ec")
 	)
 	(wire
 		(pts
@@ -36208,6 +36949,16 @@
 	)
 	(wire
 		(pts
+			(xy 1868.17 424.18) (xy 1868.17 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2960e93b-685a-451b-8ab3-71410605bc19")
+	)
+	(wire
+		(pts
 			(xy 1381.76 34.29) (xy 1381.76 45.72)
 		)
 		(stroke
@@ -36588,6 +37339,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.565 119.38) (xy 75.565 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeb7171-a5e6-4263-bf8b-9aa6b3af6708")
+	)
+	(wire
+		(pts
 			(xy 178.435 315.595) (xy 178.435 292.1)
 		)
 		(stroke
@@ -36958,7 +37719,7 @@
 	)
 	(wire
 		(pts
-			(xy 624.205 126.365) (xy 624.205 138.43)
+			(xy 624.205 126.365) (xy 624.205 131.445)
 		)
 		(stroke
 			(width 0)
@@ -37158,6 +37919,16 @@
 	)
 	(wire
 		(pts
+			(xy 628.015 412.115) (xy 628.015 413.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6f8e79-7f18-4461-8749-7c46c33e37bf")
+	)
+	(wire
+		(pts
 			(xy 659.13 719.455) (xy 655.955 719.455)
 		)
 		(stroke
@@ -37338,6 +38109,16 @@
 	)
 	(wire
 		(pts
+			(xy 864.87 403.86) (xy 864.87 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3f681c-d615-49d2-9e79-4f56ca86574d")
+	)
+	(wire
+		(pts
 			(xy 472.44 683.895) (xy 470.535 683.895)
 		)
 		(stroke
@@ -37445,6 +38226,16 @@
 			(type default)
 		)
 		(uuid "2eac02ef-a987-4307-a2b1-a9aaa3a217d0")
+	)
+	(wire
+		(pts
+			(xy 1840.23 427.99) (xy 1840.23 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eafb54d-c57e-48bd-8cf5-bcd761d22ff0")
 	)
 	(wire
 		(pts
@@ -37915,6 +38706,16 @@
 			(type default)
 		)
 		(uuid "30fc5c0f-5636-4064-bc2c-a3e7546d11ad")
+	)
+	(wire
+		(pts
+			(xy 1819.91 443.23) (xy 1842.77 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311326e1-b9ff-4c7b-8d51-b9ba3583f7e0")
 	)
 	(wire
 		(pts
@@ -38538,6 +39339,16 @@
 	)
 	(wire
 		(pts
+			(xy 1826.26 417.83) (xy 1827.53 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3381f9eb-3af0-4bdd-8f12-fe009d8bd3d5")
+	)
+	(wire
+		(pts
 			(xy 1725.93 415.29) (xy 1725.93 448.31)
 		)
 		(stroke
@@ -38948,6 +39759,16 @@
 	)
 	(wire
 		(pts
+			(xy 628.015 269.24) (xy 628.015 268.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e37351-52f6-4c12-b8c3-a76d852caa30")
+	)
+	(wire
+		(pts
 			(xy 619.125 455.93) (xy 619.125 456.565)
 		)
 		(stroke
@@ -39138,6 +39959,16 @@
 	)
 	(wire
 		(pts
+			(xy 1851.66 424.18) (xy 1868.17 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a4a371-9c47-4d3e-ad2a-6ca2b2f0c7a5")
+	)
+	(wire
+		(pts
 			(xy 1663.7 195.58) (xy 1663.7 234.95)
 		)
 		(stroke
@@ -39155,6 +39986,16 @@
 			(type default)
 		)
 		(uuid "35b9d0cb-ed8c-4ead-8424-70d632e0bb59")
+	)
+	(wire
+		(pts
+			(xy 1811.02 443.23) (xy 1811.02 449.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dd3d6f-36ed-4a43-ab10-90d87b59b193")
 	)
 	(wire
 		(pts
@@ -40058,7 +40899,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 394.97) (xy 669.925 400.05)
+			(xy 669.925 394.97) (xy 669.925 404.495)
 		)
 		(stroke
 			(width 0)
@@ -40268,7 +41109,7 @@
 	)
 	(wire
 		(pts
-			(xy 655.955 123.825) (xy 655.955 138.43)
+			(xy 655.955 123.825) (xy 655.955 131.445)
 		)
 		(stroke
 			(width 0)
@@ -40498,7 +41339,7 @@
 	)
 	(wire
 		(pts
-			(xy 909.955 399.415) (xy 909.955 400.05)
+			(xy 909.955 403.86) (xy 909.955 405.13)
 		)
 		(stroke
 			(width 0)
@@ -40775,6 +41616,16 @@
 			(type default)
 		)
 		(uuid "3d5cf10a-358b-4d79-af11-5697edea936d")
+	)
+	(wire
+		(pts
+			(xy 1836.42 490.22) (xy 1837.69 490.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d626939-2fd6-406f-8d32-944825803fd8")
 	)
 	(wire
 		(pts
@@ -41778,6 +42629,16 @@
 	)
 	(wire
 		(pts
+			(xy 838.835 255.905) (xy 857.885 255.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42842420-c1ab-4618-adca-0e179a8ee600")
+	)
+	(wire
+		(pts
 			(xy 403.225 90.805) (xy 400.05 90.805)
 		)
 		(stroke
@@ -41888,7 +42749,7 @@
 	)
 	(wire
 		(pts
-			(xy 857.885 138.43) (xy 889.635 138.43)
+			(xy 857.885 131.445) (xy 889.635 131.445)
 		)
 		(stroke
 			(width 0)
@@ -42538,7 +43399,7 @@
 	)
 	(wire
 		(pts
-			(xy 909.955 386.715) (xy 909.955 391.795)
+			(xy 909.955 386.715) (xy 909.955 396.24)
 		)
 		(stroke
 			(width 0)
@@ -43278,6 +44139,16 @@
 	)
 	(wire
 		(pts
+			(xy 628.015 403.86) (xy 655.955 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6adeba-8438-45bf-a43e-7af15264a1e6")
+	)
+	(wire
+		(pts
 			(xy 1358.9 340.36) (xy 1358.9 347.345)
 		)
 		(stroke
@@ -43425,6 +44296,16 @@
 			(type default)
 		)
 		(uuid "4b2ba114-c17c-4626-b856-342666bc8f67")
+	)
+	(wire
+		(pts
+			(xy 1868.17 411.48) (xy 1868.17 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2d1147-8c33-4907-a17f-d404cb580517")
 	)
 	(wire
 		(pts
@@ -43628,7 +44509,17 @@
 	)
 	(wire
 		(pts
-			(xy 831.85 255.905) (xy 833.12 255.905)
+			(xy 864.87 396.24) (xy 864.87 395.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1c4d93-d216-4fb1-ba8f-87f2508a97c4")
+	)
+	(wire
+		(pts
+			(xy 824.23 255.905) (xy 825.5 255.905)
 		)
 		(stroke
 			(width 0)
@@ -45078,6 +45969,16 @@
 	)
 	(wire
 		(pts
+			(xy 1840.23 453.39) (xy 1840.23 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c91c61-fa0f-4b2f-aa18-8444642a25f4")
+	)
+	(wire
+		(pts
 			(xy 1389.38 67.31) (xy 1390.015 67.31)
 		)
 		(stroke
@@ -45188,7 +46089,7 @@
 	)
 	(wire
 		(pts
-			(xy 845.82 255.905) (xy 857.885 255.905)
+			(xy 838.2 255.905) (xy 838.835 255.905)
 		)
 		(stroke
 			(width 0)
@@ -45225,6 +46126,16 @@
 			(type default)
 		)
 		(uuid "535ae452-282e-4ce7-9c0b-14a9790f769f")
+	)
+	(wire
+		(pts
+			(xy 1851.66 438.15) (xy 1851.66 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53836db9-8111-4118-a408-c962c6d67972")
 	)
 	(wire
 		(pts
@@ -45775,6 +46686,16 @@
 			(type default)
 		)
 		(uuid "564e6bef-0704-4fc7-87fb-520a10a07ec5")
+	)
+	(wire
+		(pts
+			(xy 628.015 276.86) (xy 628.015 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5658abe0-1e09-4261-91d2-5c57fa8a3a49")
 	)
 	(wire
 		(pts
@@ -46768,7 +47689,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 259.715) (xy 669.925 264.795)
+			(xy 669.925 259.715) (xy 669.925 269.24)
 		)
 		(stroke
 			(width 0)
@@ -46825,6 +47746,26 @@
 			(type default)
 		)
 		(uuid "5aebffb1-7d41-4c8f-9c1f-08e70c53367c")
+	)
+	(wire
+		(pts
+			(xy 1836.42 486.41) (xy 1837.69 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aecd3fb-2d5a-44d0-9b2e-4d4d3207b980")
+	)
+	(wire
+		(pts
+			(xy 1842.77 427.99) (xy 1859.28 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b006808-d876-408b-9f2c-5bb691652728")
 	)
 	(wire
 		(pts
@@ -46998,6 +47939,16 @@
 	)
 	(wire
 		(pts
+			(xy 838.835 264.16) (xy 838.835 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7d5b5a-3646-4817-953e-57089338b42c")
+	)
+	(wire
+		(pts
 			(xy 949.325 447.04) (xy 949.325 458.47)
 		)
 		(stroke
@@ -47155,6 +48106,16 @@
 			(type default)
 		)
 		(uuid "5bfc413b-fc4b-4fe9-95ab-907467ad8945")
+	)
+	(wire
+		(pts
+			(xy 1884.68 469.9) (xy 1884.68 448.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c02a874-d025-4f20-814f-f30368b6a895")
 	)
 	(wire
 		(pts
@@ -48418,7 +49379,7 @@
 	)
 	(wire
 		(pts
-			(xy 838.835 243.84) (xy 850.9 243.84)
+			(xy 831.215 243.84) (xy 850.9 243.84)
 		)
 		(stroke
 			(width 0)
@@ -48675,6 +49636,16 @@
 			(type default)
 		)
 		(uuid "61e428fb-2d6b-42df-9c50-c629e457a575")
+	)
+	(wire
+		(pts
+			(xy 1884.68 435.61) (xy 1884.68 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e5dbc3-0512-4b8b-a186-47e708a9f560")
 	)
 	(wire
 		(pts
@@ -49198,6 +50169,16 @@
 	)
 	(wire
 		(pts
+			(xy 1805.94 417.83) (xy 1826.26 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f97136-41fa-4e4b-916c-7e4c6f273d32")
+	)
+	(wire
+		(pts
 			(xy 1249.68 393.7) (xy 1256.03 393.7)
 		)
 		(stroke
@@ -49305,6 +50286,16 @@
 			(type default)
 		)
 		(uuid "6488b0a4-741d-4070-9559-dbba2b44fb70")
+	)
+	(wire
+		(pts
+			(xy 1859.28 430.53) (xy 1859.28 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6489b967-c478-4d57-bbad-17acca1cec94")
 	)
 	(wire
 		(pts
@@ -52738,6 +53729,16 @@
 	)
 	(wire
 		(pts
+			(xy 1805.94 427.99) (xy 1840.23 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733d233f-da99-4d71-9575-b2c608224754")
+	)
+	(wire
+		(pts
 			(xy 1370.33 215.9) (xy 1370.33 210.82)
 		)
 		(stroke
@@ -53398,7 +54399,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 136.525) (xy 669.925 142.24)
+			(xy 669.925 139.7) (xy 669.925 140.97)
 		)
 		(stroke
 			(width 0)
@@ -54018,7 +55019,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 111.125) (xy 78.74 114.3)
+			(xy 69.85 111.125) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -55558,6 +56559,16 @@
 	)
 	(wire
 		(pts
+			(xy 1811.02 436.88) (xy 1811.02 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e73e4a8-9104-4515-8f32-940fef3bcf6d")
+	)
+	(wire
+		(pts
 			(xy 51.435 497.84) (xy 50.165 497.84)
 		)
 		(stroke
@@ -56408,6 +57419,16 @@
 	)
 	(wire
 		(pts
+			(xy 1819.91 469.9) (xy 1819.91 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81df5e98-7494-48e6-bba2-ea47b9a6890d")
+	)
+	(wire
+		(pts
 			(xy 641.35 501.015) (xy 638.175 501.015)
 		)
 		(stroke
@@ -57128,6 +58149,26 @@
 	)
 	(wire
 		(pts
+			(xy 1859.28 427.99) (xy 1859.28 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ce5e86-8b83-451b-8cff-b5763622aa17")
+	)
+	(wire
+		(pts
+			(xy 75.565 127.635) (xy 75.565 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e7601f-1622-4963-83af-7607ef728223")
+	)
+	(wire
+		(pts
 			(xy 1644.65 59.69) (xy 1644.65 60.96)
 		)
 		(stroke
@@ -57608,6 +58649,16 @@
 	)
 	(wire
 		(pts
+			(xy 1844.04 453.39) (xy 1840.23 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868db330-7ce5-4b79-bddd-415419e92ab8")
+	)
+	(wire
+		(pts
 			(xy 694.69 664.845) (xy 694.69 666.115)
 		)
 		(stroke
@@ -57648,6 +58699,16 @@
 	)
 	(wire
 		(pts
+			(xy 1851.66 411.48) (xy 1851.66 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ca433a-731d-42c8-a274-815b2727f686")
+	)
+	(wire
+		(pts
 			(xy 282.575 727.71) (xy 290.195 727.71)
 		)
 		(stroke
@@ -57685,6 +58746,16 @@
 			(type default)
 		)
 		(uuid "86e6d5c8-5c40-43ab-b401-4d830ea95212")
+	)
+	(wire
+		(pts
+			(xy 1851.66 469.9) (xy 1851.66 468.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fe3ab2-174a-4674-bf05-a7e8c6387b8d")
 	)
 	(wire
 		(pts
@@ -59268,6 +60339,16 @@
 	)
 	(wire
 		(pts
+			(xy 857.885 131.445) (xy 857.885 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ded19ac-6ac5-44cc-9e33-a322547dd802")
+	)
+	(wire
+		(pts
 			(xy 1091.565 280.67) (xy 1091.565 287.655)
 		)
 		(stroke
@@ -59448,7 +60529,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 123.825) (xy 669.925 128.905)
+			(xy 669.925 123.825) (xy 669.925 132.08)
 		)
 		(stroke
 			(width 0)
@@ -59988,6 +61069,16 @@
 	)
 	(wire
 		(pts
+			(xy 1811.02 449.58) (xy 1812.29 449.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bcd3c7-8c58-48cd-b29b-d82315a6f2e9")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 123.825 119.38)
 		)
 		(stroke
@@ -60298,7 +61389,7 @@
 	)
 	(wire
 		(pts
-			(xy 903.605 123.825) (xy 903.605 128.905)
+			(xy 903.605 123.825) (xy 903.605 132.08)
 		)
 		(stroke
 			(width 0)
@@ -63258,6 +64349,16 @@
 	)
 	(wire
 		(pts
+			(xy 1875.79 443.23) (xy 1877.06 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dede696-4b30-45d3-986a-8e083fcdddd6")
+	)
+	(wire
+		(pts
 			(xy 277.495 95.885) (xy 277.495 96.52)
 		)
 		(stroke
@@ -64038,6 +65139,16 @@
 	)
 	(wire
 		(pts
+			(xy 628.015 404.495) (xy 628.015 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1460dfe-a086-4dc9-9d9e-43b5305402e4")
+	)
+	(wire
+		(pts
 			(xy 1062.99 514.985) (xy 1067.435 514.985)
 		)
 		(stroke
@@ -64318,6 +65429,16 @@
 	)
 	(wire
 		(pts
+			(xy 1875.79 430.53) (xy 1875.79 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a6d00c-c915-4a78-bd67-5916e30881b4")
+	)
+	(wire
+		(pts
 			(xy 1188.72 580.39) (xy 1189.99 580.39)
 		)
 		(stroke
@@ -64328,7 +65449,7 @@
 	)
 	(wire
 		(pts
-			(xy 840.74 247.65) (xy 840.74 250.825)
+			(xy 833.12 247.65) (xy 833.12 250.825)
 		)
 		(stroke
 			(width 0)
@@ -64955,6 +66076,16 @@
 			(type default)
 		)
 		(uuid "a5aee224-f935-439d-9564-7f75b64d7b9e")
+	)
+	(wire
+		(pts
+			(xy 624.205 131.445) (xy 624.205 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b55967-7991-45b2-b6a6-2d345d6233f9")
 	)
 	(wire
 		(pts
@@ -65748,6 +66879,16 @@
 	)
 	(wire
 		(pts
+			(xy 1844.04 443.23) (xy 1842.77 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91910f6-9852-4247-81ea-bff5b1602fbe")
+	)
+	(wire
+		(pts
 			(xy 965.835 67.31) (xy 965.835 67.945)
 		)
 		(stroke
@@ -65978,6 +67119,16 @@
 	)
 	(wire
 		(pts
+			(xy 1819.91 411.48) (xy 1819.91 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cfaa00-414e-4864-806e-b66bf787238d")
+	)
+	(wire
+		(pts
 			(xy 1346.2 466.09) (xy 1346.2 467.36)
 		)
 		(stroke
@@ -66115,6 +67266,16 @@
 			(type default)
 		)
 		(uuid "aa7b8486-3a83-463e-b65a-64da2ef4856d")
+	)
+	(wire
+		(pts
+			(xy 1826.26 463.55) (xy 1826.26 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7e3656-d7b8-48fc-9c9a-d7c02c3ddac3")
 	)
 	(wire
 		(pts
@@ -66698,6 +67859,16 @@
 	)
 	(wire
 		(pts
+			(xy 1868.17 448.31) (xy 1868.17 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad111105-50b3-4c40-98bf-e5f60dbfe09c")
+	)
+	(wire
+		(pts
 			(xy 666.115 213.995) (xy 666.115 238.125)
 		)
 		(stroke
@@ -67005,6 +68176,16 @@
 			(type default)
 		)
 		(uuid "aea98689-ed38-422a-94d7-94ce1b290859")
+	)
+	(wire
+		(pts
+			(xy 1884.68 411.48) (xy 1884.68 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeaa2a1f-931c-4ebc-83ce-799140bc4811")
 	)
 	(wire
 		(pts
@@ -67658,6 +68839,16 @@
 	)
 	(wire
 		(pts
+			(xy 1868.17 436.88) (xy 1875.79 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b111006f-b9a8-4658-9f63-67d414622bee")
+	)
+	(wire
+		(pts
 			(xy 1558.925 39.37) (xy 1558.925 45.72)
 		)
 		(stroke
@@ -67745,6 +68936,16 @@
 			(type default)
 		)
 		(uuid "b17da404-4f84-4a8c-950e-3b075523c9ee")
+	)
+	(wire
+		(pts
+			(xy 1842.77 443.23) (xy 1842.77 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17df8f3-26c2-4041-a784-472d51b37ea1")
 	)
 	(wire
 		(pts
@@ -68245,6 +69446,16 @@
 			(type default)
 		)
 		(uuid "b31ea84b-63b4-40d5-baaa-8d9d68fe6c23")
+	)
+	(wire
+		(pts
+			(xy 1851.66 436.88) (xy 1868.17 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b327f4e4-ec0a-4e17-b7d6-d786bc688707")
 	)
 	(wire
 		(pts
@@ -69248,7 +70459,7 @@
 	)
 	(wire
 		(pts
-			(xy 903.605 136.525) (xy 903.605 142.24)
+			(xy 903.605 139.7) (xy 903.605 140.97)
 		)
 		(stroke
 			(width 0)
@@ -69545,6 +70756,16 @@
 			(type default)
 		)
 		(uuid "b89e297f-ffc5-4c93-a016-0ce43de18306")
+	)
+	(wire
+		(pts
+			(xy 1868.17 436.88) (xy 1868.17 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a3d533-54c6-4f03-9304-f300026a66bd")
 	)
 	(wire
 		(pts
@@ -70398,6 +71619,16 @@
 	)
 	(wire
 		(pts
+			(xy 1860.55 430.53) (xy 1859.28 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc902d47-11b3-448a-a25e-bc8d397513e4")
+	)
+	(wire
+		(pts
 			(xy 731.52 504.825) (xy 728.345 504.825)
 		)
 		(stroke
@@ -71228,6 +72459,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.565 119.38) (xy 95.885 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c014cefd-8d32-4d09-8669-017017724b1f")
+	)
+	(wire
+		(pts
 			(xy 295.275 1111.885) (xy 295.275 1103.63)
 		)
 		(stroke
@@ -71948,6 +73189,16 @@
 	)
 	(wire
 		(pts
+			(xy 1884.68 436.88) (xy 1884.68 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41ccfb5-a362-4ddb-947b-96bb7e224183")
+	)
+	(wire
+		(pts
 			(xy 1532.89 427.99) (xy 1532.89 426.72)
 		)
 		(stroke
@@ -71985,6 +73236,16 @@
 			(type default)
 		)
 		(uuid "c4309789-785c-4239-9b34-0a7e75c1a8ea")
+	)
+	(wire
+		(pts
+			(xy 1875.79 436.88) (xy 1875.79 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45cc620-c741-43e9-b8e9-a9db7b9ef4f4")
 	)
 	(wire
 		(pts
@@ -72095,6 +73356,16 @@
 			(type default)
 		)
 		(uuid "c4df8015-1bbf-47dd-a964-8da2ab939cc1")
+	)
+	(wire
+		(pts
+			(xy 1836.42 483.87) (xy 1837.69 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e8c61b-d747-4bfc-90da-229ae73f52d9")
 	)
 	(wire
 		(pts
@@ -72305,6 +73576,16 @@
 			(type default)
 		)
 		(uuid "c5c5b1e4-16bc-48f3-b241-226fe5b235f5")
+	)
+	(wire
+		(pts
+			(xy 1819.91 443.23) (xy 1819.91 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5daf503-d1bb-4fe8-ba6a-7137f155e573")
 	)
 	(wire
 		(pts
@@ -73418,16 +74699,6 @@
 	)
 	(wire
 		(pts
-			(xy 628.015 403.86) (xy 655.955 403.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca597562-441d-4a27-b80d-fe98a4ae8368")
-	)
-	(wire
-		(pts
 			(xy 543.56 697.865) (xy 546.1 697.865)
 		)
 		(stroke
@@ -73688,6 +74959,16 @@
 	)
 	(wire
 		(pts
+			(xy 889.635 132.08) (xy 889.635 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb84389c-aa14-451f-becc-e31fdf24fbc9")
+	)
+	(wire
+		(pts
 			(xy 1676.4 54.61) (xy 1681.48 54.61)
 		)
 		(stroke
@@ -73855,6 +75136,16 @@
 			(type default)
 		)
 		(uuid "cbfec3db-d7f9-4ca0-850f-bd1bdadd9453")
+	)
+	(wire
+		(pts
+			(xy 1851.66 424.18) (xy 1851.66 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0075d1-aa73-4348-9afe-9786b4e5a3f6")
 	)
 	(wire
 		(pts
@@ -74058,6 +75349,16 @@
 	)
 	(wire
 		(pts
+			(xy 1868.17 424.18) (xy 1868.17 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2882cc-ce90-46bf-a68e-817eb183eebb")
+	)
+	(wire
+		(pts
 			(xy 1836.42 269.24) (xy 1852.93 269.24)
 		)
 		(stroke
@@ -74208,6 +75509,16 @@
 	)
 	(wire
 		(pts
+			(xy 1835.15 422.91) (xy 1835.15 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9e02ca-7bb8-404b-9f09-133622fc9a00")
+	)
+	(wire
+		(pts
 			(xy 1236.98 273.685) (xy 1236.345 273.685)
 		)
 		(stroke
@@ -74278,7 +75589,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 107.315) (xy 76.835 107.315)
+			(xy 60.96 107.315) (xy 67.945 107.315)
 		)
 		(stroke
 			(width 0)
@@ -74635,6 +75946,16 @@
 			(type default)
 		)
 		(uuid "cf1cf4dd-2729-4ecc-855d-a02eedf386ea")
+	)
+	(wire
+		(pts
+			(xy 1835.15 411.48) (xy 1835.15 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf20ace4-100a-429a-ac07-c8dc2ea610bd")
 	)
 	(wire
 		(pts
@@ -75295,6 +76616,16 @@
 			(type default)
 		)
 		(uuid "d2805332-651b-4e14-bc66-521b58235b79")
+	)
+	(wire
+		(pts
+			(xy 864.87 395.605) (xy 892.81 395.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2816ca6-4d2f-4526-9c7e-000d92f79775")
 	)
 	(wire
 		(pts
@@ -76055,6 +77386,16 @@
 			(type default)
 		)
 		(uuid "d58293c9-760c-4cd3-8a76-194d4293efb3")
+	)
+	(wire
+		(pts
+			(xy 1805.94 430.53) (xy 1859.28 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a7db49-afda-4fbb-9123-5522b9c4fd2f")
 	)
 	(wire
 		(pts
@@ -76938,6 +78279,16 @@
 	)
 	(wire
 		(pts
+			(xy 1877.06 430.53) (xy 1875.79 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3ef510-98b6-417d-9b87-4de951d4fa79")
+	)
+	(wire
+		(pts
 			(xy 1489.71 105.41) (xy 1510.03 105.41)
 		)
 		(stroke
@@ -77638,7 +78989,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 95.885 119.38)
+			(xy 74.93 119.38) (xy 75.565 119.38)
 		)
 		(stroke
 			(width 0)
@@ -78148,7 +79499,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 272.415) (xy 669.925 273.05)
+			(xy 669.925 276.86) (xy 669.925 278.13)
 		)
 		(stroke
 			(width 0)
@@ -78498,7 +79849,7 @@
 	)
 	(wire
 		(pts
-			(xy 857.885 126.365) (xy 857.885 138.43)
+			(xy 857.885 126.365) (xy 857.885 131.445)
 		)
 		(stroke
 			(width 0)
@@ -79048,6 +80399,16 @@
 	)
 	(wire
 		(pts
+			(xy 1812.29 436.88) (xy 1811.02 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e308bf69-5c38-4e8a-946d-41e133124a3a")
+	)
+	(wire
+		(pts
 			(xy 899.795 483.87) (xy 899.795 485.14)
 		)
 		(stroke
@@ -79105,16 +80466,6 @@
 			(type default)
 		)
 		(uuid "e375cc76-116b-49d6-9d78-af13e6765ac5")
-	)
-	(wire
-		(pts
-			(xy 864.87 395.605) (xy 892.81 395.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37b4c5d-f663-44a6-a738-1d1b4539e7a0")
 	)
 	(wire
 		(pts
@@ -79395,6 +80746,16 @@
 			(type default)
 		)
 		(uuid "e4a1247b-8322-4eed-85d2-b8431fc97f1e")
+	)
+	(wire
+		(pts
+			(xy 1805.94 443.23) (xy 1811.02 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b5d1b0-467b-43f7-8832-b7399bf69b12")
 	)
 	(wire
 		(pts
@@ -79718,6 +81079,16 @@
 	)
 	(wire
 		(pts
+			(xy 889.635 139.7) (xy 889.635 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6048481-99b8-436d-a671-6c15659d1dff")
+	)
+	(wire
+		(pts
 			(xy 59.69 36.195) (xy 71.755 36.195)
 		)
 		(stroke
@@ -79798,7 +81169,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 107.315) (xy 76.835 114.3)
+			(xy 67.945 107.315) (xy 67.945 114.3)
 		)
 		(stroke
 			(width 0)
@@ -79838,7 +81209,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.925 407.67) (xy 669.925 408.305)
+			(xy 669.925 412.115) (xy 669.925 413.385)
 		)
 		(stroke
 			(width 0)
@@ -80285,6 +81656,16 @@
 			(type default)
 		)
 		(uuid "e8ccdf01-edc8-4a45-88eb-7571477d5b37")
+	)
+	(wire
+		(pts
+			(xy 1844.04 463.55) (xy 1826.26 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d0fc58-9175-4e23-a8a6-56f55af1216b")
 	)
 	(wire
 		(pts
@@ -81418,6 +82799,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.955 131.445) (xy 655.955 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceee241-6492-4d56-9b8a-0dffb51634b8")
+	)
+	(wire
+		(pts
 			(xy 1078.23 542.29) (xy 1079.5 542.29)
 		)
 		(stroke
@@ -82208,7 +83599,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 107.315) (xy 88.9 107.315)
+			(xy 67.945 107.315) (xy 88.9 107.315)
 		)
 		(stroke
 			(width 0)
@@ -82668,7 +84059,7 @@
 	)
 	(wire
 		(pts
-			(xy 624.205 138.43) (xy 655.955 138.43)
+			(xy 624.205 131.445) (xy 655.955 131.445)
 		)
 		(stroke
 			(width 0)
@@ -82805,6 +84196,16 @@
 			(type default)
 		)
 		(uuid "f2d772eb-d4ed-4ddd-9f7b-8609bfbd69a3")
+	)
+	(wire
+		(pts
+			(xy 1859.28 417.83) (xy 1860.55 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dcd694-9ccc-4ad2-8d46-4e5ac233f3ae")
 	)
 	(wire
 		(pts
@@ -83408,7 +84809,7 @@
 	)
 	(wire
 		(pts
-			(xy 831.85 247.65) (xy 840.74 247.65)
+			(xy 824.23 247.65) (xy 833.12 247.65)
 		)
 		(stroke
 			(width 0)
@@ -83878,6 +85279,16 @@
 	)
 	(wire
 		(pts
+			(xy 1840.23 417.83) (xy 1844.04 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b16bb5-9e2d-41db-ab93-a0d0ae7831c6")
+	)
+	(wire
+		(pts
 			(xy 666.115 337.82) (xy 666.115 338.455)
 		)
 		(stroke
@@ -84228,7 +85639,7 @@
 	)
 	(wire
 		(pts
-			(xy 831.85 243.84) (xy 838.835 243.84)
+			(xy 824.23 243.84) (xy 831.215 243.84)
 		)
 		(stroke
 			(width 0)
@@ -84945,6 +86356,16 @@
 			(type default)
 		)
 		(uuid "fb972499-1a1e-4625-80ef-604b5e1caf32")
+	)
+	(wire
+		(pts
+			(xy 1861.82 487.68) (xy 1860.55 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9f34a0-8461-486f-9d51-2e53f1c60683")
 	)
 	(wire
 		(pts
@@ -86630,6 +88051,28 @@
 			)
 		)
 	)
+	(global_label "Y"
+		(shape output)
+		(at 1897.38 436.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05143fd9-53cd-4eab-8e9d-668c0df1036e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1901.4538 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NAND_B_IN7"
 		(shape input)
 		(at 285.115 816.61 180)
@@ -88062,7 +89505,7 @@
 	)
 	(global_label "ENA"
 		(shape input)
-		(at 831.85 247.65 180)
+		(at 824.23 247.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -88072,7 +89515,7 @@
 		)
 		(uuid "11f29e18-cbaa-4c92-b6c3-8759e22e4b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 825.2967 247.65 0)
+			(at 817.6767 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93032,6 +94475,28 @@
 			)
 		)
 	)
+	(global_label "Y"
+		(shape output)
+		(at 1861.82 487.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41cdd91e-b12d-4d34-bd35-5e3eecfdc703")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1865.8938 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIST_NOR_IN"
 		(shape input)
 		(at 777.875 664.845 180)
@@ -94695,6 +96160,28 @@
 		(uuid "4fefce39-7c0c-4f6a-9e5a-4434932757aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.9196 970.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN4"
+		(shape input)
+		(at 1805.94 430.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ff9bdf3-c095-459d-806f-b909ae81d3ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1799.81 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96730,7 +98217,7 @@
 	)
 	(global_label "D"
 		(shape input)
-		(at 69.85 119.38 180)
+		(at 60.96 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -96740,7 +98227,7 @@
 		)
 		(uuid "613b2817-f9ce-481a-ae6d-c0e778353e60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6742 119.38 0)
+			(at 56.7842 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97291,6 +98778,28 @@
 		(uuid "66b9d271-f5f9-4a03-9ce9-d1fd5d1dcdd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.3646 748.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN2"
+		(shape input)
+		(at 1836.42 483.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66d259aa-378c-46b4-8411-45cde03346c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1830.29 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98061,6 +99570,28 @@
 		(uuid "6cbfd570-8d8c-4c98-a797-41d54d2cc3db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.9759 1133.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN1"
+		(shape input)
+		(at 1836.42 481.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cc60e96-264d-4b98-bab0-d76f5d52fadc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1830.29 481.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99672,6 +101203,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{IN3}"
+		(shape input)
+		(at 1805.94 443.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bafe207-3ed5-4f29-9625-b17e8a9dfded")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1799.81 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -102648,7 +104201,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 69.85 107.315 180)
+		(at 60.96 107.315 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -102658,7 +104211,7 @@
 		)
 		(uuid "940413ba-0122-4e84-a2dd-5f56b7cb1bde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.3761 107.315 0)
+			(at 54.4861 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106564,7 +108117,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 831.85 243.84 180)
+		(at 824.23 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -106574,7 +108127,7 @@
 		)
 		(uuid "b4b45774-0517-41be-b12b-2a851fa9e432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 825.3761 243.84 0)
+			(at 817.7561 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106958,6 +108511,28 @@
 			)
 		)
 	)
+	(global_label "IN1"
+		(shape input)
+		(at 1805.94 417.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7fa21eb-8d4e-48a0-bee0-fb8985ef93ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1799.81 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Y1"
 		(shape output)
 		(at 975.36 591.185 0)
@@ -106976,6 +108551,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN2"
+		(shape input)
+		(at 1805.94 427.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b835ebbd-e86e-4234-b1cd-8dbd95405267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1799.81 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -108450,6 +110047,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{IN3}"
+		(shape input)
+		(at 1836.42 486.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3d0afd9-e214-40a6-8b8b-4b259f76c35b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1830.29 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -110122,6 +111741,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN4"
+		(shape input)
+		(at 1836.42 490.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d24cc504-fdb1-41c3-bbea-2721feed1983")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1830.29 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -113868,7 +115509,7 @@
 	)
 	(global_label "ENA"
 		(shape input)
-		(at 69.85 111.125 180)
+		(at 60.96 111.125 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -113878,7 +115519,7 @@
 		)
 		(uuid "f84964a1-030e-4f7d-bc34-8d3e28721b59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.2967 111.125 0)
+			(at 54.4067 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114726,7 +116367,7 @@
 	)
 	(global_label "D"
 		(shape input)
-		(at 831.85 255.905 180)
+		(at 824.23 255.905 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -114736,7 +116377,7 @@
 		)
 		(uuid "ff8f4ecc-a2c3-4917-afd8-9ebbe4154f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 827.6742 255.905 0)
+			(at 820.0542 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115256,6 +116897,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 75.565 128.905 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e1492d-82f3-4de3-88ce-d49dcc829c5d")
+		(property "Reference" "#PWR0669"
+			(at 75.565 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 75.565 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.565 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.565 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 75.565 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4299698a-abf0-4d91-81f0-44a85fb6cc7f")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0669")
 					(unit 1)
 				)
 			)
@@ -119191,92 +120898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DLATCH_IRQ")
-		(at 368.3 461.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08741729-7d7a-43c5-8242-85b1f6d1fea7")
-		(property "Reference" "U?"
-			(at 368.3 454.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DLATCH_IRQ"
-			(at 368.3 467.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.665 467.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_irq"
-			(at 368.3 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gated data latch with additional dynamically controlled inverted output."
-			(at 368.3 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e99")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9a")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9b")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9c")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9d")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9e")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663e9f")
-		)
-		(pin ""
-			(uuid "0a434585-99a2-4d25-9e49-eeb05e663ea0")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 1752.6 439.42 0)
 		(unit 1)
@@ -119918,6 +121539,80 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1865.63 430.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09edf685-dc5d-4814-8dfc-2101cc55048f")
+		(property "Reference" "P4"
+			(at 1870.075 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1870.075 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1866.265 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1866.265 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1865.63 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2fabe71-8a64-49da-8b8f-42d474c547b4")
+		)
+		(pin "2"
+			(uuid "53ec8e24-5635-469d-a57c-ac1bcb9b1db4")
+		)
+		(pin "3"
+			(uuid "2ce0de5f-96e9-4643-9f77-7c5705055ccb")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -121593,6 +123288,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1817.37 436.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e0e0371-00ad-4cca-94f2-108f975b3d38")
+		(property "Reference" "P6"
+			(at 1821.815 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1821.815 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1818.005 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1818.005 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1817.37 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049e39bd-f444-493c-81ce-68e93c140050")
+		)
+		(pin "2"
+			(uuid "f55acdfe-8dce-4c90-9f8f-b7d2b187a329")
+		)
+		(pin "3"
+			(uuid "18f32853-fa17-4173-99c3-fb801a675adc")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 1346.2 454.66 0)
 		(unit 1)
@@ -122490,7 +124259,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 669.925 142.24 0)
+		(at 669.925 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -122498,7 +124267,7 @@
 		(dnp no)
 		(uuid "0fbc1d3a-3e58-4e3d-9d10-37c2708ba488")
 		(property "Reference" "#PWR053"
-			(at 669.925 148.59 0)
+			(at 669.925 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122507,7 +124276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 669.925 146.05 0)
+			(at 669.925 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122516,7 +124285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 669.925 142.24 0)
+			(at 669.925 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122525,7 +124294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 669.925 142.24 0)
+			(at 669.925 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122534,7 +124303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 142.24 0)
+			(at 669.925 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126078,6 +127847,89 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DFFN_EE_PCH_D_ALU_FLAG")
+		(at 577.85 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "157099fa-59dd-466f-ae97-6f8490be46af")
+		(property "Reference" "U?"
+			(at 577.85 311.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFFN_EE_PCH_D_ALU_FLAG"
+			(at 577.85 325.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 577.215 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_pch_d_alu_flag"
+			(at 577.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
+			(at 577.85 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "33b13240-8210-4caa-a7c5-2e95c29a976b")
+		)
+		(pin ""
+			(uuid "1bd48247-e280-4b79-b32c-cb985f3a239a")
+		)
+		(pin ""
+			(uuid "938da5d2-840d-44b5-8089-0bdd8c991ea7")
+		)
+		(pin ""
+			(uuid "173069b0-75df-4c20-b478-029d8db5d31a")
+		)
+		(pin ""
+			(uuid "b25debbe-a8fa-465c-8379-fd8da1f4e797")
+		)
+		(pin ""
+			(uuid "d0ca0435-5694-4b6e-8f1d-11ff5f318edc")
+		)
+		(pin ""
+			(uuid "7df964ae-0a61-435c-b283-29df9f317e76")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 544.83 441.325 0)
 		(unit 1)
@@ -127605,7 +129457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 669.925 273.05 0)
+		(at 669.925 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -127613,7 +129465,7 @@
 		(dnp no)
 		(uuid "17614a33-bfca-4368-9328-c90bc575eea8")
 		(property "Reference" "#PWR0125"
-			(at 669.925 279.4 0)
+			(at 669.925 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127622,7 +129474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 669.925 276.86 0)
+			(at 669.925 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127631,7 +129483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 669.925 273.05 0)
+			(at 669.925 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127640,7 +129492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 669.925 273.05 0)
+			(at 669.925 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127649,7 +129501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 273.05 0)
+			(at 669.925 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127880,89 +129732,6 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0616")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DFFNGE_ALU_FLAG")
-		(at 577.85 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1795c2d7-06f2-4569-b278-e3de9a6376a6")
-		(property "Reference" "U?"
-			(at 577.85 311.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFNGE_ALU_FLAG"
-			(at 577.85 325.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 577.215 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_flag"
-			(at 577.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
-			(at 577.85 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e10")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e11")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e12")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e13")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e14")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e15")
-		)
-		(pin ""
-			(uuid "a14aef36-5912-4a02-9d39-ec7d12172e16")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -140030,6 +141799,92 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DFFR_CC_EE_REG_IE_BIT")
+		(at 811.53 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "283e547c-3d3e-4139-a253-ce73b0a4dc1c")
+		(property "Reference" "U?"
+			(at 811.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFFR_CC_EE_REG_IE_BIT"
+			(at 811.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 810.895 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffr_cc_ee_reg_ie_bit"
+			(at 811.53 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and active-high reset gated by the clock level."
+			(at 811.53 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bc5d7966-4148-459f-ac70-efeceb7b0cc2")
+		)
+		(pin ""
+			(uuid "f6b61d8a-722e-4735-bd09-cb0ed03db9e9")
+		)
+		(pin ""
+			(uuid "175848e3-740a-449d-93ec-ea35fa45469a")
+		)
+		(pin ""
+			(uuid "19b9c5f9-f871-44c2-a142-b99ecd539e32")
+		)
+		(pin ""
+			(uuid "721b4b8d-73b0-4305-9622-30957ac4106b")
+		)
+		(pin ""
+			(uuid "180cabca-499d-451b-9bd6-fe66fdf800a5")
+		)
+		(pin ""
+			(uuid "9bfbecf6-6145-4c71-b98a-85f1eff6f366")
+		)
+		(pin ""
+			(uuid "e9b2721f-15f3-4e74-a00f-c930582797f2")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:BUF_IF0")
 		(at 269.875 481.965 0)
 		(unit 1)
@@ -142624,8 +144479,9 @@
 		)
 	)
 	(symbol
+		(lib_name "NOT_IF01_1")
 		(lib_id "sm83_symbols:NOT_IF01")
-		(at 77.47 119.38 0)
+		(at 68.58 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -142633,7 +144489,7 @@
 		(dnp no)
 		(uuid "2d5999ae-a7c6-4ce0-8a6c-6d2ee0b5bebe")
 		(property "Reference" "U?"
-			(at 77.47 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142642,7 +144498,7 @@
 			)
 		)
 		(property "Value" "NOT_IF01"
-			(at 77.47 126.365 0)
+			(at 68.58 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142651,7 +144507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 124.46 0)
+			(at 66.04 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142660,7 +144516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 124.46 0)
+			(at 66.04 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142669,7 +144525,7 @@
 			)
 		)
 		(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
-			(at 77.47 119.38 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145272,6 +147128,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1882.14 430.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3250a178-33a4-4dda-b221-58370dbf58bd")
+		(property "Reference" "P5"
+			(at 1886.585 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1886.585 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1882.775 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1882.775 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1882.14 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552a117a-c48d-4831-bcde-ff6b4a146d26")
+		)
+		(pin "2"
+			(uuid "3e52c385-6d3a-4233-bbca-e413c1115835")
+		)
+		(pin "3"
+			(uuid "2c109a7d-1c1b-4ec2-aefe-ffd6c543ba7c")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 1705.61 73.66 0)
 		(unit 1)
@@ -146529,6 +148459,79 @@
 		)
 	)
 	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1849.12 463.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34ead306-e404-49fa-b6fa-bd5292da1007")
+		(property "Reference" "N1"
+			(at 1853.565 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1853.565 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1849.755 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1849.755 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1849.12 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3355616a-36e3-455c-a976-6fb38021d987")
+		)
+		(pin "2"
+			(uuid "117eedba-7469-4438-8e9d-41a744c1a9a7")
+		)
+		(pin "3"
+			(uuid "158268eb-e731-43e3-a81a-fc7dcf484e1e")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:PMOS")
 		(at 180.34 551.18 0)
 		(mirror x)
@@ -147329,6 +149332,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1868.17 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36323436-524b-401a-854c-f116720e6313")
+		(property "Reference" "#PWR0665"
+			(at 1868.17 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1868.17 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1868.17 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1868.17 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1868.17 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a296f4bf-dee9-4e5e-b6f2-dd5e9ec104fb")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0665")
 					(unit 1)
 				)
 			)
@@ -148618,6 +150686,79 @@
 		)
 	)
 	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1849.12 443.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3926c6c4-2eec-4005-982e-6b2992c06ced")
+		(property "Reference" "N3"
+			(at 1853.565 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1853.565 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1849.755 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1849.755 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1849.12 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b40953c2-a9a5-4c25-9541-8134ba900345")
+		)
+		(pin "2"
+			(uuid "1d36a396-3e29-496e-afc8-9f7441c11ea6")
+		)
+		(pin "3"
+			(uuid "9fe2fa02-6d3a-40f5-ace9-9584626acf5d")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 316.865 900.43 0)
 		(unit 1)
@@ -149798,6 +151939,79 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1849.12 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3af2b795-c3fa-4730-817b-5744a7c7804d")
+		(property "Reference" "N2"
+			(at 1853.565 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1853.565 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1849.755 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1849.755 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1849.12 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7bc0166-3176-47f0-8a6a-17b2a8812ab1")
+		)
+		(pin "2"
+			(uuid "8d068c16-aa22-4400-b5ef-939a4b854d43")
+		)
+		(pin "3"
+			(uuid "03022be9-f9d5-4ff0-a824-07c4d5b27537")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N2")
 					(unit 1)
 				)
 			)
@@ -153891,7 +156105,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 903.605 132.715 0)
+		(at 903.605 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -153899,7 +156113,7 @@
 		(dnp no)
 		(uuid "42f62079-dbe6-4a8a-be23-fff93e67c24c")
 		(property "Reference" "C?"
-			(at 904.24 130.175 0)
+			(at 904.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153909,7 +156123,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 904.24 135.255 0)
+			(at 904.24 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153919,7 +156133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 904.5702 136.525 0)
+			(at 904.5702 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153928,7 +156142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 903.605 132.715 0)
+			(at 903.605 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153937,7 +156151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 903.605 132.715 0)
+			(at 903.605 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154933,6 +157147,86 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:DFF_CC_EE_Q_X2_REG_BIT")
+		(at 36.195 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4486790f-8a0b-4808-bca4-7b0b41593235")
+		(property "Reference" "U?"
+			(at 36.195 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFF_CC_EE_Q_X2_REG_BIT"
+			(at 36.195 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x2_reg_bit"
+			(at 36.195 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, 2× drive strength, and no inverted output."
+			(at 36.195 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7f9ab89d-3fe7-4968-be88-724b398f5251")
+		)
+		(pin ""
+			(uuid "d242531d-bfd7-4987-8160-719aa8f77660")
+		)
+		(pin ""
+			(uuid "55199021-841e-4bb6-b057-3eb751f19da9")
+		)
+		(pin ""
+			(uuid "7f32ef4b-c327-4ba5-9d67-44dd86ee3e4d")
+		)
+		(pin ""
+			(uuid "2989c4e4-3ef3-4f59-9c9c-70ee471533f3")
+		)
+		(pin ""
+			(uuid "bf090ffc-fa11-445e-a98e-a14aef420e6d")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -156719,6 +159013,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 889.635 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484042bd-c3ae-44b4-a5b7-93326b52e25c")
+		(property "Reference" "C?"
+			(at 890.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 890.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 890.6002 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 889.635 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 889.635 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4603ec26-13e2-4bef-840e-0beeca692869")
+		)
+		(pin "2"
+			(uuid "911c7bf8-7766-48e0-88d8-11de14267a3b")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:BUF_IF0")
 		(at 227.965 153.67 0)
 		(unit 1)
@@ -157609,6 +159974,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1819.91 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a7b1b70-7a47-4874-a0d7-343ea4d9279b")
+		(property "Reference" "#PWR0667"
+			(at 1819.91 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1819.91 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1819.91 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1819.91 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1819.91 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "888c509e-1fcf-4212-8ff7-5436197faf6d")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0667")
 					(unit 1)
 				)
 			)
@@ -163601,7 +166031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 903.605 142.24 0)
+		(at 903.605 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -163609,7 +166039,7 @@
 		(dnp no)
 		(uuid "574bf4af-f9c4-4dec-8534-e0f2bde7f113")
 		(property "Reference" "#PWR096"
-			(at 903.605 148.59 0)
+			(at 903.605 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163618,7 +166048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 903.605 146.05 0)
+			(at 903.605 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163627,7 +166057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 903.605 142.24 0)
+			(at 903.605 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163636,7 +166066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 903.605 142.24 0)
+			(at 903.605 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163645,7 +166075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 903.605 142.24 0)
+			(at 903.605 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165295,7 +167725,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 669.925 132.715 0)
+		(at 669.925 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -165303,7 +167733,7 @@
 		(dnp no)
 		(uuid "58e2c64c-845f-4652-a607-9ef51838a584")
 		(property "Reference" "C?"
-			(at 670.56 130.175 0)
+			(at 670.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165313,7 +167743,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 670.56 135.255 0)
+			(at 670.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165323,7 +167753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 670.8902 136.525 0)
+			(at 670.8902 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165332,7 +167762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 669.925 132.715 0)
+			(at 669.925 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165341,7 +167771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 132.715 0)
+			(at 669.925 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167029,6 +169459,160 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DFFS_CC_EE_PCH_D_REG_PC_BIT")
+		(at 577.85 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b3e6396-9d25-43ca-b820-26fe44105f8d")
+		(property "Reference" "U?"
+			(at 577.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFFS_CC_EE_PCH_D_REG_PC_BIT"
+			(at 577.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 577.215 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffs_cc_ee_pch_d_reg_pc_bit"
+			(at 577.85 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, prechargable D input, and active-low set gated by the clock level."
+			(at 577.85 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "54cb6f46-51ea-492f-94ff-30a53379c1f0")
+		)
+		(pin ""
+			(uuid "fcef995e-701c-44ca-a7b8-499942a1dc9e")
+		)
+		(pin ""
+			(uuid "2159d79c-decb-4afb-b564-ecd70dfda8a2")
+		)
+		(pin ""
+			(uuid "c366a47c-3987-4d8b-9eff-61e6d752800a")
+		)
+		(pin ""
+			(uuid "75ac1f5b-b097-4d15-9bd2-0bdedd296cd8")
+		)
+		(pin ""
+			(uuid "d6432de5-c592-464a-8927-27c060dc09b5")
+		)
+		(pin ""
+			(uuid "9de32d10-362e-4241-ac25-f8b464a30ebe")
+		)
+		(pin ""
+			(uuid "39b565f4-e447-4882-ada7-41fe909f96c2")
+		)
+		(pin ""
+			(uuid "ddff46a8-749b-49fe-bfe7-1c08c657cab5")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1884.68 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b470f3d-28d3-4852-bcbc-a0cc33a5e122")
+		(property "Reference" "#PWR0661"
+			(at 1884.68 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1884.68 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1884.68 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1884.68 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1884.68 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994c6f97-0062-4bb5-ad56-bb2dbf2f0499")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0661")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 743.585 866.775 0)
 		(unit 1)
@@ -167102,6 +169686,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1851.66 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b99ddc0-96d2-4350-b6a7-26ec937a9fe3")
+		(property "Reference" "#PWR0663"
+			(at 1851.66 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1851.66 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1851.66 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1851.66 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1851.66 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd3b4f5b-a3b2-45a7-8133-8b55a287349d")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0663")
 					(unit 1)
 				)
 			)
@@ -168772,6 +171421,83 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:DFFN_EE_Q_ALU_TMP")
+		(at 814.705 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd6c068-2aca-449d-9f75-d5ace187156f")
+		(property "Reference" "U?"
+			(at 814.705 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFFN_EE_Q_ALU_TMP"
+			(at 814.705 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 814.07 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_tmp"
+			(at 814.705 316.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
+			(at 814.705 319.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "acd03c55-4e32-40dd-a1f7-2e8da57e5242")
+		)
+		(pin ""
+			(uuid "d7925bf6-eeb7-4b37-933b-bf12f50328d4")
+		)
+		(pin ""
+			(uuid "1ef32248-e967-43c7-ae49-754163b85f1a")
+		)
+		(pin ""
+			(uuid "6b0bb43d-c44e-438f-b689-73318b3864c3")
+		)
+		(pin ""
+			(uuid "c9eef536-483d-4098-9e06-ce4957c2e34d")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -174865,86 +177591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DFFGE_X2_REG_BIT")
-		(at 36.195 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "694adb0d-44a3-42cc-831d-4d479cb9102e")
-		(property "Reference" "U?"
-			(at 36.195 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGE_X2_REG_BIT"
-			(at 36.195 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x2_reg_bit"
-			(at 36.195 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, doubled driving strength, and no inverted output."
-			(at 36.195 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e2")
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e3")
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e4")
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e5")
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e6")
-		)
-		(pin ""
-			(uuid "e25ea167-86a9-4d79-977a-0525c7c042e7")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 523.24 441.325 0)
 		(unit 1)
@@ -175010,6 +177656,80 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1865.63 417.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69576573-18de-41f3-bdd8-f3d534576413")
+		(property "Reference" "P3"
+			(at 1870.075 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1870.075 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1866.265 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1866.265 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1865.63 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ba63c98-012f-49e0-bbc1-7addb4de2200")
+		)
+		(pin "2"
+			(uuid "38122882-3854-4e67-b8a2-752fe7a0c13c")
+		)
+		(pin "3"
+			(uuid "0369dfa8-20f9-46b9-a1e8-ddb2703385ee")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -177626,6 +180346,84 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:AO31_IN3_N")
+		(at 1849.12 486.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e1e2452-0fb9-469b-b5b4-62bc466a42a4")
+		(property "Reference" "U?"
+			(at 1849.12 479.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AO31_IN3_N"
+			(at 1849.12 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1849.755 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#ao31_in3_n"
+			(at 1849.12 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-1 AND-OR two-level compound gate with inverted IN3."
+			(at 1849.12 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3e330c6-8dbb-48e8-89f8-0b712b8dcaaf")
+		)
+		(pin "3"
+			(uuid "254adbf9-e1a0-49f2-9e69-e564c125d356")
+		)
+		(pin "1"
+			(uuid "76002aa1-842c-43e6-8f26-b3776737664b")
+		)
+		(pin "5"
+			(uuid "90cf9b52-3b9b-450a-8884-1feaf85fdb27")
+		)
+		(pin "2"
+			(uuid "8cf3ddb1-ea0b-4baf-809e-7219b902f49f")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 1282.7 363.22 0)
 		(unit 1)
@@ -177847,6 +180645,92 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DFF_CC_EE_PCH_D_REG_SP_BIT")
+		(at 577.85 183.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e9a91b0-6e49-4fb5-b58a-559ce58b3211")
+		(property "Reference" "U?"
+			(at 577.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFF_CC_EE_PCH_D_REG_SP_BIT"
+			(at 577.85 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 577.215 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_pch_d_reg_sp_bit"
+			(at 577.85 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
+			(at 577.85 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3bb69a2a-c8c2-4ba9-bcad-0f9ba1e842f5")
+		)
+		(pin ""
+			(uuid "40a4ab2c-8f00-4ae7-8cb2-54066d9ddbed")
+		)
+		(pin ""
+			(uuid "e75b5f81-0e5c-44c6-ab15-cda0a081fd38")
+		)
+		(pin ""
+			(uuid "3acb264a-1250-4b22-9ef9-87926bf2530a")
+		)
+		(pin ""
+			(uuid "c4b2132c-d1f1-4509-8036-6bd813d4f8b1")
+		)
+		(pin ""
+			(uuid "944aadfa-1cb5-467c-b5e6-543711116dc6")
+		)
+		(pin ""
+			(uuid "33f8ff47-a8b6-492e-b0ae-c281ea6525cf")
+		)
+		(pin ""
+			(uuid "b840f5fd-7107-4caa-a2e0-21a3db2850ac")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 373.38 715.01 0)
 		(unit 1)
@@ -178054,6 +180938,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 838.835 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ee9b224-ef6f-4257-9887-ceb0d2030eaa")
+		(property "Reference" "#PWR0673"
+			(at 838.835 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 838.835 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 838.835 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 838.835 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 838.835 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d318e2d-bd12-457e-b926-f3268934d97e")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0673")
 					(unit 1)
 				)
 			)
@@ -178354,6 +181304,80 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1849.12 417.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f6af710-2d13-4ea4-8358-46869a8fc24d")
+		(property "Reference" "P2"
+			(at 1853.565 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1853.565 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1849.755 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1849.755 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1849.12 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11530eb2-568e-4fec-8d8e-479e60588e8f")
+		)
+		(pin "2"
+			(uuid "8fc371f7-c07b-41b0-a98f-904880f08c16")
+		)
+		(pin "3"
+			(uuid "8d251f21-cbc0-4969-9d8e-7012519b6da2")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -180146,6 +183170,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1868.17 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7199dbe5-02d2-4be4-800d-de75ce384929")
+		(property "Reference" "#PWR0664"
+			(at 1868.17 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1868.17 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1868.17 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1868.17 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1868.17 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab53fe1-b7a9-4365-ae40-ea223fc1e39e")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0664")
 					(unit 1)
 				)
 			)
@@ -186410,6 +189499,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 864.87 405.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ca52290-9c82-45ad-9ad4-28146f34ea35")
+		(property "Reference" "#PWR0675"
+			(at 864.87 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 864.87 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 864.87 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 864.87 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 864.87 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ed8190-804b-4d36-a61f-39fb35b9031d")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0675")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "AND3_1")
 		(lib_id "DMG_CPU_Cells:AND3")
 		(at 53.34 264.16 0)
@@ -190113,6 +193268,92 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DLATCH_EE_IRQ")
+		(at 368.3 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "852c0618-1392-4cb4-bc19-0164431ccf47")
+		(property "Reference" "U?"
+			(at 368.3 454.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DLATCH_EE_IRQ"
+			(at 368.3 467.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.665 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_irq"
+			(at 368.3 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gated data latch with externally inverted enable inputs and additional dynamically controlled inverted output."
+			(at 368.046 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "28a85b94-a9d3-4658-b12f-0a8f8a19b75e")
+		)
+		(pin ""
+			(uuid "764cde72-f959-4b2f-8a16-cbe2f3634b73")
+		)
+		(pin ""
+			(uuid "dd9113f4-73d0-449a-9903-3dfd9dd61663")
+		)
+		(pin ""
+			(uuid "4cba8b05-d305-4960-8ef3-a4e1a73dab39")
+		)
+		(pin ""
+			(uuid "10384870-6736-4fb5-b883-de5c36eed9e7")
+		)
+		(pin ""
+			(uuid "86d11f6b-6931-4df8-8054-504eef2bf4ef")
+		)
+		(pin ""
+			(uuid "3be126d0-b041-4e96-8054-65bc3ddd7d80")
+		)
+		(pin ""
+			(uuid "71721f95-66c1-4f87-ba28-22d7621c8063")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 548.005 806.45 0)
 		(unit 1)
@@ -190410,83 +193651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DFFNGE_ALU_TMP")
-		(at 814.705 309.245 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85940f17-6db6-48f3-a70c-e375b01ac44d")
-		(property "Reference" "U?"
-			(at 814.705 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFNGE_ALU_TMP"
-			(at 814.705 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 814.07 315.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_tmp"
-			(at 814.705 316.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
-			(at 814.705 309.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "610406d3-5ffa-487c-bbfc-7ab4361c3131")
-		)
-		(pin ""
-			(uuid "610406d3-5ffa-487c-bbfc-7ab4361c3132")
-		)
-		(pin ""
-			(uuid "610406d3-5ffa-487c-bbfc-7ab4361c3133")
-		)
-		(pin ""
-			(uuid "610406d3-5ffa-487c-bbfc-7ab4361c3134")
-		)
-		(pin ""
-			(uuid "610406d3-5ffa-487c-bbfc-7ab4361c3135")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "NAND3_1")
 		(lib_id "DMG_CPU_Cells:NAND3")
 		(at 945.515 577.215 0)
@@ -190709,6 +193873,77 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 75.565 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8607d184-306a-4e53-a8d8-67eed41c6d50")
+		(property "Reference" "C?"
+			(at 76.2 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 76.2 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.5302 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 75.565 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 75.565 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f720f7e2-8b7a-43f5-aa36-d464317ae6fa")
+		)
+		(pin "2"
+			(uuid "1de85fc0-594f-49a9-8230-fa043daf8fdf")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -191177,6 +194412,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1835.15 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86b08509-ffe3-4a5e-9215-c1679f861cd5")
+		(property "Reference" "#PWR0660"
+			(at 1835.15 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1835.15 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1835.15 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1835.15 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1835.15 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c8db47b-b0b2-4098-aa42-7c50e5f605b6")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0660")
 					(unit 1)
 				)
 			)
@@ -192382,86 +195682,6 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DFFGE_X1_REG_BIT")
-		(at 36.195 40.005 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "884c31d8-5a55-4bc9-a146-b10b297b7eef")
-		(property "Reference" "U?"
-			(at 36.195 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGE_X1_REG_BIT"
-			(at 36.195 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x1_reg_bit"
-			(at 36.195 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
-			(at 36.195 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d635c")
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d635d")
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d635e")
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d635f")
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d6360")
-		)
-		(pin ""
-			(uuid "9094ef91-84e0-452a-a159-8bef615d6361")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -194805,95 +198025,6 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0640")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DFFGSE_REG_PC_BIT")
-		(at 577.85 46.355 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b829ccf-1c3f-46da-a599-6a810a96c1a4")
-		(property "Reference" "U?"
-			(at 577.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGSE_REG_PC_BIT"
-			(at 577.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 577.215 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgse_reg_pc_bit"
-			(at 577.85 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, prechargable D input, and active-low asynchronous set with clock-gated behavior."
-			(at 577.85 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92eed")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92eee")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92eef")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef0")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef1")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef2")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef3")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef4")
-		)
-		(pin ""
-			(uuid "0a17fbaa-7e91-4d9b-9d26-d0b4f9d92ef5")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -198078,92 +201209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DFFGRE_REG_IE_BIT")
-		(at 811.53 45.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90235fb3-c1bd-42a0-9dff-8abaffc22c3a")
-		(property "Reference" "U?"
-			(at 811.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGRE_REG_IE_BIT"
-			(at 811.53 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 810.895 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgre_reg_ie_bit"
-			(at 811.53 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and active-high asynchronous reset with clock-gated behavior."
-			(at 811.53 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13a")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13b")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13c")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13d")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13e")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e13f")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e140")
-		)
-		(pin ""
-			(uuid "ded5ebab-8240-4607-9c44-11815a74e141")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 1342.39 326.39 0)
 		(unit 1)
@@ -199270,6 +202315,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 628.015 413.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91e709bf-805b-4499-9876-97a6eb2d9cf3")
+		(property "Reference" "#PWR0674"
+			(at 628.015 419.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 628.015 417.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 628.015 413.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 628.015 413.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 628.015 413.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ead80b0d-fb84-4adc-9ee5-1ff41bd7eec5")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0674")
 					(unit 1)
 				)
 			)
@@ -201825,6 +204936,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 864.87 400.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "970b22fd-3744-485d-aa88-184de65bc718")
+		(property "Reference" "C?"
+			(at 865.505 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 865.505 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 865.8352 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 864.87 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 864.87 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8433ba88-74a3-4723-9ad7-0f6ecf69d87f")
+		)
+		(pin "2"
+			(uuid "e0abcfa8-cc9e-42a9-a4c6-dce78db98eed")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 1444.625 67.31 0)
 		(unit 1)
@@ -202129,6 +205311,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 655.955 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97da6538-06ab-48a2-b102-9be2a238b960")
+		(property "Reference" "#PWR0670"
+			(at 655.955 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 655.955 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 655.955 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 655.955 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 655.955 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e9e4ee-0198-437d-a4b9-2eba4c21c9a7")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0670")
 					(unit 1)
 				)
 			)
@@ -202513,6 +205761,79 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1882.14 443.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98aa0a9f-2289-4dab-893a-65b2b87885c5")
+		(property "Reference" "N5"
+			(at 1886.585 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1886.585 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1882.775 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1882.775 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1882.14 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6387d90a-a588-4205-a80c-0dd5674182f9")
+		)
+		(pin "2"
+			(uuid "e8343e1e-2b41-4898-bb5d-f95c5ac02909")
+		)
+		(pin "3"
+			(uuid "70ba39c6-6fd4-439f-8a27-e7312644143c")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N5")
 					(unit 1)
 				)
 			)
@@ -206397,92 +209718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DFFGE_REG_SP_BIT")
-		(at 577.85 183.515 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f2aa05b-5a34-40c2-a4e7-963815ab2a5f")
-		(property "Reference" "U?"
-			(at 577.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGE_REG_SP_BIT"
-			(at 577.85 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 577.215 189.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_sp_bit"
-			(at 577.85 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
-			(at 577.85 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c4")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c5")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c6")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c7")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c8")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53c9")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53ca")
-		)
-		(pin ""
-			(uuid "0ce4c1ca-21a9-4c14-acaa-d15a21aa53cb")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 876.935 83.185 0)
 		(unit 1)
@@ -206800,7 +210035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 669.925 403.86 0)
+		(at 669.925 408.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206808,7 +210043,7 @@
 		(dnp no)
 		(uuid "9f7fc0d0-dc95-45a2-b4dc-3895cdb4de2d")
 		(property "Reference" "C?"
-			(at 670.56 401.32 0)
+			(at 670.56 405.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206818,7 +210053,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 670.56 406.4 0)
+			(at 670.56 410.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206828,7 +210063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 670.8902 407.67 0)
+			(at 670.8902 412.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206837,7 +210072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 669.925 403.86 0)
+			(at 669.925 408.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206846,7 +210081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 403.86 0)
+			(at 669.925 408.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208785,6 +212020,79 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1817.37 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2a728c4-3601-49e4-9bca-26a291dc680e")
+		(property "Reference" "N6"
+			(at 1821.815 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1821.815 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1818.005 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1818.005 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1817.37 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43bcb636-9323-4763-b538-e10957776e9b")
+		)
+		(pin "2"
+			(uuid "b5993cd5-02b6-4e54-a488-57365689f4dc")
+		)
+		(pin "3"
+			(uuid "997b98ef-3524-42ba-8cea-4980c4400984")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N6")
 					(unit 1)
 				)
 			)
@@ -211016,7 +214324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 669.925 408.305 0)
+		(at 669.925 413.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -211024,7 +214332,7 @@
 		(dnp no)
 		(uuid "a673056d-d0b8-4ea2-9cda-3d03029e871e")
 		(property "Reference" "#PWR0171"
-			(at 669.925 414.655 0)
+			(at 669.925 419.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211033,7 +214341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 669.925 412.115 0)
+			(at 669.925 417.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211042,7 +214350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 669.925 408.305 0)
+			(at 669.925 413.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211051,7 +214359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 669.925 408.305 0)
+			(at 669.925 413.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211060,7 +214368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 408.305 0)
+			(at 669.925 413.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219318,6 +222626,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 628.015 408.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b46f4606-5931-4631-8baf-ff1c1beeace3")
+		(property "Reference" "C?"
+			(at 628.65 405.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 628.65 410.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 628.9802 412.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 628.015 408.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 628.015 408.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c882c41-2a3b-491c-9af6-3c7ce651142d")
+		)
+		(pin "2"
+			(uuid "e41b634b-008f-49f9-b49d-6cb138ad17f6")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:PMOS")
 		(at 1703.07 93.98 0)
 		(mirror x)
@@ -225899,6 +229278,80 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 1832.61 417.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c09730b6-efd2-4c6b-84da-a9d178ea2364")
+		(property "Reference" "P1"
+			(at 1837.055 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 1837.055 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1833.245 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1833.245 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1832.61 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ec46aa-3b77-462e-b12c-5dc119d70839")
+		)
+		(pin "2"
+			(uuid "5b55c988-9377-46d9-8300-ea9eafed11ec")
+		)
+		(pin "3"
+			(uuid "e8204220-fca8-451e-b1b0-4ce12d3a1049")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
 		(at 730.885 798.195 0)
 		(mirror x)
 		(unit 1)
@@ -226287,86 +229740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Cells:DFFGE_REG_WZ_BIT")
-		(at 797.56 175.895 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1149c44-84bb-42c1-8ea2-9ccec0adc31e")
-		(property "Reference" "U?"
-			(at 797.56 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFGE_REG_WZ_BIT"
-			(at 797.56 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 796.925 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_wz_bit"
-			(at 797.56 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no non-inverted output."
-			(at 797.56 175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27a")
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27b")
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27c")
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27d")
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27e")
-		)
-		(pin ""
-			(uuid "371f74a2-b7f9-4212-a37f-776948a6b27f")
-		)
-		(instances
-			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 508.635 30.48 0)
 		(unit 1)
@@ -226650,6 +230023,79 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1865.63 443.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c159ede5-94a9-45dd-bd2a-0565cc26f483")
+		(property "Reference" "N4"
+			(at 1870.075 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1870.075 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1866.265 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1866.265 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1865.63 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad38c992-819a-4a1d-81a8-f8d97b4f8032")
+		)
+		(pin "2"
+			(uuid "cf020d77-7850-4cc5-a64d-0344e457d0f1")
+		)
+		(pin "3"
+			(uuid "b03533a4-27ea-4542-a90f-c58ec238325a")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "N4")
 					(unit 1)
 				)
 			)
@@ -228076,7 +231522,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 669.925 268.605 0)
+		(at 669.925 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -228084,7 +231530,7 @@
 		(dnp no)
 		(uuid "c3e9f123-50d1-49ae-a653-76d0e3ae29ed")
 		(property "Reference" "C?"
-			(at 670.56 266.065 0)
+			(at 670.56 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228094,7 +231540,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 670.56 271.145 0)
+			(at 670.56 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228104,7 +231550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 670.8902 272.415 0)
+			(at 670.8902 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228113,7 +231559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 669.925 268.605 0)
+			(at 669.925 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228122,7 +231568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 669.925 268.605 0)
+			(at 669.925 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228579,80 +232025,6 @@
 		)
 		(instances
 			(project "sm83_cells"
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DLATCH_Q")
-		(at 1390.015 413.385 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4e9beca-9657-4b39-ace1-46cb511fdb79")
-		(property "Reference" "U?"
-			(at 1390.015 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DLATCH_Q"
-			(at 1390.015 419.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1389.38 419.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_q"
-			(at 1390.015 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gated data latch with no inverted output."
-			(at 1390.015 423.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b8691b81-33c5-423e-af47-384df9098755")
-		)
-		(pin ""
-			(uuid "9698e89b-648a-4daa-8bde-be3a5a05b831")
-		)
-		(pin ""
-			(uuid "2c7d44c6-cd3e-4925-9814-2fa52f48a367")
-		)
-		(pin ""
-			(uuid "99fe6faa-2f6f-4b46-badb-e31fa4bab070")
-		)
-		(instances
-			(project ""
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "U?")
 					(unit 1)
@@ -229251,6 +232623,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 1884.68 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5bd9da7-2b36-4e49-998c-484518518e0b")
+		(property "Reference" "#PWR0666"
+			(at 1884.68 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1884.68 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1884.68 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1884.68 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1884.68 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07f447b-564e-4323-911d-ee4177bb1411")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0666")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 1588.77 67.31 0)
 		(unit 1)
@@ -229324,6 +232761,86 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:DFF_CC_EE_Q_N_REG_WZ_BIT")
+		(at 797.56 175.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5f1c66c-6deb-418f-95b4-45b88f76612e")
+		(property "Reference" "U?"
+			(at 797.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFF_CC_EE_Q_N_REG_WZ_BIT"
+			(at 797.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 796.925 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_n_reg_wz_bit"
+			(at 797.56 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no non-inverted output."
+			(at 797.56 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "da2c58c8-8331-44dd-971e-7b56db15673b")
+		)
+		(pin ""
+			(uuid "10ecf822-c29c-47e2-925c-049d2eb06482")
+		)
+		(pin ""
+			(uuid "fb266ca9-d447-4a0a-94e4-867baa2a20a8")
+		)
+		(pin ""
+			(uuid "91475a90-dfee-4f5a-96af-ef0cc28eeb1a")
+		)
+		(pin ""
+			(uuid "f63b7b17-2120-4e1a-8fc1-7333e0814f67")
+		)
+		(pin ""
+			(uuid "1836864c-0118-40d7-9288-7bb8adde4426")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -231562,6 +235079,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0642")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1851.66 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c945d651-2986-4518-a2c3-0506f0be797b")
+		(property "Reference" "#PWR0662"
+			(at 1851.66 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1851.66 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1851.66 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1851.66 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1851.66 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a451368-fbe3-48d8-9fa0-39c710a81ab0")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0662")
 					(unit 1)
 				)
 			)
@@ -234741,6 +238323,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 1819.91 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cde377fe-0883-445c-86fa-649b9ea44131")
+		(property "Reference" "#PWR0668"
+			(at 1819.91 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1819.91 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1819.91 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1819.91 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1819.91 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa058661-2358-445d-a182-64c0730304bb")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0668")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 1193.165 57.15 0)
 		(unit 1)
@@ -235562,6 +239209,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 628.015 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf64a44f-75b3-4d83-98c1-60c2eabac54f")
+		(property "Reference" "#PWR0672"
+			(at 628.015 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 628.015 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 628.015 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 628.015 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 628.015 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55afd46d-5499-49e6-a8f7-1d7fd5c42b99")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0672")
 					(unit 1)
 				)
 			)
@@ -237548,7 +241261,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 909.955 395.605 0)
+		(at 909.955 400.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -237556,7 +241269,7 @@
 		(dnp no)
 		(uuid "d419384e-5a9c-45f4-b26a-df5b4582b62b")
 		(property "Reference" "C?"
-			(at 910.59 393.065 0)
+			(at 910.59 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237566,7 +241279,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 910.59 398.145 0)
+			(at 910.59 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237576,7 +241289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 910.9202 399.415 0)
+			(at 910.9202 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237585,7 +241298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 909.955 395.605 0)
+			(at 909.955 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237594,7 +241307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 909.955 395.605 0)
+			(at 909.955 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238915,6 +242628,77 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 628.015 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d617483a-07db-4463-90c5-6c64ca13a0ec")
+		(property "Reference" "C?"
+			(at 628.65 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 628.65 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 628.9802 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 628.015 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 628.015 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "449ac5bf-5b10-4eda-bfda-355bb422c464")
+		)
+		(pin "2"
+			(uuid "c7c766b4-394f-4d99-be19-b1e5bd878012")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -243515,8 +247299,9 @@
 		)
 	)
 	(symbol
+		(lib_name "NOT_IF01_2")
 		(lib_id "sm83_symbols:NOT_IF01")
-		(at 839.47 255.905 0)
+		(at 831.85 255.905 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -243524,7 +247309,7 @@
 		(dnp no)
 		(uuid "def73226-1c36-4e19-9454-609d6b98b5a6")
 		(property "Reference" "U?"
-			(at 839.47 260.985 0)
+			(at 831.85 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243533,7 +247318,7 @@
 			)
 		)
 		(property "Value" "NOT_IF01"
-			(at 839.47 262.89 0)
+			(at 831.85 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243542,7 +247327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 836.93 260.985 0)
+			(at 829.31 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243551,7 +247336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 836.93 260.985 0)
+			(at 829.31 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243560,7 +247345,7 @@
 			)
 		)
 		(property "Description" "Tri-state inverter with one active-low and one active-high enable input."
-			(at 839.47 255.905 0)
+			(at 831.85 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246059,6 +249844,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 655.955 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3e58f2a-80a6-4e58-bf35-6f57bd0bcb2d")
+		(property "Reference" "C?"
+			(at 656.59 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 656.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 656.9202 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 655.955 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 655.955 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "215ed909-75b1-46f0-aff7-df6ecccddad4")
+		)
+		(pin "2"
+			(uuid "e5968155-fdc3-470c-98a4-21a4e0dffcb6")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:NMOS")
 		(at 123.19 788.67 0)
 		(unit 1)
@@ -246284,6 +250140,77 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 838.835 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e42dfaba-82cc-43d0-8321-1d2e79a0a904")
+		(property "Reference" "C?"
+			(at 839.47 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 839.47 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 839.8002 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 838.835 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 838.835 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abba56d1-5bea-4587-aadd-a75cc8e9d396")
+		)
+		(pin "2"
+			(uuid "165bbd9d-c2c5-4f92-9580-f915d6bd0127")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -246595,6 +250522,72 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 889.635 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e530ffaf-891b-4d38-9474-b83717b1ed36")
+		(property "Reference" "#PWR0671"
+			(at 889.635 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 889.635 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 889.635 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 889.635 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 889.635 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2caac7ae-b1c3-4c5e-bd84-ff830412ff31")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0671")
 					(unit 1)
 				)
 			)
@@ -248239,6 +252232,80 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DLATCH_EE_Q")
+		(at 1390.015 413.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e79e3192-73cf-461f-a22c-9a844924e9ae")
+		(property "Reference" "U?"
+			(at 1390.015 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DLATCH_EE_Q"
+			(at 1390.015 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1389.38 419.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
+			(at 1390.015 421.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
+			(at 1390.015 423.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0171689f-c774-4d0a-893c-e86729cf2546")
+		)
+		(pin ""
+			(uuid "3f6f0504-4753-4663-bdf8-9a4892073c94")
+		)
+		(pin ""
+			(uuid "0bd952d3-169d-46de-afcb-36a1c3940098")
+		)
+		(pin ""
+			(uuid "21f78988-81f6-4b21-a6d9-36f0d3261d36")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:PMOS")
 		(at 909.32 192.405 0)
 		(mirror x)
@@ -248536,6 +252603,86 @@
 		)
 		(instances
 			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:DFF_CC_EE_Q_X1_REG_BIT")
+		(at 36.195 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e88672b3-6e62-4e8f-b7e5-4d527e5ba7ab")
+		(property "Reference" "U?"
+			(at 36.195 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFF_CC_EE_Q_X1_REG_BIT"
+			(at 36.195 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x1_reg_bit"
+			(at 36.195 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
+			(at 36.195 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "46443d67-88b9-4bd2-be21-dd55f3551520")
+		)
+		(pin ""
+			(uuid "76a1b2a6-3255-4cc0-a0c2-a05c18838c1d")
+		)
+		(pin ""
+			(uuid "d061d9b4-0c11-4e54-99a8-70c0e65c815b")
+		)
+		(pin ""
+			(uuid "fcc12657-5686-4900-8624-ef2d652529ef")
+		)
+		(pin ""
+			(uuid "4153d3b1-6f94-456e-a8a4-be55b4a3208b")
+		)
+		(pin ""
+			(uuid "106a9c50-0594-4ed9-8a25-465f0cd24020")
+		)
+		(instances
+			(project ""
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "U?")
 					(unit 1)
@@ -253332,7 +257479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 909.955 400.05 0)
+		(at 909.955 405.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -253340,7 +257487,7 @@
 		(dnp no)
 		(uuid "effc0195-4612-436b-8d3c-566b03e2e61b")
 		(property "Reference" "#PWR0154"
-			(at 909.955 406.4 0)
+			(at 909.955 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253349,7 +257496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 909.955 403.86 0)
+			(at 909.955 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253358,7 +257505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 909.955 400.05 0)
+			(at 909.955 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253367,7 +257514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 909.955 400.05 0)
+			(at 909.955 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253376,7 +257523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 909.955 400.05 0)
+			(at 909.955 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

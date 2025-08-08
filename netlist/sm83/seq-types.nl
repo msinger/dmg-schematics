@@ -214,13 +214,13 @@ type not_c:black in y:out
 	y @-51.56,233.53
 	"Simple inverter.";
 
-type dlatch_q:yellow d ena ~ena q:out
+type dlatch_ee_q:yellow d ena ~ena q:out
 	    @-61.80,233.55,-56.45,239.19
 	d   @-57.81,236.55
 	ena @-58.89,233.82
 	~ena@-58.53,239.19
 	q   @-59.81,234.88
-	"Gated data latch with no inverted output.";
+	"Gated data latch with externally inverted enable inputs and no inverted output.";
 
 type nor2_c:blue in1 in2 y:out
 	   @-62.78,233.56,-60.41,238.64

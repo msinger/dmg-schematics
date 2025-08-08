@@ -5,6 +5,7 @@ cell xufu:dff_cc_q_alt      rot0        @-40.88,224.58,-33.92,229.69            
 cell xirf:dff_cc_q          rot0        @-46.86,224.58,-40.84,229.67                                      ->seq;
 cell xaym:dff_cc_q          rot180,flip @-53.09,224.58,-47.13,229.69                                      ->seq;
 cell xdqf:dff_cc_q          rot0        @-60.23,224.63,-54.20,229.72                                      ->seq;
+#alias cell xult -> xogs;
 
 cell yoii:dff_cc_q          rot0,flip   @-23.25,233.47,-17.16,238.59                                      ->seq;
 cell ykua:oai21             rot0,flip   @-25.80,233.48,-23.28,239.19                                      ->seq;
@@ -16,7 +17,7 @@ cell ycnf:or3_b             rot0,flip   @-43.64,233.56,-39.53,239.17            
 cell yneu:aoi21_a           rot0,flip   @-50.77,233.52,-48.33,238.61                                      ->seq;
 cell yepj:not_c             rot0,flip   @-51.84,233.53,-49.86,238.64                                      ->seq;
 cell ydxa:dff_cc_q          rot0,flip   @-57.72,233.53,-51.66,238.66                                      ->seq;
-cell yodp:dlatch_q          rot0,flip   @-61.80,233.55,-56.45,239.19                                      ->seq;
+cell yodp:dlatch_ee_q       rot0,flip   @-61.80,233.55,-56.45,239.19                                      ->seq;
 cell yniu:nor2_c            rot0,flip   @-62.78,233.56,-60.41,238.64                                      ->seq;
 
 cell zaza:dff_cc_q          rot180,flip @-23.81,242.97,-17.72,248.13                                      ->seq;
@@ -49,6 +50,8 @@ cell zoxc:nand2_a           rot0        @-112.13,243.06,-110.19,248.16          
 cell zwuu:aoi331_s3         rot0        @-116.88,243.06,-111.63,248.16                                    ->seq;
 cell zjje:srlatch_r_n       rot0        @-119.44,243.06,-116.19,248.25 s@-118.75,244.50 ~r@-118.75,248.25 ->seq;
 cell zbpp:ao33_s3_tap_in1_n rot0        @-124.28,243.03,-118.53,248.25                                    ->seq;
+alias cell zmiz zelp -> zaij;
+alias cell zevo      -> zbpp;
 
 
 # Wires originating from sequencer in the top right corner

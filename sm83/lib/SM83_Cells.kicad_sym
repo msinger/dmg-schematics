@@ -666,6 +666,250 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "AO31_IN3_N"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO31_IN3_N"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.635 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#ao31_in3_n"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-1 AND-OR two-level compound gate with inverted IN3."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AO31_IN3_N_1_1"
+			(arc
+				(start -0.0002 2.54)
+				(mid 1.2208 -1.27)
+				(end -0.0002 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 5.715)
+				(mid -0.05 2.54)
+				(end -3.175 -0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 5.715) (xy -6.985 5.715) (xy -6.985 -0.635) (xy -3.175 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 2.54) (xy 3.1748 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0002 -5.08) (xy 3.1748 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 7.6198 -1.27)
+				(mid 5.9953 -3.854)
+				(end 3.2002 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.2002 2.54)
+				(mid 6.0027 1.3225)
+				(end 7.6198 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 2.54) (xy 0 2.54) (xy 0 2.54) (xy 0.254 2.1336) (xy 0.7874 0.9906) (xy 1.1176 -0.2286)
+					(xy 1.1938 -1.524) (xy 1.0414 -2.7686) (xy 0.635 -3.9878) (xy 0 -5.08) (xy 0 -5.08) (xy 3.175 -5.08)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -11.43 5.08 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 2.54 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -11.43 0 0)
+				(length 4.3)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -3.81 0)
+				(length 12)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 -1.27 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AO33_S3_TAP_IN1_N"
 		(pin_numbers
 			(hide yes)
@@ -1823,7 +2067,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFGE_REG_SP_BIT"
+	(symbol "DFFN_EE_PCH_D_ALU_FLAG"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1838,7 +2082,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFGE_REG_SP_BIT"
+		(property "Value" "DFFN_EE_PCH_D_ALU_FLAG"
 			(at 0 -6.985 0)
 			(effects
 				(font
@@ -1855,7 +2099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_sp_bit"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_pch_d_alu_flag"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -1864,7 +2108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
+		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -1873,7 +2117,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFGE_REG_SP_BIT_0_1"
+		(symbol "DFFN_EE_PCH_D_ALU_FLAG_0_1"
 			(rectangle
 				(start -6.35 5.715)
 				(end 6.35 -5.715)
@@ -1886,30 +2130,11 @@
 				)
 			)
 		)
-		(symbol "DFFGE_REG_SP_BIT_1_1"
-			(pin input clock
+		(symbol "DFFN_EE_PCH_D_ALU_FLAG_1_1"
+			(pin input inverted_clock
 				(at -10.16 3.81 0)
 				(length 3.81)
 				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -10.16 3.81 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{CLK}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2036,7 +2261,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFGE_REG_WZ_BIT"
+	(symbol "DFFN_EE_Q_ALU_TMP"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2051,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFGE_REG_WZ_BIT"
+		(property "Value" "DFFN_EE_Q_ALU_TMP"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -2068,7 +2293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_reg_wz_bit"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_tmp"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -2077,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no non-inverted output."
+		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -2086,7 +2311,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFGE_REG_WZ_BIT_0_1"
+		(symbol "DFFN_EE_Q_ALU_TMP_0_1"
 			(rectangle
 				(start -6.35 4.445)
 				(end 6.35 -4.445)
@@ -2099,207 +2324,11 @@
 				)
 			)
 		)
-		(symbol "DFFGE_REG_WZ_BIT_1_1"
-			(pin input clock
+		(symbol "DFFN_EE_Q_ALU_TMP_1_1"
+			(pin input inverted_clock
 				(at -10.16 2.54 0)
 				(length 3.81)
 				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -10.16 2.54 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{CLK}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 3.81)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{ENA}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 3.81)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -2.54 180)
-				(length 3.81)
-				(name "~{Q}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "DFFGE_X1_REG_BIT"
-		(pin_numbers
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DFFGE_X1_REG_BIT"
-			(at 0 -5.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -0.635 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x1_reg_bit"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "DFFGE_X1_REG_BIT_0_1"
-			(rectangle
-				(start -6.35 4.445)
-				(end 6.35 -4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "DFFGE_X1_REG_BIT_1_1"
-			(pin input clock
-				(at -10.16 2.54 0)
-				(length 3.81)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -10.16 2.54 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{CLK}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2390,184 +2419,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFGE_X2_REG_BIT"
-		(pin_numbers
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DFFGE_X2_REG_BIT"
-			(at 0 -5.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -0.635 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffge_x2_reg_bit"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, 2× drive strength, and no inverted output."
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "DFFGE_X2_REG_BIT_0_1"
-			(rectangle
-				(start -6.35 4.445)
-				(end 6.35 -4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "DFFGE_X2_REG_BIT_1_1"
-			(pin input clock
-				(at -10.16 2.54 0)
-				(length 3.81)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -10.16 2.54 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{CLK}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 3.81)
-				(name "ENA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 0 0)
-				(length 3.81)
-				(hide yes)
-				(name "~{ENA}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 3.81)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 2.54 180)
-				(length 3.81)
-				(name "Q"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "DFFGRE_REG_IE_BIT"
+	(symbol "DFFR_CC_EE_REG_IE_BIT"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2582,7 +2434,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFGRE_REG_IE_BIT"
+		(property "Value" "DFFR_CC_EE_REG_IE_BIT"
 			(at 0 -6.985 0)
 			(effects
 				(font
@@ -2599,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgre_reg_ie_bit"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffr_cc_ee_reg_ie_bit"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -2608,7 +2460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and active-high asynchronous reset with clock-gated behavior."
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and active-high reset gated by the clock level."
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -2617,7 +2469,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFGRE_REG_IE_BIT_0_1"
+		(symbol "DFFR_CC_EE_REG_IE_BIT_0_1"
 			(rectangle
 				(start -6.35 5.715)
 				(end 6.35 -5.715)
@@ -2630,7 +2482,7 @@
 				)
 			)
 		)
-		(symbol "DFFGRE_REG_IE_BIT_1_1"
+		(symbol "DFFR_CC_EE_REG_IE_BIT_1_1"
 			(pin input clock
 				(at -10.16 3.81 0)
 				(length 3.81)
@@ -2780,7 +2632,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFGSE_REG_PC_BIT"
+	(symbol "DFFS_CC_EE_PCH_D_REG_PC_BIT"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2795,7 +2647,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFGSE_REG_PC_BIT"
+		(property "Value" "DFFS_CC_EE_PCH_D_REG_PC_BIT"
 			(at 0 -8.255 0)
 			(effects
 				(font
@@ -2812,7 +2664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffgse_reg_pc_bit"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffs_cc_ee_pch_d_reg_pc_bit"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -2821,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating, prechargable D input, and active-low asynchronous set with clock-gated behavior."
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, prechargable D input, and active-low set gated by the clock level."
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2830,7 +2682,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFGSE_REG_PC_BIT_0_1"
+		(symbol "DFFS_CC_EE_PCH_D_REG_PC_BIT_0_1"
 			(rectangle
 				(start -6.35 6.985)
 				(end 6.35 -6.985)
@@ -2843,7 +2695,7 @@
 				)
 			)
 		)
-		(symbol "DFFGSE_REG_PC_BIT_1_1"
+		(symbol "DFFS_CC_EE_PCH_D_REG_PC_BIT_1_1"
 			(pin input clock
 				(at -10.16 5.08 0)
 				(length 3.81)
@@ -3011,7 +2863,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFNGE_ALU_FLAG"
+	(symbol "DFF_CC_EE_PCH_D_REG_SP_BIT"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3026,7 +2878,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFNGE_ALU_FLAG"
+		(property "Value" "DFF_CC_EE_PCH_D_REG_SP_BIT"
 			(at 0 -6.985 0)
 			(effects
 				(font
@@ -3043,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_flag"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_pch_d_reg_sp_bit"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -3052,7 +2904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and prechargable D input."
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and prechargable D input."
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -3061,7 +2913,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFNGE_ALU_FLAG_0_1"
+		(symbol "DFF_CC_EE_PCH_D_REG_SP_BIT_0_1"
 			(rectangle
 				(start -6.35 5.715)
 				(end 6.35 -5.715)
@@ -3074,11 +2926,30 @@
 				)
 			)
 		)
-		(symbol "DFFNGE_ALU_FLAG_1_1"
-			(pin input inverted_clock
+		(symbol "DFF_CC_EE_PCH_D_REG_SP_BIT_1_1"
+			(pin input clock
 				(at -10.16 3.81 0)
 				(length 3.81)
 				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 3.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{CLK}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3205,7 +3076,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DFFNGE_ALU_TMP"
+	(symbol "DFF_CC_EE_Q_N_REG_WZ_BIT"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3220,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Value" "DFFNGE_ALU_TMP"
+		(property "Value" "DFF_CC_EE_Q_N_REG_WZ_BIT"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -3237,7 +3108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffnge_alu_tmp"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_n_reg_wz_bit"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3246,7 +3117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative-edge-triggered semi-dynamic data flip-flop with level-sensitive D-gating and no inverted output."
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no non-inverted output."
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -3255,7 +3126,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DFFNGE_ALU_TMP_0_1"
+		(symbol "DFF_CC_EE_Q_N_REG_WZ_BIT_0_1"
 			(rectangle
 				(start -6.35 4.445)
 				(end 6.35 -4.445)
@@ -3268,11 +3139,384 @@
 				)
 			)
 		)
-		(symbol "DFFNGE_ALU_TMP_1_1"
-			(pin input inverted_clock
+		(symbol "DFF_CC_EE_Q_N_REG_WZ_BIT_1_1"
+			(pin input clock
 				(at -10.16 2.54 0)
 				(length 3.81)
 				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{CLK}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{ENA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 3.81)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -2.54 180)
+				(length 3.81)
+				(name "~{Q}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DFF_CC_EE_Q_X1_REG_BIT"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFF_CC_EE_Q_X1_REG_BIT"
+			(at 0 -5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.635 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x1_reg_bit"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DFF_CC_EE_Q_X1_REG_BIT_0_1"
+			(rectangle
+				(start -6.35 4.445)
+				(end 6.35 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DFF_CC_EE_Q_X1_REG_BIT_1_1"
+			(pin input clock
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{CLK}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "ENA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{ENA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 3.81)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 3.81)
+				(name "Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DFF_CC_EE_Q_X2_REG_BIT"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFF_CC_EE_Q_X2_REG_BIT"
+			(at 0 -5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.635 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dff_cc_ee_q_x2_reg_bit"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with complementary clock inputs, externally inverted enable inputs, level-sensitive D-gating, 2× drive strength, and no inverted output."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DFF_CC_EE_Q_X2_REG_BIT_0_1"
+			(rectangle
+				(start -6.35 4.445)
+				(end 6.35 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DFF_CC_EE_Q_X2_REG_BIT_1_1"
+			(pin input clock
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(hide yes)
+				(name "~{CLK}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3643,7 +3887,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DLATCH_IRQ"
+	(symbol "DLATCH_EE_IRQ"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3658,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Value" "DLATCH_IRQ"
+		(property "Value" "DLATCH_EE_IRQ"
 			(at 0 -6.985 0)
 			(effects
 				(font
@@ -3675,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_irq"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_irq"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -3684,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gated data latch with additional dynamically controlled inverted output."
+		(property "Description" "Gated data latch with externally inverted enable inputs and additional dynamically controlled inverted output."
 			(at -0.254 -11.43 0)
 			(effects
 				(font
@@ -3693,7 +3937,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DLATCH_IRQ_0_1"
+		(symbol "DLATCH_EE_IRQ_0_1"
 			(rectangle
 				(start -7.62 5.715)
 				(end 7.62 -5.715)
@@ -3706,7 +3950,7 @@
 				)
 			)
 		)
-		(symbol "DLATCH_IRQ_1_1"
+		(symbol "DLATCH_EE_IRQ_1_1"
 			(pin input line
 				(at -11.43 3.81 0)
 				(length 3.81)
@@ -3855,7 +4099,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DLATCH_Q"
+	(symbol "DLATCH_EE_Q"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3870,7 +4114,7 @@
 				)
 			)
 		)
-		(property "Value" "DLATCH_Q"
+		(property "Value" "DLATCH_EE_Q"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -3887,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_q"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3896,7 +4140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gated data latch with no inverted output."
+		(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -3905,7 +4149,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DLATCH_Q_0_1"
+		(symbol "DLATCH_EE_Q_0_1"
 			(rectangle
 				(start -6.35 4.445)
 				(end 6.35 -4.445)
@@ -3918,7 +4162,7 @@
 				)
 			)
 		)
-		(symbol "DLATCH_Q_1_1"
+		(symbol "DLATCH_EE_Q_1_1"
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 3.81)
