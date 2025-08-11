@@ -1,24 +1,39 @@
 # Cells in sequencer in the top right corner
 # ------------------------------------------
 
-cell xufu:dff_cc_q_alt      rot0        @-40.88,224.58,-33.92,229.69                                      ->seq;
-cell xirf:dff_cc_q          rot0        @-46.86,224.58,-40.84,229.67                                      ->seq;
-cell xaym:dff_cc_q          rot180,flip @-53.09,224.58,-47.13,229.69                                      ->seq;
-cell xdqf:dff_cc_q          rot0        @-60.23,224.63,-54.20,229.72                                      ->seq;
-#alias cell xult -> xogs;
+cell werf:nand2_in1_n_a rot0 @-41.09,220.84,-37.50,225.16 ->seq;
+cell ween:nand2_in1_n_b rot0 @-44.66,220.84,-41.13,225.16 ->seq;
+cell wudz:nand2_in1_n_c rot0 @-47.03,221.06,-44.06,225.13 ->seq;
+cell wagr:nor2_d        rot0 @-53.06,220.88,-49.72,225.19 ->seq;
+cell wafr:nor2_e        rot0 @-54.88,221.06,-52.66,225.19 ->seq;
+cell wdin:oa21          rot0 @-59.16,220.59,-54.13,225.19 ->seq;
+alias cell wyrp -> wdin;
 
-cell yoii:dff_cc_q          rot0,flip   @-23.25,233.47,-17.16,238.59                                      ->seq;
-cell ykua:oai21             rot0,flip   @-25.80,233.48,-23.28,239.19                                      ->seq;
-cell yolu:nor2_in2_n        rot0,flip   @-28.47,233.50,-25.73,238.63                                      ->seq;
-cell ysbt:dff_cc_q          rot0,flip   @-34.44,233.53,-28.39,238.63                                      ->seq;
-cell ynoz:or3_a             rot0,flip   @-37.67,233.52,-34.41,238.61                                      ->seq;
-cell ynkw:srlatch_r_n_alt   rot180      @-40.09,233.50,-36.55,239.17                                      ->seq;
-cell ycnf:or3_b             rot0,flip   @-43.64,233.56,-39.53,239.17                                      ->seq;
-cell yneu:aoi21_a           rot0,flip   @-50.77,233.52,-48.33,238.61                                      ->seq;
-cell yepj:not_c             rot0,flip   @-51.84,233.53,-49.86,238.64                                      ->seq;
-cell ydxa:dff_cc_q          rot0,flip   @-57.72,233.53,-51.66,238.66                                      ->seq;
-cell yodp:dlatch_ee_q       rot0,flip   @-61.80,233.55,-56.45,239.19                                      ->seq;
-cell yniu:nor2_c            rot0,flip   @-62.78,233.56,-60.41,238.64                                      ->seq;
+cell xygb:nor3         rot0        @-20.34,224.50,-17.50,229.69 ->seq;
+cell xudo:not_f        rot0        @-20.91,224.53,-19.50,229.66 ->seq;
+cell xtip:aoi21_b      rot0        @-23.31,224.53,-20.69,230.72 ->seq;
+cell xwee:not_e        rot0        @-24.78,225.06,-22.94,230.22 ->seq;
+cell xurg:dffre_cc_q   rot0        @-32.75,225.09,-23.81,230.25 ->seq;
+cell xuri:not_d        rot0        @-34.56,224.53,-33.06,229.69 ->seq;
+cell xufu:dff_cc_q_alt rot0        @-40.88,224.58,-33.92,229.69 ->seq;
+cell xirf:dff_cc_q     rot0        @-46.86,224.58,-40.84,229.67 ->seq;
+cell xaym:dff_cc_q     rot180,flip @-53.09,224.58,-47.13,229.69 ->seq;
+cell xdqf:dff_cc_q     rot0        @-60.23,224.63,-54.20,229.72 ->seq;
+cell xogs:ao31_in3_n   rot0        @-66.06,224.44,-60.16,230.53 ->seq;
+alias cell xult -> xogs;
+
+cell yoii:dff_cc_q        rot0,flip @-23.25,233.47,-17.16,238.59 ->seq;
+cell ykua:oai21           rot0,flip @-25.80,233.48,-23.28,239.19 ->seq;
+cell yolu:nor2_in2_n      rot0,flip @-28.47,233.50,-25.73,238.63 ->seq;
+cell ysbt:dff_cc_q        rot0,flip @-34.44,233.53,-28.39,238.63 ->seq;
+cell ynoz:or3_a           rot0,flip @-37.67,233.52,-34.41,238.61 ->seq;
+cell ynkw:srlatch_r_n_alt rot180    @-40.09,233.50,-36.55,239.17 ->seq;
+cell ycnf:or3_b           rot0,flip @-43.64,233.56,-39.53,239.17 ->seq;
+cell yneu:aoi21_a         rot0,flip @-50.77,233.52,-48.33,238.61 ->seq;
+cell yepj:not_c           rot0,flip @-51.84,233.53,-49.86,238.64 ->seq;
+cell ydxa:dff_cc_q        rot0,flip @-57.72,233.53,-51.66,238.66 ->seq;
+cell yodp:dlatch_ee_q     rot0,flip @-61.80,233.55,-56.45,239.19 ->seq;
+cell yniu:nor2_c          rot0,flip @-62.78,233.56,-60.41,238.64 ->seq;
 
 cell zaza:dff_cc_q          rot180,flip @-23.81,242.97,-17.72,248.13                                      ->seq;
 cell zorp:dff_cc_q          rot180,flip @-29.88,242.97,-23.78,248.09                                      ->seq;
@@ -52,6 +67,9 @@ cell zjje:srlatch_r_n       rot0        @-119.44,243.06,-116.19,248.25 s@-118.75
 cell zbpp:ao33_s3_tap_in1_n rot0        @-124.28,243.03,-118.53,248.25                                    ->seq;
 alias cell zmiz zelp -> zaij;
 alias cell zevo      -> zbpp;
+
+cell zkon:not_g  rot0 @-43.28,247.55,-40.63,251.53 ->seq;
+cell zhzo:nor2_f rot0 @-46.11,247.53,-43.81,251.36 ->seq;
 
 
 # Wires originating from sequencer in the top right corner

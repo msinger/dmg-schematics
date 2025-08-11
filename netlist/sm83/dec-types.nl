@@ -1,6 +1,12 @@
 # Type definitions of cells in decoders at the top center-right-ish region
 # ------------------------------------------------------------------------
 
+type not_dec1:black in y:out
+	  @-21.38,220.29,-19.88,225.05
+	in@-20.64,220.29
+	y @-20.30,220.59
+	"Simple inverter.";
+
 type not_pch_dec1:black ~pch in:inout y:out
 	    @-41.75,214.03,-32.09,215.28
 	~pch@-32.34,214.03,-32.34,215.28
@@ -49,6 +55,14 @@ type not_x2_dec2:black in y:out
 	in@-61.31,120.91
 	y @-61.31,121.63
 	"Inverter with 2× drive strength.";
+
+type and2_in1_n_tap_in1_dec2:red ~in1 in2 y:out tap_in1:out
+	       @-61.19,211.52,-57.73,216.13
+	~in1   @-61.19,212.47
+	in2    @-61.19,213.19
+	y      @-61.19,215.91
+	tap_in1@-61.19,211.73
+	"AND gate with two inputs, inverted first input, and tap after inversion of first input.";
 
 type not_dec3:black in y:out
 	  @-107.53,233.72,-102.81,235.50

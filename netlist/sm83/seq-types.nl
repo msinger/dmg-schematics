@@ -1,6 +1,49 @@
 # Type definitions of cells in sequencer in the top right corner
 # --------------------------------------------------------------
 
+type nand2_in1_n_a:red ~in1 in2 y:out
+	    @-41.09,220.84,-37.50,225.16
+	~in1@-38.75,220.84
+	in2 @-40.38,220.84
+	y   @-38.00,225.16
+	"NAND gate with two inputs, one of them inverted.";
+
+type nand2_in1_n_b:red ~in1 in2 y:out
+	    @-44.66,220.84,-41.13,225.16
+	~in1@-41.84,220.84
+	in2 @-43.09,220.84
+	y   @-44.06,225.16
+	"NAND gate with two inputs, one of them inverted.";
+
+type nand2_in1_n_c:red ~in1 in2 y:out
+	    @-47.03,221.06,-44.06,225.13
+	~in1@-44.78,221.06
+	in2 @-46.28,221.06
+	y   @-47.03,223.22
+	"NAND gate with two inputs, one of them inverted.";
+
+type nor2_d:blue in1 in2 y:out
+	   @-53.06,220.88,-49.72,225.19
+	in1@-52.66,225.19
+	in2@-50.69,220.88
+	y  @-50.06,220.88
+	"NOR gate with two inputs.";
+
+type nor2_e:blue in1 in2 y:out
+	   @-54.88,221.06,-52.66,225.19
+	in1@-54.09,221.06
+	in2@-53.38,221.06
+	y  @-54.88,223.25
+	"NOR gate with two inputs.";
+
+type oa21:green in1 in2 in3 y:out
+	   @-59.16,220.59,-54.13,225.19
+	in1@-54.81,220.59,-54.81,225.19
+	in2@-55.41,220.59
+	in3@-54.13,223.25
+	y  @-59.16,223.25
+	"2-1 OR-AND two-level compound gate.";
+
 type nand2_d:red in1 in2 y:out
 	   @-31.81,243.00,-29.59,248.16
 	in1@-31.19,243.00
@@ -228,4 +271,71 @@ type nor2_c:blue in1 in2 y:out
 	in2@-61.25,233.56
 	y  @-62.78,236.76
 	"NOR gate with two inputs.";
+
+type not_g:black in y:out
+	  @-43.28,247.55,-40.63,251.53
+	in@-43.28,249.67,-40.63,249.67
+	y @-40.63,248.94
+	"Simple inverter.";
+
+type nor2_f:blue in1 in2 y:out
+	   @-46.11,247.53,-43.81,251.36
+	in1@-46.11,249.50
+	in2@-46.11,249.50
+	y  @-43.81,249.66
+	"NOR gate with two inputs.";
+
+type nor3:blue in1 in2 in3 y:out
+	   @-20.34,224.50,-17.50,229.69
+	in1@-19.50,229.69
+	in2@-18.94,229.69
+	in3@-18.25,229.69
+	y  @-19.16,224.50
+	"NOR gate with three inputs.";
+
+type not_f:black in y:out
+	  @-20.91,224.53,-19.50,229.66
+	in@-19.84,224.53
+	y @-20.63,227.72
+	"Simple inverter.";
+
+type aoi21_b:green in1 in2 in3 y:out
+	   @-23.31,224.53,-20.69,230.72
+	in1@-21.50,230.72
+	in2@-22.09,228.81
+	in3@-20.69,228.66
+	y  @-22.13,224.53
+	"2-1 AND-OR-INVERT two-level compound gate.";
+
+type not_e:black in y:out
+	  @-24.78,225.06,-22.94,230.22
+	in@-23.69,230.22
+	y @-23.41,230.22
+	"Simple inverter.";
+
+type dffre_cc_q:orange d clk ~clk ena reset q:out
+	     @-32.75,225.09,-23.81,230.25
+	d    @-25.44,230.25
+	clk  @-32.75,226.50,-23.81,226.50
+	~clk @-32.75,228.88,-23.81,228.88
+	ena  @-25.00,230.25
+	reset@-30.16,225.09
+	reset@-29.75,230.25
+	q    @-32.31,230.25
+	"Semi-dynamic data flip-flop with complementary clock inputs, level-sensitive D-gating, active-high reset gated by the clock level, and no inverted output.";
+
+type not_d:black in y:out
+	  @-34.56,224.53,-33.06,229.69
+	in@-33.81,229.69
+	y @-33.06,226.50
+	"Simple inverter.";
+
+type ao31_in3_n:green in1 in2 ~in3 in4 y:out
+	    @-66.06,224.44,-60.16,230.53
+	in1 @-62.88,230.53
+	in2 @-62.22,230.00
+	~in3@-64.97,224.44
+	in4 @-60.91,230.53
+	y   @-63.34,230.53
+	"3-1 AND-OR two-level compound gate with inverted third input.";
 
