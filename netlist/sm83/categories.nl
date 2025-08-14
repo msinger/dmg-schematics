@@ -23,3 +23,5 @@ category dec2    :yellow;   # Decoder 2
 category dec3    :yellow;   # Decoder 3
 
 category seq     :green;    # Sequencer
+
+category dbus    :orange;   # Data Bus Glue Logic

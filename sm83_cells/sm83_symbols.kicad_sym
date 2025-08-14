@@ -555,7 +555,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -1.27 180)
 				(length 3.81)
 				(name "~"
@@ -805,7 +805,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -1.27 180)
 				(length 3.81)
 				(name "~"
@@ -1169,7 +1169,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 -3.81 180)
 				(length 3.81)
 				(name "~"
@@ -1461,7 +1461,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "~"
@@ -1789,7 +1789,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "~"
@@ -2177,7 +2177,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "~"
@@ -2444,7 +2444,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 6.35 0 180)
 				(length 3.81)
 				(name "~"
@@ -2861,7 +2861,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 6.35 0 180)
 				(length 3.81)
 				(name "~"
@@ -3028,7 +3028,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 6.35 0 180)
 				(length 3.81)
 				(name "~"
@@ -3231,7 +3231,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -3390,7 +3390,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_emitter inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -3567,7 +3567,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -3762,7 +3762,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -3999,7 +3999,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -4254,7 +4254,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -4527,7 +4527,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -4818,7 +4818,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -5127,7 +5127,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -5336,7 +5336,216 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NOR2_OS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOR2_OS"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.254 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-source NOR gate with two inputs."
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NOR2_OS_1_1"
+			(arc
+				(start -3.8102 3.81)
+				(mid -2.5892 0)
+				(end -3.8102 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 3.81) (xy -0.6352 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8098 0)
+				(mid 2.1853 -2.584)
+				(end -0.6098 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6098 3.81)
+				(mid 2.1927 2.5925)
+				(end 3.8098 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606) (xy -2.6926 1.0414)
+					(xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81) (xy -3.8102 -3.81)
+					(xy -0.6352 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.27) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_emitter inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
@@ -5873,7 +6082,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 -1.27 180)
 				(length 3.81)
 				(name "~"
@@ -6142,7 +6351,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 -1.27 180)
 				(length 3.81)
 				(name "~"
@@ -6153,6 +6362,215 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OR2_OD"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OR2_OD"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.254 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain OR gate with two inputs."
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OR2_OD_1_1"
+			(arc
+				(start -3.8102 3.81)
+				(mid -2.5892 0)
+				(end -3.8102 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 3.81) (xy -0.6352 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8098 0)
+				(mid 2.1853 -2.584)
+				(end -0.6098 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6098 3.81)
+				(mid 2.1927 2.5925)
+				(end 3.8098 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606) (xy -2.6926 1.0414)
+					(xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81) (xy -3.8102 -3.81)
+					(xy -0.6352 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -1.27) (xy 3.175 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0 0)

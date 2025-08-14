@@ -1,6 +1,14 @@
 # Type definitions of cells in sequencer in the top right corner
 # --------------------------------------------------------------
 
+type and2_in1_n_tap_in1:red ~in1 in2 y:out tap_in1:out
+	       @-61.19,211.52,-57.73,216.13
+	~in1   @-61.19,212.47
+	in2    @-61.19,213.19
+	y      @-61.19,215.91
+	tap_in1@-61.19,211.73
+	"AND gate with two inputs, inverted first input, and tap after inversion of first input.";
+
 type nand2_in1_n_a:red ~in1 in2 y:out
 	    @-41.09,220.84,-37.50,225.16
 	~in1@-38.75,220.84

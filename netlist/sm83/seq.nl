@@ -1,6 +1,9 @@
 # Cells in sequencer in the top right corner
 # ------------------------------------------
 
+cell vequ:and2_in1_n_tap_in1 rot0 @-61.19,211.52,-57.73,216.13 ->seq;
+alias cell vile -> vequ;
+
 cell werf:nand2_in1_n_a rot0 @-41.09,220.84,-37.50,225.16 ->seq;
 cell ween:nand2_in1_n_b rot0 @-44.66,220.84,-41.13,225.16 ->seq;
 cell wudz:nand2_in1_n_c rot0 @-47.03,221.06,-44.06,225.13 ->seq;

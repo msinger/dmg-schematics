@@ -378,7 +378,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AND2_IN1_N_TAP_IN1_DEC2"
+	(symbol "AND2_IN1_N_TAP_IN1"
 		(pin_numbers
 			(hide yes)
 		)
@@ -396,7 +396,7 @@
 				)
 			)
 		)
-		(property "Value" "AND2_IN1_N_TAP_IN1_DEC2"
+		(property "Value" "AND2_IN1_N_TAP_IN1"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -413,7 +413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#and2_in1_n_tap_in1_dec2"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#and2_in1_n_tap_in1"
 			(at 0 -9.652 0)
 			(effects
 				(font
@@ -431,7 +431,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AND2_IN1_N_TAP_IN1_DEC2_1_0"
+		(symbol "AND2_IN1_N_TAP_IN1_1_0"
 			(polyline
 				(pts
 					(xy -8.89 5.08) (xy -8.89 -2.54) (xy -3.81 1.27) (xy -8.89 5.08)
@@ -445,7 +445,7 @@
 				)
 			)
 		)
-		(symbol "AND2_IN1_N_TAP_IN1_DEC2_1_1"
+		(symbol "AND2_IN1_N_TAP_IN1_1_1"
 			(rectangle
 				(start -12.7 6.35)
 				(end 12.7 -6.35)
@@ -2429,6 +2429,181 @@
 					(effects
 						(font
 							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "B2B_WAND_INJ_A"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 0 -8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.635 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B2B_WAND_INJ_A_0_1"
+			(rectangle
+				(start -6.35 6.985)
+				(end 6.35 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "B2B_WAND_INJ_A_1_1"
+			(pin bidirectional line
+				(at -10.16 5.08 0)
+				(length 3.81)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 3.81)
+				(name "~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "~{PCH}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 3.81)
+				(name "INJ_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -5.08 0)
+				(length 3.81)
+				(name "INJ_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 5.08 180)
+				(length 3.81)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -5794,7 +5969,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 10.16 180)
 				(length 5.08)
 				(name "AOI_BUF_Y"
@@ -5830,7 +6005,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 -16.51 180)
 				(length 5.08)
 				(name "ZERO_Y"
@@ -6803,7 +6978,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 16.51 12.7 180)
 				(length 5.08)
 				(name "CHAIN_A_Y"
@@ -6839,7 +7014,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 16.51 -7.62 180)
 				(length 5.08)
 				(name "CHAIN_B_Y"
@@ -8825,7 +9000,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 -5.08 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -9108,7 +9283,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_emitter inverted
 				(at 8.89 6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -9126,7 +9301,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -9343,7 +9518,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -9542,7 +9717,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -9560,7 +9735,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -10064,7 +10239,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 13.97 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -10082,7 +10257,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 5.08 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -10100,7 +10275,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 -3.81 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -10317,7 +10492,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -10335,7 +10510,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -10534,7 +10709,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -10552,7 +10727,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -10751,7 +10926,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -10769,7 +10944,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -11303,7 +11478,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 13.97 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -11321,7 +11496,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 5.08 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -11339,7 +11514,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 10.16 -3.81 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -11556,7 +11731,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -11574,7 +11749,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -11773,7 +11948,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -11791,7 +11966,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -11990,7 +12165,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -12008,7 +12183,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -12924,7 +13099,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 26.67 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -12942,7 +13117,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -12960,7 +13135,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 3.81 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -13213,7 +13388,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -13231,7 +13406,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -13430,7 +13605,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -13448,7 +13623,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -13647,7 +13822,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -13665,7 +13840,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -14513,7 +14688,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 22.86 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -14531,7 +14706,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -14549,7 +14724,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 0 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -14784,7 +14959,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -14802,7 +14977,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -15001,7 +15176,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -15019,7 +15194,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -15218,7 +15393,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -15236,7 +15411,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -16212,7 +16387,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 27.94 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -16230,7 +16405,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -16284,7 +16459,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 15.24 -17.78 180)
 				(length 5.08)
 				(name "NAND_D_Y"
@@ -16501,7 +16676,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -16519,7 +16694,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -16718,7 +16893,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -16736,7 +16911,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -16935,7 +17110,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -16953,7 +17128,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -17966,7 +18141,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 15.24 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -17984,7 +18159,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 1.27 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -18002,7 +18177,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 -8.89 180)
 				(length 5.08)
 				(name "NAND_D_Y"
@@ -18237,7 +18412,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -18255,7 +18430,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -18454,7 +18629,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -18472,7 +18647,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -18671,7 +18846,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -18689,7 +18864,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -20121,7 +20296,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 46.99 180)
 				(length 5.08)
 				(name "NAND_A_Y"
@@ -20139,7 +20314,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 30.48 180)
 				(length 5.08)
 				(name "NAND_B_Y"
@@ -20157,7 +20332,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 15.24 180)
 				(length 5.08)
 				(name "NAND_C_Y"
@@ -20175,7 +20350,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "NAND_D_Y"
@@ -20193,7 +20368,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "NAND_E_Y"
@@ -20247,7 +20422,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 12.7 -38.1 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_P"
@@ -20265,7 +20440,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 -46.99 180)
 				(length 5.08)
 				(name "DIST_NOR_Y_N"
@@ -20464,7 +20639,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_P"
@@ -20482,7 +20657,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_A_Y_N"
@@ -20681,7 +20856,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_P"
@@ -20699,7 +20874,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 8.89 -6.35 180)
 				(length 5.08)
 				(name "DIST_NAND_B_Y_N"
@@ -22233,7 +22408,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name "NAND_B_Y"
@@ -22244,6 +22419,459 @@
 					)
 				)
 				(number ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NAND2_OD_A_DBUS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_A_DBUS"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NAND2_OD_A_DBUS_1_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -1.27) (xy 3.175 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NAND2_OD_B_DBUS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_B_DBUS"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NAND2_OD_B_DBUS_1_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -1.27) (xy 3.175 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NAND2_SPARE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_SPARE"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_spare"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NAND gate with two inputs."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NAND2_SPARE_1_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -23863,6 +24491,191 @@
 					)
 				)
 				(number ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NOR2_SPARE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOR2_SPARE"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.254 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nor2_spare"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NOR gate with two inputs."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NOR2_SPARE_1_1"
+			(arc
+				(start -3.8102 3.81)
+				(mid -2.5892 0)
+				(end -3.8102 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 3.81) (xy -0.6352 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8102 -3.81) (xy -0.6352 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.8098 0)
+				(mid 2.1853 -2.584)
+				(end -0.6098 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6098 3.81)
+				(mid 2.1927 2.5925)
+				(end 3.8098 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.6352 3.81) (xy -3.8102 3.81) (xy -3.8102 3.81) (xy -3.5562 3.4036) (xy -3.0228 2.2606) (xy -2.6926 1.0414)
+					(xy -2.6164 -0.254) (xy -2.7688 -1.4986) (xy -3.1752 -2.7178) (xy -3.8102 -3.81) (xy -3.8102 -3.81)
+					(xy -0.6352 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.4)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -25678,6 +26491,111 @@
 			)
 		)
 		(symbol "NOT_D_1_0"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 6.35 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NOT_DBUS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NOT_DBUS_1_0"
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
@@ -31976,7 +32894,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 8.89 5.08 180)
 				(length 3.81)
 				(name "A_Y"
@@ -31994,7 +32912,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 8.89 -5.08 180)
 				(length 3.81)
 				(name "B_Y"
@@ -32542,7 +33460,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 12.7 180)
 				(length 3.81)
 				(name "B_Y1"
@@ -32560,7 +33478,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 0 180)
 				(length 3.81)
 				(name "Y2"
@@ -32578,7 +33496,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -12.7 180)
 				(length 3.81)
 				(name "C_Y1"
@@ -33149,7 +34067,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 16.51 13.97 180)
 				(length 3.81)
 				(name "A_Y"
@@ -33957,7 +34875,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 16.51 19.05 180)
 				(length 3.81)
 				(name "A_Y"
@@ -34765,7 +35683,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 16.51 19.05 180)
 				(length 3.81)
 				(name "A_Y"
@@ -35573,7 +36491,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 16.51 19.05 180)
 				(length 3.81)
 				(name "A_Y"
@@ -36381,7 +37299,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 16.51 19.05 180)
 				(length 3.81)
 				(name "A_Y"
@@ -36702,7 +37620,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 7.62 5.08 180)
 				(length 3.81)
 				(name "A_Y"
@@ -36720,7 +37638,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_emitter line
 				(at 7.62 -7.62 180)
 				(length 3.81)
 				(name "A_Y"
@@ -37471,7 +38389,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 17.78 180)
 				(length 3.81)
 				(name "E_Y1"
@@ -37489,7 +38407,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 5.08 180)
 				(length 3.81)
 				(name "Y2"
@@ -37507,7 +38425,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "D_Y1"
@@ -38306,7 +39224,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 20.32 180)
 				(length 3.81)
 				(name "H_Y1"
@@ -38324,7 +39242,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 7.62 180)
 				(length 3.81)
 				(name "Y2"
@@ -38342,7 +39260,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "Y3"
@@ -38360,7 +39278,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -20.32 180)
 				(length 3.81)
 				(name "L_Y1"
@@ -38660,7 +39578,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "Y1"
@@ -39248,7 +40166,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 11.43 180)
 				(length 3.81)
 				(name "Y2"
@@ -39266,7 +40184,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -1.27 180)
 				(length 3.81)
 				(name "Y3"
@@ -39284,7 +40202,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -13.97 180)
 				(length 3.81)
 				(name "Y4"
@@ -39974,7 +40892,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 17.78 8.89 180)
 				(length 3.81)
 				(name "Y5"
@@ -39992,7 +40910,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 17.78 -8.89 180)
 				(length 3.81)
 				(name "Y6"
@@ -40292,7 +41210,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "Y1"
@@ -40880,7 +41798,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 11.43 180)
 				(length 3.81)
 				(name "Y2"
@@ -40898,7 +41816,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -1.27 180)
 				(length 3.81)
 				(name "Y3"
@@ -40916,7 +41834,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -13.97 180)
 				(length 3.81)
 				(name "Y4"
@@ -41935,7 +42853,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 16.51 180)
 				(length 3.81)
 				(name "Y5"
@@ -41953,7 +42871,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 -16.51 180)
 				(length 3.81)
 				(name "Y6"
@@ -42253,7 +43171,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "Y1"
@@ -42841,7 +43759,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 11.43 180)
 				(length 3.81)
 				(name "Y2"
@@ -42859,7 +43777,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -1.27 180)
 				(length 3.81)
 				(name "Y3"
@@ -42877,7 +43795,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -13.97 180)
 				(length 3.81)
 				(name "Y4"
@@ -43726,7 +44644,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 12.7 180)
 				(length 3.81)
 				(name "Y5"
@@ -43744,7 +44662,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 19.05 -12.7 180)
 				(length 3.81)
 				(name "Y6"
@@ -44044,7 +44962,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 11.43 0 180)
 				(length 3.81)
 				(name "Y1"
@@ -44916,7 +45834,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 19.05 180)
 				(length 3.81)
 				(name "Y2"
@@ -44934,7 +45852,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 1.27 180)
 				(length 3.81)
 				(name "Y3"
@@ -44952,7 +45870,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -12.7 180)
 				(length 3.81)
 				(name "Y4"
@@ -44970,7 +45888,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 13.97 -21.59 180)
 				(length 3.81)
 				(name "Y5"
@@ -45616,7 +46534,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 7.62 180)
 				(length 3.81)
 				(name "Y6"
@@ -45634,7 +46552,7 @@
 					)
 				)
 			)
-			(pin tri_state inverted
+			(pin open_collector inverted
 				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "Y7"
@@ -47518,7 +48436,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 22.86 52.07 180)
 				(length 3.81)
 				(name "OAI31_Y"
@@ -47536,7 +48454,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 22.86 40.64 180)
 				(length 3.81)
 				(name "OAI21_Y"
@@ -47554,7 +48472,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin open_collector line
 				(at 22.86 30.48 180)
 				(length 3.81)
 				(name "NAND_Y"
