@@ -16,7 +16,8 @@ category irq-ie  :magenta;  # Interrupt Enable Register (IE)
 
 category alu     :red;      # ALU
 category alu-flag:red;      # ALU Flags
-category alu-dec1:red;      # ALU Decoder 1
+category alu-dec :red;      # ALU Decoder
+category alu-core:red;      # ALU Core
 
 category dec1    :yellow;   # Decoder 1
 category dec2    :yellow;   # Decoder 2
