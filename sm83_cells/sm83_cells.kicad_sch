@@ -25796,7 +25796,7 @@
 		(uuid "2c824f72-387a-4240-bf4e-2f00d70ba441")
 	)
 	(junction
-		(at 476.885 344.805)
+		(at 476.885 358.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c93f1ec-696a-4a37-97fb-e4fb4352eeda")
@@ -29060,6 +29060,12 @@
 		(uuid "95895238-7c32-4cdb-b6d0-7058c04e7ae4")
 	)
 	(junction
+		(at 486.41 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960f96a2-09e5-4c8f-b801-60aecfcab0fe")
+	)
+	(junction
 		(at 1235.71 337.185)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29904,6 +29910,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b204ac41-50e6-44af-8e11-bb2cfba3ca32")
+	)
+	(junction
+		(at 501.015 241.935)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2520a18-5fd0-446f-90de-a1b3fc31213e")
 	)
 	(junction
 		(at 382.27 273.685)
@@ -37421,7 +37433,17 @@
 	)
 	(wire
 		(pts
-			(xy 476.885 358.14) (xy 476.885 344.805)
+			(xy 501.015 241.935) (xy 537.21 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118ce6d2-49b6-4cf2-9c29-e29d77e66ebf")
+	)
+	(wire
+		(pts
+			(xy 476.885 371.475) (xy 476.885 358.14)
 		)
 		(stroke
 			(width 0)
@@ -47661,7 +47683,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 352.425) (xy 480.06 352.425)
+			(xy 473.71 365.76) (xy 480.06 365.76)
 		)
 		(stroke
 			(width 0)
@@ -49311,7 +49333,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 352.425) (xy 494.665 352.425)
+			(xy 492.76 365.76) (xy 503.555 365.76)
 		)
 		(stroke
 			(width 0)
@@ -53951,6 +53973,16 @@
 	)
 	(wire
 		(pts
+			(xy 503.555 358.14) (xy 500.38 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da203e8-b0ea-4df8-b811-70f83c5e4d9b")
+	)
+	(wire
+		(pts
 			(xy 1322.07 814.07) (xy 1322.07 815.34)
 		)
 		(stroke
@@ -55111,7 +55143,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 365.125) (xy 494.665 365.125)
+			(xy 492.76 378.46) (xy 503.555 378.46)
 		)
 		(stroke
 			(width 0)
@@ -58321,7 +58353,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 365.125) (xy 480.06 365.125)
+			(xy 473.71 378.46) (xy 480.06 378.46)
 		)
 		(stroke
 			(width 0)
@@ -61691,7 +61723,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 344.805) (xy 476.885 344.805)
+			(xy 473.71 358.14) (xy 476.885 358.14)
 		)
 		(stroke
 			(width 0)
@@ -71521,7 +71553,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 358.14) (xy 476.885 358.14)
+			(xy 486.41 371.475) (xy 476.885 371.475)
 		)
 		(stroke
 			(width 0)
@@ -72318,6 +72350,16 @@
 			(type default)
 		)
 		(uuid "8c98af17-e0be-4dc2-9c0d-ff9812920276")
+	)
+	(wire
+		(pts
+			(xy 486.41 358.14) (xy 487.68 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9eaccd-0bf7-4ee9-ae40-6731383b2eab")
 	)
 	(wire
 		(pts
@@ -87141,7 +87183,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 360.045) (xy 486.41 358.14)
+			(xy 486.41 373.38) (xy 486.41 371.475)
 		)
 		(stroke
 			(width 0)
@@ -89001,7 +89043,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.885 344.805) (xy 486.41 344.805)
+			(xy 476.885 358.14) (xy 486.41 358.14)
 		)
 		(stroke
 			(width 0)
@@ -103621,7 +103663,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 344.805) (xy 486.41 347.345)
+			(xy 486.41 358.14) (xy 486.41 360.68)
 		)
 		(stroke
 			(width 0)
@@ -120389,7 +120431,7 @@
 	)
 	(global_label "BUF_B_IN"
 		(shape input)
-		(at 473.71 365.125 180)
+		(at 473.71 378.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -120399,7 +120441,7 @@
 		)
 		(uuid "74ced1f5-fd57-4c00-a4fc-164bc3325c2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.8952 365.125 0)
+			(at 461.8952 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125403,6 +125445,28 @@
 			)
 		)
 	)
+	(global_label "BUF_ENA"
+		(shape output)
+		(at 537.21 241.935 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9aee7e5e-82eb-4da1-9142-ca4713d7c2d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 548.42 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL"
 		(shape input)
 		(at 1034.415 164.465 180)
@@ -129343,7 +129407,7 @@
 	)
 	(global_label "BUF_A_Y"
 		(shape output)
-		(at 494.665 352.425 0)
+		(at 503.555 365.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -129353,7 +129417,7 @@
 		)
 		(uuid "b5ce11ca-d957-4b83-85bb-82f7e832fe7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.4517 352.425 0)
+			(at 514.3417 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129552,6 +129616,28 @@
 		(uuid "b752e5d1-85e9-4b2c-8c88-89b327d61372")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 809.405 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUF_ENA"
+		(shape output)
+		(at 503.555 358.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b76e39e4-2b37-4466-b9fc-aa832a01f7ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 514.765 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131345,7 +131431,7 @@
 	)
 	(global_label "BUF_A_IN"
 		(shape input)
-		(at 473.71 352.425 180)
+		(at 473.71 365.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -131355,7 +131441,7 @@
 		)
 		(uuid "c3b787e4-2dd9-4542-b628-1a4e111ba728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 462.0766 352.425 0)
+			(at 462.0766 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133567,7 +133653,7 @@
 	)
 	(global_label "BUF_~{ENA}"
 		(shape input)
-		(at 473.71 344.805 180)
+		(at 473.71 358.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -133577,7 +133663,7 @@
 		)
 		(uuid "d50e070a-9664-4ae8-a03c-5bb7bec9eeea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 462.5 344.805 0)
+			(at 462.5 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134755,7 +134841,7 @@
 	)
 	(global_label "BUF_B_Y"
 		(shape output)
-		(at 494.665 365.125 0)
+		(at 503.555 378.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -134765,7 +134851,7 @@
 		)
 		(uuid "e03f85ce-6950-4a11-bfd7-63fad6f6c960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.6331 365.125 0)
+			(at 514.5231 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138868,7 +138954,7 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:BUF_IF0")
-		(at 486.41 352.425 0)
+		(at 486.41 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -138876,7 +138962,7 @@
 		(dnp no)
 		(uuid "0010f3de-e8fe-4cba-8aac-8cbde82f6d8a")
 		(property "Reference" "U?"
-			(at 486.41 357.505 0)
+			(at 486.41 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138885,7 +138971,7 @@
 			)
 		)
 		(property "Value" "BUF_IF0"
-			(at 486.41 360.045 0)
+			(at 486.41 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138894,7 +138980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 483.87 352.425 0)
+			(at 483.87 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138903,7 +138989,7 @@
 			)
 		)
 		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#buf_if0"
-			(at 487.68 362.585 0)
+			(at 487.68 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138912,7 +138998,7 @@
 			)
 		)
 		(property "Description" "Tri-state buffer with active-low enable input."
-			(at 486.41 352.425 0)
+			(at 486.41 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174932,6 +175018,75 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0770")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NOT_X1")
+		(at 494.03 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "342d774e-fc3b-471d-ac0f-762796f44e7d")
+		(property "Reference" "U?"
+			(at 494.03 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NOT_X1"
+			(at 494.03 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
+			(at 495.3 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 494.03 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf7079fa-b93e-47d5-a8e7-147015324b26")
+		)
+		(pin "2"
+			(uuid "474721b5-52a7-4e3d-bad7-33d5c08fd89b")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -280439,7 +280594,7 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:BUF_IF0")
-		(at 486.41 365.125 0)
+		(at 486.41 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -280447,7 +280602,7 @@
 		(dnp no)
 		(uuid "ca16225e-1e5c-4dfb-87a9-2018c126dac0")
 		(property "Reference" "U?"
-			(at 486.41 370.205 0)
+			(at 486.41 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280456,7 +280611,7 @@
 			)
 		)
 		(property "Value" "BUF_IF0"
-			(at 486.41 372.745 0)
+			(at 486.41 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280465,7 +280620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 483.87 365.125 0)
+			(at 483.87 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280474,7 +280629,7 @@
 			)
 		)
 		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#buf_if0"
-			(at 487.68 375.285 0)
+			(at 487.68 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280483,7 +280638,7 @@
 			)
 		)
 		(property "Description" "Tri-state buffer with active-low enable input."
-			(at 486.41 365.125 0)
+			(at 486.41 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
