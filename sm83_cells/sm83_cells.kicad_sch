@@ -13800,6 +13800,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SM83_Cells:PCH_DEC2_A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PCH_DEC2_A"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#pch_dec2_a"
+				(at 0 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple PMOS transistor for precharging."
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCH_DEC2_A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PCH_DEC2_A_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin open_emitter line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PCH_DEC2_A_1_1"
+				(polyline
+					(pts
+						(xy -5.842 2.54) (xy -5.08 3.81) (xy -4.318 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.429) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.794)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SM83_Cells:SRLATCH_R_N"
 			(pin_numbers
 				(hide yes)
@@ -23145,6 +23301,18 @@
 		(uuid ae79c068-9520-4fc7-98d4-00d6591aaf22)
 	)
 	(rectangle
+		(start 90.805 436.245)
+		(end 145.415 491.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b461c47e-7e81-44c2-b4a0-1e397bbc3c01)
+	)
+	(rectangle
 		(start 15.24 513.08)
 		(end 251.46 713.74)
 		(stroke
@@ -24208,6 +24376,17 @@
 			(justify left bottom)
 		)
 		(uuid "fa379de1-ed2a-4eba-8ab5-2f61866d0487")
+	)
+	(text "Precharger"
+		(exclude_from_sim no)
+		(at 111.125 440.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa4b1d96-a7a1-4bec-9c15-e6e7ce1a44d1")
 	)
 	(text "NAND2_IN1_N"
 		(exclude_from_sim no)
@@ -33605,6 +33784,16 @@
 			(type default)
 		)
 		(uuid "0532a27a-36cc-46cd-960d-54855fa5f7e6")
+	)
+	(wire
+		(pts
+			(xy 123.825 480.06) (xy 122.555 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053d2130-c5df-43bd-bff3-389846d2f3c9")
 	)
 	(wire
 		(pts
@@ -47765,6 +47954,16 @@
 			(type default)
 		)
 		(uuid "35456af2-0598-42ce-a1bb-eea5e68db8f8")
+	)
+	(wire
+		(pts
+			(xy 118.745 450.85) (xy 118.745 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354b0f1d-1017-48b8-af0c-efcb019a5821")
 	)
 	(wire
 		(pts
@@ -73178,6 +73377,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.745 463.55) (xy 127 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903062ac-cbfb-4561-b935-dd86ba484a18")
+	)
+	(wire
+		(pts
 			(xy 1280.16 254.635) (xy 1280.16 254)
 		)
 		(stroke
@@ -75785,6 +75994,16 @@
 			(type default)
 		)
 		(uuid "99922285-889d-4cf2-86da-9282f066fea7")
+	)
+	(wire
+		(pts
+			(xy 118.745 462.28) (xy 118.745 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999a733d-2e16-42a3-91f9-773c9e4b6da4")
 	)
 	(wire
 		(pts
@@ -79795,6 +80014,16 @@
 			(type default)
 		)
 		(uuid "a6e3dc47-dc9e-4729-b9ab-2054f5997900")
+	)
+	(wire
+		(pts
+			(xy 116.205 470.535) (xy 116.205 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f2417a-3970-49c7-acad-1d2f44cd7f3f")
 	)
 	(wire
 		(pts
@@ -93288,6 +93517,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.855 470.535) (xy 116.205 470.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c7675b-e58e-40fc-860b-9a1b0d8d2464")
+	)
+	(wire
+		(pts
 			(xy 1875.79 58.42) (xy 1883.41 58.42)
 		)
 		(stroke
@@ -98455,6 +98694,16 @@
 			(type default)
 		)
 		(uuid "e8e5780a-bc16-44ee-88e8-e7e2850858ec")
+	)
+	(wire
+		(pts
+			(xy 107.315 457.2) (xy 111.125 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e64278-8a0c-40d2-91ca-0c31f76a35d1")
 	)
 	(wire
 		(pts
@@ -106186,6 +106435,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Y"
+		(shape output)
+		(at 127 463.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "073b844e-2427-4a7a-96d1-250aae9b6c83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0738 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -128916,6 +129187,28 @@
 			)
 		)
 	)
+	(global_label "~{PCH}"
+		(shape input)
+		(at 107.315 457.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b658b41f-6287-4262-bd59-5427759319f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.5387 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN18"
 		(shape input)
 		(at 1483.995 206.375 180)
@@ -133998,6 +134291,28 @@
 			)
 		)
 	)
+	(global_label "Y"
+		(shape output)
+		(at 123.825 480.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df0ec8f7-211a-4166-8d57-020abd999ea4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.8988 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN4"
 		(shape input)
 		(at 1780.54 247.65 180)
@@ -135468,6 +135783,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PCH}"
+		(shape input)
+		(at 109.855 470.535 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2c78f8-bc24-48fe-995f-bb940228360a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.0787 470.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -216861,6 +217198,80 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:PMOS")
+		(at 116.205 457.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "719bc2df-2d31-43b9-a545-cf9c722b452f")
+		(property "Reference" "P1"
+			(at 120.65 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 120.65 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88922b24-a039-420d-970c-097a6d672f49")
+		)
+		(pin "2"
+			(uuid "67cd3c73-6798-4789-b736-1dfd4a1f5837")
+		)
+		(pin "3"
+			(uuid "eb334050-8293-45ec-842e-ea6224b603ad")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PMOS")
 		(at 201.295 414.02 0)
 		(mirror x)
 		(unit 1)
@@ -221585,6 +221996,71 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 118.745 450.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b3893c-49c6-4694-a45b-61102f363584")
+		(property "Reference" "#PWR0294"
+			(at 118.745 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 118.745 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.745 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.745 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98814714-694f-46ad-ab84-baec95c578be")
+		)
+		(instances
+			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "#PWR0294")
 					(unit 1)
 				)
 			)
@@ -300598,6 +301074,75 @@
 				)
 			)
 			(project "sm83_cells"
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:PCH_DEC2_A")
+		(at 116.205 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9d274cc-d1ca-4f34-80a4-670745ccf84b")
+		(property "Reference" "U?"
+			(at 116.205 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCH_DEC2_A"
+			(at 116.205 487.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.665 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#pch_dec2_a"
+			(at 116.205 489.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple PMOS transistor for precharging."
+			(at 116.205 491.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "274bbae6-3eab-4d58-94b6-9935ce28f682")
+		)
+		(pin "2"
+			(uuid "0e7c3006-3db8-4b7f-9762-6e286ac38cfa")
+		)
+		(instances
+			(project ""
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "U?")
 					(unit 1)
