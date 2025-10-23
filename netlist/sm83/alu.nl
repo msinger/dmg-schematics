@@ -34,6 +34,9 @@ cell alu_pggen[5]:alu_pggen rot0,flip @-69.09,65.38,-60.47,73.94 ->alu-core;
 cell alu_pggen[6]:alu_pggen rot0      @-69.00,73.22,-60.44,81.75 ->alu-core;
 cell alu_pggen[7]:alu_pggen rot0,flip @-69.03,81.00,-60.38,89.59 ->alu-core;
 
+cell alu_shifter:alu_shifter rot0 @-79.50,27.06,-68.69,89.63 ->alu-core;
+
+cell alu_decoder:alu_decoder       rot0      @-103.72,26.25,-78.78,89.66                  ->alu-dec;
 cell alu_not1:not_pch_x2_alu       rot0      @-110.66,26.72,-103.13,28.56                 ->alu-dec;
 cell flag_h:dffn_ee_pch_d_alu_flag rot0      @-110.66,28.59,-103.06,37.13                 ->alu-flag;
 cell flag_c:dffn_ee_pch_d_alu_flag rot0      @-110.69,37.13,-103.06,45.81                 ->alu-flag;

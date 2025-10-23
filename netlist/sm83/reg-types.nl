@@ -562,7 +562,7 @@ type idu_bit0:cyan ~pch
                    or_in1 or_in2 or_y:out
                    buf_a_in buf_a_y:tri
                    buf_b_in buf_b_y:tri
-                   buf_ena buf_~ena
+                   buf_ena:out buf_~ena
 	           @-154.81,192.72,-140.44,202.13
 	~pch       @-154.81,200.50
 	aoi_buf_ena@-153.75,192.72

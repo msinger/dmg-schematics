@@ -79,7 +79,10 @@ SM83_NETLIST_FILES = \
 	sm83/dbus-types.nl \
 	sm83/dbus.nl \
 	sm83/signals.nl \
-	sm83/categories.nl
+	sm83/categories.nl \
+	sm83/port.nl \
+	sm83/bus.nl \
+	sm83/pwr.nl
 
 all: html cells wires labels floorplan png js \
      sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js

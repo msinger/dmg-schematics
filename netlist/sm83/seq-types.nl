@@ -321,15 +321,15 @@ type not_e:black in y:out
 	y @-23.41,230.22
 	"Simple inverter.";
 
-type dffre_cc_q:orange d clk ~clk ena reset q:out
-	     @-32.75,225.09,-23.81,230.25
-	d    @-25.44,230.25
-	clk  @-32.75,226.50,-23.81,226.50
-	~clk @-32.75,228.88,-23.81,228.88
-	ena  @-25.00,230.25
-	reset@-30.16,225.09
-	reset@-29.75,230.25
-	q    @-32.31,230.25
+type dffre_cc_q:orange d clk ~clk ena r q:out
+	    @-32.75,225.09,-23.81,230.25
+	d   @-25.44,230.25
+	clk @-32.75,226.50,-23.81,226.50
+	~clk@-32.75,228.88,-23.81,228.88
+	ena @-25.00,230.25
+	r   @-30.16,225.09
+	r   @-29.75,230.25
+	q   @-32.31,230.25
 	"Semi-dynamic data flip-flop with complementary clock inputs, level-sensitive D-gating, active-high reset gated by the clock level, and no inverted output.";
 
 type not_d:black in y:out
