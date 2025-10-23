@@ -632,21 +632,25 @@ type idu_bit7:cyan ~pch
 	not_b_y @-234.78,194.22
 	"Bits 7 and 15 of the 16 bit increment/decrement unit.";
 
-type idu_irq_ctl:cyan in1 in2 in3 in4 in5 y1:out y2:out y3:out
-                      and_in1 and_in2 and_y:out
-	       @-136.94,214.09,-130.31,226.72
-	in1    @-130.31,216.19
-	in2    @-130.31,218.38
-	in3    @-130.31,220.59
-	in4    @-130.31,221.28
-	in5    @-130.31,224.56
-	y1     @-136.09,214.09
-	y2     @-136.94,216.22
-	y3     @-136.94,222.22
-	and_in1@-136.94,225.31
-	and_in2@-130.31,225.31
-	and_y  @-136.13,226.72
-	"Logic for increment/decrement unit and interrupts.";
+type idu_ctl:cyan in1 in2 in3 in4 in5 y1:out y2:out y3:out
+                  and_in1 and_in2 and_y:out
+	   @-136.94,214.09,-130.31,225.25
+	in1@-130.31,216.19
+	in2@-130.31,218.38
+	in3@-130.31,220.59
+	in4@-130.31,221.28
+	in5@-130.31,224.56
+	y1 @-136.09,214.09
+	y2 @-136.94,216.22
+	y3 @-136.94,222.22
+	"Logic for increment/decrement unit.";
+
+type and2_irq:red in1 in2 y:out
+	   @-136.94,224.61,-130.31,226.72
+	in1@-136.94,225.31
+	in2@-130.31,225.31
+	y  @-136.13,226.72
+	"AND gate with two inputs.";
 
 type irq_prio_bit0:cyan ~pch
                         and_in1 and_y:out

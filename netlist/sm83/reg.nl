@@ -235,6 +235,7 @@ cell reg_pch[6]:dffs_cc_ee_pch_d_reg_pc_bit rot0      @-222.34,179.31,-215.50,18
 cell reg_pch[7]:dffs_cc_ee_pch_d_reg_pc_bit rot0      @-234.59,179.31,-227.81,187.16 ->reg-pc;
 
 # Increment/Decrement Unit
+cell idu_ctl:idu_ctl         rot0 @-136.94,214.09,-130.31,225.25                  ->idu;
 cell idu_not[0]:not2_idu     rot0 @-154.88,179.28,-148.53,187.16                  ->idu;
 cell idu_not[1]:not2_idu     rot0 @-166.75,179.31,-160.47,187.16                  ->idu;
 cell idu_not[2]:not2_idu     rot0 @-178.66,179.34,-172.31,187.16                  ->idu;
@@ -283,7 +284,6 @@ cell idu[4]:idu_bit123456    rot0 @-202.78,194.19,-190.94,201.94                
 cell idu[5]:idu_bit123456    rot0 @-215.00,194.28,-203.13,201.94                  ->idu;
 cell idu[6]:idu_bit123456    rot0 @-227.28,194.25,-215.38,201.91                  ->idu;
 cell idu[7]:idu_bit7         rot0 @-239.59,194.22,-227.63,201.91                  ->idu;
-cell idu_irq_ctl:idu_irq_ctl rot0 @-136.94,214.09,-130.31,226.72                  ->idu;
 
 # Interrupt Enable Register
 cell reg_ie_not_wr:not_reg_ie_wr           rot0,flip @-143.28,202.97,-140.53,210.84 ->irq-ie;
@@ -305,6 +305,7 @@ cell irq_nand2_nand3[6]:nand2_nand3_od_irq rot0      @-227.69,201.38,-221.63,210
 cell irq_nand2_nand3[7]:nand2_nand3_od_irq rot0      @-239.97,201.38,-233.81,210.91 ->irq-ie;
 
 # Interrupt Handling
+cell irq_and:and2_irq           rot0 @-136.94,224.61,-130.31,226.72                    ->irq;
 cell irq_head:not5_irq          rot0 @-143.25,210.22,-140.09,229.91                    ->irq;
 cell irq_latch[0]:dlatch_ee_irq rot0 @-155.28,210.28,-143.28,215.44 ena@-155.28,214.00 ->irq;
 cell irq_latch[1]:dlatch_ee_irq rot0 @-167.16,210.31,-155.25,215.41                    ->irq;
@@ -462,32 +463,32 @@ wire ie_~wr:ctl
 	                   reg_ie[4].clk reg_ie[5].clk reg_ie[6].clk reg_ie[7].clk
 	@-142.19,207.75,-142.19,204.91,-239.84,204.97;
 
-wire idu_irq_ctl_y1:ctl
-	idu_irq_ctl.y1 -> idu[0].aoi_in3
+wire idu_ctl_y1:ctl
+	idu_ctl.y1 -> idu[0].aoi_in3
 	@-133.03,215.11,-134.28,215.11,-134.28,214.34,-136.13,214.34,-136.13,197.59,-141.94,197.59;
 
-wire idu_irq_ctl_y2:ctl
-	idu_irq_ctl.y2 -> idu_mux_l[0].d0 idu_mux_h[0].d0 idu_mux_l[1].d0 idu_mux_h[1].d0
-	                  idu_mux_l[2].d0 idu_mux_h[2].d0 idu_mux_l[3].d0 idu_mux_h[3].d0
-	                  idu_mux_l[4].d0 idu_mux_h[4].d0 idu_mux_l[5].d0 idu_mux_h[5].d0
-	                  idu_mux_l[6].d0 idu_mux_h[6].d0 idu_mux_l[7].d0 idu_mux_h[7].d0
-	                  idu[0].or_in2
+wire idu_ctl_y2:ctl
+	idu_ctl.y2 -> idu_mux_l[0].d0 idu_mux_h[0].d0 idu_mux_l[1].d0 idu_mux_h[1].d0
+	              idu_mux_l[2].d0 idu_mux_h[2].d0 idu_mux_l[3].d0 idu_mux_h[3].d0
+	              idu_mux_l[4].d0 idu_mux_h[4].d0 idu_mux_l[5].d0 idu_mux_h[5].d0
+	              idu_mux_l[6].d0 idu_mux_h[6].d0 idu_mux_l[7].d0 idu_mux_h[7].d0
+	              idu[0].or_in2
 	@-132.13,217.30,-135.56,217.30,-135.56,216.22,-137.27,216.22,-137.27,193.41,-239.84,193.42
 	@-137.27,200.89,-141.25,200.89;
 
-wire idu_irq_ctl_y3:ctl
-	idu_irq_ctl.y3 -> idu_mux_l[0].d1 idu_mux_h[0].d1 idu_mux_l[1].d1 idu_mux_h[1].d1
-	                  idu_mux_l[2].d1 idu_mux_h[2].d1 idu_mux_l[3].d1 idu_mux_h[3].d1
-	                  idu_mux_l[4].d1 idu_mux_h[4].d1 idu_mux_l[5].d1 idu_mux_h[5].d1
-	                  idu_mux_l[6].d1 idu_mux_h[6].d1 idu_mux_l[7].d1 idu_mux_h[7].d1
-	                  idu[0].or_in1
+wire idu_ctl_y3:ctl
+	idu_ctl.y3 -> idu_mux_l[0].d1 idu_mux_h[0].d1 idu_mux_l[1].d1 idu_mux_h[1].d1
+	              idu_mux_l[2].d1 idu_mux_h[2].d1 idu_mux_l[3].d1 idu_mux_h[3].d1
+	              idu_mux_l[4].d1 idu_mux_h[4].d1 idu_mux_l[5].d1 idu_mux_h[5].d1
+	              idu_mux_l[6].d1 idu_mux_h[6].d1 idu_mux_l[7].d1 idu_mux_h[7].d1
+	              idu[0].or_in1
 	@-131.73,223.73,-131.73,223.50,-136.11,223.50,-136.11,222.22,-137.81,222.22,-137.81,217.28,-138.33,217.28,
 	 -138.33,193.97,-239.88,194.02
 	@-138.33,201.44,-141.34,201.44;
 
 wire ie_wr:ctl
-	idu_irq_ctl.and_y -> reg_ie[0].~clk reg_ie[1].~clk reg_ie[2].~clk reg_ie[3].~clk reg_ie[4].~clk reg_ie[5].~clk
-	                     reg_ie[6].~clk reg_ie[7].~clk reg_ie_not_wr.in
+	irq_and.y -> reg_ie[0].~clk reg_ie[1].~clk reg_ie[2].~clk reg_ie[3].~clk reg_ie[4].~clk reg_ie[5].~clk
+	             reg_ie[6].~clk reg_ie[7].~clk reg_ie_not_wr.in
 	@-131.22,225.73,-131.22,225.14,-135.42,225.14,-135.42,225.67,-136.13,225.67,-136.13,226.95,-137.20,226.95,
 	 -137.20,216.75,-137.80,216.75,-137.80,208.36,-141.11,208.36,-239.84,208.42
 	@-141.11,208.36,-141.11,205.98,-142.88,205.98,-142.88,204.36,-142.00,204.36;
@@ -521,7 +522,7 @@ wire irq_head_d_y:ctl
 wire irq_head_e_y:ctl
 	irq_head.e_y -> irq_nand2_nand3[0].nand_b_in2 irq_nand2_nand3[1].nand_b_in2 irq_nand2_nand3[2].nand_b_in2
 	                irq_nand2_nand3[3].nand_b_in2 irq_nand2_nand3[4].nand_b_in2 irq_nand2_nand3[5].nand_b_in2
-	                irq_nand2_nand3[6].nand_b_in2 irq_nand2_nand3[7].nand_b_in2 idu_irq_ctl.and_in1
+	                irq_nand2_nand3[6].nand_b_in2 irq_nand2_nand3[7].nand_b_in2 irq_and.in1
 	@-141.11,224.72,-141.11,226.75
 	@-141.11,225.30,-132.86,225.30
 	@-137.80,225.30,-137.80,222.77,-138.31,222.77,-138.31,218.03,-138.88,218.03,-138.88,202.19,-239.84,202.22;
@@ -1081,7 +1082,7 @@ wire reg_z[6]:data
 
 wire reg_z[7]:data
 	reg_z[7].~q -> reg_wz_out[7].oai31_in_nand_in_aoi_a_in2 reg_sp_out[7].in20 reg_pc_out[7].in12
-	               alu_decoder.in59 alu_dff.d idu_irq_ctl.in2
+	               alu_decoder.in59 alu_dff.d idu_ctl.in2
 	@-228.41,102.08,-228.41,103.36
 	@-228.41,102.81,-228.22,102.81,-228.22,106.13,-235.34,106.13,-235.34,110.53,-228.73,110.53,-228.73,112.13,
 	 -229.50,112.13,-229.50,113.25

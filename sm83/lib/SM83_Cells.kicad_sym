@@ -2054,6 +2054,141 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "AND2_IRQ"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AND2_IRQ"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#and2_irq"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AND gate with two inputs."
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AND2_IRQ_1_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AND2_REG"
 		(pin_numbers
 			(hide yes)
@@ -9646,7 +9781,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "IDU_IRQ_CTL"
+	(symbol "IDU_CTL"
 		(pin_numbers
 			(hide yes)
 		)
@@ -9664,7 +9799,7 @@
 				)
 			)
 		)
-		(property "Value" "IDU_IRQ_CTL"
+		(property "Value" "IDU_CTL"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -9681,7 +9816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#idu_irq_ctl"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#idu_ctl"
 			(at 0 -21.59 0)
 			(effects
 				(font
@@ -9690,7 +9825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Logic for increment/decrement unit and interrupts."
+		(property "Description" "Logic for increment/decrement unit."
 			(at 0 -24.13 0)
 			(effects
 				(font
@@ -9699,15 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "IDU_IRQ_CTL_1_0"
+		(symbol "IDU_CTL_1_0"
 			(polyline
 				(pts
 					(xy -15.24 13.97) (xy -15.24 6.35) (xy -10.16 10.16) (xy -15.24 13.97)
@@ -9733,7 +9860,7 @@
 				)
 			)
 		)
-		(symbol "IDU_IRQ_CTL_1_1"
+		(symbol "IDU_CTL_1_1"
 			(rectangle
 				(start -19.05 17.78)
 				(end 19.05 -17.78)
@@ -10365,86 +10492,6 @@
 				(at 19.05 -12.7 180)
 				(length 3.6)
 				(name "Y3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IDU_IRQ_CTL_2_1"
-			(arc
-				(start 0 3.81)
-				(mid 3.7825 0)
-				(end 0 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 3.81)
-				(name "AND_IN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 3.81)
-				(name "AND_IN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "AND_Y"
 					(effects
 						(font
 							(size 1.27 1.27)
