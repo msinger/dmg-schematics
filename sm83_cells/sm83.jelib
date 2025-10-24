@@ -49758,7 +49758,7 @@ Evdd_3||D5G2;|pin@40||P/B
 X
 
 # Cell reg_wz_out;1{lay}
-Creg_wz_out;1{lay}||mocmos|1693175971544|1744134238443|E|DRC_last_good_drc_area_date()G1744134260995|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1744134260995|USER_drawing_designer_name()SMichael Singer
+Creg_wz_out;1{lay}||mocmos|1693175971544|1761272698731|E|DRC_last_good_drc_area_date()G1761273045392|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1761273045392|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Polysilicon-1-Con|contact@44||-48|-104.75||||
 NMetal-1-Polysilicon-1-Con|contact@45||-48|-5||||
@@ -50138,6 +50138,8 @@ NMetal-1-Pin|pin@328||216|-75.25||||
 NPolysilicon-1-Pin|pin@329||310.75|-79.75||||
 NMetal-1-Pin|pin@330||288|0||||
 NMetal-1-Pin|pin@331||288|-91.5||||
+NPolysilicon-1-Pin|pin@332||160|-25||||
+NPolysilicon-1-Pin|pin@333||160|-75.25||||
 NN-Select-Node|plnode@0||-12|-30.5|20|4||A
 NN-Well-Node|plnode@1||107.75|-41|106|50||A|trace()V[-53/-25,-53/25,53/25,53/-25]
 NN-Select-Node|plnode@2||-11.25|-60.25|20|4||A
@@ -50540,6 +50542,8 @@ AMetal-1|net@563|||R900|pin@328||216|-75.25|pin@301||216|-172.75
 APolysilicon-1|net@564|||R2700|pin@329||310.75|-79.75|pin@147||310.75|-78.25
 AMetal-1|net@565|||R900|pin@330||288|0|contact@122||288|-39.25
 AMetal-1|net@566|||R2700|pin@331||288|-91.5|contact@122||288|-39.25
+APolysilicon-1|net@567|||R1800|pin@332||160|-25|n13|poly-left|218|-25
+APolysilicon-1|net@568|||R0|n19|poly-left|218.5|-75.25|pin@333||160|-75.25
 Ein13|aoi_a_in3_muxi_a_d1|D5G2;|pin@162||I
 Ed1|aoi_a_y'|D5G2;|pin@76||O
 Ein14|aoi_b_in3_muxi_b_d1|D5G2;|pin@163||I
@@ -50550,8 +50554,8 @@ Ein11|aoi_ena2|D5G2;|pin@166||I
 Ein11_1|aoi_ena2_1|D5G2;|pin@129||I/B
 Ein12|aoi_ena3|D5G2;|contact@112||I
 Ein12_1|aoi_ena3_1|D5G2;|pin@130||I/B
-Eres|aoi_in1|D5G2;|n13|poly-left|I
-Eres_1|aoi_in1_1|D5G2;|n19|poly-left|I/B
+Eaoi_in1||D5G2;|pin@332||I
+Eaoi_in1_1||D5G2;|pin@333||I/B
 Egnd||D5G2;|pin@173||G/B
 Egnd_1||D5G2;|pin@71||G/B
 Egnd_2||D5G2;|pin@182||G/B
@@ -50648,7 +50652,7 @@ Evdd_3||D5G2;|pin@331||P/B
 X
 
 # Cell sm83;1{lay}
-Csm83;1{lay}||mocmos|1692006061830|1761243828254|E|DRC_last_good_drc_area_date()G1761244448462|USER_drawing_designer_name()SMichael Singer
+Csm83;1{lay}||mocmos|1692006061830|1761336969879|E|DRC_last_good_drc_area_date()G1761341967624|USER_drawing_designer_name()SMichael Singer
 Iand2_alu;1{lay}|alu_and[0]|D5G17;R|470.75|2780|X||D5G4;
 Iand2_alu;1{lay}|alu_and[1]|D5G17;R|470.75|2780|||D5G4;
 Iand2_alu;1{lay}|alu_and[2]|D5G17;R|824.5|2780|X||D5G4;
@@ -56628,8 +56632,6 @@ AMetal-1|net@1191|||R900|contact@30||1564.5|1497.5|reg_wz_out[0]|in2|1564.5|1474
 AMetal-1|net@1192|||R2700|reg_wz_out[0]|in1|1556.5|1474.5|contact@29||1556.5|1497.5
 AMetal-1|net@1193|||R|contact@113||1740.5|1398.75|reg_wz_out[0]|res_2[0]|1740.5|1398.75
 AMetal-1|net@1194|||R|contact@114||1740.5|1449|reg_wz_out[0]|res_1[0]|1740.5|1449
-APolysilicon-1|net@1195|||R1800|contact@114||1740.5|1449|reg_wz_out[0]|res|1798.5|1449
-APolysilicon-1|net@1196|||R1800|contact@113||1740.5|1398.75|reg_wz_out[0]|res_1|1799|1398.75
 AMetal-1|net@1199|||R|reg_wz_out[0]|in5|1652.5|1474|contact@111||1652.5|1474
 AMetal-1|net@1200|||R|reg_wz_out[0]|in6|1660.5|1474|contact@112||1660.5|1474
 APolysilicon-1|net@1204|||R|reg_wz_out[0]|d0|1524.5|1375.75|reg_bus_pch_b[0]|d0_2|1524.5|1375.75
@@ -56644,47 +56646,33 @@ APolysilicon-1|net@1217|||R|reg_wz_out[0]|d2|1501.75|1385.75|reg_z[0]|d_1|1501.7
 APolysilicon-1|net@1218|||R|reg_wz_out[0]|z|1524.5|1470.5|reg_z[0]|q|1524.5|1470.5
 AMetal-1|net@1247|||R900|reg_wz_out[1]|res_2[0]|1740.5|1226|reg_wz_out[1]|pch'_2|1740.5|1154
 AMetal-1|net@1248|||R|contact@115||1748.5|1276.25|reg_wz_out[1]|res_1[1]|1748.5|1276.25
-APolysilicon-1|net@1249|||R1800|contact@115||1748.5|1276.25|reg_wz_out[1]|res|1798.5|1276.25
 AMetal-1|net@1250|||R|contact@116||1748.5|1226|reg_wz_out[1]|res_2[1]|1748.5|1226
-APolysilicon-1|net@1251|||R1800|contact@116||1748.5|1226|reg_wz_out[1]|res_1|1799|1226
 AMetal-1|net@2071|||R900|reg_wz_out[2]|res_2[0]|1740.5|1053.25|reg_wz_out[2]|pch'_2|1740.5|981.25
 AMetal-1|net@2072|||R|contact@117||1756.5|1103.5|reg_wz_out[2]|res_1[2]|1756.5|1103.5
-APolysilicon-1|net@2073|||R1800|contact@117||1756.5|1103.5|reg_wz_out[2]|res|1798.5|1103.5
 AMetal-1|net@2074|||R|contact@118||1756.5|1053.25|reg_wz_out[2]|res_2[2]|1756.5|1053.25
-APolysilicon-1|net@2075|||R1800|contact@118||1756.5|1053.25|reg_wz_out[2]|res_1|1799|1053.25
 AMetal-1|net@2114|||R900|reg_wz_out[3]|res_2[0]|1740.5|880.5|reg_wz_out[3]|pch'_2|1740.5|808.5
 AMetal-1|net@2115|||R|contact@119||1764.5|930.75|reg_wz_out[3]|res_1[3]|1764.5|930.75
-APolysilicon-1|net@2116|||R1800|contact@119||1764.5|930.75|reg_wz_out[3]|res|1798.5|930.75
 AMetal-1|net@2117|||R|contact@120||1764.5|880.5|reg_wz_out[3]|res_2[3]|1764.5|880.5
-APolysilicon-1|net@2118|||R1800|contact@120||1764.5|880.5|reg_wz_out[3]|res_1|1799|880.5
 AMetal-1|net@2129|||R900|reg_wz_out[4]|res_2[0]|1740.5|702.75|reg_wz_out[4]|pch'_2|1740.5|630.75
 AMetal-1|net@2130|||R|contact@121||1772.5|753|reg_wz_out[4]|res_1[4]|1772.5|753
-APolysilicon-1|net@2131|||R1800|contact@121||1772.5|753|reg_wz_out[4]|res|1798.5|753
 AMetal-1|net@2132|||R|contact@122||1772.5|702.75|reg_wz_out[4]|res_2[4]|1772.5|702.75
-APolysilicon-1|net@2133|||R1800|contact@122||1772.5|702.75|reg_wz_out[4]|res_1|1799|702.75
 AMetal-1|net@2134|||R|contact@123||1612.5|766.75|reg_wz_out[4]|z4_2|1612.5|766.75
 APolysilicon-1|net@2135|||R0|contact@123||1612.5|766.75|reg_wz_out[4]|z_2|1597|766.75
 AMetal-1|net@2799|||R900|reg_wz_out[5]|res_2[0]|1740.5|525|reg_wz_out[5]|pch'_2|1740.5|453
 AMetal-1|net@2800|||R|contact@124||1780.5|575.25|reg_wz_out[5]|res_1[5]|1780.5|575.25
-APolysilicon-1|net@2801|||R1800|contact@124||1780.5|575.25|reg_wz_out[5]|res|1798.5|575.25
 AMetal-1|net@2802|||R|contact@125||1780.5|525|reg_wz_out[5]|res_2[5]|1780.5|525
-APolysilicon-1|net@2803|||R1800|contact@125||1780.5|525|reg_wz_out[5]|res_1|1799|525
 AMetal-1|net@2804|||R|contact@126||1620.5|589|reg_wz_out[5]|z5_2|1620.5|589
 APolysilicon-1|net@2805|||R0|contact@126||1620.5|589|reg_wz_out[5]|z_2|1597|589
 AMetal-1|net@2847|||R900|reg_wz_out[6]|res_2[0]|1740.5|347.25|reg_wz_out[6]|pch'_2|1740.5|275.25
 AMetal-1|net@2848|||R|contact@127||1788.5|397.5|reg_wz_out[6]|res_1[6]|1788.5|397.5
-APolysilicon-1|net@2849|||R1800|contact@127||1788.5|397.5|reg_wz_out[6]|res|1798.5|397.5
 AMetal-1|net@2850|||R|contact@128||1788.5|347.25|reg_wz_out[6]|res_2[6]|1788.5|347.25
-APolysilicon-1|net@2851|||R1800|contact@128||1788.5|347.25|reg_wz_out[6]|res_1|1799|347.25
 APolysilicon-1|net@2852|||R0|pin@331||1620.5|411.25|reg_wz_out[6]|z_2|1597|411.25
 AMetal-1|net@2853|||R|contact@129||1628.5|400|reg_wz_out[6]|z6_2|1628.5|400
 APolysilicon-1|net@2854|||R1800|pin@332||1620.5|400|contact@129||1628.5|400
 APolysilicon-1|net@2855|||R2700|pin@332||1620.5|400|pin@331||1620.5|411.25
 AMetal-1|net@2897|||R900|reg_wz_out[7]|res_2[0]|1740.5|169.5|reg_wz_out[7]|pch'_2|1740.5|97.5
 AMetal-1|net@2898|||R|contact@130||1796.5|219.75|reg_wz_out[7]|res_1[7]|1796.5|219.75
-APolysilicon-1|net@2899|||R1800|contact@130||1796.5|219.75|reg_wz_out[7]|res|1798.5|219.75
 AMetal-1|net@2900|||R|contact@131||1796.5|169.5|reg_wz_out[7]|res_2[7]|1796.5|169.5
-APolysilicon-1|net@2901|||R1800|contact@131||1796.5|169.5|reg_wz_out[7]|res_1|1799|169.5
 AMetal-1|net@2902|||R|contact@132||1636.5|222.25|reg_wz_out[7]|z7_2|1636.5|222.25
 APolysilicon-1|net@2903|||R2700|pin@334||1620.5|222.25|pin@333||1620.5|233.5
 APolysilicon-1|net@2904|||R1800|pin@334||1620.5|222.25|contact@132||1636.5|222.25
@@ -67639,6 +67627,23 @@ APolysilicon-1|net@16721|||R2700|contact@196||3138.5|1559|idu_ctl|q2|3138.5|1567
 APolysilicon-1|net@16722|||R2700|pin@432||3226.5|1551|idu_ctl|q3|3226.5|1567
 APolysilicon-1|net@16723|||R2700|pin@440||3271.5|1551|irq_and|in1|3271.5|1567
 AMetal-1|net@16724|||R0|pin@433||3296|1575|irq_and|y|3288|1575
+APolysilicon-1|net@16725|||R|reg_wz_out[0]|aoi_in1_1|1740.5|1398.75|contact@113||1740.5|1398.75
+APolysilicon-1|net@16726|||R|reg_wz_out[0]|aoi_in1|1740.5|1449|contact@114||1740.5|1449
+APolysilicon-1|net@16727|||R0|contact@115||1748.5|1276.25|reg_wz_out[1]|aoi_in1|1740.5|1276.25
+APolysilicon-1|net@16728|||R0|contact@116||1748.5|1226|reg_wz_out[1]|aoi_in1_1|1740.5|1226
+APolysilicon-1|net@16729|||R0|contact@117||1756.5|1103.5|reg_wz_out[2]|aoi_in1|1740.5|1103.5
+APolysilicon-1|net@16730|||R0|contact@118||1756.5|1053.25|reg_wz_out[2]|aoi_in1_1|1740.5|1053.25
+APolysilicon-1|net@16731|||R0|contact@119||1764.5|930.75|reg_wz_out[3]|aoi_in1|1740.5|930.75
+APolysilicon-1|net@16732|||R0|contact@120||1764.5|880.5|reg_wz_out[3]|aoi_in1_1|1740.5|880.5
+APolysilicon-1|net@16733|||R0|contact@121||1772.5|753|reg_wz_out[4]|aoi_in1|1740.5|753
+APolysilicon-1|net@16734|||R0|contact@122||1772.5|702.75|reg_wz_out[4]|aoi_in1_1|1740.5|702.75
+APolysilicon-1|net@16735|||R0|contact@124||1780.5|575.25|reg_wz_out[5]|aoi_in1|1740.5|575.25
+APolysilicon-1|net@16736|||R0|contact@125||1780.5|525|reg_wz_out[5]|aoi_in1_1|1740.5|525
+APolysilicon-1|net@16737|||R0|contact@127||1788.5|397.5|reg_wz_out[6]|aoi_in1|1740.5|397.5
+APolysilicon-1|net@16738|||R0|contact@128||1788.5|347.25|reg_wz_out[6]|aoi_in1_1|1740.5|347.25
+APolysilicon-1|net@16739|||R0|contact@130||1796.5|219.75|reg_wz_out[7]|aoi_in1|1740.5|219.75
+APolysilicon-1|net@16740|||R0|contact@131||1796.5|169.5|reg_wz_out[7]|aoi_in1_1|1740.5|169.5
+AMetal-1|net@16741|||R1800|alu_shifter|unknown16_1|1289.5|2423|contact@1505||1301|2423
 Egnd||D5G2;|pin@2124||G/B
 Egnd_1||D5G2;|pin@483||G/B
 Evdd||D5G2;|pin@1184||P/B
