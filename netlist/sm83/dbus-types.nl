@@ -31,14 +31,17 @@ type nand2_od_b_dbus:red in1 in2 y:tri
 	y  @-89.53,6.28
 	"Open-drain NAND gate with two inputs.";
 
-type nor2_spare:blue in1 in2 y:out
+# The two spare cell types should have y outputs with "out" direction, but since the outputs of the spare cells
+# are short-circuited, we need to make them "tri", so that the rules checker doesn't throw an error.
+
+type nor2_spare:blue in1 in2 y:tri
 	   @-106.84,14.16,-104.56,19.09
 	in1@-106.13,16.13
 	in2@-105.53,16.13
 	y  @-106.84,17.25
 	"NOR gate with two inputs.";
 
-type nand2_spare:red in1 in2 y:out
+type nand2_spare:red in1 in2 y:tri
 	   @-109.00,14.19,-106.81,18.97
 	in1@-108.31,16.13
 	in2@-107.56,16.13

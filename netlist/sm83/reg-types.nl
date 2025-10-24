@@ -633,7 +633,6 @@ type idu_bit7:cyan ~pch
 	"Bits 7 and 15 of the 16 bit increment/decrement unit.";
 
 type idu_ctl:cyan in1 in2 in3 in4 in5 y1:out y2:out y3:out
-                  and_in1 and_in2 and_y:out
 	   @-136.94,214.09,-130.31,225.25
 	in1@-130.31,216.19
 	in2@-130.31,218.38
