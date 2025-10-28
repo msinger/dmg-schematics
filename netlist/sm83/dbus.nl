@@ -76,5 +76,5 @@ wire ~op2val[7]:data
 	@-103.37,16.34,-104.49,16.34,-104.49,10.16,-102.73,10.16;
 
 wire spare_y # TODO: Change name and signal type when input net name is known.
-	spare_nor.y spare_nand.y
+	unchecked spare_nor.y spare_nand.y
 	@-107.23,15.59,-105.00,15.59,-105.00,17.25,-107.91,17.25;
