@@ -6993,7 +6993,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DLATCH_EE_Q"
+	(symbol "DLATCH_EE_Q_N"
 		(pin_numbers
 			(hide yes)
 		)
@@ -7008,7 +7008,7 @@
 				)
 			)
 		)
-		(property "Value" "DLATCH_EE_Q"
+		(property "Value" "DLATCH_EE_Q_N"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -7025,7 +7025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q_n"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -7034,7 +7034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
+		(property "Description" "Gated data latch with externally inverted enable inputs and no non-inverted output."
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -7043,7 +7043,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DLATCH_EE_Q_0_1"
+		(symbol "DLATCH_EE_Q_N_0_1"
 			(rectangle
 				(start -6.35 4.445)
 				(end 6.35 -4.445)
@@ -7056,7 +7056,7 @@
 				)
 			)
 		)
-		(symbol "DLATCH_EE_Q_1_1"
+		(symbol "DLATCH_EE_Q_N_1_1"
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 3.81)
@@ -7113,9 +7113,9 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 3.81)
-				(name "Q"
+				(name "~{Q}"
 					(effects
 						(font
 							(size 1.27 1.27)

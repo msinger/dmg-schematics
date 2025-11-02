@@ -6,7 +6,7 @@
 	(paper "User" 2000 2000)
 	(title_block
 		(title "SM83 Cells - Circuits")
-		(date "2025-11-01")
+		(date "2025-11-02")
 		(rev "0")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -11441,7 +11441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DLATCH_EE_Q"
+		(symbol "SM83_Cells:DLATCH_EE_Q_N"
 			(pin_numbers
 				(hide yes)
 			)
@@ -11456,7 +11456,7 @@
 					)
 				)
 			)
-			(property "Value" "DLATCH_EE_Q"
+			(property "Value" "DLATCH_EE_Q_N"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -11473,7 +11473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q_n"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -11482,7 +11482,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
+			(property "Description" "Gated data latch with externally inverted enable inputs and no non-inverted output."
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -11491,7 +11491,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DLATCH_EE_Q_0_1"
+			(symbol "DLATCH_EE_Q_N_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -11504,7 +11504,7 @@
 					)
 				)
 			)
-			(symbol "DLATCH_EE_Q_1_1"
+			(symbol "DLATCH_EE_Q_N_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 3.81)
@@ -11561,9 +11561,9 @@
 					)
 				)
 				(pin output line
-					(at 10.16 2.54 180)
+					(at 10.16 -2.54 180)
 					(length 3.81)
-					(name "Q"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -24333,7 +24333,7 @@
 		)
 		(uuid "eb2c08d3-6c35-4c3d-b087-c41c257f4c84")
 	)
-	(text "DLATCH_EE_Q"
+	(text "DLATCH_EE_Q_N"
 		(exclude_from_sim no)
 		(at 1428.115 386.715 0)
 		(effects
@@ -58087,7 +58087,7 @@
 	)
 	(wire
 		(pts
-			(xy 1401.445 410.845) (xy 1400.175 410.845)
+			(xy 1401.445 415.925) (xy 1400.175 415.925)
 		)
 		(stroke
 			(width 0)
@@ -106093,7 +106093,7 @@
 			)
 		)
 	)
-	(global_label "Q"
+	(global_label "~{Q}"
 		(shape output)
 		(at 1488.44 407.67 0)
 		(fields_autoplaced yes)
@@ -106105,7 +106105,7 @@
 		)
 		(uuid "03a7b199-7088-40b4-8c38-a6a8becea0ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1492.6763 407.67 0)
+			(at 1492.7557 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109085,9 +109085,9 @@
 			)
 		)
 	)
-	(global_label "Q"
+	(global_label "~{Q}"
 		(shape output)
-		(at 1401.445 410.845 0)
+		(at 1401.445 415.925 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -109097,7 +109097,7 @@
 		)
 		(uuid "1b827445-bf0a-49ac-bf5f-6de40f29ef1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1405.6813 410.845 0)
+			(at 1405.7607 415.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120723,7 +120723,7 @@
 			)
 		)
 	)
-	(global_label "Q"
+	(global_label "~{Q}"
 		(shape output)
 		(at 1475.105 481.965 0)
 		(fields_autoplaced yes)
@@ -120735,7 +120735,7 @@
 		)
 		(uuid "77112f32-4f78-4b92-8765-eefed89ed615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1479.3413 481.965 0)
+			(at 1479.4207 481.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182574,6 +182574,80 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "#PWR0741")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:DLATCH_EE_Q_N")
+		(at 1390.015 413.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e6bb01c-dcfb-47b3-bbf6-642e9a008dd0")
+		(property "Reference" "U?"
+			(at 1390.015 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DLATCH_EE_Q_N"
+			(at 1390.015 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1389.38 419.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q_n"
+			(at 1390.015 421.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gated data latch with externally inverted enable inputs and no non-inverted output."
+			(at 1390.015 423.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eb131db8-8047-4828-b591-6e684e4f7988")
+		)
+		(pin ""
+			(uuid "98ca0a13-0e34-4a4a-8cf6-b926449113fc")
+		)
+		(pin ""
+			(uuid "541c63d7-4e37-4a1a-a6fe-ebfd27bdceb1")
+		)
+		(pin ""
+			(uuid "394d2384-17c1-4ea3-a0de-9ce7f570e069")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -299749,80 +299823,6 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DLATCH_EE_Q")
-		(at 1390.015 413.385 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e79e3192-73cf-461f-a22c-9a844924e9ae")
-		(property "Reference" "U?"
-			(at 1390.015 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DLATCH_EE_Q"
-			(at 1390.015 419.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1389.38 419.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dlatch_ee_q"
-			(at 1390.015 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gated data latch with externally inverted enable inputs and no inverted output."
-			(at 1390.015 423.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0171689f-c774-4d0a-893c-e86729cf2546")
-		)
-		(pin ""
-			(uuid "3f6f0504-4753-4663-bdf8-9a4892073c94")
-		)
-		(pin ""
-			(uuid "0bd952d3-169d-46de-afcb-36a1c3940098")
-		)
-		(pin ""
-			(uuid "21f78988-81f6-4b21-a6d9-36f0d3261d36")
-		)
-		(instances
-			(project ""
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
 					(unit 1)
 				)
 			)

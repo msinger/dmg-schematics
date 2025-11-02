@@ -35,7 +35,7 @@ cell ycnf:or3_b           rot0,flip @-43.64,233.56,-39.53,239.17 ->seq;
 cell yneu:aoi21_a         rot0,flip @-50.77,233.52,-48.33,238.61 ->seq;
 cell yepj:not_c           rot0,flip @-51.84,233.53,-49.86,238.64 ->seq;
 cell ydxa:dff_cc_q        rot0,flip @-57.72,233.53,-51.66,238.66 ->seq;
-cell yodp:dlatch_ee_q     rot0,flip @-61.80,233.55,-56.45,239.19 ->seq;
+cell yodp:dlatch_ee_q_n   rot0,flip @-61.80,233.55,-56.45,239.19 ->seq;
 cell yniu:nor2_c          rot0,flip @-62.78,233.56,-60.41,238.64 ->seq;
 
 cell zaza:dff_cc_q          rot180,flip @-23.81,242.97,-17.72,248.13                                      ->seq;
@@ -249,7 +249,7 @@ wire ydxa:ctl
 	@-57.83,236.18,-57.83,239.10;
 
 wire yodp:ctl
-	yodp.q -> yniu.in1
+	yodp.~q -> yniu.in1
 	@-59.06,234.36,-58.34,234.36,-58.34,237.81,-61.04,237.81,-61.04,235.09;
 
 wire yniu:ctl
