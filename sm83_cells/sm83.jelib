@@ -20829,7 +20829,7 @@ Ey30||D5G2;|pin@2323||O
 X
 
 # Cell decoder3;1{lay}
-Cdecoder3;1{lay}||mocmos|1719010577456|1761500834533|E|DRC_last_good_drc_area_date()G1761500841562|USER_drawing_designer_name()SMichael Singer
+Cdecoder3;1{lay}||mocmos|1719010577456|1762533883270|E|DRC_last_good_drc_area_date()G1762533889061|USER_drawing_designer_name()SMichael Singer
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Polysilicon-1-Con|contact@74||723|16||||
 NMetal-1-Polysilicon-1-Con|contact@75||653|16||||
@@ -27981,6 +27981,8 @@ Ein86||D5G2;|pin@237||I
 Ein87||D5G2;|pin@2499||I
 Ein88||D5G2;|pin@284||I
 Ein89||D5G2;|pin@296||I
+Ein90||D5G2;|pin@232||I
+Ein90_1||D5G2;|pin@2472||I/B
 Eunknown0||D5G2;|pin@348||U/B
 Eunknown0_1||D5G2;|contact@501||U/B
 Eunknown1||D5G2;|pin@357||U/B
@@ -28054,8 +28056,6 @@ Eunknown34||D5G2;|pin@2523||U/B
 Eunknown34_1||D5G2;|pin@263||U/B
 Eunknown35||D5G2;|pin@2418||U/B
 Eunknown35_1||D5G2;|pin@2420||U/B
-Eunknown36||D5G2;|pin@232||U/B
-Eunknown36_1||D5G2;|pin@2472||U/B
 Ey1||D5G2;|pin@347||O
 Ey2||D5G2;|pin@339||O
 Ey3||D5G2;|pin@398||O
@@ -50655,7 +50655,7 @@ Evdd_3||D5G2;|pin@331||P/B
 X
 
 # Cell sm83;1{lay}
-Csm83;1{lay}||mocmos|1692006061830|1762086584433|E|DRC_last_good_drc_area_date()G1762233442369|USER_drawing_designer_name()SMichael Singer
+Csm83;1{lay}||mocmos|1692006061830|1762533950408|E|DRC_last_good_drc_area_date()G1762534589031|USER_drawing_designer_name()SMichael Singer
 Iand2_alu;1{lay}|alu_and[0]|D5G17;R|470.75|2780|X||D5G4;
 Iand2_alu;1{lay}|alu_and[1]|D5G17;R|470.75|2780|||D5G4;
 Iand2_alu;1{lay}|alu_and[2]|D5G17;R|824.5|2780|X||D5G4;
@@ -62700,8 +62700,6 @@ AMetal-1|net@11003|||R1800|pin@1592||3374|2079|contact@1150||3392|2079
 AMetal-1|net@11004|||R0|pin@1535||3400|2071|decoder3|in22_2|3362.5|2071
 AMetal-1|net@11005|||R0|pin@1593||3374|2135|decoder3|in86|3362.5|2135
 AMetal-1|net@11006|||R900|pin@1593||3374|2135|pin@1592||3374|2079
-AMetal-1|net@11007|||R0|contact@1208||3366|2127|decoder3|unknown36|3362.5|2127
-APolysilicon-1|net@11009|||R1800|contact@1208||3366|2127|pin@1595||3369|2127
 APolysilicon-1|net@11010|||R2700|pin@1379||3369|1911|pin@1595||3369|2127
 AMetal-1|net@11011|||R0|contact@1211||3325|2207|decoder3|unknown22_2|3284.75|2207
 APolysilicon-1|net@11012|||R2700|decoder3|in87|3325|2159|contact@1212||3325|2207
@@ -62734,7 +62732,6 @@ AMetal-1|net@11042|||R0|contact@1239||3357|2247|decoder3|in80_1|3284.75|2247
 APolysilicon-1|net@11043|||R900|pin@1611||3354|2215|pin@1607||3354|2177
 APolysilicon-1|net@11044|||R2700|pin@1612||3357|2215|contact@1235||3357|2231
 APolysilicon-1|net@11045|||R0|pin@1612||3357|2215|pin@1611||3354|2215
-APolysilicon-1|net@11046|||R900|contact@1240||3287.5|2255|decoder3|unknown36_1|3287.5|2159
 AMetal-1|net@11047|||R2700|contact@1240||3287.5|2255|pin@1613||3287.5|2263
 AMetal-1|net@11048|||R1800|decoder3|unknown32_1|3284.75|2263|pin@1613||3287.5|2263
 AMetal-1|net@11049|||R0|pin@1614||3287.5|2343|decoder3|unknown30_1|3284.75|2343
@@ -67651,6 +67648,9 @@ APolysilicon-1|net@16776|||R1800|pin@2277||3525|1754|zbpp|tap_in1'|3546.5|1754
 APolysilicon-1|net@16777|||R0|zbpp|in3|3556.5|1807|contact@2108||3520|1807
 APolysilicon-1|net@16778|||R0|zbpp|in2|3545.5|1778|contact@1184||3488|1778
 APolysilicon-1|net@16779|||R0|zbpp|in1|3545.5|1770|contact@1183||3472|1770
+APolysilicon-1|net@16780|||R1800|contact@1208||3366|2127|pin@1595||3369|2127
+AMetal-1|net@16781|||R0|contact@1208||3366|2127|decoder3|in90|3362.5|2127
+APolysilicon-1|net@16782|||R900|contact@1240||3287.5|2255|decoder3|in90_1|3287.5|2159
 Ea[0]||D5G2;|irq_prio[0]|dist_nand_a_in2_1|B
 Ea[1]||D5G2;|irq_prio[1]|dist_nand_a_in_1|B
 Ea[2]||D5G2;|irq_prio[2]|dist_nand_a_in_1|B

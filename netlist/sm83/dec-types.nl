@@ -469,7 +469,7 @@ type decoder3:lime in1 in2 in3 in4 in5 in6 in7 in8 in9 in10 in11 in12 in13 in14 
                    in34 in35 in36 in37 in38 in39 in40 in41 in42 in43 in44 in45 in46 in47 in48 in49
                    in50 in51 in52 in53 in54 in55 in56 in57 in58 in59 in60 in61 in62 in63 in64 in65
                    in66 in67 in68 in69 in70 in71 in72 in73 in74 in75 in76 in77 in78 in79 in80 in81
-                   in82 in83 in84 in85 in86 in87 in88 in89
+                   in82 in83 in84 in85 in86 in87 in88 in89 in90
                    y1:tri y2:tri y3:tri y4:tri y5:tri y6:tri y7:tri y8:tri y9:tri y10:tri y11:tri
                    y12:tri y13:tri y14:tri y15:tri y16:tri y17:tri y18:tri y19:tri y20:tri y21:tri
                    y22:tri y23:tri y24:tri y25:tri y26:tri y27:tri y28:tri y29:tri y30:tri y31:tri
@@ -613,6 +613,8 @@ type decoder3:lime in1 in2 in3 in4 in5 in6 in7 in8 in9 in10 in11 in12 in13 in14 
 	in87@-96.08,228.94
 	in88@-82.34,226.23
 	in89@-81.20,226.23
+	in90@-98.21,231.75
+	in90@-72.66,215.59
 	y1  @-103.59,111.98
 	y2  @-103.59,113.14
 	y3  @-103.59,114.89
