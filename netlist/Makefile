@@ -84,8 +84,8 @@ SM83_NETLIST_FILES = \
 	sm83/bus.nl \
 	sm83/pwr.nl
 
-all: html cells wires labels floorplan png js \
-     sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js
+all: html cells wires labels floorplan png js sv \
+     sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js sm83-sv
 
 html: netlist.html
 
@@ -101,10 +101,12 @@ png: out.png
 
 js: coords.js
 
+sv: out.sv
+
 check: $(NETLIST_FILES)
 	$(NLCONV) -- $^
 
-.PHONY: all html cells wires labels floorplan png js check
+.PHONY: all html cells wires labels floorplan png js sv check
 
 sm83-html: sm83-netlist.html
 
@@ -120,10 +122,12 @@ sm83-png: sm83.png
 
 sm83-js: sm83-coords.js
 
+sm83-sv: sm83.sv
+
 sm83-check: $(SM83_NETLIST_FILES)
 	$(NLCONV) -- $^
 
-.PHONY: sm83-all sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js sm83-check
+.PHONY: sm83-all sm83-html sm83-cells sm83-wires sm83-labels sm83-floorplan sm83-png sm83-js sm83-sv sm83-check
 
 netlist.html: $(NETLIST_FILES)
 	$(NLCONV) --html $@.part -- $^
@@ -151,6 +155,10 @@ out.png: $(NETLIST_FILES)
 
 coords.js: $(NETLIST_FILES)
 	$(NLCONV) --js $@.part -- $^
+	mv $@.part $@
+
+out.sv: $(NETLIST_FILES)
+	$(NLCONV) --sv $@.part -- $^
 	mv $@.part $@
 
 sm83-netlist.html: $(SM83_NETLIST_FILES)
@@ -181,9 +189,13 @@ sm83-coords.js: $(SM83_NETLIST_FILES)
 	$(NLCONV) --js $@.part -- $^
 	mv $@.part $@
 
+sm83.sv: $(SM83_NETLIST_FILES)
+	$(NLCONV) --sv $@.part -- $^
+	mv $@.part $@
+
 clean:
-	rm -f netlist.html cells.png wires.png labels.png floorplan.png out.png coords.js
-	rm -f sm83-netlist.html sm83-cells.png sm83-wires.png sm83-labels.png sm83-floorplan.png sm83.png sm83-coords.js
+	rm -f netlist.html cells.png wires.png labels.png floorplan.png out.png coords.js out.sv
+	rm -f sm83-netlist.html sm83-cells.png sm83-wires.png sm83-labels.png sm83-floorplan.png sm83.png sm83-coords.js sm83.sv
 	rm -f *.part
 
 .PHONY: clean

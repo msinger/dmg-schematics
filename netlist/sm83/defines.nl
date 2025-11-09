@@ -18,3 +18,6 @@ define html-footer
 	"<a rel=\"license\" "
 	   "href=\"http://creativecommons.org/licenses/by-sa/4.0/\">"
 	"Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>";
+
+define hdl-module      "sm83";
+define hdl-length-conv 6.3359375;

@@ -117,9 +117,9 @@ wire wafr:ctl
 	@-53.75,223.25,-56.09,223.25;
 
 wire rd:ctl
-	wdin.y -> irq_nand2_nand3[0].nand_b_in1 irq_nand2_nand3[1].nand_b_in1 irq_nand2_nand3[2].nand_b_in1
-	          irq_nand2_nand3[3].nand_b_in1 irq_nand2_nand3[4].nand_b_in1 irq_nand2_nand3[5].nand_b_in1
-	          irq_nand2_nand3[6].nand_b_in1 irq_nand2_nand3[7].nand_b_in1 port.rd
+	wdin.y -> irq_nand2_nand3[0].b_in1 irq_nand2_nand3[1].b_in1 irq_nand2_nand3[2].b_in1
+	          irq_nand2_nand3[3].b_in1 irq_nand2_nand3[4].b_in1 irq_nand2_nand3[5].b_in1
+	          irq_nand2_nand3[6].b_in1 irq_nand2_nand3[7].b_in1 port.rd
 	@-58.48,222.52,-58.70,222.52,-58.70,223.79
 	@-58.70,223.23,-60.37,223.23,-60.37,226.88,-60.19,226.88,-60.19,228.20,-60.37,228.20,-60.37,233.28,
 	 -62.55,233.28,-62.55,234.91,-63.43,234.91,-63.43,235.30,-64.00,235.30,-64.00,240.06,-64.38,240.06,

@@ -37,17 +37,17 @@ type or2_tap_nor_tap_in1_n_reg:blue in1 in2 y:out tap_nor:out tap_~in1:out
 	tap_~in1@-143.25,114.81
 	"OR gate with two inputs, tap on intermediate NOR, and inverting tap on IN1.";
 
-type nand2_nand3_od_irq:red nand_a_in1 nand_a_in2 nand_a_y:out
-                            nand_b_in1 nand_b_in2 nand_b_in3 nand_b_y:tri
-	          @-155.34,201.31,-149.25,210.84
-	nand_a_in1@-149.25,202.44
-	nand_a_in2@-154.28,210.84
-	nand_a_y  @-153.34,210.84
-	nand_b_in1@-155.34,202.72,-149.25,202.72
-	nand_b_in2@-155.34,202.16,-149.25,202.16
-	nand_b_in3@-149.25,202.78
-	nand_b_y  @-154.56,201.31,-154.72,210.84
-	nand_b_y  @-149.56,210.03
+type nand2_nand3_od_irq:red a_in1 a_in2 a_y:out
+                            b_in1 b_in2 b_in3 b_y:tri
+	     @-155.34,201.31,-149.25,210.84
+	a_in1@-149.25,202.44
+	a_in2@-154.28,210.84
+	a_y  @-153.34,210.84
+	b_in1@-155.34,202.72,-149.25,202.72
+	b_in2@-155.34,202.16,-149.25,202.16
+	b_in3@-149.25,202.78
+	b_y  @-154.56,201.31,-154.72,210.84
+	b_y  @-149.56,210.03
 	"NAND gate with two inputs and open-drain NAND gate with three inputs.";
 
 type reg_bus_pch_a_bit0123:lime ~pch
