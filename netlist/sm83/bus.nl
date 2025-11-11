@@ -387,7 +387,7 @@ wire ~op2bus[7]:data
 	@-237.58,111.05,-229.39,111.05
 	@-237.52,143.11,-232.38,143.11,-232.38,142.58,-230.66,142.58;
 
-wire ~lo_bus[0]:data
+wire ~idu_in[0]:data
 	reg_hl_out[0].l_y1 reg_de_out[0].e_y1 reg_bc_out[0].c_y1 reg_bus_pch_b[0].a_y reg_wz_out[0].oai31_y
 	reg_sp_out[0].y4 reg_pc_out[0].y3 -> idu_not[0].a_in
 	@-143.94,57.41,-143.94,56.31,-151.66,56.31,-151.66,111.55,-151.25,111.55,-151.25,125.80,-151.59,125.80,
@@ -399,7 +399,7 @@ wire ~lo_bus[0]:data
 	@-151.59,142.55,-148.30,142.55
 	@-151.59,168.61,-145.31,168.61,-145.31,169.17;
 
-wire ~lo_bus[1]:data
+wire ~idu_in[1]:data
 	reg_hl_out[1].l_y1 reg_de_out[1].e_y1 reg_bc_out[1].c_y1 reg_bus_pch_b[1].a_y reg_wz_out[1].oai31_y
 	reg_sp_out[1].y4 reg_pc_out[1].y3 -> idu_not[1].a_in
 	@-155.81,57.44,-155.81,56.34,-163.50,56.34,-163.50,111.58,-163.13,111.58,-163.13,125.78,-163.48,125.78,
@@ -411,7 +411,7 @@ wire ~lo_bus[1]:data
 	@-163.48,142.56,-160.19,142.56
 	@-163.48,168.63,-157.19,168.63,-157.19,169.16;
 
-wire ~lo_bus[2]:data
+wire ~idu_in[2]:data
 	reg_hl_out[2].l_y1 reg_de_out[2].e_y1 reg_bc_out[2].c_y1 reg_bus_pch_b[2].a_y reg_wz_out[2].oai31_y
 	reg_sp_out[2].y4 reg_pc_out[2].y3 -> idu_not[2].a_in
 	@-167.73,57.41,-167.73,56.36,-175.41,56.36,-175.41,111.61,-175.02,111.61,-175.02,125.78,-175.34,125.78,
@@ -423,7 +423,7 @@ wire ~lo_bus[2]:data
 	@-175.34,142.58,-172.08,142.58
 	@-175.34,168.66,-169.08,168.66,-169.08,169.13;
 
-wire ~lo_bus[3]:data
+wire ~idu_in[3]:data
 	reg_hl_out[3].l_y1 reg_de_out[3].e_y1 reg_bc_out[3].c_y1 reg_bus_pch_b[3].a_y reg_wz_out[3].oai31_y
 	reg_sp_out[3].y4 reg_pc_out[3].y3 -> idu_not[3].a_in
 	@-179.56,57.44,-179.56,56.38,-187.28,56.38,-187.28,111.61,-186.88,111.61,-186.88,125.80,-187.23,125.80,
@@ -435,7 +435,7 @@ wire ~lo_bus[3]:data
 	@-187.23,142.56,-184.03,142.56
 	@-187.23,168.66,-181.02,168.66,-181.02,169.14;
 
-wire ~lo_bus[4]:data
+wire ~idu_in[4]:data
 	reg_hl_out[4].l_y1 reg_de_out[4].e_y1 reg_bc_out[4].c_y1 reg_bus_pch_b[4].a_y reg_wz_out[4].oai31_y
 	reg_sp_out[4].y4 reg_pc_out[4].y3 -> idu_not[4].a_in
 	@-191.84,57.48,-191.84,56.39,-199.52,56.39,-199.52,111.58,-199.16,111.58,-199.16,125.78,-199.45,125.78,
@@ -447,7 +447,7 @@ wire ~lo_bus[4]:data
 	@-199.45,142.58,-196.19,142.58
 	@-199.45,168.64,-193.27,168.64,-193.27,169.20;
 
-wire ~lo_bus[5]:data
+wire ~idu_in[5]:data
 	reg_hl_out[5].l_y1 reg_de_out[5].e_y1 reg_bc_out[5].c_y1 reg_bus_pch_b[5].a_y reg_wz_out[5].oai31_y
 	reg_sp_out[5].y4 reg_pc_out[5].y3 -> idu_not[5].a_in
 	@-204.09,57.47,-204.09,56.39,-211.72,56.39,-211.72,111.55,-211.36,111.55,-211.36,125.78,-211.75,125.78,
@@ -459,7 +459,7 @@ wire ~lo_bus[5]:data
 	@-211.75,142.53,-208.39,142.53
 	@-211.75,168.61,-205.48,168.61,-205.48,169.19;
 
-wire ~lo_bus[6]:data
+wire ~idu_in[6]:data
 	reg_hl_out[6].l_y1 reg_de_out[6].e_y1 reg_bc_out[6].c_y1 reg_bus_pch_b[6].a_y reg_wz_out[6].oai31_y
 	reg_sp_out[6].y4 reg_pc_out[6].y3 -> idu_not[6].a_in
 	@-216.33,57.47,-216.33,56.39,-224.00,56.39,-224.00,111.56,-223.61,111.56,-223.61,125.78,-224.00,125.78,
@@ -471,7 +471,7 @@ wire ~lo_bus[6]:data
 	@-224.00,142.55,-220.69,142.55
 	@-224.00,168.67,-217.72,168.67,-217.72,169.23;
 
-wire ~lo_bus[7]:data
+wire ~idu_in[7]:data
 	reg_hl_out[7].l_y1 reg_de_out[7].e_y1 reg_bc_out[7].c_y1 reg_bus_pch_b[7].a_y reg_wz_out[7].oai31_y
 	reg_sp_out[7].y4 reg_pc_out[7].y3 -> idu_not[7].a_in
 	@-228.56,57.48,-228.56,56.39,-236.22,56.39,-236.22,111.63,-235.89,111.63,-235.89,125.81,-236.22,125.81,
@@ -483,7 +483,7 @@ wire ~lo_bus[7]:data
 	@-236.22,142.56,-232.95,142.56
 	@-236.22,168.64,-230.02,168.64,-230.02,169.17;
 
-wire ~hi_bus[0]:data
+wire ~idu_in[8]:data
 	reg_hl_out[0].h_y1 reg_de_out[0].d_y1 reg_bc_out[0].b_y1 reg_bus_pch_b[0].b_y reg_wz_out[0].oai21_y
 	reg_sp_out[0].y5 reg_pc_out[0].y2 -> idu_not[0].b_in
 	@-149.11,57.95,-152.02,57.95,-152.02,112.11,-151.63,112.11,-151.63,125.23,-151.95,125.23,-151.95,184.78
@@ -494,7 +494,7 @@ wire ~hi_bus[0]:data
 	@-151.95,151.83,-147.19,151.83,-147.19,151.31
 	@-151.95,178.47,-146.39,178.47,-146.39,177.95,-144.92,177.95;
 
-wire ~hi_bus[1]:data
+wire ~idu_in[9]:data
 	reg_hl_out[1].h_y1 reg_de_out[1].d_y1 reg_bc_out[1].b_y1 reg_bus_pch_b[1].b_y reg_wz_out[1].oai21_y
 	reg_sp_out[1].y5 reg_pc_out[1].y2 -> idu_not[1].b_in
 	@-160.91,57.98,-163.86,57.98,-163.86,112.13,-163.50,112.13,-163.50,125.23,-163.84,125.23,-163.84,184.79
@@ -505,7 +505,7 @@ wire ~hi_bus[1]:data
 	@-163.84,151.86,-159.02,151.86,-159.02,151.28
 	@-163.84,178.48,-158.31,178.48,-158.31,177.95,-156.84,177.95;
 
-wire ~hi_bus[2]:data
+wire ~idu_in[10]:data
 	reg_hl_out[2].h_y1 reg_de_out[2].d_y1 reg_bc_out[2].b_y1 reg_bus_pch_b[2].b_y reg_wz_out[2].oai21_y
 	reg_sp_out[2].y5 reg_pc_out[2].y2 -> idu_not[2].b_in
 	@-172.81,57.98,-175.78,57.98,-175.78,112.13,-175.38,112.13,-175.38,125.23,-175.73,125.23,-175.73,184.81
@@ -516,7 +516,7 @@ wire ~hi_bus[2]:data
 	@-175.73,151.88,-170.92,151.88,-170.92,151.34
 	@-175.73,178.48,-170.17,178.48,-170.17,177.89,-168.70,177.89;
 
-wire ~hi_bus[3]:data
+wire ~idu_in[11]:data
 	reg_hl_out[3].h_y1 reg_de_out[3].d_y1 reg_bc_out[3].b_y1 reg_bus_pch_b[3].b_y reg_wz_out[3].oai21_y
 	reg_sp_out[3].y5 reg_pc_out[3].y2 -> idu_not[3].b_in
 	@-184.72,58.02,-187.63,58.02,-187.63,112.14,-187.27,112.14,-187.27,125.27,-187.61,125.27,-187.61,184.83
@@ -527,7 +527,7 @@ wire ~hi_bus[3]:data
 	@-187.61,151.89,-182.83,151.89,-182.83,151.31
 	@-187.61,178.48,-182.09,178.48,-182.09,178.00,-180.55,178.00;
 
-wire ~hi_bus[4]:data
+wire ~idu_in[12]:data
 	reg_hl_out[4].h_y1 reg_de_out[4].d_y1 reg_bc_out[4].b_y1 reg_bus_pch_b[4].b_y reg_wz_out[4].oai21_y
 	reg_sp_out[4].y5 reg_pc_out[4].y2 -> idu_not[4].b_in
 	@-196.92,58.02,-199.88,58.02,-199.88,112.13,-199.52,112.13,-199.52,125.25,-199.84,125.25,-199.84,184.77
@@ -538,7 +538,7 @@ wire ~hi_bus[4]:data
 	@-199.84,151.86,-195.05,151.86,-195.05,151.31
 	@-199.84,178.45,-194.31,178.45,-194.31,177.89,-192.84,177.89;
 
-wire ~hi_bus[5]:data
+wire ~idu_in[13]:data
 	reg_hl_out[5].h_y1 reg_de_out[5].d_y1 reg_bc_out[5].b_y1 reg_bus_pch_b[5].b_y reg_wz_out[5].oai21_y
 	reg_sp_out[5].y5 reg_pc_out[5].y2 -> idu_not[5].b_in
 	@-209.16,58.03,-212.08,58.03,-212.08,112.09,-211.75,112.09,-211.75,125.27,-212.11,125.27,-212.11,184.81
@@ -549,7 +549,7 @@ wire ~hi_bus[5]:data
 	@-212.11,151.84,-207.31,151.84,-207.31,151.23
 	@-212.11,178.47,-206.58,178.47,-206.58,177.92,-205.09,177.92;
 
-wire ~hi_bus[6]:data
+wire ~idu_in[14]:data
 	reg_hl_out[6].h_y1 reg_de_out[6].d_y1 reg_bc_out[6].b_y1 reg_bus_pch_b[6].b_y reg_wz_out[6].oai21_y
 	reg_sp_out[6].y5 reg_pc_out[6].y2 -> idu_not[6].b_in
 	@-221.41,58.03,-224.34,58.03,-224.34,112.13,-224.00,112.13,-224.00,125.27,-224.38,125.27,-224.38,184.81
@@ -560,7 +560,7 @@ wire ~hi_bus[6]:data
 	@-224.38,151.84,-219.56,151.84,-219.56,151.23
 	@-224.38,178.48,-218.83,178.48,-218.83,177.92,-217.25,177.92;
 
-wire ~hi_bus[7]:data
+wire ~idu_in[15]:data
 	reg_hl_out[7].h_y1 reg_de_out[7].d_y1 reg_bc_out[7].b_y1 reg_bus_pch_b[7].b_y reg_wz_out[7].oai21_y
 	reg_sp_out[7].y5 reg_pc_out[7].y2 -> idu_not[7].b_in
 	@-233.64,58.03,-236.59,58.03,-236.59,112.17,-236.22,112.17,-236.22,125.25,-236.61,125.25,-236.61,184.80
@@ -596,19 +596,19 @@ alias wire bbus[4] -> ~op2bus[4];
 alias wire bbus[5] -> ~op2bus[5];
 alias wire bbus[6] -> ~op2bus[6];
 alias wire bbus[7] -> ~op2bus[7];
-alias wire cbus[0] -> ~lo_bus[0];
-alias wire cbus[1] -> ~lo_bus[1];
-alias wire cbus[2] -> ~lo_bus[2];
-alias wire cbus[3] -> ~lo_bus[3];
-alias wire cbus[4] -> ~lo_bus[4];
-alias wire cbus[5] -> ~lo_bus[5];
-alias wire cbus[6] -> ~lo_bus[6];
-alias wire cbus[7] -> ~lo_bus[7];
-alias wire dbus[0] -> ~hi_bus[0];
-alias wire dbus[1] -> ~hi_bus[1];
-alias wire dbus[2] -> ~hi_bus[2];
-alias wire dbus[3] -> ~hi_bus[3];
-alias wire dbus[4] -> ~hi_bus[4];
-alias wire dbus[5] -> ~hi_bus[5];
-alias wire dbus[6] -> ~hi_bus[6];
-alias wire dbus[7] -> ~hi_bus[7];
+alias wire cbus[0] -> ~idu_in[0];
+alias wire cbus[1] -> ~idu_in[1];
+alias wire cbus[2] -> ~idu_in[2];
+alias wire cbus[3] -> ~idu_in[3];
+alias wire cbus[4] -> ~idu_in[4];
+alias wire cbus[5] -> ~idu_in[5];
+alias wire cbus[6] -> ~idu_in[6];
+alias wire cbus[7] -> ~idu_in[7];
+alias wire dbus[0] -> ~idu_in[8];
+alias wire dbus[1] -> ~idu_in[9];
+alias wire dbus[2] -> ~idu_in[10];
+alias wire dbus[3] -> ~idu_in[11];
+alias wire dbus[4] -> ~idu_in[12];
+alias wire dbus[5] -> ~idu_in[13];
+alias wire dbus[6] -> ~idu_in[14];
+alias wire dbus[7] -> ~idu_in[15];

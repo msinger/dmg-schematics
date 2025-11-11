@@ -9,7 +9,7 @@ type port d0:inout d1:inout d2:inout d3:inout d4:inout d5:inout d6:inout d7:inou
           int0:out int1:out int2:out int3:out int4:out int5:out int6:out int7:out
           inta0 inta1 inta2 inta3 inta4 inta5 inta6 inta7
           db0 db1 db2 db3 db4 db5 db6 db7
-          zacw_q mreq ~stop rd ~halt irq_head_d_y dec1_y103 wr dec1_y28_buf m1
+          zacw_q mreq ~stop rd ~halt irq_head_d_y prefix_cb wr dec1_y28_buf m1
           adr_clk_n:out adr_clk_p:out phi_clk_p:out phi_clk_n:out t4_clk_n:out t4_clk_p:out
           buke:out main_clk_n:out main_clk_p:out sync_reset:out async_reset:out
           osc_stable:out wake:out nmi:out unor:out syro:out tutu:out umut:out
@@ -379,7 +379,7 @@ wire main_clk_p:clk
 	@-39.48,231.05,-39.48,227.48;
 
 wire sync_reset:rst
-	port.sync_reset -> reg_pcl_not_wr.b_in reg_pch_not_wr.b_in reg_ie[0].r reg_ie[1].r reg_ie[2].r reg_ie[3].r
+	port.sync_reset -> reg_pcl_not_we.b_in reg_pch_not_we.b_in reg_ie[0].r reg_ie[1].r reg_ie[2].r reg_ie[3].r
 	                   reg_ie[4].r reg_ie[5].r reg_ie[6].r reg_ie[7].r ycnf.in2 yneu.in3 zudn.in zowa.in2 znda.in1
 	                   zwuu.in6 zhzo.in1
 	@-13.84,87.28,-13.67,240.52,-40.77,240.56,-50.09,240.56,-83.44,240.61,-105.36,240.63,-121.50,240.63,

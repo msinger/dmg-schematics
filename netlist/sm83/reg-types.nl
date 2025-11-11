@@ -135,31 +135,31 @@ type reg_bus_pch_b:lime ~pch a_y:tri b_y:tri
 	b_y @-151.97,93.94,-151.97,105.81
 	"Precharger for register busses.";
 
-type not_reg_wr:black     in y:out   @-143.16,35.14,-140.41,41.62
+type not_reg_we:black     in y:out   @-143.16,35.14,-140.41,41.62
                                    in@-143.16,36.61,-140.84,36.61
                                    y @-143.16,40.13
                                    "Simple inverter.";
-type not_reg_a_wr:black   in y:out   @-143.16,35.14,-140.41,41.62
+type not_reg_a_we:black   in y:out   @-143.16,35.14,-140.41,41.62
                                    in@-143.16,36.61,-140.84,36.61
                                    y @-143.16,40.13
                                    "Simple inverter.";
-type not_reg_b_wr:black   in y:out   @-143.16,35.14,-140.41,41.62
+type not_reg_b_we:black   in y:out   @-143.16,35.14,-140.41,41.62
                                    in@-143.16,36.61,-140.84,36.61
                                    y @-143.16,40.13
                                    "Simple inverter.";
-type not_reg_h_e_wr:black in y:out   @-143.16,35.14,-140.41,41.62
+type not_reg_h_e_we:black in y:out   @-143.16,35.14,-140.41,41.62
                                    in@-143.16,36.61,-140.84,36.61
                                    y @-143.16,40.13
                                    "Simple inverter.";
-type not_reg_l_wr:black   in y:out   @-143.16,35.14,-140.41,41.62
+type not_reg_l_we:black   in y:out   @-143.16,35.14,-140.41,41.62
                                    in@-143.16,36.61,-140.84,36.61
                                    y @-143.16,40.13
                                    "Simple inverter.";
-type not_reg_sp_wr:black  in y:out   @-143.19,153.56,-140.28,160.44
+type not_reg_sp_we:black  in y:out   @-143.19,153.56,-140.28,160.44
                                    in@-143.19,155.66,-140.78,155.66
                                    y @-143.19,159.13
                                    "Simple inverter.";
-type not_reg_ie_wr:black  in y:out   @-143.28,202.97,-140.53,210.84
+type not_reg_ie_we:black  in y:out   @-143.28,202.97,-140.53,210.84
                                    in@-143.28,205.43,-141.09,205.43
                                    y @-143.28,208.90
                                    "Simple inverter.";
@@ -178,7 +178,7 @@ type not2_idu:black a_in a_y:out
 	b_y @-151.72,187.16
 	"Two simple inverters.";
 
-type not2_reg_pc_wr:black a_in a_y:out
+type not2_reg_pc_we:black a_in a_y:out
                           b_in b_y:out
 	    @-143.25,179.13,-140.75,187.09
 	a_in@-143.25,181.75,-141.06,181.75
