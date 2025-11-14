@@ -3,12 +3,12 @@
 
 cell port:port virtual;
 
-type port d0:inout d1:inout d2:inout d3:inout d4:inout d5:inout d6:inout d7:inout
-          a0:inout a1:inout a2:inout a3:inout a4:inout a5:inout a6:inout a7:inout
-          a8:inout a9:inout a10:inout a11:inout a12:inout a13:inout a14:inout a15:inout
-          int0:out int1:out int2:out int3:out int4:out int5:out int6:out int7:out
-          inta0 inta1 inta2 inta3 inta4 inta5 inta6 inta7
-          db0 db1 db2 db3 db4 db5 db6 db7
+type port d[0]:inout d[1]:inout d[2]:inout d[3]:inout d[4]:inout d[5]:inout d[6]:inout d[7]:inout
+          a[0]:inout a[1]:inout a[2]:inout a[3]:inout a[4]:inout a[5]:inout a[6]:inout a[7]:inout
+          a[8]:inout a[9]:inout a[10]:inout a[11]:inout a[12]:inout a[13]:inout a[14]:inout a[15]:inout
+          int[0]:out int[1]:out int[2]:out int[3]:out int[4]:out int[5]:out int[6]:out int[7]:out
+          inta[0] inta[1] inta[2] inta[3] inta[4] inta[5] inta[6] inta[7]
+          db[0] db[1] db[2] db[3] db[4] db[5] db[6] db[7]
           zacw_q mreq ~stop rd ~halt irq_head_d_y prefix_cb wr dec1_y28_buf m1
           adr_clk_n:out adr_clk_p:out phi_clk_p:out phi_clk_n:out t4_clk_n:out t4_clk_p:out
           buke:out main_clk_n:out main_clk_p:out sync_reset:out async_reset:out
@@ -20,35 +20,35 @@ type port d0:inout d1:inout d2:inout d3:inout d4:inout d5:inout d6:inout d7:inou
 # --------------------------------
 
 wire int[0]:ctl
-	port.int0 -> irq_nand2_nand3[0].a_in2
+	port.int[0] -> irq_nand2_nand3[0].a_in2
 	@-154.27,230.73,-154.27,206.56,-151.55,206.56;
 
 wire int[1]:ctl
-	port.int1 -> irq_nand2_nand3[1].a_in2
+	port.int[1] -> irq_nand2_nand3[1].a_in2
 	@-165.78,230.77,-165.78,229.78,-166.16,229.78,-166.16,206.56,-163.42,206.56;
 
 wire int[2]:ctl
-	port.int2 -> irq_nand2_nand3[2].a_in2
+	port.int[2] -> irq_nand2_nand3[2].a_in2
 	@-177.88,230.70,-177.88,229.75,-178.05,229.75,-178.05,206.59,-175.27,206.59;
 
 wire int[3]:ctl
-	port.int3 -> irq_nand2_nand3[3].a_in2
+	port.int[3] -> irq_nand2_nand3[3].a_in2
 	@-189.92,230.73,-189.92,206.56,-187.16,206.56;
 
 wire int[4]:ctl
-	port.int4 -> irq_nand2_nand3[4].a_in2
+	port.int[4] -> irq_nand2_nand3[4].a_in2
 	@-201.98,230.77,-201.98,230.09,-202.17,230.09,-202.17,206.59,-199.34,206.59;
 
 wire int[5]:ctl
-	port.int5 -> irq_nand2_nand3[5].a_in2
+	port.int[5] -> irq_nand2_nand3[5].a_in2
 	@-214.64,230.78,-214.64,229.81,-214.45,229.81,-214.45,206.59,-211.66,206.59;
 
 wire int[6]:ctl
-	port.int6 -> irq_nand2_nand3[6].a_in2
+	port.int[6] -> irq_nand2_nand3[6].a_in2
 	@-226.70,230.81,-226.70,206.58,-223.94,206.58;
 
 wire int[7]:ctl
-	port.int7 -> irq_nand2_nand3[7].a_in2
+	port.int[7] -> irq_nand2_nand3[7].a_in2
 	@-238.78,230.83,-238.78,230.14,-238.95,230.14,-238.95,206.61,-236.13,206.61;
 
 wire adr_clk_n:clk
