@@ -50653,7 +50653,7 @@ Evdd_3||D5G2;|pin@331||P/B
 X
 
 # Cell sm83;1{lay}
-Csm83;1{lay}||mocmos|1692006061830|1762787264925|E|DRC_last_good_drc_area_date()G1762787884273|USER_drawing_designer_name()SMichael Singer
+Csm83;1{lay}||mocmos|1692006061830|1764364126174|E|DRC_last_good_drc_area_date()G1764365082309|USER_drawing_designer_name()SMichael Singer
 Iand2_alu;1{lay}|alu_and[0]|D5G17;R|470.75|2780|X||D5G4;
 Iand2_alu;1{lay}|alu_and[1]|D5G17;R|470.75|2780|||D5G4;
 Iand2_alu;1{lay}|alu_and[2]|D5G17;R|824.5|2780|X||D5G4;
@@ -54804,7 +54804,6 @@ NN-Active-Pin|pin@2757||3646.5|3025.5|20|||
 NN-Active-Pin|pin@2758||3646.5|3057|20|||
 NN-Active-Pin|pin@2761||3653|3115.5|7|||
 NN-Active-Pin|pin@2762||3653|3375|7|||
-NMetal-1-Pin|pin@2763||3669.5|3319||||
 NMetal-1-Pin|pin@2764||3669.5|3327||||
 NPolysilicon-1-Pin|pin@2765||3638|3375||||
 NMetal-1-Pin|pin@2766||3669.5|3351||||
@@ -64582,8 +64581,6 @@ AN-Active|net@13386||20|IJR900|pin@2758||3646.5|3057|pin@2757||3646.5|3025.5
 AN-Active|net@13387|||IR900|pin@2758||3652.5|3057|contact@2483||3652.5|3042
 AN-Active|net@13388||7|IJR900|pin@2762||3653|3375|pin@2761||3653|3115.5
 AN-Active|net@13389|||IR2700|pin@2761||3652.5|3115.5|contact@2482||3652.5|3120.5
-AMetal-1|net@13390|||R0|pin@2763||3669.5|3319|pin@2333||3659|3319
-AMetal-1|net@13391|||R900|pin@2764||3669.5|3327|pin@2763||3669.5|3319
 APolysilicon-1|net@13392|||R900|pin@2765||3638|3375|contact@2407||3638|3303.5
 APolysilicon-1|net@13393|||R900|pin@2767||3630|3343|contact@2448||3630|3271.5
 APolysilicon-1|net@13394|||R900|pin@2768||3603|3343|contact@2501||3603|3335
@@ -67665,6 +67662,9 @@ Ea[12]||D5G2;|irq_prio[4]|dist_nand_b_in_1|B
 Ea[13]||D5G2;|irq_prio[5]|dist_nand_b_in_1|B
 Ea[14]||D5G2;|irq_prio[6]|dist_nand_b_in_1|B
 Ea[15]||D5G2;|irq_prio[7]|dist_nand_b_in_1|B
+Eclk||D5G2;|pin@3534||I
+Eclk'||D5G2;|pin@3531||I
+Eclk_ready||D5G2;|pin@3551||I
 Ed[0]||D5G2;|pin@3576||B
 Ed[1]||D5G2;|pin@3575||B
 Ed[2]||D5G2;|pin@3574||B
@@ -67689,16 +67689,23 @@ Ed_2[4]||D5G2;|pin@798||B/B
 Ed_2[5]||D5G2;|pin@799||B/B
 Ed_2[6]||D5G2;|pin@800||B/B
 Ed_2[7]||D5G2;|pin@794||B/B
-Edb[0]||D5G2;|irq_prio[0]|unknown2_1|O
-Edb[1]||D5G2;|irq_prio[1]|unknown2_1|O
-Edb[2]||D5G2;|irq_prio[2]|unknown2_1|O
-Edb[3]||D5G2;|irq_prio[3]|unknown2_1|O
-Edb[4]||D5G2;|irq_prio[4]|unknown2_1|O
-Edb[5]||D5G2;|irq_prio[5]|unknown2_1|O
-Edb[6]||D5G2;|irq_prio[6]|unknown2_1|O
-Edb[7]||D5G2;|irq_prio[7]|unknown2_1|O
+Edata_phase||D5G2;|pin@3561||I
+Edata_phase'||D5G2;|pin@3562||I
+Edb[0]||D5G2;|irq_prio[0]|unknown2_1|B
+Edb[1]||D5G2;|irq_prio[1]|unknown2_1|B
+Edb[2]||D5G2;|irq_prio[2]|unknown2_1|B
+Edb[3]||D5G2;|irq_prio[3]|unknown2_1|B
+Edb[4]||D5G2;|irq_prio[4]|unknown2_1|B
+Edb[5]||D5G2;|irq_prio[5]|unknown2_1|B
+Edb[6]||D5G2;|irq_prio[6]|unknown2_1|B
+Edb[7]||D5G2;|irq_prio[7]|unknown2_1|B
+Eexec_phase||D5G2;|pin@3563||I
+Eexec_phase'||D5G2;|pin@3564||I
+Eexec_phase_1||D5G2;|pin@3231||I/B
+Effxx||D5G2;|pin@2332||O
 Egnd||D5G2;|pin@2124||G/B
 Egnd_1||D5G2;|pin@483||G/B
+Egnd_2||D5G2;|pin@2333||G/B
 Ehalt'||D5G2;|pin@3545||O
 Eint[0]||D5G2;|irq_prio[0]|unknown1_1|I
 Eint[1]||D5G2;|irq_prio[1]|unknown1_1|I
@@ -67708,6 +67715,7 @@ Eint[4]||D5G2;|irq_prio[4]|unknown1_1|I
 Eint[5]||D5G2;|irq_prio[5]|unknown1_1|I
 Eint[6]||D5G2;|irq_prio[6]|unknown1_1|I
 Eint[7]||D5G2;|irq_prio[7]|unknown1_1|I
+Eint_entry||D5G2;|pin@2506||O
 Einta[0]||D5G2;|irq_prio[0]|and_y|O
 Einta[1]||D5G2;|irq_prio[1]|and_y|O
 Einta[2]||D5G2;|irq_prio[2]|and_y|O
@@ -67716,16 +67724,31 @@ Einta[4]||D5G2;|irq_prio[4]|and_y|O
 Einta[5]||D5G2;|irq_prio[5]|and_y|O
 Einta[6]||D5G2;|irq_prio[6]|and_a_y|O
 Einta[7]||D5G2;|irq_prio[7]|and_a_y|O
+Einternal_access||D5G2;|pin@2516||I
 Em1||D5G2;|pin@693||O
 Emreq||D5G2;|pin@2509||O
 Emreq_1||D5G2;|pin@3538||O/B
 Enmi||D5G2;|pin@2553||I
+Eoe'||D5G2;|pin@2542||I
+Eoe'_1||D5G2;|pin@3169||I/B
+Epch_phase'||D5G2;|pin@3558||I
+Eprefix_cb||D5G2;|pin@2766||O
+Epwron_reset||D5G2;|pin@3549||I
+Epwron_reset_1||D5G2;|pin@2640||I/B
 Erd||D5G2;|pin@2552||O
+Eshadow_access||D5G2;|pin@2513||I
+Eshadow_override||D5G2;|pin@2510||I
 Estop'||D5G2;|pin@2678||O
 Estop'_1||D5G2;|pin@3550||O/B
+Esys_reset||D5G2;|pin@3546||I
+Esys_reset_1||D5G2;|pin@2648||I/B
+Etest_freeze||D5G2;|pin@2764||I
 Evdd||D5G2;|pin@1184||P/B
+Ewake||D5G2;|pin@2683||I
 Ewr||D5G2;|pin@2543||O
 Ewr_1||D5G2;|pin@3544||O/B
+Ewrite_phase||D5G2;|pin@3559||I
+Ewrite_phase'||D5G2;|pin@3560||I
 X
 
 # Cell srlatch_r_n;1{lay}
