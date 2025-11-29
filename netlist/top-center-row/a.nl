@@ -174,8 +174,8 @@ wire avor:rst
 	avor.y -> alur.in
 	@-57.63,156.56,-58.09,156.56,-58.09,155.53,-57.62,155.53;
 
-wire reset_latch:rst
-	afer.q -> cpu.t12 avor.in1
+wire cpu_sys_reset:rst
+	afer.q -> cpu.sys_reset avor.in1
 	@-54.48,101.66,-54.42,65.09,-46.55,65.09,-46.66,158.95,-56.17,158.95
 	@-55.35,158.95,-55.35,156.05,-56.16,156.05;
 

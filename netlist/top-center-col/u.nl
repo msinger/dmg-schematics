@@ -74,7 +74,7 @@ wire ~unyk:clk
 	@-67.27,141.33,-67.27,143.23,-68.80,143.23,-68.80,138.84,-72.38,138.84,-72.38,137.66;
 
 wire cpu_irq3:ctl
-	ubul.q -> cpu.r21 nejy.d
+	ubul.q -> cpu.int[3] nejy.d
 	@-96.36,99.16,-96.36,99.58,-96.45,99.58,-96.45,109.64,-88.50,109.64,-88.50,110.37,-82.77,110.37,
 	 -82.77,114.25,-81.07,114.25,-81.07,118.98,-81.59,118.98,-81.59,121.63,-72.36,121.64,-72.36,127.08,
 	 -72.54,127.08,-72.54,134.70,-72.71,134.70,-72.71,138.96,-71.70,138.96,-71.70,139.84;
@@ -96,7 +96,7 @@ wire ubet:ctl
 	@-74.78,141.30,-74.78,143.52,-75.98,143.52,-75.98,141.30;
 
 wire ~{t1}t2:ctl
-	umut.y -> cpu.r6 loxo.in3 moca.in2 mule.in taba.in2 yaza.in apet.in2
+	umut.y -> cpu.shadow_override loxo.in3 moca.in2 mule.in taba.in2 yaza.in apet.in2
 	@-67.55,104.41,-67.55,105.07,-67.41,105.23,-67.41,108.09,-48.98,108.11,-49.04,144.90,-73.08,144.88,
 	 -110.70,144.86,-110.74,180.85,-116.62,180.84,-116.62,182.77,-120.98,182.77,-120.98,183.78
 	@-73.08,144.88,-73.08,143.52,-74.62,143.52,-74.62,141.32
@@ -122,7 +122,7 @@ wire uvar:ctl
 	@-74.96,142.96,-74.96,141.31;
 
 wire t1~{t2}:ctl
-	unor.y -> cpu.r3 rulo.in2 ryca.in sycy.in tuso.in1 tuto.in1 leva.in1 lyny.in1 loso.in1 lyra.in1
+	unor.y -> cpu.~oe rulo.in2 ryca.in sycy.in tuso.in1 tuto.in1 leva.in1 lyny.in1 loso.in1 lyra.in1
 	          leco.in2 mego.in1 meny.in1 pahy.in1 rore.in1 roru.sel taba.in1 tova.in usuf.in1 ubal.sel
 	          ujyv.sel urun.in1 awod.in1 ajav.in1 apet.in1 apys.in1 bola.in1 bajo.in1 bevo.in1 cyka.in1
 	          cotu.in1 colo.in1 efop.in2 koty.in1
@@ -277,7 +277,7 @@ wire ukap:clk
 	@-89.48,139.82,-89.48,138.95,-89.13,138.95,-89.13,137.63;
 
 wire cpu_irq4:ctl
-	ulak.q -> cpu.r23 nuty.d
+	ulak.q -> cpu.int[4] nuty.d
 	@-99.24,99.12,-99.24,99.56,-99.19,99.56,-99.19,107.05,-95.20,107.05,-95.20,110.84,-85.85,110.84,-85.85,118.97,
 	 -84.31,118.97,-84.31,119.57
 	@-85.85,118.38,-90.99,118.38,-90.99,122.19,-91.68,122.19,-91.68,126.34,-92.19,126.34,-92.19,131.36,

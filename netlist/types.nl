@@ -358,54 +358,54 @@ type tffnl:orange d l ~tclk q:out ~q:out             @-138.36,208.98,-134.93,211
                                                 ~tclk@-138.27,208.98,-138.27,211.03
                                                 "Negative-edge-triggered toggle flip-flop with active-high asynchronous data load.";
 
-type pad_bidir ~pdrv ndrv ~i:out pad:nc                           @52.05,-238.34,42.78,-254.48
+type pad_bidir ~pdrv ndrv ~i:out pad:inout                        @52.05,-238.34,42.78,-254.48
                                                          ~pdrv    @43.18,-238.34
                                                          ~i       @45.23,-238.34
                                                          ndrv     @51.38,-238.34
                                                          pad      @47.34,-251.98
                                                          "Bidirectional pad with open-drain/-source capability.";
-type pad_bidir_ena_pu ~pdrv ndrv ~{ena}_pu ~i:out pad:nc          @-51.79,2.34,-42.47,18.48
+type pad_bidir_ena_pu ~pdrv ndrv ~{ena}_pu ~i:out pad:inout       @-51.79,2.34,-42.47,18.48
                                                          ~pdrv    @-51.34,18.48
                                                          ~{ena}_pu@-49.98,18.48
                                                          ~i       @-49.3,18.48
                                                          ndrv     @-43.14,18.48
                                                          pad      @-47.15,4.91
                                                          "Bidirectional pad with open-drain/-source capability and optional pull-up resistor.";
-type pad_bidir_sck ~pdrv ndrv ~{ena}_pu ~i:out pad:nc             @183.23,-238.28,173.34,-254.41
+type pad_bidir_sck ~pdrv ndrv ~{ena}_pu ~i:out pad:inout          @183.23,-238.28,173.34,-254.41
                                                          ~pdrv    @173.67,-238.28
                                                          ~{ena}_pu@174.36,-238.28
                                                          ~i       @175.04,-238.28
                                                          ndrv     @182.57,-238.28
                                                          pad      @177.91,-251.95
                                                          "Bidirectional pad with open-drain/-source capability and optional pull-up resistor.";
-type pad_in ~i:out pad:nc                                         @150.80,-238.30,142.60,-254.43
+type pad_in ~i:out pad                                            @150.80,-238.30,142.60,-254.43
                                                          ~i       @145.35,-238.30
                                                          pad      @146.52,-251.96
                                                          "Simple inverting input pad.";
-type pad_in_pu ~i:out pad:nc                                      @150.80,-238.30,142.60,-254.43
+type pad_in_pu ~i:out pad                                         @150.80,-238.30,142.60,-254.43
                                                          ~i       @145.35,-238.30
                                                          pad      @146.52,-251.96
                                                          "Simple inverting input pad with pull-up resistor.";
-type pad_out ~o pad:nc                                            @-163.42,2.30,-154.13,18.43
+type pad_out ~o pad:out                                           @-163.42,2.30,-154.13,18.43
                                                          ~o       @-162.98,18.43
                                                          pad      @-158.84,4.87
                                                          "Simple inverting output pad.";
-type pad_out_diff ~pdrv ndrv pad:nc                               @236.23,-238.26,226.97,-254.38
+type pad_out_diff ~pdrv ndrv pad:tri                              @236.23,-238.26,226.97,-254.38
                                                          ~pdrv    @227.37,-238.26
                                                          ndrv     @235.57,-238.26
                                                          pad      @231.55,-251.91
                                                          "Output pad with open-drain/-source capability.";
-type pad_xtal ena ~clk:out in_pad:nc out_pad:nc                   @133.14,-238.30,114.87,-254.45
+type pad_xtal ena ~clk:out in_pad out_pad:out                     @133.14,-238.30,114.87,-254.45
                                                          ena      @117.45,-238.30
                                                          ~clk     @118.13,-238.30
                                                          in_pad   @118.73,-251.96
                                                          out_pad  @128.43,-251.96
                                                          "Oscillator input and output pads for connecting external crystal.";
-type pad_in_an i:out pad:nc                                       @-218.24,-253.07,-227.51,-236.92
+type pad_in_an i:out pad                                          @-218.24,-253.07,-227.51,-236.92
                                                          i        @-227.11,-236.92
                                                          pad      @-222.95,-250.49
                                                          "Analog input pad.";
-type pad_out_an o pad:nc                                          @-198.02,-253.04,-207.45,-236.91
+type pad_out_an o pad:out                                         @-198.02,-253.04,-207.45,-236.91
                                                          o        @-207.05,-236.91
                                                          pad      @-202.91,-250.47
                                                          "Analog output pad.";
@@ -415,17 +415,113 @@ type tie:magenta gnd:out0 vdd:out1     @-57.12,25.62,-56.79,27.68
                                     vdd@-57.05,25.62,-57.05,27.68
                                     "Constant supply.";
 
-type cpu
-	t1:out t2:in t3:in t4:in t5:in t6:in t7:in t8:in
-	t9:in t10:in t11:out t12:in t13:in t14:out t15:in t16:in
-	r1:out r2:out r3:in r4:in r5:in r6:in r7:out r8:nc
-	r9:nc r10:nc r11:nc r12:nc r13:nc r14:out r15:in r16:out
-	r17:in r18:out r19:in r20:out r21:in r22:out r23:in r24:out
-	r25:in r26:out r27:in r28:out r29:in
-	b1:inout b2:inout b3:inout b4:inout b5:inout b6:inout b7:inout b8:inout
-	b9:tri b10:tri b11:tri b12:tri b13:tri b14:tri b15:tri b16:tri
-	b17:tri b18:tri b19:tri b20:tri b21:tri b22:tri b23:tri b24:tri
-	b25:in
+type sm83 d[0]:inout d[1]:inout d[2]:inout d[3]:inout d[4]:inout d[5]:inout d[6]:inout d[7]:inout
+          a[0]:inout a[1]:inout a[2]:inout a[3]:inout a[4]:inout a[5]:inout a[6]:inout a[7]:inout
+          a[8]:inout a[9]:inout a[10]:inout a[11]:inout a[12]:inout a[13]:inout a[14]:inout a[15]:inout
+          int[0] int[1] int[2] int[3] int[4] int[5] int[6] int[7]
+          inta[0]:out inta[1]:out inta[2]:out inta[3]:out inta[4]:out inta[5]:out inta[6]:out inta[7]:out
+          db[0]:inout db[1]:inout db[2]:inout db[3]:inout db[4]:inout db[5]:inout db[6]:inout db[7]:inout
+          int_entry:out mreq:out ~stop:out rd:out ~halt:out ffxx:out
+          prefix_cb:out wr:out m1:out test_freeze:in
+          ~exec_phase exec_phase ~data_phase data_phase ~write_phase write_phase
+          ~pch_phase ~clk clk sys_reset pwron_reset
+          clk_ready wake nmi ~oe internal_access shadow_access shadow_override
+	            @-109.54,44.30,-53.74,104.49
+	d[0]        @-109.41,44.55
+	d[1]        @-109.41,44.68
+	d[2]        @-109.41,44.81
+	d[3]        @-109.41,44.94
+	d[4]        @-109.41,45.07
+	d[5]        @-109.41,45.21
+	d[6]        @-109.41,45.33
+	d[7]        @-109.41,45.47
+	d[0]        @-109.54,45.67
+	d[1]        @-109.54,45.92
+	d[2]        @-109.54,46.17
+	d[3]        @-109.54,46.42
+	d[4]        @-109.54,46.66
+	d[5]        @-109.54,46.91
+	d[6]        @-109.54,47.17
+	d[7]        @-109.54,47.41
+	d[0]        @-56.17,46.04
+	d[1]        @-56.17,46.17
+	d[2]        @-56.17,46.30
+	d[3]        @-56.17,46.43
+	d[4]        @-56.17,46.57
+	d[5]        @-56.17,46.70
+	d[6]        @-56.17,46.83
+	d[7]        @-56.17,46.96
+	a[0]        @-85.39,99.27
+	inta[0]     @-85.55,99.27
+	a[8]        @-87.74,99.27
+	int[0]      @-87.88,99.27
+	db[0]       @-88.02,99.27
+	a[1]        @-88.16,99.27
+	inta[1]     @-88.30,99.27
+	a[9]        @-90.48,99.27
+	int[1]      @-90.62,99.27
+	db[1]       @-90.89,99.27
+	a[2]        @-91.02,99.27
+	inta[2]     @-91.29,99.27
+	a[10]       @-93.36,99.27
+	int[2]      @-93.49,99.27
+	db[2]       @-93.62,99.27
+	a[3]        @-93.89,99.27
+	inta[3]     @-94.02,99.27
+	a[11]       @-96.23,99.27
+	int[3]      @-96.36,99.27
+	db[3]       @-96.49,99.27
+	a[4]        @-96.76,99.27
+	inta[4]     @-97.02,99.27
+	a[12]       @-99.11,99.27
+	int[4]      @-99.25,99.27
+	db[4]       @-99.37,99.27
+	a[5]        @-99.63,99.27
+	inta[5]     @-99.89,99.27
+	a[13]       @-102.10,99.27
+	int[5]      @-102.23,99.27
+	db[5]       @-102.36,99.27
+	a[6]        @-102.50,99.27
+	inta[6]     @-102.76,99.27
+	a[14]       @-104.97,99.27
+	int[6]      @-105.10,99.27
+	db[6]       @-105.24,99.27
+	a[7]        @-105.50,99.27
+	inta[7]     @-105.77,99.27
+	a[15]       @-107.85,99.27
+	int[7]      @-107.98,99.27
+	db[7]       @-108.11,99.27
+	m1          @-53.74,44.56
+	~exec_phase @-53.74,44.82
+	exec_phase  @-53.74,45.06
+	~data_phase @-53.74,45.32
+	data_phase  @-53.74,45.56
+	~write_phase@-53.74,45.81
+	write_phase @-53.74,46.05
+	~pch_phase  @-53.74,46.30
+	~clk        @-53.74,46.56
+	clk         @-53.74,46.80
+	~halt       @-53.74,64.84
+	sys_reset   @-53.74,65.09
+	pwron_reset @-53.74,65.34
+	~stop       @-53.74,65.59
+	clk_ready   @-53.74,65.85
+	prefix_cb   @-54.62,104.49
+	test_freeze @-55.01,104.49
+	wake        @-59.05,104.49
+	~stop       @-59.33,104.49
+	sys_reset   @-62.32,104.49
+	pwron_reset @-62.57,104.49
+	nmi         @-66.32,104.49
+	rd          @-66.46,104.49
+	wr          @-66.60,104.49
+	~oe         @-66.73,104.49
+	internal_access@-67.01,104.49
+	shadow_access  @-67.15,104.49
+	shadow_override@-67.56,104.49
+	mreq        @-67.83,104.49
+	int_entry   @-67.97,104.49
+	ffxx        @-82.41,104.49
 	"" doc "http://iceboy.a-singer.de/doc/dmg_cpu_connections.html";
 
 type wave_ram

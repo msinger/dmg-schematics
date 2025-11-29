@@ -67,8 +67,8 @@ wire d[7]:data
 
 wire db[0]:data
 	dbus_bridge[0].a dbus_nand[0].y reg_bus_pch_a[0].a_y reg_sp_out[0].y1 reg_pc_out[0].y1
-	irq_nand2_nand3[0].b_y
-	-> reg_ir[0].d reg_wz_out[0].muxi_d0 reg_ie[0].d port.db[0]
+	irq_nand2_nand3[0].b_y port.db[0]
+	-> reg_ir[0].d reg_wz_out[0].muxi_d0 reg_ie[0].d
 	@-154.82,230.63,-154.82,206.01,-152.80,206.01
 	@-154.82,210.02,-149.71,210.02,-149.71,204.37
 	@-154.58,206.01,-154.58,186.09,-154.38,186.09,-154.38,153.48,-154.46,141.45,-154.44,117.58,-154.48,40.66,
@@ -84,8 +84,8 @@ wire db[0]:data
 
 wire db[1]:data
 	dbus_bridge[1].a dbus_nand[1].y reg_bus_pch_a[1].a_y reg_sp_out[1].y1 reg_pc_out[1].y1
-	irq_nand2_nand3[1].b_y
-	-> reg_ir[1].d reg_wz_out[1].muxi_d0 reg_ie[1].d port.db[1]
+	irq_nand2_nand3[1].b_y port.db[1]
+	-> reg_ir[1].d reg_wz_out[1].muxi_d0 reg_ie[1].d
 	@-166.84,230.66,-166.84,229.56,-166.70,229.56,-166.70,206.02,-164.66,206.02
 	@-166.70,210.03,-161.58,210.03,-161.58,204.47
 	@-166.48,206.02,-166.48,186.09,-166.28,186.09,-166.28,141.47,-166.34,117.58,-166.39,40.67,-166.39,29.64,
@@ -101,8 +101,8 @@ wire db[1]:data
 
 wire db[2]:data
 	dbus_bridge[2].a dbus_nand[2].y reg_bus_pch_a[2].a_y reg_sp_out[2].y1 reg_pc_out[2].y1
-	irq_nand2_nand3[2].b_y
-	-> reg_ir[2].d reg_wz_out[2].muxi_d0 reg_ie[2].d port.db[2]
+	irq_nand2_nand3[2].b_y port.db[2]
+	-> reg_ir[2].d reg_wz_out[2].muxi_d0 reg_ie[2].d
 	@-178.42,230.64,-178.42,229.59,-178.61,229.59,-178.61,206.03,-176.50,206.03
 	@-178.61,210.06,-173.53,210.06,-173.53,204.42
 	@-178.38,206.03,-178.38,186.06,-178.16,186.06,-178.16,168.11,-178.20,153.52,-178.20,117.61,-178.28,40.67,
@@ -118,8 +118,8 @@ wire db[2]:data
 
 wire db[3]:data
 	dbus_bridge[3].a dbus_nand[3].y reg_bus_pch_a[3].a_y reg_sp_out[3].y1 reg_pc_out[3].y1
-	irq_nand2_nand3[3].b_y
-	-> reg_ir[3].d reg_wz_out[3].muxi_d0 reg_ie[3].d port.db[3]
+	irq_nand2_nand3[3].b_y port.db[3]
+	-> reg_ir[3].d reg_wz_out[3].muxi_d0 reg_ie[3].d
 	@-190.48,230.66,-190.48,206.03,-188.42,206.03
 	@-190.48,210.06,-185.38,210.06,-185.38,204.70
 	@-190.27,206.03,-190.27,186.09,-190.06,186.09,-190.06,141.50,-190.13,117.61,-190.16,40.70,-190.16,29.69,
@@ -135,8 +135,8 @@ wire db[3]:data
 
 wire db[4]:data
 	dbus_bridge[4].a dbus_nand[4].y reg_bus_pch_a[4].a_y reg_sp_out[4].y1 reg_pc_out[4].y1
-	irq_nand2_nand3[4].b_y
-	-> reg_ir[4].d reg_wz_out[4].muxi_d0 reg_ie[4].d port.db[4]
+	irq_nand2_nand3[4].b_y port.db[4]
+	-> reg_ir[4].d reg_wz_out[4].muxi_d0 reg_ie[4].d
 	@-202.56,230.70,-202.56,229.83,-202.73,229.83,-202.73,206.02,-200.64,206.02
 	@-202.73,210.06,-197.56,210.06,-197.56,204.38
 	@-202.50,206.02,-202.50,186.05,-202.31,186.05,-202.31,117.59,-202.41,40.73,-202.41,29.66,-202.20,29.66,
@@ -152,8 +152,8 @@ wire db[4]:data
 
 wire db[5]:data
 	dbus_bridge[5].a dbus_nand[5].y reg_bus_pch_a[5].a_y reg_sp_out[5].y1 reg_pc_out[5].y1
-	irq_nand2_nand3[5].b_y
-	-> reg_ir[5].d reg_wz_out[5].muxi_d0 reg_ie[5].d port.db[5]
+	irq_nand2_nand3[5].b_y port.db[5]
+	-> reg_ir[5].d reg_wz_out[5].muxi_d0 reg_ie[5].d
 	@-215.19,230.72,-215.19,229.59,-215.00,229.59,-215.00,206.03,-212.94,206.03
 	@-215.00,210.05,-209.88,210.05,-209.88,204.58
 	@-214.75,206.03,-214.75,186.11,-214.56,186.11,-214.56,117.56,-214.62,40.72,-214.62,29.67,-214.45,29.67,
@@ -169,8 +169,8 @@ wire db[5]:data
 
 wire db[6]:data
 	dbus_bridge[6].a dbus_nand[6].y reg_bus_pch_a[6].a_y reg_sp_out[6].y1 reg_pc_out[6].y1
-	irq_nand2_nand3[6].b_y
-	-> reg_ir[6].d reg_wz_out[6].muxi_d0 reg_ie[6].d port.db[6]
+	irq_nand2_nand3[6].b_y port.db[6]
+	-> reg_ir[6].d reg_wz_out[6].muxi_d0 reg_ie[6].d
 	@-227.28,230.72,-227.28,206.06,-225.19,206.06
 	@-227.28,210.06,-222.13,210.06,-222.13,204.47
 	@-227.02,206.06,-227.02,186.09,-226.83,186.09,-226.83,117.58,-226.89,40.75,-226.89,29.73,-226.70,29.73,
@@ -187,8 +187,8 @@ wire db[6]:data
 
 wire db[7]:data
 	dbus_bridge[7].a dbus_nand[7].y reg_bus_pch_a[7].a_y reg_sp_out[7].y1 reg_pc_out[7].y1
-	irq_nand2_nand3[7].b_y
-	-> reg_ir[7].d reg_wz_out[7].muxi_d0 reg_ie[7].d port.db[7]
+	irq_nand2_nand3[7].b_y port.db[7]
+	-> reg_ir[7].d reg_wz_out[7].muxi_d0 reg_ie[7].d
 	@-239.36,230.70,-239.36,229.78,-239.53,229.78,-239.53,206.03,-237.45,206.03
 	@-239.53,210.05,-234.44,210.05,-234.44,204.52
 	@-239.27,206.03,-239.27,186.08,-239.08,186.08,-239.08,117.59,-239.11,40.77,-239.11,29.75,-238.92,29.75,

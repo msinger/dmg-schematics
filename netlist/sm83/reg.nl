@@ -378,11 +378,11 @@ wire reg_or_tap_nor:ctl
 	                  reg_wz_out[6].muxi_b_~sel reg_wz_out[7].muxi_b_~sel
 	@-142.28,115.94,-239.81,115.97;
 
-wire ~ctl_fetch_buf:ctl
+wire ~ctl_fetch_buf1:ctl
 	reg_ir_not_we.y -> reg_ir[0].clk reg_ir[1].clk reg_ir[2].clk reg_ir[3].clk
 	                   reg_ir[4].clk reg_ir[5].clk reg_ir[6].clk reg_ir[7].clk
 	@-141.95,37.19,-141.95,40.13,-239.93,40.23;
-alias wire ~ctl_ir_we_buf ~m1_buf -> ~ctl_fetch_buf;
+alias wire ~ctl_ir_we_buf1 ~m1_buf1 -> ~ctl_fetch_buf1;
 
 wire ~ctl_reg_a_we_buf:ctl
 	reg_a_not_we.y -> reg_a[0].clk reg_a[1].clk reg_a[2].clk reg_a[3].clk
@@ -514,8 +514,8 @@ wire irq_head_c_y:ctl
 	 -126.28,217.28,-126.28,217.67,-124.61,217.67,-124.61,222.94,-124.09,222.94,-124.09,223.28,-121.84,223.28,
 	 -121.84,225.66,-118.58,225.66,-118.58,232.59,-119.09,232.59,-119.09,239.53,-20.44,239.47,-20.44,233.70;
 
-wire irq_head_d_y:ctl
-	irq_head.d_y -> irq_prio[0].dist_nand_a_in1 port.irq_head_d_y
+wire ffxx:ctl
+	irq_head.d_y -> irq_prio[0].dist_nand_a_in1 port.ffxx
 	@-151.77,224.94,-142.89,224.94,-142.89,226.77
 	@-150.80,220.80,-150.80,228.44
 	@-142.91,225.86,-138.31,225.86,-138.31,227.52,-131.19,227.52,-131.19,252.47;

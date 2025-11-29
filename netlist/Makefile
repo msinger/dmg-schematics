@@ -60,8 +60,10 @@ NETLIST_FILES = \
 	ram-col-a.nl \
 	ram-row-w.nl \
 	analog-col-t.nl \
+	analog-audio.nl \
 	cpu-mem.nl \
 	bus.nl \
+	port.nl \
 	pwr.nl \
 	labels.nl \
 	categories.nl

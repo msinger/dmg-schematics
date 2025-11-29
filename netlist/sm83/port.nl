@@ -8,11 +8,11 @@ type port d[0]:inout d[1]:inout d[2]:inout d[3]:inout d[4]:inout d[5]:inout d[6]
           a[8]:inout a[9]:inout a[10]:inout a[11]:inout a[12]:inout a[13]:inout a[14]:inout a[15]:inout
           int[0]:out int[1]:out int[2]:out int[3]:out int[4]:out int[5]:out int[6]:out int[7]:out
           inta[0] inta[1] inta[2] inta[3] inta[4] inta[5] inta[6] inta[7]
-          db[0] db[1] db[2] db[3] db[4] db[5] db[6] db[7]
-          zacw_q mreq ~stop rd ~halt irq_head_d_y prefix_cb wr dec1_y28_buf m1
-          adr_clk_n:out adr_clk_p:out phi_clk_p:out phi_clk_n:out t4_clk_n:out t4_clk_p:out
-          buke:out main_clk_n:out main_clk_p:out sync_reset:out async_reset:out
-          osc_stable:out wake:out nmi:out unor:out syro:out tutu:out umut:out
+          db[0]:inout db[1]:inout db[2]:inout db[3]:inout db[4]:inout db[5]:inout db[6]:inout db[7]:inout
+          int_entry mreq ~stop rd ~halt ffxx prefix_cb wr m1 test_freeze:out
+          ~exec_phase:out exec_phase:out ~data_phase:out data_phase:out ~write_phase:out write_phase:out
+          ~pch_phase:out ~clk:out clk:out sys_reset:out pwron_reset:out
+          clk_ready:out wake:out nmi:out ~oe:out internal_access:out shadow_access:out shadow_override:out
 	"I/O ports of the CPU."
 	doc "";
 
@@ -51,8 +51,8 @@ wire int[7]:ctl
 	port.int[7] -> irq_nand2_nand3[7].a_in2
 	@-238.78,230.83,-238.78,230.14,-238.95,230.14,-238.95,206.61,-236.13,206.61;
 
-wire adr_clk_n:clk
-	port.adr_clk_n -> zivv.clk
+wire ~exec_phase:clk
+	port.~exec_phase -> zivv.clk
 	@-19.53,12.92,-38.64,12.95,-38.64,20.42,-112.41,20.55,-112.41,26.73,-112.70,26.73,-112.52,233.50,-115.09,233.50,
 	 -115.09,233.13,-118.55,233.13,-118.55,234.06,-124.45,234.06,-124.45,237.89,-123.86,237.89,-123.86,241.89,
 	 -124.44,241.89,-124.44,249.56,-95.13,249.55,-93.09,249.55,-65.64,249.53
@@ -61,37 +61,37 @@ wire adr_clk_n:clk
 	@-113.11,233.50,-113.11,236.78,-98.22,236.78,-98.22,236.25,-65.81,236.20,-65.81,233.06,-64.16,233.06,-64.16,231.64,
 	 -62.16,231.64;
 
-wire adr_clk_p:clk
-	port.adr_clk_p -> dbus_bridge[0].~pch dbus_bridge[1].~pch dbus_bridge[2].~pch dbus_bridge[3].~pch
-	                  dbus_bridge[4].~pch dbus_bridge[5].~pch dbus_bridge[6].~pch dbus_bridge[7].~pch
-	                  alu_pggen[0].~pch alu_pggen[1].~pch alu_pggen[2].~pch alu_pggen[3].~pch alu_pggen[4].~pch
-	                  alu_pggen[5].~pch alu_pggen[6].~pch alu_pggen[7].~pch alu_shifter.ena alu_decoder.in35
-	                  alu_not1.~pch alu_not2.~pch alu_not3.~pch alu_not4.~pch alu_not5.~pch alu_not6.~pch
-	                  alu_not7.~pch alu_not8.~pch alu_not10.~pch reg_bus_pch_a[0].~pch reg_bus_pch_a[1].~pch
-	                  reg_bus_pch_a[2].~pch reg_bus_pch_a[3].~pch reg_bus_pch_a[4].~pch reg_bus_pch_a[5].~pch
-	                  reg_bus_pch_a[6].~pch reg_bus_pch_a[7].~pch reg_bus_pch_b[0].~pch reg_bus_pch_b[1].~pch
-	                  reg_bus_pch_b[2].~pch reg_bus_pch_b[3].~pch reg_bus_pch_b[4].~pch reg_bus_pch_b[5].~pch
-	                  reg_bus_pch_b[6].~pch reg_bus_pch_b[7].~pch dec1_not1.~pch dec1_not2.~pch dec1_not3.~pch
-	                  dec1_not4.~pch dec1_not5.~pch dec1_not6.~pch dec1_not7.~pch dec1_not8.~pch dec1_not9.~pch
-	                  dec1_not10.~pch dec1_not11.~pch dec1_not12.~pch dec1_not13.~pch dec1_not14.~pch dec1_not15.~pch
-	                  dec1_not16.~pch dec1_not17.~pch dec1_not18.~pch dec1_not19.~pch dec1_not20.~pch dec1_not21.~pch
-	                  dec1_not22.~pch dec1_not23.~pch dec1_not24.~pch dec1_not25.~pch dec1_not26.~pch dec1_not27.~pch
-	                  dec1_not28.~pch dec1_not29.~pch dec1_not30.~pch dec1_not31.~pch dec1_not32.~pch dec1_not33.~pch
-	                  dec1_not34.~pch dec1_not35.~pch dec1_not36.~pch dec1_not37.~pch dec1_not38.~pch dec1_not39.~pch
-	                  dec1_not40.~pch dec1_not41.~pch dec1_not42.~pch dec1_not43.~pch dec1_not44.~pch dec1_not45.~pch
-	                  dec1_not46.~pch dec1_not47.~pch dec1_not48.~pch dec1_not49.~pch dec1_not50.~pch dec1_not51.~pch
-	                  dec1_not52.~pch dec1_not53.~pch dec1_not54.~pch decoder1.in27 decoder2.~pch dec2_pch1.~pch
-	                  dec2_pch2.~pch dec2_pch3.~pch dec2_pch4.~pch dec2_not21.~pch decoder3.in74 decoder3.in85
-	                  dec3_not1.~pch dec3_not2.~pch dec3_not3.~pch dec3_not4.~pch dec3_not5.~pch dec3_not6.~pch
-	                  dec3_not7.~pch dec3_not8.~pch dec3_not9.~pch dec3_not10.~pch dec3_not11.~pch dec3_not12.~pch
-	                  dec3_not13.~pch dec3_not14.~pch dec3_not15.~pch dec3_not17.~pch dec3_not18.~pch dec3_not19.~pch
-	                  dec3_not20.~pch dec3_not21.~pch dec3_not22.~pch dec3_not23.~pch dec3_not24.~pch dec3_not25.~pch
-	                  dec3_not26.~pch dec3_not27.~pch dec3_not28.~pch dec3_not31.~pch dec3_not32.~pch dec3_not33.~pch
-	                  dec3_not34.~pch dec3_not35.~pch dec3_not36.~pch dec3_not37.~pch dec3_not42.~pch dec3_not43.~pch
-	                  dec3_not44.~pch dec3_not45.~pch dec3_not46.~pch dec3_not47.~pch dec3_not48.~pch dec3_not53.~pch
-	                  dec3_not54.~pch dec3_not55.~pch dec3_nor1.~pch dec3_nor2.~pch dec3_not57.~pch dec3_not58.~pch
-	                  dec3_not59.~pch dec3_not60.~pch dec3_not61.~pch dec3_not62.~pch dec3_not63.~pch dec3_not64.~pch
-	                  dec3_not65.~pch dec3_not66.~pch dec3_not67.~pch zivv.~clk
+wire exec_phase:clk
+	port.exec_phase -> dbus_bridge[0].~pch dbus_bridge[1].~pch dbus_bridge[2].~pch dbus_bridge[3].~pch
+	                   dbus_bridge[4].~pch dbus_bridge[5].~pch dbus_bridge[6].~pch dbus_bridge[7].~pch
+	                   alu_pggen[0].~pch alu_pggen[1].~pch alu_pggen[2].~pch alu_pggen[3].~pch alu_pggen[4].~pch
+	                   alu_pggen[5].~pch alu_pggen[6].~pch alu_pggen[7].~pch alu_shifter.ena alu_decoder.in35
+	                   alu_not1.~pch alu_not2.~pch alu_not3.~pch alu_not4.~pch alu_not5.~pch alu_not6.~pch
+	                   alu_not7.~pch alu_not8.~pch alu_not10.~pch reg_bus_pch_a[0].~pch reg_bus_pch_a[1].~pch
+	                   reg_bus_pch_a[2].~pch reg_bus_pch_a[3].~pch reg_bus_pch_a[4].~pch reg_bus_pch_a[5].~pch
+	                   reg_bus_pch_a[6].~pch reg_bus_pch_a[7].~pch reg_bus_pch_b[0].~pch reg_bus_pch_b[1].~pch
+	                   reg_bus_pch_b[2].~pch reg_bus_pch_b[3].~pch reg_bus_pch_b[4].~pch reg_bus_pch_b[5].~pch
+	                   reg_bus_pch_b[6].~pch reg_bus_pch_b[7].~pch dec1_not1.~pch dec1_not2.~pch dec1_not3.~pch
+	                   dec1_not4.~pch dec1_not5.~pch dec1_not6.~pch dec1_not7.~pch dec1_not8.~pch dec1_not9.~pch
+	                   dec1_not10.~pch dec1_not11.~pch dec1_not12.~pch dec1_not13.~pch dec1_not14.~pch dec1_not15.~pch
+	                   dec1_not16.~pch dec1_not17.~pch dec1_not18.~pch dec1_not19.~pch dec1_not20.~pch dec1_not21.~pch
+	                   dec1_not22.~pch dec1_not23.~pch dec1_not24.~pch dec1_not25.~pch dec1_not26.~pch dec1_not27.~pch
+	                   dec1_not28.~pch dec1_not29.~pch dec1_not30.~pch dec1_not31.~pch dec1_not32.~pch dec1_not33.~pch
+	                   dec1_not34.~pch dec1_not35.~pch dec1_not36.~pch dec1_not37.~pch dec1_not38.~pch dec1_not39.~pch
+	                   dec1_not40.~pch dec1_not41.~pch dec1_not42.~pch dec1_not43.~pch dec1_not44.~pch dec1_not45.~pch
+	                   dec1_not46.~pch dec1_not47.~pch dec1_not48.~pch dec1_not49.~pch dec1_not50.~pch dec1_not51.~pch
+	                   dec1_not52.~pch dec1_not53.~pch dec1_not54.~pch decoder1.in27 decoder2.~pch dec2_pch1.~pch
+	                   dec2_pch2.~pch dec2_pch3.~pch dec2_pch4.~pch dec2_not21.~pch decoder3.in74 decoder3.in85
+	                   dec3_not1.~pch dec3_not2.~pch dec3_not3.~pch dec3_not4.~pch dec3_not5.~pch dec3_not6.~pch
+	                   dec3_not7.~pch dec3_not8.~pch dec3_not9.~pch dec3_not10.~pch dec3_not11.~pch dec3_not12.~pch
+	                   dec3_not13.~pch dec3_not14.~pch dec3_not15.~pch dec3_not17.~pch dec3_not18.~pch dec3_not19.~pch
+	                   dec3_not20.~pch dec3_not21.~pch dec3_not22.~pch dec3_not23.~pch dec3_not24.~pch dec3_not25.~pch
+	                   dec3_not26.~pch dec3_not27.~pch dec3_not28.~pch dec3_not31.~pch dec3_not32.~pch dec3_not33.~pch
+	                   dec3_not34.~pch dec3_not35.~pch dec3_not36.~pch dec3_not37.~pch dec3_not42.~pch dec3_not43.~pch
+	                   dec3_not44.~pch dec3_not45.~pch dec3_not46.~pch dec3_not47.~pch dec3_not48.~pch dec3_not53.~pch
+	                   dec3_not54.~pch dec3_not55.~pch dec3_nor1.~pch dec3_nor2.~pch dec3_not57.~pch dec3_not58.~pch
+	                   dec3_not59.~pch dec3_not60.~pch dec3_not61.~pch dec3_not62.~pch dec3_not63.~pch dec3_not64.~pch
+	                   dec3_not65.~pch dec3_not66.~pch dec3_not67.~pch zivv.~clk
 	@-18.41,106.30,-18.41,104.67,-17.67,104.67,-17.67,97.52,-19.89,97.52,-19.89,92.03,-18.69,92.03,-18.69,90.42,
 	 -21.34,90.42,-21.41,18.61,-18.80,18.61,-18.80,13.47,-38.09,13.47,-38.09,20.97,-58.59,21.02,-77.81,21.05,
 	 -81.09,21.05,-108.72,21.09,-120.94,21.09,-120.94,18.95,-244.84,19.09,-244.84,34.92,-244.84,120.17,-240.44,120.17,
@@ -128,22 +128,22 @@ wire adr_clk_p:clk
 	@-32.48,106.30,-32.36,215.02
 	@-93.67,240.61,-96.63,240.61,-96.63,242.98,-95.14,242.98,-95.14,245.14;
 
-wire phi_clk_p:clk
-	port.phi_clk_p -> irq_latch[0].ena irq_latch[1].ena irq_latch[2].ena irq_latch[3].ena irq_latch[4].ena
-	                  irq_latch[5].ena irq_latch[6].ena irq_latch[7].ena
+wire ~data_phase:clk
+	port.~data_phase -> irq_latch[0].ena irq_latch[1].ena irq_latch[2].ena irq_latch[3].ena irq_latch[4].ena
+	                    irq_latch[5].ena irq_latch[6].ena irq_latch[7].ena
 	@-18.05,14.00,-37.53,14.04,-37.53,21.53,-121.48,21.67,-121.48,19.50,-244.30,19.64,-244.25,213.72,-242.08,213.72,
 	 -242.08,213.92,-240.39,213.92,-240.39,214.08,-143.63,214.02;
 
-wire phi_clk_n:clk
-	port.phi_clk_n -> reg_wz_out[0].~pch reg_wz_out[1].~pch reg_wz_out[2].~pch reg_wz_out[3].~pch
-	                  reg_wz_out[4].~pch reg_wz_out[5].~pch reg_wz_out[6].~pch reg_wz_out[7].~pch
-	                  idu[0].~pch idu[1].~pch idu[2].~pch idu[3].~pch idu[4].~pch idu[5].~pch idu[6].~pch
-	                  idu[7].~pch irq_latch[0].~ena irq_latch[1].~ena irq_latch[2].~ena irq_latch[3].~ena
-	                  irq_latch[4].~ena irq_latch[5].~ena irq_latch[6].~ena irq_latch[7].~ena alu_dff.~clk
-	                  decoder3.in22 dec3_not16.~pch dec3_not29.~pch dec3_not30.~pch dec3_not38.~pch dec3_not39.~pch
-	                  dec3_not40.~pch dec3_not41.~pch dec3_not49.~pch dec3_not50.~pch dec3_not51.~pch dec3_not52.~pch
-	                  dec3_not56.~pch dec3_not68.in decoder3.in41 decoder3.in57 decoder3.in58 decoder3.in62
-	                  decoder3.in65 xogs.in1 zaij.~in2 zwuu.in3 zbpp.in3
+wire data_phase:clk
+	port.data_phase -> reg_wz_out[0].~pch reg_wz_out[1].~pch reg_wz_out[2].~pch reg_wz_out[3].~pch
+	                   reg_wz_out[4].~pch reg_wz_out[5].~pch reg_wz_out[6].~pch reg_wz_out[7].~pch
+	                   idu[0].~pch idu[1].~pch idu[2].~pch idu[3].~pch idu[4].~pch idu[5].~pch idu[6].~pch
+	                   idu[7].~pch irq_latch[0].~ena irq_latch[1].~ena irq_latch[2].~ena irq_latch[3].~ena
+	                   irq_latch[4].~ena irq_latch[5].~ena irq_latch[6].~ena irq_latch[7].~ena alu_dff.~clk
+	                   decoder3.in22 dec3_not16.~pch dec3_not29.~pch dec3_not30.~pch dec3_not38.~pch dec3_not39.~pch
+	                   dec3_not40.~pch dec3_not41.~pch dec3_not49.~pch dec3_not50.~pch dec3_not51.~pch dec3_not52.~pch
+	                   dec3_not56.~pch dec3_not68.in decoder3.in41 decoder3.in57 decoder3.in58 decoder3.in62
+	                   decoder3.in65 xogs.in1 zaij.~in2 zwuu.in3 zbpp.in3
 	@-17.31,14.56,-37.00,14.58,-37.00,22.08,-109.63,22.20,-122.03,22.20,-122.03,20.05,-243.75,20.19,-243.71,119.02,
 	 -243.72,200.36,-243.72,212.61,-242.08,212.61,-242.08,212.41,-240.39,212.41,-240.39,212.23,-239.86,212.23,
 	 -239.86,211.70,-143.27,211.64
@@ -179,27 +179,27 @@ wire phi_clk_n:clk
 	@-88.55,242.25,-88.55,247.23
 	@-79.63,235.11,-79.63,242.23;
 
-wire t4_clk_n:clk
-	port.t4_clk_n -> flag_h.~ena flag_c.~ena flag_n.~ena alu_dff.~ena flag_z.~ena dec3_nor1.in2 reg_ir[0].~ena
-	                 reg_ir[1].~ena reg_ir[2].~ena reg_ir[3].~ena reg_ir[4].~ena reg_ir[5].~ena reg_ir[6].~ena
-	                 reg_ir[7].~ena reg_a[0].~ena reg_a[1].~ena reg_a[2].~ena reg_a[3].~ena reg_a[4].~ena reg_a[5].~ena
-	                 reg_a[6].~ena reg_a[7].~ena reg_l[0].~ena reg_l[1].~ena reg_l[2].~ena reg_l[3].~ena reg_l[4].~ena
-	                 reg_l[5].~ena reg_l[6].~ena reg_l[7].~ena reg_h[0].~ena reg_h[1].~ena reg_h[2].~ena reg_h[3].~ena
-	                 reg_h[4].~ena reg_h[5].~ena reg_h[6].~ena reg_h[7].~ena reg_e[0].~ena reg_e[1].~ena reg_e[2].~ena
-	                 reg_e[3].~ena reg_e[4].~ena reg_e[5].~ena reg_e[6].~ena reg_e[7].~ena reg_d[0].~ena reg_d[1].~ena
-	                 reg_d[2].~ena reg_d[3].~ena reg_d[4].~ena reg_d[5].~ena reg_d[6].~ena reg_d[7].~ena reg_c[0].~ena
-	                 reg_c[1].~ena reg_c[2].~ena reg_c[3].~ena reg_c[4].~ena reg_c[5].~ena reg_c[6].~ena reg_c[7].~ena
-	                 reg_b[0].~ena reg_b[1].~ena reg_b[2].~ena reg_b[3].~ena reg_b[4].~ena reg_b[5].~ena reg_b[6].~ena
-	                 reg_b[7].~ena reg_z[0].~ena reg_z[1].~ena reg_z[2].~ena reg_z[3].~ena reg_z[4].~ena reg_z[5].~ena
-	                 reg_z[6].~ena reg_z[7].~ena reg_w[0].~ena reg_w[1].~ena reg_w[2].~ena reg_w[3].~ena reg_w[4].~ena
-	                 reg_w[5].~ena reg_w[6].~ena reg_w[7].~ena reg_spl[0].~ena reg_spl[1].~ena reg_spl[2].~ena
-	                 reg_spl[3].~ena reg_spl[4].~ena reg_spl[5].~ena reg_spl[6].~ena reg_spl[7].~ena reg_sph[0].~ena
-	                 reg_sph[1].~ena reg_sph[2].~ena reg_sph[3].~ena reg_sph[4].~ena reg_sph[5].~ena reg_sph[6].~ena
-	                 reg_sph[7].~ena reg_pcl[0].~ena reg_pcl[1].~ena reg_pcl[2].~ena reg_pcl[3].~ena reg_pcl[4].~ena
-	                 reg_pcl[5].~ena reg_pcl[6].~ena reg_pcl[7].~ena reg_pch[0].~ena reg_pch[1].~ena reg_pch[2].~ena
-	                 reg_pch[3].~ena reg_pch[4].~ena reg_pch[5].~ena reg_pch[6].~ena reg_pch[7].~ena reg_ie[0].~ena
-	                 reg_ie[1].~ena reg_ie[2].~ena reg_ie[3].~ena reg_ie[4].~ena reg_ie[5].~ena reg_ie[6].~ena
-	                 reg_ie[7].~ena
+wire ~write_phase:clk
+	port.~write_phase -> flag_h.~ena flag_c.~ena flag_n.~ena alu_dff.~ena flag_z.~ena dec3_nor1.in2 reg_ir[0].~ena
+	                     reg_ir[1].~ena reg_ir[2].~ena reg_ir[3].~ena reg_ir[4].~ena reg_ir[5].~ena reg_ir[6].~ena
+	                     reg_ir[7].~ena reg_a[0].~ena reg_a[1].~ena reg_a[2].~ena reg_a[3].~ena reg_a[4].~ena reg_a[5].~ena
+	                     reg_a[6].~ena reg_a[7].~ena reg_l[0].~ena reg_l[1].~ena reg_l[2].~ena reg_l[3].~ena reg_l[4].~ena
+	                     reg_l[5].~ena reg_l[6].~ena reg_l[7].~ena reg_h[0].~ena reg_h[1].~ena reg_h[2].~ena reg_h[3].~ena
+	                     reg_h[4].~ena reg_h[5].~ena reg_h[6].~ena reg_h[7].~ena reg_e[0].~ena reg_e[1].~ena reg_e[2].~ena
+	                     reg_e[3].~ena reg_e[4].~ena reg_e[5].~ena reg_e[6].~ena reg_e[7].~ena reg_d[0].~ena reg_d[1].~ena
+	                     reg_d[2].~ena reg_d[3].~ena reg_d[4].~ena reg_d[5].~ena reg_d[6].~ena reg_d[7].~ena reg_c[0].~ena
+	                     reg_c[1].~ena reg_c[2].~ena reg_c[3].~ena reg_c[4].~ena reg_c[5].~ena reg_c[6].~ena reg_c[7].~ena
+	                     reg_b[0].~ena reg_b[1].~ena reg_b[2].~ena reg_b[3].~ena reg_b[4].~ena reg_b[5].~ena reg_b[6].~ena
+	                     reg_b[7].~ena reg_z[0].~ena reg_z[1].~ena reg_z[2].~ena reg_z[3].~ena reg_z[4].~ena reg_z[5].~ena
+	                     reg_z[6].~ena reg_z[7].~ena reg_w[0].~ena reg_w[1].~ena reg_w[2].~ena reg_w[3].~ena reg_w[4].~ena
+	                     reg_w[5].~ena reg_w[6].~ena reg_w[7].~ena reg_spl[0].~ena reg_spl[1].~ena reg_spl[2].~ena
+	                     reg_spl[3].~ena reg_spl[4].~ena reg_spl[5].~ena reg_spl[6].~ena reg_spl[7].~ena reg_sph[0].~ena
+	                     reg_sph[1].~ena reg_sph[2].~ena reg_sph[3].~ena reg_sph[4].~ena reg_sph[5].~ena reg_sph[6].~ena
+	                     reg_sph[7].~ena reg_pcl[0].~ena reg_pcl[1].~ena reg_pcl[2].~ena reg_pcl[3].~ena reg_pcl[4].~ena
+	                     reg_pcl[5].~ena reg_pcl[6].~ena reg_pcl[7].~ena reg_pch[0].~ena reg_pch[1].~ena reg_pch[2].~ena
+	                     reg_pch[3].~ena reg_pch[4].~ena reg_pch[5].~ena reg_pch[6].~ena reg_pch[7].~ena reg_ie[0].~ena
+	                     reg_ie[1].~ena reg_ie[2].~ena reg_ie[3].~ena reg_ie[4].~ena reg_ie[5].~ena reg_ie[6].~ena
+	                     reg_ie[7].~ena
 	@-16.64,15.11,-36.45,15.14,-36.45,22.61,-107.44,22.72,-122.59,22.75,-122.59,20.59,-243.20,20.73,-243.20,71.33,
 	 -243.19,80.06,-243.19,164.59,-243.16,182.08,-243.19,207.67,-240.42,207.67,-240.42,207.84,-143.27,207.84
 	@-243.16,182.08,-240.44,182.08,-240.44,182.30,-143.31,182.28
@@ -228,33 +228,33 @@ wire t4_clk_n:clk
 	 -82.44,106.36,-82.42,138.83,-75.27,138.83,-75.20,203.03,-85.69,203.03,-85.69,203.75,-93.89,203.75,-93.89,203.41,
 	 -102.52,203.41,-102.52,203.58,-105.78,203.58,-105.78,203.45,-106.67,203.45,-106.67,203.63,-109.00,203.63;
 
-wire t4_clk_p:clk
-	port.t4_clk_p -> alu_decoder.in36 flag_h.ena flag_c.ena flag_n.ena alu_dff.ena flag_z.ena xurg.ena
-	                 reg_ir[0].ena reg_ir[1].ena reg_ir[2].ena reg_ir[3].ena reg_ir[4].ena reg_ir[5].ena reg_ir[6].ena
-	                 reg_ir[7].ena reg_a[0].ena reg_a[1].ena reg_a[2].ena reg_a[3].ena reg_a[4].ena reg_a[5].ena
-	                 reg_a[6].ena reg_a[7].ena reg_l[0].ena reg_l[1].ena reg_l[2].ena reg_l[3].ena reg_l[4].ena
-	                 reg_l[5].ena reg_l[6].ena reg_l[7].ena reg_h[0].ena reg_h[1].ena reg_h[2].ena reg_h[3].ena
-	                 reg_h[4].ena reg_h[5].ena reg_h[6].ena reg_h[7].ena reg_e[0].ena reg_e[1].ena reg_e[2].ena
-	                 reg_e[3].ena reg_e[4].ena reg_e[5].ena reg_e[6].ena reg_e[7].ena reg_d[0].ena reg_d[1].ena
-	                 reg_d[2].ena reg_d[3].ena reg_d[4].ena reg_d[5].ena reg_d[6].ena reg_d[7].ena reg_c[0].ena
-	                 reg_c[1].ena reg_c[2].ena reg_c[3].ena reg_c[4].ena reg_c[5].ena reg_c[6].ena reg_c[7].ena
-	                 reg_b[0].ena reg_b[1].ena reg_b[2].ena reg_b[3].ena reg_b[4].ena reg_b[5].ena reg_b[6].ena
-	                 reg_b[7].ena reg_z[0].ena reg_z[1].ena reg_z[2].ena reg_z[3].ena reg_z[4].ena reg_z[5].ena
-	                 reg_z[6].ena reg_z[7].ena reg_w[0].ena reg_w[1].ena reg_w[2].ena reg_w[3].ena reg_w[4].ena
-	                 reg_w[5].ena reg_w[6].ena reg_w[7].ena reg_spl[0].ena reg_spl[1].ena reg_spl[2].ena
-	                 reg_spl[3].ena reg_spl[4].ena reg_spl[5].ena reg_spl[6].ena reg_spl[7].ena reg_sph[0].ena
-	                 reg_sph[1].ena reg_sph[2].ena reg_sph[3].ena reg_sph[4].ena reg_sph[5].ena reg_sph[6].ena
-	                 reg_sph[7].ena reg_pcl[0].ena reg_pcl[1].ena reg_pcl[2].ena reg_pcl[3].ena reg_pcl[4].ena
-	                 reg_pcl[5].ena reg_pcl[6].ena reg_pcl[7].ena reg_pch[0].ena reg_pch[1].ena reg_pch[2].ena
-	                 reg_pch[3].ena reg_pch[4].ena reg_pch[5].ena reg_pch[6].ena reg_pch[7].ena reg_sp_out[0].in14
-	                 reg_sp_out[1].in14 reg_sp_out[2].in14 reg_sp_out[3].in14 reg_sp_out[4].in14 reg_sp_out[5].in14
-	                 reg_sp_out[6].in14 reg_sp_out[7].in14 reg_pc_out[0].in10 reg_pc_out[1].in10 reg_pc_out[2].in10
-	                 reg_pc_out[3].in10 reg_pc_out[4].in10 reg_pc_out[5].in10 reg_pc_out[6].in10 reg_pc_out[7].in10
-	                 reg_ie[0].ena reg_ie[1].ena reg_ie[2].ena reg_ie[3].ena reg_ie[4].ena reg_ie[5].ena reg_ie[6].ena
-	                 reg_ie[7].ena irq_latch[0].~pch irq_latch[1].~pch irq_latch[2].~pch irq_latch[3].~pch
-	                 irq_latch[4].~pch irq_latch[5].~pch irq_latch[6].~pch irq_latch[7].~pch irq_prio[0].~pch
-	                 irq_prio[1].~pch irq_prio[2].~pch irq_prio[3].~pch irq_prio[4].~pch irq_prio[5].~pch
-	                 irq_prio[6].~pch irq_prio[7].~pch
+wire write_phase:clk
+	port.write_phase -> alu_decoder.in36 flag_h.ena flag_c.ena flag_n.ena alu_dff.ena flag_z.ena xurg.ena
+	                    reg_ir[0].ena reg_ir[1].ena reg_ir[2].ena reg_ir[3].ena reg_ir[4].ena reg_ir[5].ena reg_ir[6].ena
+	                    reg_ir[7].ena reg_a[0].ena reg_a[1].ena reg_a[2].ena reg_a[3].ena reg_a[4].ena reg_a[5].ena
+	                    reg_a[6].ena reg_a[7].ena reg_l[0].ena reg_l[1].ena reg_l[2].ena reg_l[3].ena reg_l[4].ena
+	                    reg_l[5].ena reg_l[6].ena reg_l[7].ena reg_h[0].ena reg_h[1].ena reg_h[2].ena reg_h[3].ena
+	                    reg_h[4].ena reg_h[5].ena reg_h[6].ena reg_h[7].ena reg_e[0].ena reg_e[1].ena reg_e[2].ena
+	                    reg_e[3].ena reg_e[4].ena reg_e[5].ena reg_e[6].ena reg_e[7].ena reg_d[0].ena reg_d[1].ena
+	                    reg_d[2].ena reg_d[3].ena reg_d[4].ena reg_d[5].ena reg_d[6].ena reg_d[7].ena reg_c[0].ena
+	                    reg_c[1].ena reg_c[2].ena reg_c[3].ena reg_c[4].ena reg_c[5].ena reg_c[6].ena reg_c[7].ena
+	                    reg_b[0].ena reg_b[1].ena reg_b[2].ena reg_b[3].ena reg_b[4].ena reg_b[5].ena reg_b[6].ena
+	                    reg_b[7].ena reg_z[0].ena reg_z[1].ena reg_z[2].ena reg_z[3].ena reg_z[4].ena reg_z[5].ena
+	                    reg_z[6].ena reg_z[7].ena reg_w[0].ena reg_w[1].ena reg_w[2].ena reg_w[3].ena reg_w[4].ena
+	                    reg_w[5].ena reg_w[6].ena reg_w[7].ena reg_spl[0].ena reg_spl[1].ena reg_spl[2].ena
+	                    reg_spl[3].ena reg_spl[4].ena reg_spl[5].ena reg_spl[6].ena reg_spl[7].ena reg_sph[0].ena
+	                    reg_sph[1].ena reg_sph[2].ena reg_sph[3].ena reg_sph[4].ena reg_sph[5].ena reg_sph[6].ena
+	                    reg_sph[7].ena reg_pcl[0].ena reg_pcl[1].ena reg_pcl[2].ena reg_pcl[3].ena reg_pcl[4].ena
+	                    reg_pcl[5].ena reg_pcl[6].ena reg_pcl[7].ena reg_pch[0].ena reg_pch[1].ena reg_pch[2].ena
+	                    reg_pch[3].ena reg_pch[4].ena reg_pch[5].ena reg_pch[6].ena reg_pch[7].ena reg_sp_out[0].in14
+	                    reg_sp_out[1].in14 reg_sp_out[2].in14 reg_sp_out[3].in14 reg_sp_out[4].in14 reg_sp_out[5].in14
+	                    reg_sp_out[6].in14 reg_sp_out[7].in14 reg_pc_out[0].in10 reg_pc_out[1].in10 reg_pc_out[2].in10
+	                    reg_pc_out[3].in10 reg_pc_out[4].in10 reg_pc_out[5].in10 reg_pc_out[6].in10 reg_pc_out[7].in10
+	                    reg_ie[0].ena reg_ie[1].ena reg_ie[2].ena reg_ie[3].ena reg_ie[4].ena reg_ie[5].ena reg_ie[6].ena
+	                    reg_ie[7].ena irq_latch[0].~pch irq_latch[1].~pch irq_latch[2].~pch irq_latch[3].~pch
+	                    irq_latch[4].~pch irq_latch[5].~pch irq_latch[6].~pch irq_latch[7].~pch irq_prio[0].~pch
+	                    irq_prio[1].~pch irq_prio[2].~pch irq_prio[3].~pch irq_prio[4].~pch irq_prio[5].~pch
+	                    irq_prio[6].~pch irq_prio[7].~pch
 	@-15.88,15.64,-35.89,15.69,-35.89,23.17,-79.06,23.23,-104.36,23.27,-121.70,23.32,-123.13,23.32,-123.13,21.13,
 	 -242.64,21.27,-242.64,148.36,-242.63,158.39,-242.63,175.55,-242.64,184.48,-242.63,205.33,-242.63,211.14,
 	 -242.06,211.14,-242.06,211.33,-240.38,211.33,-240.38,211.14,-156.47,211.14,-146.58,211.11,-143.21,211.11
@@ -297,13 +297,13 @@ wire t4_clk_p:clk
 	 -121.64,237.34,-97.14,237.33,-97.14,236.80,-65.27,236.78,-65.27,230.80,-64.17,230.80,-64.17,230.53,-25.02,230.50,
 	 -25.02,229.41,-24.67,229.41,-24.67,225.95,-27.22,225.95;
 
-wire buke:clk
-	port.buke -> flag_h.~pch flag_c.~pch flag_n.~pch alu_not9.~pch flag_z.~pch reg_spl[0].~pch reg_spl[1].~pch
-	             reg_spl[2].~pch reg_spl[3].~pch reg_spl[4].~pch reg_spl[5].~pch reg_spl[6].~pch reg_spl[7].~pch
-	             reg_sph[0].~pch reg_sph[1].~pch reg_sph[2].~pch reg_sph[3].~pch reg_sph[4].~pch reg_sph[5].~pch
-	             reg_sph[6].~pch reg_sph[7].~pch reg_pcl[0].~pch reg_pcl[1].~pch reg_pcl[2].~pch reg_pcl[3].~pch
-	             reg_pcl[4].~pch reg_pcl[5].~pch reg_pcl[6].~pch reg_pcl[7].~pch reg_pch[0].~pch reg_pch[1].~pch
-	             reg_pch[2].~pch reg_pch[3].~pch reg_pch[4].~pch reg_pch[5].~pch reg_pch[6].~pch reg_pch[7].~pch
+wire ~pch_phase:clk
+	port.~pch_phase -> flag_h.~pch flag_c.~pch flag_n.~pch alu_not9.~pch flag_z.~pch reg_spl[0].~pch reg_spl[1].~pch
+	                   reg_spl[2].~pch reg_spl[3].~pch reg_spl[4].~pch reg_spl[5].~pch reg_spl[6].~pch reg_spl[7].~pch
+	                   reg_sph[0].~pch reg_sph[1].~pch reg_sph[2].~pch reg_sph[3].~pch reg_sph[4].~pch reg_sph[5].~pch
+	                   reg_sph[6].~pch reg_sph[7].~pch reg_pcl[0].~pch reg_pcl[1].~pch reg_pcl[2].~pch reg_pcl[3].~pch
+	                   reg_pcl[4].~pch reg_pcl[5].~pch reg_pcl[6].~pch reg_pcl[7].~pch reg_pch[0].~pch reg_pch[1].~pch
+	                   reg_pch[2].~pch reg_pch[3].~pch reg_pch[4].~pch reg_pch[5].~pch reg_pch[6].~pch reg_pch[7].~pch
 	@-15.14,16.22,-35.34,16.22,-35.34,23.72,-109.66,23.83,-123.67,23.86,-123.67,21.69,-242.12,21.83,-242.06,139.64,
 	 -242.06,208.75,-240.41,208.75,-240.41,208.95,-239.86,208.95
 	@-242.06,181.02,-240.42,181.02,-240.42,181.20,-143.30,181.19
@@ -312,9 +312,9 @@ wire buke:clk
 	@-242.06,139.64,-240.42,139.64,-240.42,139.80,-143.33,139.83
 	@-109.66,23.83,-109.66,25.45,-109.42,25.45,-109.34,89.48;
 
-wire main_clk_n:clk
-	port.main_clk_n -> xufu.~clk xirf.~clk xaym.~clk xdqf.~clk yoii.~clk ysbt.~clk ydxa.~clk yodp.ena zaza.~clk
-	                   zorp.~clk zkai.~clk zrby.~clk zacw.~clk zkdu.~clk
+wire ~clk:clk
+	port.~clk -> xufu.~clk xirf.~clk xaym.~clk xdqf.~clk yoii.~clk ysbt.~clk ydxa.~clk yodp.ena zaza.~clk
+	             zorp.~clk zkai.~clk zrby.~clk zacw.~clk zkdu.~clk
 	@-20.31,19.55,-20.23,89.14,-15.50,89.14,-15.33,223.70,-15.33,239.09,-17.50,239.09,-17.50,238.89,-33.11,238.89,
 	 -41.30,238.91,-48.44,238.91,-54.30,238.94,-58.91,238.94,-72.63,238.97,-100.63,238.98
 	@-100.63,245.17,-100.63,238.42,-102.66,238.42,-102.66,245.14
@@ -344,9 +344,9 @@ wire main_clk_n:clk
 	@-39.50,224.31,-39.50,226.69
 	@-37.47,224.31,-37.47,226.69;
 
-wire main_clk_p:clk
-	port.main_clk_p -> xufu.clk xirf.clk xaym.clk xdqf.clk yoii.clk ysbt.clk ydxa.clk yodp.~ena zaza.clk
-	                   zorp.clk zkai.clk zrby.clk zacw.clk zkdu.clk
+wire clk:clk
+	port.clk -> xufu.clk xirf.clk xaym.clk xdqf.clk yoii.clk ysbt.clk ydxa.clk yodp.~ena zaza.clk
+	            zorp.clk zkai.clk zrby.clk zacw.clk zkdu.clk
 	@-19.75,20.47,-19.69,88.42,-14.94,88.42,-14.75,232.06,-14.75,248.36,-15.30,248.36,-15.30,248.72,-18.06,248.72,
 	 -18.06,248.41,-27.20,248.41,-38.92,248.39,-51.19,248.39,-72.63,248.45,-102.66,248.45,-102.66,246.02
 	@-100.64,248.45,-100.64,245.50,-99.77,245.50,-99.77,244.63,-99.94,244.63,-99.94,244.02
@@ -378,10 +378,10 @@ wire main_clk_p:clk
 	@-43.52,231.05,-43.52,226.97,-42.55,226.97,-42.55,226.17,-42.75,226.17,-42.75,225.61
 	@-39.48,231.05,-39.48,227.48;
 
-wire sync_reset:rst
-	port.sync_reset -> reg_pcl_not_we.b_in reg_pch_not_we.b_in reg_ie[0].r reg_ie[1].r reg_ie[2].r reg_ie[3].r
-	                   reg_ie[4].r reg_ie[5].r reg_ie[6].r reg_ie[7].r ycnf.in2 yneu.in3 zudn.in zowa.in2 znda.in1
-	                   zwuu.in6 zhzo.in1
+wire sys_reset:rst
+	port.sys_reset -> reg_pcl_not_we.b_in reg_pch_not_we.b_in reg_ie[0].r reg_ie[1].r reg_ie[2].r reg_ie[3].r
+	                  reg_ie[4].r reg_ie[5].r reg_ie[6].r reg_ie[7].r ycnf.in2 yneu.in3 zudn.in zowa.in2 znda.in1
+	                  zwuu.in6 zhzo.in1
 	@-13.84,87.28,-13.67,240.52,-40.77,240.56,-50.09,240.56,-83.44,240.61,-105.36,240.63,-121.50,240.63,
 	 -121.50,238.45,-122.42,238.45,-122.42,237.34,-123.53,237.34,-123.53,203.97,-140.77,203.97,-140.77,205.31,
 	 -141.61,205.31
@@ -397,15 +397,15 @@ wire sync_reset:rst
 	@-105.36,240.63,-105.36,245.72,-105.11,245.72
 	@-112.89,240.63,-112.89,246.81,-112.33,246.81;
 
-wire async_reset:rst
-	port.async_reset -> ynoz.in1 zhzo.in2
+wire pwron_reset:rst
+	port.pwron_reset -> ynoz.in1 zhzo.in2
 	@-13.30,88.31,-13.11,241.03,-31.77,241.10,-31.77,241.66,-47.34,241.66,-47.34,249.50
 	@-44.80,249.50,-47.72,249.50,-47.72,252.42
 	@-44.80,249.28,-44.80,250.64
 	@-36.38,241.66,-36.38,237.23,-36.19,237.23,-36.19,235.61,-36.38,235.61,-36.38,234.44;
 
-wire osc_stable:ctl
-	port.osc_stable -> ziks.in1
+wire clk_ready:ctl
+	port.clk_ready -> ziks.in1
 	@-12.20,90.38,-12.00,241.59,-31.23,241.64,-31.23,246.44;
 
 wire wake:ctl
@@ -417,11 +417,11 @@ wire nmi:ctl
 	port.nmi -> yepj.in
 	@-63.64,252.44,-63.64,248.42,-64.02,248.42,-64.02,241.67,-51.02,241.69,-51.02,237.81,-50.84,237.81,-50.84,234.45;
 
-wire unor:ctl
-	port.unor -> dbus_bridge[0].~oe dbus_bridge[1].~oe dbus_bridge[2].~oe dbus_bridge[3].~oe dbus_bridge[4].~oe
-	             dbus_bridge[5].~oe dbus_bridge[6].~oe dbus_bridge[7].~oe idu[0].buf_~ena idu[1].buf_~ena
-	             idu[2].buf_~ena idu[3].buf_~ena idu[4].buf_~ena idu[5].buf_~ena idu[6].buf_~ena idu[7].buf_~ena
-	             wafr.in2
+wire ~oe:ctl
+	port.~oe -> dbus_bridge[0].~oe dbus_bridge[1].~oe dbus_bridge[2].~oe dbus_bridge[3].~oe dbus_bridge[4].~oe
+	            dbus_bridge[5].~oe dbus_bridge[6].~oe dbus_bridge[7].~oe idu[0].buf_~ena idu[1].buf_~ena
+	            idu[2].buf_~ena idu[3].buf_~ena idu[4].buf_~ena idu[5].buf_~ena idu[6].buf_~ena idu[7].buf_~ena
+	            wafr.in2
 	@-65.28,252.56,-65.28,250.63,-65.48,250.63,-65.48,234.75,-68.59,234.75,-68.59,218.11,-66.41,218.11,-66.41,217.56,
 	 -38.20,217.56,-38.20,217.36,-31.83,217.36,-31.83,216.81,-15.83,216.81,-15.98,98.10,-20.42,98.10,-20.42,92.08,
 	 -21.91,92.08,-21.97,17.70,-21.45,17.70,-21.45,16.81
@@ -432,15 +432,21 @@ wire unor:ctl
 	 -142.19,198.30,-142.19,197.27,-239.89,197.31
 	@-53.41,217.56,-53.41,224.03;
 
-wire syro:ctl
-	port.syro -> zlyz.~in3
+wire internal_access:ctl
+	port.internal_access -> zlyz.~in3
 	@-66.38,252.66,-66.38,251.42,-66.19,251.42,-66.19,243.33,-66.72,243.33,-66.72,242.78,-68.58,242.78;
 
-wire tutu:ctl
-	port.tutu -> zlyz.~in1
+wire shadow_access:ctl
+	port.shadow_access -> zlyz.~in1
 	@-66.95,252.63,-66.95,246.86,-66.72,246.64,-66.72,245.98,-67.02,245.78,-67.02,244.75
 	@-67.02,245.66,-67.36,245.66;
 
-wire umut:ctl
-	port.umut -> zlyz.in2
+wire shadow_override:ctl
+	port.shadow_override -> zlyz.in2
 	@-68.59,252.69,-68.59,251.41,-68.39,251.41,-68.39,246.97,-68.22,246.97,-68.22,245.66;
+
+wire test_freeze:ctl
+	port.test_freeze -> xygb.in1 xtip.in3 ycnf.in3
+	@-15.81,252.38,-15.81,230.48,-20.45,230.48,-20.45,228.79,-21.54,228.79,-21.54,226.05
+	@-19.53,226.82,-19.53,232.13,-33.11,232.13,-33.11,232.69,-34.74,232.69,-34.74,229.96,-42.62,229.96,
+	 -42.62,230.53,-41.34,230.53,-41.34,235.61,-42.24,235.61,-42.24,237.79;
