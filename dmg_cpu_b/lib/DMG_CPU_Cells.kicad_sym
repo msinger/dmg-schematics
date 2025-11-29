@@ -12433,6 +12433,150 @@
 		)
 		(symbol "SM83_CPU_1_1"
 			(pin bidirectional line
+				(at -34.29 19.05 0)
+				(length 5.08)
+				(name "DB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 16.51 0)
+				(length 5.08)
+				(name "DB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 13.97 0)
+				(length 5.08)
+				(name "DB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 11.43 0)
+				(length 5.08)
+				(name "DB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 8.89 0)
+				(length 5.08)
+				(name "DB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 6.35 0)
+				(length 5.08)
+				(name "DB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 3.81 0)
+				(length 5.08)
+				(name "DB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -34.29 1.27 0)
+				(length 5.08)
+				(name "DB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -34.29 -15.24 0)
 				(length 5.08)
 				(name "D0"
@@ -12594,7 +12738,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -25.4 -44.45 90)
 				(length 5.08)
 				(name "A15"
@@ -12612,7 +12756,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -22.86 -44.45 90)
 				(length 5.08)
 				(name "A14"
@@ -12630,10 +12774,10 @@
 					)
 				)
 			)
-			(pin input inverted_clock
+			(pin input clock
 				(at -21.59 44.45 270)
 				(length 5.08)
-				(name "ADR_CLK_N"
+				(name "~{EXEC_PHASE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12648,7 +12792,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -20.32 -44.45 90)
 				(length 5.08)
 				(name "A13"
@@ -12669,7 +12813,7 @@
 			(pin input clock
 				(at -19.05 44.45 270)
 				(length 5.08)
-				(name "ADR_CLK_P"
+				(name "EXEC_PHASE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12684,7 +12828,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -17.78 -44.45 90)
 				(length 5.08)
 				(name "A12"
@@ -12705,7 +12849,7 @@
 			(pin input clock
 				(at -16.51 44.45 270)
 				(length 5.08)
-				(name "PHI_CLK_P"
+				(name "~{DATA_PHASE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12720,7 +12864,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -15.24 -44.45 90)
 				(length 5.08)
 				(name "A11"
@@ -12738,10 +12882,10 @@
 					)
 				)
 			)
-			(pin input inverted_clock
+			(pin input clock
 				(at -13.97 44.45 270)
 				(length 5.08)
-				(name "PHI_CLK_N"
+				(name "DATA_PHASE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12756,7 +12900,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -12.7 -44.45 90)
 				(length 5.08)
 				(name "A10"
@@ -12774,10 +12918,10 @@
 					)
 				)
 			)
-			(pin input inverted_clock
+			(pin input clock
 				(at -11.43 44.45 270)
 				(length 5.08)
-				(name "T4_CLK_N"
+				(name "~{WRITE_PHASE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12792,7 +12936,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -10.16 -44.45 90)
 				(length 5.08)
 				(name "A9"
@@ -12813,7 +12957,7 @@
 			(pin input clock
 				(at -8.89 44.45 270)
 				(length 5.08)
-				(name "T4_CLK_P"
+				(name "WRITE_PHASE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12828,7 +12972,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -7.62 -44.45 90)
 				(length 5.08)
 				(name "A8"
@@ -12849,7 +12993,7 @@
 			(pin input clock
 				(at -6.35 44.45 270)
 				(length 5.08)
-				(name "LATCH_CLK"
+				(name "~{PCH_PHASE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12864,7 +13008,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -5.08 -44.45 90)
 				(length 5.08)
 				(name "A7"
@@ -12882,10 +13026,10 @@
 					)
 				)
 			)
-			(pin input inverted_clock
+			(pin input clock
 				(at -3.81 44.45 270)
 				(length 5.08)
-				(name "MAIN_CLK_N"
+				(name "~{CLK}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12900,7 +13044,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at -2.54 -44.45 90)
 				(length 5.08)
 				(name "A6"
@@ -12921,7 +13065,7 @@
 			(pin input clock
 				(at -1.27 44.45 270)
 				(length 5.08)
-				(name "MAIN_CLK_P"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12936,7 +13080,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 0 -44.45 90)
 				(length 5.08)
 				(name "A5"
@@ -12957,7 +13101,7 @@
 			(pin output line
 				(at 2.54 44.45 270)
 				(length 5.08)
-				(name "CLK_ENA"
+				(name "~{HALT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12972,7 +13116,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 2.54 -44.45 90)
 				(length 5.08)
 				(name "A4"
@@ -12993,7 +13137,7 @@
 			(pin input line
 				(at 5.08 44.45 270)
 				(length 5.08)
-				(name "SYNC_RESET"
+				(name "SYS_RESET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13008,7 +13152,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 5.08 -44.45 90)
 				(length 5.08)
 				(name "A3"
@@ -13029,7 +13173,7 @@
 			(pin input line
 				(at 7.62 44.45 270)
 				(length 5.08)
-				(name "ASYNC_RESET"
+				(name "PWRON_RESET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13044,7 +13188,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 7.62 -44.45 90)
 				(length 5.08)
 				(name "A2"
@@ -13065,7 +13209,7 @@
 			(pin output line
 				(at 10.16 44.45 270)
 				(length 5.08)
-				(name "OSC_ENA"
+				(name "~{STOP}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13080,7 +13224,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 10.16 -44.45 90)
 				(length 5.08)
 				(name "A1"
@@ -13101,7 +13245,7 @@
 			(pin input line
 				(at 12.7 44.45 270)
 				(length 5.08)
-				(name "OSC_STABLE"
+				(name "CLK_READY"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13116,7 +13260,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin bidirectional line
 				(at 12.7 -44.45 90)
 				(length 5.08)
 				(name "A0"
@@ -13171,7 +13315,7 @@
 				)
 			)
 			(pin output line
-				(at 34.29 36.83 180)
+				(at 34.29 34.29 180)
 				(length 5.08)
 				(name "RD"
 					(effects
@@ -13189,7 +13333,7 @@
 				)
 			)
 			(pin output line
-				(at 34.29 34.29 180)
+				(at 34.29 31.75 180)
 				(length 5.08)
 				(name "WR"
 					(effects
@@ -13207,9 +13351,9 @@
 				)
 			)
 			(pin input line
-				(at 34.29 31.75 180)
+				(at 34.29 29.21 180)
 				(length 5.08)
-				(name "T1~{T2}"
+				(name "~{OE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13225,9 +13369,9 @@
 				)
 			)
 			(pin input line
-				(at 34.29 29.21 180)
+				(at 34.29 26.67 180)
 				(length 5.08)
-				(name "FEXX_FFXX"
+				(name "INTERNAL_ACCESS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13243,9 +13387,9 @@
 				)
 			)
 			(pin input line
-				(at 34.29 26.67 180)
+				(at 34.29 24.13 180)
 				(length 5.08)
-				(name "BOOT_00XX"
+				(name "SHADOW_ACCESS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13261,9 +13405,9 @@
 				)
 			)
 			(pin input line
-				(at 34.29 24.13 180)
+				(at 34.29 21.59 180)
 				(length 5.08)
-				(name "~{T1}T2"
+				(name "SHADOW_OVERRIDE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13279,7 +13423,7 @@
 				)
 			)
 			(pin output line
-				(at 34.29 21.59 180)
+				(at 34.29 19.05 180)
 				(length 5.08)
 				(name "MREQ"
 					(effects
@@ -13296,17 +13440,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 34.29 17.78 180)
+			(pin output line
+				(at 34.29 13.97 180)
 				(length 5.08)
-				(name "NC"
+				(name "PREFIX_CB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R8"
+				(number "R30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13314,71 +13458,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 34.29 15.24 180)
+			(pin input line
+				(at 34.29 11.43 180)
 				(length 5.08)
-				(name "NC"
+				(name "TEST_FREEZE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 34.29 12.7 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 34.29 10.16 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 34.29 7.62 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R12"
+				(number "R31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13387,9 +13477,27 @@
 				)
 			)
 			(pin output line
-				(at 34.29 5.08 180)
+				(at 34.29 8.89 180)
 				(length 5.08)
-				(name "IE_SEL"
+				(name "INT_ENTRY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 6.35 180)
+				(length 5.08)
+				(name "FFXX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13407,7 +13515,7 @@
 			(pin output line
 				(at 34.29 1.27 180)
 				(length 5.08)
-				(name "IRQ0_ACK"
+				(name "INTA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13425,7 +13533,7 @@
 			(pin input line
 				(at 34.29 -1.27 180)
 				(length 5.08)
-				(name "IRQ0"
+				(name "INT0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13443,7 +13551,7 @@
 			(pin output line
 				(at 34.29 -3.81 180)
 				(length 5.08)
-				(name "IRQ1_ACK"
+				(name "INTA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13461,7 +13569,7 @@
 			(pin input line
 				(at 34.29 -6.35 180)
 				(length 5.08)
-				(name "IRQ1"
+				(name "INT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13479,7 +13587,7 @@
 			(pin output line
 				(at 34.29 -8.89 180)
 				(length 5.08)
-				(name "IRQ2_ACK"
+				(name "INTA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13497,7 +13605,7 @@
 			(pin input line
 				(at 34.29 -11.43 180)
 				(length 5.08)
-				(name "IRQ2"
+				(name "INT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13515,7 +13623,7 @@
 			(pin output line
 				(at 34.29 -13.97 180)
 				(length 5.08)
-				(name "IRQ3_ACK"
+				(name "INTA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13533,7 +13641,7 @@
 			(pin input line
 				(at 34.29 -16.51 180)
 				(length 5.08)
-				(name "IRQ3"
+				(name "INT3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13551,7 +13659,7 @@
 			(pin output line
 				(at 34.29 -19.05 180)
 				(length 5.08)
-				(name "IRQ4_ACK"
+				(name "INTA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13569,7 +13677,7 @@
 			(pin input line
 				(at 34.29 -21.59 180)
 				(length 5.08)
-				(name "IRQ4"
+				(name "INT4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13587,7 +13695,7 @@
 			(pin output line
 				(at 34.29 -24.13 180)
 				(length 5.08)
-				(name "IRQ5_ACK"
+				(name "INTA5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13605,7 +13713,7 @@
 			(pin input line
 				(at 34.29 -26.67 180)
 				(length 5.08)
-				(name "IRQ5"
+				(name "INT5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13623,7 +13731,7 @@
 			(pin output line
 				(at 34.29 -29.21 180)
 				(length 5.08)
-				(name "IRQ6_ACK"
+				(name "INTA6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13641,7 +13749,7 @@
 			(pin input line
 				(at 34.29 -31.75 180)
 				(length 5.08)
-				(name "IRQ6"
+				(name "INT6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13659,7 +13767,7 @@
 			(pin output line
 				(at 34.29 -34.29 180)
 				(length 5.08)
-				(name "IRQ7_ACK"
+				(name "INTA7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13677,7 +13785,7 @@
 			(pin input line
 				(at 34.29 -36.83 180)
 				(length 5.08)
-				(name "IRQ7"
+				(name "INT7"
 					(effects
 						(font
 							(size 1.27 1.27)

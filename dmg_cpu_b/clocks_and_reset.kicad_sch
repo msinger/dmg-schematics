@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-04-22")
-		(rev "0.7")
+		(date "2025-11-28")
+		(rev "0.8")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
@@ -3605,6 +3605,12 @@
 		(uuid "07c5e263-0aa3-41ca-85ba-5a3e0ae8e1df")
 	)
 	(junction
+		(at 269.24 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8e4e0e-8bf3-4ce5-9631-4492e824fe53")
+	)
+	(junction
 		(at 204.47 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,6 +5090,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 46.355) (xy 270.51 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd89526-1c77-4f79-94a0-8f390b737280")
+	)
+	(wire
+		(pts
 			(xy 306.705 157.48) (xy 306.705 169.545)
 		)
 		(stroke
@@ -5741,6 +5757,16 @@
 			(type default)
 		)
 		(uuid "4e9db738-6b15-4d6d-956a-982a9139fb5d")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.355) (xy 269.24 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb6dcf0-67c2-4cf7-909c-56d0e680300b")
 	)
 	(wire
 		(pts
@@ -6641,6 +6667,16 @@
 			(type default)
 		)
 		(uuid "78b40cd6-ffd8-44bb-933a-02e794e13204")
+	)
+	(wire
+		(pts
+			(xy 283.845 46.355) (xy 283.21 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b68711-d195-408d-9df6-928bdc128f7d")
 	)
 	(wire
 		(pts
@@ -8904,7 +8940,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 52.705) (xy 270.51 52.705)
+			(xy 267.97 52.705) (xy 269.24 52.705)
 		)
 		(stroke
 			(width 0)
@@ -9474,6 +9510,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 52.705) (xy 283.845 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd024180-361b-4d9e-84ec-a51b67f9df31")
+	)
+	(wire
+		(pts
 			(xy 306.705 177.8) (xy 311.785 177.8)
 		)
 		(stroke
@@ -9512,7 +9558,7 @@
 		)
 		(uuid "025537c3-5e90-4546-b7f6-80d0030af6e4")
 	)
-	(label "BOGA_1MHz"
+	(label "CLK_1MHz"
 		(at 277.495 236.22 0)
 		(effects
 			(font
@@ -9582,7 +9628,7 @@
 		)
 		(uuid "53634809-4ba6-441f-a9d0-45d3cb88cddf")
 	)
-	(label "BOGA_1MHz"
+	(label "CLK_1MHz"
 		(at 289.56 34.925 0)
 		(effects
 			(font
@@ -9762,7 +9808,7 @@
 		)
 		(uuid "bff30aa6-6ba2-4b06-9c7b-570a001fefcf")
 	)
-	(label "BOGA_1MHz"
+	(label "CLK_1MHz"
 		(at 191.77 265.43 0)
 		(effects
 			(font
@@ -9866,7 +9912,7 @@
 		)
 		(uuid "0f75f183-2a4b-448e-bff9-5fc6d3675045")
 	)
-	(hierarchical_label "BUKE"
+	(hierarchical_label "~{PCH_PHASE}"
 		(shape output)
 		(at 162.56 186.69 0)
 		(effects
@@ -9877,7 +9923,7 @@
 		)
 		(uuid "169bb56f-5ffa-4330-9d7c-92bd13115049")
 	)
-	(hierarchical_label "CPU_PHI"
+	(hierarchical_label "~{DATA_PHASE}"
 		(shape output)
 		(at 103.505 69.85 0)
 		(effects
@@ -9888,7 +9934,7 @@
 		)
 		(uuid "1b30aaf3-a146-42f9-8bdf-9be477261035")
 	)
-	(hierarchical_label "CPU_T4"
+	(hierarchical_label "CLK_T4"
 		(shape output)
 		(at 103.505 15.24 0)
 		(effects
@@ -9965,7 +10011,7 @@
 		)
 		(uuid "4dc76881-c743-4eda-816c-ea3a08bef1b5")
 	)
-	(hierarchical_label "BOGA_1MHz"
+	(hierarchical_label "CLK_1MHz"
 		(shape output)
 		(at 283.21 29.21 0)
 		(effects
@@ -9976,7 +10022,7 @@
 		)
 		(uuid "580ab0b0-9770-4b30-a442-5d1f642e7f9c")
 	)
-	(hierarchical_label "~{CPU_T4}"
+	(hierarchical_label "~{CLK_T4}"
 		(shape output)
 		(at 103.505 17.78 0)
 		(effects
@@ -9986,6 +10032,17 @@
 			(justify left)
 		)
 		(uuid "5bb46baf-293a-4059-b31b-576c44f2aa26")
+	)
+	(hierarchical_label "~{EXEC_PHASE}"
+		(shape output)
+		(at 283.845 46.355 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cbd6d50-2ea1-41a5-a0b3-f31e57c9fa44")
 	)
 	(hierarchical_label "CPU_WR"
 		(shape input)
@@ -10009,9 +10066,9 @@
 		)
 		(uuid "5f3864a4-166d-4c79-9230-54525934a588")
 	)
-	(hierarchical_label "DATA_VALID"
+	(hierarchical_label "EXEC_PHASE"
 		(shape output)
-		(at 270.51 52.705 0)
+		(at 283.845 52.705 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10031,7 +10088,7 @@
 		)
 		(uuid "7612c152-5747-4a6f-b8b8-a96d3c5b50d6")
 	)
-	(hierarchical_label "~{CPU_PHI}"
+	(hierarchical_label "DATA_PHASE"
 		(shape output)
 		(at 103.505 72.39 0)
 		(effects
@@ -10152,7 +10209,7 @@
 		)
 		(uuid "df59807e-38b1-4d79-81dd-e356cb7abf06")
 	)
-	(hierarchical_label "BOMA_1MHz"
+	(hierarchical_label "~{CLK_1MHz}"
 		(shape output)
 		(at 283.21 24.13 0)
 		(effects
@@ -10207,7 +10264,7 @@
 		)
 		(uuid "f652871f-4b78-4996-9d21-61fbd0029dee")
 	)
-	(hierarchical_label "RESET_LATCH"
+	(hierarchical_label "CPU_SYS_RESET"
 		(shape output)
 		(at 329.565 26.035 0)
 		(effects
@@ -16157,6 +16214,74 @@
 			(project "dmg_cpu_b"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89003768-5b25-4c22-8af8-96ee45628a34"
 					(reference "ADEH")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NOT_X6")
+		(at 276.86 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5044f2e-bb6b-4c5d-a84e-db8f8cfd64c5")
+		(property "Reference" "BOWA"
+			(at 276.86 38.8452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_X6"
+			(at 276.86 41.3821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x6"
+			(at 278.13 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inverter with 6× drive strength."
+			(at 276.86 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "570f451c-15f7-4f15-8e4e-a8c9e4e91788")
+		)
+		(pin "2"
+			(uuid "9d2906ca-f2a1-49a4-8c25-76c56c07652f")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89003768-5b25-4c22-8af8-96ee45628a34"
+					(reference "BOWA")
 					(unit 1)
 				)
 			)

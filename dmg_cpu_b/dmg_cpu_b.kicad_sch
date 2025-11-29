@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-04-22")
-		(rev "0.7")
+		(date "2025-11-28")
+		(rev "0.8")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
 	)
@@ -1642,6 +1642,16 @@
 			(type default)
 		)
 		(uuid "53897123-18b5-48f5-9615-b4d222833db4")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 172.085 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54befa58-c24e-4525-b216-8782f578f2c5")
 	)
 	(wire
 		(pts
@@ -3915,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.745) (xy 172.085 118.745)
+			(xy 124.46 117.475) (xy 172.085 117.475)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(pin "CPU_T4" input
+		(pin "CLK_T4" input
 			(at 270.51 157.48 180)
 			(uuid "f02351ef-2d80-4c61-9a9b-08ff114056b4")
 			(effects
@@ -4369,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOGA_1MHz" input
+		(pin "CLK_1MHz" input
 			(at 270.51 147.955 180)
 			(uuid "760ae94e-176e-45b6-806c-f1d65b59a766")
 			(effects
@@ -4643,7 +4653,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BUKE" output
+		(pin "~{PCH_PHASE}" output
 			(at 203.835 108.585 0)
 			(uuid "1eee2b2b-19b5-4e09-9615-15ca73091068")
 			(effects
@@ -4673,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOGA_1MHz" output
+		(pin "CLK_1MHz" output
 			(at 203.835 147.955 0)
 			(uuid "b9d701ff-cf0b-4eff-941c-064c229a456f")
 			(effects
@@ -4903,8 +4913,8 @@
 				(justify left)
 			)
 		)
-		(pin "DATA_VALID" output
-			(at 172.085 118.745 180)
+		(pin "EXEC_PHASE" output
+			(at 172.085 117.475 180)
 			(uuid "d00be88b-56ff-4232-8f0d-cd9b28a4d66d")
 			(effects
 				(font
@@ -4913,7 +4923,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOMA_1MHz" output
+		(pin "~{CLK_1MHz}" output
 			(at 203.835 170.815 0)
 			(uuid "43598eb2-666e-4c7a-9018-600d249e2e58")
 			(effects
@@ -4923,7 +4933,7 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_LATCH" output
+		(pin "CPU_SYS_RESET" output
 			(at 172.085 126.365 180)
 			(uuid "a99e9a6c-bd77-4f82-bb8a-1e6f4ac6fb22")
 			(effects
@@ -4963,7 +4973,7 @@
 				(justify left)
 			)
 		)
-		(pin "CPU_T4" output
+		(pin "CLK_T4" output
 			(at 203.835 157.48 0)
 			(uuid "c6397b49-0f83-41e3-b83e-6f2865b9f6dd")
 			(effects
@@ -4973,7 +4983,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{CPU_T4}" output
+		(pin "~{CLK_T4}" output
 			(at 203.835 165.1 0)
 			(uuid "8cd0e56b-87ef-4a17-861e-1ee8db4f3a53")
 			(effects
@@ -4983,7 +4993,7 @@
 				(justify right)
 			)
 		)
-		(pin "CPU_PHI" output
+		(pin "~{DATA_PHASE}" output
 			(at 203.835 167.005 0)
 			(uuid "f5866f00-9632-41b7-9a21-ad8f55cba44b")
 			(effects
@@ -4993,7 +5003,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{CPU_PHI}" output
+		(pin "DATA_PHASE" output
 			(at 203.835 168.91 0)
 			(uuid "f8b427ff-3c74-4c38-86fc-f2298571e13f")
 			(effects
@@ -5021,6 +5031,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{EXEC_PHASE}" output
+			(at 172.085 119.38 180)
+			(uuid "3a7770e1-c022-4911-bb36-45ee5a41df70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -5357,7 +5377,7 @@
 				(justify right)
 			)
 		)
-		(pin "BUKE" input
+		(pin "~{PCH_PHASE}" input
 			(at 92.71 84.455 180)
 			(uuid "7d932c58-c1a2-4aed-b0b0-ff28819dc521")
 			(effects
@@ -5479,7 +5499,7 @@
 				(justify right)
 			)
 		)
-		(pin "CPU_T4" input
+		(pin "CLK_T4" input
 			(at 92.71 199.39 180)
 			(uuid "705a005f-c456-4666-8b04-9b5eadf2ca49")
 			(effects
@@ -5591,7 +5611,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CPU_T4" input
+		(pin "CLK_T4" input
 			(at 203.835 85.725 0)
 			(uuid "3ea1a442-980f-42c2-8911-85f799289b0c")
 			(effects
@@ -5651,7 +5671,7 @@
 				(justify left)
 			)
 		)
-		(pin "BUKE" input
+		(pin "~{PCH_PHASE}" input
 			(at 203.835 91.44 0)
 			(uuid "38d073de-e4cf-45c0-aceb-60fa5c98d7bd")
 			(effects
@@ -5883,7 +5903,7 @@
 				(justify left)
 			)
 		)
-		(pin "CPU_T4" input
+		(pin "CLK_T4" input
 			(at 270.51 196.215 180)
 			(uuid "6d137e0e-258a-4843-bfdc-6ee3a4959881")
 			(effects
@@ -6125,8 +6145,8 @@
 				(justify right)
 			)
 		)
-		(pin "DATA_VALID" input
-			(at 124.46 118.745 0)
+		(pin "EXEC_PHASE" input
+			(at 124.46 117.475 0)
 			(uuid "662b0ef2-463d-4c74-9890-b6c4ba0e30a1")
 			(effects
 				(font
@@ -6135,7 +6155,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{CPU_T4}" input
+		(pin "~{CLK_T4}" input
 			(at 92.71 126.365 180)
 			(uuid "28ec4d32-c79b-4987-afc4-84d26d228d5f")
 			(effects
@@ -6145,7 +6165,7 @@
 				(justify left)
 			)
 		)
-		(pin "CPU_T4" input
+		(pin "CLK_T4" input
 			(at 92.71 124.46 180)
 			(uuid "bbdd73be-f4d5-4269-951a-3f5985b90fc3")
 			(effects
@@ -6155,7 +6175,7 @@
 				(justify left)
 			)
 		)
-		(pin "RESET_LATCH" input
+		(pin "CPU_SYS_RESET" input
 			(at 124.46 126.365 0)
 			(uuid "f1f06609-272c-4700-a6c1-ef4b63e38ef6")
 			(effects
@@ -6165,7 +6185,7 @@
 				(justify right)
 			)
 		)
-		(pin "BOGA_1MHz" input
+		(pin "CLK_1MHz" input
 			(at 92.71 122.555 180)
 			(uuid "6623a9c2-468a-4177-9ecc-3010d4e19c50")
 			(effects
@@ -6175,7 +6195,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOMA_1MHz" input
+		(pin "~{CLK_1MHz}" input
 			(at 92.71 132.08 180)
 			(uuid "4b8beba7-60ce-476f-8430-98311f901402")
 			(effects
@@ -6195,7 +6215,7 @@
 				(justify right)
 			)
 		)
-		(pin "BUKE" input
+		(pin "~{PCH_PHASE}" input
 			(at 92.71 119.38 180)
 			(uuid "33fb73ea-d566-4da8-aa7c-f61bf5ea8528")
 			(effects
@@ -6265,7 +6285,7 @@
 				(justify right)
 			)
 		)
-		(pin "CPU_PHI" input
+		(pin "~{DATA_PHASE}" input
 			(at 92.71 128.27 180)
 			(uuid "87ed14ed-c7ce-4553-8f69-0b027777e20d")
 			(effects
@@ -6275,7 +6295,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{CPU_PHI}" input
+		(pin "DATA_PHASE" input
 			(at 92.71 130.175 180)
 			(uuid "34318af4-14b9-4d92-9185-3ba75bb0f783")
 			(effects
@@ -6283,6 +6303,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{EXEC_PHASE}" input
+			(at 124.46 119.38 0)
+			(uuid "1352611f-e732-4f3d-8e57-68a9861c9df2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -6397,7 +6427,7 @@
 				(justify right)
 			)
 		)
-		(pin "BOGA_1MHz" input
+		(pin "CLK_1MHz" input
 			(at 270.51 79.375 180)
 			(uuid "091b7fa4-76c9-436a-9d6e-8cbccf318395")
 			(effects
