@@ -18,6 +18,7 @@ category alu      :red;      # ALU
 category alu-flag :red;      # ALU Flags
 category alu-dec  :red;      # ALU Decoder
 category alu-core :red;      # ALU Core
+category alu-daa  :red;      # ALU DAA
 
 category dec1     :yellow;   # Decoder 1
 category dec2     :yellow;   # Decoder 2
