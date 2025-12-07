@@ -6,7 +6,7 @@
 	(paper "User" 2000 2000)
 	(title_block
 		(title "SM83 Cells - Circuits")
-		(date "2025-11-05")
+		(date "2025-12-05")
 		(rev "0")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -10179,7 +10179,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SM83_Cells:DFFN_EE_Q_ALU_TMP"
+		(symbol "SM83_Cells:DFFN_EE_Q_ALU_SIGN"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10194,7 +10194,7 @@
 					)
 				)
 			)
-			(property "Value" "DFFN_EE_Q_ALU_TMP"
+			(property "Value" "DFFN_EE_Q_ALU_SIGN"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -10211,7 +10211,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_tmp"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_sign"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -10229,7 +10229,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DFFN_EE_Q_ALU_TMP_0_1"
+			(symbol "DFFN_EE_Q_ALU_SIGN_0_1"
 				(rectangle
 					(start -6.35 4.445)
 					(end 6.35 -4.445)
@@ -10242,7 +10242,7 @@
 					)
 				)
 			)
-			(symbol "DFFN_EE_Q_ALU_TMP_1_1"
+			(symbol "DFFN_EE_Q_ALU_SIGN_1_1"
 				(pin input inverted_clock
 					(at -10.16 2.54 0)
 					(length 3.81)
@@ -24909,7 +24909,7 @@
 		)
 		(uuid "1385628b-e1c0-4ec6-907e-9837199ebf15")
 	)
-	(text "ALU Reg?"
+	(text "ALU Sign"
 		(exclude_from_sim no)
 		(at 895.985 281.94 0)
 		(effects
@@ -206418,6 +206418,83 @@
 		)
 	)
 	(symbol
+		(lib_id "SM83_Cells:DFFN_EE_Q_ALU_SIGN")
+		(at 814.705 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "574ba23e-a042-44b8-9ef8-22c36873ba6b")
+		(property "Reference" "U?"
+			(at 814.705 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DFFN_EE_Q_ALU_SIGN"
+			(at 814.705 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 814.07 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_sign"
+			(at 814.705 316.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
+			(at 814.705 319.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7c0447ab-2fa9-43af-b38f-6ce35394f9a9")
+		)
+		(pin ""
+			(uuid "8af50a75-28b7-4507-a7ff-d87893a1b3e7")
+		)
+		(pin ""
+			(uuid "b473beb1-d7d0-47c8-85d0-f0e872807bba")
+		)
+		(pin ""
+			(uuid "d5bc4d52-6263-4009-bbd6-1fcbb47ad080")
+		)
+		(pin ""
+			(uuid "88f45cf7-bd61-4643-9316-49093a5908f7")
+		)
+		(instances
+			(project ""
+				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 903.605 140.97 0)
 		(unit 1)
@@ -212832,83 +212909,6 @@
 			(project "sm83_cells"
 				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
 					(reference "N14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SM83_Cells:DFFN_EE_Q_ALU_TMP")
-		(at 814.705 309.245 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dd6c068-2aca-449d-9f75-d5ace187156f")
-		(property "Reference" "U?"
-			(at 814.705 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DFFN_EE_Q_ALU_TMP"
-			(at 814.705 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 814.07 315.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#dffn_ee_q_alu_tmp"
-			(at 814.705 316.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and no inverted output."
-			(at 814.705 319.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "acd03c55-4e32-40dd-a1f7-2e8da57e5242")
-		)
-		(pin ""
-			(uuid "d7925bf6-eeb7-4b37-933b-bf12f50328d4")
-		)
-		(pin ""
-			(uuid "1ef32248-e967-43c7-ae49-754163b85f1a")
-		)
-		(pin ""
-			(uuid "6b0bb43d-c44e-438f-b689-73318b3864c3")
-		)
-		(pin ""
-			(uuid "c9eef536-483d-4098-9e06-ce4957c2e34d")
-		)
-		(instances
-			(project ""
-				(path "/f863044d-f7c5-44e9-8e18-ede821290733"
-					(reference "U?")
 					(unit 1)
 				)
 			)

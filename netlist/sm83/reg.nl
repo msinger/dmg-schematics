@@ -352,30 +352,35 @@ wire daa_hi_ge9:ctl
 	 -118.70,105.84,-114.27,105.84,-114.27,103.12,-84.10,103.09,-84.14,67.36,-84.70,67.36
 	"Accumulator high nibble is greater than or equal to 9.";
 
-wire reg_and2_and3_a:ctl
+wire ctl_ff_to_op2_en:ctl
 	reg_and2_and3.a_y -> reg_bus_pch_a[0].c_zero reg_bus_pch_a[1].c_zero reg_bus_pch_a[2].c_zero
 	                     reg_bus_pch_a[3].c_zero reg_bus_pch_a[4].c_zero_a reg_bus_pch_a[5].c_zero_a
 	                     reg_bus_pch_a[6].c_zero_a reg_bus_pch_a[7].c_zero_a
-	@-139.41,33.37,-139.41,31.14,-142.37,31.14,-142.37,30.99,-239.95,31.11;
+	@-139.41,33.37,-139.41,31.14,-142.37,31.14,-142.37,30.99,-239.95,31.11
+	"Drives $ff to OP2 during \"ADD SP, e\" and \"LDHL SP, e\" instructions at machine cycle 2. Used for extending "
+	"the sign of e when addign the high bytes.";
 
-wire reg_and2_and3_b:ctl
+wire ctl_flags_to_op2_en:ctl
 	reg_and2_and3.b_y -> reg_bus_pch_a[4].c_zero_b1 reg_bus_pch_a[5].c_zero_b1 reg_bus_pch_a[6].c_zero_b1
 	                     reg_bus_pch_a[7].c_zero_b1
-	@-143.05,33.71,-143.05,28.80,-239.92,28.94;
+	@-143.05,33.71,-143.05,28.80,-239.92,28.94
+	"Drives flags to OP2 during \"PUSH AF\" instruction at machine cycle 2.";
 
-wire reg_or:ctl
+wire ctl_op_ld_nn_sp_or_jr_exec:ctl
 	reg_or.y -> reg_wz_out[0].muxi_b_sel reg_wz_out[1].muxi_b_sel reg_wz_out[2].muxi_b_sel
 	            reg_wz_out[3].muxi_b_sel reg_wz_out[4].muxi_b_sel reg_wz_out[5].muxi_b_sel
 	            reg_wz_out[6].muxi_b_sel reg_wz_out[7].muxi_b_sel
-	@-142.30,115.38,-239.90,115.42;
+	@-142.30,115.38,-239.90,115.42
+	"Opcode is \"LD (nn), SP\" instruction ($08) at machine cycle 2; or any relative jump instruction "
+	"($18, $20, $28, $30, $38) at machine cycle 1.";
 
-wire reg_or_tap_~in1:ctl
+wire ~ctl_op_ld_nn_sp_m2_buf:ctl
 	reg_or.tap_~in1 -> reg_wz_out[0].muxi_a_~sel reg_wz_out[1].muxi_a_~sel reg_wz_out[2].muxi_a_~sel
 	                   reg_wz_out[3].muxi_a_~sel reg_wz_out[4].muxi_a_~sel reg_wz_out[5].muxi_a_~sel
 	                   reg_wz_out[6].muxi_a_~sel reg_wz_out[7].muxi_a_~sel
 	@-141.72,117.38,-141.72,114.84,-239.88,114.88;
 
-wire reg_or_tap_nor:ctl
+wire ~ctl_op_ld_nn_sp_or_jr_exec:ctl
 	reg_or.tap_nor -> reg_wz_out[0].muxi_b_~sel reg_wz_out[1].muxi_b_~sel reg_wz_out[2].muxi_b_~sel
 	                  reg_wz_out[3].muxi_b_~sel reg_wz_out[4].muxi_b_~sel reg_wz_out[5].muxi_b_~sel
 	                  reg_wz_out[6].muxi_b_~sel reg_wz_out[7].muxi_b_~sel

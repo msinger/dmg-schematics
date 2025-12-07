@@ -48,7 +48,7 @@ cell flag_n:dffn_ee_pch_d_alu_flag rot0      @-110.63,55.00,-103.09,63.69       
 cell alu_not6:not_pch_x2_alu       rot0      @-110.63,64.19,-103.09,66.19                 ->alu-dec;
 cell alu_not7:not_pch_x2_alu       rot0,flip @-110.59,66.16,-103.06,68.13                 ->alu-dec;
 cell alu_not8:not_pch_x2_alu       rot0      @-110.63,68.72,-103.06,70.63                 ->alu-dec;
-cell alu_dff:dffn_ee_q_alu_tmp     rot0      @-110.63,70.63,-103.03,77.19                 ->alu;      # TODO: rename maybe
+cell alu_dff:dffn_ee_q_alu_sign    rot0      @-110.63,70.63,-103.03,77.19                 ->alu;
 cell alu_not9:not_pch_x1_alu       rot0      @-110.59,77.16,-103.06,79.00                 ->alu-dec;
 cell flag_z:dffn_ee_pch_d_alu_flag rot0,flip @-110.63,79.06,-103.03,87.78                 ->alu-flag;
 cell alu_not10:not_pch_x2_alu      rot0      @-110.56,87.72,-103.03,89.56 y@-104.59,89.28 ->alu-dec;
@@ -649,7 +649,9 @@ wire reg_z7_delayed:ctl
 	@-104.66,76.66,-107.78,76.66
 	@-107.02,76.66,-107.02,77.05
 	@-103.38,77.05,-111.02,77.05,-111.02,69.56,-113.23,69.56,-113.23,60.64,-118.73,60.64,-118.73,60.09,-122.02,60.09,
-	 -122.02,59.55,-123.13,59.55,-123.13,36.59,-136.84,36.59,-136.84,33.88,-138.33,33.88;
+	 -122.02,59.55,-123.13,59.55,-123.13,36.59,-136.84,36.59,-136.84,33.88,-138.33,33.88
+	"Z[7] delayed by one ~{data_phase} tick. Z[7] contains the sign bit of e during \"ADD SP, e\" and \"LDHL SP, e\" "
+	" instructions. Used for extending the sign of e when addign the high bytes.";
 
 wire alu_cond_fail:ctl
 	alu_not9.y -> wagr.in2

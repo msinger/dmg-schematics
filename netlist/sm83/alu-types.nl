@@ -114,8 +114,7 @@ type dffn_ee_pch_d_alu_flag:orange d:inout ~pch
 	~q  @-110.66,36.59,-103.06,36.06
 	"Semi-dynamic data flip-flop with externally inverted enable inputs, level-sensitive D-gating, and prechargable D input.";
 
-# TODO: maybe rename
-type dffn_ee_q_alu_tmp:orange d ena ~ena ~clk q:out
+type dffn_ee_q_alu_sign:orange d ena ~ena ~clk q:out
 	    @-110.63,70.63,-103.03,77.19
 	d   @-103.03,71.94
 	ena @-103.91,70.63,-103.91,77.19
