@@ -472,9 +472,11 @@ wire ie_~we:ctl
 	                   reg_ie[4].clk reg_ie[5].clk reg_ie[6].clk reg_ie[7].clk
 	@-142.19,207.75,-142.19,204.91,-239.84,204.97;
 
-wire idu_ctl_y1:ctl
+wire idu_at8:ctl
 	idu_ctl.y1 -> idu[0].aoi_in3
-	@-133.03,215.11,-134.28,215.11,-134.28,214.34,-136.13,214.34,-136.13,197.59,-141.94,197.59;
+	@-133.03,215.11,-134.28,215.11,-134.28,214.34,-136.13,214.34,-136.13,197.59,-141.94,197.59
+	"Controls whether the IDU begins incrementing/decrementing at bit 8. Used by relative jump instructions, "
+	"which compute the low byte in the ALU and, if there is a carry out, compute the high byte in the IDU.";
 
 wire idu_dec:ctl
 	idu_ctl.y2 -> idu_mux_l[0].d0 idu_mux_h[0].d0 idu_mux_l[1].d0 idu_mux_h[1].d0
@@ -502,25 +504,27 @@ wire ie_we:ctl
 	 -137.20,216.75,-137.80,216.75,-137.80,208.36,-141.11,208.36,-239.84,208.42
 	@-141.11,208.36,-141.11,205.98,-142.88,205.98,-142.88,204.36,-142.00,204.36;
 
-wire irq_head_a_y:ctl
+wire int_take:ctl
 	irq_head.a_y -> zaoc.in1
 	@-142.72,211.59,-142.72,212.34,-143.08,212.34,-143.08,218.42
 	@-143.08,217.31,-141.64,217.31,-141.64,217.48,-138.33,217.48,-138.33,213.47,-131.20,213.47,-131.20,212.36,
 	 -128.45,212.36,-128.45,214.02,-127.38,214.02,-127.38,214.55,-126.25,214.55,-126.25,216.75,-124.64,216.75,
 	 -124.64,218.53,-124.06,218.53,-124.06,222.39,-120.78,222.39,-120.78,231.88,-119.66,231.88,-119.66,241.72
-	@-121.00,241.72,-85.27,241.72,-85.27,246.44;
+	@-121.00,241.72,-85.27,241.72,-85.27,246.44
+	"Short pulse at write_phase, signaling that a maskable interrupt needs to be served.";
 
-wire irq_head_b_y:ctl
+wire ~nmi_entry:ctl
 	irq_head.b_y -> irq_prio[0].nand_b_in2 irq_prio[1].nand_b_in2 irq_prio[2].nand_b_in2 irq_prio[3].nand_b_in2
 	                irq_prio[4].nand_b_in2 irq_prio[5].nand_b_in2 irq_prio[6].nand_b_in2 irq_prio[7].nand_b_in2
 	@-142.13,217.83,-142.13,220.05,-235.52,220.11,-235.52,224.30,-234.94,224.30,-234.94,227.42;
 
-wire irq_head_c_y:ctl
+wire int_pending:ctl
 	irq_head.c_y -> yoii.d
 	@-142.05,215.28,-141.59,215.28,-141.59,213.44
 	@-141.59,214.75,-139.45,214.75,-139.45,211.80,-127.91,211.80,-127.91,213.44,-126.83,213.44,-126.83,217.28,
 	 -126.28,217.28,-126.28,217.67,-124.61,217.67,-124.61,222.94,-124.09,222.94,-124.09,223.28,-121.84,223.28,
-	 -121.84,225.66,-118.58,225.66,-118.58,232.59,-119.09,232.59,-119.09,239.53,-20.44,239.47,-20.44,233.70;
+	 -121.84,225.66,-118.58,225.66,-118.58,232.59,-119.09,232.59,-119.09,239.53,-20.44,239.47,-20.44,233.70
+	"Any (maskable or non-maskable) interrupt needs to be served. Resumes from HALT mode.";
 
 wire ffxx:ctl
 	irq_head.d_y -> irq_prio[0].dist_nand_a_in1 port.ffxx
@@ -528,7 +532,7 @@ wire ffxx:ctl
 	@-150.80,220.80,-150.80,228.44
 	@-142.91,225.86,-138.31,225.86,-138.31,227.52,-131.19,227.52,-131.19,252.47;
 
-wire irq_head_e_y:ctl
+wire ffff:ctl
 	irq_head.e_y -> irq_nand2_nand3[0].b_in2 irq_nand2_nand3[1].b_in2 irq_nand2_nand3[2].b_in2
 	                irq_nand2_nand3[3].b_in2 irq_nand2_nand3[4].b_in2 irq_nand2_nand3[5].b_in2
 	                irq_nand2_nand3[6].b_in2 irq_nand2_nand3[7].b_in2 irq_and.in1

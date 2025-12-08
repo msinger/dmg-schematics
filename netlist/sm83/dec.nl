@@ -395,11 +395,11 @@ wire ~ctl_op_ld_hl_n_m1:dec
 	decoder1.y48 dec1_not24.a_in
 	@-32.13,155.57,-33.02,155.57,-33.02,155.34,-35.77,155.34;
 
-wire ~dec1_y49:dec
+wire dec1_y49:dec
 	decoder1.y49 dec1_not25.a_in
 	@-32.13,156.52,-33.04,156.52,-33.04,156.81,-35.73,156.81;
 
-wire ~dec1_y50:dec
+wire dec1_y50:dec
 	decoder1.y50 dec1_not25.b_in
 	@-32.14,157.57,-33.04,157.57,-33.04,157.38,-35.75,157.38;
 
@@ -627,7 +627,7 @@ wire ~ctl_op_ldx_m1:dec
 	decoder1.y106 dec1_not53.b_in
 	@-32.06,213.74,-32.91,213.74,-32.91,213.55,-35.65,213.55;
 
-wire ~dec1_y107:dec
+wire dec1_y107:dec
 	decoder1.y107 dec1_not54.in
 	@-32.05,214.70,-32.90,214.70,-32.90,214.98,-35.68,214.98;
 
@@ -903,13 +903,13 @@ wire ctl_op_ld_hl_n_m1:dec
 	@-38.11,155.38,-41.05,155.38,-41.05,155.55,-53.92,155.55
 	"Opcode is \"LD (HL), n\" instruction ($36) at machine cycle 1.";
 
-wire dec1_y49:dec
+wire ~dec1_y49:dec
 	dec1_not25.a_y
 	@-38.02,156.84,-40.98,156.84,-40.98,156.59,-44.34,156.59,-44.34,157.02,-45.41,157.02,-45.41,156.67,-56.98,156.67,
 	 -56.98,157.20,-62.88,157.20,-62.88,162.89,-74.70,162.89,-74.70,177.30,-109.67,177.33
 	"Spare signal. (At machine cycle 1 or 5.)";
 
-wire dec1_y50:dec
+wire ~dec1_y50:dec
 	dec1_not25.b_y
 	@-36.83,157.00,-37.53,157.00,-37.53,157.38,-40.98,157.38,-40.98,157.58,-42.05,157.58,-42.05,157.91,-47.09,157.91,
 	 -47.09,157.59,-53.66,157.59,-53.66,157.95,-56.97,157.95,-56.97,157.58,-62.45,157.58,-62.45,163.44,-74.14,163.44,
@@ -1261,7 +1261,7 @@ wire ctl_op_ldx_m1:dec
 	@-36.73,213.17,-37.45,213.17,-37.45,213.55,-40.97,213.55,-40.97,213.77,-42.47,213.77,-42.47,213.55,-54.48,213.55
 	"Opcode is \"LDX (nn), A\" or \"LDX A, (nn)\" instruction ($ea, $fa) at machine cycle 1.";
 
-wire dec1_y107:dec
+wire ~dec1_y107:dec
 	dec1_not54.y
 	@-38.03,215.02,-40.94,215.02,-40.94,214.81,-56.89,214.81
 	"Spare signal. (At machine cycle 1 or 5.)";
@@ -1511,7 +1511,7 @@ wire ~ctl_reg_wz_to_reg_pc_en:dec
 	@-53.17,122.38,-53.11,157.94,-48.72,157.94,-48.66,206.42,-48.66,215.22,-49.17,215.22
 	@-48.66,206.42,-55.27,206.42,-55.27,204.08,-61.03,204.08;
 
-wire ~dec2_y30:dec
+wire ~ctl_reg_gp_we_mask:dec
 	decoder2.y30 -> dec2_not31.in
 	@-48.67,109.48,-48.78,109.48,-48.78,114.89,-48.22,114.89,-47.55,115.61,-46.44,115.61,-46.03,115.98,-45.88,214.30,
 	 -45.88,215.16
@@ -1890,13 +1890,15 @@ wire ctl_op_inc_or_dec_m_buf:dec
 	 -100.52,147.61,-100.53,110.06,-100.41,110.06,-100.41,106.39,-100.56,106.39,-100.56,104.73,-100.95,104.73,
 	 -100.95,91.13,-101.70,91.13,-101.77,29.78;
 
-wire dec2_y30:dec
+wire ctl_reg_gp_we_mask:dec
 	dec2_not31.y -> decoder3.in60 decoder3.in71
 	@-58.55,210.64,-59.89,210.64
 	@-59.11,210.64,-59.11,210.23,-64.20,210.23,-64.20,208.48,-71.89,208.48,-71.89,210.28,-100.44,210.30,-100.52,155.81
 	@-67.52,208.48,-67.53,183.28,-74.14,183.28
 	@-74.14,195.36,-74.14,172.34
-	@-74.14,175.11,-74.70,175.11,-74.70,176.36,-86.23,176.36,-86.23,172.17;
+	@-74.14,175.11,-74.70,175.11,-74.70,176.36,-86.23,176.36,-86.23,172.17
+	"Masks the WE signals for all general purpose registers (A, B, C, D, E, H and L). For some reason it is asserted "
+	"for instructions like NOP, STOP, HALT, DI and EI as well.";
 
 wire ~ctl_op_rlx_or_slx:dec
 	decoder3.y1 dec3_not1.in
@@ -1954,7 +1956,7 @@ wire ~ctl_alu_inv_cin:dec
 	@-90.23,129.30,-94.13,129.30,-94.13,128.97,-102.17,128.97,-102.17,129.55,-105.14,129.55,-105.14,129.72,
 	 -107.28,129.72;
 
-wire ~dec3_y14:dec
+wire ~ctl_op_inc_or_dec_ss_or_ld_dd_nn_or_pop_qq_exec:dec
 	decoder3.y14 dec3_not14.in
 	@-76.59,130.81,-93.08,130.81,-93.08,131.00,-102.53,131.00,-102.53,130.63,-105.11,130.63,-105.11,130.47,
 	 -107.27,130.47;
@@ -2051,7 +2053,7 @@ wire ~ctl_reg_a_to_op2_en:dec
 	decoder3.y36 dec3_not36.in
 	@-79.56,165.08,-102.59,165.08,-102.59,166.20,-105.08,166.20,-105.08,166.36,-107.39,166.36;
 
-wire ~dec3_y37:dec
+wire ~ctl_op_cb_rxx_or_sxx_or_swap_or_set_or_res_exec:dec
 	decoder3.y37 dec3_not37.in
 	@-90.16,167.58,-98.69,167.58,-98.69,167.27,-102.64,167.27,-102.64,167.50,-105.09,167.50,-105.09,167.30,
 	 -107.25,167.30;
@@ -2077,7 +2079,7 @@ wire ~ctl_reg_l_we:dec
 	@-80.14,175.83,-89.47,175.83,-89.47,176.05,-95.36,176.05,-95.36,175.86,-101.58,175.86,-101.58,175.66,
 	 -103.13,175.66,-103.13,175.13,-105.09,175.13,-105.09,174.94,-107.34,174.94;
 
-wire ~dec3_y42:dec
+wire ~ctl_op_reti_m3:dec
 	decoder3.y42 dec3_not42.in
 	@-95.06,179.13,-105.06,179.13,-105.06,179.31,-107.25,179.31;
 
@@ -2305,10 +2307,12 @@ wire ctl_alu_inv_cin:dec
 	 -90.70,93.81,-90.16,93.81,-90.22,30.52
 	"Configures the ALU to invert the carry input when executing SUB, SBC, CP or DEC instructions.";
 
-wire dec3_y14:dec
+wire ctl_op_inc_or_dec_ss_or_ld_dd_nn_or_pop_qq_exec:dec
 	dec3_not14.y -> decoder3.in4
 	@-108.02,130.77,-108.02,131.00,-105.84,131.00,-105.84,131.20,-103.86,131.20,-103.86,131.38,-92.30,131.38,
-	 -92.27,162.52,-96.67,162.52,-96.63,194.28;
+	 -92.27,162.52,-96.67,162.52,-96.63,194.28
+	"Opcode is \"INC ss\" or \"DEC ss\" instruction ($03, $0b, $13, $1b, $23, $2b, $33, $3b) at machine cycle 0; "
+	"or \"LD dd, nn\" or \"POP qq\" instruction ($01, $11, $21, $31, $c1, $d1, $e1, $f1) at machine cycle 2.";
 
 wire ctl_op_inc_or_dec_m_or_ld_or_halt:dec
 	dec3_not15.y -> decoder3.in5
@@ -2511,11 +2515,15 @@ wire ctl_reg_a_to_op2_en:dec
 	"Drives register A to OP2 during any ALU or load instruction that has A as second operand; or during "
 	"machine cycle 1 of \"PUSH AF\" instruction.";
 
-wire dec3_y37:dec
+wire ctl_op_cb_rxx_or_sxx_or_swap_or_set_or_res_exec:dec
 	dec3_not37.y -> decoder3.in21
 	@-107.97,167.59,-107.97,167.86,-105.81,167.86,-105.81,168.02,-103.84,168.02,-103.84,167.81,-102.34,167.81,
 	 -102.34,167.63,-99.41,167.63,-99.41,168.00,-88.97,168.00,-88.97,167.59,-80.11,167.59,-79.91,167.81,
-	 -75.77,167.81,-75.73,195.31;
+	 -75.77,167.81,-75.73,195.31
+	"Opcode is any of the shift/rotate/swap instructions ($00-$3f) from the CB table; "
+	"or \"RES b, r\" or \"SET b, r\" instruction ($80-$ff w/o $x6, $xe) from the CB table at machine cycle 0; "
+	"or \"RES b, (HL)\" or \"SET b, (HL)\" instruction ($86, $8e, $96, $9e, $a6, $ae, $b6, $be, $c6, $ce, $d6, "
+	"$de, $e6, $ee, $f6, $fe) from the CB table at machine cycle 1.";
 
 wire ctl_alu_to_db_en:dec
 	dec3_not38.y -> dbus_bridge[0].inj_en dbus_bridge[1].inj_en dbus_bridge[2].inj_en dbus_bridge[3].inj_en
@@ -2564,13 +2572,14 @@ wire ctl_reg_l_we:dec
 	 -225.67,54.78,-235.33,54.78,-235.33,52.95,-237.86,52.95,-237.86,54.78,-239.86,54.78
 	"Write enable signal for register L.";
 
-wire dec3_y42:dec
+wire ctl_op_reti_m3:dec
 	dec3_not42.y -> znda.in2 zbpp.in4
 	@-107.98,179.02,-107.98,178.77,-105.80,178.77,-105.80,178.59,-103.80,178.59,-103.80,178.03,-75.78,178.03,
 	 -75.78,178.20,-74.14,178.20,-73.70,177.83,-72.52,177.83,-72.52,177.47,-66.47,177.47,-66.47,199.88,-68.64,199.88,
 	 -70.09,201.36,-74.13,201.36,-74.13,223.22,-83.41,223.22,-83.41,226.34,-88.34,226.34,-88.34,232.02,-87.61,232.02,
 	 -87.61,241.69,-90.55,241.69,-90.55,242.78,-105.94,242.78,-121.69,242.83,-121.69,245.91
-	@-105.94,242.78,-105.94,245.33;
+	@-105.94,242.78,-105.94,245.33
+	"Opcode is RETI instruction ($d9) at machine cycle 3.";
 
 wire ctl_reg_hl_to_idu_en:dec
 	dec3_not43.y -> reg_hl_out[0].ena1 reg_hl_out[1].ena1 reg_hl_out[2].ena1 reg_hl_out[3].ena1 reg_hl_out[4].ena1
