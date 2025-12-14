@@ -26708,7 +26708,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin open_collector inverted
 					(at 6.35 0 180)
 					(length 3.81)
 					(name "~"
@@ -74763,75 +74763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SM83_Decoders:NOT_OD")
-		(at 96.52 373.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e8e31a5-0d79-496f-bac5-01ece57821b7")
-		(property "Reference" "U?"
-			(at 96.52 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NOT_OD"
-			(at 96.52 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 381 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Open-drain inverter."
-			(at 96.52 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b65b7aa-2c95-41cc-9fc4-3173067b95ea")
-		)
-		(pin "2"
-			(uuid "1f70dda3-a1dd-4312-94dd-39cead364b85")
-		)
-		(instances
-			(project ""
-				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/88dfb20a-107a-45c1-8e80-cb3f4ae5577b"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SM83_Decoders:AND4")
 		(at 213.36 234.95 0)
 		(unit 1)
@@ -81460,6 +81391,75 @@
 		)
 		(instances
 			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/88dfb20a-107a-45c1-8e80-cb3f4ae5577b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Decoders:NOT_OD")
+		(at 96.52 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd786af3-b0cb-42e8-b7b9-b5d5d9ee8306")
+		(property "Reference" "U?"
+			(at 96.52 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NOT_OD"
+			(at 96.52 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain inverter."
+			(at 96.52 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bd70398-41fa-4b2b-9ff5-41fcb525e130")
+		)
+		(pin "1"
+			(uuid "029b9712-18e3-4243-a657-3641448cd4ca")
+		)
+		(instances
+			(project ""
 				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/88dfb20a-107a-45c1-8e80-cb3f4ae5577b"
 					(reference "U?")
 					(unit 1)
