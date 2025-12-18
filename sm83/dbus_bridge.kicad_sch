@@ -1,0 +1,6113 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27fff424-592c-4150-9ece-41ae3d99d938")
+	(paper "A4")
+	(title_block
+		(title "SM83 CPU")
+		(date "2025-12-08")
+		(rev "0")
+		(company "CC-BY-SA-4.0 Michael Singer")
+		(comment 1 "https://github.com/msinger/dmg-schematics")
+	)
+	(lib_symbols
+		(symbol "B2B_WAND_INJ_A_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_1_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_1_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_2_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_2_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_3_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_3_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_4_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_4_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_5_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_5_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_6_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_6_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "B2B_WAND_INJ_A_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_7_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_7_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:B2B_WAND_INJ_A"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B2B_WAND_INJ_A"
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_0_1"
+				(rectangle
+					(start -6.35 6.985)
+					(end 6.35 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "B2B_WAND_INJ_A_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{PCH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "INJ_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "INJ_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:NAND2_OD_A_DBUS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NAND2_OD_A_DBUS"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open-drain NAND gate with two inputs."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND2_OD_A_DBUS_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7825 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:NAND2_OD_B_DBUS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NAND2_OD_B_DBUS"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open-drain NAND gate with two inputs."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NAND2_OD_B_DBUS_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7825 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 1.905 1.27) (xy 0.635 0) (xy 1.905 -1.27) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM83_Cells:NOT_DBUS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NOT_DBUS"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple inverter."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NOT_DBUS_1_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "DBUS_BRIDGE pulls both sides (A and B) high when ~{PCH} is low.\nWhen ~{PCH} is high, it behaves like a latch. Whenever one side\ngets pulled low, DBUS_BRIDGE actively pulls both sides low until\n~{PCH} goes low again."
+		(exclude_from_sim no)
+		(at 186.69 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ce11c35a-bd41-46ef-b34f-f9f4640a0153")
+	)
+	(junction
+		(at 76.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282838cf-f276-42d4-9a4c-19159f904fa4")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6736e5-48d2-4754-9155-611b9c704a84")
+	)
+	(junction
+		(at 76.2 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51665b48-a26f-4661-9cb7-77f0b5d9e594")
+	)
+	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e10784a-9d58-40c3-894e-900c7fb8f4fd")
+	)
+	(junction
+		(at 76.2 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc8fd32-cff4-449c-beba-025d72e38c34")
+	)
+	(junction
+		(at 127 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75fd66cc-0de0-45db-9002-3357ed489282")
+	)
+	(junction
+		(at 76.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d1afd63-83fe-4c93-8341-442eb54cb4bb")
+	)
+	(junction
+		(at 129.54 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30cfdad-387b-4763-8b8a-1729544a4a22")
+	)
+	(junction
+		(at 76.2 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e313d09e-d13c-497c-bd1c-c52e031db83c")
+	)
+	(junction
+		(at 76.2 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f540d479-24a9-4718-a6d8-8d7d75ee54c4")
+	)
+	(bus_entry
+		(at 104.14 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a817420-5f97-4ce5-a371-c30b17c3fef6")
+	)
+	(bus_entry
+		(at 104.14 147.32)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b012304-31ac-46c1-9d8a-950c0377fe03")
+	)
+	(bus_entry
+		(at 104.14 166.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c808f62-5055-4629-b3b3-3df3b5c46a5e")
+	)
+	(bus_entry
+		(at 104.14 128.27)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea4d65d-fa8b-44b4-8742-40ee65427db0")
+	)
+	(bus_entry
+		(at 104.14 185.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33899920-e69d-4727-91ba-08869b563c64")
+	)
+	(bus_entry
+		(at 46.99 123.19)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3435b64d-2238-4e81-9055-cb71fe763efc")
+	)
+	(bus_entry
+		(at 162.56 175.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367a5421-b2c9-4b9a-a851-a2638d6d4026")
+	)
+	(bus_entry
+		(at 162.56 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43de8a14-ecab-4239-9cf1-f69a826831c4")
+	)
+	(bus_entry
+		(at 106.68 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4518c8da-4173-4ee8-beff-eccfa1f94382")
+	)
+	(bus_entry
+		(at 104.14 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b6bc9a-fff9-4e27-b7be-8fc049f66878")
+	)
+	(bus_entry
+		(at 162.56 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4799b472-a6dc-4495-8236-4e760520e5af")
+	)
+	(bus_entry
+		(at 46.99 142.24)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3cb544-3ce7-414b-b6dd-b91656c2a5c3")
+	)
+	(bus_entry
+		(at 109.22 44.45)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5748af6d-34f0-43d1-9fde-c444be2da985")
+	)
+	(bus_entry
+		(at 162.56 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603fd5c8-6ed3-41f2-a8dc-a9aa6e2de85e")
+	)
+	(bus_entry
+		(at 109.22 139.7)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3073b9-c1a6-4ac7-ba96-49af454f4985")
+	)
+	(bus_entry
+		(at 106.68 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74930678-ca0d-4bf2-aa0d-dea02416cfd3")
+	)
+	(bus_entry
+		(at 109.22 158.75)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a30c38f-67b5-4ac5-a000-1cd579fea9b2")
+	)
+	(bus_entry
+		(at 104.14 109.22)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fbe81-34f2-4137-9e3d-aa3439a2b9c2")
+	)
+	(bus_entry
+		(at 109.22 120.65)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9561d199-94c4-4877-aa53-aee0736b29f8")
+	)
+	(bus_entry
+		(at 106.68 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cca5ac-32d1-41ac-b9e0-47a67b9ed3a0")
+	)
+	(bus_entry
+		(at 46.99 85.09)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7b850f-235b-4ffd-84cc-ea9e9196cce2")
+	)
+	(bus_entry
+		(at 104.14 52.07)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b514644c-5653-453f-b377-b5324cd381c0")
+	)
+	(bus_entry
+		(at 46.99 180.34)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb30e596-c6a7-40c1-a8b1-32caedb69b40")
+	)
+	(bus_entry
+		(at 46.99 66.04)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb36400a-faf8-4711-9e44-384e3430a02c")
+	)
+	(bus_entry
+		(at 106.68 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba131cc-7c16-4f0f-ae9b-f0191e9a5365")
+	)
+	(bus_entry
+		(at 109.22 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03bc5f1-0f1d-480d-b166-f99edb2dad8f")
+	)
+	(bus_entry
+		(at 46.99 161.29)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e425a0-8f55-417f-b932-a418f9bf3913")
+	)
+	(bus_entry
+		(at 46.99 46.99)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c643a55f-d6c6-4a7f-8e00-850c21d2e74d")
+	)
+	(bus_entry
+		(at 109.22 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b02c0a-e043-42bc-ad64-22fa01f5ed29")
+	)
+	(bus_entry
+		(at 46.99 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c960a0ad-9219-4bc1-a4a5-b5fbccf73fc5")
+	)
+	(bus_entry
+		(at 162.56 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27c7d06-d698-422f-b557-37951b08ef30")
+	)
+	(bus_entry
+		(at 162.56 41.91)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fd98a8-d4ec-4016-b2b3-f70bafd21c03")
+	)
+	(bus_entry
+		(at 106.68 41.91)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e166ddef-5741-449a-975e-67c23989b854")
+	)
+	(bus_entry
+		(at 109.22 177.8)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e818590e-68ed-44d4-91c2-a05ed091fb3d")
+	)
+	(bus_entry
+		(at 106.68 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e824057b-e441-4d01-a248-b7cb44193f0e")
+	)
+	(bus_entry
+		(at 162.56 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f659bfaf-9fd4-4201-b473-2d65af0ff6fe")
+	)
+	(bus_entry
+		(at 106.68 175.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f965e73c-12da-4f2c-81cf-8313627eb560")
+	)
+	(bus_entry
+		(at 162.56 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd16f611-4580-4a56-a25d-da66eb20e61f")
+	)
+	(bus_entry
+		(at 106.68 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd321d13-782e-4c7d-ba8b-0e7f563cc50f")
+	)
+	(bus_entry
+		(at 109.22 63.5)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa30fa4-b248-4a47-b761-0d301975f1d9")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0130ac0a-1cb3-4691-9a2f-149477f5142f")
+	)
+	(bus
+		(pts
+			(xy 104.14 71.12) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060f9102-8f91-40a5-b1f1-615be95b140c")
+	)
+	(wire
+		(pts
+			(xy 132.08 26.67) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08740e49-ab2b-493e-9af9-3c7f6e870499")
+	)
+	(bus
+		(pts
+			(xy 104.14 34.29) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089f4410-e12c-4f80-be21-cfa313371d07")
+	)
+	(bus
+		(pts
+			(xy 104.14 109.22) (xy 104.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097f2d67-71e8-4f3f-8417-1d09e69083dc")
+	)
+	(wire
+		(pts
+			(xy 78.74 158.75) (xy 73.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1e9469-44ca-423e-96ee-a3092ef90572")
+	)
+	(bus
+		(pts
+			(xy 46.99 123.19) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbefb68-e4c8-4eae-8092-b0da21824ed7")
+	)
+	(bus
+		(pts
+			(xy 44.45 36.83) (xy 46.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc23d14-fca0-48d6-9764-612b0a6a9860")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff15926-4484-4350-9e7c-254a379b967b")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1400bfd9-1843-4c80-9473-f361c31300c7")
+	)
+	(wire
+		(pts
+			(xy 111.76 139.7) (xy 135.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15888918-68b4-4713-8aef-cddefae278f4")
+	)
+	(bus
+		(pts
+			(xy 104.14 185.42) (xy 104.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ee93a1-5e1c-4d9f-8834-d46e4f7820c6")
+	)
+	(wire
+		(pts
+			(xy 111.76 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3f3ac6-724b-4a72-a38d-b2e1b2e3a0cf")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b52bf7a-8915-4922-9162-fd55aa0fc36b")
+	)
+	(wire
+		(pts
+			(xy 49.53 177.8) (xy 60.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6ea1c9-1d3c-4c39-a2d2-f20e6cba1a46")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 78.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8f04df-94d9-4c08-8d4f-390d6bc1f046")
+	)
+	(wire
+		(pts
+			(xy 111.76 128.27) (xy 135.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d767c3f-2c37-4c36-a959-3dbd4f1a696a")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7413f0-7714-44da-a34b-7ba14a8e2186")
+	)
+	(bus
+		(pts
+			(xy 46.99 85.09) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202cac20-f32f-4290-b20d-6289da6fb614")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 162.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227584d3-c7de-4fd0-8000-175028acfc04")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25756739-900e-442b-8755-67aa85f0f16d")
+	)
+	(wire
+		(pts
+			(xy 111.76 185.42) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e8f737-9281-4f3c-ae9a-6104b4cf3845")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f23113-f6b3-4df6-a47c-5a4e9fb6ca3b")
+	)
+	(bus
+		(pts
+			(xy 46.99 180.34) (xy 46.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d13f070-587e-4c99-ac4a-4b73c3ff01fa")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2189df-19a8-4760-8c81-6e9ed443c4f5")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f618d7d-9cc6-4219-bb68-b4343c0c7383")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 135.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32edc1b5-6972-4b8a-b269-0bdafa8a0b51")
+	)
+	(bus
+		(pts
+			(xy 109.22 44.45) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331ba06c-e53c-4991-b41f-f23a249fb0d8")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 135.89 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ed81a9-e5a7-4f1a-9bdb-2e30ebbd67cd")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3423540b-d62e-42c3-9738-30f9ec8664ae")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376d5134-acfc-443d-918b-050b5127b266")
+	)
+	(bus
+		(pts
+			(xy 44.45 31.75) (xy 109.22 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380bb4a0-6f68-46a7-b09b-e074b2eae57a")
+	)
+	(bus
+		(pts
+			(xy 109.22 63.5) (xy 109.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a18eda-02a3-4f1a-93e6-a212a07555a4")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e36a7c-5806-4fd3-b628-5d1c10ffaf96")
+	)
+	(bus
+		(pts
+			(xy 165.1 63.5) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfdc369-5353-4ed5-a811-ee771586d844")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce23884-fd1e-4cc6-8b86-d4aed5893290")
+	)
+	(bus
+		(pts
+			(xy 109.22 158.75) (xy 109.22 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41170efe-b884-417a-965a-b1aac368e8d5")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 135.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4609a111-a498-4b4c-9a5f-a61d7c47083c")
+	)
+	(bus
+		(pts
+			(xy 46.99 187.96) (xy 46.99 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497824cd-d348-483e-aa6d-6bc5edbcbb0f")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 73.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab30325-f75c-4dc8-8921-ad0a42f8e4ea")
+	)
+	(wire
+		(pts
+			(xy 111.76 158.75) (xy 135.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac295a6-d35d-440d-b7bc-6f43eaa2beaf")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 135.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9d3eb5-d61f-40d4-b03e-1f90d14383e0")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cae9499-8b6f-4cd6-9d81-7b657d6739c1")
+	)
+	(wire
+		(pts
+			(xy 106.68 144.78) (xy 135.89 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e19a52b-d2aa-4a95-aca1-0987173d3060")
+	)
+	(bus
+		(pts
+			(xy 109.22 139.7) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3debbd-c7b3-4392-addb-2973beb20eac")
+	)
+	(wire
+		(pts
+			(xy 111.76 156.21) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500f1aa6-3378-4290-a7f0-19b18670e3eb")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 135.89 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c64ffe-9687-4493-bfab-eb811d4e464a")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543c7c9a-5529-4979-be64-1a20f973a272")
+	)
+	(wire
+		(pts
+			(xy 44.45 21.59) (xy 129.54 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560e34bd-eeba-42d2-b704-74fdc6251850")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 132.08 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f92188-5447-4382-be54-2d485e4203b6")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61994493-94f7-49c2-ba72-5265c49de524")
+	)
+	(bus
+		(pts
+			(xy 165.1 101.6) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dc2842-ceb0-4690-9dec-9ffca3e9f03e")
+	)
+	(wire
+		(pts
+			(xy 111.76 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f877ca-2803-416a-9930-871e2d141118")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 106.68 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675034c5-9e5a-4870-a27f-4373c684ce67")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67868969-adf0-4d0e-9c79-4237a4a9d435")
+	)
+	(bus
+		(pts
+			(xy 104.14 147.32) (xy 104.14 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6853a9b9-cd1f-4acb-b22c-aaa35faff43b")
+	)
+	(wire
+		(pts
+			(xy 44.45 29.21) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69566b65-9557-4977-a546-c3e1904eafca")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 135.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f00941-0af3-4b96-b552-de85c97482bb")
+	)
+	(wire
+		(pts
+			(xy 129.54 46.99) (xy 135.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1f709d-f51d-425e-ba69-4b2c1ea70a09")
+	)
+	(bus
+		(pts
+			(xy 109.22 120.65) (xy 109.22 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733663d9-1790-423a-a154-11bdd6deba65")
+	)
+	(wire
+		(pts
+			(xy 76.2 153.67) (xy 76.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733b06db-9cd1-4767-af4a-75e5a191870a")
+	)
+	(bus
+		(pts
+			(xy 165.1 39.37) (xy 167.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736204a8-49c7-4615-9185-311755c75d73")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7535b603-3e4b-4e2a-85f2-7e4d15de2c71")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7875bbda-1113-40ac-9495-9c65d4be9bf0")
+	)
+	(wire
+		(pts
+			(xy 78.74 177.8) (xy 73.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e96dc9-8e7e-44fb-89e6-ca6679633b14")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6f9ef0-6926-49c5-bc79-552d4e4febd2")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4adea9-59ca-40b0-9a37-92b89ba629b0")
+	)
+	(bus
+		(pts
+			(xy 109.22 101.6) (xy 109.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f27bfc5-41dd-4677-9446-e1164ebb016a")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804d7c69-e023-4032-9b7d-aedcb816a686")
+	)
+	(bus
+		(pts
+			(xy 104.14 52.07) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ba2e40-4df2-4d5c-b2ec-8d04b92749f8")
+	)
+	(bus
+		(pts
+			(xy 165.1 120.65) (xy 165.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c48f01-3f36-4edc-a1e8-b4621d9f6681")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 60.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d3605d-5940-4c9e-9fdb-f8ec0fa2d42d")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f0b24f-85b4-4b51-9b37-fee0e2a8febf")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b7b415-b5ec-49f7-b6d1-0cc55fff729b")
+	)
+	(bus
+		(pts
+			(xy 46.99 46.99) (xy 46.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899a3b58-a634-42f2-9c63-364f5522ebe4")
+	)
+	(wire
+		(pts
+			(xy 49.53 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae265da-0fa1-42de-a69f-7f62261d9e37")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 135.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b89c411-c4d0-4fce-ac41-1c253255432c")
+	)
+	(wire
+		(pts
+			(xy 49.53 139.7) (xy 60.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7433c2-ea3b-4fa7-a165-0f3c4c8b1711")
+	)
+	(bus
+		(pts
+			(xy 165.1 177.8) (xy 165.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d85827b-09cf-4cf6-9fa0-9bbbf999c14c")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 78.74 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f48078f-ae33-44dc-8851-6c1b54d964bb")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907c249b-f989-4ef1-9086-fc3a25d01258")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9179fa22-fed9-4a3e-93e1-2ea66610ea03")
+	)
+	(wire
+		(pts
+			(xy 76.2 153.67) (xy 78.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92158cc4-ce31-4293-854e-f66ca985405d")
+	)
+	(wire
+		(pts
+			(xy 78.74 139.7) (xy 73.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94eb7ebf-9908-4b3c-adf2-450d4910625b")
+	)
+	(bus
+		(pts
+			(xy 44.45 34.29) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9504400f-a8d7-4eb6-badc-4c3b6fe25916")
+	)
+	(wire
+		(pts
+			(xy 106.68 182.88) (xy 135.89 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951b401c-d483-4668-9349-780729da6fb4")
+	)
+	(wire
+		(pts
+			(xy 156.21 118.11) (xy 162.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960eab00-e40b-4b08-9ea4-4c70d2a26e46")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9787d75b-9ff8-46a2-955b-e4b3eb563bf2")
+	)
+	(bus
+		(pts
+			(xy 165.1 39.37) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9794723e-c723-4e4e-8607-8d618ff8a2d5")
+	)
+	(bus
+		(pts
+			(xy 109.22 177.8) (xy 109.22 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a42a76-5a56-42e0-886d-7d767bf6cc97")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 78.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e885ed8-87f3-4874-bb6c-72faf85aa615")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20d36c0-ebf0-4dcc-9da8-ffc4b31e2380")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 162.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36cc36c-dbc2-4d3b-8a4d-9f330b8053f3")
+	)
+	(wire
+		(pts
+			(xy 49.53 44.45) (xy 60.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43dee6a-4c46-43a5-8b70-27a69bcee323")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45001cb-47a5-42a2-83a4-5e17ee30eb82")
+	)
+	(bus
+		(pts
+			(xy 104.14 166.37) (xy 104.14 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a589d2f2-950c-4339-ae20-33f8eadad129")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a230e8-59cf-4e7a-af23-21b4feda5f22")
+	)
+	(wire
+		(pts
+			(xy 49.53 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e82ad7-02b3-4b4d-a56d-afb67a43f834")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe3d6d3-5cab-499d-8ed6-78c2a6932017")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 135.89 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf627f7-5587-4939-ab8d-85ea64b6a68c")
+	)
+	(wire
+		(pts
+			(xy 156.21 156.21) (xy 162.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32b3e4d-a468-432e-bffa-6d569f7636aa")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b870923d-3517-4db0-839c-783dbb46edae")
+	)
+	(bus
+		(pts
+			(xy 104.14 128.27) (xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad66172-6be5-4714-97ef-ff48cfe94aa5")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb61e69b-5241-4462-b44b-34664a0a95b8")
+	)
+	(bus
+		(pts
+			(xy 165.1 139.7) (xy 165.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01804ae-3a1a-4088-b303-c472b3bb0a47")
+	)
+	(bus
+		(pts
+			(xy 46.99 104.14) (xy 46.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d51509-2e9f-4275-9009-a8a07ce75d06")
+	)
+	(bus
+		(pts
+			(xy 46.99 161.29) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12e8bd1-39c2-43f8-9cf6-2fc4f9eeaa91")
+	)
+	(wire
+		(pts
+			(xy 44.45 24.13) (xy 127 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5859531-c7a6-40c6-848f-21f46cb911ea")
+	)
+	(bus
+		(pts
+			(xy 165.1 158.75) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a7f2b1-3f2a-4080-ba52-e86a156700e2")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca650c44-2cd4-46da-b08f-297bc78c9b88")
+	)
+	(bus
+		(pts
+			(xy 46.99 142.24) (xy 46.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5489d0-79fd-49f1-b9a3-81a270779399")
+	)
+	(bus
+		(pts
+			(xy 104.14 90.17) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5b4073-02bf-45cd-8037-c90d7a0ecb79")
+	)
+	(wire
+		(pts
+			(xy 93.98 118.11) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff59fbc-add3-4780-9af5-5d9ca028d9e8")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 78.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d007eea3-58e1-4800-909b-dbf9ae519d48")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d209f89a-f6ac-4e65-8f55-1c9724c7907b")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ed54df-a65d-42b7-a1b5-6aac784ddd6f")
+	)
+	(wire
+		(pts
+			(xy 156.21 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a7d33b-8882-4ccb-9374-be2e9615b136")
+	)
+	(wire
+		(pts
+			(xy 129.54 21.59) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80366af-fa6b-4be6-8345-a27c9e76112a")
+	)
+	(wire
+		(pts
+			(xy 111.76 177.8) (xy 135.89 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d937eca0-1c73-4f74-b9b1-67ac9f40f36d")
+	)
+	(bus
+		(pts
+			(xy 165.1 82.55) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db87382d-c6b7-4e29-bba9-38a4bac0a17d")
+	)
+	(bus
+		(pts
+			(xy 46.99 66.04) (xy 46.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde32c7d-8425-4573-bc58-e55135b6b1a6")
+	)
+	(wire
+		(pts
+			(xy 49.53 120.65) (xy 60.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def823af-8be5-4b01-87fc-f471272da076")
+	)
+	(bus
+		(pts
+			(xy 109.22 31.75) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d59da0-8e47-4987-b4c9-2cde654a6096")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e0898a-fbb0-4afe-b57d-b36fb67c81f9")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 106.68 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3079979-8648-4bea-ac86-55fb6d9e0084")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31c29c8-84f1-418a-97a4-bf432b778d1c")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e914416f-60cf-4775-a4df-ff5bb4e3e44a")
+	)
+	(wire
+		(pts
+			(xy 156.21 175.26) (xy 162.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab9f1c1-c7be-4f7b-a4bf-4f6e78c8a63a")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede32685-4954-423e-9525-9db79273512b")
+	)
+	(bus
+		(pts
+			(xy 165.1 44.45) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efde7fae-73d2-4e5a-ac04-d0cb9d4aa506")
+	)
+	(wire
+		(pts
+			(xy 111.76 180.34) (xy 135.89 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f59c5d-015a-4563-a511-9daa74108e22")
+	)
+	(wire
+		(pts
+			(xy 111.76 175.26) (xy 135.89 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b18508-b288-45d4-b4e1-74f9d94284af")
+	)
+	(wire
+		(pts
+			(xy 127 24.13) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d061a4-1397-49cd-b009-42dcd7ea0c58")
+	)
+	(bus
+		(pts
+			(xy 109.22 82.55) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82196b0-ad9b-45a1-a0b7-3136f62c9ab9")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c9fbeb-49ba-4fab-90b9-ce136e06e352")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa33ebec-1b00-4f99-a3cf-c1215dd92fdc")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3ecc9b-547a-4ef0-aede-1274fe5c4358")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 135.89 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2acee8-4e5c-45fc-a7fe-4f9a3430320d")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0151ffb0-dfad-4d68-94ec-9a05ae64be58")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "092a71a3-9da9-4f04-9aca-e39b88bdbc00")
+	)
+	(label "RES0"
+		(at 111.76 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09bffa1e-eab8-4ff4-b66f-a9aea6d1d745")
+	)
+	(label "OP2VAL1"
+		(at 49.53 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b9bc55d-9ac8-4249-af74-0002d0eb181c")
+	)
+	(label "DB1"
+		(at 101.6 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18154a91-b112-43d4-8de9-73336f5b9f0e")
+	)
+	(label "D4"
+		(at 162.56 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b79c4fc-364c-49d9-a505-e1dca8600e6d")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f4805d-72c0-413c-995b-e08622480244")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29ebcead-030f-48d5-bfef-d1d5c7df43fb")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f32f5e3-0721-4936-b059-ce0c6232465b")
+	)
+	(label "OP2VAL5"
+		(at 49.53 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "333d36f7-8e84-4cb9-87bf-21a6f2134fd9")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39ba7714-02cb-46d2-9505-cabe6189e225")
+	)
+	(label "DB7"
+		(at 111.76 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a1a19be-36fc-4bc4-bafd-36ba153e86d2")
+	)
+	(label "DB4"
+		(at 111.76 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f39f746-026a-4a11-9701-be21ac59fc0d")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40cb9921-8e89-4595-8fb5-05f49c19a478")
+	)
+	(label "DB3"
+		(at 111.76 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4467c64d-f38a-404e-ad6e-0b0e80b1f724")
+	)
+	(label "DB6"
+		(at 101.6 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4582b604-e8af-470d-bcfd-d4fe54d78b6b")
+	)
+	(label "RES4"
+		(at 111.76 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49b61500-4925-493c-b7ef-32acf9c71a56")
+	)
+	(label "RES6"
+		(at 111.76 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a36bb00-af31-462b-9214-b032055ea2f6")
+	)
+	(label "DB2"
+		(at 111.76 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dae04ad-66e2-4644-8acb-dc8e29266bcd")
+	)
+	(label "OP2VAL3"
+		(at 49.53 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4de4291f-4bb8-484e-95f8-77e7c63adfa4")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "516c5c8d-b73c-40dd-a1d3-2c4aa53a0d6a")
+	)
+	(label "D5"
+		(at 162.56 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5523ec6d-75c3-4111-8e63-a11ba23311f7")
+	)
+	(label "DB1"
+		(at 111.76 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57376efa-57c2-4485-aec7-3b8dbd8fda88")
+	)
+	(label "DB3"
+		(at 101.6 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b2b72f8-642e-418d-920a-511a069a0fbe")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60da97df-0800-4f4e-a626-71fa7cb853bf")
+	)
+	(label "~{OE}"
+		(at 111.76 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62ae11d5-e489-4192-b04e-edccb6204fda")
+	)
+	(label "~{OE}"
+		(at 111.76 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c475c2e-a359-401d-9782-19d046e317d8")
+	)
+	(label "~{OE}"
+		(at 111.76 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c52564f-a822-4130-823e-a3a15f761396")
+	)
+	(label "RES7"
+		(at 111.76 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d448290-2695-42b5-8bc2-6eb0f2724f18")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73391a7c-b3c6-4ee6-9b44-9a2e5bac2b77")
+	)
+	(label "DB0"
+		(at 101.6 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78d5c73a-c298-48d5-9d0d-658306ae8397")
+	)
+	(label "DB5"
+		(at 101.6 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b0c3999-739a-4e32-8f38-c966b3688681")
+	)
+	(label "~{OE}"
+		(at 111.76 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b2d7738-5e38-4a5c-96ab-0bcf5b681e4b")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d8418ec-043d-43e9-9743-5f372183c64e")
+	)
+	(label "~{OE}"
+		(at 111.76 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2957b6-b4bf-4834-9363-2609c7c7d4f1")
+	)
+	(label "RES5"
+		(at 111.76 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b1a52d4-1d1f-4543-9233-b095a9b7e61d")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d4abdbe-7822-4390-a32d-04b610bb03a3")
+	)
+	(label "OP2VAL2"
+		(at 49.53 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92285c1c-f37c-4468-b556-d61dcd92ab4a")
+	)
+	(label "OP2VAL7"
+		(at 49.53 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d879a9f-5fb7-4897-9be8-bf98fdb911e4")
+	)
+	(label "DB0"
+		(at 111.76 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9deff27b-d365-4b49-b742-d000cbae6d5e")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a162b465-5f77-4cb4-bd1d-d881e169a40a")
+	)
+	(label "OP2VAL6"
+		(at 49.53 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a45ac6ab-f4e9-4fb8-a108-962623b32242")
+	)
+	(label "DB6"
+		(at 111.76 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c7c567-5f2a-4497-bc23-2981bbe5ca23")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1d646e-899a-47fd-bf09-fff6c2bc6ffb")
+	)
+	(label "~{OE}"
+		(at 111.76 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad61f9f3-4e53-48bd-a429-07f57766b029")
+	)
+	(label "~{OE}"
+		(at 111.76 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b05bee28-a555-4357-b7e4-433c47de2920")
+	)
+	(label "D7"
+		(at 162.56 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfbacdc6-3fcf-4bd4-bd62-3ea3c026f4b1")
+	)
+	(label "RES3"
+		(at 111.76 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca540152-28d5-4d41-a0d0-0436d0280efd")
+	)
+	(label "EXEC_PHASE"
+		(at 111.76 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cacbe0f7-92cb-45c3-a0fc-e60a4f95c710")
+	)
+	(label "D1"
+		(at 162.56 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2a22fb1-eaa1-45d2-9238-8e893bddca19")
+	)
+	(label "DB2"
+		(at 101.6 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5c3045f-49aa-4f2d-b8f0-6cf45dcfc3f6")
+	)
+	(label "DB7"
+		(at 101.6 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7740434-a183-448f-94c2-66a14ce9fcef")
+	)
+	(label "D6"
+		(at 162.56 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d899349f-5421-4e32-9d28-d2603a51cd91")
+	)
+	(label "DB4"
+		(at 101.6 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da588110-65f0-4b15-b07e-08c5a2c84bb0")
+	)
+	(label "OP2VAL0"
+		(at 49.53 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbb82b6c-ae0a-4eeb-a5bf-de689a7aad45")
+	)
+	(label "DB5"
+		(at 111.76 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbe10418-92ce-4d40-b313-f94a60dcbad6")
+	)
+	(label "OP2VAL4"
+		(at 49.53 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df0e428e-2a19-418c-8756-0377f5070532")
+	)
+	(label "RES1"
+		(at 111.76 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e18f5162-cf7d-48be-8483-edd48ac446b8")
+	)
+	(label "RES2"
+		(at 111.76 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaa1c604-905c-4a39-a9a2-b26cae436ab1")
+	)
+	(label "~{OE}"
+		(at 111.76 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eec41c84-a31d-4ef8-8cad-460c0b0d0ed3")
+	)
+	(label "D0"
+		(at 162.56 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac0d67a-ef2b-467c-9a5a-5da545f4e4bc")
+	)
+	(label "D2"
+		(at 162.56 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faea3d98-4476-41a9-9e50-583659b5f4ce")
+	)
+	(label "D3"
+		(at 162.56 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faeb9779-f785-4e10-930d-69d93b9e9769")
+	)
+	(label "CTL_ALU_TO_DB_EN"
+		(at 111.76 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff90451e-5c32-4a02-b2e1-4bca68a9205c")
+	)
+	(hierarchical_label "D[0..7]"
+		(shape bidirectional)
+		(at 167.64 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0649460b-d6ca-4e20-af5d-7ae4aef86e74")
+	)
+	(hierarchical_label "~{OE}"
+		(shape input)
+		(at 44.45 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "200ee79c-724f-4923-bfc7-3b7631815dc1")
+	)
+	(hierarchical_label "CTL_OP2_TO_DB_EN"
+		(shape input)
+		(at 44.45 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a13738d-9817-43ca-adb1-45db45ab805e")
+	)
+	(hierarchical_label "DB[0..7]"
+		(shape bidirectional)
+		(at 44.45 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59ee580b-13a7-48c5-8df1-7152595cc245")
+	)
+	(hierarchical_label "RES[0..7]"
+		(shape input)
+		(at 44.45 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73b822f4-4c34-456f-b9a2-fe6f601f4acb")
+	)
+	(hierarchical_label "EXEC_PHASE"
+		(shape input)
+		(at 44.45 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82835121-ac0f-4450-8183-6441ef67570f")
+	)
+	(hierarchical_label "CTL_ALU_TO_DB_EN"
+		(shape input)
+		(at 44.45 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b142f561-dda0-4abd-b5eb-53f002f0904c")
+	)
+	(hierarchical_label "OP2VAL[0..7]"
+		(shape input)
+		(at 44.45 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f66b175d-83ef-46be-bc16-73d8bcb83265")
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_B_DBUS")
+		(at 86.36 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a9a098-eaec-4f8f-9f4a-19e947f5a0ab")
+		(property "Reference" "DBUS_NAND1"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_B_DBUS"
+			(at 86.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2ba8b967-5174-473e-bf06-b6cd9a477884")
+		)
+		(pin "1"
+			(uuid "cf4db869-3754-4695-ad08-2d2cd7605fe4")
+		)
+		(pin "2"
+			(uuid "0e73c196-7594-4569-b1b5-2506a50cd10a")
+		)
+		(instances
+			(project ""
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1298efcb-633e-42aa-a36d-37c67a8a77f2")
+		(property "Reference" "DBUS_NOT3"
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90970c5e-8ecd-46c3-bba7-36030123cdd4")
+		)
+		(pin "2"
+			(uuid "90b15d0f-f84b-4019-9011-a5296aaee7ca")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_A_DBUS")
+		(at 86.36 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12e2e028-4c31-43d9-aee6-7aa6c8c13f96")
+		(property "Reference" "DBUS_NAND6"
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_A_DBUS"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7c8cee7-ee41-4e6a-8dda-dbdc8c61af65")
+		)
+		(pin "2"
+			(uuid "650660b5-0301-4924-b7b4-1805a7a1be42")
+		)
+		(pin "1"
+			(uuid "7c0ef5df-e966-4c4a-92d1-52e1a8a82b70")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_1")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ba5db37-3cbc-4837-8548-1d8205d989b1")
+		(property "Reference" "DBUS_BRIDGE1"
+			(at 146.05 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "27c900ad-bc0c-4e07-9499-e7cd679f8303")
+		)
+		(pin ""
+			(uuid "f9c0e961-c903-4b8d-86c1-b61252d11fd2")
+		)
+		(pin ""
+			(uuid "73dac9d1-97ad-4863-a009-5e57a103a881")
+		)
+		(pin ""
+			(uuid "00f46477-f588-43ed-944a-930a8a4dd90e")
+		)
+		(pin ""
+			(uuid "f537bb5d-2316-480d-90b9-649927a0f08e")
+		)
+		(pin ""
+			(uuid "689123c7-24cf-44fe-b3ee-a625bad0ae63")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_B_DBUS")
+		(at 86.36 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "360cc724-56a7-451c-8dc2-a3446a563a40")
+		(property "Reference" "DBUS_NAND3"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_B_DBUS"
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79b50250-2043-4ba4-9ecb-62bbbe74ca00")
+		)
+		(pin "1"
+			(uuid "0919ea7d-df5f-4ad1-a2ed-8cf37bfe4636")
+		)
+		(pin "2"
+			(uuid "4eccf7e7-8860-4b74-8b3a-d27adeda2e3f")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a35ea7a-9864-46a1-812b-4aed247d5e0a")
+		(property "Reference" "DBUS_NOT5"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4a6572b-2200-4f23-be7d-815bc5c88d83")
+		)
+		(pin "2"
+			(uuid "93a4b250-fb33-4dba-9738-e38bc6a87f76")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a788c6-cfdf-4a62-bd40-b230e0b9ebdc")
+		(property "Reference" "DBUS_NOT1"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768827fe-dd62-4101-8418-bd7947a95a91")
+		)
+		(pin "2"
+			(uuid "6414a761-be1f-4a48-bc18-7b885e30113e")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55fdbf6e-2e7b-4953-bcd6-2b97a60cb382")
+		(property "Reference" "DBUS_BRIDGE0"
+			(at 146.05 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e296e442-b352-4585-8b2f-2fe9c8de05c4")
+		)
+		(pin ""
+			(uuid "02008700-3906-4eb2-bc07-54227b1fd065")
+		)
+		(pin ""
+			(uuid "7dbd19e5-e7ed-436f-962c-5fe679a9fe4c")
+		)
+		(pin ""
+			(uuid "0975902d-e3a9-49a3-b437-33173d9ac3de")
+		)
+		(pin ""
+			(uuid "d06b2e86-a7bd-4c2a-bb64-62b38c09f3e3")
+		)
+		(pin ""
+			(uuid "28393465-9ec5-420b-abe8-8a31e8554517")
+		)
+		(instances
+			(project ""
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57897fa3-eba5-43df-97de-c4833832f60e")
+		(property "Reference" "DBUS_NOT6"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59eb823-6b18-4414-97dc-e21c5f4b8bc1")
+		)
+		(pin "2"
+			(uuid "6c4c453b-1a6e-4e08-b49d-6e02109a1259")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_6")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "587ea69b-4951-4781-a9c0-2e2d7135cc25")
+		(property "Reference" "DBUS_BRIDGE4"
+			(at 146.05 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2a3d633d-a922-485e-acbe-00943e70bdec")
+		)
+		(pin ""
+			(uuid "3ee7023a-cb3e-4974-a65c-07139685ec2f")
+		)
+		(pin ""
+			(uuid "2a9f917a-2e44-421f-a3a9-78caa39a7edb")
+		)
+		(pin ""
+			(uuid "83f90d66-daf3-4013-967a-1a1d40c5cc1c")
+		)
+		(pin ""
+			(uuid "34fd8a74-1ab0-4daa-b4d6-1873acc5d3e1")
+		)
+		(pin ""
+			(uuid "2ab4ee37-5868-465d-bec2-5fb34dfc164e")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_B_DBUS")
+		(at 86.36 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7787d16c-0a1f-406a-94cd-419f9116beca")
+		(property "Reference" "DBUS_NAND5"
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_B_DBUS"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "11ed4d1c-a185-4d43-ac49-eabec7215bd9")
+		)
+		(pin "1"
+			(uuid "e8238abc-01a5-4da6-8dff-04cf861695ea")
+		)
+		(pin "2"
+			(uuid "a54ecb4a-297c-42f1-9636-f8df1e451604")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_A_DBUS")
+		(at 86.36 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7892cf08-52dd-4393-a24a-47b156d69e08")
+		(property "Reference" "DBUS_NAND2"
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_A_DBUS"
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cf707602-3f12-42af-978a-cd0b4b254cfb")
+		)
+		(pin "2"
+			(uuid "09a9b270-f0fd-4d23-8290-2fc6dedcd0d9")
+		)
+		(pin "1"
+			(uuid "c87ffe5c-7e50-4d7f-8c78-90b8c28ed342")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "962fd9e9-38c4-4888-a1f0-b15d8c996566")
+		(property "Reference" "DBUS_NOT4"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "004b4ebc-6618-4c0f-a88d-ca30c2fadb18")
+		)
+		(pin "2"
+			(uuid "0f4f6178-dced-465a-b0f7-04f6788471c4")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa671e50-0bad-4505-9d52-c7a730b7d9ac")
+		(property "Reference" "DBUS_NOT2"
+			(at 67.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd79f57c-2e01-4d20-bf40-ab1b1a6ad1e2")
+		)
+		(pin "2"
+			(uuid "b0058404-3300-45e6-8ffa-3b454e7344f7")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_4")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab499961-31c1-4802-9dd0-c9d82723f7de")
+		(property "Reference" "DBUS_BRIDGE6"
+			(at 146.05 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ddecf78d-4f3e-42f3-a5f5-701b023c42cf")
+		)
+		(pin ""
+			(uuid "6d218dd7-ac15-450b-bc34-b6d370ef4823")
+		)
+		(pin ""
+			(uuid "df87c02f-781b-4786-8801-d68980709b29")
+		)
+		(pin ""
+			(uuid "e5188ad0-ced5-4fb9-9852-5fc15777b0cf")
+		)
+		(pin ""
+			(uuid "154ba7eb-a631-4134-8084-fdb58d4705d9")
+		)
+		(pin ""
+			(uuid "ca39f3d7-7196-41d0-aa47-77ee0c2eb640")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_2")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ada2da40-4b6f-42e0-8baa-f4ae869642eb")
+		(property "Reference" "DBUS_BRIDGE2"
+			(at 146.05 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "465a748b-ebc3-4299-b87b-76ea54de23e8")
+		)
+		(pin ""
+			(uuid "a4f779e9-196e-4a07-8a2d-3b1f242fcd04")
+		)
+		(pin ""
+			(uuid "c4c9b3b7-39ad-4a06-9922-e3e178125823")
+		)
+		(pin ""
+			(uuid "7d14aaa1-f8a7-4234-8b3b-e04bf3e0002c")
+		)
+		(pin ""
+			(uuid "a4314c16-ac11-4adf-b367-d5ccdcc0da0e")
+		)
+		(pin ""
+			(uuid "c489d6ab-5860-4689-acea-5e62e3e5ef36")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_3")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b49eb6f2-7b36-49e4-90c4-045f8be0e43b")
+		(property "Reference" "DBUS_BRIDGE3"
+			(at 146.05 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7d78dc6b-cbbd-4dca-be88-2583bd610418")
+		)
+		(pin ""
+			(uuid "bc0d5042-b404-4502-a777-fcdc9ba8ee2d")
+		)
+		(pin ""
+			(uuid "8996b69e-8485-44e0-9c49-620b5faa435e")
+		)
+		(pin ""
+			(uuid "954d42aa-065a-4727-af5b-6e404866bfbd")
+		)
+		(pin ""
+			(uuid "e3650309-f4d5-47cd-9335-ff12836b6602")
+		)
+		(pin ""
+			(uuid "04bdb39f-e26c-403a-8079-5e056dcf06b5")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_5")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be07ee11-7b69-4448-9218-e6587a54983b")
+		(property "Reference" "DBUS_BRIDGE7"
+			(at 146.05 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "def589ff-8f9f-4c74-901b-c3d49b3da380")
+		)
+		(pin ""
+			(uuid "0316c7f3-c439-4ea9-a104-55c7bc2256cd")
+		)
+		(pin ""
+			(uuid "974b098f-ee9a-43c2-a66d-bef2c7ec907b")
+		)
+		(pin ""
+			(uuid "c2f82036-b81e-4e5d-bc95-8f6ff3d0af9b")
+		)
+		(pin ""
+			(uuid "da27b940-e3c8-40b0-b52e-2ea93b8b54bd")
+		)
+		(pin ""
+			(uuid "ec94378c-400d-49c0-a871-5446687c674f")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B2B_WAND_INJ_A_7")
+		(lib_id "SM83_Cells:B2B_WAND_INJ_A")
+		(at 146.05 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc9032c3-c002-40d7-93b9-0950e13e8ce9")
+		(property "Reference" "DBUS_BRIDGE5"
+			(at 146.05 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B_WAND_INJ_A"
+			(at 146.05 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#b2b_wand_inj_a"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional bus bridge with wired-AND behavior (open-drain), active-low output enable, active-low precharge, and open-drain injector on side A."
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7fa677ff-5dbf-48a5-bc17-699aef67ec59")
+		)
+		(pin ""
+			(uuid "3f50823a-19da-4fea-b5ae-20df87273e37")
+		)
+		(pin ""
+			(uuid "88a60cbe-06ea-430b-a436-9f592e68a30c")
+		)
+		(pin ""
+			(uuid "58e9b573-5e40-4df9-8b04-17c21334503a")
+		)
+		(pin ""
+			(uuid "24ead77d-d8d3-4d9d-afca-1ab0b26fdffe")
+		)
+		(pin ""
+			(uuid "8404ce2f-1dc8-4b31-b805-0932945c2c97")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_BRIDGE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_B_DBUS")
+		(at 86.36 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd24d8c4-da53-4343-a983-3c2bceca2ba4")
+		(property "Reference" "DBUS_NAND7"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_B_DBUS"
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_b_dbus"
+			(at 86.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3baa3ad1-6f31-4436-a119-81b59c9342e7")
+		)
+		(pin "1"
+			(uuid "4a855b4d-b8a0-45bd-a444-19f975f72946")
+		)
+		(pin "2"
+			(uuid "b49aebe9-35d1-4fb0-ad5f-62c50fff98b8")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_A_DBUS")
+		(at 86.36 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1d73c2-66f4-4a1d-aafe-331b8071cf98")
+		(property "Reference" "DBUS_NAND0"
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_A_DBUS"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+			(at 86.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0407b77-9f08-4d95-b28d-f196393b886b")
+		)
+		(pin "2"
+			(uuid "e35efc6b-3583-4ebf-be48-2731ee591519")
+		)
+		(pin "1"
+			(uuid "ec66242a-2f75-4a24-aa6c-04ba718b9814")
+		)
+		(instances
+			(project ""
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0ac69a9-5395-43ff-875b-e8d5059ff630")
+		(property "Reference" "DBUS_NOT0"
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3abedae-dd6c-41ac-940c-bbf98773f74c")
+		)
+		(pin "2"
+			(uuid "b8a74b7d-0cf2-4392-bd85-4f0179dfe3cc")
+		)
+		(instances
+			(project ""
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NAND2_OD_A_DBUS")
+		(at 86.36 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f865e681-2889-48fd-aa3d-1291ef3ef6b0")
+		(property "Reference" "DBUS_NAND4"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAND2_OD_A_DBUS"
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#nand2_od_a_dbus"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open-drain NAND gate with two inputs."
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da6ef5df-dd85-48d5-b152-0761cc2ebada")
+		)
+		(pin "2"
+			(uuid "35b5ba77-b99a-4eae-b648-3a448a5698e9")
+		)
+		(pin "1"
+			(uuid "d8d0cf4e-e22d-4956-82d0-7d4cf4af017f")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NAND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SM83_Cells:NOT_DBUS")
+		(at 67.31 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb519534-5ccb-42d1-b244-46858085c9e9")
+		(property "Reference" "DBUS_NOT7"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOT_DBUS"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/sm83_cells.html#not_dbus"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple inverter."
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "575c2551-d840-4c96-bb77-c889d639de4c")
+		)
+		(pin "2"
+			(uuid "ffc43082-b9f7-4723-9db6-eef754932127")
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/594ced6f-14f9-4d40-b749-8669d4e2b90f"
+					(reference "DBUS_NOT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
