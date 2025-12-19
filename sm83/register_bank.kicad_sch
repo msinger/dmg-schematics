@@ -13,6 +13,268 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 161.29 71.12)
+		(size 71.12 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d896e4f-a722-4032-a79a-2d52cd584a24")
+		(property "Sheetname" "REG_WZ"
+			(at 161.29 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reg_wz.kicad_sch"
+			(at 161.29 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CTL_ALU_TO_REG_GP_EN" input
+			(at 187.96 71.12 90)
+			(uuid "eec5c04c-a503-4336-967b-83d8c9bc5f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_IDU_TO_REG_GP_EN" input
+			(at 190.5 71.12 90)
+			(uuid "aa3f15a2-7640-48d0-8a72-fdd017eba74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_JR_M1" input
+			(at 193.04 71.12 90)
+			(uuid "932b3976-a06b-40c0-add4-4f4a509de79a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_JR_M2" input
+			(at 195.58 71.12 90)
+			(uuid "d84db993-4fbf-41aa-a461-5b5f69775b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_LD_NN_SP_M2" input
+			(at 198.12 71.12 90)
+			(uuid "15941c61-6266-4f31-88ea-0a11deedb144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_LD_NN_SP_OR_LDX_EXEC" input
+			(at 200.66 71.12 90)
+			(uuid "0b9b87ac-489c-4e8c-96c8-786ca24837b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_LD_N_A_OR_LD_A_N_M1" input
+			(at 203.2 71.12 90)
+			(uuid "450c465e-2df5-42ff-973b-5f3adc65fdef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_REG_WZ_TO_REG_GP_EN" input
+			(at 205.74 71.12 90)
+			(uuid "6dcfa784-092c-4b5e-9716-4290d6634e25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_REG_W_WE" input
+			(at 208.28 71.12 90)
+			(uuid "d3e7040b-71ce-482c-920f-e407af5c885f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_REG_Z_TO_OP2_EN" input
+			(at 210.82 71.12 90)
+			(uuid "fe08f10d-37a4-413a-8db8-d0c3206c4fba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_REG_Z_WE" input
+			(at 213.36 71.12 90)
+			(uuid "efbd673f-edf2-4aed-9eda-0ac7856751de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_PHASE" input
+			(at 161.29 76.2 180)
+			(uuid "f01d8ae8-6975-4703-8ab8-a018c4f569fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DB[0..7]" input
+			(at 196.85 127 270)
+			(uuid "30a08dc9-ec4c-496c-8f42-2a449419652d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXEC_PHASE" input
+			(at 161.29 73.66 180)
+			(uuid "adb19949-ef56-4704-935f-04b9ffd1a808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEW_REG_HI[0..7]" output
+			(at 161.29 92.71 180)
+			(uuid "0ebc5c5c-3699-4e3f-92ce-669dcf66f4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEW_REG_LO[0..7]" output
+			(at 161.29 95.25 180)
+			(uuid "bf9a62c7-269f-4cc4-b423-14a77908a693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REG_W[0..7]" tri_state
+			(at 232.41 88.9 0)
+			(uuid "0b67f8fb-aa72-447f-a94d-384a63cf30ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REG_Z[0..7]" tri_state
+			(at 232.41 91.44 0)
+			(uuid "8072e946-f324-44b8-bc9c-62ff076d509b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RES[0..7]" input
+			(at 161.29 106.68 180)
+			(uuid "9b84247a-f2b8-4306-aff3-c16f8edf87d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WRITE_PHASE" input
+			(at 161.29 78.74 180)
+			(uuid "c833a143-3f4d-4eb7-a808-568f403a4b38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{IDU_IN[0..15]}" tri_state
+			(at 161.29 88.9 180)
+			(uuid "a35b7f84-1b02-4438-9873-cc09102947a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OP2BUS[0..7]}" tri_state
+			(at 161.29 101.6 180)
+			(uuid "5234232d-10a6-4cbf-9bd0-643af5f28b13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68/4d4d18fe-a98e-4888-b722-e6c6d1e32861"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 71.12)
 		(size 116.84 55.88)
 		(exclude_from_sim no)
@@ -446,36 +708,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{IDU_IN[0..7]}" output
-			(at 149.86 88.9 0)
-			(uuid "683f4078-ff1b-447d-a819-57d66a85b4c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{NEW_REG_HI[0..7]}" input
-			(at 149.86 92.71 0)
-			(uuid "c93ef00c-95a2-4b85-a83a-b33d7aa2c428")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{NEW_REG_LO[0..7]}" input
-			(at 149.86 95.25 0)
-			(uuid "3d87254d-c145-4752-b0d8-e0e182e75f44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{OP1BUS[0..7]}" bidirectional
 			(at 149.86 99.06 0)
 			(uuid "a56c4294-02d8-4074-a140-860213c38830")
@@ -489,6 +721,36 @@
 		(pin "~{OP2BUS[0..7]}" bidirectional
 			(at 149.86 101.6 0)
 			(uuid "8b3abadf-6329-4d14-9c0a-2f04d738b6eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEW_REG_HI[0..7]" input
+			(at 149.86 92.71 0)
+			(uuid "75aae696-d884-4f75-b21e-f718f2423808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEW_REG_LO[0..7]" input
+			(at 149.86 95.25 0)
+			(uuid "9c37c468-8de1-4ad4-833c-493289780cc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{IDU_IN[0..15]}" tri_state
+			(at 149.86 88.9 0)
+			(uuid "21246e16-13a6-422e-a605-861b801d6831")
 			(effects
 				(font
 					(size 1.27 1.27)
