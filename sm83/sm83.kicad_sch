@@ -4255,6 +4255,148 @@
 		)
 	)
 	(sheet
+		(at 372.11 462.28)
+		(size 110.49 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96f424a6-eb9c-4685-8465-2aab0d38a576")
+		(property "Sheetname" "IDU"
+			(at 372.11 461.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "idu.kicad_sch"
+			(at 372.11 563.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" tri_state
+			(at 482.6 495.3 0)
+			(uuid "2192b989-e9df-431d-9252-ad6ed6023ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_IDU_DEC" input
+			(at 403.86 462.28 90)
+			(uuid "a45a6fd5-6ef8-40b8-b274-99f825901f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_IDU_INC" input
+			(at 406.4 462.28 90)
+			(uuid "e54ef074-7db5-482b-bccb-4f8a91dcb578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_OP_JR_M1" input
+			(at 408.94 462.28 90)
+			(uuid "9f4579f5-6fa5-41ec-a519-65ff5f19f9cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_PHASE" input
+			(at 372.11 469.9 180)
+			(uuid "43ed5092-5587-4280-a262-665d3fe44bf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDU_OUT[0..15]" output
+			(at 372.11 501.65 180)
+			(uuid "cddb6bd4-a055-45e5-a097-b11b55bd758a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REG_Z7" input
+			(at 393.7 462.28 90)
+			(uuid "1a79d452-b401-48c7-b18b-4384cb8688d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RES_CARRY7" input
+			(at 372.11 477.52 180)
+			(uuid "be4119ab-6f8b-4cff-bad2-370bb8f9fb0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{IDU_IN[0..15]}" input
+			(at 372.11 504.19 180)
+			(uuid "a3624226-0ded-4e21-a090-fe212071ad69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OE}" input
+			(at 372.11 528.32 180)
+			(uuid "c72910ad-cd36-4993-b09c-f1c8c0d1f203")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 295.91 194.31)
 		(size 331.47 80.01)
 		(exclude_from_sim no)
