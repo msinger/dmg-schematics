@@ -1067,6 +1067,188 @@
 		)
 	)
 	(sheet
+		(at 529.59 463.55)
+		(size 127 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b42a619-7459-4edd-bc6f-370029071d58")
+		(property "Sheetname" "INTR"
+			(at 529.59 462.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "intr.kicad_sch"
+			(at 529.59 561.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" input
+			(at 529.59 495.3 180)
+			(uuid "05373ac7-f610-49e0-a3dd-5a84debc636f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTL_INT_ENTRY_M6" input
+			(at 581.66 463.55 90)
+			(uuid "3d9936a9-6187-4429-a1f7-4dee1425ff47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL_MWRITE" input
+			(at 584.2 463.55 90)
+			(uuid "1cf6d23b-f558-43a2-afb1-6b52fbc2611a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DB[0..7]" bidirectional
+			(at 529.59 497.84 180)
+			(uuid "9cb59524-c5f1-4f18-82f9-1031c10d1f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTA[0..7]" output
+			(at 656.59 508 0)
+			(uuid "523faa51-509b-49d1-a55e-08cd6deb9805")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT[0..7]" input
+			(at 656.59 486.41 0)
+			(uuid "d9620d25-9805-4162-9f66-194010612a77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_PENDING" output
+			(at 640.08 463.55 90)
+			(uuid "dd282355-ca58-4604-9e38-273e1e707770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_TAKE" output
+			(at 642.62 463.55 90)
+			(uuid "230dce00-0510-4fc9-b70a-8b036eb06865")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_VECTOR[3..7]" output
+			(at 529.59 502.92 180)
+			(uuid "4bd3f287-8db3-415f-8065-aaf385b09d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NMI_ENTRY" input
+			(at 635 463.55 90)
+			(uuid "ff960933-0057-473e-8c21-026e281b612c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RD" input
+			(at 632.46 463.55 90)
+			(uuid "2fb665ad-df5a-43be-b0ed-5927c1c3bad3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_RESET" input
+			(at 529.59 471.17 180)
+			(uuid "bf0d1e61-dec7-4e72-bd84-15f48485937b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WRITE_PHASE" input
+			(at 529.59 468.63 180)
+			(uuid "dca3a91f-9e58-476d-8db5-efc2eb4df8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{DATA_PHASE}" input
+			(at 529.59 466.09 180)
+			(uuid "18795251-6db2-4e7b-bdd3-6ea1a7eda273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "sm83"
+				(path "/8717d046-1dfd-46fe-a5f7-4e4d2f07de68"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 299.72 361.95)
 		(size 331.47 74.93)
 		(exclude_from_sim no)
@@ -2960,6 +3142,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "INT_VECTOR[3..7]" input
+			(at 306.07 499.11 0)
+			(uuid "f7f30d3a-367e-4f7c-86dd-40747558c82e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

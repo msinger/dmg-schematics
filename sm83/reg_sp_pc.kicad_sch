@@ -102259,7 +102259,7 @@
 	)
 	(bus
 		(pts
-			(xy 557.53 508) (xy 557.53 533.4)
+			(xy 557.53 508) (xy 557.53 563.88)
 		)
 		(stroke
 			(width 0)
@@ -108796,6 +108796,16 @@
 			(type default)
 		)
 		(uuid "9c069c58-2a5a-4c33-86db-c07821d8d80d")
+	)
+	(bus
+		(pts
+			(xy 62.23 563.88) (xy 557.53 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c17d5ec-908c-46d9-8703-5296c6be535f")
 	)
 	(wire
 		(pts
@@ -117150,6 +117160,17 @@
 			(justify right)
 		)
 		(uuid "099666a5-1dc3-4a0f-901c-d773a2ef1d0d")
+	)
+	(hierarchical_label "INT_VECTOR[3..7]"
+		(shape input)
+		(at 62.23 563.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "193b3e5d-e564-4c21-b511-b62841a0b89b")
 	)
 	(hierarchical_label "OPCODE5"
 		(shape input)
