@@ -27199,10 +27199,10 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT0_2_0"
+		(symbol "IRQ_PRIO_BIT0_2_1"
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -2.54 -10.16) (xy 2.54 -6.35) (xy -2.54 -2.54)
+					(xy -3.81 10.16) (xy -3.81 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -27212,93 +27212,22 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "IRQ_PRIO_BIT0_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -5.08 3.81)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy -3.81 -6.35) (xy -2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 -7.62) (xy 0.635 -7.62)
+					(xy -3.81 -3.81) (xy -3.81 -10.16)
 				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.27) (xy -0.635 -3.937)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
-				(start 0.0276 10.16)
-				(mid 3.8101 6.35)
-				(end 0.0276 2.54)
+				(start 0 3.81)
+				(mid 3.7825 0)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -27309,7 +27238,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.0276 10.16) (xy -3.7824 10.16) (xy -3.7824 2.54) (xy 0.0276 2.54)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -27317,83 +27246,11 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 7.62) (xy 3.175 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 -6.35) (xy -0.635 -5.08) (xy -1.905 -6.35) (xy -0.635 -7.62) (xy 0.635 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 1.27 -5.334)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy -5.08 0) (xy -5.08 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.2026 6.35) (xy 1.9326 7.62) (xy 0.6626 6.35) (xy 1.9326 5.08) (xy 3.2026 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -6.35) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
+				(at -7.62 10.16 0)
+				(length 3.81)
 				(name "DIST_NAND_A_IN1"
 					(effects
 						(font
@@ -27410,8 +27267,8 @@
 				)
 			)
 			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
+				(at -7.62 7.62 0)
+				(length 3.81)
 				(name "DIST_NAND_A_IN2"
 					(effects
 						(font
@@ -27428,9 +27285,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
+				(at -7.62 5.08 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27445,10 +27302,10 @@
 					)
 				)
 			)
-			(pin open_emitter inverted
-				(at 8.89 6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27463,10 +27320,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27481,228 +27338,101 @@
 					)
 				)
 			)
-		)
-		(symbol "IRQ_PRIO_BIT0_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
+			(pin input line
+				(at -7.62 -5.08 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.254)
-					(type default)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+			)
+			(pin input line
+				(at -7.62 -7.62 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -10.16 0)
+				(length 3.81)
+				(name "DIST_NAND_A_IN9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "DIST_NAND_A_Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
 				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT0_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT0_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
+					(xy -3.81 8.89) (xy -3.81 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -27714,7 +27444,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
+					(xy -3.81 -3.81) (xy -3.81 -8.89)
 				)
 				(stroke
 					(width 0.254)
@@ -27724,129 +27454,34 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "IRQ_PRIO_BIT0_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
+			(arc
+				(start 0 3.81)
+				(mid 3.7712 0)
+				(end 0 -3.81)
 				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type background)
 				)
 			)
 			(polyline
 				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
+				(at -7.62 8.89 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27862,9 +27497,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
+				(at -7.62 6.35 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27879,10 +27514,10 @@
 					)
 				)
 			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
+			(pin input line
+				(at -7.62 3.81 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27897,10 +27532,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
+			(pin input line
+				(at -7.62 1.27 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -27911,6 +27546,96 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -3.81 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -6.35 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -8.89 0)
+				(length 3.81)
+				(name "DIST_NAND_B_IN8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "DIST_NAND_B_Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0 0)
 						)
 					)
 				)
@@ -27969,14 +27694,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT1_1_1"
@@ -28474,657 +28191,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT1_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT1_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT1_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT1_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT1_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT1_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT2"
@@ -29178,14 +28244,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT2_1_1"
@@ -29713,657 +28771,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT2_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT2_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT2_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT2_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT2_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT2_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT3"
@@ -30417,14 +28824,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT3_1_0"
@@ -31370,657 +29769,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT3_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT3_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT3_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT3_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT3_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT3_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT4"
@@ -32074,14 +29822,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT4_1_0"
@@ -32941,657 +30681,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT4_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT4_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT4_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT4_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT4_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT4_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT5"
@@ -33645,14 +30734,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT5_1_0"
@@ -34658,657 +31739,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT5_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT5_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT5_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT5_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT5_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT5_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT6"
@@ -35362,14 +31792,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "IRQ_PRIO_BIT6_1_0"
@@ -36394,657 +32816,6 @@
 				)
 			)
 		)
-		(symbol "IRQ_PRIO_BIT6_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT6_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT6_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT6_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy 1.905 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -6.35) (xy 0.635 -5.08) (xy -0.635 -6.35) (xy 0.635 -7.62) (xy 1.905 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -6.35 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT6_4_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT6_4_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 5.08) (xy 1.905 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0.635 5.08) (xy -0.635 3.81) (xy 0.635 2.54) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NOR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 3.81 0)
-				(length 5.08)
-				(name "DIST_NOR_IN_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "IRQ_PRIO_BIT7"
@@ -37100,27 +32871,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "IRQ_PRIO_BIT7_1_0"
-			(polyline
-				(pts
-					(xy 0 -34.29) (xy 0 -41.91) (xy 5.08 -38.1) (xy 0 -34.29)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 11.43 39.37) (xy 3.81 39.37) (xy 7.62 34.29) (xy 11.43 39.37)
@@ -37141,6 +32892,18 @@
 				(stroke
 					(width 0)
 					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.0802 -36.83)
+				(mid -3.8592 -40.64)
+				(end -5.0802 -44.45)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -37352,38 +33115,28 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -2.2862 -43.18)
-				(mid -1.0652 -46.99)
-				(end -2.2862 -50.8)
+			(polyline
+				(pts
+					(xy -5.0802 -36.83) (xy -1.9052 -36.83)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(circle
-				(center -7.62 -49.53)
-				(radius 0.381)
+			(polyline
+				(pts
+					(xy -5.0802 -44.45) (xy -1.9052 -44.45)
+				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -6.35 -44.45)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
+					(type background)
 				)
 			)
 			(polyline
@@ -37532,6 +33285,102 @@
 			)
 			(polyline
 				(pts
+					(xy -5.08 -30.48) (xy -5.08 -36.83)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -30.48) (xy -10.16 -30.48) (xy -10.16 -27.94)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -33.02) (xy -7.62 -33.02)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -35.56) (xy -7.62 -35.56)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -44.45) (xy -5.08 -50.8)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -45.72) (xy -7.62 -45.72)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -48.26) (xy -7.62 -48.26)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -50.8) (xy -7.62 -50.8)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -5.0546 40.64) (xy -5.0546 34.29)
 				)
 				(stroke
@@ -37556,7 +33405,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.572 -36.83) (xy -3.81 -35.56) (xy -3.048 -36.83)
+					(xy -4.445 -38.1) (xy -7.62 -38.1)
 				)
 				(stroke
 					(width 0)
@@ -37568,8 +33417,44 @@
 			)
 			(polyline
 				(pts
-					(xy -2.2862 -43.18) (xy 0.8888 -43.18)
+					(xy -4.445 -43.18) (xy -7.62 -43.18)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -40.64) (xy -7.62 -40.64)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5398 -40.64)
+				(mid 0.9153 -43.224)
+				(end -1.8798 -44.45)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -1.8798 -36.83)
+				(mid 0.9227 -38.0475)
+				(end 2.5398 -40.64)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -37580,38 +33465,16 @@
 			)
 			(polyline
 				(pts
-					(xy -2.2862 -50.8) (xy 0.8888 -50.8)
+					(xy -1.9052 -36.83) (xy -5.0802 -36.83) (xy -5.0802 -36.83) (xy -4.8262 -37.2364) (xy -4.2928 -38.3794)
+					(xy -3.9626 -39.5986) (xy -3.8864 -40.894) (xy -4.0388 -42.1386) (xy -4.4452 -43.3578) (xy -5.0802 -44.45)
+					(xy -5.0802 -44.45) (xy -1.9052 -44.45)
 				)
 				(stroke
-					(width 0.254)
+					(width -25.4)
 					(type default)
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.651 -44.45) (xy -10.16 -44.45) (xy -10.16 -26.67)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.651 -49.53) (xy -7.62 -49.53)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(arc
@@ -37844,79 +33707,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -38.1) (xy -3.81 -38.1) (xy -3.81 -35.56)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.3338 -46.99)
-				(mid 3.7093 -49.574)
-				(end 0.9142 -50.8)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 0.9142 -43.18)
-				(mid 3.7167 -44.3975)
-				(end 5.3338 -46.99)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.8888 -43.18) (xy -2.2862 -43.18) (xy -2.2862 -43.18) (xy -2.0322 -43.5864) (xy -1.4988 -44.7294)
-					(xy -1.1686 -45.9486) (xy -1.0924 -47.244) (xy -1.2448 -48.4886) (xy -1.6512 -49.7078) (xy -2.2862 -50.8)
-					(xy -2.2862 -50.8) (xy 0.8888 -50.8)
-				)
-				(stroke
-					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -34.29) (xy 1.905 -33.02) (xy -6.35 -33.02) (xy -6.35 -44.45)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.905 -34.925)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.9326 46.99) (xy 0.6626 48.26) (xy -0.6074 46.99) (xy 0.6626 45.72) (xy 1.9326 46.99)
 				)
 				(stroke
@@ -37969,18 +33759,6 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.159 -48.26) (xy 4.699 -48.26)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -38054,41 +33832,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 3.81 -35.687) (xy 3.81 -31.75) (xy -7.62 -31.75) (xy -7.62 -49.53)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 3.81 -36.322)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.699 -46.99) (xy 3.429 -45.72) (xy 2.159 -46.99) (xy 3.429 -48.26) (xy 4.699 -46.99)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center 5.08 -15.24)
 				(radius 0.381)
@@ -38098,17 +33841,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(circle
-				(center 5.969 -46.99)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(polyline
@@ -38209,30 +33941,6 @@
 			(polyline
 				(pts
 					(xy 7.62 -25.4) (xy 2.54 -25.4)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -38.1) (xy 5.08 -38.1)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -46.99) (xy 6.604 -46.99)
 				)
 				(stroke
 					(width 0)
@@ -38441,9 +34149,135 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -49.53 0)
+				(at -12.7 -33.02 0)
 				(length 5.08)
 				(name "DIST_NOR_IN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -35.56 0)
+				(length 5.08)
+				(name "DIST_NOR_IN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -38.1 0)
+				(length 5.08)
+				(name "DIST_NOR_IN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -40.64 0)
+				(length 5.08)
+				(name "DIST_NOR_IN5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -43.18 0)
+				(length 5.08)
+				(name "DIST_NOR_IN6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -45.72 0)
+				(length 5.08)
+				(name "DIST_NOR_IN7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -48.26 0)
+				(length 5.08)
+				(name "DIST_NOR_IN8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -50.8 0)
+				(length 5.08)
+				(name "DIST_NOR_IN9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38584,10 +34418,10 @@
 					)
 				)
 			)
-			(pin open_emitter line
-				(at 12.7 -38.1 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_P"
+			(pin output inverted
+				(at 12.7 -40.64 180)
+				(length 10.16)
+				(name "DIST_NOR_Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38597,399 +34431,7 @@
 				(number ""
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 12.7 -46.99 180)
-				(length 5.08)
-				(name "DIST_NOR_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT7_2_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT7_2_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_A_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_A_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT7_3_0"
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -1.27 0) (xy 3.81 3.81) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -1.27 -10.16) (xy 3.81 -6.35) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "IRQ_PRIO_BIT7_3_1"
-			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -6.35 8.89)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 5.08) (xy -3.81 6.35) (xy -3.048 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 8.89) (xy 1.27 8.89) (xy 1.27 7.239)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -8.89) (xy -5.08 -8.89) (xy -3.81 -10.16) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -3.81 -6.35) (xy -3.81 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 6.604)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.445) (xy 1.27 -1.27) (xy -6.35 -1.27) (xy -6.35 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -8.89 8.89 0)
-				(length 5.08)
-				(name "DIST_NAND_B_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_emitter line
-				(at 8.89 3.81 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 8.89 -6.35 180)
-				(length 5.08)
-				(name "DIST_NAND_B_Y_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)

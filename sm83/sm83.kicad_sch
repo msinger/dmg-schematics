@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "SM83 CPU")
-		(date "2025-12-24")
+		(date "2025-12-25")
 		(rev "0")
 		(company "CC-BY-SA-4.0 Michael Singer")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -1130,16 +1130,6 @@
 			(type default)
 		)
 		(uuid "1da2d77d-dcba-4bc0-bb40-9a77391809f9")
-	)
-	(bus
-		(pts
-			(xy 586.74 490.22) (xy 701.04 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dfceac5-2c02-4d46-9229-9013a60e2e5d")
 	)
 	(wire
 		(pts
@@ -2821,6 +2811,16 @@
 		)
 		(uuid "6b858c90-8036-49b7-8c74-363025e8a137")
 	)
+	(bus
+		(pts
+			(xy 586.74 490.22) (xy 701.04 490.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8e8fa3-9bbd-4afb-bb48-2c0ea34fc198")
+	)
 	(wire
 		(pts
 			(xy 353.06 135.89) (xy 353.06 168.91)
@@ -3671,6 +3671,16 @@
 		)
 		(uuid "90a75456-4bf4-45cd-acf3-43d941fb145a")
 	)
+	(bus
+		(pts
+			(xy 586.74 492.76) (xy 701.04 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92333e5b-b64f-41da-bd99-c198581a8203")
+	)
 	(wire
 		(pts
 			(xy 604.52 232.41) (xy 604.52 381)
@@ -4411,16 +4421,6 @@
 		)
 		(uuid "b5d2a453-aee1-41a4-92ec-6bddeed32eea")
 	)
-	(bus
-		(pts
-			(xy 586.74 487.68) (xy 701.04 487.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6eee1b5-0efb-47b8-a89f-53c40952a463")
-	)
 	(wire
 		(pts
 			(xy 683.26 237.49) (xy 683.26 474.98)
@@ -4520,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "ba294ec0-8480-4d0a-a775-d1faff4ad9af")
+	)
+	(wire
+		(pts
+			(xy 586.74 485.14) (xy 701.04 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baadb569-93c5-4aaa-9d5f-357351d8375f")
 	)
 	(wire
 		(pts
@@ -6545,7 +6555,7 @@
 	)
 	(global_label "INTA[0..7]"
 		(shape output)
-		(at 701.04 490.22 0)
+		(at 701.04 492.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6555,7 +6565,7 @@
 		)
 		(uuid "027a0e1d-2499-432b-861b-318fb49cf984")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 713.3387 490.22 0)
+			(at 713.3387 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,6 +6632,28 @@
 		(uuid "192e88a2-eefb-44f1-a925-f6b87b3a77b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.08 61.7848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FFXX"
+		(shape output)
+		(at 701.04 485.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb45b93-3f08-4b35-b5d1-de01cb81688f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 708.6214 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +6929,7 @@
 	)
 	(global_label "INT[0..7]"
 		(shape input)
-		(at 701.04 487.68 0)
+		(at 701.04 490.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6907,7 +6939,7 @@
 		)
 		(uuid "8d1d56cb-1d1d-497f-8757-70d4793619fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 712.2501 487.68 0)
+			(at 712.2501 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7312,7 @@
 			)
 		)
 		(pin "INTA[0..7]" output
-			(at 586.74 490.22 0)
+			(at 586.74 492.76 0)
 			(uuid "523faa51-509b-49d1-a55e-08cd6deb9805")
 			(effects
 				(font
@@ -7290,7 +7322,7 @@
 			)
 		)
 		(pin "INT[0..7]" input
-			(at 586.74 487.68 0)
+			(at 586.74 490.22 0)
 			(uuid "d9620d25-9805-4162-9f66-194010612a77")
 			(effects
 				(font
@@ -7377,6 +7409,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "FFXX" output
+			(at 586.74 485.14 0)
+			(uuid "6c8fbab8-9810-40e6-bd5b-a144366167ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
