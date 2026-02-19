@@ -6,7 +6,7 @@
 	(paper "User" 1600 1280.01)
 	(title_block
 		(title "DMG CPU B Cells")
-		(date "2026-02-17")
+		(date "2026-02-19")
 		(rev "0")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -23978,6 +23978,12 @@
 		(uuid "8166468b-043e-4d8b-b420-4fc3d20f592e")
 	)
 	(junction
+		(at 149.225 956.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8186fa1f-4253-46b4-9e74-847f171fe077")
+	)
+	(junction
 		(at 858.52 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25968,12 +25974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc1631d1-9f3d-49b8-88c5-16599767b21a")
-	)
-	(junction
-		(at 168.275 933.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc2e4ee0-0100-48f1-bff5-330f5e45e08b")
 	)
 	(junction
 		(at 580.39 593.09)
@@ -47599,6 +47599,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.225 956.945) (xy 171.45 956.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a6c7f1-cbf2-4c08-a421-eb33668546e0")
+	)
+	(wire
+		(pts
 			(xy 988.06 561.34) (xy 988.06 567.69)
 		)
 		(stroke
@@ -52786,16 +52796,6 @@
 			(type default)
 		)
 		(uuid "7ed26dfb-c1d7-4088-9043-03016592fac3")
-	)
-	(wire
-		(pts
-			(xy 168.275 933.45) (xy 171.45 933.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee26eea-702c-4ff3-ad95-79a938d7512c")
 	)
 	(wire
 		(pts
@@ -68909,7 +68909,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 933.45) (xy 185.42 933.45)
+			(xy 184.15 956.945) (xy 185.42 956.945)
 		)
 		(stroke
 			(width 0)
@@ -92837,7 +92837,7 @@
 	)
 	(global_label "~{Q}"
 		(shape output)
-		(at 185.42 933.45 0)
+		(at 185.42 956.945 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -92847,7 +92847,7 @@
 		)
 		(uuid "f1d72eec-ce7c-4d0b-886c-020ef78af910")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6563 933.45 0)
+			(at 189.6563 956.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126296,7 +126296,7 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:NOT_X1")
-		(at 177.8 933.45 0)
+		(at 177.8 956.945 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -126304,7 +126304,7 @@
 		(dnp no)
 		(uuid "4d4c3c20-2da9-49bb-96e1-54279d12d663")
 		(property "Reference" "U?"
-			(at 177.8 928.37 0)
+			(at 177.8 951.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126313,7 +126313,7 @@
 			)
 		)
 		(property "Value" "NOT_X1"
-			(at 177.8 938.53 0)
+			(at 177.8 962.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126322,7 +126322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 933.45 0)
+			(at 175.26 956.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126331,7 +126331,7 @@
 			)
 		)
 		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
-			(at 179.07 941.07 0)
+			(at 179.07 964.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126340,7 +126340,7 @@
 			)
 		)
 		(property "Description" "Simple inverter."
-			(at 177.8 933.45 0)
+			(at 177.8 956.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
