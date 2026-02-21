@@ -401,14 +401,14 @@ type pad_xtal ena ~clk:out in_pad out_pad:out                     @133.14,-238.3
                                                          in_pad   @118.73,-251.96
                                                          out_pad  @128.43,-251.96
                                                          "Oscillator input and output pads for connecting external crystal.";
-type pad_in_an i:out pad                                          @-218.24,-253.07,-227.51,-236.92
-                                                         i        @-227.11,-236.92
-                                                         pad      @-222.95,-250.49
-                                                         "Analog input pad.";
-type pad_out_an o pad:out                                         @-198.02,-253.04,-207.45,-236.91
-                                                         o        @-207.05,-236.91
+type pad_pass a pad:out                                           @-198.02,-253.04,-207.45,-236.91
+                                                         a        @-207.05,-236.91
                                                          pad      @-202.91,-250.47
-                                                         "Analog output pad.";
+                                                         "Simple pass pad with direct metal connection. Used as analog output.";
+type pad_pass_tg a:out pad                                        @-218.24,-253.07,-227.51,-236.92
+                                                         a        @-227.11,-236.92
+                                                         pad      @-222.95,-250.49
+                                                         "Simple pass pad with transmission gate. Used as analog input.";
 
 type tie:magenta gnd:out0 vdd:out1     @-57.12,25.62,-56.79,27.68
                                     gnd@-56.87,25.62,-56.87,27.68
