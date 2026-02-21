@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2025-12-25")
+		(date "2026-02-21")
 		(rev "0.9")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -2476,7 +2476,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DMG_CPU_Cells:PAD_BIDIR_SCK"
+		(symbol "DMG_CPU_Cells:PAD_BIDIR_PU_LATCH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2491,7 +2491,7 @@
 					)
 				)
 			)
-			(property "Value" "PAD_BIDIR_SCK"
+			(property "Value" "PAD_BIDIR_PU_LATCH"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -2508,7 +2508,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_bidir_sck"
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_bidir_pu_latch"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -2517,7 +2517,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional pad with open-drain/-source capability and optional pull-up resistor."
+			(property "Description" "Bidirectional pad with open-drain/-source capability, optional pull-up resistor, and input NAND latch."
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -2526,7 +2526,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PAD_BIDIR_SCK_0_1"
+			(symbol "PAD_BIDIR_PU_LATCH_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -2574,7 +2574,7 @@
 					)
 				)
 			)
-			(symbol "PAD_BIDIR_SCK_1_1"
+			(symbol "PAD_BIDIR_PU_LATCH_1_1"
 				(pin input line
 					(at 13.97 3.81 180)
 					(length 3.81)
@@ -9360,7 +9360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMG_CPU_Cells:PAD_BIDIR_SCK")
+		(lib_id "DMG_CPU_Cells:PAD_BIDIR_PU_LATCH")
 		(at 183.515 247.015 0)
 		(mirror y)
 		(unit 1)
@@ -9379,7 +9379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PAD_BIDIR_SCK"
+		(property "Value" "PAD_BIDIR_PU_LATCH"
 			(at 183.515 253.365 0)
 			(effects
 				(font
@@ -9396,7 +9396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_bidir_sck"
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_bidir_pu_latch"
 			(at 183.515 255.905 0)
 			(effects
 				(font
@@ -9405,7 +9405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional pad with open-drain/-source capability and optional pull-up resistor."
+		(property "Description" "Bidirectional pad with open-drain/-source capability, optional pull-up resistor, and input NAND latch."
 			(at 183.515 247.015 0)
 			(effects
 				(font

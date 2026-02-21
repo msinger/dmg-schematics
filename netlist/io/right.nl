@@ -1,23 +1,23 @@
 # IO pads on the right hand side
 # ------------------------------
 
-cell a0:pad_bidir         rot180 @-52.05,238.34,-42.78,254.48    pad@-37.91,252.03  ->bus-adr;
-cell ~cs:pad_out          rot180 @-62.64,238.35,-53.37,254.47                       ->sys-decode;
-cell ~rd:pad_bidir        rot180 @-73.24,238.34,-63.96,254.46                       ->bus-data;
-cell ~wr:pad_bidir        rot180 @-83.84,238.33,-74.56,254.45                       ->bus-data;
-cell t1:pad_in            rot180 @-93.36,238.33,-85.16,254.45                       ->test;
-cell t2:pad_in            rot180 @-102.91,238.32,-94.70,254.44                      ->test;
-cell phi:pad_out          rot180 @-113.55,238.31,-104.27,254.44                     ->clocks;
-cell ck1_ck2:pad_xtal     rot180 @-133.14,238.30,-114.87,254.45                     ->clocks;
-cell ~reset:pad_in        rot180 @-150.80,238.30,-142.60,254.43                     ->clocks;
-cell sout:pad_out         rot180 @-161.43,238.30,-152.14,254.42                     ->serial;
-cell sin:pad_bidir_ena_pu rot180 @-172.02,238.29,-162.74,254.41                     ->serial;
-cell sck:pad_bidir_sck    rot180 @-183.23,238.28,-173.34,254.41                     ->serial;
-cell p10:pad_bidir_ena_pu rot180 @-193.83,238.27,-184.55,254.41                     ->joypad;
-cell p11:pad_bidir_ena_pu rot180 @-204.44,238.27,-195.16,254.40                     ->joypad;
-cell p12:pad_bidir_ena_pu rot180 @-215.04,238.27,-205.77,254.39                     ->joypad;
-cell p13:pad_bidir_ena_pu rot180 @-225.63,238.27,-216.37,254.38                     ->joypad;
-cell p14:pad_out_diff     rot180 @-236.23,238.26,-226.97,254.38  pad@-241.02,251.91 ->joypad;
+cell a0:pad_bidir           rot180 @-52.05,238.34,-42.78,254.48    pad@-37.91,252.03  ->bus-adr;
+cell ~cs:pad_out            rot180 @-62.64,238.35,-53.37,254.47                       ->sys-decode;
+cell ~rd:pad_bidir          rot180 @-73.24,238.34,-63.96,254.46                       ->bus-data;
+cell ~wr:pad_bidir          rot180 @-83.84,238.33,-74.56,254.45                       ->bus-data;
+cell t1:pad_in              rot180 @-93.36,238.33,-85.16,254.45                       ->test;
+cell t2:pad_in              rot180 @-102.91,238.32,-94.70,254.44                      ->test;
+cell phi:pad_out            rot180 @-113.55,238.31,-104.27,254.44                     ->clocks;
+cell ck1_ck2:pad_xtal       rot180 @-133.14,238.30,-114.87,254.45                     ->clocks;
+cell ~reset:pad_in          rot180 @-150.80,238.30,-142.60,254.43                     ->clocks;
+cell sout:pad_out           rot180 @-161.43,238.30,-152.14,254.42                     ->serial;
+cell sin:pad_bidir_pu       rot180 @-172.02,238.29,-162.74,254.41                     ->serial;
+cell sck:pad_bidir_pu_latch rot180 @-183.23,238.28,-173.34,254.41                     ->serial;
+cell p10:pad_bidir_pu       rot180 @-193.83,238.27,-184.55,254.41                     ->joypad;
+cell p11:pad_bidir_pu       rot180 @-204.44,238.27,-195.16,254.40                     ->joypad;
+cell p12:pad_bidir_pu       rot180 @-215.04,238.27,-205.77,254.39                     ->joypad;
+cell p13:pad_bidir_pu       rot180 @-225.63,238.27,-216.37,254.38                     ->joypad;
+cell p14:pad_out_diff       rot180 @-236.23,238.26,-226.97,254.38  pad@-241.02,251.91 ->joypad;
 
 alias cell osc ck1 ck2 xi xo xi_xo -> ck1_ck2;
 alias cell ~rst                    -> ~reset;

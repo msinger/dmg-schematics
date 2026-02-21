@@ -364,25 +364,25 @@ type pad_bidir ~pdrv ndrv ~i:out pad:inout                        @52.05,-238.34
                                                          ndrv     @51.38,-238.34
                                                          pad      @47.34,-251.98
                                                          "Bidirectional pad with open-drain/-source capability.";
-type pad_bidir_ena_pu ~pdrv ndrv ~{ena}_pu ~i:out pad:inout       @-51.79,2.34,-42.47,18.48
+type pad_bidir_pu ~pdrv ndrv ~{ena}_pu ~i:out pad:inout           @-51.79,2.34,-42.47,18.48
                                                          ~pdrv    @-51.34,18.48
                                                          ~{ena}_pu@-49.98,18.48
                                                          ~i       @-49.3,18.48
                                                          ndrv     @-43.14,18.48
                                                          pad      @-47.15,4.91
                                                          "Bidirectional pad with open-drain/-source capability and optional pull-up resistor.";
-type pad_bidir_sck ~pdrv ndrv ~{ena}_pu ~i:out pad:inout          @183.23,-238.28,173.34,-254.41
+type pad_bidir_pu_latch ~pdrv ndrv ~{ena}_pu ~i:out pad:inout     @183.23,-238.28,173.34,-254.41
                                                          ~pdrv    @173.67,-238.28
                                                          ~{ena}_pu@174.36,-238.28
                                                          ~i       @175.04,-238.28
                                                          ndrv     @182.57,-238.28
                                                          pad      @177.91,-251.95
-                                                         "Bidirectional pad with open-drain/-source capability and optional pull-up resistor.";
+                                                         "Bidirectional pad with open-drain/-source capability, optional pull-up resistor, and input NAND latch.";
 type pad_in ~i:out pad                                            @150.80,-238.30,142.60,-254.43
                                                          ~i       @145.35,-238.30
                                                          pad      @146.52,-251.96
                                                          "Simple inverting input pad.";
-type pad_in_pu ~i:out pad                                         @150.80,-238.30,142.60,-254.43
+type pad_in_pu ~i:out pad:inout                                   @150.80,-238.30,142.60,-254.43
                                                          ~i       @145.35,-238.30
                                                          pad      @146.52,-251.96
                                                          "Simple inverting input pad with pull-up resistor.";

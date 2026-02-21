@@ -18,7 +18,7 @@ type port d_pad[0]:inout d_pad[1]:inout d_pad[2]:inout d_pad[3]:inout
           ld_pad[0] ld_pad[1] cpg_pad cp_pad st_pad cpl_pad fr_pad s_pad
           p10_pad:inout p11_pad:inout p12_pad:inout p13_pad:inout p14_pad p15_pad
           sout_pad sin_pad:inout sck_pad:inout ck1_pad:out ck2_pad ~{reset}_pad:out
-          phi_pad m1_pad t1_pad:out t2_pad:out ~{nmi}_pad:tri
+          phi_pad m1_pad t1_pad:out t2_pad:out ~{nmi}_pad:inout
           so1_pad so2_pad vin_pad:tri
 	"I/O pads of the chip."
 	doc "";
@@ -111,7 +111,7 @@ wire phi_pad:clk      phi.pad           -> port.phi_pad;
 wire m1_pad:ctl     m1.pad          -> port.m1_pad;
 wire t1_pad:ctl     port.t1_pad     -> t1.pad;
 wire t2_pad:ctl     port.t2_pad     -> t2.pad;
-wire ~{nmi}_pad:ctl port.~{nmi}_pad -> ~nmi.pad;
+wire ~{nmi}_pad:ctl port.~{nmi}_pad ~nmi.pad;
 
 wire so1_pad:analog so1.pad      -> port.so1_pad;
 wire so2_pad:analog so2.pad      -> port.so2_pad;

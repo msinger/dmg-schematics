@@ -1,28 +1,28 @@
 # IO pads at the top
 # ------------------
 
-cell d5:pad_bidir_ena_pu rot90 @-41.78,19.34,-25.62,28.67   pad@-28.18,14.4   ->bus-data;
-cell d4:pad_bidir_ena_pu rot90 @-41.79,29.35,-25.66,38.70                     ->bus-data;
-cell d3:pad_bidir_ena_pu rot90 @-41.80,39.37,-25.68,48.69                     ->bus-data;
-cell d2:pad_bidir_ena_pu rot90 @-41.82,49.36,-25.70,58.70                     ->bus-data;
-cell d1:pad_bidir_ena_pu rot90 @-41.83,59.36,-25.71,68.71                     ->bus-data;
-cell d0:pad_bidir_ena_pu rot90 @-41.85,69.38,-25.73,78.70                     ->bus-data;
-cell a15:pad_bidir       rot90 @-41.87,79.38,-25.74,88.70                     ->bus-adr;
-cell a14:pad_bidir       rot90 @-41.87,89.37,-25.75,98.70                     ->bus-adr;
-cell a13:pad_bidir       rot90 @-41.88,99.39,-25.76,108.72                    ->bus-adr;
-cell a12:pad_bidir       rot90 @-41.89,109.38,-25.77,118.71                   ->bus-adr;
-cell a11:pad_bidir       rot90 @-41.91,119.39,-25.76,128.70                   ->bus-adr;
-cell ~nmi:pad_in_pu      rot90 @-41.91,129.39,-25.80,137.64;
-cell a10:pad_bidir       rot90 @-41.93,138.34,-25.80,147.66                   ->bus-adr;
-cell a9:pad_bidir        rot90 @-41.95,148.32,-25.82,157.65                   ->bus-adr;
-cell a8:pad_bidir        rot90 @-41.95,158.34,-25.82,167.66                   ->bus-adr;
-cell a7:pad_bidir        rot90 @-41.98,168.34,-25.85,177.64                   ->bus-adr;
-cell a6:pad_bidir        rot90 @-41.98,178.35,-25.87,187.64                   ->bus-adr;
-cell a5:pad_bidir        rot90 @-41.99,188.34,-25.88,197.66                   ->bus-adr;
-cell a4:pad_bidir        rot90 @-41.99,198.34,-25.88,207.66                   ->bus-adr;
-cell a3:pad_bidir        rot90 @-42.02,208.34,-25.90,217.64                   ->bus-adr;
-cell a2:pad_bidir        rot90 @-42.03,218.35,-25.91,227.65                   ->bus-adr;
-cell a1:pad_bidir        rot90 @-42.05,228.37,-25.95,237.66 pad@-28.42,242.48 ->bus-adr;
+cell d5:pad_bidir_pu rot90 @-41.78,19.34,-25.62,28.67   pad@-28.18,14.4   ->bus-data;
+cell d4:pad_bidir_pu rot90 @-41.79,29.35,-25.66,38.70                     ->bus-data;
+cell d3:pad_bidir_pu rot90 @-41.80,39.37,-25.68,48.69                     ->bus-data;
+cell d2:pad_bidir_pu rot90 @-41.82,49.36,-25.70,58.70                     ->bus-data;
+cell d1:pad_bidir_pu rot90 @-41.83,59.36,-25.71,68.71                     ->bus-data;
+cell d0:pad_bidir_pu rot90 @-41.85,69.38,-25.73,78.70                     ->bus-data;
+cell a15:pad_bidir   rot90 @-41.87,79.38,-25.74,88.70                     ->bus-adr;
+cell a14:pad_bidir   rot90 @-41.87,89.37,-25.75,98.70                     ->bus-adr;
+cell a13:pad_bidir   rot90 @-41.88,99.39,-25.76,108.72                    ->bus-adr;
+cell a12:pad_bidir   rot90 @-41.89,109.38,-25.77,118.71                   ->bus-adr;
+cell a11:pad_bidir   rot90 @-41.91,119.39,-25.76,128.70                   ->bus-adr;
+cell ~nmi:pad_in_pu  rot90 @-41.91,129.39,-25.80,137.64;
+cell a10:pad_bidir   rot90 @-41.93,138.34,-25.80,147.66                   ->bus-adr;
+cell a9:pad_bidir    rot90 @-41.95,148.32,-25.82,157.65                   ->bus-adr;
+cell a8:pad_bidir    rot90 @-41.95,158.34,-25.82,167.66                   ->bus-adr;
+cell a7:pad_bidir    rot90 @-41.98,168.34,-25.85,177.64                   ->bus-adr;
+cell a6:pad_bidir    rot90 @-41.98,178.35,-25.87,187.64                   ->bus-adr;
+cell a5:pad_bidir    rot90 @-41.99,188.34,-25.88,197.66                   ->bus-adr;
+cell a4:pad_bidir    rot90 @-41.99,198.34,-25.88,207.66                   ->bus-adr;
+cell a3:pad_bidir    rot90 @-42.02,208.34,-25.90,217.64                   ->bus-adr;
+cell a2:pad_bidir    rot90 @-42.03,218.35,-25.91,227.65                   ->bus-adr;
+cell a1:pad_bidir    rot90 @-42.05,228.37,-25.95,237.66 pad@-28.42,242.48 ->bus-adr;
 
 
 # Wires originating from IO pads at the top

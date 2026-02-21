@@ -1,24 +1,24 @@
 # IO pads on the left hand side
 # -----------------------------
 
-cell d6:pad_bidir_ena_pu  rot0 @-51.79,2.34,-42.47,18.48   pad@-37.6,4.92   ->bus-data;
-cell d7:pad_bidir_ena_pu  rot0 @-62.15,2.33,-52.85,18.48                    ->bus-data;
-cell md7:pad_bidir_ena_pu rot0 @-72.52,2.33,-63.23,18.48                    ->ppu-vram;
-cell md6:pad_bidir_ena_pu rot0 @-82.90,2.33,-73.61,18.48                    ->ppu-vram;
-cell md5:pad_bidir_ena_pu rot0 @-93.28,2.33,-83.98,18.47                    ->ppu-vram;
-cell md4:pad_bidir_ena_pu rot0 @-103.65,2.33,-94.36,18.47                   ->ppu-vram;
-cell md3:pad_bidir_ena_pu rot0 @-114.02,2.33,-104.75,18.46                  ->ppu-vram;
-cell md2:pad_bidir_ena_pu rot0 @-124.41,2.32,-115.13,18.46                  ->ppu-vram;
-cell md1:pad_bidir_ena_pu rot0 @-134.77,2.32,-125.50,18.45                  ->ppu-vram;
-cell md0:pad_bidir_ena_pu rot0 @-153.04,2.30,-143.76,18.45                  ->ppu-vram;
-cell ma0:pad_out          rot0 @-163.42,2.30,-154.13,18.43                  ->ppu-vram;
-cell ma1:pad_out          rot0 @-173.78,2.30,-164.50,18.43                  ->ppu-vram;
-cell ma2:pad_out          rot0 @-184.15,2.29,-174.88,18.43                  ->ppu-vram;
-cell ma3:pad_out          rot0 @-194.54,2.28,-185.26,18.42                  ->ppu-vram;
-cell ma4:pad_out          rot0 @-204.91,2.28,-195.63,18.41                  ->ppu-vram;
-cell ma5:pad_out          rot0 @-215.27,2.28,-206.00,18.41                  ->ppu-vram;
-cell ma6:pad_out          rot0 @-225.64,2.28,-216.38,18.41                  ->ppu-vram;
-cell ma7:pad_out          rot0 @-236.02,2.28,-226.74,18.41 pad@-240.80,4.83 ->ppu-vram;
+cell d6:pad_bidir_pu  rot0 @-51.79,2.34,-42.47,18.48   pad@-37.6,4.92   ->bus-data;
+cell d7:pad_bidir_pu  rot0 @-62.15,2.33,-52.85,18.48                    ->bus-data;
+cell md7:pad_bidir_pu rot0 @-72.52,2.33,-63.23,18.48                    ->ppu-vram;
+cell md6:pad_bidir_pu rot0 @-82.90,2.33,-73.61,18.48                    ->ppu-vram;
+cell md5:pad_bidir_pu rot0 @-93.28,2.33,-83.98,18.47                    ->ppu-vram;
+cell md4:pad_bidir_pu rot0 @-103.65,2.33,-94.36,18.47                   ->ppu-vram;
+cell md3:pad_bidir_pu rot0 @-114.02,2.33,-104.75,18.46                  ->ppu-vram;
+cell md2:pad_bidir_pu rot0 @-124.41,2.32,-115.13,18.46                  ->ppu-vram;
+cell md1:pad_bidir_pu rot0 @-134.77,2.32,-125.50,18.45                  ->ppu-vram;
+cell md0:pad_bidir_pu rot0 @-153.04,2.30,-143.76,18.45                  ->ppu-vram;
+cell ma0:pad_out      rot0 @-163.42,2.30,-154.13,18.43                  ->ppu-vram;
+cell ma1:pad_out      rot0 @-173.78,2.30,-164.50,18.43                  ->ppu-vram;
+cell ma2:pad_out      rot0 @-184.15,2.29,-174.88,18.43                  ->ppu-vram;
+cell ma3:pad_out      rot0 @-194.54,2.28,-185.26,18.42                  ->ppu-vram;
+cell ma4:pad_out      rot0 @-204.91,2.28,-195.63,18.41                  ->ppu-vram;
+cell ma5:pad_out      rot0 @-215.27,2.28,-206.00,18.41                  ->ppu-vram;
+cell ma6:pad_out      rot0 @-225.64,2.28,-216.38,18.41                  ->ppu-vram;
+cell ma7:pad_out      rot0 @-236.02,2.28,-226.74,18.41 pad@-240.80,4.83 ->ppu-vram;
 
 
 # Wires originating from IO pads at the left hand side
