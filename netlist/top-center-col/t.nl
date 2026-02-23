@@ -47,8 +47,8 @@ wire osc_stable:ctl
 
 # tubo.q is not connected
 
-wire tubo:ctl
-	tubo.q -> unut.in1
+wire ~tubo:ctl
+	tubo.~q -> unut.in1
 	@-60.95,137.67,-60.95,139.40,-59.75,139.40,-59.75,139.85;
 
 wire ~ext_addr_en:ctl
