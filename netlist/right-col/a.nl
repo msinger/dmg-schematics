@@ -769,7 +769,7 @@ wire aryl:ctl
 
 # avaf.q is not connected
 
-wire ~avaf:ctl
+wire ~ff10_d3:ctl
 	avaf.~q -> aryl.in afox.in
 	@-182.67,185.22,-182.67,187.37,-180.62,187.37,-180.62,185.21
 	@-182.67,187.24,-191.22,187.24,-191.22,185.20;

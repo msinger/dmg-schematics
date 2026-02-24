@@ -291,7 +291,7 @@ wire ulur:clk
 
 # ukup.q is not connected
 
-wire ukup:clk
+wire ~ukup:clk
 	ukup.~q -> ukup.d ufor.clk
 	@-97.00,141.30,-97.00,143.38,-98.20,143.38,-98.20,141.30
 	@-97.00,142.83,-95.46,142.83,-95.46,141.30;
