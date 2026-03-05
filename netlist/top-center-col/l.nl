@@ -324,7 +324,7 @@ wire leco:clk
 	@-94.93,127.97,-94.93,128.45
 	@-100.05,127.34,-100.05,128.43;
 
-wire luma:ctl
+wire dma_addr_ext:ctl
 	luma.y -> tazy.sel tyho.sel cede.in mojy.sel male.sel mano.sel muce.sel masu.sel pege.sel puva.in2
 	          pamy.sel tymu.in1 atol.sel atyr.sel atov.sel amer.sel asur.sel apok.sel atem.sel amet.sel
 	@-100.38,113.23,-100.38,114.50,-100.21,114.50,-100.21,118.24,-95.59,118.24,-95.59,123.84,
