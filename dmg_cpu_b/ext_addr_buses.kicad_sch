@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "DMG-CPU B")
-		(date "2026-02-21")
+		(date "2026-03-14")
 		(rev "0.9")
 		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
 		(comment 1 "https://github.com/msinger/dmg-schematics")
@@ -1901,7 +1901,7 @@
 		)
 		(uuid "23e2ff0b-550c-4d75-b170-7769ef69ae9b")
 	)
-	(text "TEXO = '1' during mem req access when A < 0x8000 or A >= 0xA000 else '0'.\nIt excludes the VRAM address range.\nA0-14 are latched and presented to external pins when driven by CPU "
+	(text "TEXO = '1' during mem req access when A < 0x8000 or A >= 0xA000, else '0'.\nIt excludes the VRAM address range."
 		(exclude_from_sim no)
 		(at 19.05 136.525 0)
 		(effects
@@ -1934,9 +1934,9 @@
 		)
 		(uuid "3e371cf2-5704-4005-8cae-38bf91b43229")
 	)
-	(text "TYNU = '1' when A >= 0xA000 else '0'.\nTOZA = '1' when A >= 0xA000 and < 0xFE00; RAM space\n~{RAM_CS} can only go low in RAM space when driven by CPU"
+	(text "TYNU = '1' when A >= 0xA000, else '0'.\nTOZA = '1' when A >= 0xA000 and A < 0xFE00 and CPU_EXT_CS_EN, else '0'."
 		(exclude_from_sim no)
-		(at 41.91 23.495 0)
+		(at 33.02 23.495 0)
 		(effects
 			(font
 				(size 1.27 1.27)
