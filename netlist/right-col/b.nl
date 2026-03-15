@@ -943,7 +943,7 @@ wire bure:clk
 # bara.q is not connected
 
 wire ~bara:clk
-	bara.q -> bure.in
+	bara.~q -> bure.in
 	@-194.47,190.71,-194.47,192.65,-191.40,192.65,-191.40,190.70;
 
 wire byra:clk
