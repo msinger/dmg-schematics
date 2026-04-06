@@ -18,8 +18,8 @@ cell st:pad_out       rot270 @-252.99,149.61,-236.86,158.89                     
 cell cpl:pad_out      rot270 @-252.99,159.64,-236.87,168.91                     ->ppu-lcd;
 cell fr:pad_out       rot270 @-253.01,169.67,-236.88,178.94                     ->ppu-lcd;
 cell s:pad_out        rot270 @-253.02,179.70,-236.89,188.95                     ->ppu-lcd;
-cell so1:pad_pass     rot270 @-253.04,198.02,-236.91,207.45;
-cell so2:pad_pass     rot270 @-253.05,208.04,-236.92,217.48;
+cell so2:pad_pass     rot270 @-253.04,198.02,-236.91,207.45;
+cell so1:pad_pass     rot270 @-253.05,208.04,-236.92,217.48;
 cell vin:pad_pass_tg  rot270 @-253.07,218.24,-236.92,227.51;
 cell p15:pad_out_diff rot270 @-253.05,228.27,-236.94,237.53  pad@-250.55,242.36 ->joypad;
 
