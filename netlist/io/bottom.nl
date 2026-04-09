@@ -18,9 +18,9 @@ cell st:pad_out       rot270 @-252.99,149.61,-236.86,158.89                     
 cell cpl:pad_out      rot270 @-252.99,159.64,-236.87,168.91                     ->ppu-lcd;
 cell fr:pad_out       rot270 @-253.01,169.67,-236.88,178.94                     ->ppu-lcd;
 cell s:pad_out        rot270 @-253.02,179.70,-236.89,188.95                     ->ppu-lcd;
-cell so2:pad_pass     rot270 @-253.04,198.02,-236.91,207.45;
-cell so1:pad_pass     rot270 @-253.05,208.04,-236.92,217.48;
-cell vin:pad_pass_tg  rot270 @-253.07,218.24,-236.92,227.51;
+cell so2:pad_pass     rot270 @-253.04,198.02,-236.91,207.45                     ->apu-analog;
+cell so1:pad_pass     rot270 @-253.05,208.04,-236.92,217.48                     ->apu-analog;
+cell vin:pad_pass_tg  rot270 @-253.07,218.24,-236.92,227.51                     ->apu-analog;
 cell p15:pad_out_diff rot270 @-253.05,228.27,-236.94,237.53  pad@-250.55,242.36 ->joypad;
 
 alias cell rout -> so1;
@@ -46,7 +46,7 @@ wire ~mwr_in:ctl
 	 -115.69,31.67,-112.61,31.67,-112.61,33.20,-107.82,33.20,-107.82,31.23;
 
 wire vin:analog
-	vin.a -> audio.vin
+	vin.a -> audio.vin:codegen rmix.in5:-codegen lmix.in5:-codegen
 	@-236.98,227.11,-236.66,227.11,-236.66,223.97,-233.61,223.97,-233.56,176.57,-226.90,176.57,
 	 -226.90,176.93,-221.73,176.93,-221.73,177.23,-196.16,177.23,-183.36,177.23,-183.36,173.34,
 	 -183.85,173.34

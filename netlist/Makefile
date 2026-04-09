@@ -160,7 +160,7 @@ coords.js: $(NETLIST_FILES)
 	mv $@.part $@
 
 out.sv: $(NETLIST_FILES)
-	$(NLCONV) --sv $@.part -- $^
+	$(NLCONV) --cond codegen --sv $@.part -- $^
 	mv $@.part $@
 
 sm83-netlist.html: $(SM83_NETLIST_FILES)

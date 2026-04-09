@@ -23,6 +23,7 @@ category apu-ch1      :red;     # Channel 1
 category apu-ch2      :red;     # Channel 2
 category apu-ch3      :red;     # Channel 3
 category apu-ch4      :red;     # Channel 4
+category apu-analog   :red;     # Analog audio
 
 category ppu-control  :blue;    # PPU decode & video control
 category ppu-decode   :blue;    # PPU decode & video control

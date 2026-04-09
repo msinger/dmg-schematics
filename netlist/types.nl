@@ -549,6 +549,79 @@ type oam
 	a2 ~a2 a3 ~a3 a4 ~a4 a5 ~a5 a6 ~a6
 	~oe oe wr ~bl_pch ~wldrv_pch;
 
+type:-codegen amp in_p in_m bias ena ~ena out:tri
+	    @-132.78,165.15,-127.66,170.45
+	in_p@-130.70,170.45
+	in_m@-131.22,168.73
+	bias@-129.73,170.45
+	ena @-131.70,170.45
+	~ena@-130.20,170.45
+	out @-131.80,165.15
+	"Audio amplifier.";
+
+type:-codegen amp_split_main in_p in_m bias ena ~ena ~out_p:tri out_n:tri
+	      @-226.66,169.30,-223.26,174.50
+	in_p  @-225.55,174.50
+	in_m  @-223.38,169.30
+	bias  @-224.81,174.50
+	ena   @-226.55,174.50
+	~ena  @-225.08,174.50
+	~out_p@-225.69,169.30
+	out_n @-224.42,169.30
+	"Audio amplifier without output transistors.";
+
+type:-codegen amp_split_output ~p n out:tri
+	   @-227.25,138.98,-215.59,151.49
+	~p @-219.52,151.49
+	n  @-227.25,149.57
+	out@-227.25,140.90
+	"Output transistors for audio amplifier.";
+
+type:-codegen dac d[0] d[1] d[2] d[3] ena out:out vref:out not_in not_y:out
+	      @-140.09,170.70,-127.70,174.84
+	d[0]  @-140.09,172.58
+	d[1]  @-140.09,172.31
+	d[2]  @-140.09,172.06
+	d[3]  @-140.09,171.79
+	ena   @-128.33,172.63
+	out   @-131.10,170.70
+	vref  @-132.79,170.70
+	not_in@-140.09,171.41
+	not_in@-130.23,170.70
+	not_y @-131.72,170.70
+	not_y @-128.33,172.47
+	"4-bit digital to analog converter.";
+
+type:-codegen mixer in1 in2 in3 in4 in5 ena1 ena2 ena3 ena4 ena5 out:tri
+	    @-196.10,165.10,-183.67,174.52
+	in1 @-183.84,165.10
+	in2 @-183.67,167.80
+	in3 @-183.75,169.49
+	in4 @-183.73,171.10
+	in5 @-183.74,173.34
+	ena1@-186.69,174.52
+	ena2@-186.46,174.52
+	ena3@-186.25,174.52
+	ena4@-186.03,174.52
+	ena5@-185.81,174.52
+	out @-196.10,166.60
+	"5-channel analog mixer.";
+
+type:-codegen rv ~adj[0] ~adj[1] ~adj[2] a:inout w:inout
+	       @-218.96,165.47,-214.84,170.73
+	~adj[0]@-216.46,170.73
+	~adj[1]@-216.32,170.73
+	~adj[2]@-216.19,170.73
+	a      @-214.84,165.60
+	w      @-214.84,170.48,-218.71,170.48
+	"3-bit digital rheostat.";
+
+type:-codegen vdiv ena vref:out
+	    @-126.18,168.14,-122.97,176.66
+	ena @-125.80,170.81
+	vref@-126.18,172.82
+	"Voltage divider.";
+
 signal gnd:black   "GND";
 signal pwr:red     "VDD";
 signal dec:orange  "decoded";

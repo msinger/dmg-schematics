@@ -43,7 +43,8 @@ cell tonu:nor2   rot0,flip @-180.69,166.53,-180.17,168.62 spare;
 # -------------------------------------------------
 
 wire ~amp_en:ctl
-	tace.y -> tygu.in audio.~ena
+	tace.y -> tygu.in audio.~ena:codegen ladj_amp.~ena:-codegen radj_amp.~ena:-codegen
+	          lout_amp.~ena:-codegen rout_amp.~ena:-codegen
 	@-125.48,174.70,-125.48,173.98,-126.29,173.98,-126.29,175.84,-208.81,175.80
 	@-125.48,174.33,-125.65,174.33,-125.65,174.70
 	@-213.05,168.95,-212.67,168.95,-212.67,167.91,-209.23,167.91,-209.25,173.38,-209.25,174.64,-208.81,174.64,
@@ -53,7 +54,8 @@ wire ~amp_en:ctl
 	@-221.35,174.77,-224.65,174.77,-224.65,175.81,-225.04,175.81;
 
 wire amp_en:ctl
-	tygu.y -> audio.ena
+	tygu.y -> audio.ena:codegen vdiv.ena:-codegen ch2_dac.ena:-codegen
+	          ladj_amp.ena:-codegen radj_amp.ena:-codegen lout_amp.ena:-codegen rout_amp.ena:-codegen
 	@-125.82,174.70,-125.82,170.80
 	@-125.82,174.15,-126.15,174.15,-126.15,176.02,-142.55,176.02,-209.08,175.98
 	@-142.55,176.02,-142.55,172.62,-142.16,172.62
