@@ -1475,12 +1475,6 @@
 		(uuid "28cdefb3-667b-443f-841a-9f8e93246f80")
 	)
 	(junction
-		(at 92.71 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301e7cab-013f-4b5b-bac7-c5e93d64815b")
-	)
-	(junction
 		(at 212.09 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2149,16 +2143,6 @@
 			(type default)
 		)
 		(uuid "1793e206-8922-49b2-ba26-37bcaa4f75b7")
-	)
-	(wire
-		(pts
-			(xy 92.71 246.38) (xy 92.71 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18da5e46-47c6-457b-93f7-73d570277f08")
 	)
 	(wire
 		(pts
@@ -3882,16 +3866,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 231.14) (xy 108.585 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6ead53-7873-4f01-b493-76e506750ae0")
-	)
-	(wire
-		(pts
 			(xy 208.28 208.915) (xy 227.33 208.915)
 		)
 		(stroke
@@ -4452,16 +4426,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 246.38) (xy 92.71 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e73a0a22-b078-494b-89f2-dd5a17eb040d")
-	)
-	(wire
-		(pts
 			(xy 248.285 137.16) (xy 242.57 137.16)
 		)
 		(stroke
@@ -4592,7 +4556,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 246.38) (xy 108.585 246.38)
+			(xy 124.46 231.14) (xy 126.365 231.14)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 231.14) (xy 92.71 231.14)
+			(xy 91.44 231.14) (xy 111.76 231.14)
 		)
 		(stroke
 			(width 0)
@@ -4819,6 +4783,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e0685d8-1b58-4bd2-aa8c-cc11b3c00fee")
+	)
+	(label "~{AMP_EN}"
+		(at 97.79 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f683099-1354-44d8-9af3-b6f9bd849485")
 	)
 	(label "A2"
 		(at 144.145 61.595 0)
@@ -5363,7 +5337,7 @@
 	)
 	(hierarchical_label "AMP_EN"
 		(shape output)
-		(at 108.585 246.38 0)
+		(at 126.365 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5415,17 +5389,6 @@
 			(justify right)
 		)
 		(uuid "6c772ca5-751d-4fe8-81d0-7e930676af6c")
-	)
-	(hierarchical_label "~{AMP_EN}"
-		(shape output)
-		(at 108.585 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83d8f649-a1c3-4173-92b0-7e5276f0a0df")
 	)
 	(hierarchical_label "FF11"
 		(shape output)
@@ -10065,7 +10028,7 @@
 	)
 	(symbol
 		(lib_id "DMG_CPU_Cells:NOT_X1")
-		(at 100.33 246.38 0)
+		(at 118.11 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10074,7 +10037,7 @@
 		(fields_autoplaced yes)
 		(uuid "eca13f77-df08-420e-b4dd-4cf62cc92a45")
 		(property "Reference" "TYGU"
-			(at 100.33 237.49 0)
+			(at 118.11 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10045,7 @@
 			)
 		)
 		(property "Value" "NOT_X1"
-			(at 100.33 240.03 0)
+			(at 118.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,7 +10053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 246.38 0)
+			(at 115.57 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#not_x1"
-			(at 101.6 254 0)
+			(at 119.38 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +10071,7 @@
 			)
 		)
 		(property "Description" "Simple inverter."
-			(at 100.33 246.38 0)
+			(at 118.11 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,9991 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "265b3cea-14b4-4b46-bf61-af2dc7b97630")
+	(paper "A3")
+	(title_block
+		(title "DMG-CPU B")
+		(date "2026-03-22")
+		(rev "0.10")
+		(company "CC-BY-SA-4.0 Régis Galland & Michael Singer -- Derived work from Furrtek")
+		(comment 1 "https://github.com/msinger/dmg-schematics")
+	)
+	(lib_symbols
+		(symbol "AMP_1"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_2"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_2_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_3"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_3_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_4"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_4_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_5"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_5_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_6"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_6_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AMP_7"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_7_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_1_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_1_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_2_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_2_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_3_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_3_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_4_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_4_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_5_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_5_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_6_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_6_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DAC_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_7_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_7_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:AMP"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.905 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AMP"
+				(at 1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio amplifier."
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMP_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BIAS"
+						(effects
+							(font
+								(size 0.6 0.6)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:DAC"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DAC"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-bit digital to analog converter."
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DAC_1_1"
+				(rectangle
+					(start -6.35 8.255)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 3.81)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC_2_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 2.54 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:MIXER"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MIXER"
+				(at 0 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#mixer"
+				(at 0 -18.415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5-channel analog mixer."
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIXER_1_1"
+				(rectangle
+					(start -6.35 14.605)
+					(end 6.35 -14.605)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 3.81)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 3.81)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 3.81)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "IN5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "ENA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "ENA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 3.81)
+					(name "ENA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 3.81)
+					(name "ENA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 0)
+					(length 3.81)
+					(name "ENA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:PAD_PASS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAD_PASS"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_pass"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple pass pad with direct metal connection. Used as analog output."
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PAD_PASS_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 3.81)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PAD_PASS_1_1"
+				(pin passive line
+					(at 13.97 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:PAD_PASS_TG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAD_PASS_TG"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_pass_tg"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple pass pad with transmission gate. Used as analog input."
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PAD_PASS_TG_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 3.81)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PAD_PASS_TG_1_1"
+				(pin passive line
+					(at 13.97 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:RV"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RV"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#rv"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-bit digital rheostat."
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RV_0_1"
+				(rectangle
+					(start 1.27 1.27)
+					(end 2.286 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 2.286 0) (xy 3.302 -0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 1.778 2.54) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RV_1_1"
+				(rectangle
+					(start -6.35 4.445)
+					(end 6.35 -4.445)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{ADJ2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{ADJ1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "~{ADJ0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG_CPU_Cells:VDIV"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDIV"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#vdiv"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage divider."
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDIV_1_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 4.445)
+					(end 0.635 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -1.27)
+					(end 0.635 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -6.35) (xy 0.635 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.588) (xy 0 6.35) (xy 0.508 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -5.334) (xy 0.508 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MIXER_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MIXER"
+				(at 0 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#mixer"
+				(at 0 -18.415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5-channel analog mixer."
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIXER_1_1_1"
+				(rectangle
+					(start -6.35 14.605)
+					(end 6.35 -14.605)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 3.81)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 3.81)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 3.81)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "IN5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "ENA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "ENA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 3.81)
+					(name "ENA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 3.81)
+					(name "ENA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 0)
+					(length 3.81)
+					(name "ENA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RV_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RV"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#rv"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-bit digital rheostat."
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RV_1_0_1"
+				(rectangle
+					(start 1.27 1.27)
+					(end 2.286 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 2.286 0) (xy 3.302 -0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 1.778 2.54) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RV_1_1_1"
+				(rectangle
+					(start -6.35 4.445)
+					(end 6.35 -4.445)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~{ADJ2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~{ADJ1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "~{ADJ0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RADJ_AMP and LADJ_AMP are in a configuration that makes them\ninvert and scale. If volume is 0, their output is close to 2.2V.\nIf volume is 7 and all five channels are enabled, their output\ncan range from 4.1V (when all MIXER inputs are at 0.7V) to 0.3V\n(when all MIXER inputs are at 3.7V).\nLinearity may break down in edge cases when all five channels\nare enabled and all are at their lowest (0.7V) or all are at\ntheir highest (3.7V).\nMirror point of inversion is at 2.2V. If volume is 7 and only\nfour channels are enabled (no VIN), output ranges from 3.7V\n(when all enabled MIXER inputs are 0.7V) to 0.7V (when all\nenabled MIXER inputs are 3.7V)."
+		(exclude_from_sim no)
+		(at 242.57 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "133d0b2d-27be-42f3-b302-d833c087acc3")
+	)
+	(text "Pin 59\nLOUT"
+		(exclude_from_sim no)
+		(at 322.58 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3df11962-847c-4ded-93bb-6dd6c4d085bd")
+	)
+	(text "Pin 60\nROUT"
+		(exclude_from_sim no)
+		(at 322.58 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2315151-a81a-4ef0-b883-3bce348063d9")
+	)
+	(text "RVs have close to zero Ohm, if volume is 0 (~{ADJ}=0b111).\nRVs have a quarter of the Ohm value of one single resistor\ninside the MIXERs, if volume is 7 (~{ADJ}=0b000).\nThis means when exacly four of the five channels in a MIXER\nare enabled, then the total resistance across the MIXER is\nequal to the maximum resistance of an RV."
+		(exclude_from_sim no)
+		(at 198.12 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a55b82fd-c857-4f99-a2e2-485b71c29f93")
+	)
+	(text "3V"
+		(exclude_from_sim no)
+		(at 115.57 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8576d4a-406c-46da-b48d-4d628e5ea32b")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 224.79 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b779186b-92d9-4cd9-bd50-099a2efb9842")
+	)
+	(text "Like the AMPs behind the DACs, the final output AMPs are\nnon-inverting, and map lineary 1:1 when their input is\nbetween 0.7V and 4.1V."
+		(exclude_from_sim no)
+		(at 298.45 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c28cbbb6-9b06-4f94-ab5e-21f09820fa91")
+	)
+	(text "DACs output 0.7V-3.7V in 0.2V steps, if enabled.\n(5V if disabled.)\n\nAMPs are linear in that range and pass voltage through 1:1."
+		(exclude_from_sim no)
+		(at 134.62 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc930649-3241-42be-86dd-e2a0247ca84f")
+	)
+	(text "Pin 61"
+		(exclude_from_sim no)
+		(at 168.91 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f495c791-0422-4729-8636-65be7a37ac3b")
+	)
+	(junction
+		(at 245.11 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e06fe6-a8c5-4e85-a414-1364b63b7ca0")
+	)
+	(junction
+		(at 229.87 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef763be-60dd-462e-a49d-7da9a2badaa8")
+	)
+	(junction
+		(at 110.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c62188-09c4-4349-82e0-49c84394a11b")
+	)
+	(junction
+		(at 69.85 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f7dd5e-e09e-4022-90ff-6ad80f032a51")
+	)
+	(junction
+		(at 261.62 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fd9927-04f5-4f5f-9f65-6bec9037d78d")
+	)
+	(junction
+		(at 254 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296fb5d7-e946-4b78-8df8-723262a50f10")
+	)
+	(junction
+		(at 229.87 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "333777aa-e1a7-429a-9a4a-b7f86c1d0a25")
+	)
+	(junction
+		(at 261.62 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ace942-97f1-4422-9a5f-a89686ba28c6")
+	)
+	(junction
+		(at 160.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0377aa-6b69-4683-9736-fb21e5101fcb")
+	)
+	(junction
+		(at 167.64 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4049e3b2-ff19-4a33-ab62-1e622fa8d818")
+	)
+	(junction
+		(at 284.48 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4914c9e8-5742-4180-9666-116967dc9c83")
+	)
+	(junction
+		(at 162.56 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d5d9baa-d93d-4f65-a7d6-70e481cbebb5")
+	)
+	(junction
+		(at 137.16 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d87018b-d08a-4a8d-9efa-c08893c57c35")
+	)
+	(junction
+		(at 69.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56abc261-acad-4aa0-b826-cb16826139d5")
+	)
+	(junction
+		(at 137.16 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65cc4433-c888-463e-bbf4-12eda8ebcb4e")
+	)
+	(junction
+		(at 204.47 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "930ebb76-314f-4fec-9a29-abbee40ae96b")
+	)
+	(junction
+		(at 232.41 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5cc7de-dec0-443d-88f2-69ca20948e6a")
+	)
+	(junction
+		(at 157.48 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a813e5d3-2005-4009-bdf0-29da43e152d1")
+	)
+	(junction
+		(at 264.16 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d2c386-aabf-42c0-a159-7d52764fed18")
+	)
+	(junction
+		(at 157.48 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e38a60-3896-454e-bb62-d96bdbefab63")
+	)
+	(junction
+		(at 165.1 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab481b74-6ddb-465b-89d2-8928a79a0119")
+	)
+	(junction
+		(at 157.48 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8d98b7-175d-47c8-b59d-70402c8efb7d")
+	)
+	(junction
+		(at 137.16 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff80ed8-abc6-49a2-88d0-d3e6fc6cf48c")
+	)
+	(junction
+		(at 254 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b21968ce-cbfa-4a8b-9705-57d599a23270")
+	)
+	(junction
+		(at 234.95 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66d6f80-9334-463d-86f4-1c4141b92926")
+	)
+	(junction
+		(at 157.48 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87b6ded-1b54-4ce4-ac91-f21d50c374db")
+	)
+	(junction
+		(at 284.48 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b92bf3e6-f345-412f-9624-1941790c4bf6")
+	)
+	(junction
+		(at 110.49 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a64c2e-3e6b-4ab0-b0ec-7efee3e62908")
+	)
+	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e40f010a-9b8f-4580-9c93-ca366ac6e592")
+	)
+	(junction
+		(at 234.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d3ab20-8d86-493b-a8a3-eea7b2f44ea8")
+	)
+	(junction
+		(at 110.49 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdfbbd0f-bfdd-43d0-b5ce-2f99b1d7c07f")
+	)
+	(no_connect
+		(at 133.35 179.07)
+		(uuid "37ee5dab-dbcd-4104-99d8-24450dda5d5b")
+	)
+	(no_connect
+		(at 133.35 110.49)
+		(uuid "9d7f8471-3a9d-4af7-a0ee-2791aec821dc")
+	)
+	(no_connect
+		(at 133.35 213.36)
+		(uuid "f47b3c99-6ee1-45e7-b3f4-f2dfbbc98ec0")
+	)
+	(bus_entry
+		(at 190.5 166.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cc15d6-02b2-44ed-819f-b9dcc1823482")
+	)
+	(bus_entry
+		(at 92.71 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1df660-5418-40a8-9b2a-09f79b4f37d0")
+	)
+	(bus_entry
+		(at 92.71 107.95)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f25a225-74be-468d-a5b7-b9001ad6422b")
+	)
+	(bus_entry
+		(at 190.5 168.91)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d45c83f-ff68-4923-b5e1-fd7942384305")
+	)
+	(bus_entry
+		(at 92.71 176.53)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3528e72a-c5c6-425d-bd9b-3e4a1204e253")
+	)
+	(bus_entry
+		(at 92.71 139.7)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3652e343-b9d2-469b-b73f-03fd9f4f906d")
+	)
+	(bus_entry
+		(at 190.5 163.83)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4787f4d2-6f23-49cc-aeac-e7ab6d095981")
+	)
+	(bus_entry
+		(at 92.71 208.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4911925a-ea9c-4616-825a-9453834258bb")
+	)
+	(bus_entry
+		(at 92.71 173.99)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a53f77f-37a0-46f4-a4f1-18595d53b1ef")
+	)
+	(bus_entry
+		(at 92.71 171.45)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628a5a83-3989-4d80-b5ee-7f572a5cec65")
+	)
+	(bus_entry
+		(at 190.5 199.39)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a9efcd-e4ff-41fd-aeb3-921b58c2fe63")
+	)
+	(bus_entry
+		(at 190.5 120.65)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e3d31f-ce6b-4571-89ca-df6bf9b7e03a")
+	)
+	(bus_entry
+		(at 190.5 125.73)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6711f1f9-c6ae-4ea6-8eb4-9a2429157785")
+	)
+	(bus_entry
+		(at 190.5 92.71)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c5b380-637b-477b-a948-07a28f1569b9")
+	)
+	(bus_entry
+		(at 92.71 102.87)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a842274-e3b4-43fe-9309-0cfae7a1f5bc")
+	)
+	(bus_entry
+		(at 92.71 100.33)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850857d9-888c-4f97-b6a2-583cabd9ca4d")
+	)
+	(bus_entry
+		(at 190.5 95.25)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88324b79-5f5a-49a4-9ef5-0e90e3fd4538")
+	)
+	(bus_entry
+		(at 92.71 105.41)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9254afe2-ba74-4742-92bc-9a428c39fbd9")
+	)
+	(bus_entry
+		(at 190.5 87.63)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45d2112-cb18-4ec2-9d22-cbd3a28b7193")
+	)
+	(bus_entry
+		(at 190.5 196.85)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d313f6-e455-4873-bbe0-bf323aeec664")
+	)
+	(bus_entry
+		(at 190.5 123.19)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8313e4a-76f7-47e6-89b1-ddf8e0add68f")
+	)
+	(bus_entry
+		(at 92.71 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93be05c-5f0d-47e5-baf1-bb170076092c")
+	)
+	(bus_entry
+		(at 92.71 210.82)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a957397e-6150-4857-ac69-2911bb5ca313")
+	)
+	(bus_entry
+		(at 92.71 205.74)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2a9d96-9eee-4952-93d9-c8f2fdac4480")
+	)
+	(bus_entry
+		(at 92.71 142.24)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be70fd4c-c183-4ba7-b1e3-8dc5211c9c59")
+	)
+	(bus_entry
+		(at 92.71 168.91)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1aab9c-ab9d-4ad7-9dab-ffa3b957e19a")
+	)
+	(bus_entry
+		(at 190.5 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13f1cb5-9a00-465d-a788-bcb615e826ce")
+	)
+	(bus_entry
+		(at 190.5 194.31)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52ca5cd-379e-4b0f-9fc4-261a6d2bd6aa")
+	)
+	(bus_entry
+		(at 190.5 161.29)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b784b4-f20d-4dd0-bd62-695b5aa5a483")
+	)
+	(bus_entry
+		(at 92.71 203.2)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61fed51-2a96-4409-9b68-c81dc173070e")
+	)
+	(bus
+		(pts
+			(xy 190.5 153.67) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f61ee8-5b82-4a64-90f6-4d03b3451e1b")
+	)
+	(bus
+		(pts
+			(xy 92.71 137.16) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02679d20-76fe-4038-9d78-c6a58330dffb")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.08) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b84d30-0e5e-4e36-b8b1-a184775757a8")
+	)
+	(bus
+		(pts
+			(xy 92.71 205.74) (xy 92.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030b688d-d409-47ef-a7f1-0217161a462c")
+	)
+	(wire
+		(pts
+			(xy 232.41 144.78) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03639988-d4cb-4dc5-bacd-c9e399dff483")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 204.47 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038c6dac-ccf6-43a8-b113-680591802d25")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 140.97 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ace095-ebb7-4906-94fc-5534aead6a20")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e1ab80-a557-49f8-84e7-7d4288848db2")
+	)
+	(wire
+		(pts
+			(xy 187.96 156.21) (xy 207.01 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ea793d-742a-487e-a33e-46eab5e5dc21")
+	)
+	(wire
+		(pts
+			(xy 157.48 203.2) (xy 157.48 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079fb7f6-dfd4-46d0-9ece-e5dae87678ed")
+	)
+	(wire
+		(pts
+			(xy 137.16 143.51) (xy 148.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08abf2e5-0ecd-4b54-b03d-c9582cedd1d3")
+	)
+	(wire
+		(pts
+			(xy 193.04 158.75) (xy 207.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093f016f-c49d-429c-97b0-7b6316a55070")
+	)
+	(wire
+		(pts
+			(xy 261.62 57.15) (xy 261.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a06d3b7-5cd1-4e37-800a-ede5640e1cee")
+	)
+	(bus
+		(pts
+			(xy 92.71 139.7) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a354098-72ce-4c16-901c-147ae0fddd00")
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3) (xy 234.95 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab27912-f3c2-4fbf-b2c3-2bb37f23c117")
+	)
+	(wire
+		(pts
+			(xy 284.48 193.04) (xy 266.7 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba30701-27a0-4f10-ace3-1c6ede68712d")
+	)
+	(bus
+		(pts
+			(xy 90.17 95.25) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c045d65-62cf-40b1-b1cc-d7d461e36b09")
+	)
+	(wire
+		(pts
+			(xy 207.01 173.99) (xy 160.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f005bcc-0fa3-4554-a2ec-9b477f380fe7")
+	)
+	(wire
+		(pts
+			(xy 148.59 142.24) (xy 148.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11343718-47d9-42c8-a1ba-e8f9cab61db4")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11756de4-367f-444d-b56e-e6d8a13046f7")
+	)
+	(wire
+		(pts
+			(xy 137.16 177.8) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b8ffba-6fdd-486d-adbd-5e2d247dd09e")
+	)
+	(wire
+		(pts
+			(xy 266.7 193.04) (xy 266.7 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d2f341-ede0-4551-b4f3-a3b4aee80cd5")
+	)
+	(wire
+		(pts
+			(xy 252.73 105.41) (xy 254 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f468ad-4d71-4d8d-83c4-d522379fce22")
+	)
+	(wire
+		(pts
+			(xy 148.59 212.09) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14cc80eb-c818-4128-9c21-a80709ab964f")
+	)
+	(wire
+		(pts
+			(xy 284.48 181.61) (xy 284.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fd6f38-f38c-4a18-9086-b0b33559b892")
+	)
+	(bus
+		(pts
+			(xy 190.5 168.91) (xy 190.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a86c04-444c-470c-ab1a-bc344ebd8829")
+	)
+	(wire
+		(pts
+			(xy 148.59 210.82) (xy 148.59 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1954f212-67cc-439c-ab3d-4838da36cef8")
+	)
+	(wire
+		(pts
+			(xy 284.48 107.95) (xy 284.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4dc7bb-0c96-4c48-8bbf-2e20e6d7ff55")
+	)
+	(wire
+		(pts
+			(xy 227.33 191.77) (xy 229.87 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb7c149-a550-460a-b956-4714bdb8ecfb")
+	)
+	(wire
+		(pts
+			(xy 139.7 214.63) (xy 139.7 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d03054e-ca5b-47e9-9add-44d64c39db79")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d169f6a-d58d-451d-92b3-657fb0625459")
+	)
+	(bus
+		(pts
+			(xy 190.5 95.25) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ac7cc5-3cf4-4eed-95ec-fb4a6577df88")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 264.16 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c503ab-d08f-4ac4-9e80-c6e637305fcd")
+	)
+	(wire
+		(pts
+			(xy 227.33 181.61) (xy 229.87 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225254ec-5d03-47cc-8cb7-e1c25bf5c6d0")
+	)
+	(wire
+		(pts
+			(xy 232.41 102.87) (xy 237.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f83043-97dd-48b1-b3c1-c3746517f685")
+	)
+	(bus
+		(pts
+			(xy 92.71 142.24) (xy 92.71 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c9d3b1-35fc-4d98-8c45-fe991d1c9b82")
+	)
+	(wire
+		(pts
+			(xy 90.17 190.5) (xy 95.25 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d22f07-83db-4801-9e31-4a30e349119a")
+	)
+	(bus
+		(pts
+			(xy 190.5 189.23) (xy 190.5 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270b72d2-7ad0-47ad-8a4f-acb5bd692534")
+	)
+	(bus
+		(pts
+			(xy 190.5 92.71) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c00175-fdc3-4cdc-9805-f5aaeedbb666")
+	)
+	(bus
+		(pts
+			(xy 190.5 163.83) (xy 190.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283ffbfc-efd4-4a68-a680-bfb620a8551c")
+	)
+	(wire
+		(pts
+			(xy 275.59 100.33) (xy 275.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f470f2-369c-4a85-b915-1a22726a3ab7")
+	)
+	(wire
+		(pts
+			(xy 133.35 144.78) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29059f3f-23fd-4b36-bbf1-8dbd20ce01b1")
+	)
+	(wire
+		(pts
+			(xy 148.59 190.5) (xy 110.49 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a96249c-b899-4c69-b721-c012d352d551")
+	)
+	(wire
+		(pts
+			(xy 193.04 123.19) (xy 207.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b868703-2c35-4125-a8c3-5455dcce95aa")
+	)
+	(wire
+		(pts
+			(xy 245.11 57.15) (xy 245.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c667b83-a226-423c-9d51-68988df4e68f")
+	)
+	(wire
+		(pts
+			(xy 207.01 176.53) (xy 162.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e420046-e14d-4e3e-9d4d-ed8869b70d57")
+	)
+	(wire
+		(pts
+			(xy 275.59 173.99) (xy 275.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec96f66-f710-4254-9493-5f8f9000f3d1")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef4ffe4-027d-4ebc-a1df-17c584106ce3")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4ab38a-0dbe-4288-a7f0-6cd11ce12281")
+	)
+	(wire
+		(pts
+			(xy 95.25 171.45) (xy 113.03 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308eeb7d-ebe4-4f68-ad2e-207ae69b52a3")
+	)
+	(wire
+		(pts
+			(xy 95.25 203.2) (xy 113.03 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f107a4-dfcb-463d-83ba-cdafe4aa1942")
+	)
+	(wire
+		(pts
+			(xy 232.41 144.78) (xy 232.41 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ab0eb0-a312-468c-8f04-4903e2bd2d2d")
+	)
+	(wire
+		(pts
+			(xy 165.1 105.41) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f383dc-641e-42a2-b21d-de45098932da")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36656052-c4b0-4c1b-86d1-d6b26daf7463")
+	)
+	(bus
+		(pts
+			(xy 92.71 100.33) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376fc89c-efdb-47bd-a312-11afdbb90bf7")
+	)
+	(wire
+		(pts
+			(xy 95.25 166.37) (xy 113.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3881e2c3-f07f-4b64-b4c6-a0e2f8801820")
+	)
+	(wire
+		(pts
+			(xy 284.48 119.38) (xy 266.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393d4076-d541-4bd5-8967-b63116de4fe3")
+	)
+	(bus
+		(pts
+			(xy 92.71 179.07) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398e20b4-4baf-44ca-9805-d80650fc16d9")
+	)
+	(wire
+		(pts
+			(xy 193.04 166.37) (xy 207.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b47602a-cb19-4fca-9372-9acb22e75ead")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403a727f-bddf-4e6e-81fa-852409fa79f7")
+	)
+	(wire
+		(pts
+			(xy 157.48 168.91) (xy 156.21 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40df9c3f-31c1-4aab-90af-edff8896425e")
+	)
+	(bus
+		(pts
+			(xy 92.71 173.99) (xy 92.71 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e1ac52-5ef7-43a5-bae7-330a554dce48")
+	)
+	(wire
+		(pts
+			(xy 148.59 156.21) (xy 110.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bb1e05-e851-4f8b-aae2-f1417babc3a2")
+	)
+	(wire
+		(pts
+			(xy 69.85 144.78) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f72ab4-4347-486d-af22-1de8d10cd524")
+	)
+	(wire
+		(pts
+			(xy 160.02 173.99) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47817464-a481-4f12-8887-d98fc001cf18")
+	)
+	(wire
+		(pts
+			(xy 275.59 190.5) (xy 264.16 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d291b28-a3ba-45ae-b52e-7e54cae81c12")
+	)
+	(wire
+		(pts
+			(xy 69.85 144.78) (xy 113.03 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc406b9-1839-4bf4-a587-e20efc27b3b6")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 148.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50436fb1-10de-4373-944f-0b830afeddec")
+	)
+	(bus
+		(pts
+			(xy 190.5 87.63) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5086af6c-34fa-499d-a187-10197926e0a0")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5335d12c-e709-4276-8353-347e19174e96")
+	)
+	(wire
+		(pts
+			(xy 254 120.65) (xy 227.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589c4b85-195d-420c-a7a3-2b38e4cf84a7")
+	)
+	(wire
+		(pts
+			(xy 139.7 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591c990b-2647-4b11-818b-485463054632")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a270a0-f7af-4c03-bbcd-5fed0c82e1f0")
+	)
+	(bus
+		(pts
+			(xy 190.5 199.39) (xy 190.5 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a070879-071f-4704-9322-9e2b281bbd70")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 275.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2d2866-9338-48c9-81a4-77cba2b00513")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 207.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfab751-8865-4205-a715-c2a044ccc61e")
+	)
+	(wire
+		(pts
+			(xy 227.33 107.95) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f90355e-9e2d-4929-902e-956734430c05")
+	)
+	(bus
+		(pts
+			(xy 92.71 142.24) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615c3d34-0f59-4cba-93fa-0b5894d87cd9")
+	)
+	(wire
+		(pts
+			(xy 95.25 173.99) (xy 113.03 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6168fc93-0b6f-4fb9-b881-784669251912")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bb65d3-3357-4701-a395-2dd05a7c06be")
+	)
+	(wire
+		(pts
+			(xy 95.25 205.74) (xy 113.03 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be0ab1-9979-4f40-83f2-877c6798abe3")
+	)
+	(wire
+		(pts
+			(xy 137.16 143.51) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f65d8e-2365-49a8-9060-a64376f2fd03")
+	)
+	(wire
+		(pts
+			(xy 193.04 85.09) (xy 207.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643477b2-2d4e-49e0-aa3c-62b1f5caab3a")
+	)
+	(wire
+		(pts
+			(xy 110.49 213.36) (xy 113.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65557685-e7ef-474e-8c54-55095f34b53b")
+	)
+	(wire
+		(pts
+			(xy 234.95 69.85) (xy 234.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666f0cba-6048-4036-96f6-55c309dafbf3")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7667d3-673a-482e-98e8-bbf50897c99f")
+	)
+	(wire
+		(pts
+			(xy 193.04 194.31) (xy 207.01 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb427b7-3449-4833-a4fd-17ea7d6f5d4f")
+	)
+	(wire
+		(pts
+			(xy 193.04 118.11) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccdd14c-80c2-4393-8d10-26b35e158409")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d077ab3-d5ef-4391-9af6-2b8f9f5b9292")
+	)
+	(wire
+		(pts
+			(xy 232.41 176.53) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de7d44f-f7c5-4758-b964-db0695747f38")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f86280f-237a-42db-b7be-fc21377bdaff")
+	)
+	(wire
+		(pts
+			(xy 107.95 156.21) (xy 110.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708033cb-f418-4a31-bc62-225848436d66")
+	)
+	(bus
+		(pts
+			(xy 190.5 196.85) (xy 190.5 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cc97bc-221b-4a55-b15e-a7fdd89c350e")
+	)
+	(wire
+		(pts
+			(xy 157.48 214.63) (xy 139.7 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7233b5c7-f2e7-4fe2-8d18-ed2805133461")
+	)
+	(bus
+		(pts
+			(xy 190.5 125.73) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72428640-8c29-4042-8116-d669825b4b13")
+	)
+	(wire
+		(pts
+			(xy 193.04 191.77) (xy 207.01 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74218923-fb26-42d1-8a62-8e4a0385623c")
+	)
+	(wire
+		(pts
+			(xy 110.49 190.5) (xy 110.49 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742a4588-2cab-4bb8-a0e4-a1efcba99676")
+	)
+	(bus
+		(pts
+			(xy 190.5 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752e73a8-e6e3-4025-9cc6-71ebffdd8240")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ba2a7c-289c-49e1-bf46-f48e8d083ed8")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a067a40-daa7-4ad8-b9d5-a39b5c48f699")
+	)
+	(wire
+		(pts
+			(xy 148.59 195.58) (xy 148.59 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9953a6-f641-4d7b-9d1e-1d8956a9b8c6")
+	)
+	(bus
+		(pts
+			(xy 190.5 120.65) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa216de-0d29-43d8-963b-f6706f0286f2")
+	)
+	(wire
+		(pts
+			(xy 162.56 176.53) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abbf806-a307-48fb-89e3-43dc4ae78116")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 207.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac4a55f-7ad3-4c38-9df6-248878a28558")
+	)
+	(wire
+		(pts
+			(xy 275.59 115.57) (xy 275.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3569c2-3ae3-40bb-bb54-f76091a85baf")
+	)
+	(wire
+		(pts
+			(xy 157.48 203.2) (xy 156.21 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c879570-1b2e-4833-9ccb-e65e9b07a08e")
+	)
+	(wire
+		(pts
+			(xy 254 179.07) (xy 254 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d019e3f-ada9-4236-af4d-e67c0d7f9e24")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4b92b7-7cea-49cc-aed4-3e2ec31b7757")
+	)
+	(bus
+		(pts
+			(xy 92.71 110.49) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb7b717-ddd5-4db4-b8cd-228e83e5312a")
+	)
+	(wire
+		(pts
+			(xy 193.04 120.65) (xy 207.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd83989-bfa2-4e71-b40a-ebe48e68e9be")
+	)
+	(bus
+		(pts
+			(xy 90.17 198.12) (xy 92.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cc4b57-d1b0-4710-83b2-9ca90ea88675")
+	)
+	(wire
+		(pts
+			(xy 234.95 187.96) (xy 245.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee68ed-15c3-43a3-b5bc-3afcb74765d1")
+	)
+	(wire
+		(pts
+			(xy 275.59 189.23) (xy 275.59 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8492646d-41b9-4bb7-a36d-a669e96c1429")
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95) (xy 237.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8584fb77-addd-4bda-aba3-ef927f883e5e")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 148.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864d6dc6-b553-4c64-9db9-296b6e689fd5")
+	)
+	(wire
+		(pts
+			(xy 95.25 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a55a91-1167-4c5b-bef1-9712599bd79a")
+	)
+	(wire
+		(pts
+			(xy 139.7 180.34) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87efa9b1-efa7-4420-a523-b2ff0f0ab588")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 137.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ee0cd7-41fa-41dd-9a3b-03c6a98e7c05")
+	)
+	(wire
+		(pts
+			(xy 245.11 57.15) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba0d957-082c-498e-8c0c-bf300a5d4e91")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 140.97 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf9cadf-39cc-430e-92f8-82a8433cced9")
+	)
+	(wire
+		(pts
+			(xy 193.04 92.71) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cefe22f-25df-4560-964f-7b5dab253adc")
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3) (xy 245.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2799b5-9768-49d9-aaf8-365256efb646")
+	)
+	(wire
+		(pts
+			(xy 229.87 181.61) (xy 229.87 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4b8046-53e2-4ebc-a4d7-8b9b2e4d028e")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d78d0cd-0734-4fa2-a5a1-ac9691e9096d")
+	)
+	(wire
+		(pts
+			(xy 95.25 168.91) (xy 113.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8faa85d1-43c8-48bc-bc44-38328bee9193")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9012bdb5-22fb-4ea2-b3a1-14c9fbf2ca20")
+	)
+	(bus
+		(pts
+			(xy 92.71 208.28) (xy 92.71 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901601a5-aa0a-4ba7-b5f4-afcab47381fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 179.07) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903eefa9-8087-43ff-a185-b1d04d6b9dec")
+	)
+	(wire
+		(pts
+			(xy 254 194.31) (xy 227.33 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9184e6a8-a07b-432c-a664-7d3ffc586498")
+	)
+	(wire
+		(pts
+			(xy 133.35 200.66) (xy 140.97 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a047a4-7bd8-433a-89a1-af7cffb14665")
+	)
+	(wire
+		(pts
+			(xy 193.04 196.85) (xy 207.01 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940a00e4-f4cc-4805-8a52-a6a8c0608587")
+	)
+	(bus
+		(pts
+			(xy 92.71 176.53) (xy 92.71 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94635ac8-3b8d-40f8-a2b2-1a1b0fccc191")
+	)
+	(bus
+		(pts
+			(xy 92.71 102.87) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95211b5c-116d-4f67-8f99-29a484581c4f")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c7a82c-06d9-4327-b1ef-94ecf40e7272")
+	)
+	(wire
+		(pts
+			(xy 157.48 180.34) (xy 139.7 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ee6137-061f-42f7-a47e-7237f3fc3f60")
+	)
+	(wire
+		(pts
+			(xy 254 105.41) (xy 267.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ba15df-9adb-490d-a118-31d2ef87baad")
+	)
+	(bus
+		(pts
+			(xy 190.5 97.79) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cdb7d6-7207-417a-bca3-117105123598")
+	)
+	(bus
+		(pts
+			(xy 187.96 189.23) (xy 190.5 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cff61a8-8690-44c1-8a27-4d4093c32eb9")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 167.64 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d906fb8-1979-414c-8423-3bb3d9c6fb75")
+	)
+	(wire
+		(pts
+			(xy 275.59 144.78) (xy 261.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9deb2dba-5a34-44e3-aeb0-ccf6264d2bfc")
+	)
+	(wire
+		(pts
+			(xy 266.7 119.38) (xy 266.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc0e29a-9714-4a22-9d2c-58f1ef39928a")
+	)
+	(bus
+		(pts
+			(xy 92.71 105.41) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06a7407-376b-43c8-baaa-00075c552386")
+	)
+	(wire
+		(pts
+			(xy 229.87 181.61) (xy 237.49 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a096f064-b98a-4f0f-a453-8c053445eda3")
+	)
+	(bus
+		(pts
+			(xy 187.96 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09cc1f6-60df-48d9-b832-b0455f916b25")
+	)
+	(wire
+		(pts
+			(xy 107.95 190.5) (xy 110.49 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a153b03d-ae41-40a4-bacf-48ad92172f94")
+	)
+	(wire
+		(pts
+			(xy 139.7 205.74) (xy 140.97 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a20eda-f08a-47dd-9398-59f3e82a2b6c")
+	)
+	(wire
+		(pts
+			(xy 137.16 177.8) (xy 148.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a522f949-09d7-46f1-88f5-1b7189eb932a")
+	)
+	(wire
+		(pts
+			(xy 148.59 176.53) (xy 148.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58f58bd-7458-4b8c-be45-c5670e63011e")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a733c943-1653-45e6-ac7f-45c60af1421b")
+	)
+	(wire
+		(pts
+			(xy 95.25 105.41) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99b3116-7fa2-447e-9653-bd6e3ac0ff24")
+	)
+	(wire
+		(pts
+			(xy 284.48 107.95) (xy 283.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae76d91-26ec-4f4c-acb3-edabbab92f50")
+	)
+	(bus
+		(pts
+			(xy 190.5 171.45) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab83a815-dc8e-43ae-a091-26e6f4a41f26")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 139.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf6a83b-e256-4e24-979e-5abfa25647a5")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0312e56-46ef-411c-85af-bc25bd02680d")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1496c74-9548-4c17-b929-31e7523c406f")
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95) (xy 229.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b183a041-58c8-4be1-88af-8f6e20865b49")
+	)
+	(wire
+		(pts
+			(xy 167.64 181.61) (xy 207.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1853702-dd24-4f91-b68d-7d1fe9161235")
+	)
+	(wire
+		(pts
+			(xy 245.11 187.96) (xy 245.11 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43b9840-4a1e-44ea-8d67-938f8ff29875")
+	)
+	(wire
+		(pts
+			(xy 264.16 69.85) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d5577f-a609-4c17-a3e0-a8ad8f3da6af")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51b0325-5dbd-476a-9ff1-de352e8c9460")
+	)
+	(wire
+		(pts
+			(xy 157.48 168.91) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62e8616-a846-439f-87bc-e13b5a071b99")
+	)
+	(wire
+		(pts
+			(xy 254 105.41) (xy 254 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bb5f3f-4535-47c1-abf7-7b1d4b56039b")
+	)
+	(bus
+		(pts
+			(xy 90.17 129.54) (xy 92.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc89999b-f93d-4281-9721-789429d16399")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 113.03 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8be7f1-107f-4a24-907a-732d842692ee")
+	)
+	(wire
+		(pts
+			(xy 148.59 161.29) (xy 148.59 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec12406-7dd6-4da7-868b-8fd813f24be1")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed7c0d4-4ead-482b-959d-64d00f5a137c")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06335fc-57e8-45de-8f8a-11edbdfc8c05")
+	)
+	(wire
+		(pts
+			(xy 165.1 168.91) (xy 157.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3125c21-a217-43a1-b3d4-31340c33ee7b")
+	)
+	(wire
+		(pts
+			(xy 266.7 110.49) (xy 267.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45b1efe-421e-410f-8d15-e359a68f19de")
+	)
+	(bus
+		(pts
+			(xy 190.5 166.37) (xy 190.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65ad76e-d18d-493b-a5c3-f24351e7acad")
+	)
+	(bus
+		(pts
+			(xy 190.5 115.57) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d4092c-01ef-4ed8-a80c-3a9208def9bd")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71e776b-118f-428d-87d2-5f15df7a24b2")
+	)
+	(bus
+		(pts
+			(xy 190.5 90.17) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c893da69-d910-406d-8acd-1363994b8e67")
+	)
+	(wire
+		(pts
+			(xy 162.56 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92d8679-c16c-44e5-beeb-d5e316f6d654")
+	)
+	(bus
+		(pts
+			(xy 90.17 163.83) (xy 92.71 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95af64e-c3c5-48f4-a69a-5ee140b71240")
+	)
+	(bus
+		(pts
+			(xy 190.5 161.29) (xy 190.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca05d967-7289-4973-852a-6bbb6c168005")
+	)
+	(wire
+		(pts
+			(xy 264.16 69.85) (xy 264.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1a8c89-aabc-4227-bb84-a05f4c5ea4d0")
+	)
+	(bus
+		(pts
+			(xy 190.5 123.19) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5c09a4-1eb8-4903-ae91-9888c36dc701")
+	)
+	(wire
+		(pts
+			(xy 193.04 161.29) (xy 207.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd79d489-65bd-461a-91bc-45e14a8eb52e")
+	)
+	(wire
+		(pts
+			(xy 245.11 113.03) (xy 245.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce378b44-70ff-454c-8b0a-0c5291589e46")
+	)
+	(wire
+		(pts
+			(xy 207.01 179.07) (xy 165.1 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4dd54e-5520-439c-96cd-ffd0cb6eb1f6")
+	)
+	(bus
+		(pts
+			(xy 92.71 107.95) (xy 92.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08f7fe1-e828-426d-bdfc-c4c9ae435ca6")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d259ff8e-8453-4363-9d0c-bd2ead869c48")
+	)
+	(wire
+		(pts
+			(xy 167.64 203.2) (xy 157.48 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cc9b6f-dcee-4a5a-a35a-c24070b4eaca")
+	)
+	(wire
+		(pts
+			(xy 187.96 82.55) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d837d0fd-0ea8-4a51-b59c-1552a4f43b16")
+	)
+	(wire
+		(pts
+			(xy 297.18 107.95) (xy 284.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c3d6fd-dc9f-4485-a08a-a879d6638995")
+	)
+	(wire
+		(pts
+			(xy 95.25 100.33) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ec378c-f331-47ea-94a9-aaa6a2319384")
+	)
+	(bus
+		(pts
+			(xy 92.71 210.82) (xy 92.71 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daaaf901-7aaf-4a6b-8b1e-0e5c01824b9d")
+	)
+	(wire
+		(pts
+			(xy 297.18 181.61) (xy 284.48 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db93478a-786e-40fe-892d-0fe4f7726360")
+	)
+	(wire
+		(pts
+			(xy 90.17 156.21) (xy 95.25 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc59eb24-dac6-43e3-bb54-6ec5ea0fbcb5")
+	)
+	(wire
+		(pts
+			(xy 207.01 102.87) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6ceb29-56b2-4a65-9815-44b050740670")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 140.97 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd717c7d-8e91-40a8-afac-c7cfc27ff6f0")
+	)
+	(wire
+		(pts
+			(xy 95.25 200.66) (xy 113.03 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1bc937-a1c4-47e9-85de-da8ccf058bc0")
+	)
+	(bus
+		(pts
+			(xy 92.71 168.91) (xy 92.71 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec8e4c4-366b-4f23-8a61-39db520969d6")
+	)
+	(bus
+		(pts
+			(xy 190.5 194.31) (xy 190.5 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decd7d5e-306c-40d9-b0c2-4b7a081fe9a5")
+	)
+	(wire
+		(pts
+			(xy 227.33 118.11) (xy 229.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded27b3e-b368-407a-bdda-e7dfd666d5c8")
+	)
+	(wire
+		(pts
+			(xy 284.48 181.61) (xy 283.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df10aab6-aa8e-4232-b42b-498d21e0721b")
+	)
+	(wire
+		(pts
+			(xy 165.1 179.07) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfaeca97-5edd-42b3-9672-9416d44e946a")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb43934-5a96-48d5-b03f-c8cc240a0ffc")
+	)
+	(wire
+		(pts
+			(xy 95.25 208.28) (xy 113.03 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d84b43-2c12-4dbd-9ec8-b8b885409440")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 95.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2acea09-b329-47f5-b268-9e8d08d28b63")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31db408-d924-43ce-9c85-ce5f699fa5bc")
+	)
+	(wire
+		(pts
+			(xy 245.11 144.78) (xy 261.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a6e280-ca1c-479c-8e5d-9e714e82fb97")
+	)
+	(wire
+		(pts
+			(xy 204.47 44.45) (xy 194.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e9c6dd-8a50-4b3a-9941-5114086e4f30")
+	)
+	(wire
+		(pts
+			(xy 275.59 57.15) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e756ef59-c8e4-439b-abc0-8249e2c61e5d")
+	)
+	(bus
+		(pts
+			(xy 92.71 171.45) (xy 92.71 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d695fa-0c88-40bd-baa9-c7033a8e3b91")
+	)
+	(bus
+		(pts
+			(xy 92.71 203.2) (xy 92.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e934100e-d8b1-438f-acdb-f00a207cad4d")
+	)
+	(wire
+		(pts
+			(xy 245.11 144.78) (xy 245.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e934d547-5123-434e-9716-3d9e6e3a718a")
+	)
+	(wire
+		(pts
+			(xy 110.49 156.21) (xy 110.49 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcdb2de-8fb7-4424-8c0a-dda3bd0077e6")
+	)
+	(bus
+		(pts
+			(xy 92.71 213.36) (xy 92.71 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2bd3e1-95e9-4c02-a2fa-d90c7676d197")
+	)
+	(wire
+		(pts
+			(xy 204.47 171.45) (xy 207.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd0af72-77d4-4236-ad4f-c1a44f179603")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 113.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeda581b-b1f9-4e4c-9533-49687f7303d9")
+	)
+	(wire
+		(pts
+			(xy 252.73 179.07) (xy 254 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a2fd5f-fa61-48ec-bc64-d07f28649f50")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21a5799-1eb6-44e9-a86c-e527c1e79263")
+	)
+	(wire
+		(pts
+			(xy 193.04 163.83) (xy 207.01 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2438a29-c288-43e7-9493-9a14714d829d")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3373f6d-1cf6-46ea-bc7f-51e4b7254234")
+	)
+	(wire
+		(pts
+			(xy 207.01 107.95) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f395aaba-e590-46b1-b115-ae457df2e449")
+	)
+	(wire
+		(pts
+			(xy 95.25 102.87) (xy 113.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f544dad8-cfbe-4e02-b853-4d06481d2521")
+	)
+	(wire
+		(pts
+			(xy 266.7 184.15) (xy 267.97 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a859bd-8188-4698-9e65-b78b87d1b92f")
+	)
+	(wire
+		(pts
+			(xy 254 179.07) (xy 267.97 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8179174-383d-4bf8-b37e-9dd195876d2f")
+	)
+	(wire
+		(pts
+			(xy 167.64 181.61) (xy 167.64 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa83bc07-32aa-4dce-abb4-883b0853d1da")
+	)
+	(bus
+		(pts
+			(xy 92.71 134.62) (xy 92.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabdb1ad-f01a-4671-8f82-7400116b1425")
+	)
+	(label "LMIXER3"
+		(at 193.04 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01f10bac-3246-49f4-bb1a-65594b2d194c")
+	)
+	(label "~{LVOLUME2}"
+		(at 193.04 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06b556e1-2b5d-4e86-b7cc-8d25ce50db9f")
+	)
+	(label "CH1_OUT1"
+		(at 95.25 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2131b2e9-1ed6-40bc-ab38-31ae5b225211")
+	)
+	(label "CH4_OUT3"
+		(at 95.25 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22e73716-6635-4a3d-b59d-c0dbce51a21c")
+	)
+	(label "~{LVOLUME0}"
+		(at 193.04 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2873fe68-18c9-4ad3-bfc1-b88d4d689e26")
+	)
+	(label "LMIXER2"
+		(at 193.04 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ea526b5-a370-4abe-816c-a9a3f32d0f23")
+	)
+	(label "CH2_OUT3"
+		(at 95.25 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400bbcb1-41d6-4551-bf98-1c70407342df")
+	)
+	(label "~{RVOLUME1}"
+		(at 193.04 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42711f04-baa5-4a80-808d-f8388ce3af87")
+	)
+	(label "CH1_OUT3"
+		(at 95.25 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46473894-87aa-4de5-921a-fa28b749cc35")
+	)
+	(label "LMIXER0"
+		(at 193.04 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4823a620-4e58-4f0e-a308-df23af6bb3c3")
+	)
+	(label "CH3_OUT1"
+		(at 95.25 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "566dcc2b-06ee-4fc5-abf0-53eee7a36fe3")
+	)
+	(label "~{RVOLUME2}"
+		(at 193.04 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "568d985d-c15d-40f6-ba7c-652c18f1de65")
+	)
+	(label "CH2_OUT1"
+		(at 95.25 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e80ecb8-6df8-4d47-9116-b24830b5afe2")
+	)
+	(label "~{RVOLUME0}"
+		(at 193.04 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f664d5b-b92b-4f77-b8c6-651541c38814")
+	)
+	(label "CH3_OUT3"
+		(at 95.25 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76562110-f9d4-45f9-999e-939e5e676fa7")
+	)
+	(label "CH4_OUT0"
+		(at 95.25 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78b84112-c7ed-4452-8634-11b1636b62ea")
+	)
+	(label "CH2_OUT0"
+		(at 95.25 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c28541c-1aa7-41d2-89cd-fd86b015bcb2")
+	)
+	(label "CH4_OUT2"
+		(at 95.25 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c9f089-233f-4951-bde1-3261a6c8c59b")
+	)
+	(label "CH2_OUT2"
+		(at 95.25 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9189302b-cdfa-4934-99fb-88d4f1004bea")
+	)
+	(label "RMIXER3"
+		(at 193.04 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8f4655a-547d-4dbb-a63e-edbdd14db3e9")
+	)
+	(label "RMIXER2"
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad86b9b4-2b01-446f-875c-430516861b9c")
+	)
+	(label "~{LVOLUME1}"
+		(at 193.04 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf1fa235-c55c-40ff-bc5f-0202027c123f")
+	)
+	(label "CH4_OUT1"
+		(at 95.25 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c01caef4-0259-4d63-8777-a439cb27ea37")
+	)
+	(label "CH1_OUT0"
+		(at 95.25 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79c25d9-500b-446d-a95d-482524ebfa96")
+	)
+	(label "LMIXER1"
+		(at 193.04 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7d6e3a6-2836-4d25-b5ba-bd13eabb5165")
+	)
+	(label "CH3_OUT2"
+		(at 95.25 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce286529-2870-4639-833a-08138eaff167")
+	)
+	(label "CH3_OUT0"
+		(at 95.25 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cff88885-a2b7-4bb1-9476-e083501af0b3")
+	)
+	(label "RMIXER0"
+		(at 193.04 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e94abb4f-c415-4f55-b73f-917af8d593a5")
+	)
+	(label "CH1_OUT2"
+		(at 95.25 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebb70d9a-ad56-4dbb-9959-03b959ec6975")
+	)
+	(label "RMIXER1"
+		(at 193.04 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8ff314a-7d7b-45b6-86e8-873745aeb24f")
+	)
+	(hierarchical_label "CH4_OUT[0..3]"
+		(shape input)
+		(at 90.17 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13943887-83c6-4eb8-9df2-52b11a41330e")
+	)
+	(hierarchical_label "~{CH2_AMP_EN}"
+		(shape input)
+		(at 90.17 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13f22715-a903-4445-8b60-feaad44f1ecd")
+	)
+	(hierarchical_label "LMIXER[0..3]"
+		(shape input)
+		(at 187.96 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c723651-3f88-4c77-b11a-73d556a64d08")
+	)
+	(hierarchical_label "~{CH1_AMP_EN}"
+		(shape input)
+		(at 90.17 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c07c162-4b3e-4164-b97d-8bf9b613cebb")
+	)
+	(hierarchical_label "CH1_OUT[0..3]"
+		(shape input)
+		(at 90.17 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44a845f0-b696-442c-9722-ffb84f6d3239")
+	)
+	(hierarchical_label "AMP_EN"
+		(shape input)
+		(at 64.77 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ade9b62-a4f5-4343-9d50-f2c4859a2fc1")
+	)
+	(hierarchical_label "~{CH3_AMP_EN}"
+		(shape input)
+		(at 90.17 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eb93be6-b76e-40d4-b9ed-b614c8ec4213")
+	)
+	(hierarchical_label "L_VIN_EN"
+		(shape input)
+		(at 187.96 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "847a3767-27b9-43b3-a23e-3437b6c90c7e")
+	)
+	(hierarchical_label "~{CH4_AMP_EN}"
+		(shape input)
+		(at 90.17 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a14214a0-a1cd-43ef-b340-bb91e32e7909")
+	)
+	(hierarchical_label "RMIXER[0..3]"
+		(shape input)
+		(at 187.96 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c80bb881-e1ea-4b45-88e5-4035726d4717")
+	)
+	(hierarchical_label "R_VIN_EN"
+		(shape input)
+		(at 187.96 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c868793e-c3f3-4c43-89ba-3d1a50e87930")
+	)
+	(hierarchical_label "CH3_OUT[0..3]"
+		(shape input)
+		(at 90.17 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c955741e-2742-44f9-95d3-04752562ce33")
+	)
+	(hierarchical_label "CH2_OUT[0..3]"
+		(shape input)
+		(at 90.17 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdd5f1f0-3356-48a6-b90b-696df3d2a96a")
+	)
+	(hierarchical_label "~{RVOLUME[0..2]}"
+		(shape input)
+		(at 187.96 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f77a39a8-1b0e-477e-8d47-be82902bdb9e")
+	)
+	(hierarchical_label "~{LVOLUME[0..2]}"
+		(shape input)
+		(at 187.96 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdbbbbfc-e825-4fd7-9056-9e486c098d94")
+	)
+	(symbol
+		(lib_name "AMP_1")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 275.59 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "080b6199-4160-4726-b923-e4641a5cc17e")
+		(property "Reference" "LOUT_AMP"
+			(at 277.495 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 277.495 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 275.59 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 275.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9b4a5343-41f6-4ad3-820b-795a04e5fc59")
+		)
+		(pin ""
+			(uuid "173e0ca0-b46c-4ecb-ba73-44887792aa1f")
+		)
+		(pin ""
+			(uuid "bdc4bfa5-22a4-4d43-97a0-ff24be3fa9e3")
+		)
+		(pin ""
+			(uuid "367a4b31-17a0-4b91-bc71-9de23dafc7fb")
+		)
+		(pin ""
+			(uuid "07bbead0-a429-486b-b522-c31400267dc7")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "LOUT_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PAD_PASS_TG")
+		(at 180.34 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "135e25c4-e377-4d37-afc1-eec107436ea7")
+		(property "Reference" "VIN"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAD_PASS_TG"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_pass_tg"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple pass pad with transmission gate. Used as analog input."
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7cb0145-c976-4851-af79-4fa2e9524eb8")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "VIN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_4")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 148.59 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a81d0e0-ecf6-4008-98ab-acd1f02c0e0f")
+		(property "Reference" "CH4_AMP"
+			(at 150.495 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 150.495 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 148.59 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 148.59 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7a021efb-0787-4afe-99f4-3da95d67da8a")
+		)
+		(pin ""
+			(uuid "0ee1d268-d88e-4f98-ad53-b8fd63c95187")
+		)
+		(pin ""
+			(uuid "9a215b87-30e4-427a-91bb-f47247d03001")
+		)
+		(pin ""
+			(uuid "200d142a-62dc-49f0-9940-a3763aaa2c58")
+		)
+		(pin ""
+			(uuid "3e7c0d47-46c7-4804-a006-14bc2bd148ac")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH4_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_1")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 101.6 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d51fd9-4993-478e-b2f3-f1c0afb77d93")
+		(property "Reference" "CH1_DAC"
+			(at 105.41 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 101.6 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 101.6 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbedc955-01dc-485c-90fe-aaf5b14c5df1")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a06d")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a2")
+		)
+		(pin ""
+			(uuid "8db65630-5a50-44c3-9cf3-a5bb66ce2576")
+		)
+		(pin ""
+			(uuid "9fac32c7-af19-4e85-a01d-b410ba8626f1")
+		)
+		(pin ""
+			(uuid "bf605a19-e3e1-438d-81ce-cd8671d4ef90")
+		)
+		(pin ""
+			(uuid "bbf9222e-a63f-414a-a750-549a7b5376c6")
+		)
+		(pin ""
+			(uuid "b4175286-d90c-41f1-85d2-630395ac185d")
+		)
+		(pin ""
+			(uuid "9b2f5afe-d5cb-4131-9e46-19b60d69c195")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH1_DAC")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "354e7ec8-b454-4fc6-af2c-fbdb58628b9b")
+		(property "Reference" "CH1_DAC"
+			(at 123.19 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 123.19 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 123.19 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbedc955-01dc-485c-90fe-aaf5b14c5df2")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a06e")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a3")
+		)
+		(pin ""
+			(uuid "8db65630-5a50-44c3-9cf3-a5bb66ce2577")
+		)
+		(pin ""
+			(uuid "9fac32c7-af19-4e85-a01d-b410ba8626f2")
+		)
+		(pin ""
+			(uuid "bf605a19-e3e1-438d-81ce-cd8671d4ef91")
+		)
+		(pin ""
+			(uuid "bbf9222e-a63f-414a-a750-549a7b5376c7")
+		)
+		(pin ""
+			(uuid "b4175286-d90c-41f1-85d2-630395ac185e")
+		)
+		(pin ""
+			(uuid "9b2f5afe-d5cb-4131-9e46-19b60d69c196")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH1_DAC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_6")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 123.19 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35503c96-8de4-4cec-b038-27f3715fb162")
+		(property "Reference" "CH3_DAC"
+			(at 123.19 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 123.19 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 123.19 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 123.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2f1366e4-09a0-426d-a444-d23d18bb0f4d")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a06f")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a4")
+		)
+		(pin ""
+			(uuid "fc147656-bdf6-4f7e-bef9-2e45ac8f5b73")
+		)
+		(pin ""
+			(uuid "5ee2d3b8-9b90-4ece-9d1c-259aa7523579")
+		)
+		(pin ""
+			(uuid "2d48252e-0719-4992-a6b7-1b965bea84e4")
+		)
+		(pin ""
+			(uuid "d4c8d1f5-b913-4318-81b4-794bf2a11643")
+		)
+		(pin ""
+			(uuid "7ac44d06-8345-425e-af3b-331cceeff76c")
+		)
+		(pin ""
+			(uuid "26f72a5d-42a0-4aef-8ec5-9665580cf527")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH3_DAC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_6")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 245.11 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dfe83ac-37cb-4150-8a02-d7013d5a5039")
+		(property "Reference" "LADJ_AMP"
+			(at 247.015 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 247.015 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 245.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a38b473c-d393-4ce9-9f27-15b4d1f5dc7c")
+		)
+		(pin ""
+			(uuid "9507cdca-9b91-4e87-84dc-88f93d3cdf05")
+		)
+		(pin ""
+			(uuid "7ed607ee-9493-4c2d-baa3-2ba16d519e2a")
+		)
+		(pin ""
+			(uuid "d6685374-a6b5-4bde-8c8c-811379315772")
+		)
+		(pin ""
+			(uuid "8fd70880-b688-418a-bbaa-645e0061b26f")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "LADJ_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_3")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 101.6 121.92 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1970e7-6104-4832-8aaa-a433697150b2")
+		(property "Reference" "CH2_DAC"
+			(at 105.41 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 101.6 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 101.6 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbedc955-01dc-485c-90fe-aaf5b14c5df3")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a070")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a5")
+		)
+		(pin ""
+			(uuid "8db65630-5a50-44c3-9cf3-a5bb66ce2578")
+		)
+		(pin ""
+			(uuid "9fac32c7-af19-4e85-a01d-b410ba8626f3")
+		)
+		(pin ""
+			(uuid "bf605a19-e3e1-438d-81ce-cd8671d4ef92")
+		)
+		(pin ""
+			(uuid "fb8e24ee-6977-42df-b6c1-ef4b8b74616f")
+		)
+		(pin ""
+			(uuid "f21a094e-1040-427a-a6ed-23088b217749")
+		)
+		(pin ""
+			(uuid "9b2f5afe-d5cb-4131-9e46-19b60d69c197")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH2_DAC")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_5")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 123.19 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727cbb27-1be8-479d-b241-d5a81f3b2c02")
+		(property "Reference" "CH4_DAC"
+			(at 123.19 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 123.19 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 123.19 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 123.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7b72fd04-457d-4388-a21c-861f2f83f5ca")
+		)
+		(pin ""
+			(uuid "bd67274d-f0bc-42be-abe5-91234b23d6b1")
+		)
+		(pin ""
+			(uuid "893a2640-7de0-4ebd-8760-48acd414d2d3")
+		)
+		(pin ""
+			(uuid "0b9a7805-9202-4d73-97ed-57f21e0325ce")
+		)
+		(pin ""
+			(uuid "cc4f8e0e-f8dc-4ec3-b8d2-340110984afa")
+		)
+		(pin ""
+			(uuid "b671da95-f123-4b9b-988d-cd93fd0abb13")
+		)
+		(pin ""
+			(uuid "b24a52bc-7c86-4a54-ab26-74d430615090")
+		)
+		(pin ""
+			(uuid "b78b60e7-7cd9-4ee0-8c87-dce6fca2b7a3")
+		)
+		(pin ""
+			(uuid "48fa5854-5e36-4c60-801a-c70a4fad5894")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH4_DAC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RV_1")
+		(lib_id "DMG_CPU_Cells:RV")
+		(at 217.17 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ea0e712-9c42-4b7a-ad8d-2581a6f7529c")
+		(property "Reference" "LRV"
+			(at 217.17 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RV"
+			(at 217.17 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#rv"
+			(at 217.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-bit digital rheostat."
+			(at 217.17 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "22c42dee-f6d1-4070-ae6f-fe686e6204bf")
+		)
+		(pin ""
+			(uuid "78e39b5d-3684-4fae-83f4-ed60917ec899")
+		)
+		(pin ""
+			(uuid "89872e0c-7569-4a51-814b-9aa1f0b81bd9")
+		)
+		(pin ""
+			(uuid "124f828d-f9ce-4a0e-94e8-5fe8dadb56a9")
+		)
+		(pin ""
+			(uuid "bb4cbb09-df49-4812-be97-eb582d494da8")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "LRV")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PAD_PASS")
+		(at 311.15 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b810077-dc19-413b-bf32-bb5d61578e40")
+		(property "Reference" "SO1"
+			(at 311.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAD_PASS"
+			(at 311.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_pass"
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple pass pad with direct metal connection. Used as analog output."
+			(at 311.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6061a04-3a1a-422d-bfba-21c68f713c33")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "SO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_2")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 148.59 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b9cf077-14d4-477b-a047-4ca4278b3152")
+		(property "Reference" "CH1_AMP"
+			(at 150.495 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 150.495 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0891f3ec-02ca-46ad-8d68-57f97dfbbf0e")
+		)
+		(pin ""
+			(uuid "327b0630-dcfd-452d-bef4-48563a5e2160")
+		)
+		(pin ""
+			(uuid "befcf06a-309e-4364-a9de-68f5a90d1d42")
+		)
+		(pin ""
+			(uuid "6a65606e-7490-41e8-8fc8-75b45b369481")
+		)
+		(pin ""
+			(uuid "f124e3f0-fd91-4af1-85c9-331849fef673")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH1_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 245.11 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c4f07e0-94ac-4ce6-80fb-dcbc76fc1cc9")
+		(property "Reference" "RADJ_AMP"
+			(at 247.015 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 247.015 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 245.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6260a7f8-a92e-46de-a88e-eb11405cf83c")
+		)
+		(pin ""
+			(uuid "ca3ee665-34c1-4246-9287-52b9c311d6db")
+		)
+		(pin ""
+			(uuid "920d175c-71f0-4a49-ab08-9f4b42f1ef18")
+		)
+		(pin ""
+			(uuid "28d6647e-26ea-4235-8022-ad4fa0b4c277")
+		)
+		(pin ""
+			(uuid "83e31b57-bb4a-4ee8-8ac9-5361ec323720")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "RADJ_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_2")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 123.19 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a210b340-6044-470d-b2e9-01a37af07ff0")
+		(property "Reference" "CH2_DAC"
+			(at 123.19 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 123.19 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 123.19 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c80154a5-55d2-4cc5-be26-941c0f4d92a0")
+		)
+		(pin ""
+			(uuid "bd67274d-f0bc-42be-abe5-91234b23d6b2")
+		)
+		(pin ""
+			(uuid "893a2640-7de0-4ebd-8760-48acd414d2d4")
+		)
+		(pin ""
+			(uuid "6e0c3a48-8d20-45f8-80cc-4eee45db027d")
+		)
+		(pin ""
+			(uuid "17a2696b-4e9a-48cd-affe-492b0dd6f66f")
+		)
+		(pin ""
+			(uuid "8635be73-8bd4-4836-b8fb-933ddb003a83")
+		)
+		(pin ""
+			(uuid "d6b93575-d050-4b48-ac05-fe07bfa5f09d")
+		)
+		(pin ""
+			(uuid "b4175286-d90c-41f1-85d2-630395ac185f")
+		)
+		(pin ""
+			(uuid "9b2f5afe-d5cb-4131-9e46-19b60d69c198")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH2_DAC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_3")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 148.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5226128-0b34-4c9a-8e2b-bad522d8f616")
+		(property "Reference" "CH2_AMP"
+			(at 150.495 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 150.495 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 148.59 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 148.59 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c9f2c507-19c7-40f4-b2db-0a55cb3e8373")
+		)
+		(pin ""
+			(uuid "0e4b0613-3bf0-4e6b-9697-6ac591f8d106")
+		)
+		(pin ""
+			(uuid "f4c79dbd-126b-4fbe-aabf-c5c802f3f368")
+		)
+		(pin ""
+			(uuid "3275a661-f1c0-4611-93d7-977fd5437551")
+		)
+		(pin ""
+			(uuid "216cb32b-0e66-40f3-a85e-71024d71a0fa")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH2_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:MIXER")
+		(at 217.17 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf1d459a-33da-400f-8b4c-8922d1d7ebd3")
+		(property "Reference" "RMIX"
+			(at 217.17 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIXER"
+			(at 217.17 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#mixer"
+			(at 217.17 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5-channel analog mixer."
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9789aa43-4a6b-4c10-b466-19ba7c4aab9a")
+		)
+		(pin ""
+			(uuid "8b1bf6c9-3531-4858-89da-29c4672f8438")
+		)
+		(pin ""
+			(uuid "a4783420-e1e9-4be2-962f-c0082d1017ee")
+		)
+		(pin ""
+			(uuid "ee3c810a-1c0f-4c11-81f9-fd1d0e0544bb")
+		)
+		(pin ""
+			(uuid "92d1ca35-4462-45fc-a384-9ea894e260ca")
+		)
+		(pin ""
+			(uuid "2a79226a-0935-4bdc-af74-a4411bb225f0")
+		)
+		(pin ""
+			(uuid "c434896e-311d-433c-8eaf-e2e3a9cc29e1")
+		)
+		(pin ""
+			(uuid "d750f9af-af3c-40b1-bc43-8c7be03aeac2")
+		)
+		(pin ""
+			(uuid "e75499e3-9d0c-4de2-8814-8cf5dcfa03ea")
+		)
+		(pin ""
+			(uuid "d24301b5-02e7-4dff-a4c1-fcd7e6a23230")
+		)
+		(pin ""
+			(uuid "c79d8877-aec9-43c0-a3e4-6051089bb446")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "RMIX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_5")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 275.59 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd48dcce-0e73-432a-98ad-5e26ac9bb222")
+		(property "Reference" "ROUT_AMP"
+			(at 277.495 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 277.495 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 275.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 275.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f2f08b6b-2183-4418-bd7f-0813a40c2175")
+		)
+		(pin ""
+			(uuid "4aecc1d9-08e7-41ab-b38a-29b563b0bfa4")
+		)
+		(pin ""
+			(uuid "8f270a7f-3c67-4c5d-91dc-8d9c04ff13e2")
+		)
+		(pin ""
+			(uuid "52104432-31de-4eed-9893-389e1a7139f9")
+		)
+		(pin ""
+			(uuid "cd502820-59eb-4046-97b7-53661c55494f")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "ROUT_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_4")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 101.6 190.5 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8bf162c-d94d-426b-b573-768d7de5a787")
+		(property "Reference" "CH4_DAC"
+			(at 105.41 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 101.6 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 101.6 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 101.6 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbedc955-01dc-485c-90fe-aaf5b14c5df4")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a071")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a6")
+		)
+		(pin ""
+			(uuid "8db65630-5a50-44c3-9cf3-a5bb66ce2579")
+		)
+		(pin ""
+			(uuid "9fac32c7-af19-4e85-a01d-b410ba8626f4")
+		)
+		(pin ""
+			(uuid "bf605a19-e3e1-438d-81ce-cd8671d4ef93")
+		)
+		(pin ""
+			(uuid "fb8e24ee-6977-42df-b6c1-ef4b8b746170")
+		)
+		(pin ""
+			(uuid "3a83d581-f5d2-4f96-a419-c49cb30c1d30")
+		)
+		(pin ""
+			(uuid "a97563f7-a608-4327-bc79-e465c446906f")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH4_DAC")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DAC_7")
+		(lib_id "DMG_CPU_Cells:DAC")
+		(at 101.6 156.21 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e351c8e0-b55d-4a27-a42a-d53b3e5d5a6a")
+		(property "Reference" "CH3_DAC"
+			(at 105.41 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC"
+			(at 101.6 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#dac"
+			(at 101.6 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit digital to analog converter."
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbedc955-01dc-485c-90fe-aaf5b14c5df5")
+		)
+		(pin ""
+			(uuid "b53a4fe2-4cb6-42dc-8707-eaefe7c5a072")
+		)
+		(pin ""
+			(uuid "61cd4daf-1913-4289-b172-49891aba55a7")
+		)
+		(pin ""
+			(uuid "8c127b2d-efd3-43f9-8fe7-3c07e9037ed7")
+		)
+		(pin ""
+			(uuid "c2a314dc-086b-463c-a832-84cb1820b0d1")
+		)
+		(pin ""
+			(uuid "bf605a19-e3e1-438d-81ce-cd8671d4ef94")
+		)
+		(pin ""
+			(uuid "bbf9222e-a63f-414a-a750-549a7b5376c8")
+		)
+		(pin ""
+			(uuid "b4175286-d90c-41f1-85d2-630395ac1860")
+		)
+		(pin ""
+			(uuid "9b2f5afe-d5cb-4131-9e46-19b60d69c199")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH3_DAC")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MIXER_1")
+		(lib_id "DMG_CPU_Cells:MIXER")
+		(at 217.17 168.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e39ebeda-b4ee-47e9-89ee-a34f3ba1d760")
+		(property "Reference" "LMIX"
+			(at 217.17 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIXER"
+			(at 217.17 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#mixer"
+			(at 217.17 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5-channel analog mixer."
+			(at 217.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1200da5e-1524-4c3f-b643-7c6482f7365a")
+		)
+		(pin ""
+			(uuid "1c4615c7-e2bc-4e29-adcf-4846939f776d")
+		)
+		(pin ""
+			(uuid "316bde86-5441-44cd-916b-d56f13333aad")
+		)
+		(pin ""
+			(uuid "1ea63421-9892-418a-9437-f9e71e33f588")
+		)
+		(pin ""
+			(uuid "c979636a-88e9-460d-91ac-299f7cb8734c")
+		)
+		(pin ""
+			(uuid "13d51b27-31cd-4015-a4e6-d4622c0e7346")
+		)
+		(pin ""
+			(uuid "b4c94858-38f8-4363-bd6f-0f350d40ae14")
+		)
+		(pin ""
+			(uuid "43363f58-9588-499d-bac4-7a50d3358818")
+		)
+		(pin ""
+			(uuid "a696583f-fc49-450a-9e44-e9a9fa5f0f05")
+		)
+		(pin ""
+			(uuid "20c32d41-3932-4d00-a669-a3f719566428")
+		)
+		(pin ""
+			(uuid "376711da-cd81-4105-8582-0645fd22fd49")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "LMIX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AMP_7")
+		(lib_id "DMG_CPU_Cells:AMP")
+		(at 148.59 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f111db26-2dfb-4bb8-8ea7-e6604df7f52f")
+		(property "Reference" "CH3_AMP"
+			(at 150.495 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMP"
+			(at 150.495 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#amp"
+			(at 148.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio amplifier."
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "06d49739-d357-4818-9f86-2bae01ff922e")
+		)
+		(pin ""
+			(uuid "0b0d707f-c1cf-4cf0-9a10-c182928b9f19")
+		)
+		(pin ""
+			(uuid "c36865f7-7957-479e-8427-a034c3de4a69")
+		)
+		(pin ""
+			(uuid "e7b88973-865e-4483-bc35-fa793d7052d5")
+		)
+		(pin ""
+			(uuid "e556835b-ba42-4ac5-9d80-a9d381edb0fa")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "CH3_AMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:PAD_PASS")
+		(at 311.15 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f71e0660-9c2e-43f9-a117-b982627e0891")
+		(property "Reference" "SO2"
+			(at 311.15 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAD_PASS"
+			(at 311.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#pad_pass"
+			(at 311.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple pass pad with direct metal connection. Used as analog output."
+			(at 311.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51c12a9f-e306-4d8a-b997-6c5e0f4e7b9a")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "SO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:RV")
+		(at 217.17 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbda5434-3a30-4ad2-8b0f-07382aaed84c")
+		(property "Reference" "RRV"
+			(at 217.17 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RV"
+			(at 217.17 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#rv"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-bit digital rheostat."
+			(at 217.17 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "34f2f71b-6620-4d06-82e2-de23155ffa4b")
+		)
+		(pin ""
+			(uuid "30902d74-8e17-4ca2-99df-93d655cb656a")
+		)
+		(pin ""
+			(uuid "099284ff-9e39-4fb7-925a-cbeb0db7678f")
+		)
+		(pin ""
+			(uuid "7ec46735-8604-4dcf-a309-03f317a9df6c")
+		)
+		(pin ""
+			(uuid "ee0c0a48-1825-44ec-b181-08b59f3284d4")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "RRV")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:VDIV")
+		(at 105.41 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff1542e8-4f3a-45a7-87dc-6d53ae5b705f")
+		(property "Reference" "VDIV"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDIV"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://iceboy.a-singer.de/doc/dmg_cells.html#vdiv"
+			(at 105.41 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage divider."
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b00d21bd-de17-4892-abda-98db1439e0a2")
+		)
+		(pin ""
+			(uuid "d781436b-8716-4955-ab13-30c8a31ab086")
+		)
+		(instances
+			(project "dmg_cpu_b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5509746-eb38-4041-8c7c-eec7c41cb666/36d7692d-ee8c-4cbf-8155-6402640e9f35"
+					(reference "VDIV")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
