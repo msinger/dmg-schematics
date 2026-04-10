@@ -23994,6 +23994,18 @@
 		(uuid be17d5fd-b4df-41a8-8001-d8b4f0139ac3)
 	)
 	(rectangle
+		(start 1045.21 337.82)
+		(end 1093.47 388.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d57c6a56-14a2-416a-9e30-a06b8e1f9c7d)
+	)
+	(rectangle
 		(start 1238.25 490.22)
 		(end 1259.84 515.62)
 		(stroke
@@ -25046,6 +25058,16 @@
 		)
 		(uuid "aa2377da-4040-4c06-9f2a-d7864345482c")
 	)
+	(text "20x"
+		(exclude_from_sim no)
+		(at 1064.26 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac575449-f5da-4b3e-8f83-02758637d859")
+	)
 	(text "HALF_ADD"
 		(exclude_from_sim no)
 		(at 793.75 181.61 0)
@@ -25144,6 +25166,16 @@
 			(justify right bottom)
 		)
 		(uuid "c15022a4-251d-46b9-b803-be1c32f992f0")
+	)
+	(text "Grounded-Gate NMOS ESD protection"
+		(exclude_from_sim no)
+		(at 1068.07 341.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c30060c8-52ac-4537-b1e2-e15b2f89c0ae")
 	)
 	(text "SRAM Word Line Driver"
 		(exclude_from_sim no)
@@ -27772,6 +27804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e0af436-cd97-4daa-b45a-fd5f54a89761")
+	)
+	(junction
+		(at 1071.88 370.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e465917-151d-4e5b-ac63-57e9a091f0e8")
 	)
 	(junction
 		(at 1099.82 190.5)
@@ -45231,6 +45269,16 @@
 	)
 	(wire
 		(pts
+			(xy 1071.88 370.84) (xy 1071.88 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc4a3fa-d577-439c-b493-49bc06d64a9b")
+	)
+	(wire
+		(pts
 			(xy 1148.08 763.27) (xy 1148.08 769.62)
 		)
 		(stroke
@@ -55771,6 +55819,16 @@
 	)
 	(wire
 		(pts
+			(xy 1064.26 364.49) (xy 1062.99 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57abb82a-8765-4c7d-8c35-63fd034cd40c")
+	)
+	(wire
+		(pts
 			(xy 515.62 320.04) (xy 515.62 261.62)
 		)
 		(stroke
@@ -61418,6 +61476,16 @@
 			(type default)
 		)
 		(uuid "6dfea968-c016-40c4-b4f9-834ac51d66d3")
+	)
+	(wire
+		(pts
+			(xy 1062.99 370.84) (xy 1071.88 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e05f2cc-8ffa-4912-8ba6-c6787ef57335")
 	)
 	(wire
 		(pts
@@ -84581,6 +84649,16 @@
 	)
 	(wire
 		(pts
+			(xy 1071.88 358.14) (xy 1071.88 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3205f8-0f81-41bc-ba8a-e56e90097cd8")
+	)
+	(wire
+		(pts
 			(xy 223.52 533.4) (xy 214.63 533.4)
 		)
 		(stroke
@@ -94951,6 +95029,16 @@
 	)
 	(wire
 		(pts
+			(xy 1071.88 369.57) (xy 1071.88 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30634ef-a315-4d28-962d-36096786714d")
+	)
+	(wire
+		(pts
 			(xy 99.695 761.365) (xy 99.695 767.715)
 		)
 		(stroke
@@ -97588,6 +97676,16 @@
 			(type default)
 		)
 		(uuid "fd21f8e1-5c83-4e96-b3dd-3315a1c8fe55")
+	)
+	(wire
+		(pts
+			(xy 1062.99 364.49) (xy 1062.99 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3b1477-e3fd-4a87-b01e-d26d804ef28c")
 	)
 	(wire
 		(pts
@@ -120490,6 +120588,79 @@
 			(project "dmg_cells"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG_CPU_Cells:NMOS")
+		(at 1069.34 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b173dc5-cf7d-4558-8ae5-6a3763827a10")
+		(property "Reference" "N1"
+			(at 1073.785 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 1073.785 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1069.975 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1069.975 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1069.34 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9a79ab-0e31-43ab-8100-0d30678b598a")
+		)
+		(pin "2"
+			(uuid "4b4ac9d4-42b3-48f1-9557-aa664ef1949d")
+		)
+		(pin "3"
+			(uuid "6a8fabd1-8725-4c24-93ae-e0c1bb7298ba")
+		)
+		(instances
+			(project "dmg_cells"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -203621,6 +203792,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 1071.88 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14ca35a-f7d8-4b3f-849c-a54ab7ce96d5")
+		(property "Reference" "#PWR0250"
+			(at 1071.88 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1071.88 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1071.88 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1071.88 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1071.88 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674ddca6-fea8-4043-90d3-4978332f27b6")
+		)
+		(instances
+			(project "dmg_cells"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DMG_CPU_Cells:OR3")
 		(at 628.65 224.79 0)
 		(unit 1)
@@ -222983,6 +223219,71 @@
 			(project "dmg_cells"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 1071.88 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3970201-7853-40a2-9ee2-f5fce3b7fcef")
+		(property "Reference" "#PWR0251"
+			(at 1071.88 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 1071.88 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1071.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1071.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1071.88 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1175498-9e21-4593-b6e1-c0c22952bc60")
+		)
+		(instances
+			(project "dmg_cells"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)

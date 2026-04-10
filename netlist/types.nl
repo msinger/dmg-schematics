@@ -415,6 +415,8 @@ type tie:magenta gnd:out0 vdd:out1     @-57.12,25.62,-56.79,27.68
                                     vdd@-57.05,25.62,-57.05,27.68
                                     "Constant supply.";
 
+type ggnmos @-246.42,8.69,-239.13,15.97 "Grounded-Gate NMOS for ESD protection.";
+
 type sm83 d[0]:inout d[1]:inout d[2]:inout d[3]:inout d[4]:inout d[5]:inout d[6]:inout d[7]:inout
           a[0]:inout a[1]:inout a[2]:inout a[3]:inout a[4]:inout a[5]:inout a[6]:inout a[7]:inout
           a[8]:inout a[9]:inout a[10]:inout a[11]:inout a[12]:inout a[13]:inout a[14]:inout a[15]:inout

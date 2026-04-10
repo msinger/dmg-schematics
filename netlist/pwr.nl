@@ -3,6 +3,11 @@
 
 cell supply:tie virtual "Some cell inputs are directly connected to GND/VDD. For those we use this 'virtual' cell to connect them to.";
 
+cell ggnmos_sw:ggnmos rot0   @-246.42,8.69,-239.13,15.97    trivial;
+cell ggnmos_nw:ggnmos rot90  @-39.33,8.73,-32.08,16.08      trivial;
+cell ggnmos_ne:ggnmos rot180 @-39.66,240.73,-32.36,248.06   trivial;
+cell ggnmos_se:ggnmos rot270 @-246.61,240.66,-239.36,247.95 trivial;
+
 wire vdd:pwr
 	supply.vdd
 	-> keny.~clk kuty.~clk kupy.~clk araf.in azup.in
