@@ -559,7 +559,7 @@ type:-codegen amp in_p in_m bias ena ~ena out:tri
 	ena @-131.70,170.45
 	~ena@-130.20,170.45
 	out @-131.80,165.15
-	"Audio amplifier.";
+	"CMOS differential amplifier with push-pull output.";
 
 type:-codegen amp_split_main in_p in_m bias ena ~ena ~out_p:tri out_n:tri
 	      @-226.66,169.30,-223.26,174.50
@@ -570,14 +570,14 @@ type:-codegen amp_split_main in_p in_m bias ena ~ena ~out_p:tri out_n:tri
 	~ena  @-225.08,174.50
 	~out_p@-225.69,169.30
 	out_n @-224.42,169.30
-	"Audio amplifier without output transistors.";
+	"CMOS differential amplifier without output transistors.";
 
 type:-codegen amp_split_output ~p n out:tri
 	   @-227.25,138.98,-215.59,151.49
 	~p @-219.52,151.49
 	n  @-227.25,149.57
 	out@-227.25,140.90
-	"Output transistors for audio amplifier.";
+	"Output transistors for CMOS differential amplifier.";
 
 type:-codegen dac d[0] d[1] d[2] d[3] ena out:out vref:out not_in not_y:out
 	      @-140.09,170.70,-127.70,174.84
