@@ -1796,7 +1796,8 @@ wire ctl_fetch:dec
 	@-140.91,37.90,-140.91,36.64,-239.87,36.77
 	"Instruction fetch is in progress.\n"
 	"This signal is named M1 on similar CPUs like the Z80.\n"
-	"Also acts as write enable signal for the instruction register (IR).";
+	"Also acts as write enable signal for the instruction register (IR)."
+	attrib "L_extra=-22.5"; # reg_ir_not_we.in
 alias wire ctl_ir_we m1 -> ctl_fetch;
 
 wire ctl_op_ld_nn_sp_exec:dec

@@ -177,7 +177,8 @@ wire avor:rst
 wire cpu_sys_reset:rst
 	afer.q -> cpu.sys_reset avor.in1
 	@-54.48,101.66,-54.42,65.09,-46.55,65.09,-46.66,158.95,-56.17,158.95
-	@-55.35,158.95,-55.35,156.05,-56.16,156.05;
+	@-55.35,158.95,-55.35,156.05,-56.16,156.05
+	attrib "L_extra=-970"; # subtract overlap with SM83 netlist
 
 # afer.~q is not connected
 # asol.q is not connected
