@@ -9,7 +9,7 @@ cell ween:nand2_in1_n_b rot0 @-44.66,220.84,-41.13,225.16 ->seq;
 cell wudz:nand2_in1_n_c rot0 @-47.03,221.06,-44.06,225.13 ->seq;
 cell wagr:nor2_d        rot0 @-53.06,220.88,-49.72,225.19 ->seq;
 cell wafr:nor2_e        rot0 @-54.88,221.06,-52.66,225.19 ->dbus-rd;
-cell wdin:oa21          rot0 @-59.16,220.59,-54.13,225.19 ->dbus-rd;
+cell wdin:oa21          rot0 @-59.16,220.59,-54.13,225.19 ->dbus-rd attrib "sv:L_y_in_sm83=sm83_param::L_rd";
 alias cell wyrp -> wdin;
 
 cell xygb:nor3         rot0        @-20.34,224.50,-17.50,229.69 ->seq-irq;

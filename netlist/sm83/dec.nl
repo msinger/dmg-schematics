@@ -83,7 +83,7 @@ cell dec2_buf1:buf_dec2         rot0      @-62.25,108.88,-57.63,111.38          
 cell dec2_buf2:buf_dec2         rot0,flip @-62.28,110.72,-57.66,113.25                  ->dec2;
 cell dec2_not3:not_x1_dec2      rot0      @-61.31,114.66,-57.91,116.34                  ->dec2;
 cell dec2_not4:not_x1_dec2      rot0,flip @-61.31,115.66,-57.88,117.34                  ->dec2;
-cell dec2_not5:not_x1_dec2      rot0      @-61.31,117.81,-57.94,119.38                  ->dec2;
+cell dec2_not5:not_x1_dec2      rot0      @-61.31,117.81,-57.94,119.38                  ->dec2 attrib "sv:L_y_in_sm83=sm83_param::L_wr";
 cell dec2_not6:not_x2_dec2      rot0      @-61.31,119.44,-57.25,122.00 spare            ->dec2;
 cell dec2_pch1:pch_dec2_a       rot0      @-61.31,123.73,-59.66,124.61                  ->dec2;
 cell dec2_buf3:buf_dec2         rot0      @-62.28,125.84,-57.69,128.28                  ->dec2;
@@ -106,7 +106,7 @@ cell dec2_not16:not_x1_dec2     rot0      @-61.19,160.00,-57.78,161.72          
 cell dec2_not17:not_x1_p2_dec2  rot0      @-61.22,161.09,-57.84,163.47                  ->dec2;
 cell dec2_not18:not_x1_p2_dec2  rot0      @-61.19,163.63,-57.81,165.97                  ->dec2;
 cell dec2_not19:not_x1_dec2     rot0      @-61.22,166.59,-57.84,168.34                  ->dec2;
-cell dec2_not20:not_x1_dec2     rot0      @-61.19,168.78,-57.88,170.56                  ->dec2;
+cell dec2_not20:not_x1_dec2     rot0      @-61.19,168.78,-57.88,170.56                  ->dec2 attrib "sv:L_y_in_sm83=sm83_param::L_m1";
 cell dec2_pch4:pch_dec2_b       rot0      @-61.33,171.78,-59.61,172.69                  ->dec2;
 cell dec2_not21:not_x1_pch_dec2 rot0      @-61.41,174.41,-57.88,177.03                  ->dec2;
 cell dec2_not22:not_x1_dec2     rot0      @-61.22,176.97,-57.81,178.72                  ->dec2;

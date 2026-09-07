@@ -276,14 +276,14 @@ cell idu_mux_h[4]:mux_idu_h  rot0 @-202.78,190.25,-196.69,194.84                
 cell idu_mux_h[5]:mux_idu_h  rot0 @-214.97,190.22,-208.88,194.81                  ->idu;
 cell idu_mux_h[6]:mux_idu_h  rot0 @-227.25,190.25,-221.16,194.81                  ->idu;
 cell idu_mux_h[7]:mux_idu_h  rot0 @-239.50,190.25,-233.38,194.81 spare            ->idu;
-cell idu[0]:idu_bit0         rot0 @-154.81,192.72,-140.44,202.13                  ->idu;
-cell idu[1]:idu_bit123456    rot0 @-166.72,194.28,-154.91,201.91                  ->idu;
-cell idu[2]:idu_bit123456    rot0 @-178.69,194.28,-166.78,201.91                  ->idu;
-cell idu[3]:idu_bit123456    rot0 @-190.56,194.25,-178.69,201.94                  ->idu;
-cell idu[4]:idu_bit123456    rot0 @-202.78,194.19,-190.94,201.94                  ->idu;
-cell idu[5]:idu_bit123456    rot0 @-215.00,194.28,-203.13,201.94                  ->idu;
-cell idu[6]:idu_bit123456    rot0 @-227.28,194.25,-215.38,201.91                  ->idu;
-cell idu[7]:idu_bit7         rot0 @-239.59,194.22,-227.63,201.91                  ->idu;
+cell idu[0]:idu_bit0         rot0 @-154.81,192.72,-140.44,202.13                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a0" "sv:L_buf_b_y_in_sm83=sm83_param::L_a8";
+cell idu[1]:idu_bit123456    rot0 @-166.72,194.28,-154.91,201.91                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a1" "sv:L_buf_b_y_in_sm83=sm83_param::L_a9";
+cell idu[2]:idu_bit123456    rot0 @-178.69,194.28,-166.78,201.91                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a2" "sv:L_buf_b_y_in_sm83=sm83_param::L_a10";
+cell idu[3]:idu_bit123456    rot0 @-190.56,194.25,-178.69,201.94                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a3" "sv:L_buf_b_y_in_sm83=sm83_param::L_a11";
+cell idu[4]:idu_bit123456    rot0 @-202.78,194.19,-190.94,201.94                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a4" "sv:L_buf_b_y_in_sm83=sm83_param::L_a12";
+cell idu[5]:idu_bit123456    rot0 @-215.00,194.28,-203.13,201.94                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a5" "sv:L_buf_b_y_in_sm83=sm83_param::L_a13";
+cell idu[6]:idu_bit123456    rot0 @-227.28,194.25,-215.38,201.91                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a6" "sv:L_buf_b_y_in_sm83=sm83_param::L_a14";
+cell idu[7]:idu_bit7         rot0 @-239.59,194.22,-227.63,201.91                  ->idu attrib "sv:L_buf_a_y_in_sm83=sm83_param::L_a7" "sv:L_buf_b_y_in_sm83=sm83_param::L_a15";
 
 # Interrupt Enable Register
 cell reg_ie_not_we:not_reg_ie_we           rot0,flip @-143.28,202.97,-140.53,210.84 ->irq-ie;
